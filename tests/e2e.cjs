@@ -542,6 +542,54 @@ const mock = async (p) => {
     const inst = await cdp.send('Page.getInstallabilityErrors');
     ok(inst.installabilityErrors.length === 0, 'התקנה מ-Chrome: ' + (JSON.stringify(inst.installabilityErrors) || 'אין שגיאות'));
 
+    // שפה עיצובית אחידה: בורר בלי מסגרת, הנבחר בשחור ומודגש, האחרים באפור
+    await p.goto(BASE + '#/compare', { waitUntil: 'networkidle' });
+    const chipStyle = await p.locator('.domain-picker .chip-dom').first().evaluate((e) => { const c = getComputedStyle(e); return { b: c.borderTopWidth, bg: c.backgroundColor }; });
+    ok(chipStyle.b === '0px' && (chipStyle.bg === 'rgba(0, 0, 0, 0)' || chipStyle.bg === 'transparent'), 'בורר בלי מסגרת מרובעת');
+    // השוואה: אותו היגיון בחירה כמו במפה
+    await p.locator('.domain-picker .chip-dom', { hasText: 'מוזיקה' }).click();
+    await p.waitForTimeout(250);
+    ok(p.url().includes('d=music') && (await p.locator('.domain-picker .chip-dom[aria-pressed="true"]').count()) === 1, 'השוואה: לחיצה ראשונה בוחרת רק את התחום');
+    const pressedW = await p.locator('.domain-picker .chip-dom[aria-pressed="true"]').evaluate((e) => +getComputedStyle(e).fontWeight);
+    const otherC = await p.locator('.domain-picker .chip-dom[aria-pressed="false"]').first().evaluate((e) => getComputedStyle(e).color);
+    ok(pressedW >= 700 && otherC !== 'rgb(23, 25, 28)', 'הנבחר מודגש, האחרים באפור');
+    await p.locator('.domain-picker .chip-all').click();
+    await p.waitForTimeout(250);
+    ok(!p.url().includes('d=') && (await p.locator('.domain-picker .chip-dom[aria-pressed="true"]').count()) === 0, 'השוואה: "כל התחומים" מאפס');
+    // מפה: מצבי תצוגה כבויים עד שבוחרים, ולכל אחד הסבר
+    await p.goto(BASE + '#/map', { waitUntil: 'networkidle' });
+    ok((await p.locator('.map-modes .chip[aria-pressed="true"]').count()) === 0 && (await p.locator('.mode-help').innerText()).includes('מסלולי ידע'), 'מפה: שום מצב לא דלוק בלי בחירה, ולכל מצב הסבר');
+    // גבול הידע: תקופה לבחינה, עם איפוס
+    await p.goto(BASE + '#/timeline?d=physics&y=2025', { waitUntil: 'networkidle' });
+    await p.getByLabel('תקופה לבחינה: משנה').fill('1600');
+    await p.getByLabel('תקופה לבחינה: עד שנה').fill('1700');
+    await p.getByLabel('תקופה לבחינה: עד שנה').press('Enter');
+    await p.waitForTimeout(300);
+    const inWin = DISC.filter((d) => d.domainId === 'physics' && d.yearTo >= 1600 && d.yearFrom <= 1700).length;
+    ok(p.url().includes('f=1600') && p.url().includes('t=1700') && (await p.locator('.tl-card').count()) === inWin, `תקופה לבחינה: ${inWin} גילויים בין 1600 ל-1700`);
+    ok(await p.locator('.ys-marks span').count() >= 2 && (await p.locator('.ys-now').innerText()).length > 0, 'סרגל השנה מראה שנים רצות ואת השנה הנוכחית');
+    await p.locator('.period-x').click();
+    await p.waitForTimeout(300);
+    ok(!p.url().includes('f=') && !p.url().includes('t=1700'), 'האיקס מחזיר לכל הטווח');
+    // ציטוט עם מירכאות, גם בתרגום
+    await p.goto(BASE + '#/timeline?d=physics&y=2025&p=p-newton', { waitUntil: 'networkidle' });
+    ok((await p.locator('aside.person .quote-he').first().innerText()).trim().startsWith('"'), 'ציטוט מתורגם במירכאות');
+    // גלילה לשינוי: לחיצה ברשימת תתי התחומים מחזירה את הציר למסך
+    await p.keyboard.press('Escape');
+    await p.locator('.subs-grid .sub-person').first().scrollIntoViewIfNeeded();
+    await p.locator('.subs-grid .sub-person').nth(1).click();
+    await p.waitForTimeout(900);
+    ok(await p.locator('.tl-card-wrap').evaluate((e) => { const r = e.getBoundingClientRect(); return r.top < innerHeight && r.bottom > 0; }), 'לחיצה מתחת לציר גוללת אל הציר, כדי שהשינוי ייראה');
+    // גרף: תצוגה בלי שם מקבלת שם מהמסננים
+    await p.goto(BASE + '#/graph?d=physics', { waitUntil: 'networkidle' });
+    await p.locator('.save-row').getByRole('button', { name: 'שמירת התצוגה' }).click();
+    await p.waitForTimeout(200);
+    ok((await p.locator('.saved-list .saved-item').first().innerText()).includes('פיזיקה'), 'תצוגה שנשמרה בלי שם מקבלת שם מהמסננים');
+    // גלובוס חום ליד ערי הידע
+    await p.goto(BASE, { waitUntil: 'networkidle' });
+    await p.locator('.heat-globe canvas').waitFor({ timeout: 5000 });
+    ok((await p.locator('.hg-cap').innerText()).includes('ערים עד'), 'גלובוס חום ליד ערי הידע, עם סרגל זמן');
+
     for (const vp of [{ width: 390, height: 844 }, { width: 1280, height: 900 }]) {
       const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
       await mock(m);

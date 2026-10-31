@@ -1,7 +1,10 @@
 // שלב 4: גרף קשרים ותצוגות חיתוך.
 // דמויות הן צמתים מרובעים עם דיוקן. המיקום האופקי קבוע לפי הזמן (מימין לשמאל), והאנכי נקבע בכוחות (d3-force).
+import { useRevealOnChange } from '../ui/reveal';
 import { useMatches } from '../search';
 import DomainIcon from '../icons';
+import DomainPicker from '../ui/DomainPicker';
+import PeriodPicker from '../ui/PeriodPicker';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { forceCollide, forceLink, forceSimulation, forceX, forceY, type SimulationNodeDatum } from 'd3-force';
 import { select } from 'd3-selection';
@@ -25,6 +28,7 @@ const writeSaved = (v: Saved[]) => { try { localStorage.setItem(KEY, JSON.string
 
 export default function GraphPage({ params }: { params: Record<string, string> }) {
   const kw = useMatches();
+  useRevealOnChange('.graph-wrap', [params.n, params.l, params.d, params.f, params.t, params.c, params.k, params.x, params.h]);
   const domains = new Set((params.d || activeDomains.map((d) => d.id).join(',')).split(',').filter(Boolean));
   const from = params.f ? Number(params.f) : YEAR_MIN;
   const to = params.t ? Number(params.t) : YEAR_MAX;
@@ -72,7 +76,8 @@ export default function GraphPage({ params }: { params: Record<string, string> }
       .force('collide', forceCollide<SimNode>((d) => d.r + (mobile ? 10 : 16)).strength(0.9))
       .stop();
     for (let i = 0; i < 260; i++) s.tick();
-    sim.forEach((d) => { d.y = Math.min(H - d.r - 22, Math.max(d.r + 8, d.y!)); });
+    // פס תחתון שמור לשנתות, כדי ששם של דמות לא יעלה על שנה
+    sim.forEach((d) => { d.y = Math.min(H - d.r - 44, Math.max(d.r + 8, d.y!)); });
     return new Map(sim.map((d) => [d.id, d]));
   }, [nodes, edges, W, H, PAD, mobile, from, to]);
 
@@ -130,10 +135,18 @@ export default function GraphPage({ params }: { params: Record<string, string> }
   const [saved, setSaved] = useState<Saved[]>(readSaved);
   const [name, setName] = useState('');
   const [status, setStatus] = useState('');
+  // שם ברירת מחדל לתצוגה שנשמרה בלי שם: נגזר מהמסננים (תחומים, תקופה, עיר, דמות במוקד)
+  const autoName = () => {
+    const parts = [params.d ? params.d.split(',').map((id) => activeDomains.find((d) => d.id === id)?.nameHe).filter(Boolean).join(', ') : 'כל התחומים'];
+    if (params.f || params.t) parts.push(`${yearText(from)} עד ${yearText(to)}`);
+    if (params.c) parts.push(params.c);
+    if (params.n) parts.push(personById.get(params.n)?.nameHe || '');
+    return parts.filter(Boolean).join(' · ');
+  };
   const save = () => {
     const clean = Object.fromEntries(Object.entries(params).filter(([k]) => !['p', 'l'].includes(k)));
     const hash = href('graph', clean);
-    const next = [{ name: name.trim() || `תצוגה ${saved.length + 1}`, hash, savedAt: new Date().toISOString().slice(0, 10) }, ...saved.filter((s) => s.hash !== hash)].slice(0, 12);
+    const next = [{ name: name.trim() || autoName(), hash, savedAt: new Date().toISOString().slice(0, 10) }, ...saved.filter((s) => s.hash !== hash)].slice(0, 12);
     setSaved(next);
     setStatus(writeSaved(next) ? 'נשמר' : 'לא נשמר: הדפדפן חוסם אחסון מקומי');
     setName('');
@@ -146,9 +159,12 @@ export default function GraphPage({ params }: { params: Record<string, string> }
     return `M${a.x},${a.y} Q${mx},${my} ${b.x},${b.y}`;
   };
   const dim = (id: string) => !!neighbors && !neighbors.has(id);
-  const ticks = [-2500, -1500, -500, 1, 500, 1000, 1500, 1600, 1700, 1800, 1850, 1900, 1950].filter((y) => y >= from && y <= to);
+  const ticksRaw = [-2500, -1500, -500, 1, 500, 1000, 1500, 1600, 1700, 1800, 1850, 1900, 1950, 2000].filter((y) => y >= from && y <= to);
   const a0 = posScale(Math.max(from, YEAR_MIN)), b0 = posScale(Math.min(to, YEAR_MAX));
   const tx = (y: number) => W - PAD - ((posScale(y) - a0) / Math.max(0.0001, b0 - a0)) * (W - 2 * PAD);
+  // שנתות קרובות מדי עולות זו על זו: שומרים רק שנתה במרחק 44 פיקסל מהקודמת
+  const ticks: number[] = [];
+  for (const y of ticksRaw) if (!ticks.length || Math.abs(tx(y) - tx(ticks[ticks.length - 1])) >= 44) ticks.push(y);
 
   return (
     <main className="page page-wide">
@@ -172,30 +188,11 @@ export default function GraphPage({ params }: { params: Record<string, string> }
       <div className="graph-controls card glass">
         <div className="gc-row">
           <span className="label">תחום</span>
-          <div className="seg">
-            <button type="button" className="press chip chip-all" aria-pressed={!params.d} onClick={() => set({ d: undefined })}>כל התחומים</button>
-            {activeDomains.map((d) => {
-              const on = domains.has(d.id);
-              // כמו במפה: לחיצה ראשונה כשהכול בחור בוחרת רק את התחום הזה, ואחר כך מוסיפים או מורידים
-              const allOn = !params.d;
-              return <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={!allOn && on}
-                onClick={() => { const next = allOn ? new Set([d.id]) : new Set(domains); if (!allOn) { if (on) next.delete(d.id); else next.add(d.id); } set({ d: next.size === 0 || next.size === activeDomains.length ? undefined : activeDomains.map((a) => a.id).filter((a) => next.has(a)).join(',') }); }}><DomainIcon id={d.id} />{d.nameHe}</button>;
-            })}
-          </div>
+          <DomainPicker counts={false} selected={params.d ? [...domains] : null} onChange={(next) => set({ d: next ? next.join(',') : undefined })} />
         </div>
         <div className="gc-row">
           <span className="label">תקופה</span>
-          <div className="range2">
-            <label><span className="label">מ</span>
-              <input type="range" dir="rtl" min={0} max={1000} value={Math.round(posScale(from) * 1000)} aria-label="תחילת התקופה" aria-valuetext={yearText(from)}
-                onChange={(e) => { const y = Math.round(posScale.invert(Number(e.target.value) / 1000)); set({ f: y <= YEAR_MIN ? undefined : String(Math.min(y, to - 10)) }); }} />
-            </label>
-            <label><span className="label">עד</span>
-              <input type="range" dir="rtl" min={0} max={1000} value={Math.round(posScale(to) * 1000)} aria-label="סוף התקופה" aria-valuetext={yearText(to)}
-                onChange={(e) => { const y = Math.round(posScale.invert(Number(e.target.value) / 1000)); set({ t: y >= YEAR_MAX ? undefined : String(Math.max(y, from + 10)) }); }} />
-            </label>
-            <span className="range-read"><Rich>{`${yearText(from)} עד ${yearText(to)}`}</Rich></span>
-          </div>
+          <PeriodPicker label="תקופה" from={from} to={to} onChange={(f, t) => set({ f: f === undefined ? undefined : String(f), t: t === undefined ? undefined : String(t) })} />
         </div>
         <div className="gc-row">
           <span className="label">עיר</span>
@@ -242,8 +239,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
                 {ticks.map((y) => (
                   <g key={y} className="g-tick">
                     <line x1={tx(y)} x2={tx(y)} y1={14} y2={H - 6} />
-                    <text x={tx(y)} y={H - 8} textAnchor="middle">{y < 0 ? -y : y}</text>
-                    {y < 0 && <text className="g-tick-sub" x={tx(y)} y={H - 22} textAnchor="middle">לפנה״ס</text>}
+                    <text x={tx(y)} y={H - 8} textAnchor="middle">{y < 0 ? `${-y} לפנה״ס` : y}</text>
                   </g>
                 ))}
                 {edges.map((e) => {
@@ -322,7 +318,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
         <section>
           <h2 className="section-title">התצוגות שלי</h2>
           <div className="save-row">
-            <input className="field" value={name} onChange={(e) => setName(e.target.value)} placeholder="שם לתצוגה, למשל: לשיעור על ניוטון" aria-label="שם לתצוגה"
+            <input className="field" value={name} onChange={(e) => setName(e.target.value)} placeholder={autoName()} aria-label="שם לתצוגה"
               onKeyDown={(e) => { if (e.key === 'Enter') save(); }} />
             <button type="button" className="press btn btn-primary" onClick={save}>שמירת התצוגה</button>
           </div>

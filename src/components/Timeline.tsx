@@ -28,17 +28,29 @@ export const xScale = scaleLinear<number, number>()
 
 const TICKS_ALL = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970, 2000, 2025];
 
-// בציר הדחוס שנתות קרובות עולות זו על זו: שומרים רק שנתה במרחק 46 פיקסל לפחות מהשנתה הקודמת שנשמרה
-const TICKS: number[] = [];
-for (const t of TICKS_ALL) if (!TICKS.length || Math.abs(xScale(t) - xScale(TICKS[TICKS.length - 1])) >= 46) TICKS.push(t);
+
+/** סקאלת x לחלון תקופה (גבול הידע שנבחר). בלי חלון: הסקאלה הדחוסה הרגילה. */
+export function windowScale(from = YEAR_MIN, to = YEAR_MAX) {
+  if (from <= YEAR_MIN && to >= YEAR_MAX) return xScale;
+  const a = posScale(from), b = posScale(to);
+  const f = ((y: number) => W - PAD - ((posScale(y) - a) / Math.max(1e-6, b - a)) * (W - 2 * PAD)) as ((y: number) => number) & { invert: (px: number) => number };
+  f.invert = (px: number) => posScale.invert(a + ((W - PAD - px) / (W - 2 * PAD)) * (b - a));
+  return f;
+}
+function ticksFor(from: number, to: number, xs: (y: number) => number) {
+  const base = from <= YEAR_MIN && to >= YEAR_MAX ? TICKS_ALL : scaleLinear().domain([from, to]).ticks(14).map(Math.round);
+  const out: number[] = [];
+  for (const t of base) if (t >= from && t <= to && (!out.length || Math.abs(xs(t) - xs(out[out.length - 1])) >= 46)) out.push(t);
+  return out;
+}
 
 type Item = { d: Discovery; x: number; lane: number; left: number };
 
-function layout(items: Discovery[]): { placed: Item[]; lanes: number } {
+function layout(items: Discovery[], xs: (y: number) => number): { placed: Item[]; lanes: number } {
   const laneEdge: number[] = []; // הקצה השמאלי של הכרטיס האחרון בכל נתיב
   const placed: Item[] = [];
   for (const d of items) {
-    const x = xScale(d.yearFrom);
+    const x = xs(d.yearFrom);
     const left = Math.min(Math.max(x - CARD_W / 2, 4), W - CARD_W - 4);
     let lane = laneEdge.findIndex((edge) => left + CARD_W + GAP <= edge);
     if (lane === -1) { lane = laneEdge.length; laneEdge.push(Infinity); }
@@ -48,14 +60,17 @@ function layout(items: Discovery[]): { placed: Item[]; lanes: number } {
   return { placed, lanes: laneEdge.length };
 }
 
-export default function Timeline({ items, year, selectedPerson, onPick, follow }: {
+export default function Timeline({ items, year, selectedPerson, onPick, follow, from = YEAR_MIN, to = YEAR_MAX }: {
+  from?: number; to?: number;
   items: Discovery[]; year: number; selectedPerson?: string; onPick: (personId: string | undefined, discoveryId: string) => void; follow: boolean;
 }) {
-  const { placed, lanes } = useMemo(() => layout(items), [items]);
+  const xs = useMemo(() => windowScale(from, to), [from, to]);
+  const ticks = useMemo(() => ticksFor(from, to, xs), [from, to, xs]);
+  const { placed, lanes } = useMemo(() => layout(items, xs), [items, xs]);
   const kw = useMatches(); // מילת המפתח שבסרגל: מה שמתאים מודגש, השאר מתעמעם
   const kwc = (id: string) => (kw.active ? (kw.discoveries.has(id) ? ' is-kw' : ' is-kw-off') : '');
   const H = AXIS_Y + 34 + lanes * LANE_H + 12;
-  const cx = xScale(year);
+  const cx = xs(year);
   const scroller = useRef<HTMLDivElement>(null);
 
   // שומרים את המחוון בתוך התצוגה כשהוא זז
@@ -113,12 +128,12 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
             </pattern>
           </defs>
           {/* קטעי ציר דחוסים */}
-          <rect x={xScale(1500)} y={AXIS_Y - 6} width={xScale(YEAR_MIN) - xScale(1500)} height={12} fill="url(#compressed)" />
+          {from < 1500 && <rect x={xs(1500)} y={AXIS_Y - 6} width={xs(from) - xs(1500)} height={12} fill="url(#compressed)" />}
           {/* שנתות */}
-          {TICKS.map((t) => (
-            <g key={t} transform={`translate(${xScale(t)},0)`}>
+          {ticks.map((t) => (
+            <g key={t} transform={`translate(${xs(t)},0)`}>
               <line y1={AXIS_Y - 6} y2={AXIS_Y + 6} stroke="var(--ink-mute)" />
-              <text className="tl-tick" y={AXIS_Y - 14} textAnchor="middle">{t < 0 ? -t : t}</text>
+              <text className="tl-tick" y={AXIS_Y - 14} textAnchor="middle">{t < 0 ? -t : t === 0 ? 1 : t}</text>
               {t < 0 && <text className="tl-tick-sub" y={AXIS_Y - 28} textAnchor="middle">לפנה״ס</text>}
             </g>
           ))}
@@ -137,7 +152,7 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
             const w = label.length * 8 + 16;
             return (
               <g key={m.d.id} className="tl-mark" data-year={m.d.yearFrom}>
-                {m.d.yearTo !== m.d.yearFrom && <rect className="tl-mark-range" x={Math.min(xScale(m.d.yearFrom), xScale(m.d.yearTo))} y={AXIS_Y - 5} width={Math.abs(xScale(m.d.yearTo) - xScale(m.d.yearFrom))} height={10} />}
+                {m.d.yearTo !== m.d.yearFrom && <rect className="tl-mark-range" x={Math.min(xs(m.d.yearFrom), xs(m.d.yearTo))} y={AXIS_Y - 5} width={Math.abs(xs(m.d.yearTo) - xs(m.d.yearFrom))} height={10} />}
                 <line x1={m.x} x2={m.x} y1={AXIS_Y - 40} y2={AXIS_Y + 8} />
                 <rect className="tl-mark-bg" x={m.x - w / 2} y={AXIS_Y - 62} width={w} height={22} rx={3} />
                 <text x={m.x} y={AXIS_Y - 46} textAnchor="middle">{label}</text>
@@ -152,7 +167,7 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
           {placed.map((p) => (
             <g key={p.d.id} className={(p.d.yearFrom <= year ? 'tl-dot' : 'tl-dot is-hidden') + kwc(p.d.id)}>
               {p.d.yearTo !== p.d.yearFrom && (
-                <line x1={xScale(p.d.yearFrom)} x2={xScale(p.d.yearTo)} y1={AXIS_Y} y2={AXIS_Y} className="tl-range" />
+                <line x1={xs(p.d.yearFrom)} x2={xs(p.d.yearTo)} y1={AXIS_Y} y2={AXIS_Y} className="tl-range" />
               )}
               <circle cx={p.x} cy={AXIS_Y} r={7} className={`tl-dot-${p.d.domainId}`} />
             </g>

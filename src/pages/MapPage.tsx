@@ -1,4 +1,5 @@
 // שלב 3: מפה. אותם גילויים לפי מקום, ומחוון זמן שמזיז את הנקודות בזמן אמת.
+import { useRevealOnChange } from '../ui/reveal';
 import { useMatches } from '../search';
 import DomainIcon from '../icons';
 import { Suspense, lazy, useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -8,6 +9,8 @@ import PersonCard from '../components/PersonCard';
 import PlacePanel from '../components/PlacePanel';
 import WorkImage from '../components/WorkImage';
 import PeoplePanel from '../components/PeoplePanel';
+import DomainPicker from '../ui/DomainPicker';
+import YearSlider from '../ui/YearSlider';
 import { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
 import { activeDomains, confidenceName, discoveries, endName, linkTypeName, personById, rangeText, yearText, ANON, workParams, discoveryById } from '../data';
 import { arc, centerAt, centerTrail, cities, countries, countryByName, km, nearestCity, routes, sameCityLinks, unplaced } from '../geo';
@@ -53,15 +56,10 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
   const legacyT = params.t && params.t !== '1' && params.t !== 'all' ? params.t : undefined;
   const allOn = !params.d && !legacyT;
   const domains = new Set(allOn ? activeDomains.map((d) => d.id) : (params.d || legacyT!).split(','));
-  // לחיצה ראשונה כשהכול בחור: בוחרת רק את התחום הזה. אחר כך כל לחיצה מוסיפה או מורידה. אם לא נשאר כלום, חוזרים לכל התחומים.
-  const pickDomain = (id: string) => {
-    const next = allOn ? new Set([id]) : new Set(domains);
-    if (!allOn) { if (next.has(id)) next.delete(id); else next.add(id); }
-    set({ d: next.size === 0 || next.size === activeDomains.length ? undefined : activeDomains.map((a) => a.id).filter((a) => next.has(a)).join(','), t: params.t ? '1' : undefined, s: params.t ? '0' : undefined, c: undefined, k: undefined, f: undefined });
-  };
   const domainsLabel = allOn ? 'כל התחומים' : activeDomains.filter((d) => domains.has(d.id)).map((d) => d.nameHe).join(', ');
-  const showRoutes = params.r !== '0';
-  const showTrail = params.g !== '0';
+  // מצבי תצוגה כבויים כברירת מחדל: נדלקים רק כשבוחרים בהם
+  const showRoutes = params.r === '1';
+  const showTrail = params.g === '1';
   const person = params.p ? personById.get(params.p) : undefined;
   const [failed, setFailed] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -119,6 +117,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
   const nearKm = center && near ? Math.round(km(center, near.lonLat) / 10) * 10 : 0;
   const pick = (personId: string) => set({ p: personId });
   const focusCity = params.f ? cities.find((c) => c.key === params.f) : undefined;
+  useRevealOnChange('.map-card-wrap', [params.c, params.k, params.f, params.l, params.d, params.t, params.s]);
 
   // מסע: הגילויים של התחומים שנבחרו, לפי סדר כרונולוגי, תחנה אחרי תחנה. כשנבחר יותר מתחום אחד: רק מה שעברנו מוצג, והמספר רק על העיר הנוכחית.
   const tourOn = !!params.t;
@@ -186,25 +185,20 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
         ) : null;
       })()}
       <div className="map-controls card glass">
-        {/* שורה אחת של תחומים: "כל התחומים" מאפס, לחיצה ראשונה בוחרת רק את התחום שנלחץ, ומשם מוסיפים או מורידים */}
-        <div className="seg map-domains" role="group" aria-label="תחומים">
-          <button type="button" className="press chip chip-all" aria-pressed={allOn} onClick={() => set({ d: undefined, t: params.t ? '1' : undefined, s: params.t ? '0' : undefined, f: undefined })}>כל התחומים</button>
-          {activeDomains.map((d) => (
-            <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={!allOn && domains.has(d.id)} onClick={() => pickDomain(d.id)}><DomainIcon id={d.id} />{d.nameHe}</button>
-          ))}
-        </div>
+        {/* שורה אחת של תחומים, אותו בורר בכל המסכים */}
+        <DomainPicker className="map-domains" counts={false} selected={allOn ? null : [...domains]}
+          onChange={(next) => set({ d: next ? next.join(',') : undefined, t: params.t ? '1' : undefined, s: params.t ? '0' : undefined, c: undefined, k: undefined, f: undefined })} />
         <div className="seg map-modes" role="group" aria-label="תצוגה">
           <button type="button" className="press chip chip-tour" aria-pressed={tourOn}
             onClick={() => { setTouring(false); set(tourOn ? { t: undefined, s: undefined } : { t: '1', s: '0', c: undefined, k: undefined, f: undefined }); }}>מסע בזמן{tourOn ? '' : `: ${domainsLabel}`}</button>
-          <button type="button" className="press chip" aria-pressed={showRoutes} onClick={() => set({ r: showRoutes ? '0' : undefined })}>מסלולי ידע <bdi className="num">{shownRoutes.length}</bdi></button>
-          <button type="button" className="press chip" aria-pressed={showTrail} onClick={() => set({ g: showTrail ? '0' : undefined })}>שובל מרכז הכובד</button>
+          <button type="button" className="press chip" aria-pressed={showRoutes} onClick={() => set({ r: showRoutes ? undefined : '1' })}>מסלולי ידע <bdi className="num">{shownRoutes.length}</bdi></button>
+          <button type="button" className="press chip" aria-pressed={showTrail} onClick={() => set({ g: showTrail ? undefined : '1' })}>שובל מרכז הכובד</button>
         </div>
-        <label className="slider">
-          <span className="label">שנה</span>
-          <input type="range" dir="rtl" min={0} max={1000} value={Math.round(posScale(year) * 1000)} aria-label="מחוון זמן" aria-valuetext={yearText(year)}
-            onChange={(e) => { setPlaying(false); setYear(posScale.invert(Number(e.target.value) / 1000)); }} />
-          <bdi className="num map-year">{yearText(year)}</bdi>
-        </label>
+        {/* כל מצב תצוגה מוסבר במשפט אחד, כדי שיהיה ברור מה הוא עושה לפני שבוחרים בו */}
+        <p className="mode-help">
+          <strong>מסע בזמן</strong>: עובר תחנה אחרי תחנה על הגילויים של התחומים שנבחרו, לפי הסדר. <strong>מסלולי ידע</strong>: קו בין שתי ערים כשגילוי באחת השפיע על גילוי בשנייה. <strong>שובל מרכז הכובד</strong>: הדרך שעשה מרכז הכובד של הידע לאורך השנים.
+        </p>
+        <YearSlider value={year} onChange={(y) => { setPlaying(false); setYear(y); }} />
         <div className="seg">
           <button type="button" className="press btn btn-primary" aria-pressed={playing} onClick={() => setPlaying((p) => !p)}>{playing ? 'עצירה' : 'הפעלה'}</button>
         </div>

@@ -535,7 +535,7 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .tour-seg { padding-top: 8px; border-top: 1px solid var(--rule); }
 
 /* מסע חוצה תחומים */
-.chip-all[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--sheet); }
+
 .tour-dot { display: inline-block; width: 9px; height: 9px; margin-inline-end: 6px; vertical-align: middle; background: var(--draft); }
 .tour-dot.dom-physics { background: var(--physics); }
 .tour-dot.dom-religion { background: var(--religion); }
@@ -693,7 +693,7 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .dicon.i-cinema { color: var(--cinema); }
 .dicon.i-mixed { color: var(--ink-soft); }
 .chip .dicon-wrap { margin-inline-end: 5px; }
-.chip-dom[aria-pressed="true"] .dicon, .cmp-rowname .dicon { color: #fff; }
+.cmp-rowname .dicon { color: #fff; }
 .pp-dom-title .dicon-wrap, .legend .dicon-wrap, .search-hit .dicon-wrap, .kw-item .dicon-wrap, .tour-list .dicon-wrap { margin-inline-end: 6px; }
 .search-hit > .dicon-wrap, .kw-item > .dicon-wrap { font-size: 26px; width: 36px; justify-content: center; }
 /* סמן במפה: האייקון בלבן בתוך הריבוע; במסע המספר מחליף אותו */
@@ -704,7 +704,7 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 
 /* מפה: שורת תחומים אחת, ומצבי תצוגה בשורה משלהם */
 .map-modes { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip-tour[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--sheet); }
+
 /* שעון הזמן במסע */
 .tour-clock { display: flex; align-items: baseline; gap: 8px; padding: 6px 10px; background: var(--ink); color: var(--sheet); }
 .tour-clock .label { color: #C9C7C0; }
@@ -723,3 +723,49 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .people-text { display: grid; min-width: 0; }
 .people-name { font-weight: 700; font-size: 14px; }
 .people-sub { font-size: 12px; color: var(--ink-mute); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* שפה אחידה: עברית ראשית ומושחרת, לועזית משנית, קטנה ואפורה */
+.muted[dir="ltr"], .person-full, [lang="en"]:not(.quote-orig), .pp-work [dir="ltr"], .search-detail [dir="ltr"] { font-weight: 400; color: var(--ink-mute); font-size: .86em; }
+.city-name, .pp-name, .people-name, .search-title, .kw-item-name, .person-name, .tl-name, .sub-name, .find-place { font-weight: 700; color: var(--ink); }
+/* מספר כמות בכרטיס: תמיד בצד שמאל (סוף השורה ב-RTL) */
+.count-end { margin-inline-start: auto; }
+.sub-title, .people-group-title, .pp-dom-title, .search-group .section-title, .city-title { display: flex; align-items: baseline; gap: 6px; }
+.sub-title > bdi.num, .people-group-title > .muted, .pp-dom-title > bdi.num, .search-group .section-title > bdi.num { margin-inline-start: auto; }
+/* סרגל שנה אחיד: השנים רצות לאורכו, והשנה הנוכחית צפה מעל הידית */
+.year-slider { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 10px; min-width: 0; }
+.ys-track { position: relative; padding: 22px 0 18px; min-width: 0; }
+.ys-track input[type="range"] { width: 100%; display: block; margin: 0; }
+.ys-now { position: absolute; top: 0; transform: translateX(50%); background: var(--ink); color: var(--sheet); font-family: var(--mono); font-size: 12px; font-weight: 700; padding: 1px 6px; white-space: nowrap; pointer-events: none; }
+.ys-marks { position: absolute; inset-inline: 0; bottom: 0; height: 14px; }
+.ys-marks span { position: absolute; transform: translateX(50%); font-family: var(--mono); font-size: 10px; color: var(--ink-mute); white-space: nowrap; }
+.ys-marks span:first-child { transform: none; }
+.ys-marks span:last-child { transform: translateX(100%); }
+/* בחירת תקופה */
+.period { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; position: relative; }
+.period-f { display: inline-flex; align-items: center; gap: 4px; }
+.period-l { font-weight: 700; font-size: 13px; }
+.period .clearable-input { width: 140px; padding-inline-end: 12px; }
+.period-x { position: static; transform: none; }
+/* בורר תחומים: בשורות, לא בשורה אחת ארוכה */
+.domain-picker { display: flex; flex-wrap: wrap; gap: 2px 4px; }
+/* מצבי תצוגה עם הסבר */
+.mode-help { margin: 0; font-size: 12px; color: var(--ink-mute); line-height: 1.6; }
+.mode-help strong { color: var(--ink-soft); }
+.map-controls > .mode-help, .map-controls > .domain-picker { grid-column: 1 / -1; }
+.tl-card-wrap, .map-card-wrap, .cmp-wrap, .graph-wrap { scroll-margin-top: calc(var(--topbar-h, 53px) + 12px); }
+
+/* גלובוס חום ליד ערי הידע */
+.cities-with-globe { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 300px); gap: 20px; align-items: start; }
+.cities-with-globe .cities-list { grid-column: 1; grid-row: 1; }
+.heat-globe { grid-column: 2; grid-row: 1; margin: 0; display: grid; gap: 8px; }
+.hg-canvas { width: 100%; aspect-ratio: 1; display: block; }
+.hg-loading { aspect-ratio: 1; background: radial-gradient(circle, var(--paper) 60%, transparent 61%); }
+.hg-cap { display: grid; gap: 2px; font-size: 13px; text-align: center; }
+.hg-controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: center; }
+@media (max-width: 720px) { .cities-with-globe { grid-template-columns: 1fr; } .heat-globe, .cities-with-globe .cities-list { grid-column: 1; grid-row: auto; } .heat-globe { max-width: 320px; margin: 0 auto; } }
+/* השוואה: הבקרות בשורות, שורה לכל נושא (תחומים, תקופה, סוג קשר, גבול הידע) */
+.cmp-controls { grid-template-columns: minmax(0, 1fr); }
+.cmp-controls > .seg { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.cmp-controls > * + * { border-top: 1px solid var(--rule); padding-top: 8px; }
+/* ציר הזמן: גבול הידע ותקופה בשורה משלהם */
+.tl-time { display: grid; gap: 8px; grid-column: 1 / -1; }

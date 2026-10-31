@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useRevealOnChange } from '../ui/reveal';
 import DomainIcon from '../icons';
-import Timeline, { YEAR_MAX, YEAR_MIN, posScale, xScale } from '../components/Timeline';
+import Timeline, { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
+import YearSlider from '../ui/YearSlider';
+import PeriodPicker from '../ui/PeriodPicker';
 import PersonCard from '../components/PersonCard';
 import WorkCard from '../components/WorkCard';
 import type { Nav } from '../components/CardNav';
@@ -19,7 +22,12 @@ export default function TimelinePage({ params }: { params: Record<string, string
   const [playing, setPlaying] = useState(false);
   const person = params.p ? personById.get(params.p) : undefined;
   const work = !person && params.w ? discoveryById.get(params.w) : undefined;
-  const items = useMemo(() => discoveries.filter((d) => d.domainId === domain), [domain]);
+  // גבול הידע: התקופה שנבחנת (f עד t). ברירת מחדל: כל הטווח.
+  const from = params.f && Number.isFinite(Number(params.f)) ? Math.max(YEAR_MIN, Number(params.f)) : YEAR_MIN;
+  const to = params.t && Number.isFinite(Number(params.t)) ? Math.min(YEAR_MAX, Number(params.t)) : YEAR_MAX;
+  const items = useMemo(() => discoveries.filter((d) => d.domainId === domain && d.yearTo >= from && d.yearFrom <= to), [domain, from, to]);
+  const win = useMemo(() => ({ f: params.f, t: params.t }), [params.f, params.t]);
+  useRevealOnChange('.tl-card-wrap', [params.p, params.w, params.d, params.f, params.t]);
   const known = items.filter((d) => d.yearFrom <= year).length;
   const domainName = activeDomains.find((d) => d.id === domain)!.nameHe;
 
@@ -46,23 +54,25 @@ export default function TimelinePage({ params }: { params: Record<string, string
   // הפעלה: הזזה איטית במהירות קבועה על המסך. בהפחתת תנועה: קפיצה מגילוי לגילוי.
   useEffect(() => {
     if (!playing) return;
-    let raf = 0; let last = performance.now(); let px = xScale(year === YEAR_MAX ? YEAR_MIN : year);
-    if (year === YEAR_MAX) setYear(YEAR_MIN);
+    let raf = 0; let last = performance.now();
+    let pos = posScale(year >= to ? from : year);
+    if (year >= to) setYear(from);
+    const end = posScale(to), span = Math.max(1e-6, end - posScale(from));
     if (reduced()) {
       const id = window.setInterval(() => {
         setYear((y) => {
           const next = items.find((d) => d.yearFrom > y);
-          if (!next) { setPlaying(false); return YEAR_MAX; }
+          if (!next) { setPlaying(false); return to; }
           return next.yearFrom;
         });
       }, 1200);
       return () => window.clearInterval(id);
     }
+    // מהירות קבועה על המסך: כל החלון ב-24 שניות
     const step = (now: number) => {
-      px -= (now - last) * 0.09; last = now;
-      const y = Math.round(xScale.invert(px));
-      if (y >= YEAR_MAX || px <= xScale(YEAR_MAX)) { setYear(YEAR_MAX); setPlaying(false); return; }
-      setYear(y);
+      pos += ((now - last) / 24000) * span; last = now;
+      if (pos >= end) { setYear(to); setPlaying(false); return; }
+      setYear(Math.round(posScale.invert(pos)));
       raf = requestAnimationFrame(step);
     };
     raf = requestAnimationFrame(step);
@@ -79,7 +89,7 @@ export default function TimelinePage({ params }: { params: Record<string, string
     const dom = !personId && d ? d.domainId : domain;
     const y = d && d.yearFrom > year ? d.yearFrom : year;
     setYear(y);
-    replace('timeline', personId ? { d: dom, y: String(y), p: personId } : { d: dom, y: String(y), w: discoveryId });
+    replace('timeline', { ...win, ...(personId ? { d: dom, y: String(y), p: personId } : { d: dom, y: String(y), w: discoveryId }) });
   };
   // הגעה מחיפוש לתת-תחום: גוללים אליו ומסמנים אותו
   useEffect(() => {
@@ -102,7 +112,7 @@ export default function TimelinePage({ params }: { params: Record<string, string
     return { pos: idx + 1, total: seq.length, label: inKw ? `בתוצאות החיפוש ב${domainName}` : `ב${domainName}`, onPrev: prev && open(prev), onNext: next && open(next) };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [person?.id, work?.id, items, kw, year]);
-  const close = useCallback(() => replace('timeline', { d: domain, y: String(year) }), [domain, year]);
+  const close = useCallback(() => replace('timeline', { ...win, d: domain, y: String(year) }), [domain, year, win]);
 
   return (
     <main className="page page-wide">
@@ -119,16 +129,17 @@ export default function TimelinePage({ params }: { params: Record<string, string
         <div className="seg" role="group" aria-label="תחום">
           {activeDomains.map((d) => (
             <button key={d.id} type="button" className="press chip" aria-pressed={d.id === domain}
-              onClick={() => replace('timeline', { d: d.id, y: String(year) })}>
+              onClick={() => replace('timeline', { ...win, d: d.id, y: String(year) })}>
               <DomainIcon id={d.id} />{d.nameHe} <bdi className="num">{discoveries.filter((x) => x.domainId === d.id).length}</bdi>
             </button>
           ))}
         </div>
-        <label className="slider">
-          <span className="label">שנה</span>
-          <input type="range" dir="rtl" min={0} max={1000} step={1} value={Math.round(posScale(year) * 1000)} aria-label="מחוון זמן"
-            aria-valuetext={yearText(year)} onChange={(e) => { setPlaying(false); setYear(Math.round(posScale.invert(Number(e.target.value) / 1000))); }} />
-        </label>
+        <div className="tl-time">
+          <YearSlider label="גבול הידע" value={Math.min(Math.max(year, from), to)} from={from} to={to} onChange={(y) => { setPlaying(false); setYear(y); }} />
+          {/* התקופה לבחינה: הציר מתמקד בה. האיקס האפור מחזיר לכל הטווח. */}
+          <PeriodPicker label="תקופה לבחינה" from={from} to={to}
+            onChange={(f, t) => { setPlaying(false); const cur = Object.fromEntries(new URLSearchParams(window.location.hash.split('?')[1] || '')); const y = Math.min(Math.max(year, f ?? YEAR_MIN), t ?? YEAR_MAX); setYear(y); replace('timeline', { ...cur, f: f === undefined ? undefined : String(f), t: t === undefined ? undefined : String(t), y: String(y) }); }} />
+        </div>
         <div className="seg" role="group" aria-label="תנועה בזמן">
           <button type="button" className="press btn" disabled={!prev} onClick={() => { setPlaying(false); prev && setYear(prev.yearFrom); }}>הגילוי הקודם</button>
           <button type="button" className="press btn btn-primary" aria-pressed={playing} onClick={() => setPlaying((p) => !p)}>{playing ? 'עצירה' : 'הפעלה'}</button>
@@ -137,7 +148,7 @@ export default function TimelinePage({ params }: { params: Record<string, string
       </div>
 
       <section className="card tl-card-wrap" aria-label={`ציר הזמן של ${domainName}`}>
-        <Timeline items={items} year={year} selectedPerson={person?.id || work?.id} onPick={pick} follow={playing} />
+        <Timeline items={items} year={year} from={from} to={to} selectedPerson={person?.id || work?.id} onPick={pick} follow={playing} />
         <ul className="legend" aria-label="מקרא">
           <li><span className={`lg-dot tl-dot-${domain}`} />גילוי שכבר ידוע בשנה שנבחרה</li>
           <li><span className="lg-dot lg-hidden" />גילוי שעוד נעלם, מתחת לזכוכית</li>

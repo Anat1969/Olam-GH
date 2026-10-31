@@ -1,6 +1,10 @@
 // שלב 2: השוואה בין תחומים. כמה שורות על ציר זמן אחד, זום מסונכרן ב-D3, וקשרים שנבחרים בלחיצה.
 // השורה הראשונה מציגה כרטיסים מעל הציר, והאחרות מתחתיו, כך שבין הצירים נשאר "שדה הקשרים".
+import { useRevealOnChange } from '../ui/reveal';
 import DomainIcon from '../icons';
+import DomainPicker from '../ui/DomainPicker';
+import PeriodPicker from '../ui/PeriodPicker';
+import YearSlider from '../ui/YearSlider';
 import { useMatches } from '../search';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { scaleLinear } from 'd3-scale';
@@ -43,6 +47,7 @@ function place(items: Discovery[], x: (y: number) => number, W: number, cw: numb
 
 export default function Compare({ params }: { params: Record<string, string> }) {
   const kw = useMatches();
+  useRevealOnChange('.cmp-wrap', [params.l, params.d, params.p]);
   const domainIds = (params.d || activeDomains.map((d) => d.id).join(',')).split(',').filter((id) => activeDomains.some((d) => d.id === id));
   const rows = domainIds.length ? domainIds : activeDomains.map((d) => d.id);
   const rowSet = useMemo(() => new Set(rows), [rows.join(',')]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -189,21 +194,13 @@ export default function Compare({ params }: { params: Record<string, string> }) 
       </p>
 
       <div className="cmp-controls card glass">
-        <div className="seg" role="group" aria-label="תחומים">
-          {activeDomains.map((d) => {
-            const on = rows.includes(d.id);
-            return (
-              <button key={d.id} type="button" className="press chip" aria-pressed={on} disabled={on && rows.length === 1}
-                onClick={() => set({ d: (on ? rows.filter((r) => r !== d.id) : activeDomains.map((a) => a.id).filter((a) => a === d.id || rows.includes(a))).join(','), l: undefined })}>
-                <DomainIcon id={d.id} />{d.nameHe} <bdi className="num">{discoveries.filter((x) => x.domainId === d.id).length}</bdi>
-              </button>
-            );
-          })}
-        </div>
+        {/* אותו בורר תחומים כמו במפה ובגרף: "כל התחומים" מאפס, לחיצה ראשונה בוחרת רק את התחום */}
+        <DomainPicker selected={params.d ? rows : null} onChange={(next) => set({ d: next ? next.join(',') : undefined, l: undefined })} />
         <div className="seg" role="group" aria-label="תקופה">
           {ERAS.map(([label, a, b]) => (
             <button key={label} type="button" className="press chip" aria-pressed={Math.abs(viewFrom - a) < 8 && Math.abs(viewTo - b) < 8} onClick={() => goWindow(a, b)}>{label}</button>
           ))}
+          <PeriodPicker label="תקופה לבחינה" from={Math.max(viewFrom, YEAR_MIN)} to={Math.min(viewTo, YEAR_MAX)} onChange={(f, t) => goWindow(f ?? YEAR_MIN, t ?? YEAR_MAX)} />
           <button type="button" className="press chip" onClick={() => zoomBy(1.6)}>הגדלה</button>
           <button type="button" className="press chip" disabled={t.k <= 1.001} onClick={() => zoomBy(1 / 1.6)}>הקטנה</button>
         </div>
@@ -222,11 +219,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
             <button type="button" className="press chip" aria-pressed={crossOnly} onClick={() => set({ x: crossOnly ? undefined : '1' })}>רק חוצי תחום</button>
           )}
         </div>
-        <label className="slider">
-          <span className="label">גבול הידע</span>
-          <input type="range" dir="rtl" min={0} max={1000} value={Math.round(posScale(year) * 1000)} aria-label="גבול הידע" aria-valuetext={yearText(year)}
-            onChange={(e) => { const y = Math.round(posScale.invert(Number(e.target.value) / 1000)); set({ y: y >= YEAR_MAX ? undefined : String(y) }); }} />
-        </label>
+        <YearSlider label="גבול הידע" value={year} onChange={(y) => set({ y: y >= YEAR_MAX ? undefined : String(y) })} />
       </div>
 
       <section className="card cmp-wrap" aria-label="השוואה בין תחומים">

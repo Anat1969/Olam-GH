@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, Suspense, lazy } from 'react';
 import Rich from '../components/Rich';
 import { activeDomains, citiesRanking, crossLinks, discoveries, families, links, persons, sources } from '../data';
 import { href } from '../route';
@@ -41,6 +41,9 @@ function LayerStack({ hover, setHover }: { hover: string | null; setHover: (id: 
     </svg>
   );
 }
+
+// גלובוס החום נטען בעצלות: מפת היבשות לא נכנסת לחבילה של דף הבית
+const HeatGlobe = lazy(() => import('../components/HeatGlobe'));
 
 export default function Home() {
   const [hover, setHover] = useState<string | null>(null);
@@ -135,7 +138,9 @@ export default function Home() {
       </div>
 
       <h2 className="section-title">ערי הידע</h2>
-      <div className="cities card">
+      <div className="cities card cities-with-globe">
+        <Suspense fallback={<div className="heat-globe hg-loading" aria-hidden="true" />}><HeatGlobe /></Suspense>
+        <div className="cities-list">
         <Rich as="p" className="cities-head">{`==${top.nameHe} מובילה: ${top.count} גילויים בעיר אחת.==`}</Rich>
         <ol className="city-bars">
           {cities.slice(0, 8).map((c) => (
@@ -147,6 +152,7 @@ export default function Home() {
           ))}
         </ol>
         <p className="muted small">לפי מקום הפעילות של כל גילוי. אוניברסיטאות ומכונים נספרים בעיר שלהם.</p>
+        </div>
       </div>
 
       <h2 className="section-title">שכבת הידע</h2>
