@@ -7113,6 +7113,888 @@
       "birthApprox": false,
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:JohnLasseterOct2011.jpg"
+    },
+    {
+      "id": "p-ashoka",
+      "wikipedia": "Ashoka",
+      "nameHe": "אשוקה",
+      "nameFull": "Ashoka",
+      "birthYear": -304,
+      "birthDate": null,
+      "deathYear": -232,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q80484",
+        "nameHe": "פטנה",
+        "nameFull": "Patna",
+        "lat": 25.61,
+        "lon": 85.1414,
+        "country": {
+          "wikidata": "Q668",
+          "nameHe": "הודו",
+          "nameFull": "India"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg/500px-Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg",
+      "imageLicense": "CC BY 2.0",
+      "imageCredit": "Photo Dharma from Sadao, Thailand",
+      "sources": [
+        "s-wp-ashoka",
+        "s-wd-q8589"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8589",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ashoka%27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg"
+    },
+    {
+      "id": "p-ravashi",
+      "wikipedia": "Rav Ashi",
+      "nameHe": "רב אשי",
+      "nameFull": "Rav Ashi",
+      "birthYear": 352,
+      "birthDate": null,
+      "deathYear": 427,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q115555722",
+        "nameHe": "אויריא",
+        "nameFull": "Avirya",
+        "lat": null,
+        "lon": null,
+        "country": {
+          "wikidata": "Q8735",
+          "nameHe": "מדי",
+          "nameFull": "Medes"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-rav-ashi",
+        "s-wd-q742620"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q742620",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-rashi",
+      "wikipedia": "Rashi",
+      "nameHe": "רש\"י",
+      "nameFull": "Rashi",
+      "birthYear": 1040,
+      "birthDate": null,
+      "deathYear": 1105,
+      "deathDate": "1105-07-13",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q5489",
+        "nameHe": "טרואה",
+        "nameFull": "Troyes",
+        "lat": 48.2989,
+        "lon": 4.0781,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rashi_woodcut.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-rashi",
+        "s-wd-q26456"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q26456",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Rashi_woodcut.jpg"
+    },
+    {
+      "id": "p-mosesdeleon",
+      "wikipedia": "Moses de León",
+      "nameHe": "משה די לאון",
+      "nameFull": "Moshé de León",
+      "birthYear": 1250,
+      "birthDate": null,
+      "deathYear": 1305,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q11953",
+        "nameHe": "גוודלחרה",
+        "nameFull": "Guadalajara",
+        "lat": 40.6333,
+        "lon": -3.1667,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Mose_ben_Sem_Tob.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Sonsaz",
+      "sources": [
+        "s-wp-moses-de-leo-n",
+        "s-wd-q456758"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q456758",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Mose_ben_Sem_Tob.jpg"
+    },
+    {
+      "id": "p-gutenberg",
+      "wikipedia": "Johannes Gutenberg",
+      "nameHe": "יוהנס גוטנברג",
+      "nameFull": "Johannes Gutenberg",
+      "birthYear": 1400,
+      "birthDate": null,
+      "deathYear": 1468,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1720",
+        "nameHe": "מיינץ",
+        "nameFull": "Mainz",
+        "lat": 49.9994,
+        "lon": 8.2736,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg.jpg/500px-Gutenberg.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-johannes-gutenberg",
+        "s-wd-q8958"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8958",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gutenberg.jpg"
+    },
+    {
+      "id": "p-luther",
+      "wikipedia": "Martin Luther",
+      "nameHe": "מרטין לותר",
+      "nameFull": "Martin Luther",
+      "birthYear": 1483,
+      "birthDate": "1483-11-10",
+      "deathYear": 1546,
+      "deathDate": "1546-02-18",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q484870",
+        "nameHe": "אייסלבן",
+        "nameFull": "Eisleben",
+        "lat": 51.5167,
+        "lon": 11.55,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg/500px-Lucas_Cranach_d.%C3%84._-_Martin_Luther%2C_1528_%28Veste_Coburg%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Lucas Cranach the Elder",
+      "sources": [
+        "s-wp-martin-luther",
+        "s-wd-q9554"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9554",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg"
+    },
+    {
+      "id": "p-karo",
+      "wikipedia": "Joseph Karo",
+      "nameHe": "יוסף קארו",
+      "nameFull": "Joseph ben Ephraim Karo",
+      "birthYear": 1488,
+      "birthDate": null,
+      "deathYear": 1575,
+      "deathDate": "1575-03-24",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q5836",
+        "nameHe": "טולדו",
+        "nameFull": "Toledo",
+        "lat": 39.8667,
+        "lon": -4.0333,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-joseph-karo",
+        "s-wd-q467148"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q467148",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-wundt",
+      "wikipedia": "Wilhelm Wundt",
+      "nameHe": "וילהלם וונדט",
+      "nameFull": "Wilhelm Wundt",
+      "birthYear": 1832,
+      "birthDate": "1832-08-16",
+      "deathYear": 1920,
+      "deathDate": "1920-08-31",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1973682",
+        "nameHe": "נקראו",
+        "nameFull": "Neckarau",
+        "lat": 49.4535,
+        "lon": 8.4909,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Wilhelm_Wundt.jpg/500px-Wilhelm_Wundt.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-wilhelm-wundt",
+        "s-wd-q75814"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q75814",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Wilhelm_Wundt.jpg"
+    },
+    {
+      "id": "p-ebbinghaus",
+      "wikipedia": "Hermann Ebbinghaus",
+      "nameHe": "הרמן אבינגהאוס",
+      "nameFull": "Hermann Ebbinghaus",
+      "birthYear": 1850,
+      "birthDate": "1850-01-24",
+      "deathYear": 1909,
+      "deathDate": "1909-02-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q153974",
+        "nameHe": "ברמן",
+        "nameFull": "Barmen",
+        "lat": 51.2667,
+        "lon": 7.2,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Ebbinghaus2.jpg/500px-Ebbinghaus2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-hermann-ebbinghaus",
+        "s-wd-q57332"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q57332",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ebbinghaus2.jpg"
+    },
+    {
+      "id": "p-wjames",
+      "wikipedia": "William James",
+      "nameHe": "ויליאם ג'יימס",
+      "nameFull": "William James",
+      "birthYear": 1842,
+      "birthDate": "1842-01-11",
+      "deathYear": 1910,
+      "deathDate": "1910-08-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q14706163",
+        "nameHe": "בית אסטור",
+        "nameFull": "Astor House",
+        "lat": 40.7119,
+        "lon": -74.0088,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/William_James_by_Alice_M._Boughton%2C_c._1907%2C_platinum_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_87_37James-000001_%28cropped%29.jpg/500px-William_James_by_Alice_M._Boughton%2C_c._1907%2C_platinum_print%2C_from_the_National_Portrait_Gallery_-_NPG-NPG_87_37James-000001_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Alice Boughton",
+      "sources": [
+        "s-wp-william-james",
+        "s-wd-q125249"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q125249",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:William_James_by_Alice_M._Boughton,_c._1907,_platinum_print,_from_the_National_Portrait_Gallery_-_NPG-NPG_87_37James-000001_(cropped).jpg"
+    },
+    {
+      "id": "p-pavlov",
+      "wikipedia": "Ivan Pavlov",
+      "nameHe": "איוואן פבלוב",
+      "nameFull": "Ivan Pavlov",
+      "birthYear": 1849,
+      "birthDate": "1849-09-26",
+      "deathYear": 1936,
+      "deathDate": "1936-02-27",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2746",
+        "nameHe": "ריאזאן",
+        "nameFull": "Ryazan",
+        "lat": 54.63,
+        "lon": 39.7425,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ivan_Pavlov_NLM3.jpg/500px-Ivan_Pavlov_NLM3.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-ivan-pavlov",
+        "s-wd-q42985"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q42985",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ivan_Pavlov_NLM3.jpg"
+    },
+    {
+      "id": "p-freud",
+      "wikipedia": "Sigmund Freud",
+      "nameHe": "זיגמונד פרויד",
+      "nameFull": "Sigmund Freud",
+      "birthYear": 1856,
+      "birthDate": "1856-05-06",
+      "deathYear": 1939,
+      "deathDate": "1939-09-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q654019",
+        "nameHe": "פרייברג",
+        "nameFull": "Příbor",
+        "lat": 49.6409,
+        "lon": 18.145,
+        "country": {
+          "wikidata": "Q213",
+          "nameHe": "צ'כיה",
+          "nameFull": "Czech Republic"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/500px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Max Halberstadt",
+      "sources": [
+        "s-wp-sigmund-freud",
+        "s-wd-q9215"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9215",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg"
+    },
+    {
+      "id": "p-binet",
+      "wikipedia": "Alfred Binet",
+      "nameHe": "אלפרד בינה",
+      "nameFull": "Alfred Binet",
+      "birthYear": 1857,
+      "birthDate": "1857-07-08",
+      "deathYear": 1911,
+      "deathDate": "1911-10-18",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q33959",
+        "nameHe": "ניס",
+        "nameFull": "Nice",
+        "lat": 43.7019,
+        "lon": 7.2683,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Alfred_Binet.jpg/500px-Alfred_Binet.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unidentified photographer",
+      "sources": [
+        "s-wp-alfred-binet",
+        "s-wd-q207478"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q207478",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alfred_Binet.jpg"
+    },
+    {
+      "id": "p-piaget",
+      "wikipedia": "Jean Piaget",
+      "nameHe": "ז'אן פיאז'ה",
+      "nameFull": "Jean Piaget",
+      "birthYear": 1896,
+      "birthDate": "1896-08-09",
+      "deathYear": 1980,
+      "deathDate": "1980-09-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q69345",
+        "nameHe": "נשאטל",
+        "nameFull": "Neuchâtel",
+        "lat": 46.9903,
+        "lon": 6.9306,
+        "country": {
+          "wikidata": "Q39",
+          "nameHe": "שווייץ",
+          "nameFull": "Switzerland"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jean_Piaget_in_Ann_Arbor_%28cropped%29.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unidentified (Ensian published by University of Michigan)",
+      "sources": [
+        "s-wp-jean-piaget",
+        "s-wd-q123190"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q123190",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Jean_Piaget_in_Ann_Arbor_(cropped).png"
+    },
+    {
+      "id": "p-festinger",
+      "wikipedia": "Leon Festinger",
+      "nameHe": "לאון פסטינגר",
+      "nameFull": "Leon Festinger",
+      "birthYear": 1919,
+      "birthDate": "1919-05-08",
+      "deathYear": 1989,
+      "deathDate": "1989-02-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q18419",
+        "nameHe": "ברוקלין",
+        "nameFull": "Brooklyn",
+        "lat": 40.6508,
+        "lon": -73.9497,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-leon-festinger",
+        "s-wd-q315916"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q315916",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-milgram",
+      "wikipedia": "Stanley Milgram",
+      "nameHe": "סטנלי מילגרם",
+      "nameFull": "Stanley Milgram",
+      "birthYear": 1933,
+      "birthDate": "1933-08-15",
+      "deathYear": 1984,
+      "deathDate": "1984-12-20",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q18426",
+        "nameHe": "הברונקס",
+        "nameFull": "The Bronx",
+        "lat": 40.8467,
+        "lon": -73.8733,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Stanley_Milgram_1954.jpg/500px-Stanley_Milgram_1954.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-stanley-milgram",
+        "s-wd-q208236"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q208236",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Stanley_Milgram_1954.jpg"
+    },
+    {
+      "id": "p-chambers",
+      "wikipedia": "John Graham Chambers",
+      "nameHe": "ג׳ון גרהם צ׳יימברס",
+      "nameFull": "John Graham Chambers",
+      "birthYear": 1843,
+      "birthDate": "1843-02-12",
+      "deathYear": 1883,
+      "deathDate": "1883-03-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q6661303",
+        "nameHe": null,
+        "nameFull": "Llanelly House",
+        "lat": 51.6834,
+        "lon": -4.1614,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-john-graham-chambers",
+        "s-wd-q327410"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q327410",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null,
+      "nameHeTranslit": "ג׳ון גרהם צ׳יימברס"
+    },
+    {
+      "id": "p-kano",
+      "wikipedia": "Kanō Jigorō",
+      "nameHe": "ג'יגורו קאנו",
+      "nameFull": "Kanō Jigorō",
+      "birthYear": 1860,
+      "birthDate": "1860-12-10",
+      "deathYear": 1938,
+      "deathDate": "1938-05-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q48320",
+        "nameHe": "קובה",
+        "nameFull": "Kobe",
+        "lat": 34.6902,
+        "lon": 135.1954,
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Portrait_of_late_Mr._Kano.jpg/500px-Portrait_of_late_Mr._Kano.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-kano-jigoro",
+        "s-wd-q190141"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q190141",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_late_Mr._Kano.jpg"
+    },
+    {
+      "id": "p-funakoshi",
+      "wikipedia": "Gichin Funakoshi",
+      "nameHe": "גיצ'ין פונאקושי",
+      "nameFull": "Gichin Funakoshi",
+      "birthYear": 1868,
+      "birthDate": "1868-11-10",
+      "deathYear": 1957,
+      "deathDate": "1957-04-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q608415",
+        "nameHe": "שורי",
+        "nameFull": "Shuri",
+        "lat": 26.217,
+        "lon": 127.7194,
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gichin_Funakoshi_-_Heian_Nidan_%282%29.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Gichin Funakoshi",
+      "sources": [
+        "s-wp-gichin-funakoshi",
+        "s-wd-q41105"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q41105",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gichin_Funakoshi_-_Heian_Nidan_(2).png"
+    },
+    {
+      "id": "p-cgracie",
+      "wikipedia": "Carlos Gracie",
+      "nameHe": "קרלוס גרייסי",
+      "nameFull": "Carlos Gracie",
+      "birthYear": 1902,
+      "birthDate": "1902-09-14",
+      "deathYear": 1994,
+      "deathDate": "1994-10-07",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q12829733",
+        "nameHe": "בלם",
+        "nameFull": "Belém",
+        "lat": -1.4558,
+        "lon": -48.5039,
+        "country": {
+          "wikidata": "Q155",
+          "nameHe": "ברזיל",
+          "nameFull": "Brazil"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Carlos_Gracie_%281951%29.tif/lossy-page1-500px-Carlos_Gracie_%281951%29.tif.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-carlos-gracie",
+        "s-wd-q922415"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q922415",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Carlos_Gracie_(1951).tif"
+    },
+    {
+      "id": "p-hgracie",
+      "wikipedia": "Hélio Gracie",
+      "nameHe": "הליו גרייסי",
+      "nameFull": "Hélio Gracie",
+      "birthYear": 1913,
+      "birthDate": "1913-10-01",
+      "deathYear": 2009,
+      "deathDate": "2009-01-29",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q12829733",
+        "nameHe": "בלם",
+        "nameFull": "Belém",
+        "lat": -1.4558,
+        "lon": -48.5039,
+        "country": {
+          "wikidata": "Q155",
+          "nameHe": "ברזיל",
+          "nameFull": "Brazil"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Helio_Gracie_in_2004.jpg",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "Satorijits",
+      "sources": [
+        "s-wp-he-lio-gracie",
+        "s-wd-q455578"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q455578",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Helio_Gracie_in_2004.jpg",
+      "nameHeTranslit": "הליו גרייסי"
+    },
+    {
+      "id": "p-lichtenfeld",
+      "wikipedia": "Imi Lichtenfeld",
+      "nameHe": "אימי שדאור ליכטנפלד",
+      "nameFull": "Imi Lichtenfeld",
+      "birthYear": 1910,
+      "birthDate": "1910-05-26",
+      "deathYear": 1998,
+      "deathDate": "1998-01-09",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1781",
+        "nameHe": "בודפשט",
+        "nameFull": "Budapest",
+        "lat": 47.4983,
+        "lon": 19.0408,
+        "country": {
+          "wikidata": "Q28",
+          "nameHe": "הונגריה",
+          "nameFull": "Hungary"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Grand_masters_small_talk.jpg/500px-Grand_masters_small_talk.jpg",
+      "imageLicense": "Attribution",
+      "imageCredit": "Yaron Lichtenstein",
+      "sources": [
+        "s-wp-imi-lichtenfeld",
+        "s-wd-q450328"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q450328",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Grand_masters_small_talk.jpg"
     }
   ]
 }

@@ -237,6 +237,23 @@ const mock = async (p) => {
     await p.locator('.tour-card').getByRole('button', { name: 'סיום המסע' }).click();
     await p.waitForTimeout(150);
     ok(!p.url().includes('t=physics') && (await p.locator('.tour-card').count()) === 0, 'סיום המסע');
+    // מסע חוצה תחומים
+    await p.locator('.tour-seg .chip-all').click();
+    await p.locator('.tour-card').waitFor();
+    const tourAllN = DISC.filter((d) => d.place).length;
+    ok(p.url().includes('t=all') && (await p.locator('.tour-num').innerText()) === `1/${tourAllN}`, `מסע בכל התחומים: ${tourAllN} תחנות`);
+    const allYears = await p.locator('.tour-list .tour-y').evaluateAll((els) => els.map((e) => Number(e.dataset.year)));
+    ok(allYears.length === tourAllN && allYears.every((v, i, a) => i === 0 || a[i - 1] <= v), 'כל התחומים בסדר כרונולוגי אחד');
+    ok(new Set(await p.locator('.tour-list .tour-dot').evaluateAll((els) => els.map((e) => e.className))).size >= 10, 'ברשימה סימן צבע לכל תחום');
+    await p.locator('.tour-list li button').nth(30).click();
+    await p.waitForTimeout(300);
+    const badges = await p.evaluate(() => [...document.querySelectorAll('.mc-n')].filter((e) => e.textContent).map((e) => e.textContent));
+    await p.evaluate(() => { location.hash = '#/map?t=all&s=120'; });
+    await p.waitForTimeout(300);
+    ok(await p.locator('.tour-list').evaluate((ol) => { const li = ol.children[120]; return li.offsetTop >= ol.scrollTop && li.offsetTop + li.offsetHeight <= ol.scrollTop + ol.clientHeight; }), 'הרשימה נגללת לתחנה הנוכחית');
+    ok(badges.length === 1 && badges[0] === '31', `מספר רק על העיר הנוכחית (${badges.join(',')})`);
+    await p.locator('.tour-card').getByRole('button', { name: 'סיום המסע' }).click();
+    await p.waitForTimeout(150);
     const routesN = await p.locator('.link-item').count();
     ok(routesN >= 15, `מסלולי ידע ברשימה (${routesN})`);
     await p.locator('.link-item', { hasText: 'קהיר' }).first().click();

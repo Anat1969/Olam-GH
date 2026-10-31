@@ -1855,6 +1855,166 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-93",
+      "fromId": "d-500-babylonian-talmud",
+      "toId": "d-1040-rashi-commentary",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==רש״י פירש כמעט את כל הבבלי.== הפירוש שלו מלווה את **התלמוד הבבלי** בכל מהדורה מודפסת.",
+      "application": "ללמוד טקסט קשה **יחד עם** הפירוש שצמוד אליו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-rashi",
+          "quote": "His commentary on the Talmud, which covers nearly all of the Babylonian Talmud"
+        }
+      ],
+      "sources": [
+        "s-wp-rashi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-94",
+      "fromId": "p-maimonides",
+      "toId": "d-1563-shulchan-aruch",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הרמב״ם הוא אחד משלושת העמודים של השולחן ערוך.== **קארו** פסק לפי **הרי״ף**, **הרמב״ם** ו**הרא״ש**.",
+      "application": "לראות איך **פוסק** בונה על שלושה קודמים, ולא על אחד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-shulchan-aruch",
+          "quote": "Karo adopted the halakhot of Isaac Alfasi, Maimonides, and Asher ben Jehiel as his stand"
+        }
+      ],
+      "sources": [
+        "s-wp-shulchan-aruch"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-95",
+      "fromId": "d-1454-gutenberg-bible",
+      "toId": "d-1517-luther-theses",
+      "type": "enabled",
+      "confidence": "interpretive",
+      "explanation": "==הדפוס נתן לתזות כנפיים.== **95 התזות** הודפסו בכמה ערים, כחוברת וכלוחות.",
+      "application": "לחשוב על **ערוץ ההפצה** כחלק מהרעיון.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ninety-five-theses",
+          "quote": "The Latin Theses were printed in a four-page pamphlet in Basel, and as placards in Leipzig and Nuremberg."
+        }
+      ],
+      "sources": [
+        "s-wp-ninety-five-theses"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-96",
+      "fromId": "d-1905-binet-test",
+      "toId": "d-1923-piaget-child",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==פיאז׳ה התחיל בבדיקת המבחנים של בינה.== **פיאז׳ה** עזר לבדוק את **מבחני האינטליגנציה** של בינה.",
+      "application": "להסתכל לא רק על **התשובה הנכונה**, אלא על **הטעות**: שם פיאז׳ה מצא את חשיבת הילד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-jean-piaget",
+          "quote": "Piaget assisted in the marking of Binet's intelligence tests."
+        }
+      ],
+      "sources": [
+        "s-wp-jean-piaget"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-97",
+      "fromId": "d-1859-darwin-origin",
+      "toId": "d-1899-freud-dreams",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==פרויד קרא את דרווין.== **פרויד** השתמש בכתבים האבולוציוניים של **דרווין**.",
+      "application": "לחפש **ביולוגיה** בתוך תאוריה של הנפש.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-sigmund-freud",
+          "quote": "Freud owned and made use of Charles Darwin's major evolutionary writings"
+        }
+      ],
+      "sources": [
+        "s-wp-sigmund-freud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-98",
+      "fromId": "d-1899-freud-dreams",
+      "toId": "d-1934-popper-falsifiability",
+      "type": "opposed",
+      "confidence": "documented",
+      "explanation": "==פרויד היה הדוגמה של פופר ללא-מדע.== **פופר** הנגיד את **פרויד** לאיינשטיין: אחד אפשר להפריך, והשני לא.",
+      "application": "לשאול על כל תאוריה: **מה היה מפריך אותה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-karl-popper",
+          "quote": "Popper believed that there was a contrast between the theories of Sigmund Freud and Alfred Adler, which he considered non-scientific"
+        }
+      ],
+      "sources": [
+        "s-wp-karl-popper"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-99",
+      "fromId": "d-1882-kano-judo",
+      "toId": "d-1922-funakoshi-karate",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==החגורה של הקראטה הגיעה מהג׳ודו.== **פונאקושי** אימץ מהג׳ודו את **החליפה**, **החגורות** ו**הדרגות**.",
+      "application": "לראות איך **מבנה של אימון** עובר בין שיטות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-karate",
+          "quote": "Funakoshi incorporated elements from judo, such as the training uniforms, colored belts, and ranking systems."
+        }
+      ],
+      "sources": [
+        "s-wp-karate"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-100",
+      "fromId": "d-1882-kano-judo",
+      "toId": "d-1925-gracie-bjj",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==מטוקיו לריו.== ההדגמות של **מאיידה** ב\"ג׳יו-ג׳יטסו של קאנו\" הניחו את היסוד ל**ג׳יו-ג׳יטסו הברזילאי**.",
+      "application": "לעקוב אחרי **מורה נודד** שמעביר שיטה בין יבשות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-brazilian-jiu-jitsu",
+          "quote": "Maeda's demonstrations of \"Kano jiu-jitsu\"—a term then synonymous with judo—laid the groundwork for what would become Brazilian jiu-jitsu."
+        }
+      ],
+      "sources": [
+        "s-wp-brazilian-jiu-jitsu"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }
