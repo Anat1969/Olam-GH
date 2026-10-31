@@ -29,6 +29,7 @@ export interface Person {
 }
 export interface Discovery {
   id: string; title: string; yearFrom: number; yearTo: number; yearApprox: boolean; domainId: string; sub?: string; draftId?: string;
+  workImage?: { url: string; license: string; credit: string | null; page: string; article: string };
   personIds: string[]; place: Place | null; novelty?: string; contribution: string; confidence: Confidence;
   evidence: Evidence[]; sources: string[]; verified: boolean; verifiedAt: string | null;
 }

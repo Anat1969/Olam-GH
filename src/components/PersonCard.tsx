@@ -3,6 +3,8 @@ import { useEffect, useRef } from 'react';
 import Rich from './Rich';
 import Editable from './Editable';
 import Quote from './Quote';
+import WorkImage from './WorkImage';
+import CardNav, { type Nav } from './CardNav';
 import {
   type Person, confidenceName, discoveriesOf, domainById, lifeText, linkVerb, linksOf, nodeLabel, personById, rangeText, sourceById,
 } from '../data';
@@ -13,7 +15,7 @@ function SourceLink({ id }: { id: string }) {
   return <a className="src-link" href={s.url} target="_blank" rel="noreferrer" dir="ltr">{s.title}</a>;
 }
 
-export default function PersonCard({ person, onClose, onOpen }: { person: Person; onClose: () => void; onOpen: (personId: string | undefined, discoveryId?: string) => void }) {
+export default function PersonCard({ person, onClose, onOpen, nav }: { person: Person; onClose: () => void; onOpen: (personId: string | undefined, discoveryId?: string) => void; nav?: Nav }) {
   const ref = useRef<HTMLElement>(null);
   const finds = discoveriesOf(person.id);
   const rel = linksOf(person.id);
@@ -34,6 +36,7 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
         <div className="crumbs">ציר הזמן / כרטיס דמות</div>
         <button type="button" className="press btn btn-quiet" onClick={onClose}>סגירה</button>
       </div>
+      <CardNav nav={nav} />
       <div className="person-hero">
         <figure className="person-face">
           {person.imageUrl ? <img src={person.imageUrl} alt={person.nameHe} loading="lazy" /> : <div className="face-empty" />}
@@ -68,6 +71,7 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
             {d.sub && <span className="chip-sub">{domainById.get(d.domainId)?.subs?.find((x) => x.id === d.sub)?.nameHe}</span>}
           </div>
           <h4 className="find-title"><Editable kind="discovery" id={d.id} field="title" value={d.title} rich={false} /></h4>
+          <WorkImage d={d} />
           {d.novelty ? (
             <dl className="find-nc" aria-label="החידוש והתרומה">
               <div><dt className="label">החידוש</dt><dd><Editable kind="discovery" id={d.id} field="novelty" value={d.novelty} /></dd></div>

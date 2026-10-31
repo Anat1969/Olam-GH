@@ -1,6 +1,7 @@
 // שלב 4: גרף קשרים ותצוגות חיתוך.
 // דמויות הן צמתים מרובעים עם דיוקן. המיקום האופקי קבוע לפי הזמן (מימין לשמאל), והאנכי נקבע בכוחות (d3-force).
 import { useMatches } from '../search';
+import DomainIcon from '../icons';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { forceCollide, forceLink, forceSimulation, forceX, forceY, type SimulationNodeDatum } from 'd3-force';
 import { select } from 'd3-selection';
@@ -9,10 +10,10 @@ import Rich from '../components/Rich';
 import LinkPanel from '../components/LinkPanel';
 import PersonCard from '../components/PersonCard';
 import { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
-import { type LinkType, activeDomains, confidenceName, linkTypeName, personById, resolvedLinks, yearText, shortName } from '../data';
+import { type LinkType, activeDomains, confidenceName, linkTypeName, personById, resolvedLinks, yearText, shortName, workParams, discoveryById } from '../data';
 import { cities } from '../geo';
 import { type Edge, type GNode, applyFilters, cuts } from '../graph';
-import { href, replace } from '../route';
+import { href, replace, go } from '../route';
 
 const TYPES: LinkType[] = ['influenced', 'enabled', 'opposed', 'parallel'];
 const KEY = 'olam.views';
@@ -175,7 +176,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
             {activeDomains.map((d) => {
               const on = domains.has(d.id);
               return <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={on} disabled={on && domains.size === 1}
-                onClick={() => set({ d: activeDomains.map((a) => a.id).filter((a) => (a === d.id ? !on : domains.has(a))).join(',') })}>{d.nameHe}</button>;
+                onClick={() => set({ d: activeDomains.map((a) => a.id).filter((a) => (a === d.id ? !on : domains.has(a))).join(',') })}><DomainIcon id={d.id} />{d.nameHe}</button>;
             })}
           </div>
         </div>
@@ -279,8 +280,8 @@ export default function GraphPage({ params }: { params: Record<string, string> }
           )}
         </div>
         <ul className="legend" aria-label="מקרא">
-          {activeDomains.map((d) => <li key={d.id}><span className={`lg-sq dom-${d.id}`} />{d.nameHe}</li>)}
-          <li><span className="lg-sq dom-mixed" />כמה תחומים</li>
+          {activeDomains.map((d) => <li key={d.id}><DomainIcon id={d.id} />{d.nameHe}</li>)}
+          <li><DomainIcon id="mixed" />כמה תחומים</li>
           <li><span className="lg-line line-influenced" />השפעה</li>
           <li><span className="lg-line line-enabled" />איפשור</li>
           <li><span className="lg-line line-opposed" />ערעור</li>
@@ -307,7 +308,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
             {[...nodes].sort((a, b) => b.degree - a.degree || a.year - b.year).map((n) => (
               <li key={n.id}>
                 <button type="button" className="press city-row" aria-pressed={focus === n.id} onClick={() => set({ n: focus === n.id ? undefined : n.id })}>
-                  <span className={`lg-sq dom-${n.domain}`} />
+                  <DomainIcon id={n.domain} />
                   <span>{n.person.nameHe} <span className="muted" dir="ltr">{n.person.nameFull}</span></span>
                   <bdi className="num">{n.degree}</bdi>
                 </button>
@@ -336,7 +337,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
         </section>
       </div>
 
-      {person && <PersonCard person={person} onClose={() => set({ p: undefined })} onOpen={(id) => set({ p: id })} />}
+      {person && <PersonCard person={person} onClose={() => set({ p: undefined })} onOpen={(id, did) => (id ? set({ p: id }) : did ? go('timeline', workParams(discoveryById.get(did)!)) : undefined)} />}
     </main>
   );
 }

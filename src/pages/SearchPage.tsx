@@ -1,5 +1,6 @@
 // חיפוש לפי מילת מפתח: שדה אחד, תוצאות מקובצות (דמויות, גילויים, תתי תחומים, ערים), וכל תוצאה מובילה למקום שלה באפליקציה.
 import { useEffect, useMemo } from 'react';
+import DomainIcon from '../icons';
 import { discoveries } from '../data';
 import { href, replace } from '../route';
 import { markRange, search, setKeyword, useKeyword, type Hit } from '../search';
@@ -56,7 +57,7 @@ export default function SearchPage({ params }: { params: Record<string, string> 
             {xs.map((h) => (
               <li key={h.kind + h.id}>
                 <a className={`press search-hit kind-${h.kind}`} href={linkOf(h)} data-kind={h.kind} data-id={h.id}>
-                  {h.kind === 'person' && h.person.imageUrl ? <img src={h.person.imageUrl} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden'; }} /> : h.kind === 'discovery' ? <i className={`lg-sq dom-${h.d.domainId}`} aria-hidden="true" /> : null}
+                  {h.kind === 'person' && h.person.imageUrl ? <img src={h.person.imageUrl} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden'; }} /> : h.kind === 'discovery' && h.d.workImage ? <img src={h.d.workImage.url} alt="" loading="lazy" onError={(e) => { e.currentTarget.style.visibility = 'hidden'; }} /> : h.kind === 'discovery' ? <DomainIcon id={h.d.domainId} /> : null}
                   <span className="search-text">
                     <span className="search-title"><Marked text={h.title} q={q} /></span>
                     <span className="search-detail">{h.detail}</span>

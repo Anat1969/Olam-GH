@@ -1,5 +1,6 @@
 // שלב 2: השוואה בין תחומים. כמה שורות על ציר זמן אחד, זום מסונכרן ב-D3, וקשרים שנבחרים בלחיצה.
 // השורה הראשונה מציגה כרטיסים מעל הציר, והאחרות מתחתיו, כך שבין הצירים נשאר "שדה הקשרים".
+import DomainIcon from '../icons';
 import { useMatches } from '../search';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { scaleLinear } from 'd3-scale';
@@ -11,7 +12,7 @@ import LinkPanel from '../components/LinkPanel';
 import { BREAKS, FRACS, YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
 import {
   type Discovery, type LinkType, activeDomains, discoveries, endName, linkTypeName, personById,
-  resolveLink, links as allLinks, yearText, shortName, ANON, workParams } from '../data';
+  resolveLink, links as allLinks, yearText, shortName, ANON, workParams, discoveryById } from '../data';
 import { go, replace } from '../route';
 
 const PAD = 28;
@@ -194,7 +195,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
             return (
               <button key={d.id} type="button" className="press chip" aria-pressed={on} disabled={on && rows.length === 1}
                 onClick={() => set({ d: (on ? rows.filter((r) => r !== d.id) : activeDomains.map((a) => a.id).filter((a) => a === d.id || rows.includes(a))).join(','), l: undefined })}>
-                {d.nameHe} <bdi className="num">{discoveries.filter((x) => x.domainId === d.id).length}</bdi>
+                <DomainIcon id={d.id} />{d.nameHe} <bdi className="num">{discoveries.filter((x) => x.domainId === d.id).length}</bdi>
               </button>
             );
           })}
@@ -253,7 +254,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
 
           {rows.map((id, i) => (
             <div key={id} className={`cmp-rowname row-${id}`} style={{ top: i === 0 ? 4 : axisY(i) + ROW_CARDS - 18 }}>
-              {rowName(id)}
+              <DomainIcon id={id} />{rowName(id)}
             </div>
           ))}
 
@@ -340,7 +341,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
         </ul>
       )}
 
-      {person && <PersonCard person={person} onClose={() => set({ p: undefined })} onOpen={(id) => set({ p: id })} />}
+      {person && <PersonCard person={person} onClose={() => set({ p: undefined })} onOpen={(id, did) => (id ? set({ p: id }) : did ? go('timeline', workParams(discoveryById.get(did)!)) : undefined)} />}
     </main>
   );
 }

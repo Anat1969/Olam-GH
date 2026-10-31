@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Rich from '../components/Rich';
 import { allDiscoveries, allLinks, allPersons, discoveries, persons, rejected, report, sources } from '../data';
+import SearchInput from '../components/SearchInput';
 
 export default function Method() {
   const [q, setQ] = useState('');
@@ -72,7 +73,7 @@ export default function Method() {
       <h2 className="section-title">כל המקורות</h2>
       <label className="search">
         <span className="label">חיפוש במקורות</span>
-        <input className="field" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="למשל Kepler" aria-label="חיפוש במקורות" />
+        <SearchInput value={q} onChange={setQ} placeholder="למשל Kepler" label="חיפוש במקורות" dir="auto" />
       </label>
       {list.length === 0 ? <p className="muted">לא נמצא מקור בשם הזה. נסו מילה אחרת באנגלית.</p> : (
         <table className="src-table">
