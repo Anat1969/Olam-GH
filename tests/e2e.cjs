@@ -371,6 +371,37 @@ const mock = async (p) => {
     await p.reload({ waitUntil: 'networkidle' });
     ok((await p.locator('.cut[aria-pressed="true"]').innerText()).includes('המהפכה המדעית') && (await p.locator('.g-node.is-focus').count()) === 1, 'קישור מועתק לגרף פותח את אותו מצב');
 
+    // חיפוש לפי מילת מפתח
+    await p.goto(BASE + '#/timeline', { waitUntil: 'networkidle' });
+    await p.locator('body').press('/');
+    await p.locator('.search-big input').waitFor();
+    ok(p.url().includes('#/search'), 'מקש / פותח את החיפוש מכל מקום');
+    ok(await p.locator('.tabs a', { hasText: 'חיפוש' }).getAttribute('aria-current') === 'page', 'לשונית חיפוש בסרגל');
+    await p.locator('.search-big input').fill('קירי');
+    await p.locator('.search-hit[data-kind="person"]').first().waitFor();
+    ok((await p.locator('.search-hit[data-kind="person"]').allInnerTexts()).some((t) => t.includes('קירי')), 'חיפוש בעברית מוצא דמות');
+    await p.waitForTimeout(350);
+    ok(p.url().includes('q='), 'השאילתה נשמרת בכתובת');
+    await p.locator('.search-big input').fill('Kyoto');
+    await p.locator('.search-hit[data-kind="city"]').first().waitFor();
+    ok((await p.locator('.search-hit[data-kind="city"]').first().innerText()).includes('קיוטו'), 'חיפוש בלועזית מוצא עיר בעברית');
+    await p.locator('.search-big input').fill('אבחון');
+    await p.locator('.search-hit[data-kind="sub"]').first().waitFor();
+    await p.locator('.search-hit[data-kind="sub"]').first().click();
+    await p.locator('.sub-col.is-target').waitFor();
+    ok(p.url().includes('sub=assessment') && (await p.locator('.sub-col.is-target').count()) === 1, 'תת-תחום מהחיפוש נפתח ומסומן מתחת לציר');
+    await p.goto(BASE + '#/search?q=' + encodeURIComponent('xqzw'), { waitUntil: 'networkidle' });
+    ok((await h1(p)).includes('אין תוצאות'), 'חיפוש בלי תוצאות אומר זאת במפורש');
+    // יצירה בלי יוצר ידוע
+    const ANON_D = DISC.find((d) => !d.personIds.length);
+    ok(!!ANON_D, 'בנתונים יש יצירה בלי יוצר ידוע');
+    await p.goto(BASE + `#/timeline?d=${ANON_D.domainId}&y=2025`, { waitUntil: 'networkidle' });
+    await p.locator(`.tl-card[data-id="${ANON_D.id}"]`).click();
+    await p.locator('aside.work').waitFor();
+    ok((await p.locator('aside.work').innerText()).includes('יוצר לא ידוע') && p.url().includes(`w=${ANON_D.id}`), 'יצירה בלי יוצר פותחת כרטיס יצירה עם "יוצר לא ידוע"');
+    ok(await p.locator(`.tl-mark[data-year="${ANON_D.yearFrom}"]`).count() === 1, 'השנה של היצירה מודגשת על הציר');
+    await p.keyboard.press('Escape');
+
     // שלב 5: Supabase ועריכה
     await p.goto(BASE + '#/timeline?d=physics&y=1700&p=p-newton', { waitUntil: 'networkidle' });
     await p.locator('aside.person').waitFor();
@@ -459,7 +490,7 @@ const mock = async (p) => {
       const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
       await mock(m);
       m.on('pageerror', (e) => errors.push(e.message));
-      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/timeline?d=religion&y=2025', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/graph', '#/graph?n=p-galileo&l=l-24', '#/method']) {
+      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/timeline?d=religion&y=2025', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/graph', '#/graph?n=p-galileo&l=l-24', '#/search?q=%D7%A7%D7%99%D7%A8%D7%99', '#/method']) {
         await m.goto(BASE + h, { waitUntil: 'networkidle' });
         const hs = await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
         ok(!hs, `${vp.width}px ${h || 'בית'}: בלי גלילה אופקית בדף`);

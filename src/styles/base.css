@@ -116,3 +116,10 @@ mark.insight { background: linear-gradient(transparent 45%, var(--marker) 45%, v
   .brand span { display: none; }
 }
 
+/* שש לשוניות בטלפון: הן לא נכנסות ליד הלוגו, ולכן עוברות לשורה משלהן מתחתיו */
+@media (max-width: 480px) {
+  .topbar-in { grid-template-columns: auto minmax(0, 1fr) auto; row-gap: 0; }
+  .topbar-in > ai-menu { grid-column: 3; grid-row: 1; }
+  .tabs { grid-column: 1 / -1; grid-row: 2; justify-content: space-between; border-top: 1px solid var(--rule); }
+  .tab { padding: 10px 6px; font-size: 13px; }
+}

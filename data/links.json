@@ -4192,6 +4192,814 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-194",
+      "fromId": "d-700-shankara",
+      "toId": "d-1893-vivekananda-chicago",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==האדוואיטה הגיעה לשיקגו.== ויווקננדה ראה ב**אדוואיטה ודנטה** של שנקרה את הביטוי הטוב ביותר ל**מהות ההינדואיזם**.",
+      "application": "מסורת בת אלף שנה יכולה להפוך לשפה של דיאלוג בין-דתי כשמנסחים אותה מחדש לקהל חדש.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-swami-vivekananda",
+          "quote": "Vivekananda thought that the essence of Hinduism was best expressed in Adi Shankara's Advaita Vedanta philosophy.",
+          "quoteHe": "ויווקננדה סבר שמהות ההינדואיזם באה לידי ביטוי בצורה הטובה ביותר בפילוסופיית האדוואיטה ודנטה של אדי שנקרה."
+        }
+      ],
+      "sources": [
+        "s-wp-swami-vivekananda"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-195",
+      "fromId": "d-bce300-tao-te-ching",
+      "toId": "d-1850-yang-taichi",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==הרך מנצח את הקשה.== העיקרון של טאי צ׳י, **לא להפעיל כוח מול כוח**, נשען על הדגם שנתן **לאו דזה** בטאו טה צ׳ינג.",
+      "application": "בעימות, ויתור נכון ברגע הנכון יכול להיות חזק יותר מהתנגדות ישירה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tai-chi",
+          "quote": "Therefore, a key principle in tai chi is to avoid using force directly against force (hardness against hardness). Laozi provided the archetype for this in the Tao Te Ching when he wrote, \"The soft and the pliable will defeat the hard and strong.\"",
+          "quoteHe": "לכן עיקרון מרכזי בטאי צ׳י הוא להימנע מהפעלת כוח ישירות מול כוח (קשיות מול קשיות). לאו דזה סיפק לכך את הדגם בטאו טה צ׳ינג כשכתב: \"הרך והגמיש יגברו על הקשה והחזק\"."
+        }
+      ],
+      "sources": [
+        "s-wp-tai-chi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-196",
+      "fromId": "d-500-babylonian-talmud",
+      "toId": "d-1935-regina-jonas",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==ההלכה כטיעון בעד.== יונאס ביססה את הטענה שאפשר להסמיך אותה על **מקורות מן המקרא, התלמוד והספרות הרבנית**.",
+      "application": "שינוי בתוך מסורת משכנע יותר כשהוא מנומק מתוך המקורות שלה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-regina-jonas",
+          "quote": "Her conclusion, based on Biblical, Talmudic, and rabbinical sources, was that she should be ordained.",
+          "quoteHe": "מסקנתה, על סמך מקורות מן המקרא, התלמוד והספרות הרבנית, הייתה שיש להסמיך אותה."
+        }
+      ],
+      "sources": [
+        "s-wp-regina-jonas"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-197",
+      "fromId": "d-bce335-aristotle-nicomachean",
+      "toId": "d-1981-macintyre-after-virtue",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==חזרה לאריסטו אחרי אלפיים שנה.== מקינטייר הציב את **הפילוסופיה המוסרית של אריסטו** כדגם לשיח מוסרי שהיה **במצב טוב יותר**.",
+      "application": "כשמושגים מוסריים מאבדים משמעות, כדאי לחזור למסורת שבה הם נולדו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-after-virtue",
+          "quote": "He claims that older forms of moral discourse were in better shape, particularly singling out Aristotle's moral philosophy as an exemplar.",
+          "quoteHe": "הוא טוען שצורות ישנות של שיח מוסרי היו במצב טוב יותר, ומציין במיוחד את הפילוסופיה המוסרית של אריסטו כדגם."
+        }
+      ],
+      "sources": [
+        "s-wp-after-virtue"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-198",
+      "fromId": "d-1923-piaget-child",
+      "toId": "d-1981-habermas-communicative-action",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==פסיכולוגיה של ילדים בתוך תורת החברה.== הברמאס שילב את **הפסיכולוגיה ההתפתחותית של פיאז׳ה** בניסיון **לעדכן את המרקסיזם**.",
+      "application": "תאוריה חברתית מתחזקת כשהיא נשענת על מחקר של התפתחות האדם.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-theory-of-communicative-action",
+          "quote": "The theory of communicative action understands language as the foundational component of society and is an attempt to update Marxism by \"drawing on Systems theory (Luhmann), developmental psychology (Piaget, Kohlberg), and social theory (Weber, Durkheim, Parsons, Mead, etc.)\".",
+          "quoteHe": "תורת הפעולה התקשורתית רואה בשפה את הרכיב היסודי של החברה, והיא ניסיון לעדכן את המרקסיזם \"בהסתמך על תורת המערכות (לוהמן), הפסיכולוגיה ההתפתחותית (פיאז׳ה, קולברג) ותורת החברה (ובר, דורקהיים, פרסונס, מיד ועוד)\"."
+        }
+      ],
+      "sources": [
+        "s-wp-the-theory-of-communicative-action"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-199",
+      "fromId": "d-1949-beauvoir-second-sex",
+      "toId": "d-1990-butler-gender-trouble",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מ\"המין השני\" למגדר כביצוע.== באטלר בחנה את עבודתה של **סימון דה בובואר** כדי לחקור את הקשר בין **כוח לבין קטגוריות של מין ומגדר**.",
+      "application": "כדי לפרק מושג, קוראים מקרוב את מי שעיצב אותו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gender-trouble",
+          "quote": "Examining the work of the philosophers Simone de Beauvoir and Luce Irigaray, Butler explores the relationship between power and categories of sex and gender.",
+          "quoteHe": "בבחינת עבודתן של הפילוסופיות סימון דה בובואר ולוס איריגארה, באטלר חוקרת את הקשר בין כוח לבין קטגוריות של מין ומגדר."
+        }
+      ],
+      "sources": [
+        "s-wp-gender-trouble"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-200",
+      "fromId": "p-foucault",
+      "toId": "d-1990-butler-gender-trouble",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==אימהות כתוצר של שיח.== באטלר נשענה על **טיעוני פוקו** כדי לטעון שהגדרת האישה לפי האימהות היא **תוצר של שיח**.",
+      "application": "שואלים מי הגדיר קטגוריה, לפני שמקבלים אותה כטבעית.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gender-trouble",
+          "quote": "Butler argues the notion of \"maternity\" as a haven for females is a social construct and invokes arguments by Michel Foucault to posit that maternity defining women is itself a product of discourse.",
+          "quoteHe": "באטלר טוענת שהרעיון של \"אימהות\" כמקום מבטחים לנשים הוא הבניה חברתית, ומגייסת טיעונים של מישל פוקו כדי לקבוע שהאימהות המגדירה נשים היא עצמה תוצר של שיח."
+        }
+      ],
+      "sources": [
+        "s-wp-gender-trouble"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-201",
+      "fromId": "p-lacan",
+      "toId": "d-1990-butler-gender-trouble",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==פסיכואנליזה בתוך הפילוסופיה של המגדר.== באטלר נשענה על **ז׳אק לאקאן** ועל **זיגמונד פרויד**, לצד פוקו, דרידה ובובואר.",
+      "application": "מושגים מהקליניקה יכולים להפוך לכלים לניתוח חברתי ופוליטי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gender-trouble",
+          "quote": "Butler draws upon many authors in their work, including Jacques Lacan, Sigmund Freud, Michel Foucault, Julia Kristeva, Jacques Derrida, Simone de Beauvoir, Luce Irigaray, Monique Wittig, among others.",
+          "quoteHe": "באטלר נשענת בעבודתה על כותבים רבים, ובהם ז׳אק לאקאן, זיגמונד פרויד, מישל פוקו, ז׳וליה קריסטבה, ז׳אק דרידה, סימון דה בובואר, לוס איריגארה ומוניק ויטיג."
+        }
+      ],
+      "sources": [
+        "s-wp-gender-trouble"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-202",
+      "fromId": "p-freud",
+      "toId": "d-1990-butler-gender-trouble",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==אבל ומלנכוליה כמפתח לזהות.== באטלר דנה ב**פרויד**, ובעזרת ההסבר שלו ל**אבל ולמלנכוליה** תיארה את הזהות המגדרית.",
+      "application": "תאוריה פסיכולוגית ותיקה יכולה לקבל חיים חדשים בשאלות שלא נשאלו בזמנה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-judith-butler",
+          "quote": "Gender Trouble discusses the works of Sigmund Freud, Simone de Beauvoir, Julia Kristeva, Jacques Lacan, Luce Irigaray, Monique Wittig, Jacques Derrida, and Michel Foucault.",
+          "quoteHe": "צרות מגדר דן בעבודותיהם של זיגמונד פרויד, סימון דה בובואר, ז׳וליה קריסטבה, ז׳אק לאקאן, לוס איריגארה, מוניק ויטיג, ז׳אק דרידה ומישל פוקו."
+        },
+        {
+          "sourceId": "s-wp-gender-trouble",
+          "quote": "Finally, with Freud, they assert that \"gender identification is a kind of melancholia in which the sex of the prohibited object is internalized as a prohibition\"",
+          "quoteHe": "לבסוף, יחד עם פרויד, היא טוענת ש\"הזדהות מגדרית היא סוג של מלנכוליה שבה מינו של האובייקט האסור מופנם כאיסור\""
+        }
+      ],
+      "sources": [
+        "s-wp-judith-butler",
+        "s-wp-gender-trouble"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-203",
+      "fromId": "p-descartes",
+      "toId": "d-2003-bostrom-simulation",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==מהשד המתעתע לסימולציה.== **השד המתעתע** של דקארט נחשב לאחד הקודמים של **טיעון הסימולציה**.",
+      "application": "שאלה פילוסופית ותיקה מקבלת צורה חדשה כשהטכנולוגיה הופכת אותה למוחשית.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-simulation-hypothesis",
+          "quote": "Precursors include Zhuangzi's \"Butterfly Dream\" and René Descartes's \"evil demon\".",
+          "quoteHe": "בין הקודמים לו: \"חלום הפרפר\" של ג׳ואנג דזה ו\"השד המתעתע\" של רנה דקארט."
+        }
+      ],
+      "sources": [
+        "s-wp-simulation-hypothesis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-204",
+      "fromId": "p-freud",
+      "toId": "d-1936-anna-freud-defence",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הבת ממשיכה את האב.== אנה פרויד הסתמכה על **כתבי אביה** כמקור **העיקרי והמוסמך** לתובנותיה.",
+      "application": "המשך של מסורת מחקר נבנה גם מהסדרה ומיון של מה שכבר נכתב.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-anna-freud",
+          "quote": "Anna Freud drew on her own clinical experience, but relied on her father's writings as the principal and authoritative source of her theoretical insights.",
+          "quoteHe": "אנה פרויד נשענה על ניסיונה הקליני, אבל הסתמכה על כתבי אביה כמקור העיקרי והמוסמך לתובנותיה התאורטיות."
+        }
+      ],
+      "sources": [
+        "s-wp-anna-freud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-205",
+      "fromId": "p-freud",
+      "toId": "d-1936-lacan-mirror-stage",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==\"חזרה לפרויד\".== לאקאן הכריז על עבודתו כ**\"חזרה לפרויד\"**, בניגוד למגמות ש**התאימו את רעיונות פרויד לנורמות חברתיות**.",
+      "application": "חזרה למקור יכולה להיות מהלך חדשני ולא שמרני.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-jacques-lacan",
+          "quote": "In consequence, Lacan went on to establish new psychoanalytic institutions to promote and develop his work, which he declared to be a \"return to Freud\", in opposition to prevalent trends in psychology and institutional psychoanalysis which adapted Freud's ideas to social norms.",
+          "quoteHe": "בעקבות זאת הקים לאקאן מוסדות פסיכואנליטיים חדשים כדי לקדם ולפתח את עבודתו, שעליה הכריז כ\"חזרה לפרויד\", בניגוד למגמות הרווחות בפסיכולוגיה ובפסיכואנליזה הממוסדת, שהתאימו את רעיונות פרויד לנורמות חברתיות."
+        }
+      ],
+      "sources": [
+        "s-wp-jacques-lacan"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-206",
+      "fromId": "d-1905-binet-test",
+      "toId": "d-1983-gardner-multiple-intelligences",
+      "type": "opposed",
+      "confidence": "interpretive",
+      "explanation": "==אינטליגנציה אחת או רבות.== גרדנר ערער על התפיסה של אינטליגנציה כ**יכולת מופשטת ולוגית אחת**, הקשורה ל**מבחני IQ**.",
+      "application": "כשמודדים רק סוג אחד של יכולת, מפספסים כישרונות אחרים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-theory-of-multiple-intelligences",
+          "quote": "However, mainstream psychologists often reject it because it challenges the traditional conception of intelligence as solely an abstract, logical capacity closely aligned with IQ tests and academic performance.",
+          "quoteHe": "עם זאת, פסיכולוגים מהזרם המרכזי דוחים אותה לעתים קרובות, כי היא מערערת על התפיסה המסורתית של אינטליגנציה כיכולת מופשטת ולוגית בלבד, הקשורה הדוק למבחני IQ ולהישגים לימודיים."
+        },
+        {
+          "sourceId": "s-wp-theory-of-multiple-intelligences",
+          "quote": "Gardner contends that Intelligence Quotient (IQ) tests focus mostly on logical and linguistic intelligence.",
+          "quoteHe": "גרדנר טוען שמבחני מנת משכל (IQ) מתמקדים בעיקר באינטליגנציה לוגית ולשונית."
+        }
+      ],
+      "sources": [
+        "s-wp-theory-of-multiple-intelligences"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-207",
+      "fromId": "p-spitzer",
+      "toId": "d-2013-dsm-5",
+      "type": "opposed",
+      "confidence": "documented",
+      "explanation": "==אדריכל DSM-III נגד החשאיות.== **רוברט שפיצר**, ראש כוח המשימה של DSM-III, מתח ביקורת על כך שהכנת DSM-5 נוהלה **בחשאי**.",
+      "application": "כלי אבחון שמשפיע על מיליונים צריך תהליך כתיבה שקוף.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-dsm-5",
+          "quote": "Robert Spitzer, the head of the DSM-III task force, publicly criticized the APA for mandating that DSM-5 task force members sign a nondisclosure agreement, effectively conducting the whole process in secret",
+          "quoteHe": "רוברט שפיצר, ראש כוח המשימה של DSM-III, מתח ביקורת פומבית על האיגוד על שחייב את חברי כוח המשימה של DSM-5 לחתום על הסכם סודיות, וכך למעשה ניהל את כל התהליך בחשאי"
+        }
+      ],
+      "sources": [
+        "s-wp-dsm-5"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-208",
+      "fromId": "d-1955-taekwondo",
+      "toId": "d-2000-olympic-taekwondo",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==מאומנות לחימה צבאית לבמה אולימפית.== הטאקוונדו התחיל כ**ענף הדגמה** ב-1988 והפך ל**ענף מדליות רשמי** ב-2000.",
+      "application": "ענף חדש נכנס למוסד גדול בשלבים: הדגמה, הכרה ואז תחרות מלאה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-taekwondo",
+          "quote": "It started as a demonstration event at the 1988 games in Seoul, a year after becoming a medal event at the Pan Am Games, and became an official medal event at the 2000 Summer Olympics.",
+          "quoteHe": "הוא התחיל כענף הדגמה במשחקים של 1988 בסיאול, שנה אחרי שהפך לענף מדליות במשחקים הפאן-אמריקאיים, והפך לענף מדליות רשמי באולימפיאדת הקיץ 2000."
+        }
+      ],
+      "sources": [
+        "s-wp-taekwondo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-209",
+      "fromId": "d-1993-ufc1",
+      "toId": "d-2013-rousey-ufc-women",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==עשרים שנה עד שנשים נכנסו לזירה.== ראוזי הייתה **הלוחמת הראשונה** שהחתים ה-UFC, והשתתפה ב**קרב הנשים הראשון** שלו.",
+      "application": "גם מסגרת שנולדה בלי מגבלות כמעט יכולה להחזיק שנים בגבול אחד שלא נבדק.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ronda-rousey",
+          "quote": "Rousey was the first female fighter signed by the UFC and part of the promotion's first women's bout at UFC 157",
+          "quoteHe": "ראוזי הייתה הלוחמת הראשונה שהחתים ה-UFC, והשתתפה בקרב הנשים הראשון של הארגון ב-UFC 157"
+        }
+      ],
+      "sources": [
+        "s-wp-ronda-rousey"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-210",
+      "fromId": "d-1882-kano-judo",
+      "toId": "d-2013-rousey-ufc-women",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==מהטאטאמי לכלוב.== ראוזי הגיעה ל-UFC כ**ג׳ודוקא** והייתה האמריקאית הראשונה שזכתה ב**מדליה אולימפית בג׳ודו**.",
+      "application": "בסיס עמוק באומנות אחת הוא יתרון גם בזירה מעורבת.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ronda-rousey",
+          "quote": "She was the first American woman to win an Olympic medal in judo by winning bronze at the 2008 Summer Olympics.",
+          "quoteHe": "היא הייתה האישה האמריקאית הראשונה שזכתה במדליה אולימפית בג׳ודו, כשזכתה בארד באולימפיאדת הקיץ 2008."
+        }
+      ],
+      "sources": [
+        "s-wp-ronda-rousey"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-211",
+      "fromId": "p-bach",
+      "toId": "d-1955-gould-goldberg",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==יצירה נשכחת קיבלה חיים בכלי אחר.== גולד הקליט את **וריאציות גולדברג של באך**, שנכתבו לצ׳מבלו, וביסס אותן **ברפרטואר הפסנתר**.",
+      "application": "לפעמים החידוש הגדול הוא ביצוע חדש ליצירה ותיקה שאיש לא ניגן.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bach-the-goldberg-variations-glenn-gould-album",
+          "quote": "An interpretation of Johann Sebastian Bach's Goldberg Variations (BWV 988), the 1956 record launched Gould's career as a renowned international pianist, and became one of the most well-known piano recordings.",
+          "quoteHe": "התקליט משנת 1956, פרשנות לווריאציות גולדברג של יוהאן סבסטיאן באך (BWV 988), פתח את הקריירה של גולד כפסנתרן בין-לאומי נודע, והיה לאחת מהקלטות הפסנתר המוכרות ביותר."
+        }
+      ],
+      "sources": [
+        "s-wp-bach-the-goldberg-variations-glenn-gould-album"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-212",
+      "fromId": "p-stravinsky",
+      "toId": "d-1957-balanchine-agon",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==המוזיקה כתבה את חוקי הריקוד.== אגון נוצר על **פרטיטורה של סטרווינסקי**, וקיבל ממנה את **מבנה הפרקים** בלי סיפור.",
+      "application": "שיתוף פעולה קבוע בין מלחין לכוריאוגרף מייצר שפה משותפת שאף אחד מהם לא היה מגיע אליה לבד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "Agon is a 25-minute ballet for twelve dancers, with music by Igor Stravinsky and choreography by George Balanchine.",
+          "quoteHe": "אגון הוא בלט בן 25 דקות לשנים עשר רקדנים, במוזיקה של איגור סטרווינסקי ובכוריאוגרפיה של ג׳ורג׳ בלנשין."
+        }
+      ],
+      "sources": [
+        "s-wp-agon-ballet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-213",
+      "fromId": "d-1923-schoenberg-twelve",
+      "toId": "d-1957-balanchine-agon",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==שיטת הלחנה עלתה על הבמה.== **טכניקת שנים-עשר הטונים** הגיעה אל הבלט דרך אגון, היצירה הראשונה שבה סטרווינסקי השתמש ב**טור של שנים-עשר טונים**.",
+      "application": "שיטה מופשטת בתחום אחד יכולה להפוך לחומר גלם חי בתחום אחר.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "This was not the first composition in which Stravinsky employed serial techniques, but it was the first in which he used a twelve-tone row, introduced in the second coda, at bar 185.",
+          "quoteHe": "זו לא הייתה היצירה הראשונה שבה סטרווינסקי השתמש בטכניקות סריאליות, אבל זו הייתה הראשונה שבה השתמש בטור של שנים-עשר טונים, שמופיע בקודה השנייה, בתיבה 185."
+        }
+      ],
+      "sources": [
+        "s-wp-agon-ballet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-214",
+      "fromId": "d-1890-petipa-sleeping",
+      "toId": "d-1988-forsythe-czar",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הבלט הקלאסי הפך לנושא של עצמו.== השם של יצירת פורסייט מתייחס ל**קבלת הפנים האדישה של הצאר** ל**היפהפייה הנרדמת של פטיפה**.",
+      "application": "אפשר לחדש מסורת דרך דיאלוג אירוני איתה ולא רק דרך שבירה שלה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-impressing-the-czar",
+          "quote": "The work's title is a reference to the Czar Nicholas II's indifferent reception of Marius Petipa's lavish production of The Sleeping Beauty.",
+          "quoteHe": "שם היצירה מתייחס לקבלת הפנים האדישה של הצאר ניקולאי השני להפקה המפוארת של מריוס פטיפה ל\"היפהפייה הנרדמת\"."
+        }
+      ],
+      "sources": [
+        "s-wp-impressing-the-czar"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-215",
+      "fromId": "p-kapoor",
+      "toId": "d-2002-khan-kaash",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==פסל ורקדן על אותה במה.== קאאש נוצר **בשיתוף עם אניש קאפור**, כך ש**פיסול ומחול** חברו ביצירה אחת.",
+      "application": "שיתוף פעולה עם אמן מתחום חזותי נותן לריקוד מרחב שהכוריאוגרפיה לבדה לא בונה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-akram-khan-dancer",
+          "quote": "His first full-length work Kaash, a collaboration with Anish Kapoor and Nitin Sawhney, was performed at the Edinburgh Festival in 2002.",
+          "quoteHe": "עבודתו הראשונה באורך מלא, קאאש, בשיתוף עם אניש קאפור וניטין סוואני, הועלתה בפסטיבל אדינבורו ב-2002."
+        }
+      ],
+      "sources": [
+        "s-wp-akram-khan-dancer"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-216",
+      "fromId": "d-1973-herc-breakbeat",
+      "toId": "d-1982-basquiat-skull",
+      "type": "parallel",
+      "confidence": "interpretive",
+      "explanation": "==ציור ומוזיקה צמחו מאותו רחוב.== בסקיה פרץ ב**לואר איסט סייד**, שם **אמנות רחוב והיפ הופ** התגבשו יחד.",
+      "application": "סצנה עירונית אחת יכולה להזין בבת אחת כמה אמנויות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-jean-michel-basquiat",
+          "quote": "Basquiat first achieved notoriety in the late 1970s as part of the graffiti duo SAMO, alongside Al Diaz, writing enigmatic epigrams in Manhattan, particularly in the cultural hotbed of the Lower East Side where disco, punk, and street art coalesced into early hip-hop culture.",
+          "quoteHe": "בסקיה זכה לראשונה לפרסום בסוף שנות ה-70 כחלק מצמד הגרפיטי SAMO, לצד אל דיאז, כשכתב אפיגרמות חידתיות במנהטן, בעיקר בלואר איסט סייד, מוקד תרבותי שבו דיסקו, פאנק ואמנות רחוב התגבשו לתרבות ההיפ הופ המוקדמת."
+        }
+      ],
+      "sources": [
+        "s-wp-jean-michel-basquiat"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-217",
+      "fromId": "d-1973-herc-breakbeat",
+      "toId": "d-1988-public-enemy-nation",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==הבריקביט הפך לחומר שאפשר לפרק.== פבליק אנמי ירשו את **הבריקביט של ההיפ הופ**, ולפעמים **ויתרו על הלופ** וניגנו אותו מחדש.",
+      "application": "כשכלי הופך למוסכמה, החידוש הבא מגיע ממי שמשנה את אופן השימוש בו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-it-takes-a-nation-of-millions-to-hold-us-back",
+          "quote": "Instead of looping the break from James Brown's \"Funky Drummer\", a commonly used breakbeat in hip hop, \"Rebel Without a Pause\" had Flavor Flav play the beat on the drum machine continuously for the track's duration of five minutes and two seconds.",
+          "quoteHe": "במקום ללפלף את הבריק מתוך \"Funky Drummer\" של ג׳יימס בראון, בריקביט נפוץ בהיפ הופ, ב-\"Rebel Without a Pause\" ניגן פלייבור פלאב את הקצב על מכונת תופים ברציפות לאורך כל חמש הדקות ושתי השניות של השיר."
+        }
+      ],
+      "sources": [
+        "s-wp-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-218",
+      "fromId": "p-mccartney",
+      "toId": "d-1982-jackson-thriller",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==שני דורות של פופ נפגשו באולפן.== **פול מקרטני** הופיע כ**אמן האורח הראשון** שקיבל קרדיט באלבום של ג׳קסון.",
+      "application": "שיתוף פעולה עם כוכב מבוסס יכול לחבר קהל ותיק ליצירה חדשה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thriller-album",
+          "quote": "Paul McCartney appears as the first credited featured artist on a Jackson album.",
+          "quoteHe": "פול מקרטני מופיע כאמן האורח הראשון שקיבל קרדיט באלבום של ג׳קסון."
+        }
+      ],
+      "sources": [
+        "s-wp-thriller-album"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-219",
+      "fromId": "d-1814-goya-third-may",
+      "toId": "p-picasso",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==ציור מלחמה אחד הוליד שושלת.== **השלושה במאי** מצוטט כהשפעה על **גרניקה** של פיקאסו מ-1937.",
+      "application": "תמונה שמתעדת אלימות בלי פאתוס הרואי יכולה להפוך לתבנית לכל דור.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-third-of-may-1808",
+          "quote": "The Third of May is cited as an influence on Pablo Picasso's 1937 Guernica, which shows the aftermath of the Nazi German bombing of Guernica during the Spanish Civil War.",
+          "quoteHe": "השלושה במאי מצוטט כהשפעה על \"גרניקה\" של פבלו פיקאסו מ-1937, שמראה את תוצאות ההפצצה הנאצית-גרמנית על גרניקה במלחמת האזרחים בספרד."
+        }
+      ],
+      "sources": [
+        "s-wp-the-third-of-may-1808"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-220",
+      "fromId": "d-1849-courbet-burial",
+      "toId": "d-1872-monet-impression",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==העצמאות של קורבה פתחה דלת.== קורבה היה **השראה לדור הצעיר** של הציירים הצרפתים, ובהם **האימפרסיוניסטים**.",
+      "application": "אמן שמוכן לעמוד מול הממסד מכשיר את הקרקע לתנועות שיבואו אחריו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gustave-courbet",
+          "quote": "He was admired by the American James Abbott McNeill Whistler, and he became an inspiration to the younger generation of French artists including Édouard Manet and the Impressionist painters.",
+          "quoteHe": "האמריקאי ג׳יימס אבוט מקניל ויסלר העריץ אותו, והוא היה להשראה לדור הצעיר של האמנים הצרפתים, ובהם אדואר מאנה והציירים האימפרסיוניסטים."
+        }
+      ],
+      "sources": [
+        "s-wp-gustave-courbet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-221",
+      "fromId": "d-1822-fourier-heat",
+      "toId": "d-1902-lebesgue-integral",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==טורי פורייה דרשו אינטגרל חזק יותר.== הבעיות שעלו מ**טורי פורייה** חייבו להחליף בין גבול לאינטגרל, ושם **אינטגרל לבג** גמיש הרבה יותר מאינטגרל רימן.",
+      "application": "כשכלי חדש מייצר שאלות שהמתמטיקה הקיימת לא עונה עליהן, זה הסימן להגדיר מחדש את היסודות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-lebesgue-integration",
+          "quote": "With the advent of Fourier series, many analytical problems involving integrals arose whose satisfactory solution required interchanging limit processes and integral signs.",
+          "quoteHe": "עם הופעת טורי פורייה עלו בעיות אנליטיות רבות הקשורות לאינטגרלים, שפתרון מספק שלהן דרש להחליף בין תהליכי גבול לבין סימני אינטגרל."
+        },
+        {
+          "sourceId": "s-wp-lebesgue-integration",
+          "quote": "For instance, under mild conditions, it is possible to exchange limits with Lebesgue integration, while the conditions for doing this with a Riemann integral are comparatively restrictive.",
+          "quoteHe": "למשל, בתנאים מתונים אפשר להחליף גבולות עם אינטגרציית לבג, ואילו התנאים לעשות זאת עם אינטגרל רימן מגבילים יחסית."
+        }
+      ],
+      "sources": [
+        "s-wp-lebesgue-integration"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-222",
+      "fromId": "d-1684-leibniz-calculus",
+      "toId": "d-1821-cauchy-cours",
+      "type": "enabled",
+      "confidence": "interpretive",
+      "explanation": "==מחשבון שעובד לחשבון שמוכח.== קושי היה מהראשונים ש**הוכיחו בקפדנות** את המשפטים המרכזיים של החשבון הדיפרנציאלי, וכך יצר את **האנליזה הממשית**.",
+      "application": "שיטה שמצליחה בפועל עוד צריכה יסודות. הוכחה מדויקת היא מה שמאפשר להרחיב אותה בביטחון.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-augustin-louis-cauchy",
+          "quote": "He was one of the first to rigorously state and prove the key theorems of calculus (thereby creating real analysis)",
+          "quoteHe": "הוא היה מהראשונים שניסחו והוכיחו בקפדנות את המשפטים המרכזיים של החשבון הדיפרנציאלי והאינטגרלי (וכך יצר את האנליזה הממשית)"
+        }
+      ],
+      "sources": [
+        "s-wp-augustin-louis-cauchy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-223",
+      "fromId": "d-1824-carnot-reflections",
+      "toId": "d-1865-clausius-entropy",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==ממנוע קיטור לחוק טבע.== קלאוזיוס השתמש בניתוח של קרנו כדי להגדיר את **האנטרופיה**, וכך ניסח את **החוק השני של התרמודינמיקה**.",
+      "application": "שאלה הנדסית צרה, כמו נצילות של מנוע, יכולה להוביל לחוק כללי של הטבע.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nicolas-le-onard-sadi-carnot",
+          "quote": "Thomson used Carnot's analysis to develop an absolute thermodynamic temperature scale, while Clausius used it to define the concept of entropy, thus formalizing the second law of thermodynamics.",
+          "quoteHe": "תומסון השתמש בניתוח של קרנו כדי לפתח סולם טמפרטורה תרמודינמי מוחלט, ואילו קלאוזיוס השתמש בו כדי להגדיר את מושג האנטרופיה, וכך ניסח באופן פורמלי את החוק השני של התרמודינמיקה."
+        }
+      ],
+      "sources": [
+        "s-wp-nicolas-le-onard-sadi-carnot"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-224",
+      "fromId": "d-1865-clausius-entropy",
+      "toId": "d-1877-boltzmann-entropy",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מאנטרופיה של חום לאנטרופיה של הסתברות.== בולצמן הרחיב במאמר של 1877 את התאוריה **מעבר לקרנו, לקלאוזיוס ולמקסוול**, והראה שגם חום, פיזור במרחב וקרינה תורמים לאנטרופיה.",
+      "application": "מושג שנולד במדידות מאקרוסקופיות מקבל משמעות עמוקה יותר כשסופרים את האפשרויות שמתחתיו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ludwig-boltzmann",
+          "quote": "Boltzmann also extended his theory in his 1877 paper beyond Carnot, Rudolf Clausius, James Clerk Maxwell and Lord Kelvin by demonstrating that entropy is contributed to by heat, spatial separation, and radiation.",
+          "quoteHe": "בולצמן גם הרחיב את התאוריה שלו במאמרו משנת 1877 מעבר לקרנו, לרודולף קלאוזיוס, לג'יימס קלרק מקסוול וללורד קלווין, כשהראה שחום, הפרדה מרחבית וקרינה תורמים לאנטרופיה."
+        }
+      ],
+      "sources": [
+        "s-wp-ludwig-boltzmann"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-225",
+      "fromId": "d-1877-boltzmann-entropy",
+      "toId": "d-1900-planck-quantum",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הסטטיסטיקה של בולצמן פתחה את הדלת לקוונטים.== פלאנק השתמש ב**קבוע בולצמן** כדי לתאר את האנטרופיה של המערכת, והגיע כך ל**נוסחת הקרינה** שלו ב-1900.",
+      "application": "כלי שפותח לתחום אחד, כמו ספירת מצבים של גז, יכול להכריע שאלה בתחום אחר לגמרי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ludwig-boltzmann",
+          "quote": "For instance, Max Planck in quantizing resonators in his Black Body theory of radiation used the Boltzmann constant to describe the entropy of the system to arrive at his formula in 1900.",
+          "quoteHe": "למשל, מקס פלאנק, כשקוונטט את המהודים בתאוריית קרינת הגוף השחור שלו, השתמש בקבוע בולצמן כדי לתאר את האנטרופיה של המערכת, והגיע כך לנוסחה שלו ב-1900."
+        }
+      ],
+      "sources": [
+        "s-wp-ludwig-boltzmann"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-226",
+      "fromId": "d-1865-clausius-entropy",
+      "toId": "d-1876-gibbs-potential",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==החוקים של קלאוזיוס נכנסו לכימיה.== המונוגרפיה של גיבס על שיווי משקל של חומרים **נפתחת בציטוט מקלאוזיוס**, ומחילה את התרמודינמיקה על **תופעות פיזיקליות-כימיות**.",
+      "application": "חוק שנוסח למנועים הפך לכלי לחזות אם תגובה כימית תתרחש.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-josiah-willard-gibbs",
+          "quote": "begins with a quotation from Rudolf Clausius that expresses what would later be called the first and second laws of thermodynamics",
+          "quoteHe": "נפתחת בציטוט מרודולף קלאוזיוס, שמבטא את מה שייקרא לימים החוק הראשון והחוק השני של התרמודינמיקה"
+        },
+        {
+          "sourceId": "s-wp-josiah-willard-gibbs",
+          "quote": "Gibbs's monograph rigorously and ingeniously applied his thermodynamic techniques to the interpretation of physico-chemical phenomena, explaining and relating what had previously been a mass of isolated facts and observations.",
+          "quoteHe": "המונוגרפיה של גיבס החילה בקפדנות ובכושר המצאה את השיטות התרמודינמיות שלו על פירוש תופעות פיזיקליות-כימיות, והסבירה וקשרה את מה שהיה קודם לכן גוש של עובדות ותצפיות מבודדות."
+        }
+      ],
+      "sources": [
+        "s-wp-josiah-willard-gibbs"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-227",
+      "fromId": "d-1859-darwin-origin",
+      "toId": "d-1866-haeckel-ecology",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==דרווין בגרמנית, עם מילים חדשות.== הקל **קידם והפיץ את עבודת דרווין** בגרמניה, וב\"מורפולוגיה הכללית\" חיבר את רעיונותיו ל**פילוסופיית הטבע** הגרמנית.",
+      "application": "רעיון חדש מתפשט כשמישהו מתרגם אותו למסורת המקומית וממציא לו מילים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ernst-haeckel",
+          "quote": "Haeckel promoted and popularised Charles Darwin's work in Germany",
+          "quoteHe": "הקל קידם והפיץ את עבודתו של צ'ארלס דרווין בגרמניה"
+        },
+        {
+          "sourceId": "s-wp-ernst-haeckel",
+          "quote": "presenting a revolutionary new synthesis of Darwin's ideas with the German tradition of Naturphilosophie",
+          "quoteHe": "והציג סינתזה מהפכנית חדשה של רעיונות דרווין עם המסורת הגרמנית של פילוסופיית הטבע"
+        }
+      ],
+      "sources": [
+        "s-wp-ernst-haeckel"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-228",
+      "fromId": "d-1866-haeckel-ecology",
+      "toId": "d-1962-silent-spring",
+      "type": "enabled",
+      "confidence": "interpretive",
+      "explanation": "==מהמילה אקולוגיה לתנועה סביבתית.== התחום ש**הקל נתן לו שם** ב-1866 הוא התחום של קרסון, ה**אקולוגית** שספרה גייס את התנועה הסביבתית.",
+      "application": "מדע שנולד כתיאור של יחסים בטבע הפך לבסיס של מדיניות ציבורית.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ecology",
+          "quote": "The term ecology (German: Ökologie) was coined in 1866 by the German scientist Ernst Haeckel.",
+          "quoteHe": "המונח אקולוגיה (בגרמנית: Ökologie) נטבע ב-1866 על ידי המדען הגרמני ארנסט הקל."
+        },
+        {
+          "sourceId": "s-wp-ecology",
+          "quote": "In 1962, marine biologist and ecologist Rachel Carson's book Silent Spring helped to mobilize the environmental movement by alerting the public to toxic pesticides, such as DDT (C14H9Cl5), bioaccumulating in the environment.",
+          "quoteHe": "ב-1962 עזר ספרה של הביולוגית הימית והאקולוגית רייצ'ל קרסון, \"אביב דומם\", לגייס את התנועה הסביבתית, כשהזהיר את הציבור מפני חומרי הדברה רעילים, כמו DDT (C14H9Cl5), שמצטברים בסביבה."
+        }
+      ],
+      "sources": [
+        "s-wp-ecology"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-229",
+      "fromId": "d-1710-st-pauls",
+      "toId": "d-1790-pantheon-paris",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==כיפה שנבנתה כדי להתחרות.== כיפת הפנתאון תוכננה **להתחרות בכיפות** של בזיליקת פטרוס הקדוש ושל **קתדרלת סנט פול** בלונדון.",
+      "application": "מבנה בולט קובע רף שהדור הבא מנסה לעבור, וכך הוא מניע חידושים טכניים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-panthe-on",
+          "quote": "It was designed to rival those of St. Peter's Basilica in Rome and St Paul's Cathedral in London.",
+          "quoteHe": "היא תוכננה להתחרות בכיפות של בזיליקת פטרוס הקדוש ברומא ושל קתדרלת סנט פול בלונדון."
+        }
+      ],
+      "sources": [
+        "s-wp-panthe-on"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-230",
+      "fromId": "d-117-pantheon",
+      "toId": "d-1790-pantheon-paris",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==השם והתפקיד באו מרומא.== האספה הלאומית הפכה את הכנסייה למאוזוליאום **לאזרחים נודעים**, על פי הדגם של **הפנתאון ברומא**.",
+      "application": "בניין עתיק יכול להעביר לא רק צורה אלא גם תפקיד ציבורי ומשמעות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-panthe-on",
+          "quote": "the National Constituent Assembly voted in 1791 to transform the Church of Saint Genevieve into a mausoleum for the remains of distinguished French citizens, modelled on the Pantheon in Rome which had been used in this way since the 17th century.",
+          "quoteHe": "האספה המכוננת הלאומית הצביעה ב-1791 להפוך את כנסיית סנט ז'נבייב למאוזוליאום לשרידיהם של אזרחים צרפתים נודעים, על פי הדגם של הפנתאון ברומא, ששימש כך מאז המאה ה-17."
+        }
+      ],
+      "sources": [
+        "s-wp-panthe-on"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

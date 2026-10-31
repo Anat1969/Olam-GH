@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Timeline, { YEAR_MAX, YEAR_MIN, posScale, xScale } from '../components/Timeline';
 import PersonCard from '../components/PersonCard';
+import WorkCard from '../components/WorkCard';
 import Rich from '../components/Rich';
-import { activeDomains, discoveries, domainById, personById, yearText } from '../data';
+import { ANON, activeDomains, discoveries, discoveryById, domainById, personById, yearText } from '../data';
 import { replace } from '../route';
 
 const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -14,6 +15,7 @@ export default function TimelinePage({ params }: { params: Record<string, string
   const [year, setYear] = useState(Number.isFinite(urlYear) && params.y ? Math.min(Math.max(urlYear, YEAR_MIN), YEAR_MAX) : DEFAULT_YEAR);
   const [playing, setPlaying] = useState(false);
   const person = params.p ? personById.get(params.p) : undefined;
+  const work = !person && params.w ? discoveryById.get(params.w) : undefined;
   const items = useMemo(() => discoveries.filter((d) => d.domainId === domain), [domain]);
   const known = items.filter((d) => d.yearFrom <= year).length;
   const domainName = activeDomains.find((d) => d.id === domain)!.nameHe;
@@ -67,13 +69,21 @@ export default function TimelinePage({ params }: { params: Record<string, string
 
   const prev = [...items].reverse().find((d) => d.yearFrom < year);
   const next = items.find((d) => d.yearFrom > year);
-  const pick = (personId: string, discoveryId?: string) => {
+  // דמות פותחת כרטיס דמות. יצירה בלי יוצר ידוע פותחת כרטיס יצירה, גם אם היא בתחום אחר.
+  const pick = (personId?: string, discoveryId?: string) => {
     setPlaying(false);
-    const d = discoveryId ? items.find((x) => x.id === discoveryId) : undefined;
+    const d = discoveryId ? discoveryById.get(discoveryId) : undefined;
+    const dom = !personId && d ? d.domainId : domain;
     const y = d && d.yearFrom > year ? d.yearFrom : year;
     setYear(y);
-    replace('timeline', { d: domain, y: String(y), p: personId });
+    replace('timeline', personId ? { d: dom, y: String(y), p: personId } : { d: dom, y: String(y), w: discoveryId });
   };
+  // הגעה מחיפוש לתת-תחום: גוללים אליו ומסמנים אותו
+  useEffect(() => {
+    if (!params.sub) return;
+    const el = document.querySelector(`.sub-col[data-sub="${params.sub}"]`);
+    el?.scrollIntoView({ block: 'center', behavior: reduced() ? 'auto' : 'smooth' });
+  }, [params.sub, domain]);
   const close = useCallback(() => replace('timeline', { d: domain, y: String(year) }), [domain, year]);
 
   return (
@@ -109,7 +119,7 @@ export default function TimelinePage({ params }: { params: Record<string, string
       </div>
 
       <section className="card tl-card-wrap" aria-label={`ציר הזמן של ${domainName}`}>
-        <Timeline items={items} year={year} selectedPerson={person?.id} onPick={pick} follow={playing} />
+        <Timeline items={items} year={year} selectedPerson={person?.id || work?.id} onPick={pick} follow={playing} />
         <ul className="legend" aria-label="מקרא">
           <li><span className={`lg-dot tl-dot-${domain}`} />גילוי שכבר ידוע בשנה שנבחרה</li>
           <li><span className="lg-dot lg-hidden" />גילוי שעוד נעלם, מתחת לזכוכית</li>
@@ -126,14 +136,14 @@ export default function TimelinePage({ params }: { params: Record<string, string
           {(domainById.get(domain)?.subs || []).map((s) => {
             const xs = items.filter((d) => d.sub === s.id);
             return (
-              <div key={s.id} className={`sub-col${xs.length ? '' : ' is-empty'}`} data-sub={s.id}>
+              <div key={s.id} className={`sub-col${xs.length ? '' : ' is-empty'}${params.sub === s.id ? ' is-target' : ''}`} data-sub={s.id}>
                 <h3 className="sub-title">{s.nameHe} <bdi className="num muted">{xs.length}</bdi></h3>
                 {xs.length ? (
                   <ul className="sub-people">
                     {xs.map((d) => (
                       <li key={d.id}>
-                        <button type="button" className="press sub-person" aria-pressed={!!person && d.personIds.includes(person.id)} onClick={() => pick(d.personIds[0], d.id)}>
-                          <span className="sub-name">{d.personIds.map((id) => personById.get(id)?.nameHe).filter(Boolean).join(' ו')}</span>
+                        <button type="button" className="press sub-person" aria-pressed={(!!person && d.personIds.includes(person.id)) || work?.id === d.id} onClick={() => pick(d.personIds[0], d.id)}>
+                          <span className="sub-name">{d.personIds.map((id) => personById.get(id)?.nameHe).filter(Boolean).join(' ו') || `${d.title.split(':')[0]} (${ANON})`}</span>
                           <bdi className="num sub-year">{yearText(d.yearFrom)}</bdi>
                         </button>
                       </li>
@@ -146,7 +156,8 @@ export default function TimelinePage({ params }: { params: Record<string, string
         </div>
       </section>
 
-      {person && <PersonCard person={person} onClose={close} onOpen={(id) => pick(id)} />}
+      {person && <PersonCard person={person} onClose={close} onOpen={(id, did) => pick(id, did)} />}
+      {work && <WorkCard d={work} onClose={close} onOpen={(id, did) => pick(id, did)} />}
     </main>
   );
 }

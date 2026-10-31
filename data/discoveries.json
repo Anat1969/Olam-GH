@@ -7585,7 +7585,7 @@
           "quoteHe": "הוא נמצא בסדנת הפיסול שלו בתל אל-עמארנה, מצרים."
         },
         "city": {
-          "nameHe": "תל אל-עמארנה",
+          "nameHe": "אל-עמארנה",
           "nameFull": "Amarna"
         },
         "wikidata": "Q5736",
@@ -10037,7 +10037,7 @@
           "quoteHe": "דוגן חזר ליפן ב-1227 או ב-1228, ושב להתגורר בקנין-ג׳י, שבו התאמן קודם לכן."
         },
         "city": {
-          "nameHe": "מקדש קנין-ג׳י",
+          "nameHe": "קיוטו",
           "nameFull": "Kyoto"
         },
         "wikidata": "Q1440954",
@@ -10401,7 +10401,7 @@
           "quoteHe": "בבזיליקת פטרוס הקדוש בקריית הוותיקן בין 11 באוקטובר 1962 ל-8 בדצמבר 1965"
         },
         "city": {
-          "nameHe": "בזיליקת פטרוס הקדוש",
+          "nameHe": "קריית הוותיקן",
           "nameFull": "Vatican City"
         },
         "wikidata": "Q12512",
@@ -14205,7 +14205,7 @@
           "quoteHe": "רון ריבסט, עדי שמיר ולאונרד אדלמן מהמכון הטכנולוגי של מסצ׳וסטס ניסו כמה פעמים במשך שנה ליצור פונקציה שקשה להפוך."
         },
         "city": {
-          "nameHe": "קיימברידג׳ (מסצ׳וסטס)",
+          "nameHe": "קיימברידג' (מסצ'וסטס)",
           "nameFull": "Cambridge, Massachusetts"
         },
         "wikidata": "Q49108",
@@ -17256,7 +17256,7 @@
           "quoteHe": "הוצגו לראשונה ביולי 1962 בגלריה פרוס בלוס אנג'לס"
         },
         "city": {
-          "nameHe": "לוס אנג'לס",
+          "nameHe": "לוס אנג׳לס",
           "nameFull": "Los Angeles"
         },
         "wikidata": "Q65",
@@ -19517,6 +19517,3303 @@
       ],
       "sources": [
         "s-wp-parasite-2019-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce1400-hurrian-nikkal",
+      "title": "ההמנון החורי לניקל",
+      "yearFrom": -1400,
+      "yearTo": -1400,
+      "yearApprox": true,
+      "domainId": "music",
+      "sub": "theory",
+      "personIds": [],
+      "place": {
+        "wikipedia": "Ugarit",
+        "nameHe": "אוגרית",
+        "nameFull": "Ugarit",
+        "lat": 35.6019,
+        "lon": 35.7856,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-hurrian-songs",
+          "quote": "clay tablets excavated from the ancient city of Ugarit, a headland in northern Syria",
+          "quoteHe": "לוחות חרס שנחשפו בעיר העתיקה אוגרית, לשון יבשה בצפון סוריה"
+        },
+        "city": {
+          "nameHe": "אוגרית",
+          "nameFull": "Ugarit"
+        },
+        "wikidata": "Q191369",
+        "country": {
+          "wikidata": "Q858",
+          "nameHe": "סוריה",
+          "nameFull": "Syria"
+        }
+      },
+      "novelty": "ההמנון נכתב ב**כתב יתדות** על לוח חרס, והוא **היצירה המתווית השלמה העתיקה ביותר** ששרדה.",
+      "contribution": "הוא קודם ב**אלף שנה** ליצירות הכתובות המוקדמות שנודעו לפניו, ושינה את התפיסה של **ראשית המוזיקה המערבית**.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hurrian-songs",
+          "quote": "The Hurrian songs (or Hurrian Hymns) are a collection of music written in cuneiform on clay tablets excavated from the ancient city of Ugarit, a headland in northern Syria, which date to approximately 1400 BCE.",
+          "quoteHe": "השירים החוריים (או ההמנונים החוריים) הם אוסף של מוזיקה שנכתבה בכתב יתדות על לוחות חרס שנחשפו בעיר העתיקה אוגרית, לשון יבשה בצפון סוריה, ומתוארכים לערך ל-1400 לפנה״ס."
+        },
+        {
+          "sourceId": "s-wp-hurrian-songs",
+          "quote": "making it the oldest surviving substantially complete work of notated music in the world",
+          "quoteHe": "מה שהופך אותו ליצירת המוזיקה המתווית העתיקה בעולם ששרדה במידה רבה בשלמותה"
+        },
+        {
+          "sourceId": "s-wp-hurrian-songs",
+          "quote": "The Hurrian hymn pre-dates several other surviving early works of music (e.g., the Seikilos epitaph and the Delphic Hymns) by a millennium",
+          "quoteHe": "ההמנון החורי קודם באלף שנה לכמה יצירות מוזיקה מוקדמות אחרות ששרדו (למשל כתובת סייקילוס וההמנונים הדלפיים)"
+        },
+        {
+          "sourceId": "s-wp-hurrian-songs",
+          "quote": "This has revolutionized the whole concept of the origin of western music.",
+          "quoteHe": "זה חולל מהפכה בכל התפיסה של מקור המוזיקה המערבית."
+        }
+      ],
+      "sources": [
+        "s-wp-hurrian-songs"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce433-zeng-bells",
+      "title": "פעמוני המרקיז יי מזנג",
+      "yearFrom": -433,
+      "yearTo": -433,
+      "yearApprox": true,
+      "domainId": "music",
+      "sub": "world",
+      "personIds": [],
+      "place": {
+        "wikipedia": "Suizhou",
+        "nameHe": "סוויג'ואו",
+        "nameFull": "Suizhou",
+        "lat": 31.7175,
+        "lon": 113.3658,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-tomb-of-marquis-yi-of-zeng",
+          "quote": "Zengdu District, Suizhou (during the Spring and Autumn period called Sui County), Hubei, China, dated sometime after 433 BC.",
+          "quoteHe": "מחוז זנגדו, סוייג'ואו (שנקראה בתקופת האביב והסתיו מחוז סוי), חוביי, סין, מתוארך למועד כלשהו אחרי 433 לפנה״ס."
+        },
+        "city": {
+          "nameHe": "סוייג'ואו",
+          "nameFull": "Suizhou"
+        },
+        "wikidata": "Q71401",
+        "country": {
+          "wikidata": "Q148",
+          "nameHe": "הרפובליקה העממית של סין",
+          "nameFull": "People's Republic of China"
+        }
+      },
+      "novelty": "כל פעמון במערכת משמיע **שני צלילים שונים**, לפי המקום שבו מכים בו, והמערכת כולה **כרומטית** בשלוש האוקטבות האמצעיות.",
+      "contribution": "על הפעמונים נחרט **תיווי מוזיקלי** שמפרט את היחס בין **תקני גובה הצליל** של זנג, צ'ו וג'ואו.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tomb-of-marquis-yi-of-zeng",
+          "quote": "The tomb was made around 433 BC, either at the end of the Spring and Autumn period or the start of the Warring States period.",
+          "quoteHe": "הקבר נבנה בסביבות 433 לפנה״ס, בסוף תקופת האביב והסתיו או בתחילת תקופת הממלכות הלוחמות."
+        },
+        {
+          "sourceId": "s-wp-tomb-of-marquis-yi-of-zeng",
+          "quote": "The bells are two-toned, producing two distinct tones when struck at the center or the side.",
+          "quoteHe": "הפעמונים דו-צליליים: הם משמיעים שני צלילים נפרדים כשמכים בהם במרכז או בצד."
+        },
+        {
+          "sourceId": "s-wp-bianzhong",
+          "quote": "The bells of Marquis Yi cover a range of five octaves, and are fully chromatic in the central three octaves.",
+          "quoteHe": "פעמוני המרקיז יי משתרעים על פני חמש אוקטבות, והם כרומטיים במלואם בשלוש האוקטבות האמצעיות."
+        },
+        {
+          "sourceId": "s-wp-tomb-of-marquis-yi-of-zeng",
+          "quote": "The bells were inscribed with music notations that detailed the relationship among the pitch standards of Zeng, Chu and Zhou.",
+          "quoteHe": "על הפעמונים נחרט תיווי מוזיקלי שפירט את היחס בין תקני גובה הצליל של זנג, צ'ו וג'ואו."
+        }
+      ],
+      "sources": [
+        "s-wp-tomb-of-marquis-yi-of-zeng",
+        "s-wp-bianzhong"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce1500-olmec-heads",
+      "title": "הראשים הענקיים של האולמקים",
+      "yearFrom": -1500,
+      "yearTo": -1000,
+      "yearApprox": true,
+      "domainId": "sculpture",
+      "sub": "ancient",
+      "personIds": [],
+      "place": {
+        "wikipedia": "San Lorenzo Tenochtitlán",
+        "nameHe": "סן לורנסו טנוצ'טיטלאן",
+        "nameFull": "San Lorenzo Tenochtitlán",
+        "lat": 17.7333,
+        "lon": -94.8,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-olmec-colossal-heads",
+          "quote": "The San Lorenzo heads are believed to be the oldest, and are the most skilfully executed.",
+          "quoteHe": "ראשי סן לורנסו נחשבים לעתיקים ביותר, והם עשויים במיומנות הרבה ביותר."
+        },
+        "city": {
+          "nameHe": "סן לורנסו טנוצ'טיטלאן",
+          "nameFull": "San Lorenzo"
+        },
+        "wikidata": "Q772613",
+        "country": {
+          "wikidata": "Q96",
+          "nameHe": "מקסיקו",
+          "nameFull": "Mexico"
+        }
+      },
+      "novelty": "ראשי בזלת ענקיים, שהאבן שלהם הובלה **יותר מ-150 קילומטר**, ונחשבים ל**דיוקנאות של שליטים**, כל אחד עם כיסוי ראש משלו.",
+      "contribution": "הם **סימן היכר** של התרבות האולמקית ב**מסו-אמריקה העתיקה**.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-olmec-colossal-heads",
+          "quote": "Most have been dated to the Early Preclassic period (1500–1000 BC) with some to the Middle Preclassic (1000–400 BC) period.",
+          "quoteHe": "רובם תוארכו לתקופה הפרה-קלאסית המוקדמת (1500–1000 לפנה״ס), וחלקם לתקופה הפרה-קלאסית התיכונה (1000–400 לפנה״ס)."
+        },
+        {
+          "sourceId": "s-wp-olmec-colossal-heads",
+          "quote": "Given that the extremely large slabs of stone used in their production were transported more than 150 kilometres (93 mi), requiring a great deal of human effort and resources, it is thought that the monuments represent portraits of powerful individual Olmec rulers.",
+          "quoteHe": "מכיוון שגושי האבן הענקיים ששימשו לייצורם הובלו יותר מ-150 קילומטר (93 מייל), במאמץ אנושי ובמשאבים רבים, סבורים שהמונומנטים מייצגים דיוקנאות של שליטים אולמקים חזקים, כל אחד לעצמו."
+        },
+        {
+          "sourceId": "s-wp-olmec-colossal-heads",
+          "quote": "Each of the known examples has a distinctive headdress.",
+          "quoteHe": "לכל אחת מהדוגמאות הידועות יש כיסוי ראש ייחודי."
+        },
+        {
+          "sourceId": "s-wp-olmec-colossal-heads",
+          "quote": "The heads date from at least 900 BCE and are a distinctive feature of the Olmec civilization of ancient Mesoamerica.",
+          "quoteHe": "הראשים מתוארכים לפחות ל-900 לפנה״ס, והם מאפיין מובהק של הציוויליזציה האולמקית במסו-אמריקה העתיקה."
+        }
+      ],
+      "sources": [
+        "s-wp-olmec-colossal-heads"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1250-rapanui-moai",
+      "title": "המואי של רפה נואי",
+      "yearFrom": 1250,
+      "yearTo": 1500,
+      "yearApprox": true,
+      "domainId": "sculpture",
+      "sub": "non-western",
+      "personIds": [],
+      "place": {
+        "wikipedia": "Easter Island",
+        "nameHe": "אי הפסחא",
+        "nameFull": "Easter Island",
+        "lat": -27.12,
+        "lon": -109.35,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-moai",
+          "quote": "on Rapa Nui (Easter Island) in eastern Polynesia",
+          "quoteHe": "ברפה נואי (אי הפסחא) שבמזרח פולינזיה"
+        },
+        "city": {
+          "nameHe": "אי הפסחא",
+          "nameFull": "Easter Island"
+        },
+        "wikidata": "Q14452",
+        "country": {
+          "wikidata": "Q298",
+          "nameHe": "צ'ילה",
+          "nameFull": "Chile"
+        }
+      },
+      "novelty": "פסלי אבן מונוליטיים שראשם לבדו הוא **שלושה שמיניות** מגודל הפסל, ו**הובלו מהמחצבה** אל במות סביב האי.",
+      "contribution": "הפסלים הם **\"הפנים החיות\" של אבות** שהואלהו, ומאות מהם הוצבו על במות ה**אהו** לאורך שולי האי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-moai",
+          "quote": "are monolithic human figures carved from stone by the Rapa Nui people, on Rapa Nui (Easter Island) in eastern Polynesia between the years 1250 and 1500.",
+          "quoteHe": "הם דמויות אדם מונוליטיות שגילפו בני רפה נואי מאבן, ברפה נואי (אי הפסחא) שבמזרח פולינזיה, בין השנים 1250 ל-1500."
+        },
+        {
+          "sourceId": "s-wp-moai",
+          "quote": "Almost all moai have overly large heads, which account for three-eighths of the size of the whole statue.",
+          "quoteHe": "לכמעט כל המואי יש ראשים גדולים במיוחד, שהם שלוש שמיניות מגודל הפסל כולו."
+        },
+        {
+          "sourceId": "s-wp-moai",
+          "quote": "Nearly half are still at Rano Raraku, the main moai quarry, but hundreds were transported from there and set on stone platforms called ahu around the island's perimeter.",
+          "quoteHe": "כמחציתם עדיין נמצאים ברנו ררקו, מחצבת המואי העיקרית, אבל מאות הובלו משם והוצבו על במות אבן שנקראות אהו לאורך שולי האי."
+        },
+        {
+          "sourceId": "s-wp-moai",
+          "quote": "The moai are chiefly the living faces (aringa ora) of deified ancestors (aringa ora ata tepuna).",
+          "quoteHe": "המואי הם בעיקר הפנים החיות (aringa ora) של אבות שהואלהו (aringa ora ata tepuna)."
+        }
+      ],
+      "sources": [
+        "s-wp-moai"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce300-tao-te-ching",
+      "title": "טאו טה צ׳ינג",
+      "yearFrom": -400,
+      "yearTo": -300,
+      "yearApprox": true,
+      "domainId": "religion",
+      "sub": "east-asian",
+      "personIds": [
+        "p-laozi"
+      ],
+      "place": null,
+      "novelty": "חיבור קצר המיוחס לפי המסורת ל**לאו דזה**, שנעשה לאחד **הטקסטים היסודיים של הטאואיזם**.",
+      "contribution": "המונחים שלו פורשו מחדש שוב ושוב, והרעיון ש**הרך גובר על הקשה** הפך לדגם גם באומנויות הלחימה.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tao-te-ching",
+          "quote": "Though the Guodian bundles are unlikely as a unified text, they are nominally taken as a version from the fourth century BCE (400-300 BCE).",
+          "quoteHe": "אף שאין סבירות שצרורות גואודיאן הם טקסט אחיד, נהוג להתייחס אליהם כאל נוסח מהמאה הרביעית לפנה״ס (400–300 לפנה״ס)."
+        },
+        {
+          "sourceId": "s-wp-laozi",
+          "quote": "is the name traditionally given to an ancient Chinese philosopher, also identified as Li Er or Lao Dan, who is regarded as the author or originating teacher associated with the Tao Te Ching (Pinyin: Dào Dé Jīng), one of the foundational texts of Taoism.",
+          "quoteHe": "הוא השם שניתן לפי המסורת לפילוסוף סיני קדום, המזוהה גם כלי אר או לאו דאן, שנחשב למחבר או למורה המקורי הקשור בטאו טה צ׳ינג, אחד הטקסטים היסודיים של הטאואיזם."
+        },
+        {
+          "sourceId": "s-wp-tao-te-ching",
+          "quote": "Terminology originating within the text has been reinterpreted",
+          "quoteHe": "מונחים שמקורם בטקסט פורשו מחדש"
+        },
+        {
+          "sourceId": "s-wp-tai-chi",
+          "quote": "Laozi provided the archetype for this in the Tao Te Ching when he wrote, \"The soft and the pliable will defeat the hard and strong.\"",
+          "quoteHe": "לאו דזה סיפק לכך את הדגם בטאו טה צ׳ינג כשכתב: \"הרך והגמיש יגברו על הקשה והחזק\"."
+        }
+      ],
+      "sources": [
+        "s-wp-tao-te-ching",
+        "s-wp-laozi",
+        "s-wp-tai-chi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1838-tenrikyo",
+      "title": "ראשית טנריקיו",
+      "yearFrom": 1838,
+      "yearTo": 1838,
+      "yearApprox": false,
+      "domainId": "religion",
+      "sub": "east-asian",
+      "personIds": [
+        "p-nakayama"
+      ],
+      "place": null,
+      "novelty": "דת יפנית חדשה שנוסדה על תורתה של **אישה**, נקאיאמה מיקי, ולפי המסורת שלה נבחרה ב-1838 כ\"**מקדש האל**\".",
+      "contribution": "טנריקיו הציבה מטרה ארצית של **\"החיים המאושרים\"**, שמטפחים במעשי צדקה ובמודעות.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tenrikyo",
+          "quote": "In Tenrikyo tradition, Nakayama Miki was chosen as the Shrine of God in 1838, after her son and husband began suffering from serious ailments.",
+          "quoteHe": "לפי מסורת טנריקיו, נקאיאמה מיקי נבחרה כמקדש האל ב-1838, אחרי שבנה ובעלה החלו לסבול ממחלות קשות."
+        },
+        {
+          "sourceId": "s-wp-tenrikyo",
+          "quote": "Tenrikyo (天理教, Tenrikyō) is a Japanese new religion which is neither strictly monotheistic nor pantheistic, originating from the teachings of a 19th-century woman named Nakayama Miki, known to her followers as \"Oyasama\".",
+          "quoteHe": "טנריקיו היא דת יפנית חדשה, לא מונותאיסטית במובהק ולא פנתאיסטית, שמקורה בתורתה של אישה מהמאה ה-19 בשם נקאיאמה מיקי, הידועה בפי מאמיניה כ\"אויאסאמה\"."
+        },
+        {
+          "sourceId": "s-wp-tenrikyo",
+          "quote": "Tenrikyo's worldly aim is to teach and promote the Joyous Life, which is cultivated through acts of charity and mindfulness called hinokishin.",
+          "quoteHe": "המטרה הארצית של טנריקיו היא ללמד ולקדם את \"החיים המאושרים\", שמטופחים במעשי צדקה ומודעות הנקראים הינוקישין."
+        }
+      ],
+      "sources": [
+        "s-wp-tenrikyo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1893-vivekananda-chicago",
+      "title": "ויווקננדה בפרלמנט הדתות העולמי",
+      "yearFrom": 1893,
+      "yearTo": 1893,
+      "yearApprox": false,
+      "domainId": "religion",
+      "sub": "hinduism",
+      "personIds": [
+        "p-vivekananda"
+      ],
+      "place": {
+        "wikipedia": "Chicago",
+        "nameHe": "שיקגו",
+        "nameFull": "Chicago",
+        "lat": 41.8819,
+        "lon": -87.6278,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-swami-vivekananda",
+          "quote": "In 1893, he travelled to the United States to participate in the Parliament of the World's Religions in Chicago",
+          "quoteHe": "ב-1893 נסע לארצות הברית כדי להשתתף בפרלמנט הדתות העולמי בשיקגו"
+        },
+        "city": {
+          "nameHe": "שיקגו",
+          "nameFull": "Chicago"
+        },
+        "wikidata": "Q1297",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "נאום שנפתח במילים **\"אחיות ואחים של אמריקה\"** הציג את המחשבה הרוחנית ההינדית לקהל מערבי.",
+      "contribution": "אחרי שיקגו הרצה ויווקננדה ברחבי ארצות הברית ואירופה והפיץ את **עקרונות הפילוסופיה ההינדית** במערב.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-swami-vivekananda",
+          "quote": "In 1893, he travelled to the United States to participate in the Parliament of the World's Religions in Chicago, where he delivered a landmark speech beginning with the words \"Sisters and brothers of America...\". His powerful message introduced Hindu spiritual thought",
+          "quoteHe": "ב-1893 נסע לארצות הברית כדי להשתתף בפרלמנט הדתות העולמי בשיקגו, ושם נשא נאום פורץ דרך שנפתח במילים \"אחיות ואחים של אמריקה...\". המסר העוצמתי שלו הציג את המחשבה הרוחנית ההינדית"
+        },
+        {
+          "sourceId": "s-wp-swami-vivekananda",
+          "quote": "Following his success in Chicago, Vivekananda lectured widely across the United States, the United Kingdom, and continental Europe, disseminating the essential principles of Hindu philosophy.",
+          "quoteHe": "בעקבות הצלחתו בשיקגו הרצה ויווקננדה ברחבי ארצות הברית, הממלכה המאוחדת ויבשת אירופה, והפיץ את העקרונות המהותיים של הפילוסופיה ההינדית."
+        }
+      ],
+      "sources": [
+        "s-wp-swami-vivekananda"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1935-regina-jonas",
+      "title": "הסמכתה של רגינה יונאס לרבנות",
+      "yearFrom": 1935,
+      "yearTo": 1935,
+      "yearApprox": false,
+      "domainId": "religion",
+      "sub": "judaism",
+      "personIds": [
+        "p-jonas"
+      ],
+      "place": null,
+      "novelty": "רגינה יונאס הייתה **האישה הראשונה שהוסמכה לרבנות**, אחרי שכתבה עבודה על השאלה אם אישה יכולה להיות רב.",
+      "contribution": "היא ביססה את מסקנתה על **מקורות מן המקרא, התלמוד והספרות הרבנית**, וקיבלה סמיכה למרות מחאה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-regina-jonas",
+          "quote": "In 1935, she became the first woman to be ordained as a rabbi.",
+          "quoteHe": "ב-1935 היא הייתה לאישה הראשונה שהוסמכה לרבנות."
+        },
+        {
+          "sourceId": "s-wp-regina-jonas",
+          "quote": "Her topic was \"Can a Woman Be a Rabbi According to Halachic Sources?\" Her conclusion, based on Biblical, Talmudic, and rabbinical sources, was that she should be ordained.",
+          "quoteHe": "הנושא שלה היה \"האם אישה יכולה להיות רב על פי מקורות ההלכה?\" מסקנתה, על סמך מקורות מן המקרא, התלמוד והספרות הרבנית, הייתה שיש להסמיך אותה."
+        },
+        {
+          "sourceId": "s-wp-regina-jonas",
+          "quote": "Despite protest from both inside and outside the Liberal Rabbis' Association, on 27 December 1935, Jonas received her semicha and was ordained.",
+          "quoteHe": "למרות מחאה מבפנים ומחוץ לאגודת הרבנים הליברליים, ב-27 בדצמבר 1935 קיבלה יונאס את הסמיכה שלה והוסמכה."
+        }
+      ],
+      "sources": [
+        "s-wp-regina-jonas"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1986-assisi-prayer",
+      "title": "יום התפילה העולמי לשלום באסיזי",
+      "yearFrom": 1986,
+      "yearTo": 1986,
+      "yearApprox": false,
+      "domainId": "religion",
+      "sub": "christianity",
+      "personIds": [
+        "p-johnpaul2"
+      ],
+      "place": {
+        "wikipedia": "Assisi",
+        "nameHe": "אסיזי",
+        "nameFull": "Assisi",
+        "lat": 43.0708,
+        "lon": 12.615,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-world-day-of-prayer-for-peace",
+          "quote": "Pope John Paul II organized the first World Day of Prayer for Peace in Assisi, Italy, on October 27, 1986.",
+          "quoteHe": "האפיפיור יוחנן פאולוס השני ארגן את יום התפילה העולמי לשלום הראשון באסיזי, איטליה, ב-27 באוקטובר 1986."
+        },
+        "city": {
+          "nameHe": "אסיזי",
+          "nameFull": "Assisi"
+        },
+        "wikidata": "Q20103",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "novelty": "האפיפיור **יוחנן פאולוס השני** כינס לראשונה באסיזי מנהיגים של **דתות רבות** ליום של צום ותפילה.",
+      "contribution": "בכינוס השתתפו **160 מנהיגי דת**, נציגים של 32 ארגונים נוצריים ו-11 דתות עולם אחרות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-world-day-of-prayer-for-peace",
+          "quote": "Pope John Paul II organized the first World Day of Prayer for Peace in Assisi, Italy, on October 27, 1986.",
+          "quoteHe": "האפיפיור יוחנן פאולוס השני ארגן את יום התפילה העולמי לשלום הראשון באסיזי, איטליה, ב-27 באוקטובר 1986."
+        },
+        {
+          "sourceId": "s-wp-world-day-of-prayer-for-peace",
+          "quote": "In all there were 160 religious leaders who spent the day together with fasting and praying to their God or Gods. They represented 32 Christian religious organizations and 11 other non-Christian world religions",
+          "quoteHe": "בסך הכול היו 160 מנהיגי דת שבילו את היום יחד בצום ובתפילה לאלוהיהם. הם ייצגו 32 ארגונים דתיים נוצריים ו-11 דתות עולם אחרות שאינן נוצריות"
+        }
+      ],
+      "sources": [
+        "s-wp-world-day-of-prayer-for-peace"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1996-truth-reconciliation",
+      "title": "ועדת האמת והפיוס",
+      "yearFrom": 1996,
+      "yearTo": 1998,
+      "yearApprox": false,
+      "domainId": "religion",
+      "sub": "christianity",
+      "personIds": [
+        "p-tutu"
+      ],
+      "place": {
+        "wikipedia": "Cape Town",
+        "nameHe": "קייפטאון",
+        "nameFull": "Cape Town",
+        "lat": -33.9253,
+        "lon": 18.4239,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-truth-and-reconciliation-commission-south-africa",
+          "quote": "The TRC was set up in terms of the Promotion of National Unity and Reconciliation Act, No. 34 of 1995, and was based in Cape Town.",
+          "quoteHe": "הוועדה הוקמה מכוח חוק קידום האחדות הלאומית והפיוס, מס׳ 34 משנת 1995, ומושבה היה בקייפטאון."
+        },
+        "city": {
+          "nameHe": "קייפטאון",
+          "nameFull": "Cape Town"
+        },
+        "wikidata": "Q5465",
+        "country": {
+          "wikidata": "Q258",
+          "nameHe": "דרום אפריקה",
+          "nameFull": "South Africa"
+        }
+      },
+      "novelty": "הארכיבישוף האנגליקני **דזמונד טוטו** עמד בראש גוף **צדק מאחה** דמוי בית משפט, שהוקם אחרי סוף האפרטהייד.",
+      "contribution": "הוועדה חקרה **הפרות זכויות אדם** שביצעו גם תומכי האפרטהייד וגם מתנגדיו.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-truth-and-reconciliation-commission-south-africa",
+          "quote": "The Truth and Reconciliation Commission (TRC) was a court-like restorative justice body assembled in South Africa in 1996 after the end of apartheid.",
+          "quoteHe": "ועדת האמת והפיוס הייתה גוף צדק מאחה דמוי בית משפט, שהוקם בדרום אפריקה ב-1996 אחרי סוף האפרטהייד."
+        },
+        {
+          "sourceId": "s-wp-desmond-tutu",
+          "quote": "After the 1994 general election resulted in a coalition government headed by Mandela, the latter selected Tutu to chair the Truth and Reconciliation Commission to investigate past human rights abuses committed by both pro and anti-apartheid groups.",
+          "quoteHe": "אחרי שהבחירות הכלליות של 1994 הביאו לממשלה קואליציונית בראשות מנדלה, בחר מנדלה בטוטו לעמוד בראש ועדת האמת והפיוס, כדי לחקור הפרות זכויות אדם בעבר שביצעו גם קבוצות תומכות אפרטהייד וגם קבוצות מתנגדות לו."
+        },
+        {
+          "sourceId": "s-wp-desmond-tutu",
+          "quote": "Desmond Mpilo Tutu (; 7 October 1931 – 26 December 2021) was a South African Anglican bishop and theologian",
+          "quoteHe": "דזמונד מפילו טוטו (7 באוקטובר 1931 – 26 בדצמבר 2021) היה בישוף ותאולוג אנגליקני דרום אפריקאי"
+        },
+        {
+          "sourceId": "s-wp-desmond-tutu",
+          "quote": "Truth and Reconciliation Commission: 1996–1998",
+          "quoteHe": "ועדת האמת והפיוס: 1996–1998"
+        }
+      ],
+      "sources": [
+        "s-wp-truth-and-reconciliation-commission-south-africa",
+        "s-wp-desmond-tutu"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2004-amman-message",
+      "title": "מסר עמאן",
+      "yearFrom": 2004,
+      "yearTo": 2004,
+      "yearApprox": false,
+      "domainId": "religion",
+      "sub": "islam",
+      "personIds": [
+        "p-abdullah2"
+      ],
+      "place": {
+        "wikipedia": "Amman",
+        "nameHe": "עמאן",
+        "nameFull": "Amman",
+        "lat": 31.95,
+        "lon": 35.9333,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-amman-message",
+          "quote": "The Amman Message was delivered in Amman, Jordan, as a Ramadan sermon by Chief Justice Sheikh Izz-Eddine Al-Tamimi in the presence of King Abdullah II and a number of Muslim scholars.",
+          "quoteHe": "מסר עמאן נישא בעמאן, ירדן, כדרשת רמדאן מפי השופט הראשי שייח׳ עז א-דין א-תמימי, בנוכחות המלך עבדאללה השני וכמה חכמי דת מוסלמים."
+        },
+        "city": {
+          "nameHe": "עמאן",
+          "nameFull": "Amman"
+        },
+        "wikidata": "Q3805",
+        "country": {
+          "wikidata": "Q810",
+          "nameHe": "ירדן",
+          "nameFull": "Jordan"
+        }
+      },
+      "novelty": "הצהרה שהכירה יחד ב**שמונה האסכולות ההלכתיות** של האסלאם הסוני, באסלאם השיעי ובאבאדיה.",
+      "contribution": "המסר נועד להבהיר את טבע האסלאם ולקדם **סובלנות דתית ואחדות** בין מוסלמים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-amman-message",
+          "quote": "The Amman Message is a declaration issued in Amman, Jordan, in November 2004 by king Abdullah II to clarify the nature of Islam and promote religious tolerance and unity among Muslims. It affirmed the validity of the eight major madhhabs of Sunni Islam and Shia Islam, as well as Ibadism.",
+          "quoteHe": "מסר עמאן הוא הצהרה שפרסם המלך עבדאללה השני בעמאן, ירדן, בנובמבר 2004, כדי להבהיר את טבע האסלאם ולקדם סובלנות דתית ואחדות בין מוסלמים. הוא אישר את תוקפן של שמונה האסכולות ההלכתיות העיקריות של האסלאם הסוני והאסלאם השיעי, וגם של האבאדיה."
+        }
+      ],
+      "sources": [
+        "s-wp-amman-message"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2015-laudato-si",
+      "title": "האנציקליקה \"לאודאטו סי\"",
+      "yearFrom": 2015,
+      "yearTo": 2015,
+      "yearApprox": false,
+      "domainId": "religion",
+      "sub": "christianity",
+      "personIds": [
+        "p-popefrancis"
+      ],
+      "place": {
+        "wikipedia": "Vatican City",
+        "nameHe": "קריית הוותיקן",
+        "nameFull": "Vatican City",
+        "lat": 41.904,
+        "lon": 12.453,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-laudato-si",
+          "quote": "The Vatican released the document in Italian, German, English, Spanish, French, Polish, Portuguese, and Arabic, alongside the original Latin.",
+          "quoteHe": "הוותיקן פרסם את המסמך באיטלקית, גרמנית, אנגלית, ספרדית, צרפתית, פולנית, פורטוגזית וערבית, לצד המקור הלטיני."
+        },
+        "city": {
+          "nameHe": "קריית הוותיקן",
+          "nameFull": "Vatican City"
+        },
+        "wikidata": "Q237",
+        "country": null
+      },
+      "novelty": "אנציקליקה שהקדישה את עצמה ל**\"דאגה לביתנו המשותף\"**: ביקורת על צרכנות, על פגיעה בסביבה ועל ההתחממות הגלובלית.",
+      "contribution": "האפיפיור פרנציסקוס קרא לכל אנשי העולם לפעולה **\"מהירה ומאוחדת\" בקנה מידה עולמי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-laudato-si",
+          "quote": "Laudato si' ('Praise Be to You') is the second encyclical of Pope Francis, subtitled \"on care for our common home.\" In it, the Pope criticizes consumerism and irresponsible economic development, laments environmental degradation and global warming, and calls all people of the world to take \"swift and unified global action.\" The encyclical, dated 24 May 2015, was officially published at noon on 18 June 2015, accompanied by a news conference.",
+          "quoteHe": "לאודאטו סי (\"השבח לך\") היא האנציקליקה השנייה של האפיפיור פרנציסקוס, ותת-הכותרת שלה \"על הדאגה לביתנו המשותף\". בה מבקר האפיפיור את הצרכנות ואת הפיתוח הכלכלי חסר האחריות, מקונן על הרס הסביבה ועל ההתחממות הגלובלית, וקורא לכל אנשי העולם לנקוט \"פעולה עולמית מהירה ומאוחדת\". האנציקליקה, מתוארכת ל-24 במאי 2015, פורסמה רשמית בצהרי 18 ביוני 2015, בליווי מסיבת עיתונאים."
+        }
+      ],
+      "sources": [
+        "s-wp-laudato-si"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1981-macintyre-after-virtue",
+      "title": "\"אחרי המידה הטובה\"",
+      "yearFrom": 1981,
+      "yearTo": 1981,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "sub": "ethics",
+      "personIds": [
+        "p-macintyre"
+      ],
+      "place": null,
+      "novelty": "מקינטייר טען שהשיח המוסרי המודרני **נכשל ברציונליות**, והציב את **המוסר של אריסטו** כדגם.",
+      "contribution": "הספר נחשב לאחד הטקסטים החשובים ביותר ב**תחייתה של אתיקת המידות** במאה ה-20.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-after-virtue",
+          "quote": "MacIntyre provides a bleak view of the state of modern moral discourse, regarding it as failing to be rational, and failing to admit to being irrational. He claims that older forms of moral discourse were in better shape, particularly singling out Aristotle's moral philosophy as an exemplar. After Virtue is among the most important texts in the 20th-century revival of virtue ethics. The book was first published in 1981",
+          "quoteHe": "מקינטייר מציג תמונה קודרת של מצב השיח המוסרי המודרני, ורואה בו שיח שנכשל ברציונליות ונכשל בהודאה שהוא לא רציונלי. הוא טוען שצורות ישנות של שיח מוסרי היו במצב טוב יותר, ומציין במיוחד את הפילוסופיה המוסרית של אריסטו כדגם. \"אחרי המידה הטובה\" הוא מן הטקסטים החשובים ביותר בתחייתה של אתיקת המידות במאה ה-20. הספר ראה אור לראשונה ב-1981"
+        }
+      ],
+      "sources": [
+        "s-wp-after-virtue"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1981-habermas-communicative-action",
+      "title": "תורת הפעולה התקשורתית",
+      "yearFrom": 1981,
+      "yearTo": 1981,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "sub": "political",
+      "personIds": [
+        "p-habermas"
+      ],
+      "place": null,
+      "novelty": "הברמאס ראה ב**שפה את הרכיב היסודי של החברה**, וביקש לבסס את מדעי החברה על תורת הלשון.",
+      "contribution": "הספר ניסה **לעדכן את המרקסיזם** בעזרת תורת המערכות, הפסיכולוגיה ההתפתחותית ותורת החברה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-theory-of-communicative-action",
+          "quote": "The Theory of Communicative Action (German: Theorie des kommunikativen Handelns) is a two-volume 1981 book by the philosopher Jürgen Habermas, in which the author continues his project of finding a way to ground \"the social sciences in a theory of language\"",
+          "quoteHe": "תורת הפעולה התקשורתית הוא ספר בשני כרכים משנת 1981 מאת הפילוסוף יורגן הברמאס, שבו הוא ממשיך את מפעלו למצוא דרך לבסס \"את מדעי החברה על תורת הלשון\""
+        },
+        {
+          "sourceId": "s-wp-the-theory-of-communicative-action",
+          "quote": "The theory of communicative action understands language as the foundational component of society and is an attempt to update Marxism by \"drawing on Systems theory (Luhmann), developmental psychology (Piaget, Kohlberg), and social theory (Weber, Durkheim, Parsons, Mead, etc.)\".",
+          "quoteHe": "תורת הפעולה התקשורתית רואה בשפה את הרכיב היסודי של החברה, והיא ניסיון לעדכן את המרקסיזם \"בהסתמך על תורת המערכות (לוהמן), הפסיכולוגיה ההתפתחותית (פיאז׳ה, קולברג) ותורת החברה (ובר, דורקהיים, פרסונס, מיד ועוד)\"."
+        }
+      ],
+      "sources": [
+        "s-wp-the-theory-of-communicative-action"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1990-butler-gender-trouble",
+      "title": "\"צרות מגדר\"",
+      "yearFrom": 1990,
+      "yearTo": 1990,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "sub": "political",
+      "personIds": [
+        "p-butler"
+      ],
+      "place": null,
+      "novelty": "באטלר טענה שהמגדר הוא **פרפורמטיבי**: הוא נוצר ונשמר ב**חזרות** בדיבור ובאינטראקציה.",
+      "contribution": "הספר ערער על **תפיסות הטרונורמטיביות** של מגדר, ונמכר ביותר מ-100,000 עותקים בשפות רבות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gender-trouble",
+          "quote": "Gender Trouble: Feminism and the Subversion of Identity is a 1990 book by the post-structuralist gender theorist and philosopher Judith Butler in which the author argues that gender is performative, meaning that it is maintained, created or perpetuated by iterative repetitions when speaking and interacting with each other.",
+          "quoteHe": "צרות מגדר: פמיניזם וחתרנות הזהות הוא ספר משנת 1990 מאת תאורטיקנית המגדר הפוסט-סטרוקטורליסטית והפילוסופית ג׳ודית באטלר, שבו היא טוענת שהמגדר הוא פרפורמטיבי, כלומר שהוא נשמר, נוצר או מונצח בחזרות בזמן שמדברים ומתקשרים זה עם זה."
+        },
+        {
+          "sourceId": "s-wp-judith-butler",
+          "quote": "Butler is best known for the books Gender Trouble: Feminism and the Subversion of Identity (1990) and Bodies That Matter: On the Discursive Limits of Sex (1993), in which they challenge conventional, heteronormative notions of gender",
+          "quoteHe": "באטלר ידועה בעיקר בספרים \"צרות מגדר: פמיניזם וחתרנות הזהות\" (1990) ו\"גופים שמשמעם\" (1993), שבהם היא מערערת על תפיסות מקובלות והטרונורמטיביות של מגדר"
+        },
+        {
+          "sourceId": "s-wp-judith-butler",
+          "quote": "Gender Trouble: Feminism and the Subversion of Identity was first published in 1990, selling over 100,000 copies internationally, in multiple languages.",
+          "quoteHe": "צרות מגדר ראה אור לראשונה ב-1990 ונמכר ביותר מ-100,000 עותקים ברחבי העולם, בשפות רבות."
+        }
+      ],
+      "sources": [
+        "s-wp-gender-trouble",
+        "s-wp-judith-butler"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1995-chalmers-hard-problem",
+      "title": "הבעיה הקשה של התודעה",
+      "yearFrom": 1995,
+      "yearTo": 1995,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "sub": "metaphysics",
+      "personIds": [
+        "p-chalmers"
+      ],
+      "place": null,
+      "novelty": "צ׳למרס ניסח לראשונה את **\"הבעיה הקשה\"** במאמר \"להתמודד עם בעיית התודעה\".",
+      "contribution": "הניסוח עורר תגובות רבות, והוגים כמו דייוויד לואיס וסטיבן פינקר שיבחו את **הקפדנות הטיעונית** שלו.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hard-problem-of-consciousness",
+          "quote": "Cognitive scientist David Chalmers first formulated the hard problem in his 1995 paper, \"Facing up to the problem of consciousness\", and expanded upon it in The Conscious Mind (1996). His works provoked comment. Some, such as philosopher David Lewis and Steven Pinker, have praised Chalmers for his argumentative rigour and \"impeccable clarity\".",
+          "quoteHe": "מדען הקוגניציה דייוויד צ׳למרס ניסח לראשונה את הבעיה הקשה במאמרו משנת 1995, \"להתמודד עם בעיית התודעה\", והרחיב אותה בספר \"התודעה המודעת\" (1996). עבודותיו עוררו תגובות. היו, כמו הפילוסוף דייוויד לואיס וסטיבן פינקר, ששיבחו את צ׳למרס על הקפדנות הטיעונית שלו ועל \"בהירותו ללא דופי\"."
+        }
+      ],
+      "sources": [
+        "s-wp-hard-problem-of-consciousness"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2003-bostrom-simulation",
+      "title": "טיעון הסימולציה",
+      "yearFrom": 2003,
+      "yearTo": 2003,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "sub": "metaphysics",
+      "personIds": [
+        "p-bostrom"
+      ],
+      "place": null,
+      "novelty": "בוסטרום הציע **טרילמה**: אם ציוויליזציה יכולה ליצור סימולציות מודעות, יישות מודעת אקראית **כמעט בוודאות חיה בסימולציה**.",
+      "contribution": "הטיעון נתן ניסוח חדש לספקות ידועים, כמו **השד המתעתע של דקארט** ו\"חלום הפרפר\" של ג׳ואנג דזה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-simulation-hypothesis",
+          "quote": "In 2003, philosopher Nick Bostrom proposed the simulation argument suggesting that if a civilization becomes capable of creating conscious simulations, it could generate so many simulated beings that a randomly chosen conscious entity would almost certainly be in a simulation.",
+          "quoteHe": "ב-2003 הציע הפילוסוף ניק בוסטרום את טיעון הסימולציה, שלפיו אם ציוויליזציה מסוגלת ליצור סימולציות מודעות, היא יכולה לייצר כל כך הרבה יצורים מדומים, שיישות מודעת שנבחרה באקראי תהיה כמעט בוודאות בתוך סימולציה."
+        },
+        {
+          "sourceId": "s-wp-simulation-hypothesis",
+          "quote": "In 2003, Bostrom proposed a trilemma that he called \"the simulation argument\".",
+          "quoteHe": "ב-2003 הציע בוסטרום טרילמה שכינה \"טיעון הסימולציה\"."
+        },
+        {
+          "sourceId": "s-wp-simulation-hypothesis",
+          "quote": "Precursors include Zhuangzi's \"Butterfly Dream\" and René Descartes's \"evil demon\".",
+          "quoteHe": "בין הקודמים לו: \"חלום הפרפר\" של ג׳ואנג דזה ו\"השד המתעתע\" של רנה דקארט."
+        }
+      ],
+      "sources": [
+        "s-wp-simulation-hypothesis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1936-anna-freud-defence",
+      "title": "\"האני ומנגנוני ההגנה\"",
+      "yearFrom": 1936,
+      "yearTo": 1936,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "sub": "psychoanalysis",
+      "personIds": [
+        "p-annafreud"
+      ],
+      "place": null,
+      "novelty": "אנה פרויד כתבה מונוגרפיה קלאסית על **פסיכולוגיית האני ומנגנוני ההגנה**, שנשענה על ניסיונה הקליני.",
+      "contribution": "היא ערכה **קטלוג של מנגנוני הגנה**, כמו רגרסיה, הדחקה, השלכה וסובלימציה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-anna-freud",
+          "quote": "For her next major work in 1936, The Ego and the Mechanisms of Defence, a classic monograph on ego psychology and defense mechanisms, Anna Freud drew on her own clinical experience, but relied on her father's writings as the principal and authoritative source of her theoretical insights.",
+          "quoteHe": "בעבודתה הגדולה הבאה, ב-1936, \"האני ומנגנוני ההגנה\", מונוגרפיה קלאסית על פסיכולוגיית האני ומנגנוני הגנה, נשענה אנה פרויד על ניסיונה הקליני, אבל הסתמכה על כתבי אביה כמקור העיקרי והמוסמך לתובנותיה התאורטיות."
+        },
+        {
+          "sourceId": "s-wp-anna-freud",
+          "quote": "To her cataloguing of regression, repression, reaction formation, isolation, undoing, projection, introjection, turning against the self, reversal and sublimation",
+          "quoteHe": "לקטלוג שערכה של רגרסיה, הדחקה, תצורת תגובה, בידוד, ביטול, השלכה, הפנמה, הפנייה נגד העצמי, היפוך וסובלימציה"
+        }
+      ],
+      "sources": [
+        "s-wp-anna-freud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1936-lacan-mirror-stage",
+      "title": "שלב המראה",
+      "yearFrom": 1936,
+      "yearTo": 1936,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "sub": "psychoanalysis",
+      "personIds": [
+        "p-lacan"
+      ],
+      "place": {
+        "wikipedia": "Mariánské Lázně",
+        "nameHe": "מריאנסקה לאזנייה",
+        "nameFull": "Mariánské Lázně",
+        "lat": 49.9647,
+        "lon": 12.7012,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-mirror-stage",
+          "quote": "as outlined at the Fourteenth International Psychoanalytical Congress at Marienbad in 1936",
+          "quoteHe": "כפי שתיאר בקונגרס הפסיכואנליטי הבין-לאומי הארבעה עשר במרינבד ב-1936"
+        },
+        "city": {
+          "nameHe": "מריאנסקה לאזנה (מרינבד)",
+          "nameFull": "Mariánské Lázně"
+        },
+        "wikidata": "Q523469",
+        "country": {
+          "wikidata": "Q213",
+          "nameHe": "צ'כיה",
+          "nameFull": "Czech Republic"
+        }
+      },
+      "novelty": "לאקאן הציע ש**שלב המראה** הוא חלק מהתפתחות התינוק בגיל **6 עד 18 חודשים**.",
+      "contribution": "בתחילת שנות ה-50 הפך המושג ל**מבנה קבוע של הסובייקטיביות**, ולא רק לרגע בחיי התינוק.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-mirror-stage",
+          "quote": "Initially, Lacan proposed that the mirror stage was part of an infant's development from 6 to 18 months, as outlined at the Fourteenth International Psychoanalytical Congress at Marienbad in 1936.",
+          "quoteHe": "בתחילה הציע לאקאן ששלב המראה הוא חלק מהתפתחותו של תינוק בגיל 6 עד 18 חודשים, כפי שתיאר בקונגרס הפסיכואנליטי הבין-לאומי הארבעה עשר במרינבד ב-1936."
+        },
+        {
+          "sourceId": "s-wp-mirror-stage",
+          "quote": "By the early 1950s, Lacan's concept of the mirror stage had evolved: he no longer considered the mirror stage as a moment in the life of the infant, but as representing a permanent structure of subjectivity",
+          "quoteHe": "בתחילת שנות ה-50 התפתח המושג של לאקאן: הוא כבר לא ראה בשלב המראה רגע בחיי התינוק, אלא ייצוג של מבנה קבוע של הסובייקטיביות"
+        }
+      ],
+      "sources": [
+        "s-wp-mirror-stage"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1983-gardner-multiple-intelligences",
+      "title": "תאוריית האינטליגנציות המרובות",
+      "yearFrom": 1983,
+      "yearTo": 1983,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "sub": "cognitive",
+      "personIds": [
+        "p-hgardner"
+      ],
+      "place": null,
+      "novelty": "גרדנר טען שהאינטליגנציה **אינה יכולת כללית אחת**, אלא כמה אופנים נפרדים: לשונית, לוגית-מתמטית, מוזיקלית ומרחבית.",
+      "contribution": "התאוריה הפכה לפופולרית בקרב **מחנכים** שבנו אסטרטגיות הוראה מגוונות, אף ש**ספגה ביקורת** מהקהילה המדעית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-theory-of-multiple-intelligences",
+          "quote": "posits that human intelligence is not a single general ability but comprises various distinct modalities, such as linguistic, logical-mathematical, musical, and spatial intelligences. Introduced in Howard Gardner's book Frames of Mind: The Theory of Multiple Intelligences (1983), this framework has gained popularity among educators who accordingly develop varied teaching strategies purported to cater to different student strengths. Despite its educational impact, MI has faced criticism from the psychological and scientific communities.",
+          "quoteHe": "גורסת שהאינטליגנציה האנושית אינה יכולת כללית אחת, אלא מורכבת מאופנים נפרדים, כמו אינטליגנציה לשונית, לוגית-מתמטית, מוזיקלית ומרחבית. המסגרת, שהוצגה בספרו של הווארד גרדנר \"מסגרות של התודעה: תאוריית האינטליגנציות המרובות\" (1983), זכתה לפופולריות בקרב מחנכים, שפיתחו בהתאם אסטרטגיות הוראה מגוונות שאמורות להתאים לחוזקות שונות של תלמידים. למרות השפעתה החינוכית, התאוריה ספגה ביקורת מהקהילה הפסיכולוגית והמדעית."
+        }
+      ],
+      "sources": [
+        "s-wp-theory-of-multiple-intelligences"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2013-dsm-5",
+      "title": "DSM-5",
+      "yearFrom": 2013,
+      "yearTo": 2013,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "sub": "assessment",
+      "personIds": [
+        "p-kupfer"
+      ],
+      "place": null,
+      "novelty": "המהדורה החמישית של **המדריך האבחוני והסטטיסטי** של איגוד הפסיכיאטרים האמריקאי, בהובלת כוח משימה בראשות **דייוויד קופפר**.",
+      "contribution": "המדריך משמש **כלי טקסונומי ואבחוני** לתיאור הפרעות נפשיות, ועורר ויכוח ציבורי על השקיפות של הכנתו.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-dsm-5",
+          "quote": "The Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5), is the 2013 update to the Diagnostic and Statistical Manual of Mental Disorders, the taxonomic and diagnostic tool published by the American Psychiatric Association (APA).",
+          "quoteHe": "המדריך האבחוני והסטטיסטי של הפרעות נפשיות, מהדורה חמישית (DSM-5), הוא העדכון משנת 2013 למדריך האבחוני והסטטיסטי של הפרעות נפשיות, הכלי הטקסונומי והאבחוני שמפרסם איגוד הפסיכיאטרים האמריקאי (APA)."
+        },
+        {
+          "sourceId": "s-wp-david-kupfer",
+          "quote": "Kupfer is also known as for his work as Chair of the American Psychiatric Association Task Force for the Fifth Edition of the Diagnostic and Statistical Manual of Mental Disorders (DSM-5)",
+          "quoteHe": "קופפר ידוע גם בעבודתו כיושב ראש כוח המשימה של איגוד הפסיכיאטרים האמריקאי למהדורה החמישית של המדריך האבחוני והסטטיסטי של הפרעות נפשיות (DSM-5)"
+        },
+        {
+          "sourceId": "s-wp-dsm-5",
+          "quote": "Robert Spitzer, the head of the DSM-III task force, publicly criticized the APA for mandating that DSM-5 task force members sign a nondisclosure agreement, effectively conducting the whole process in secret",
+          "quoteHe": "רוברט שפיצר, ראש כוח המשימה של DSM-III, מתח ביקורת פומבית על האיגוד על שחייב את חברי כוח המשימה של DSM-5 לחתום על הסכם סודיות, וכך למעשה ניהל את כל התהליך בחשאי"
+        }
+      ],
+      "sources": [
+        "s-wp-dsm-5",
+        "s-wp-david-kupfer"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2000-olympic-taekwondo",
+      "title": "טאקוונדו נכנס לאולימפיאדה",
+      "yearFrom": 2000,
+      "yearTo": 2000,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "sub": "chinese-korean",
+      "personIds": [
+        "p-kimunyong"
+      ],
+      "place": {
+        "wikipedia": "Sydney",
+        "nameHe": "סידני",
+        "nameFull": "Sydney",
+        "lat": -33.8678,
+        "lon": 151.21,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-taekwondo-at-the-2000-summer-olympics",
+          "quote": "Taekwondo was contested as an official sport at the Olympic Games for the first time at the 2000 Summer Olympics in Sydney.",
+          "quoteHe": "טאקוונדו התקיים כענף רשמי במשחקים האולימפיים לראשונה באולימפיאדת הקיץ 2000 בסידני."
+        },
+        "city": {
+          "nameHe": "סידני",
+          "nameFull": "Sydney"
+        },
+        "wikidata": "Q3130",
+        "country": {
+          "wikidata": "Q408",
+          "nameHe": "אוסטרליה",
+          "nameFull": "Australia"
+        }
+      },
+      "novelty": "טאקוונדו הופיע לראשונה כ**ענף רשמי** במשחקים האולימפיים, אחרי שהוצג כענף הדגמה ב-1988 בסיאול.",
+      "contribution": "הוא הצטרף לג׳ודו ולקראטה כאחת משלוש **אומנויות הלחימה האסייתיות** במשחקים האולימפיים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-taekwondo-at-the-2000-summer-olympics",
+          "quote": "Taekwondo was contested as an official sport at the Olympic Games for the first time at the 2000 Summer Olympics in Sydney.",
+          "quoteHe": "טאקוונדו התקיים כענף רשמי במשחקים האולימפיים לראשונה באולימפיאדת הקיץ 2000 בסידני."
+        },
+        {
+          "sourceId": "s-wp-taekwondo",
+          "quote": "It started as a demonstration event at the 1988 games in Seoul, a year after becoming a medal event at the Pan Am Games, and became an official medal event at the 2000 Summer Olympics.",
+          "quoteHe": "הוא התחיל כענף הדגמה במשחקים של 1988 בסיאול, שנה אחרי שהפך לענף מדליות במשחקים הפאן-אמריקאיים, והפך לענף מדליות רשמי באולימפיאדת הקיץ 2000."
+        },
+        {
+          "sourceId": "s-wp-taekwondo",
+          "quote": "Since 2000, taekwondo has been one of three Asian martial arts (the others being judo and karate)",
+          "quoteHe": "מאז 2000 טאקוונדו הוא אחת משלוש אומנויות לחימה אסייתיות (האחרות הן ג׳ודו וקראטה)"
+        },
+        {
+          "sourceId": "s-wp-kim-un-yong",
+          "quote": "Kim played a significant role in debuting Taekwondo at the Olympics and helping South Korea host the 1988 Summer Olympics.",
+          "quoteHe": "קים מילא תפקיד משמעותי בהופעת הבכורה של טאקוונדו באולימפיאדה ובסיוע לדרום קוריאה לארח את אולימפיאדת הקיץ 1988."
+        }
+      ],
+      "sources": [
+        "s-wp-taekwondo-at-the-2000-summer-olympics",
+        "s-wp-taekwondo",
+        "s-wp-kim-un-yong"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2012-olympic-womens-boxing",
+      "title": "אגרוף נשים באולימפיאדה",
+      "yearFrom": 2012,
+      "yearTo": 2012,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "sub": "boxing",
+      "personIds": [
+        "p-nicolaadams"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-boxing-at-the-2012-summer-olympics",
+          "quote": "The boxing tournaments at the 2012 Olympic Games in London were held from 28 July to 12 August at the ExCeL Exhibition Centre.",
+          "quoteHe": "טורנירי האגרוף במשחקים האולימפיים 2012 בלונדון נערכו בין 28 ביולי ל-12 באוגוסט במרכז התערוכות אקסל."
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "novelty": "לראשונה במשחקים האולימפיים **התחרו נשים באגרוף**, בשלושה מקצים.",
+      "contribution": "ניקולה אדמס הייתה **המתאגרפת הראשונה שזכתה באליפות אולימפית**, ואחר כך גם לאלופה אולימפית כפולה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-boxing-at-the-2012-summer-olympics",
+          "quote": "For the first time at an Olympic Games, women competed in three boxing events.",
+          "quoteHe": "לראשונה במשחקים האולימפיים התחרו נשים בשלושה מקצי אגרוף."
+        },
+        {
+          "sourceId": "s-wp-boxing-at-the-2012-summer-olympics",
+          "quote": "The first Olympic gold medal in women's boxing was awarded to Nicola Adams from Great Britain, who won the flyweight tournament on 9 August 2012.",
+          "quoteHe": "מדליית הזהב האולימפית הראשונה באגרוף נשים הוענקה לניקולה אדמס מבריטניה, שזכתה בטורניר במשקל זבוב ב-9 באוגוסט 2012."
+        },
+        {
+          "sourceId": "s-wp-nicola-adams",
+          "quote": "As an amateur, she became the first female boxer to become an Olympic champion after winning gold at London 2012, and the first double Olympic champion following a second gold medal at Rio 2016, both in the flyweight division.",
+          "quoteHe": "כחובבת היא הייתה למתאגרפת הראשונה שהפכה לאלופה אולימפית, אחרי שזכתה בזהב בלונדון 2012, ולאלופה האולימפית הכפולה הראשונה אחרי מדליית זהב שנייה בריו 2016, בשתיהן במשקל זבוב."
+        }
+      ],
+      "sources": [
+        "s-wp-boxing-at-the-2012-summer-olympics",
+        "s-wp-nicola-adams"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2013-rousey-ufc-women",
+      "title": "הקרב הראשון של נשים ב-UFC",
+      "yearFrom": 2013,
+      "yearTo": 2013,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "sub": "mixed",
+      "personIds": [
+        "p-rousey"
+      ],
+      "place": {
+        "wikipedia": "Anaheim, California",
+        "nameHe": "אנהיים",
+        "nameFull": "Anaheim",
+        "lat": 33.8361,
+        "lon": -117.8897,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-ufc-157",
+          "quote": "was a mixed martial arts event held by the Ultimate Fighting Championship on February 23, 2013, at the Honda Center in Anaheim, California.",
+          "quoteHe": "היה אירוע של אומנויות לחימה מעורבות שערך ה-UFC ב-23 בפברואר 2013, בהונדה סנטר באנהיים, קליפורניה."
+        },
+        "city": {
+          "nameHe": "אנהיים",
+          "nameFull": "Anaheim"
+        },
+        "wikidata": "Q49247",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "רונדה ראוזי הייתה **הלוחמת הראשונה שהחתים ה-UFC**, והשתתפה בקרב **הנשים הראשון** בארגון.",
+      "contribution": "היא הייתה האלופה הראשונה של ה-UFC במשקל תרנגול לנשים, ו**האישה הראשונה** בדירוג הכללי של הארגון.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ronda-rousey",
+          "quote": "Rousey was the first female fighter signed by the UFC and part of the promotion's first women's bout at UFC 157",
+          "quoteHe": "ראוזי הייתה הלוחמת הראשונה שהחתים ה-UFC, והשתתפה בקרב הנשים הראשון של הארגון ב-UFC 157"
+        },
+        {
+          "sourceId": "s-wp-ronda-rousey",
+          "quote": "Rousey defended her title against Liz Carmouche on February 23, 2013, at UFC 157.",
+          "quoteHe": "ראוזי הגנה על התואר שלה מול ליז קרמוש ב-23 בפברואר 2013, ב-UFC 157."
+        },
+        {
+          "sourceId": "s-wp-ronda-rousey",
+          "quote": "she was also its inaugural Women's Bantamweight Champion, later becoming the first woman to appear in the UFC pound-for-pound rankings",
+          "quoteHe": "היא הייתה גם האלופה הראשונה שלו במשקל תרנגול לנשים, ובהמשך האישה הראשונה שהופיעה בדירוג הכללי (פאונד פור פאונד) של ה-UFC"
+        }
+      ],
+      "sources": [
+        "s-wp-ronda-rousey",
+        "s-wp-ufc-157"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1982-jackson-thriller",
+      "title": "Thriller: מייקל ג׳קסון",
+      "yearFrom": 1982,
+      "yearTo": 1982,
+      "yearApprox": false,
+      "domainId": "music",
+      "sub": "jazz-popular",
+      "personIds": [
+        "p-mjackson"
+      ],
+      "place": {
+        "wikipedia": "Los Angeles",
+        "nameHe": "לוס אנג'לס",
+        "nameFull": "Los Angeles",
+        "lat": 34.0522,
+        "lon": -118.2437,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-thriller-album",
+          "quote": "Recording took place from April to November 1982 at Westlake Recording Studios in Los Angeles, California",
+          "quoteHe": "ההקלטות נערכו מאפריל עד נובמבר 1982 באולפני וסטלייק בלוס אנג'לס, קליפורניה"
+        },
+        "city": {
+          "nameHe": "לוס אנג׳לס",
+          "nameFull": "Los Angeles"
+        },
+        "wikidata": "Q65",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "ג׳קסון עבר ל**פוסט-דיסקו ולסינת׳-פופ**, וקליפ השיר \"Thriller\" הפך את **הווידאו קליפ לצורת אמנות** רצינית.",
+      "contribution": "האלבום הפך ל**אלבום הנמכר ביותר בכל הזמנים**, ושבר **מחסומים גזעיים** במוזיקה הפופולרית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thriller-album",
+          "quote": "It was released on November 29, 1982, through Epic Records.",
+          "quoteHe": "הוא יצא ב-29 בנובמבר 1982 בחברת התקליטים אפיק."
+        },
+        {
+          "sourceId": "s-wp-thriller-album",
+          "quote": "With an ongoing backlash against disco, Jackson transitioned his sound, with Thriller primarily featuring post-disco and synth-pop among various influences ranging from funk to rock, while its themes include paranoia, romance, and social consciousness.",
+          "quoteHe": "על רקע תגובת נגד מתמשכת לדיסקו, ג׳קסון שינה את הסאונד שלו, ו-Thriller כולל בעיקר פוסט-דיסקו וסינת׳-פופ, בין השפעות שונות מפאנק ועד רוק, ואילו הנושאים שלו כוללים פרנויה, רומנטיקה ומודעות חברתית."
+        },
+        {
+          "sourceId": "s-wp-thriller-song",
+          "quote": "It is credited for transforming music videos into a serious art form, breaking down racial barriers in popular entertainment, and popularizing the making-of documentary format.",
+          "quoteHe": "מייחסים לו את הפיכת הווידאו קליפ לצורת אמנות רצינית, את שבירת המחסומים הגזעיים בבידור הפופולרי ואת הפצת סוגת סרט התיעוד על מאחורי הקלעים."
+        },
+        {
+          "sourceId": "s-wp-thriller-album",
+          "quote": "Thriller remains the best-selling album of all time, having sold an estimated 70 million copies worldwide, and is certified 34× platinum in the US, making it the second best-selling album in the US.",
+          "quoteHe": "Thriller נשאר האלבום הנמכר ביותר בכל הזמנים, עם כ-70 מיליון עותקים ברחבי העולם, והוא מוסמך כפלטינה פי 34 בארצות הברית, מה שהופך אותו לאלבום השני הנמכר ביותר בארצות הברית."
+        },
+        {
+          "sourceId": "s-wp-thriller-album",
+          "quote": "the success gave Jackson an unprecedented level of cultural significance for a black American, breaking racial barriers in popular music and causing an intense fan frenzy dubbed \"Michaelmania\".",
+          "quoteHe": "ההצלחה העניקה לג׳קסון חשיבות תרבותית חסרת תקדים לאמריקאי שחור, שברה מחסומים גזעיים במוזיקה הפופולרית ועוררה שיגעון מעריצים עז שכונה \"מייקלמניה\"."
+        }
+      ],
+      "sources": [
+        "s-wp-thriller-album",
+        "s-wp-thriller-song"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1976-part-tintinnabuli",
+      "title": "טינטינבולי: ארוו פארט",
+      "yearFrom": 1976,
+      "yearTo": 1976,
+      "yearApprox": false,
+      "domainId": "music",
+      "sub": "modern",
+      "personIds": [
+        "p-part"
+      ],
+      "place": null,
+      "novelty": "פארט המציא סגנון שבו קול אחד **פורט את המשולש הטוני** כמו פעמונים, וקול שני נע **בצעדים דיאטוניים**.",
+      "contribution": "הסגנון הזה הפך את פארט ל**מלחין החי המבוצע ביותר בעולם** בשנים 2011 עד 2018.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tintinnabuli",
+          "quote": "Tintinnabuli (from Latin tintinnabulum, a kind of bell, plural tintinnabula(Wiktionary)) is a compositional style created by the Estonian composer Arvo Pärt, introduced in his Für Alina (1976), and used again in Spiegel im Spiegel (1978).",
+          "quoteHe": "טינטינבולי (מלטינית tintinnabulum, סוג של פעמון, ברבים tintinnabula) הוא סגנון הלחנה שיצר המלחין האסטוני ארוו פארט, שהוצג ביצירתו \"לאלינה\" (1976) ושימש שוב ב\"מראה במראה\" (1978)."
+        },
+        {
+          "sourceId": "s-wp-tintinnabuli",
+          "quote": "Musically, Pärt's tintinnabular music is characterized by two types of voice, the first of which (dubbed the \"tintinnabular voice\") arpeggiates the tonic triad, and the second of which moves diatonically in mostly stepwise motion.",
+          "quoteHe": "מבחינה מוזיקלית, המוזיקה הטינטינבולית של פארט מאופיינת בשני סוגי קולות: הראשון (המכונה \"הקול הטינטינבולי\") פורט את המשולש הטוני, והשני נע באופן דיאטוני, בעיקר בצעדים."
+        },
+        {
+          "sourceId": "s-wp-arvo-pa-rt",
+          "quote": "Pärt was the most performed living composer in the world from 2011 to 2018, 2022, and 2025.",
+          "quoteHe": "פארט היה המלחין החי המבוצע ביותר בעולם בשנים 2011 עד 2018, ב-2022 וב-2025."
+        }
+      ],
+      "sources": [
+        "s-wp-tintinnabuli",
+        "s-wp-arvo-pa-rt"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1988-public-enemy-nation",
+      "title": "It Takes a Nation of Millions to Hold Us Back: פבליק אנמי",
+      "yearFrom": 1987,
+      "yearTo": 1988,
+      "yearApprox": false,
+      "domainId": "music",
+      "sub": "jazz-popular",
+      "personIds": [
+        "p-chuckd",
+        "p-shocklee"
+      ],
+      "place": {
+        "wikipedia": "New York City",
+        "nameHe": "ניו יורק",
+        "nameFull": "New York City",
+        "lat": 40.7128,
+        "lon": -74.0061,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-it-takes-a-nation-of-millions-to-hold-us-back",
+          "quote": "It was recorded from 1987 to 1988 in sessions at Chung King Studios, Greene St. Recording, and Sabella Studios in New York.",
+          "quoteHe": "הוא הוקלט בשנים 1987 עד 1988 בסשנים באולפני צ׳ונג קינג, גרין סטריט רקורדינג ואולפני סבלה בניו יורק."
+        },
+        "city": {
+          "nameHe": "ניו יורק",
+          "nameFull": "New York City"
+        },
+        "wikidata": "Q60",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "צוות ההפקה **הבומב סקוואד** בנה סאונד צפוף וכאוטי מ**צלילים מוצאים ורעש אוונגרדי**, כרקע לרטוריקה החברתית-פוליטית של צ׳אק די.",
+      "contribution": "האלבום נחשב לאחד **האלבומים המשפיעים ביותר** בכל הזמנים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-it-takes-a-nation-of-millions-to-hold-us-back",
+          "quote": "It Takes a Nation of Millions to Hold Us Back is the second studio album by American hip hop group Public Enemy, released on June 28, 1988, by Def Jam Recordings and Columbia Records.",
+          "quoteHe": "It Takes a Nation of Millions to Hold Us Back הוא אלבום האולפן השני של להקת ההיפ הופ האמריקאית פבליק אנמי, שיצא ב-28 ביוני 1988 בחברות דף ג׳אם וקולומביה."
+        },
+        {
+          "sourceId": "s-wp-it-takes-a-nation-of-millions-to-hold-us-back",
+          "quote": "Under Hank Shocklee's direction, the Bomb Squad, the group's production team, began to develop a dense and chaotic production style that relied on found sounds and avant-garde noise as much as it did on old-school funk.",
+          "quoteHe": "בהנחייתו של האנק שוקלי, הבומב סקוואד, צוות ההפקה של הלהקה, החל לפתח סגנון הפקה צפוף וכאוטי שנשען על צלילים מוצאים ועל רעש אוונגרדי לא פחות משנשען על פאנק ותיק."
+        },
+        {
+          "sourceId": "s-wp-it-takes-a-nation-of-millions-to-hold-us-back",
+          "quote": "Through their production team the Bomb Squad, Public Enemy introduced a densely aggressive sound influenced by free jazz, heavy funk, and musique concrète as a backdrop for lead rapper Chuck D, who employed sociopolitical rhetoric, revolutionary attitudes, and dense vocabulary in his performances.",
+          "quoteHe": "דרך צוות ההפקה שלה, הבומב סקוואד, הציגה פבליק אנמי סאונד צפוף ותוקפני בהשפעת פרי ג׳אז, פאנק כבד ומוזיקה קונקרטית, כרקע לראפר הראשי צ׳אק די, שהשתמש בהופעותיו ברטוריקה חברתית-פוליטית, בעמדות מהפכניות ובאוצר מילים עשיר."
+        },
+        {
+          "sourceId": "s-wp-it-takes-a-nation-of-millions-to-hold-us-back",
+          "quote": "Since its initial reception, It Takes a Nation of Millions to Hold Us Back has been regarded by music writers and publications as one of the greatest and most influential albums of all time.",
+          "quoteHe": "מאז התקבלותו הראשונה, It Takes a Nation of Millions to Hold Us Back נחשב בעיני כותבי מוזיקה וכתבי עת לאחד האלבומים הגדולים והמשפיעים ביותר בכל הזמנים."
+        }
+      ],
+      "sources": [
+        "s-wp-it-takes-a-nation-of-millions-to-hold-us-back"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2017-lamar-damn",
+      "title": "DAMN.: קנדריק למאר",
+      "yearFrom": 2017,
+      "yearTo": 2017,
+      "yearApprox": false,
+      "domainId": "music",
+      "sub": "jazz-popular",
+      "personIds": [
+        "p-klamar"
+      ],
+      "place": null,
+      "novelty": "האלבום מסווג כ**היפ הופ מודע**, ומשלב בו גם **טראפ, R&B עכשווי ופופ**.",
+      "contribution": "זו הפעם הראשונה ש**פרס פוליצר למוזיקה** הוענק ליצירה **מחוץ לקלאסי ולג׳אז**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-damn-kendrick-lamar-album",
+          "quote": "Damn (stylized as DAMN.) is the fourth studio album by the American rapper Kendrick Lamar, released on April 14, 2017, by Top Dawg Entertainment, Aftermath Entertainment, and Interscope Records.",
+          "quoteHe": "Damn (במעוצב: DAMN.) הוא אלבום האולפן הרביעי של הראפר האמריקאי קנדריק למאר, שיצא ב-14 באפריל 2017 בחברות טופ דוג, אפטרמת׳ ואינטרסקופ."
+        },
+        {
+          "sourceId": "s-wp-damn-kendrick-lamar-album",
+          "quote": "The album has been categorized as conscious hip-hop, but also incorporates elements of trap, contemporary R&B, and pop.",
+          "quoteHe": "האלבום סווג כהיפ הופ מודע, אך הוא משלב גם יסודות של טראפ, R&B עכשווי ופופ."
+        },
+        {
+          "sourceId": "s-wp-damn-kendrick-lamar-album",
+          "quote": "The album earned Lamar the 2018 Pulitzer Prize for Music, the first time an artist outside of the classical and jazz genres received the honor.",
+          "quoteHe": "האלבום זיכה את למאר בפרס פוליצר למוזיקה לשנת 2018, הפעם הראשונה שאמן מחוץ לסוגות הקלאסית והג׳אז קיבל את הכבוד הזה."
+        }
+      ],
+      "sources": [
+        "s-wp-damn-kendrick-lamar-album"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1955-gould-goldberg",
+      "title": "וריאציות גולדברג: גלן גולד",
+      "yearFrom": 1955,
+      "yearTo": 1956,
+      "yearApprox": false,
+      "domainId": "music",
+      "sub": "keyboard-chamber",
+      "personIds": [
+        "p-gould"
+      ],
+      "place": {
+        "wikipedia": "New York City",
+        "nameHe": "ניו יורק",
+        "nameFull": "New York City",
+        "lat": 40.7128,
+        "lon": -74.0061,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-bach-the-goldberg-variations-glenn-gould-album",
+          "quote": "The recordings were made in 1955 at Columbia Records 30th Street studio in Manhattan",
+          "quoteHe": "ההקלטות נעשו ב-1955 באולפן של קולומביה ברחוב 30 במנהטן"
+        },
+        "city": {
+          "nameHe": "ניו יורק",
+          "nameFull": "New York City"
+        },
+        "wikidata": "Q60",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "גולד בחר לתקליט הבכורה שלו יצירה ש**הייתה מחוץ לרפרטואר הפסנתר**, ונחשבה אזוטרית ותובענית טכנית.",
+      "contribution": "התקליט **ביסס את וריאציות גולדברג ברפרטואר** והפך את גולד לפסנתרן מפורסם **כמעט בן לילה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bach-the-goldberg-variations-glenn-gould-album",
+          "quote": "The recordings were made in 1955 at Columbia Records 30th Street studio in Manhattan over four days between June 10 and 16, a few weeks after Gould signed his contract.",
+          "quoteHe": "ההקלטות נעשו ב-1955 באולפן של קולומביה ברחוב 30 במנהטן, במשך ארבעה ימים בין 10 ל-16 ביוני, כמה שבועות אחרי שגולד חתם על החוזה שלו."
+        },
+        {
+          "sourceId": "s-wp-bach-the-goldberg-variations-glenn-gould-album",
+          "quote": "At the time of the first album's release, Bach's Goldberg Variations—a set of 30 contrapuntal variations beginning and ending with an aria—were outside the standard piano repertoire, having been recorded on the instrument only a few times before, either on small labels or unreleased.",
+          "quoteHe": "בזמן יציאת האלבום הראשון, וריאציות גולדברג של באך, סדרה של 30 וריאציות קונטרפונקטיות שנפתחת ומסתיימת באריה, היו מחוץ לרפרטואר הפסנתר המקובל, ולפני כן הוקלטו על הכלי רק פעמים ספורות, בחברות קטנות או בהקלטות שלא יצאו."
+        },
+        {
+          "sourceId": "s-wp-bach-the-goldberg-variations-glenn-gould-album",
+          "quote": "The work was considered esoteric and technically demanding, requiring awkward hand crossing at times when played on a piano (these passages would be played on two manuals on a harpsichord).",
+          "quoteHe": "היצירה נחשבה אזוטרית ותובענית מבחינה טכנית, ולעתים דרשה הצלבת ידיים מסורבלת בנגינה על פסנתר (בצ׳מבלו מנגנים את הקטעים האלה על שתי מקלדות)."
+        },
+        {
+          "sourceId": "s-wp-bach-the-goldberg-variations-glenn-gould-album",
+          "quote": "Gould's album both established the Goldberg Variations within the contemporary classical repertoire and made him an internationally famous pianist nearly \"overnight\".",
+          "quoteHe": "האלבום של גולד גם ביסס את וריאציות גולדברג ברפרטואר הקלאסי בן הזמן וגם הפך אותו לפסנתרן מפורסם בעולם כמעט \"בן לילה\"."
+        }
+      ],
+      "sources": [
+        "s-wp-bach-the-goldberg-variations-glenn-gould-album"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1833-chopin-etudes",
+      "title": "האטיודים, אופוס 10: פרדריק שופן",
+      "yearFrom": 1829,
+      "yearTo": 1833,
+      "yearApprox": false,
+      "domainId": "music",
+      "sub": "keyboard-chamber",
+      "personIds": [
+        "p-chopin"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-e-tudes-chopin",
+          "quote": "Chopin was 23 years old and already famous as a composer and pianist in the salons of Paris, where he made the acquaintance of Franz Liszt.",
+          "quoteHe": "שופן היה בן 23 וכבר מפורסם כמלחין וכפסנתרן בסלונים של פריז, שם הכיר את פרנץ ליסט."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "האטיודים של שופן מחברים **תוכן מוזיקלי ואתגר טכני** בצורה אמנותית שלמה, ולא רק תרגיל.",
+      "contribution": "הם היו **האטיודים הראשונים שנכנסו דרך קבע לרפרטואר הקונצרטים**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-e-tudes-chopin",
+          "quote": "10, the first group of 12, was written between 1829 and 1832 and published in 1833, in France, Germany, and England.",
+          "quoteHe": "אופוס 10, הקבוצה הראשונה של 12, נכתב בין 1829 ל-1832 ויצא לאור ב-1833 בצרפת, בגרמניה ובאנגליה."
+        },
+        {
+          "sourceId": "s-wp-e-tudes-chopin",
+          "quote": "They combine musical substance and technical challenge in a complete artistic form.",
+          "quoteHe": "הם מחברים תוכן מוזיקלי ואתגר טכני בצורה אמנותית שלמה."
+        },
+        {
+          "sourceId": "s-wp-e-tudes-chopin",
+          "quote": "Although sets of exercises for piano had been common since the end of the 18th century (Muzio Clementi, Johann Baptist Cramer, Ignaz Moscheles, and Carl Czerny wrote the most significant ones), Chopin's études not only presented an entirely new set of technical challenges but were the first to become a regular part of the concert repertoire.",
+          "quoteHe": "אף שסדרות תרגילים לפסנתר היו נפוצות מאז סוף המאה ה-18 (מוציו קלמנטי, יוהאן בפטיסט קרמר, איגנץ מושלס וקרל צ׳רני כתבו את החשובות שבהן), האטיודים של שופן לא רק הציגו מערך חדש לגמרי של אתגרים טכניים, אלא גם היו הראשונים שהפכו לחלק קבוע מרפרטואר הקונצרטים."
+        }
+      ],
+      "sources": [
+        "s-wp-e-tudes-chopin"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1814-goya-third-may",
+      "title": "השלושה במאי 1808: פרנסיסקו גויה",
+      "yearFrom": 1814,
+      "yearTo": 1814,
+      "yearApprox": false,
+      "domainId": "painting",
+      "sub": "romantic-realist",
+      "personIds": [
+        "p-goya"
+      ],
+      "place": {
+        "wikipedia": "Madrid",
+        "nameHe": "מדריד",
+        "nameFull": "Madrid",
+        "lat": 40.4169,
+        "lon": -3.7033,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-the-third-of-may-1808",
+          "quote": "The painting currently resides in the Museo del Prado, Madrid.",
+          "quoteHe": "הציור נמצא כיום במוזיאון הפראדו במדריד."
+        },
+        "city": {
+          "nameHe": "מדריד",
+          "nameFull": "Madrid"
+        },
+        "wikidata": "Q2807",
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
+      },
+      "novelty": "גויה **סטה ממסורת האמנות הנוצרית** ומתיאורי המלחמה המקובלים, ויצר ציור **בלי תקדים ברור**.",
+      "contribution": "הציור נחשב לאחד **הציורים הראשונים של העידן המודרני**, והשפיע על מאנה ועל **גרניקה של פיקאסו**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-third-of-may-1808",
+          "quote": "is a painting completed in 1814 by the Spanish painter Francisco Goya.",
+          "quoteHe": "הוא ציור שהושלם ב-1814 בידי הצייר הספרדי פרנסיסקו גויה."
+        },
+        {
+          "sourceId": "s-wp-the-third-of-may-1808",
+          "quote": "In the work, Goya sought to commemorate Spanish resistance to Napoleon's armies during the occupation of Madrid in 1808 at the start of the Peninsular War.",
+          "quoteHe": "ביצירה ביקש גויה להנציח את ההתנגדות הספרדית לצבאות נפוליאון בזמן כיבוש מדריד ב-1808, בתחילת מלחמת חצי האי."
+        },
+        {
+          "sourceId": "s-wp-the-third-of-may-1808",
+          "quote": "By diverging from the traditions of Christian art and traditional depictions of war, it has no distinct precedent, and is acknowledged as one of the first paintings of the modern era.",
+          "quoteHe": "בכך שהוא סוטה ממסורות האמנות הנוצרית ומתיאורי מלחמה מסורתיים, אין לו תקדים ברור, והוא מוכר כאחד הציורים הראשונים של העידן המודרני."
+        },
+        {
+          "sourceId": "s-wp-the-third-of-may-1808",
+          "quote": "The Third of May 1808 inspired Gerald Holtom's peace sign and a number of later major paintings, including a series by Édouard Manet, and Pablo Picasso's Massacre in Korea and Guernica.",
+          "quoteHe": "השלושה במאי 1808 היווה השראה לסמל השלום של ג׳רלד הולטום ולמספר ציורים חשובים מאוחרים יותר, ובהם סדרה של אדואר מאנה, ו\"טבח בקוריאה\" ו\"גרניקה\" של פבלו פיקאסו."
+        }
+      ],
+      "sources": [
+        "s-wp-the-third-of-may-1808"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1849-courbet-burial",
+      "title": "הלוויה באורנאן: גוסטב קורבה",
+      "yearFrom": 1849,
+      "yearTo": 1850,
+      "yearApprox": false,
+      "domainId": "painting",
+      "sub": "romantic-realist",
+      "personIds": [
+        "p-courbet"
+      ],
+      "place": {
+        "wikipedia": "Ornans",
+        "nameHe": "אורנאן",
+        "nameFull": "Ornans",
+        "lat": 47.1053,
+        "lon": 6.1431,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-a-burial-at-ornans",
+          "quote": "The painting records a funeral in Courbet's birthplace, the small town of Ornans.",
+          "quoteHe": "הציור מתעד הלוויה בעיר הולדתו של קורבה, העיירה הקטנה אורנאן."
+        },
+        "city": {
+          "nameHe": "אורנאן",
+          "nameFull": "Ornans"
+        },
+        "wikidata": "Q28427657",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "קורבה צייר **הלוויה כפרית רגילה** בריאליזם גלוי, ב**קנה המידה ששמור היה לציורי היסטוריה** הרואיים או דתיים.",
+      "contribution": "הציור עורר תגובה נפיצה בסלון של 1850, ו**הביא את הריאליזם לתודעת הציבור**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-a-burial-at-ornans",
+          "quote": "is a painting of 1849–50 by Gustave Courbet.",
+          "quoteHe": "הוא ציור משנים 1849–1850 של גוסטב קורבה."
+        },
+        {
+          "sourceId": "s-wp-a-burial-at-ornans",
+          "quote": "It treats an ordinary, provincial funeral with frank realism, and on the grand scale traditionally reserved for the heroic or religious scenes of history painting.",
+          "quoteHe": "הוא מציג הלוויה כפרית רגילה בריאליזם גלוי, ובקנה המידה הגדול ששמור היה באופן מסורתי לסצנות ההרואיות או הדתיות של ציור ההיסטוריה."
+        },
+        {
+          "sourceId": "s-wp-a-burial-at-ornans",
+          "quote": "Its exhibition at the Paris Salon of 1850 created an \"explosive reaction\" and brought Courbet instant fame.",
+          "quoteHe": "הצגתו בסלון של פריז ב-1850 עוררה \"תגובה נפיצה\" והביאה לקורבה תהילה מיידית."
+        },
+        {
+          "sourceId": "s-wp-a-burial-at-ornans",
+          "quote": "Burial, as one of Courbet's most controversial works, helped bring Realism to the attention of the public.",
+          "quoteHe": "ההלוויה, כאחת היצירות השנויות ביותר במחלוקת של קורבה, עזרה להביא את הריאליזם לתודעת הציבור."
+        }
+      ],
+      "sources": [
+        "s-wp-a-burial-at-ornans"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1818-friedrich-wanderer",
+      "title": "הנודד מעל ים הערפל: קספר דוד פרידריך",
+      "yearFrom": 1817,
+      "yearTo": 1818,
+      "yearApprox": true,
+      "domainId": "painting",
+      "sub": "romantic-realist",
+      "personIds": [
+        "p-friedrich"
+      ],
+      "place": null,
+      "novelty": "פרידריך הציב דמות **בגבה אל הצופה**, בניגוד למוסכמה שדמויות פונות אל הצופה או נראות בפרופיל, מול נוף ש**מעורר את הנשגב**.",
+      "contribution": "הציור נחשב לאחת **מיצירות המופת של התנועה הרומנטית** ולאחת המייצגות ביותר שלה.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-wanderer-above-the-sea-of-fog",
+          "quote": "The date of creation of Wanderer is generally given as 1818, although some sources indicate 1817.",
+          "quoteHe": "תאריך היצירה של הנודד ניתן בדרך כלל כ-1818, אף שכמה מקורות מציינים 1817."
+        },
+        {
+          "sourceId": "s-wp-wanderer-above-the-sea-of-fog",
+          "quote": "Traditional art standards hold that if people are present in a scene, they are turned toward the viewer or in profile.",
+          "quoteHe": "לפי מוסכמות האמנות המסורתיות, אם יש אנשים בסצנה, הם פונים אל הצופה או נראים בפרופיל."
+        },
+        {
+          "sourceId": "s-wp-wanderer-above-the-sea-of-fog",
+          "quote": "Wanderer Above the Sea of Fog is perhaps the most famous Rückenfigur in art due to the subject's prominence.",
+          "quoteHe": "הנודד מעל ים הערפל הוא אולי ה\"רוקנפיגור\" (דמות מגב) המפורסמת ביותר באמנות, בשל בולטות הדמות."
+        },
+        {
+          "sourceId": "s-wp-wanderer-above-the-sea-of-fog",
+          "quote": "The painting has been interpreted as an emblem of self-reflection or contemplation of life's path, and the landscape is considered to evoke the sublime.",
+          "quoteHe": "הציור התפרש כסמל להתבוננות עצמית או להרהור על דרך החיים, והנוף נחשב לנוף שמעורר את הנשגב."
+        },
+        {
+          "sourceId": "s-wp-wanderer-above-the-sea-of-fog",
+          "quote": "It is considered to be one of the masterpieces of the Romantic movement and one of its most representative works.",
+          "quoteHe": "הוא נחשב לאחת מיצירות המופת של התנועה הרומנטית ולאחת היצירות המייצגות ביותר שלה."
+        }
+      ],
+      "sources": [
+        "s-wp-wanderer-above-the-sea-of-fog"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1830-delacroix-liberty",
+      "title": "החירות מובילה את העם: אז׳ן דלקרואה",
+      "yearFrom": 1830,
+      "yearTo": 1830,
+      "yearApprox": false,
+      "domainId": "painting",
+      "sub": "romantic-realist",
+      "personIds": [
+        "p-delacroix"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-liberty-leading-the-people",
+          "quote": "Liberty Leading the People is exhibited in the Louvre in Paris.",
+          "quoteHe": "החירות מובילה את העם מוצג בלובר בפריז."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "דלקרואה צייר את החירות גם כ**אלה אלגורית** וגם כ**אישה חסונה מן העם**, שמובילה המון מעל מתרס.",
+      "contribution": "הציור הוא אולי הגרסה המוקדמת הידועה ביותר של **מריאן, סמל הרפובליקה הצרפתית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-liberty-leading-the-people",
+          "quote": "is a painting of the Romantic era by the French artist Eugène Delacroix, commemorating the July Revolution of 1830 that toppled King Charles X",
+          "quoteHe": "הוא ציור מהתקופה הרומנטית של האמן הצרפתי אז׳ן דלקרואה, שמנציח את מהפכת יולי של 1830 שהפילה את המלך שארל העשירי"
+        },
+        {
+          "sourceId": "s-wp-liberty-leading-the-people",
+          "quote": "Delacroix depicted Liberty as both an allegorical goddess-figure and a robust woman of the people.",
+          "quoteHe": "דלקרואה תיאר את החירות גם כדמות אלה אלגורית וגם כאישה חסונה מן העם."
+        },
+        {
+          "sourceId": "s-wp-liberty-leading-the-people",
+          "quote": "Although Delacroix was not the first artist to depict Liberty in a Phrygian cap, his painting may be the best-known early version of the figure commonly known as Marianne, a symbol of the French Republic and of France in general.",
+          "quoteHe": "אף שדלקרואה לא היה האמן הראשון שתיאר את החירות בכובע פריגי, ייתכן שציורו הוא הגרסה המוקדמת הידועה ביותר של הדמות המוכרת כמריאן, סמל הרפובליקה הצרפתית ושל צרפת בכלל."
+        }
+      ],
+      "sources": [
+        "s-wp-liberty-leading-the-people"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1982-basquiat-skull",
+      "title": "ללא כותרת (גולגולת): ז׳אן-מישל בסקיה",
+      "yearFrom": 1982,
+      "yearTo": 1982,
+      "yearApprox": false,
+      "domainId": "painting",
+      "sub": "contemporary",
+      "personIds": [
+        "p-basquiat"
+      ],
+      "place": {
+        "wikipedia": "New York City",
+        "nameHe": "ניו יורק",
+        "nameFull": "New York City",
+        "lat": 40.7128,
+        "lon": -74.0061,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-untitled-1982-basquiat-skull-painting",
+          "quote": "It was owned by the Annina Nosei Gallery in New York, before being sold to Phoebe Chason, who sold it to Alexander F. Milliken in 1982.",
+          "quoteHe": "הוא היה בבעלות גלריה אנינה נוזיי בניו יורק, לפני שנמכר לפיבי צ׳ייסון, שמכרה אותו לאלכסנדר פ. מיליקן ב-1982."
+        },
+        "city": {
+          "nameHe": "ניו יורק",
+          "nameFull": "New York City"
+        },
+        "wikidata": "Q60",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "בסקיה צייר גולגולת מ**משיכות מכחול שחורות** עם פלגים אדומים, צהובים ולבנים על רקע כחול, ומיזג **ניאו-אקספרסיוניזם עם היפ הופ**.",
+      "contribution": "זו **היצירה הראשונה שנוצרה אחרי 1980** שנמכרה ביותר מ-100 מיליון דולר, ובסקיה הוא **האמן הצעיר ביותר** שעבר את הרף.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-untitled-1982-basquiat-skull-painting",
+          "quote": "Untitled is a painting created by American artist Jean-Michel Basquiat in 1982.",
+          "quoteHe": "ללא כותרת הוא ציור שיצר האמן האמריקאי ז׳אן-מישל בסקיה ב-1982."
+        },
+        {
+          "sourceId": "s-wp-untitled-1982-basquiat-skull-painting",
+          "quote": "Untitled depicts a skull, composed of black brushstrokes with red, yellow and white rivulets against a blue background.",
+          "quoteHe": "ללא כותרת מתאר גולגולת, הבנויה ממשיכות מכחול שחורות עם פלגים אדומים, צהובים ולבנים על רקע כחול."
+        },
+        {
+          "sourceId": "s-wp-jean-michel-basquiat",
+          "quote": "His collaborations with artists from the hip-hop generation, such as Fab 5 Freddy and Lady Pink, emphasize the fusion of Neo-expressionism with the rhythmic, improvisational qualities of hip-hop.",
+          "quoteHe": "שיתופי הפעולה שלו עם אמנים מדור ההיפ הופ, כמו פאב 5 פרדי וליידי פינק, מדגישים את המיזוג של הניאו-אקספרסיוניזם עם האיכויות הקצביות והאלתוריות של ההיפ הופ."
+        },
+        {
+          "sourceId": "s-wp-untitled-1982-basquiat-skull-painting",
+          "quote": "Basquiat, who was 21 years old when he painted Untitled, is the youngest artist to eclipse the $100 million mark.",
+          "quoteHe": "בסקיה, שהיה בן 21 כשצייר את ללא כותרת, הוא האמן הצעיר ביותר שעבר את רף 100 מיליון הדולר."
+        },
+        {
+          "sourceId": "s-wp-untitled-1982-basquiat-skull-painting",
+          "quote": "It is also the first work made after 1980 to sell for more than $100 million.",
+          "quoteHe": "זו גם היצירה הראשונה שנוצרה אחרי 1980 שנמכרה ביותר מ-100 מיליון דולר."
+        }
+      ],
+      "sources": [
+        "s-wp-untitled-1982-basquiat-skull-painting",
+        "s-wp-jean-michel-basquiat"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1988-richter-october",
+      "title": "18 באוקטובר 1977: גרהרד ריכטר",
+      "yearFrom": 1988,
+      "yearTo": 1988,
+      "yearApprox": false,
+      "domainId": "painting",
+      "sub": "contemporary",
+      "personIds": [
+        "p-grichter"
+      ],
+      "place": null,
+      "novelty": "ריכטר צייר 15 ציורים **בגוני אפור עמומים** לפי **תצלומי משטרה ועיתונות**, וטשטש את קווי המתאר.",
+      "contribution": "הטרור של סיעת הצבא האדום הפך אצלו ל**משל לכל אידיאולוגיה** שמבוססת על חוסר אנושיות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-18-oktober-1977",
+          "quote": "The series originated between March and November 1988, ten years after the events.",
+          "quoteHe": "הסדרה נוצרה בין מרץ לנובמבר 1988, עשר שנים אחרי האירועים."
+        },
+        {
+          "sourceId": "s-wp-18-oktober-1977",
+          "quote": "The series consists of 15 paintings in dull grey tones executed in oil paint after police and press photos, their contours blurred.",
+          "quoteHe": "הסדרה כוללת 15 ציורים בגוני אפור עמומים, שצוירו בצבעי שמן לפי תצלומי משטרה ועיתונות, וקווי המתאר שלהם מטושטשים."
+        },
+        {
+          "sourceId": "s-wp-18-oktober-1977",
+          "quote": "The terrorism of the Red Army Faction (RAF), which kept the Federal Republic of Germany in suspense for ten years, is for Richter a metaphor for any ideology based on inhumanity.",
+          "quoteHe": "הטרור של סיעת הצבא האדום (RAF), שהחזיק את הרפובליקה הפדרלית של גרמניה במתח במשך עשר שנים, הוא בעיני ריכטר משל לכל אידיאולוגיה שמבוססת על חוסר אנושיות."
+        }
+      ],
+      "sources": [
+        "s-wp-18-oktober-1977"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2018-banksy-bin",
+      "title": "האהבה בפח: בנקסי",
+      "yearFrom": 2018,
+      "yearTo": 2018,
+      "yearApprox": false,
+      "domainId": "painting",
+      "sub": "contemporary",
+      "personIds": [
+        "p-banksy"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-love-is-in-the-bin",
+          "quote": "Love Is in the Bin is a 2018 art intervention by Banksy at Sotheby's London.",
+          "quoteHe": "האהבה בפח היא התערבות אמנותית של בנקסי משנת 2018 בבית המכירות סותביס בלונדון."
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "novelty": "מגרסה נסתרת במסגרת **גרסה את הבד שניות אחרי נקישת הפטיש** במכירה הפומבית, ולפי סותביס זו **היצירה הראשונה שנוצרה בשידור חי** במכירה.",
+      "contribution": "הבד הגרוס נמכר ב-2021 ב**שיא מחיר לאמן**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-love-is-in-the-bin",
+          "quote": "Love Is in the Bin is a 2018 art intervention by Banksy at Sotheby's London.",
+          "quoteHe": "האהבה בפח היא התערבות אמנותית של בנקסי משנת 2018 בבית המכירות סותביס בלונדון."
+        },
+        {
+          "sourceId": "s-wp-love-is-in-the-bin",
+          "quote": "Within seconds of the gavel drop, the canvas began sliding out of the bottom of the frame and shredding itself to the audible sound of a siren and the surprise exclamations of attendees.",
+          "quoteHe": "בתוך שניות מנקישת הפטיש, הבד החל לגלוש מתחתית המסגרת ולהיגרס, לקול צפירה ולקריאות ההפתעה של הנוכחים."
+        },
+        {
+          "sourceId": "s-wp-love-is-in-the-bin",
+          "quote": "According to Sotheby's, it is \"the first artwork in history to have been created live during an auction.\"",
+          "quoteHe": "לפי סותביס, זו \"יצירת האמנות הראשונה בהיסטוריה שנוצרה בשידור חי במהלך מכירה פומבית\"."
+        },
+        {
+          "sourceId": "s-wp-love-is-in-the-bin",
+          "quote": "In October 2021, it sold at auction for £18,582,000 (then equivalent to US$25,327,452 or €21.62M), a record for the artist.",
+          "quoteHe": "באוקטובר 2021 היא נמכרה במכירה פומבית ב-18,582,000 ליש״ט (אז כ-25,327,452 דולר או 21.62 מיליון אירו), שיא לאמן."
+        }
+      ],
+      "sources": [
+        "s-wp-love-is-in-the-bin"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1957-balanchine-agon",
+      "title": "אגון: ג׳ורג׳ בלנשין",
+      "yearFrom": 1957,
+      "yearTo": 1957,
+      "yearApprox": false,
+      "domainId": "dance",
+      "sub": "ballet",
+      "personIds": [
+        "p-balanchine"
+      ],
+      "place": {
+        "wikipedia": "New York City",
+        "nameHe": "ניו יורק",
+        "nameFull": "New York City",
+        "lat": 40.7128,
+        "lon": -74.0061,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "The score was commissioned by the New York City Ballet.",
+          "quoteHe": "הפרטיטורה הוזמנה בידי בלט העיר ניו יורק."
+        },
+        "city": {
+          "nameHe": "ניו יורק",
+          "nameFull": "New York City"
+        },
+        "wikidata": "Q60",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "בלט **בלי סיפור** לשנים עשר רקדנים, על פרטיטורה ש**עוברת מהדיאטוני לטכניקת שנים-עשר הטונים**.",
+      "contribution": "היצירה **הוכרה כנקודת ציון** כבר בבכורה, ונחשבת כך מאז.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "Agon is a 25-minute ballet for twelve dancers, with music by Igor Stravinsky and choreography by George Balanchine.",
+          "quoteHe": "אגון הוא בלט בן 25 דקות לשנים עשר רקדנים, במוזיקה של איגור סטרווינסקי ובכוריאוגרפיה של ג׳ורג׳ בלנשין."
+        },
+        {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "Agon was first performed on stage by the City Ballet at the City Center of Music and Drama on November 27, 1957.",
+          "quoteHe": "אגון הועלה לראשונה על הבמה בידי הסיטי באלה במרכז העירוני למוזיקה ולדרמה ב-27 בנובמבר 1957."
+        },
+        {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "The composition's long gestation period covers an interesting juncture in Stravinsky's composing career, in which he moved from a diatonic musical idiom to one based on twelve-tone technique;",
+          "quoteHe": "תקופת ההבשלה הארוכה של היצירה חופפת לצומת מעניין בקריירה של סטרווינסקי, שבו עבר משפה מוזיקלית דיאטונית לשפה המבוססת על טכניקת שנים-עשר הטונים;"
+        },
+        {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "The ballet has no story, but consists of a series of dance movements in which various groups of dancers interact in pairs, trios, quartets, etc.",
+          "quoteHe": "לבלט אין סיפור, והוא בנוי מסדרת פרקי ריקוד שבהם קבוצות שונות של רקדנים פועלות זו עם זו בזוגות, בשלישיות, ברביעיות וכן הלאה."
+        },
+        {
+          "sourceId": "s-wp-agon-ballet",
+          "quote": "It was recognized as a landmark at its premiere and has continued to be regarded as such ever since.",
+          "quoteHe": "הוא הוכר כנקודת ציון בבכורתו, וממשיך להיחשב כך מאז."
+        }
+      ],
+      "sources": [
+        "s-wp-agon-ballet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1995-bourne-swan-lake",
+      "title": "אגם הברבורים: מתיו בורן",
+      "yearFrom": 1995,
+      "yearTo": 1995,
+      "yearApprox": false,
+      "domainId": "dance",
+      "sub": "ballet",
+      "personIds": [
+        "p-bourne"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-swan-lake-bourne",
+          "quote": "the original ballet premiered in London at Sadler's Wells Theatre on 9 November 1995",
+          "quoteHe": "הבלט המקורי עלה לראשונה בלונדון בתיאטרון סדלרס ולס ב-9 בנובמבר 1995"
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "novelty": "בורן נתן את **תפקידי הברבורים, שהיו נשיים במסורת, לגברים**, בבחירה שזכתה לכינוי רדיקלית ונועזת.",
+      "contribution": "נכון ל-2026 זה **הבלט שרץ הכי הרבה זמן** בווסט אנד בלונדון ובברודוויי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-swan-lake-bourne",
+          "quote": "Produced by Adventures in Motion Pictures with Bourne as director and choreographer, the original ballet premiered in London at Sadler's Wells Theatre on 9 November 1995 and ran until 25 November.",
+          "quoteHe": "הבלט המקורי, בהפקת Adventures in Motion Pictures ובבימוי ובכוריאוגרפיה של בורן, עלה לראשונה בלונדון בתיאטרון סדלרס ולס ב-9 בנובמבר 1995 ורץ עד 25 בנובמבר."
+        },
+        {
+          "sourceId": "s-wp-swan-lake-bourne",
+          "quote": "Bourne's interpretation is best known for having the traditionally female parts of the swans danced by men.",
+          "quoteHe": "הפרשנות של בורן ידועה בעיקר בכך שתפקידי הברבורים, שהם במסורת תפקידים נשיים, נרקדים בידי גברים."
+        },
+        {
+          "sourceId": "s-wp-swan-lake-bourne",
+          "quote": "The ballet has found significant popularity and commercial success worldwide, with Bourne's choice to use male swans hailed as radical and daring.",
+          "quoteHe": "הבלט זכה לפופולריות רבה ולהצלחה מסחרית ברחבי העולם, והבחירה של בורן בברבורים גברים זכתה לשבחים כרדיקלית ונועזת."
+        },
+        {
+          "sourceId": "s-wp-swan-lake-bourne",
+          "quote": "As of 2026, it is the longest-running ballet in London's West End and on Broadway.",
+          "quoteHe": "נכון ל-2026, זה הבלט שרץ הכי הרבה זמן בווסט אנד בלונדון ובברודוויי."
+        }
+      ],
+      "sources": [
+        "s-wp-swan-lake-bourne"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1988-forsythe-czar",
+      "title": "להרשים את הצאר: ויליאם פורסייט",
+      "yearFrom": 1987,
+      "yearTo": 1988,
+      "yearApprox": false,
+      "domainId": "dance",
+      "sub": "ballet",
+      "personIds": [
+        "p-forsythe"
+      ],
+      "place": {
+        "wikipedia": "Frankfurt",
+        "nameHe": "פרנקפורט על המיין",
+        "nameFull": "Frankfurt",
+        "lat": 50.1106,
+        "lon": 8.6822,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-impressing-the-czar",
+          "quote": "It was premiered in its full-length version in 1988 in Frankfurt am Main by the Ballet Frankfurt.",
+          "quoteHe": "גרסתו המלאה עלתה לראשונה ב-1988 בפרנקפורט על נהר מיין בידי בלט פרנקפורט."
+        },
+        "city": {
+          "nameHe": "פרנקפורט",
+          "nameFull": "Frankfurt"
+        },
+        "wikidata": "Q1794",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "novelty": "**בלט פוסט-מודרני** בלי עלילה רציפה, ש**מגיב באירוניה ובהומור** על ההיסטוריה של הציוויליזציה המערבית ועל כלכלת התרבות שלה.",
+      "contribution": "החלק \"באמצע, מעט מוגבה\" נמצא ב**רפרטואר של להקות בלט רבות** ברחבי העולם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-impressing-the-czar",
+          "quote": "Impressing the Czar is a four-act, award-winning, postmodern ballet choreographed by William Forsythe to music by Thom Willems, Leslie Stuck, Eva Crossman-Hecht, and Ludwig van Beethoven.",
+          "quoteHe": "להרשים את הצאר הוא בלט פוסט-מודרני עטור פרסים בארבע מערכות, בכוריאוגרפיה של ויליאם פורסייט, למוזיקה של תום וילמס, לסלי סטאק, אווה קרוסמן-הכט ולודוויג ואן בטהובן."
+        },
+        {
+          "sourceId": "s-wp-impressing-the-czar",
+          "quote": "It was premiered in its full-length version in 1988 in Frankfurt am Main by the Ballet Frankfurt.",
+          "quoteHe": "גרסתו המלאה עלתה לראשונה ב-1988 בפרנקפורט על נהר מיין בידי בלט פרנקפורט."
+        },
+        {
+          "sourceId": "s-wp-impressing-the-czar",
+          "quote": "Though the work has no continuous narrative theme, the ballet comments ironically and often humorously on the history of Western civilization and its economies of culture.",
+          "quoteHe": "אף שאין ליצירה נושא עלילתי רציף, הבלט מגיב באירוניה, ולעתים קרובות בהומור, על ההיסטוריה של הציוויליזציה המערבית ועל כלכלות התרבות שלה."
+        },
+        {
+          "sourceId": "s-wp-impressing-the-czar",
+          "quote": "It is a stand-alone ballet titled \"In the Middle, Somewhat Elevated,\" which was originally created in 1987 for the Paris Opera Ballet, where it was danced by soloists Isabelle Guérin, Sylvie Guillem, Laurent Hilaire, and Manuel Legris.",
+          "quoteHe": "זהו בלט עצמאי בשם \"באמצע, מעט מוגבה\", שנוצר במקור ב-1987 לבלט האופרה של פריז, ושם רקדו אותו הסולנים איזבל גרן, סילבי גיגם, לורן הילר ומנואל לגרי."
+        },
+        {
+          "sourceId": "s-wp-impressing-the-czar",
+          "quote": "One of Forsythe's most famous creations, this work is in the repertory of numerous ballet companies around the world.",
+          "quoteHe": "היצירה, אחת המפורסמות של פורסייט, נמצאת ברפרטואר של להקות בלט רבות ברחבי העולם."
+        }
+      ],
+      "sources": [
+        "s-wp-impressing-the-czar"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2002-khan-kaash",
+      "title": "קאאש: אקרם חאן",
+      "yearFrom": 2002,
+      "yearTo": 2002,
+      "yearApprox": false,
+      "domainId": "dance",
+      "sub": "contemporary",
+      "personIds": [
+        "p-akhan"
+      ],
+      "place": {
+        "wikipedia": "Edinburgh",
+        "nameHe": "אדינבורו",
+        "nameFull": "Edinburgh",
+        "lat": 55.9533,
+        "lon": -3.1892,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-akram-khan-dancer",
+          "quote": "His first full-length work Kaash, a collaboration with Anish Kapoor and Nitin Sawhney, was performed at the Edinburgh Festival in 2002.",
+          "quoteHe": "עבודתו הראשונה באורך מלא, קאאש, בשיתוף עם אניש קאפור וניטין סוואני, הועלתה בפסטיבל אדינבורו ב-2002."
+        },
+        "city": {
+          "nameHe": "אדינבורו",
+          "nameFull": "Edinburgh"
+        },
+        "wikidata": "Q23436",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "novelty": "חאן בנה את שפתו על **הקתאק, ריקוד דרום-אסייתי קלאסי, ועל מחול עכשווי**, ויצר את קאאש **בשיתוף עם הפסל אניש קאפור** והמוזיקאי ניטין סוואני.",
+      "contribution": "אחרי קאאש היה חאן ל**ראשון שאינו מוזיקאי** שקיבל מעמד של אמן שותף בסאות׳בנק סנטר.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-akram-khan-dancer",
+          "quote": "His first full-length work Kaash, a collaboration with Anish Kapoor and Nitin Sawhney, was performed at the Edinburgh Festival in 2002.",
+          "quoteHe": "עבודתו הראשונה באורך מלא, קאאש, בשיתוף עם אניש קאפור וניטין סוואני, הועלתה בפסטיבל אדינבורו ב-2002."
+        },
+        {
+          "sourceId": "s-wp-akram-khan-dancer",
+          "quote": "His background is rooted in his classical Kathak training and contemporary dance.",
+          "quoteHe": "הרקע שלו נטוע בהכשרתו בקתאק הקלאסי ובמחול עכשווי."
+        },
+        {
+          "sourceId": "s-wp-akram-khan-dancer",
+          "quote": "He began dancing and trained in the classical South Asian dance form Kathak at the age of seven.",
+          "quoteHe": "הוא התחיל לרקוד והתאמן בצורת הריקוד הדרום-אסייתית הקלאסית קתאק בגיל שבע."
+        },
+        {
+          "sourceId": "s-wp-akram-khan-dancer",
+          "quote": "He remained an associate artist at the Southbank Centre until April 2005, the first non-musician to be afforded this status, and is currently an associate artist at Sadler's Wells Theatre.",
+          "quoteHe": "הוא נשאר אמן שותף בסאות׳בנק סנטר עד אפריל 2005, הראשון שאינו מוזיקאי שקיבל את המעמד הזה, וכיום הוא אמן שותף בתיאטרון סדלרס ולס."
+        }
+      ],
+      "sources": [
+        "s-wp-akram-khan-dancer"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2009-cameron-avatar",
+      "title": "אווטאר: ג׳יימס קמרון",
+      "yearFrom": 2009,
+      "yearTo": 2009,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "sub": "animation-effects",
+      "personIds": [
+        "p-cameron"
+      ],
+      "place": null,
+      "novelty": "הסרט עשה שימוש נרחב ב**גרפיקה ממוחשבת בתלת-ממד** ובטכניקות חדשות של **לכידת תנועה**.",
+      "contribution": "הוא היה **הסרט המכניס ביותר בכל הזמנים**, והצלחתו הגבירה את הפופולריות של **סרטי תלת-ממד**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-avatar-2009-film",
+          "quote": "Avatar is a 2009 epic science fiction film written and directed by James Cameron.",
+          "quoteHe": "אווטאר הוא סרט מדע בדיוני אפי משנת 2009, שכתב וביים ג׳יימס קמרון."
+        },
+        {
+          "sourceId": "s-wp-avatar-2009-film",
+          "quote": "The film made extensive use of 3D computer graphics and new motion capture filming techniques, and reunited Cameron with his Titanic co-producer Jon Landau.",
+          "quoteHe": "הסרט עשה שימוש נרחב בגרפיקה ממוחשבת בתלת-ממד ובטכניקות צילום חדשות של לכידת תנועה, ואיחד מחדש את קמרון עם שותפו להפקת טיטאניק, ג׳ון לנדאו."
+        },
+        {
+          "sourceId": "s-wp-avatar-2009-film",
+          "quote": "The film broke several box office records, including becoming the highest-grossing film of all time from 2010 to 2019 and again from 2021 to 2026.",
+          "quoteHe": "הסרט שבר כמה שיאי קופות, ובהם היותו הסרט המכניס ביותר בכל הזמנים מ-2010 עד 2019 ושוב מ-2021 עד 2026."
+        },
+        {
+          "sourceId": "s-wp-avatar-2009-film",
+          "quote": "Its success led to an increase in popularity of 3D films, and to electronics manufacturers releasing 3D televisions.",
+          "quoteHe": "הצלחתו הביאה לעלייה בפופולריות של סרטי תלת-ממד, וליצרני אלקטרוניקה שהוציאו טלוויזיות תלת-ממד."
+        }
+      ],
+      "sources": [
+        "s-wp-avatar-2009-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2016-jenkins-moonlight",
+      "title": "אור ירח: בארי ג׳נקינס",
+      "yearFrom": 2016,
+      "yearTo": 2016,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "sub": "contemporary",
+      "personIds": [
+        "p-bjenkins"
+      ],
+      "place": {
+        "wikipedia": "Miami",
+        "nameHe": "מיאמי",
+        "nameFull": "Miami",
+        "lat": 25.7742,
+        "lon": -80.1936,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-moonlight-2016-film",
+          "quote": "Filmed in Miami, Florida, beginning in 2015, Moonlight premiered at the 43rd Telluride Film Festival on September 2, 2016.",
+          "quoteHe": "אור ירח צולם במיאמי, פלורידה, החל מ-2015, והבכורה שלו הייתה בפסטיבל טלורייד ה-43 ב-2 בספטמבר 2016."
+        },
+        "city": {
+          "nameHe": "מיאמי",
+          "nameFull": "Miami"
+        },
+        "wikidata": "Q8652",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "הסרט מציג **שלושה שלבים בחייו** של הגיבור, והיה **סרט הלהט״ב הראשון בהפצה רחבה עם צוות שחקנים שחור כולו**.",
+      "contribution": "הסרט זכה ב**אוסקר לסרט הטוב ביותר**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-moonlight-2016-film",
+          "quote": "Moonlight is a 2016 American drama film written and directed by Barry Jenkins",
+          "quoteHe": "אור ירח הוא סרט דרמה אמריקאי משנת 2016, שכתב וביים בארי ג׳נקינס"
+        },
+        {
+          "sourceId": "s-wp-moonlight-2016-film",
+          "quote": "The film presents three stages in the life of the main character: his childhood, adolescence, and early adult life.",
+          "quoteHe": "הסרט מציג שלושה שלבים בחייו של הגיבור: ילדותו, התבגרותו וראשית בגרותו."
+        },
+        {
+          "sourceId": "s-wp-moonlight-2016-film",
+          "quote": "It was released as the first LGBTQ-themed mass-marketed feature film with an all-black cast",
+          "quoteHe": "הוא יצא כסרט העלילתי הראשון בנושא להט״ב בהפצה המונית עם צוות שחקנים שחור כולו"
+        },
+        {
+          "sourceId": "s-wp-moonlight-2016-film",
+          "quote": "The film won the Academy Award for Best Picture—along with Best Supporting Actor (Ali) and Best Adapted Screenplay—from a total of eight nominations, at the 89th Academy Awards.",
+          "quoteHe": "הסרט זכה בפרס האוסקר לסרט הטוב ביותר, וגם בפרס לשחקן המשנה הטוב ביותר (עלי) ולתסריט המעובד הטוב ביותר, מתוך שמונה מועמדויות בטקס האוסקר ה-89."
+        }
+      ],
+      "sources": [
+        "s-wp-moonlight-2016-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2018-cuaron-roma",
+      "title": "רומה: אלפונסו קוארון",
+      "yearFrom": 2018,
+      "yearTo": 2018,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "sub": "contemporary",
+      "personIds": [
+        "p-cuaron"
+      ],
+      "place": {
+        "wikipedia": "Mexico City",
+        "nameHe": "מקסיקו סיטי",
+        "nameFull": "Mexico City",
+        "lat": 19.3538,
+        "lon": -99.1359,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-roma-2018-film",
+          "quote": "Filming took place on location throughout Mexico City, as Cuarón felt shooting on soundstages would be difficult for first-time actors.",
+          "quoteHe": "הצילומים נערכו באתרים ברחבי מקסיקו סיטי, כי קוארון חשב שצילום באולפנים יהיה קשה לשחקנים בפעם הראשונה."
+        },
+        "city": {
+          "nameHe": "מקסיקו סיטי",
+          "nameFull": "Mexico City"
+        },
+        "wikidata": "Q1489",
+        "country": {
+          "wikidata": "Q96",
+          "nameHe": "מקסיקו",
+          "nameFull": "Mexico"
+        }
+      },
+      "novelty": "קוארון כתב, ביים וגם **צילם בעצמו** סרט חצי-אוטוביוגרפי, שצולם בצבע ו**הומר לשחור-לבן** בעריכה.",
+      "contribution": "הסרט זכה ב**אריה הזהב** בוונציה, והיה **הסרט המקסיקני הראשון שזכה באוסקר לסרט בשפה זרה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-roma-2018-film",
+          "quote": "Roma is a 2018 historical drama film written, produced, and directed by Alfonso Cuarón, who also served as cinematographer and co-editor.",
+          "quoteHe": "רומה הוא סרט דרמה היסטורי משנת 2018, שכתב, הפיק וביים אלפונסו קוארון, שהיה גם הצלם ושותף לעריכה."
+        },
+        {
+          "sourceId": "s-wp-roma-2018-film",
+          "quote": "It is a semi-autobiographical take on Cuarón's upbringing in Mexico City's Colonia Roma neighborhood.",
+          "quoteHe": "זהו מבט חצי-אוטוביוגרפי על ילדותו של קוארון בשכונת קולוניה רומה במקסיקו סיטי."
+        },
+        {
+          "sourceId": "s-wp-roma-2018-film",
+          "quote": "It was filmed in color and converted to black and white in the post-production process.",
+          "quoteHe": "הוא צולם בצבע והומר לשחור-לבן בשלב העריכה."
+        },
+        {
+          "sourceId": "s-wp-roma-2018-film",
+          "quote": "Roma premiered on 30 August 2018 at the 75th Venice International Film Festival, where it won the Golden Lion.",
+          "quoteHe": "הבכורה של רומה הייתה ב-30 באוגוסט 2018 בפסטיבל הסרטים הבין-לאומי ה-75 בוונציה, שם זכה באריה הזהב."
+        },
+        {
+          "sourceId": "s-wp-roma-2018-film",
+          "quote": "It became the first Mexican entry to win Best Foreign Language Film, and the first film to win both Best Cinematography and Best Director for the same person in a single night.",
+          "quoteHe": "הוא היה למועמד המקסיקני הראשון שזכה בפרס לסרט בשפה זרה, ולסרט הראשון שבו אדם אחד זכה באותו ערב גם בפרס הצילום וגם בפרס הבימוי."
+        }
+      ],
+      "sources": [
+        "s-wp-roma-2018-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1970-smithson-spiral-jetty",
+      "title": "מזח הספירלה: רוברט סמית׳סון",
+      "yearFrom": 1970,
+      "yearTo": 1970,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "sub": "contemporary",
+      "personIds": [
+        "p-smithson"
+      ],
+      "place": null,
+      "novelty": "סמית׳סון בנה בבוץ, בגבישי מלח ובסלעי בזלת **סליל באורך 460 מטר** שיוצא מחוף האגם הגדול של המלח, ו**לפעמים נראה ולפעמים שקוע** במים.",
+      "contribution": "הטבע החולף של היצירה עורר שאלות על **חשיבות הייצוגים שלה**, בצילומים, בסרטים ובמסות, והיא נחשבת ל**יצירה החשובה ביותר** של סמית׳סון.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-spiral-jetty",
+          "quote": "Spiral Jetty is a work of land art constructed in April 1970 that is considered to be the most important work by American sculptor Robert Smithson.",
+          "quoteHe": "מזח הספירלה הוא יצירת אמנות אדמה שנבנתה באפריל 1970, ונחשבת ליצירה החשובה ביותר של הפסל האמריקאי רוברט סמית׳סון."
+        },
+        {
+          "sourceId": "s-wp-spiral-jetty",
+          "quote": "Built on the northeastern shore of the Great Salt Lake near Rozel Point in Utah entirely of mud, salt crystals, and basalt rocks, Spiral Jetty forms a 1,500-foot-long (460 m), 15-foot-wide (4.6 m) counterclockwise coil jutting from the shore of the lake.",
+          "quoteHe": "מזח הספירלה, שנבנה כולו מבוץ, מגבישי מלח ומסלעי בזלת בחוף הצפון-מזרחי של האגם הגדול של המלח ליד רוזל פוינט ביוטה, יוצר סליל נגד כיוון השעון באורך 1,500 רגל (460 מטר) וברוחב 15 רגל (4.6 מטר), שיוצא מחוף האגם."
+        },
+        {
+          "sourceId": "s-wp-spiral-jetty",
+          "quote": "Depending upon the water level of the Great Salt Lake, the sculpture is sometimes visible and sometimes submerged.",
+          "quoteHe": "בהתאם למפלס המים באגם הגדול של המלח, הפסל לפעמים נראה ולפעמים שקוע."
+        },
+        {
+          "sourceId": "s-wp-spiral-jetty",
+          "quote": "The ephemeral nature of the Spiral Jetty (sometimes visible, sometimes submerged) sparked inquiries into the enduring influence of the artwork and the importance of its various representations, such as photographs, films, and essays.",
+          "quoteHe": "הטבע החולף של מזח הספירלה (לפעמים נראה, לפעמים שקוע) עורר שאלות על השפעתה המתמשכת של היצירה ועל חשיבות הייצוגים השונים שלה, כמו צילומים, סרטים ומסות."
+        }
+      ],
+      "sources": [
+        "s-wp-spiral-jetty"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1998-gormley-angel",
+      "title": "מלאך הצפון: אנטוני גורמלי",
+      "yearFrom": 1998,
+      "yearTo": 1998,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "sub": "contemporary",
+      "personIds": [
+        "p-gormley"
+      ],
+      "place": {
+        "wikipedia": "Gateshead",
+        "nameHe": "גייטסהד",
+        "nameFull": "Gateshead",
+        "lat": 54.95,
+        "lon": -1.6,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-angel-of-the-north",
+          "quote": "The Angel of the North is a contemporary sculpture by Antony Gormley, located in Gateshead, Tyne and Wear, England.",
+          "quoteHe": "מלאך הצפון הוא פסל עכשווי של אנטוני גורמלי, שנמצא בגייטסהד שבטיין אנד ויר, אנגליה."
+        },
+        "city": {
+          "nameHe": "גייטסהד",
+          "nameFull": "Gateshead"
+        },
+        "wikidata": "Q216372",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "novelty": "פסל פלדה בגובה 20 מטר ובמוטת כנפיים של 54 מטר, ש**מבוסס על גופו של גורמלי**, וצלעותיו משמשות **שלד חיצוני** מול הרוח.",
+      "contribution": "בזכות מיקומו ליד הכבישים ומסילת הרכבת, **כ-33 מיליון איש רואים אותו בכל שנה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-angel-of-the-north",
+          "quote": "The Angel of the North is a contemporary sculpture by Antony Gormley, located in Gateshead, Tyne and Wear, England.",
+          "quoteHe": "מלאך הצפון הוא פסל עכשווי של אנטוני גורמלי, שנמצא בגייטסהד שבטיין אנד ויר, אנגליה."
+        },
+        {
+          "sourceId": "s-wp-angel-of-the-north",
+          "quote": "The steel sculpture is 208 tonnes, 20 metres (66 ft) tall, with wings measuring 54 metres (177 ft) across.",
+          "quoteHe": "משקל פסל הפלדה 208 טונות, גובהו 20 מטר (66 רגל), ומוטת כנפיו 54 מטר (177 רגל)."
+        },
+        {
+          "sourceId": "s-wp-angel-of-the-north",
+          "quote": "The design of the Angel, like many of Gormley's works, is based on Gormley's own body.",
+          "quoteHe": "העיצוב של המלאך, כמו יצירות רבות של גורמלי, מבוסס על גופו של גורמלי עצמו."
+        },
+        {
+          "sourceId": "s-wp-angel-of-the-north",
+          "quote": "The vertical ribs on its body and wings act as an external skeleton which direct oncoming wind to the sculpture's foundations, allowing it to withstand wind speeds of over 100 miles per hour (160 km/h).",
+          "quoteHe": "הצלעות האנכיות על גופו ועל כנפיו משמשות שלד חיצוני שמכוון את הרוח אל יסודות הפסל, וכך הוא עומד ברוחות של יותר מ-100 מייל לשעה (160 קמ״ש)."
+        },
+        {
+          "sourceId": "s-wp-angel-of-the-north",
+          "quote": "Completed in 1998, it is seen by an estimated 33 million people every year due to its proximity to the A1 and A167 roads and the East Coast Main Line.",
+          "quoteHe": "הוא הושלם ב-1998, ובשל קרבתו לכבישים A1 ו-A167 ולקו הרכבת הראשי של החוף המזרחי, רואים אותו לפי ההערכה כ-33 מיליון איש בכל שנה."
+        }
+      ],
+      "sources": [
+        "s-wp-angel-of-the-north"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1821-cauchy-cours",
+      "title": "קורס באנליזה: החשבון האינפיניטסימלי מקבל קפדנות",
+      "yearFrom": 1821,
+      "yearTo": 1821,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "sub": "analysis",
+      "personIds": [
+        "p-cauchy"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**קושי** הגדיר **רציפות** ותנאי לקיום גבול, והדגיש בספרו את חשיבות הקפדנות באנליזה.",
+      "contribution": "הספר הפך את קושי ל**מורה של האנליזה הקפדנית** לאירופה כולה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-cours-d-analyse",
+          "quote": "Analyse algébrique (\"Analysis Course\" in English) is a seminal textbook in infinitesimal calculus published by Augustin-Louis Cauchy in 1821.",
+          "quoteHe": "Analyse algébrique (\"קורס באנליזה\" באנגלית) הוא ספר לימוד פורץ דרך בחשבון האינפיניטסימלי, שפרסם אוגוסטן-לואי קושי ב-1821."
+        },
+        {
+          "sourceId": "s-wp-augustin-louis-cauchy",
+          "quote": "In his book Cours d'analyse Cauchy stressed the importance of rigor in analysis.",
+          "quoteHe": "בספרו \"קורס באנליזה\" הדגיש קושי את חשיבות הקפדנות באנליזה."
+        },
+        {
+          "sourceId": "s-wp-augustin-louis-cauchy",
+          "quote": "In this book he gave the necessary and sufficient condition for the existence of a limit in the form that is still taught.",
+          "quoteHe": "בספר הזה הוא נתן את התנאי ההכרחי והמספיק לקיום גבול, בצורה שעדיין מלמדים אותה."
+        },
+        {
+          "sourceId": "s-wp-augustin-louis-cauchy",
+          "quote": "Here Cauchy defined continuity as follows:",
+          "quoteHe": "כאן הגדיר קושי רציפות כך:"
+        },
+        {
+          "sourceId": "s-wp-augustin-louis-cauchy",
+          "quote": "Judith Grabiner wrote Cauchy was \"the man who taught rigorous analysis to all of Europe\".",
+          "quoteHe": "ג'ודית גרבינר כתבה שקושי היה \"האיש שלימד אנליזה קפדנית את אירופה כולה\"."
+        }
+      ],
+      "sources": [
+        "s-wp-cours-d-analyse",
+        "s-wp-augustin-louis-cauchy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1822-fourier-heat",
+      "title": "התאוריה האנליטית של החום: כל פונקציה כסכום של גלים",
+      "yearFrom": 1807,
+      "yearTo": 1822,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "sub": "analysis",
+      "personIds": [
+        "p-fourier"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-joseph-fourier",
+          "quote": "He presented his paper On the Propagation of Heat in Solid Bodies to the Paris Institute on 21 December 1807.",
+          "quoteHe": "הוא הציג את מאמרו \"על התפשטות החום בגופים מוצקים\" במכון בפריז ב-21 בדצמבר 1807."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**פורייה** הראה שפונקציה שרירותית אפשר לייצג כ**טור טריגונומטרי**, בדרך לפתרון משוואת החום.",
+      "contribution": "טור פורייה הפך לכלי ב**עיבוד אותות**, באקוסטיקה, באופטיקה ובמכניקת הקוונטים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-fourier-series",
+          "quote": "Fourier introduced the series for the purpose of solving the heat equation in a metal plate, publishing his initial results in his 1807 Mémoire sur la propagation de la chaleur dans les corps solides (Treatise on the propagation of heat in solid bodies), and publishing his Théorie analytique de la chaleur (Analytical theory of heat) in 1822.",
+          "quoteHe": "פורייה הציג את הטור כדי לפתור את משוואת החום בלוח מתכת. את תוצאותיו הראשונות פרסם ב-1807 ב\"מסה על התפשטות החום בגופים מוצקים\", ואת \"התאוריה האנליטית של החום\" פרסם ב-1822."
+        },
+        {
+          "sourceId": "s-wp-fourier-series",
+          "quote": "Through Fourier's research the fact was established that an arbitrary (at first, continuous and later generalized to any piecewise-smooth) function can be represented by a trigonometric series.",
+          "quoteHe": "המחקר של פורייה ביסס את העובדה שפונקציה שרירותית (בתחילה רציפה, ואחר כך בהכללה כל פונקציה חלקה למקוטעין) אפשר לייצג בטור טריגונומטרי."
+        },
+        {
+          "sourceId": "s-wp-fourier-series",
+          "quote": "The Fourier series has many such applications in electrical engineering, vibration analysis, acoustics, optics, signal processing, image processing, quantum mechanics, econometrics, shell theory, etc.",
+          "quoteHe": "לטור פורייה יש שימושים רבים כאלה בהנדסת חשמל, בניתוח רעידות, באקוסטיקה, באופטיקה, בעיבוד אותות, בעיבוד תמונה, במכניקת הקוונטים, באקונומטריקה, בתורת הקליפות ועוד."
+        }
+      ],
+      "sources": [
+        "s-wp-fourier-series",
+        "s-wp-joseph-fourier"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1902-lebesgue-integral",
+      "title": "אינטגרל לבג: אינטגרציה כללית יותר",
+      "yearFrom": 1902,
+      "yearTo": 1902,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "sub": "analysis",
+      "personIds": [
+        "p-lebesgue"
+      ],
+      "place": {
+        "wikipedia": "Nancy, France",
+        "nameHe": "נאנסי",
+        "nameFull": "Nancy",
+        "lat": 48.6928,
+        "lon": 6.1836,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-henri-lebesgue",
+          "quote": "In 1899 he moved to a teaching position at the Lycée Central in Nancy, while continuing work on his doctorate.",
+          "quoteHe": "ב-1899 עבר למשרת הוראה בליסה המרכזי בננסי, והמשיך לעבוד על הדוקטורט שלו."
+        },
+        "city": {
+          "nameHe": "ננסי",
+          "nameFull": "Nancy"
+        },
+        "wikidata": "Q40898",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**לבג** הכליל את מושג האינטגרל, כך שהוא מתמודד גם עם פונקציות בעלות **אי-רציפויות**.",
+      "contribution": "האינטגרל שלו **החליף ברובו את אינטגרל רימן** באנליזה המתמטית מהמחצית הראשונה של המאה ה-20.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-henri-lebesgue",
+          "quote": "His theory was published originally in his dissertation Intégrale, longueur, aire (\"Integral, length, area\") at the University of Nancy during 1902.",
+          "quoteHe": "התאוריה שלו פורסמה לראשונה בעבודת הדוקטור שלו, \"אינטגרל, אורך, שטח\", באוניברסיטת ננסי ב-1902."
+        },
+        {
+          "sourceId": "s-wp-lebesgue-integration",
+          "quote": "It can accommodate functions with discontinuities arising in many applications that are pathological from the perspective of the Riemann integral.",
+          "quoteHe": "הוא יכול להכיל פונקציות עם אי-רציפויות, שעולות ביישומים רבים ונחשבות פתולוגיות מנקודת המבט של אינטגרל רימן."
+        },
+        {
+          "sourceId": "s-wp-lebesgue-integration",
+          "quote": "The Lebesgue integral is more general than the Riemann integral, which it largely replaced in mathematical analysis since the first half of the 20th century.",
+          "quoteHe": "אינטגרל לבג כללי יותר מאינטגרל רימן, שאותו הוא החליף ברובו באנליזה המתמטית מאז המחצית הראשונה של המאה ה-20."
+        }
+      ],
+      "sources": [
+        "s-wp-henri-lebesgue",
+        "s-wp-lebesgue-integration"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2004-green-tao",
+      "title": "משפט גרין-טאו: סדרות חשבוניות ארוכות של ראשוניים",
+      "yearFrom": 2004,
+      "yearTo": 2004,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "sub": "number-theory",
+      "personIds": [
+        "p-bgreen",
+        "p-tao"
+      ],
+      "place": null,
+      "novelty": "**גרין וטאו** הוכיחו שבסדרת המספרים הראשוניים יש **סדרות חשבוניות** ארוכות כרצוננו.",
+      "contribution": "ההוכחה הרחיבה את **משפט סמרדי** על סדרות חשבוניות בקבוצות צפופות של מספרים שלמים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-green-tao-theorem",
+          "quote": "In number theory, the Green–Tao theorem, proven by Ben Green and Terence Tao in 2004, states that the sequence of prime numbers contains arbitrarily long arithmetic progressions.",
+          "quoteHe": "בתורת המספרים, משפט גרין-טאו, שהוכיחו בן גרין וטרנס טאו ב-2004, קובע שסדרת המספרים הראשוניים מכילה סדרות חשבוניות ארוכות כרצוננו."
+        },
+        {
+          "sourceId": "s-wp-green-tao-theorem",
+          "quote": "The proof is an extension of Szemerédi's theorem.",
+          "quoteHe": "ההוכחה היא הרחבה של משפט סמרדי."
+        },
+        {
+          "sourceId": "s-wp-green-tao-theorem",
+          "quote": "Szemerédi's theorem, which asserts that subsets of the integers with positive upper density have arbitrarily long arithmetic progressions.",
+          "quoteHe": "משפט סמרדי, שקובע שבתתי קבוצות של המספרים השלמים עם צפיפות עליונה חיובית יש סדרות חשבוניות ארוכות כרצוננו."
+        }
+      ],
+      "sources": [
+        "s-wp-green-tao-theorem"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-2014-mirzakhani-moduli",
+      "title": "מירזח'אני: סדר במרחב המודולי",
+      "yearFrom": 2014,
+      "yearTo": 2014,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "sub": "geometry",
+      "personIds": [
+        "p-mirzakhani"
+      ],
+      "place": {
+        "wikipedia": "Stanford University",
+        "nameHe": "אוניברסיטת סטנפורד",
+        "nameFull": "Stanford University",
+        "lat": 37.4275,
+        "lon": -122.1703,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-maryam-mirzakhani",
+          "quote": "In 2009, she became a professor at Stanford University.",
+          "quoteHe": "ב-2009 נעשתה פרופסורית באוניברסיטת סטנפורד."
+        },
+        "city": {
+          "nameHe": "סטנפורד",
+          "nameFull": "Stanford"
+        },
+        "wikidata": "Q41506",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "**מירזח'אני**, עם אלכס אסקין, הוכיחה שגאודזיות מרוכבות במרחב המודולי **סדירות להפתיע** ולא פרקטליות.",
+      "contribution": "על עבודתה בגאומטריה של משטחי רימן קיבלה את מדליית פילדס, **האישה הראשונה** שזכתה בפרס.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-maryam-mirzakhani",
+          "quote": "In 2014, with Alex Eskin and with input from Amir Mohammadi, Mirzakhani proved that complex geodesics and their closures in moduli space are surprisingly regular, rather than irregular or fractal.",
+          "quoteHe": "ב-2014, עם אלכס אסקין ובעזרת תרומה של אמיר מוחמדי, הוכיחה מירזח'אני שגאודזיות מרוכבות והסגורים שלהן במרחב המודולי סדירים להפתיע, ולא אי-סדירים או פרקטליים."
+        },
+        {
+          "sourceId": "s-wp-maryam-mirzakhani",
+          "quote": "In 2014, she was awarded the Fields Medal for her work in \"the dynamics and geometry of Riemann surfaces and their moduli spaces\", becoming the first woman and the first Iranian citizen to win the prize.",
+          "quoteHe": "ב-2014 הוענקה לה מדליית פילדס על עבודתה ב\"דינמיקה ובגאומטריה של משטחי רימן ושל המרחבים המודוליים שלהם\", והיא הייתה לאישה הראשונה ולאזרחית האיראנית הראשונה שזכתה בפרס."
+        }
+      ],
+      "sources": [
+        "s-wp-maryam-mirzakhani"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1824-carnot-reflections",
+      "title": "הרהורים על הכוח המניע של האש",
+      "yearFrom": 1824,
+      "yearTo": 1824,
+      "yearApprox": false,
+      "domainId": "physics",
+      "sub": "thermodynamics",
+      "personIds": [
+        "p-carnot"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**קרנו** פיתח את התאוריה המוצלחת הראשונה של **הנצילות המרבית** של מנועי חום.",
+      "contribution": "הספר הציג **תהליכים הפיכים** ואת **המחזור התרמודינמי**, מושגי יסוד של התרמודינמיקה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nicolas-le-onard-sadi-carnot",
+          "quote": "Carnot became interested in understanding the limits to improving the performance of steam engines, which led him to the investigations that became his Reflections on the Motive Power of Fire, published at his own expense in June 1824.",
+          "quoteHe": "קרנו התעניין בהבנת הגבולות לשיפור הביצועים של מנועי קיטור, וזה הוביל אותו למחקרים שהפכו לספרו \"הרהורים על הכוח המניע של האש\", שראה אור על חשבונו ביוני 1824."
+        },
+        {
+          "sourceId": "s-wp-nicolas-le-onard-sadi-carnot",
+          "quote": "In that book, which would be his only publication, Carnot developed the first successful theory of the maximum efficiency of heat engines.",
+          "quoteHe": "בספר הזה, שהיה הפרסום היחיד שלו, פיתח קרנו את התאוריה המוצלחת הראשונה של הנצילות המרבית של מנועי חום."
+        },
+        {
+          "sourceId": "s-wp-reflections-on-the-motive-power-of-fire",
+          "quote": "The book introduced such concepts as thermodynamic efficiency, reversible processes, the thermodynamic cycle, and Carnot's theorem.",
+          "quoteHe": "הספר הציג מושגים כמו נצילות תרמודינמית, תהליכים הפיכים, המחזור התרמודינמי ומשפט קרנו."
+        }
+      ],
+      "sources": [
+        "s-wp-nicolas-le-onard-sadi-carnot",
+        "s-wp-reflections-on-the-motive-power-of-fire"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1865-clausius-entropy",
+      "title": "אנטרופיה: שם ונוסחה לחוק השני",
+      "yearFrom": 1865,
+      "yearTo": 1865,
+      "yearApprox": false,
+      "domainId": "physics",
+      "sub": "thermodynamics",
+      "personIds": [
+        "p-clausius"
+      ],
+      "place": {
+        "wikipedia": "Zürich",
+        "nameHe": "ציריך",
+        "nameFull": "Zurich",
+        "lat": 47.3744,
+        "lon": 8.5411,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-rudolf-clausius",
+          "quote": "In 1855 he became professor at the ETH Zürich, the Swiss Federal Institute of Technology in Zürich, where he stayed until 1867.",
+          "quoteHe": "ב-1855 נעשה פרופסור ב-ETH ציריך, המכון הטכנולוגי הפדרלי של שווייץ בציריך, ונשאר שם עד 1867."
+        },
+        "city": {
+          "nameHe": "ציריך",
+          "nameFull": "Zürich"
+        },
+        "wikidata": "Q72",
+        "country": {
+          "wikidata": "Q39",
+          "nameHe": "שווייץ",
+          "nameFull": "Switzerland"
+        }
+      },
+      "novelty": "**קלאוזיוס** נתן לאנטרופיה את **הניסוח המתמטי הראשון**, וגם את שמה.",
+      "contribution": "המאמר סיכם את שני חוקי התרמודינמיקה: **אנרגיית היקום קבועה**, ו**האנטרופיה שלו שואפת למקסימום**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-rudolf-clausius",
+          "quote": "In 1865, Clausius gave the first mathematical version of the concept of entropy, and also gave it its name.",
+          "quoteHe": "ב-1865 נתן קלאוזיוס את הגרסה המתמטית הראשונה של מושג האנטרופיה, וגם נתן לו את שמו."
+        },
+        {
+          "sourceId": "s-wp-rudolf-clausius",
+          "quote": "The landmark 1865 paper in which he introduced the concept of entropy ends with the following summary of the first and second laws of thermodynamics: The energy of the universe is constant. The entropy of the universe tends to a maximum.",
+          "quoteHe": "המאמר פורץ הדרך משנת 1865, שבו הציג את מושג האנטרופיה, מסתיים בסיכום הבא של החוק הראשון והחוק השני של התרמודינמיקה: האנרגיה של היקום קבועה. האנטרופיה של היקום שואפת למקסימום."
+        }
+      ],
+      "sources": [
+        "s-wp-rudolf-clausius"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1877-boltzmann-entropy",
+      "title": "נוסחת בולצמן: אנטרופיה כספירת מצבים",
+      "yearFrom": 1877,
+      "yearTo": 1877,
+      "yearApprox": false,
+      "domainId": "physics",
+      "sub": "thermodynamics",
+      "personIds": [
+        "p-boltzmann"
+      ],
+      "place": {
+        "wikipedia": "Graz",
+        "nameHe": "גראץ",
+        "nameFull": "Graz",
+        "lat": 47.0708,
+        "lon": 15.4386,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-ludwig-boltzmann",
+          "quote": "He spent 14 happy years in Graz and it was there that he developed his statistical concept of nature.",
+          "quoteHe": "הוא בילה 14 שנים מאושרות בגראץ, ושם פיתח את התפיסה הסטטיסטית שלו של הטבע."
+        },
+        "city": {
+          "nameHe": "גראץ",
+          "nameFull": "Graz"
+        },
+        "wikidata": "Q13298",
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
+      },
+      "novelty": "**בולצמן** הגדיר אנטרופיה דרך **מספר המיקרו-מצבים** של מערכת, כמדד לאי-סדר הסטטיסטי שלה.",
+      "contribution": "זו עדיין **ההגדרה המקובלת** לאנטרופיה, וממנה צמח **ההסבר הסטטיסטי** לחוק השני של התרמודינמיקה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ludwig-boltzmann",
+          "quote": "In 1877, he provided the current definition of entropy,",
+          "quoteHe": "ב-1877 נתן את ההגדרה הנוכחית של האנטרופיה,"
+        },
+        {
+          "sourceId": "s-wp-ludwig-boltzmann",
+          "quote": "where Ω is the number of microstates whose energy equals the system's energy, interpreted as a measure of the statistical disorder of a system.",
+          "quoteHe": "כאשר Ω הוא מספר המיקרו-מצבים שהאנרגיה שלהם שווה לאנרגיה של המערכת, והוא מתפרש כמדד לאי-הסדר הסטטיסטי של המערכת."
+        },
+        {
+          "sourceId": "s-wp-ludwig-boltzmann",
+          "quote": "His greatest achievements were the development of statistical mechanics and the statistical explanation of the second law of thermodynamics.",
+          "quoteHe": "הישגיו הגדולים ביותר היו פיתוח המכניקה הסטטיסטית וההסבר הסטטיסטי לחוק השני של התרמודינמיקה."
+        }
+      ],
+      "sources": [
+        "s-wp-ludwig-boltzmann"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1866-haeckel-ecology",
+      "title": "אקולוגיה: שם לתחום חדש",
+      "yearFrom": 1866,
+      "yearTo": 1866,
+      "yearApprox": false,
+      "domainId": "biology",
+      "sub": "ecology",
+      "personIds": [
+        "p-haeckel"
+      ],
+      "place": {
+        "wikipedia": "Jena",
+        "nameHe": "ינה",
+        "nameFull": "Jena",
+        "lat": 50.9272,
+        "lon": 11.5864,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-ernst-haeckel",
+          "quote": "In 1861 he earned a habilitation in comparative anatomy and became a professor of zoology at the University of Jena, where he remained for 47 years, from 1862 to 1909.",
+          "quoteHe": "ב-1861 קיבל הסמכה להוראה באנטומיה השוואתית ונעשה פרופסור לזואולוגיה באוניברסיטת ינה, ונשאר שם 47 שנה, מ-1862 עד 1909."
+        },
+        "city": {
+          "nameHe": "ינה",
+          "nameFull": "Jena"
+        },
+        "wikidata": "Q3150",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "novelty": "**הקל** טבע את המונח **אקולוגיה** בספרו \"המורפולוגיה הכללית של האורגניזמים\".",
+      "contribution": "הספר הציע **סינתזה חדשה של רעיונות דרווין** עם המסורת הגרמנית של פילוסופיית הטבע.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ecology",
+          "quote": "The term \"ecology\" (German: Oekologie, Ökologie) was coined by Ernst Haeckel in his book Generelle Morphologie der Organismen (1866).",
+          "quoteHe": "המונח \"אקולוגיה\" (בגרמנית: Oekologie, Ökologie) נטבע על ידי ארנסט הקל בספרו \"המורפולוגיה הכללית של האורגניזמים\" (1866)."
+        },
+        {
+          "sourceId": "s-wp-ernst-haeckel",
+          "quote": "Haeckel disregarded such caution, and in a year wrote his massive and ambitious Generelle Morphologie, published in 1866, presenting a revolutionary new synthesis of Darwin's ideas with the German tradition of Naturphilosophie",
+          "quoteHe": "הקל התעלם מזהירות כזאת, ובתוך שנה כתב את ספרו העצום והשאפתני \"המורפולוגיה הכללית\", שראה אור ב-1866 והציג סינתזה מהפכנית חדשה של רעיונות דרווין עם המסורת הגרמנית של פילוסופיית הטבע"
+        }
+      ],
+      "sources": [
+        "s-wp-ecology",
+        "s-wp-ernst-haeckel"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1925-lotka-volterra",
+      "title": "משוואות לוטקה-וולטרה: טורף ונטרף במשוואות",
+      "yearFrom": 1925,
+      "yearTo": 1926,
+      "yearApprox": false,
+      "domainId": "biology",
+      "sub": "ecology",
+      "personIds": [
+        "p-lotka",
+        "p-volterra"
+      ],
+      "place": null,
+      "novelty": "**לוטקה ווולטרה** תיארו כל אחד בנפרד את יחסי **טורף ונטרף** באותו זוג משוואות דיפרנציאליות.",
+      "contribution": "וולטרה ניתח בעזרתן **נתוני דיג מהים האדריאטי**, ולוטקה כתב את אחד הספרים הראשונים ב**ביולוגיה מתמטית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-lotka-volterra-equations",
+          "quote": "The Lotka–Volterra equations, also known as the Lotka–Volterra predator–prey model, are a pair of first-order nonlinear differential equations, frequently used to describe the dynamics of biological systems in which two species interact, one as a predator and the other as prey.",
+          "quoteHe": "משוואות לוטקה-וולטרה, שנקראות גם מודל הטורף-נטרף של לוטקה-וולטרה, הן זוג משוואות דיפרנציאליות לא ליניאריות מסדר ראשון, שמשמשות לעתים קרובות לתיאור הדינמיקה של מערכות ביולוגיות שבהן שני מינים מקיימים יחסי גומלין, אחד כטורף והשני כנטרף."
+        },
+        {
+          "sourceId": "s-wp-lotka-volterra-equations",
+          "quote": "in 1925 he used the equations to analyse predator–prey interactions in his book on biomathematics.",
+          "quoteHe": "ב-1925 השתמש במשוואות כדי לנתח יחסי טורף-נטרף בספרו על ביומתמטיקה."
+        },
+        {
+          "sourceId": "s-wp-lotka-volterra-equations",
+          "quote": "The same set of equations was published in 1926 by Vito Volterra, a mathematician and physicist, who had become interested in mathematical biology.",
+          "quoteHe": "אותה מערכת משוואות פורסמה ב-1926 על ידי ויטו וולטרה, מתמטיקאי ופיזיקאי שהתעניין בביולוגיה מתמטית."
+        },
+        {
+          "sourceId": "s-wp-vito-volterra",
+          "quote": "D'Ancona piqued his father-in-law's interest in biomathematics when he showed Vito a set of data regarding populations of different species of fish in the Adriatic Sea",
+          "quoteHe": "ד'אנקונה עורר את התעניינותו של חותנו בביומתמטיקה כשהראה לוויטו נתונים על אוכלוסיות של מיני דגים שונים בים האדריאטי"
+        },
+        {
+          "sourceId": "s-wp-vito-volterra",
+          "quote": "Vito published an analysis of the dynamics of interacting species of fish the next year.",
+          "quoteHe": "ויטו פרסם בשנה שלאחר מכן ניתוח של הדינמיקה של מיני דגים שמשפיעים זה על זה."
+        },
+        {
+          "sourceId": "s-wp-alfred-j-lotka",
+          "quote": "Lotka published Elements of Physical Biology in 1925, one of the first books on mathematical biology after D'Arcy Thompson's On Growth and Form.",
+          "quoteHe": "לוטקה פרסם את \"יסודות הביולוגיה הפיזיקלית\" ב-1925, אחד הספרים הראשונים בביולוגיה מתמטית אחרי \"על צמיחה וצורה\" של ד'ארסי תומפסון."
+        }
+      ],
+      "sources": [
+        "s-wp-lotka-volterra-equations",
+        "s-wp-vito-volterra",
+        "s-wp-alfred-j-lotka"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1935-tansley-ecosystem",
+      "title": "המערכת האקולוגית: אורגניזמים וסביבה כיחידה אחת",
+      "yearFrom": 1935,
+      "yearTo": 1935,
+      "yearApprox": false,
+      "domainId": "biology",
+      "sub": "ecology",
+      "personIds": [
+        "p-tansley"
+      ],
+      "place": {
+        "wikipedia": "Oxford",
+        "nameHe": "אוקספורד",
+        "nameFull": "Oxford",
+        "lat": 51.7519,
+        "lon": -1.2578,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-arthur-tansley",
+          "quote": "After four years away from a formal academic position in botany, Tansley was appointed Sherardian Professor of Botany at the University of Oxford in 1927, where he remained until his retirement in 1937.",
+          "quoteHe": "אחרי ארבע שנים בלי משרה אקדמית רשמית בבוטניקה, מונה טנסלי לפרופסור שרארדי לבוטניקה באוניברסיטת אוקספורד ב-1927, ונשאר שם עד פרישתו ב-1937."
+        },
+        "city": {
+          "nameHe": "אוקספורד",
+          "nameFull": "Oxford"
+        },
+        "wikidata": "Q34217",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "novelty": "**טנסלי** הציג את מושג **המערכת האקולוגית**, כדי להבליט את מעבר החומרים בין אורגניזמים לסביבתם.",
+      "contribution": "המושג הפך את האורגניזמים והסביבה הדוממת ל**יחידה אחת**, שקשורה ב**מחזורי חומרים וזרימת אנרגיה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-arthur-tansley",
+          "quote": "In 1935 Tansley published \"The use and abuse of vegetational terms and concepts\" in which he introduced the ecosystem concept.",
+          "quoteHe": "ב-1935 פרסם טנסלי את \"השימוש והשימוש לרעה במונחים ובמושגים של צומח\", ובו הציג את מושג המערכת האקולוגית."
+        },
+        {
+          "sourceId": "s-wp-ecosystem",
+          "quote": "Tansley devised the concept to draw attention to the importance of transfers of materials between organisms and their environment.",
+          "quoteHe": "טנסלי הגה את המושג כדי להסב תשומת לב לחשיבות של מעבר חומרים בין אורגניזמים לסביבתם."
+        },
+        {
+          "sourceId": "s-wp-ecosystem",
+          "quote": "An ecosystem (or ecological system) is a system formed by organisms in interaction with their environment, where the biotic and abiotic components are linked together through nutrient cycles and energy flows.",
+          "quoteHe": "מערכת אקולוגית היא מערכת שנוצרת מאורגניזמים ביחסי גומלין עם סביבתם, שבה הרכיבים החיים והדוממים קשורים זה לזה במחזורי חומרי הזנה ובזרימות אנרגיה."
+        }
+      ],
+      "sources": [
+        "s-wp-arthur-tansley",
+        "s-wp-ecosystem"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1790-pantheon-paris",
+      "title": "הפנתאון בפריז: כיפת אבן ניאו-קלאסית",
+      "yearFrom": 1758,
+      "yearTo": 1790,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "sub": "classical-revival",
+      "personIds": [
+        "p-soufflot"
+      ],
+      "place": {
+        "wikipedia": "Panthéon",
+        "nameHe": "הפנתאון של פריז",
+        "nameFull": "Panthéon",
+        "lat": 48.8462,
+        "lon": 2.3461,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-panthe-on",
+          "quote": "is a monument in the 5th arrondissement of Paris, France.",
+          "quoteHe": "הוא מונומנט ברובע החמישי של פריז, צרפת."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q188856",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**סופלו** תכנן דוגמה מוקדמת ל**ניאו-קלאסיציזם**, שכיפתה בנויה כולה מאבן, בלי שלד עץ.",
+      "contribution": "הכנסייה הפכה ל**מאוזוליאום של אזרחים צרפתים נודעים**, על פי הדגם של הפנתאון ברומא.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-panthe-on",
+          "quote": "The edifice was built between 1758 and 1790, from designs by Jacques-Germain Soufflot, at the behest of King Louis XV;",
+          "quoteHe": "המבנה נבנה בין 1758 ל-1790, לפי תוכניות של ז'אק-ז'רמן סופלו, ביוזמת המלך לואי ה-15;"
+        },
+        {
+          "sourceId": "s-wp-panthe-on",
+          "quote": "The architecture of the Panthéon is an early example of Neoclassicism, surmounted by a dome that owes some of its character to Bramante's Tempietto.",
+          "quoteHe": "האדריכלות של הפנתאון היא דוגמה מוקדמת לניאו-קלאסיציזם, ובראשו כיפה שחלק מאופייה שאוב מהטמפייטו של ברמנטה."
+        },
+        {
+          "sourceId": "s-wp-panthe-on",
+          "quote": "Unlike the dome of Les Invalides in Paris, which has a wooden framework, the dome is constructed entirely of stone.",
+          "quoteHe": "בשונה מהכיפה של האנווליד בפריז, שיש לה שלד עץ, הכיפה בנויה כולה מאבן."
+        },
+        {
+          "sourceId": "s-wp-panthe-on",
+          "quote": "the National Constituent Assembly voted in 1791 to transform the Church of Saint Genevieve into a mausoleum for the remains of distinguished French citizens, modelled on the Pantheon in Rome which had been used in this way since the 17th century.",
+          "quoteHe": "האספה המכוננת הלאומית הצביעה ב-1791 להפוך את כנסיית סנט ז'נבייב למאוזוליאום לשרידיהם של אזרחים צרפתים נודעים, על פי הדגם של הפנתאון ברומא, ששימש כך מאז המאה ה-17."
+        }
+      ],
+      "sources": [
+        "s-wp-panthe-on"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1830-altes-museum",
+      "title": "המוזיאון הישן בברלין: מקדש יווני לאמנות",
+      "yearFrom": 1825,
+      "yearTo": 1830,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "sub": "classical-revival",
+      "personIds": [
+        "p-schinkel"
+      ],
+      "place": {
+        "wikipedia": "Altes Museum",
+        "nameHe": "המוזיאון הישן",
+        "nameFull": "Altes Museum",
+        "lat": 52.5194,
+        "lon": 13.3989,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-altes-museum",
+          "quote": "The Altes Museum (English: Old Museum) is a listed building on the Museum Island in the historic centre of Berlin, Germany.",
+          "quoteHe": "המוזיאון הישן (Altes Museum) הוא מבנה לשימור באי המוזיאונים, במרכז ההיסטורי של ברלין, גרמניה."
+        },
+        "city": {
+          "nameHe": "ברלין",
+          "nameFull": "Berlin"
+        },
+        "wikidata": "Q156722",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "novelty": "**שינקל** פנה ל**אדריכלות יוונית** ולא לרומית הקיסרית, וחזית המוזיאון נשענת על שמונה עשר עמודים יוניים.",
+      "contribution": "הבניין הפך ל**מודל למוזיאוני אמנות לאומיים** ברחבי העולם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-altes-museum",
+          "quote": "Built between 1825 and 1830 by order of King Frederick William III of Prussia according to plans by Karl Friedrich Schinkel, it is considered a major work of German Neoclassical architecture.",
+          "quoteHe": "הוא נבנה בין 1825 ל-1830 בהוראת המלך פרידריך וילהלם השלישי מפרוסיה, לפי תוכניות של קרל פרידריך שינקל, ונחשב ליצירה מרכזית של האדריכלות הניאו-קלאסית הגרמנית."
+        },
+        {
+          "sourceId": "s-wp-karl-friedrich-schinkel",
+          "quote": "Schinkel's style, in his most productive period, is defined by a turn to Greek rather than Imperial Roman architecture, an attempt to turn away from the style that was linked to the recent French occupiers.",
+          "quoteHe": "הסגנון של שינקל בתקופה הפורייה ביותר שלו מוגדר בפנייה לאדריכלות יוונית ולא לאדריכלות הרומית הקיסרית, ניסיון להתרחק מהסגנון שנקשר לכובשים הצרפתים של אותה העת."
+        },
+        {
+          "sourceId": "s-wp-altes-museum",
+          "quote": "The arrangement of the eighteen Ionic columns was effected by the Lustgarten.",
+          "quoteHe": "סידור שמונה עשר העמודים היוניים הושפע מהלוסטגרטן."
+        },
+        {
+          "sourceId": "s-wp-karl-friedrich-schinkel",
+          "quote": "His Altes Museum is one of the most important classical buildings in Europe and a model for future national art museums throughout the world.",
+          "quoteHe": "המוזיאון הישן שלו הוא אחד הבניינים הקלאסיים החשובים באירופה, ומודל למוזיאוני אמנות לאומיים שנבנו אחריו ברחבי העולם."
+        }
+      ],
+      "sources": [
+        "s-wp-altes-museum",
+        "s-wp-karl-friedrich-schinkel"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-80-colosseum",
+      "title": "הקולוסיאום: האמפיתיאטרון הגדול של העת העתיקה",
+      "yearFrom": 72,
+      "yearTo": 80,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "sub": "ancient",
+      "personIds": [
+        "p-vespasian"
+      ],
+      "place": {
+        "wikipedia": "Colosseum",
+        "nameHe": "קולוסיאום",
+        "nameFull": "Colosseum",
+        "lat": 41.8903,
+        "lon": 12.4922,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-colosseum",
+          "quote": "is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum.",
+          "quoteHe": "הוא אמפיתיאטרון אליפטי במרכז העיר רומא, איטליה, ממזרח לפורום הרומי."
+        },
+        "city": {
+          "nameHe": "רומא",
+          "nameFull": "Rome"
+        },
+        "wikidata": "Q10285",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "novelty": "האמפיתיאטרון האליפטי, מ**טרוורטין, בטון רומי** וטוף, הוא הגדול ביותר שנבנה בעת העתיקה.",
+      "contribution": "הוא אירח **קרבות גלדיאטורים** ומחזות ציבוריים לקהל של **50 עד 80 אלף** צופים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-colosseum",
+          "quote": "Construction began under the Emperor Vespasian (r. 69–79 AD) in 72 and was completed in AD 80 under his successor and heir, Titus (r. 79–81).",
+          "quoteHe": "הבנייה החלה בימי הקיסר אספסיאנוס (שלט 69–79 לספירה) בשנת 72, והושלמה בשנת 80 לספירה בימי יורשו, טיטוס (שלט 79–81)."
+        },
+        {
+          "sourceId": "s-wp-colosseum",
+          "quote": "It is the largest ancient amphitheatre ever built, and is the largest standing amphitheatre in the world.",
+          "quoteHe": "זה האמפיתיאטרון העתיק הגדול ביותר שנבנה אי פעם, והאמפיתיאטרון העומד הגדול בעולם."
+        },
+        {
+          "sourceId": "s-wp-colosseum",
+          "quote": "The Colosseum is built of travertine, Roman concrete (foundations, corridors vaults and secondary brick walls), and tuff (volcanic rock).",
+          "quoteHe": "הקולוסיאום בנוי מטרוורטין, מבטון רומי (יסודות, קמרונות המסדרונות וקירות לבנים משניים) ומטוף (סלע געשי)."
+        },
+        {
+          "sourceId": "s-wp-colosseum",
+          "quote": "it was used for gladiatorial contests and public spectacles including animal hunts, executions, re-enactments of famous battles, dramas based on Roman mythology, and briefly mock sea battles.",
+          "quoteHe": "הוא שימש לקרבות גלדיאטורים ולמופעים ציבוריים, ובהם ציד חיות, הוצאות להורג, שחזורים של קרבות מפורסמים, מחזות על פי המיתולוגיה הרומית, ולתקופה קצרה גם קרבות ים מבוימים."
+        },
+        {
+          "sourceId": "s-wp-colosseum",
+          "quote": "It could hold an estimated 50,000 to 80,000 spectators at various points in its history",
+          "quoteHe": "לפי ההערכה, הוא יכול היה להכיל 50,000 עד 80,000 צופים בתקופות שונות בתולדותיו"
+        }
+      ],
+      "sources": [
+        "s-wp-colosseum"
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"

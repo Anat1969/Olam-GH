@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useRoute, href } from './route';
+import { useRoute, href, go } from './route';
 import { loadCloud, logout, toggleEditing, useCloud } from './cloud';
 import LoginDialog from './components/LoginDialog';
 import DraftDialog from './components/DraftDialog';
@@ -9,13 +9,14 @@ import Method from './pages/Method';
 import Compare from './pages/Compare';
 import MapPage from './pages/MapPage';
 import GraphPage from './pages/GraphPage';
+import SearchPage from './pages/SearchPage';
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace JSX { interface IntrinsicElements { 'ai-menu': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & { chat?: string } } }
 }
 
-const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['graph', 'גרף'], ['method', 'מקורות']];
+const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['graph', 'גרף'], ['search', 'חיפוש'], ['method', 'מקורות']];
 
 export default function App() {
   const { page, params } = useRoute();
@@ -23,6 +24,27 @@ export default function App() {
   const [loginOpen, setLoginOpen] = useState(false);
   const [draftOpen, setDraftOpen] = useState(false);
   useEffect(() => { loadCloud(); }, []);
+  // גובה הסרגל העליון משתנה (בטלפון הלשוניות בשורה שנייה). כרטיס הדמות ופס העריכה נצמדים מתחתיו.
+  useEffect(() => {
+    const bar = document.querySelector('.topbar');
+    if (!bar) return;
+    const set = () => document.documentElement.style.setProperty('--topbar-h', `${Math.round(bar.getBoundingClientRect().height)}px`);
+    set();
+    const ro = new ResizeObserver(set);
+    ro.observe(bar);
+    return () => ro.disconnect();
+  }, []);
+  // "/" מכל מקום פותח את החיפוש (כשלא מקלידים בשדה)
+  useEffect(() => {
+    const k = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement;
+      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || t.closest('input, textarea, select, [contenteditable="true"]')) return;
+      e.preventDefault();
+      go('search');
+    };
+    window.addEventListener('keydown', k);
+    return () => window.removeEventListener('keydown', k);
+  }, []);
   // כל פעולות העריכה יושבות בתוך כפתור הלוגו, לפי תקן ai-menu
   useEffect(() => {
     const apply = () => {
@@ -60,7 +82,7 @@ export default function App() {
       {loginOpen && <LoginDialog onClose={() => setLoginOpen(false)} />}
       {draftOpen && cloud.admin && <DraftDialog onClose={() => setDraftOpen(false)} />}
       {cloud.editing && <div className="edit-banner" role="status">מצב עריכה: לחצי על דמות או על קשר, וערכי את הטקסט. כל שינוי נשמר עם היסטוריה.</div>}
-      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'method' ? <Method /> : <Home />}
+      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'search' ? <SearchPage params={params} /> : current === 'method' ? <Method /> : <Home />}
     </>
   );
 }

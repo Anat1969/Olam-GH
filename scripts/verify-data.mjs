@@ -202,6 +202,14 @@ async function main() {
   }
   const ids = new Set([...personIds, ...discoveries.map((d) => d.id)]);
 
+  // עיר אחת, שם עברי אחד: רוב קובע, ובשוויון השם הקצר (מוסד בתוך עיר, כמו "מקדש קנין-ג׳י", לא הופך לשם העיר)
+  const cityNames = new Map();
+  for (const d of discoveries) if (d.place?.city) { const m = cityNames.get(d.place.city.nameFull) || new Map(); m.set(d.place.city.nameHe, (m.get(d.place.city.nameHe) || 0) + 1); cityNames.set(d.place.city.nameFull, m); }
+  for (const d of discoveries) if (d.place?.city) {
+    const best = [...cityNames.get(d.place.city.nameFull)].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length)[0][0];
+    d.place.city.nameHe = best;
+  }
+
   // links
   for (const l of links) {
     const reasons = [];

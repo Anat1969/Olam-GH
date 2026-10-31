@@ -10,9 +10,8 @@ import LinkPanel from '../components/LinkPanel';
 import { BREAKS, FRACS, YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
 import {
   type Discovery, type LinkType, activeDomains, discoveries, endName, linkTypeName, personById,
-  resolveLink, links as allLinks, yearText, shortName,
-} from '../data';
-import { replace } from '../route';
+  resolveLink, links as allLinks, yearText, shortName, ANON, workParams } from '../data';
+import { go, replace } from '../route';
 
 const PAD = 28;
 const CARD_H = 52;
@@ -257,21 +256,22 @@ export default function Compare({ params }: { params: Record<string, string> }) 
           ))}
 
           {placed.map((list, row) => list.filter((p) => !p.off).map((p) => {
-            const people = p.d.personIds.map((id) => personById.get(id)!);
+            const people = p.d.personIds.map((id) => personById.get(id)).filter((x): x is NonNullable<typeof x> => !!x);
+            const open = () => (people[0] ? pick(people[0].id) : go('timeline', workParams(p.d)));
             const known = p.d.yearFrom <= year;
             const cls = `${known ? '' : ' is-hidden'}${ends.has(p.d.id) ? ' is-end' : ''}${selected && !ends.has(p.d.id) ? ' is-dim' : ''}`;
-            const label = `${people.map((x) => x.nameHe).join(' ו')}, ${yearText(p.d.yearFrom)}: ${p.d.title}`;
+            const label = `${people.map((x) => x.nameHe).join(' ו') || ANON}, ${yearText(p.d.yearFrom)}: ${p.d.title}`;
             if (p.pin) {
               const top = row === 0 ? axisY(0) - 22 : axisY(row) + 10;
-              return <button key={p.d.id} type="button" data-id={p.d.id} className={`press cmp-pin pin-${p.d.domainId}${cls}`} style={{ left: p.x - 6, top }} title={label} aria-label={label} onClick={() => pick(people[0].id)} />;
+              return <button key={p.d.id} type="button" data-id={p.d.id} className={`press cmp-pin pin-${p.d.domainId}${cls}`} style={{ left: p.x - 6, top }} title={label} aria-label={label} onClick={open} />;
             }
             const top = row === 0 ? axisY(0) - 14 - CARD_H - p.lane * LANE : axisY(row) + 14 + p.lane * LANE;
             return (
               <button key={p.d.id} type="button" dir="rtl" data-id={p.d.id} className={`press cmp-card${cls}`} aria-pressed={person ? p.d.personIds.includes(person.id) : false}
-                style={{ left: p.left, top, width: cw, height: CARD_H }} aria-label={label} onClick={() => pick(people[0].id)}>
-                <span className="cmp-face">{people[0].imageUrl ? <img src={people[0].imageUrl} alt="" loading="lazy" /> : null}</span>
+                style={{ left: p.left, top, width: cw, height: CARD_H }} aria-label={label} onClick={open}>
+                <span className="cmp-face">{people[0]?.imageUrl ? <img src={people[0].imageUrl} alt="" loading="lazy" /> : null}</span>
                 <span className="cmp-text">
-                  <span className="tl-name">{people.map((x) => shortName(x.nameHe, x.nameShort)).join(' ו')}</span>
+                  <span className="tl-name">{people.map((x) => shortName(x.nameHe, x.nameShort)).join(' ו') || ANON}</span>
                   <span className="tl-year"><bdi className="num">{p.d.yearFrom < 0 ? -p.d.yearFrom : p.d.yearFrom}</bdi>{p.d.yearFrom < 0 ? ' לפנה״ס' : ''}</span>
                 </span>
                 <i className="cmp-stem" style={{ left: Math.min(Math.max(p.x - p.left, 6), cw - 6), [row === 0 ? 'top' : 'bottom']: CARD_H, height: row === 0 ? 14 + p.lane * LANE : 14 + p.lane * LANE } as React.CSSProperties} />

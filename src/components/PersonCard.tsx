@@ -13,7 +13,7 @@ function SourceLink({ id }: { id: string }) {
   return <a className="src-link" href={s.url} target="_blank" rel="noreferrer" dir="ltr">{s.title}</a>;
 }
 
-export default function PersonCard({ person, onClose, onOpen }: { person: Person; onClose: () => void; onOpen: (personId: string) => void }) {
+export default function PersonCard({ person, onClose, onOpen }: { person: Person; onClose: () => void; onOpen: (personId: string | undefined, discoveryId?: string) => void }) {
   const ref = useRef<HTMLElement>(null);
   const finds = discoveriesOf(person.id);
   const rel = linksOf(person.id);
@@ -98,7 +98,7 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
               <article key={link.id} className={`rel conf-edge-${link.confidence}`}>
                 <div className="rel-top">
                   <span className="label">{linkVerb[link.type][outgoing ? 0 : 1]}</span>
-                  <button type="button" className="press chip" onClick={() => onOpen(o.personId)}>
+                  <button type="button" className="press chip" onClick={() => onOpen(o.personId, o.discovery?.id)}>
                     {o.name}{o.year !== null ? ` · ${o.year < 0 ? `${-o.year} לפנה״ס` : o.year}` : ''}
                   </button>
                   <span className={`conf conf-${link.confidence}`}>{confidenceName[link.confidence]}</span>

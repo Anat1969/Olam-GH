@@ -79,10 +79,15 @@ export function linksOf(personId: string) {
 
 export function nodeLabel(id: string) {
   const p = personById.get(id);
-  if (p) return { name: p.nameHe, personId: p.id, year: null as number | null };
+  if (p) return { name: p.nameHe, personId: p.id as string | undefined, year: null as number | null, discovery: undefined as Discovery | undefined };
   const d = discoveryById.get(id)!;
-  return { name: d.title.split(':')[0], personId: d.personIds[0], year: d.yearFrom };
+  return { name: d.title.split(':')[0], personId: d.personIds[0] as string | undefined, year: d.yearFrom, discovery: d };
 }
+
+/** יצירה בלי יוצר ידוע: אין דמות, ולכן הקישור הוא לכרטיס היצירה (w) ולא לכרטיס דמות */
+export const ANON = 'יוצר לא ידוע';
+export const workParams = (d: Pick<Discovery, 'id' | 'domainId' | 'yearTo'>) => ({ d: d.domainId, y: String(d.yearTo), w: d.id });
+export const linksOfDiscovery = (id: string) => links.filter((l) => l.fromId === id || l.toId === id).map((l) => ({ link: l, outgoing: l.fromId === id, other: l.fromId === id ? l.toId : l.fromId }));
 
 export const linkVerb: Record<LinkType, [string, string]> = {
   influenced: ['השפיע על', 'הושפע מ'],
