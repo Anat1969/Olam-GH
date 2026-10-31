@@ -36,7 +36,8 @@ npm run build && npm test
 - `src/components/PersonCard.tsx`: כרטיס דמות עם ציטוטים, קשרים ומקורות.
 - `src/pages/Compare.tsx`: שלב 2, השוואה בין תחומים עם זום מסונכרן וקשרים בלחיצה.
 - `src/pages/MapPage.tsx`, `src/components/MapView.tsx`, `src/geo.ts`: שלב 3, גלובוס עם מחוון זמן, מסלולי ידע ומרכז הכובד.
-- `tests/e2e.cjs`: 102 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.
+- `src/pages/GraphPage.tsx`, `src/graph.ts`, `data/cuts.json`: שלב 4, גרף דמויות, מסננים מתקדמים, חיתוכים ותצוגות שמורות.
+- `tests/e2e.cjs`: 131 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.
 
 ## תיעוד
 

@@ -202,6 +202,61 @@ const mock = async (p) => {
     await p.reload({ waitUntil: 'networkidle' });
     ok((await h1(p)).includes('1640') && (await p.locator('.city-panel').innerText()).includes('פראג'), 'קישור מועתק למפה פותח את אותו מצב');
 
+    // שלב 4: גרף וחיתוכים
+    await p.goto(BASE + '#/graph', { waitUntil: 'networkidle' });
+    ok(await p.locator('.tabs [aria-current="page"]').innerText() === 'גרף', 'לשונית גרף מסומנת');
+    ok((await h1(p)).startsWith('הצומת המרכזי:'), 'גרף: שורת התובנה מחושבת ' + (await h1(p)));
+    const nAll = await p.locator('.g-node').count();
+    ok(nAll === 38, `צומת לכל דמות מאומתת (${nAll})`);
+    const eAll = await p.locator('.g-edge').count();
+    ok(eAll >= 25, `קו לכל קשר בין דמויות (${eAll})`);
+    await p.locator('.g-node[data-person="p-galileo"]').click();
+    await p.waitForTimeout(150);
+    ok(p.url().includes('n=p-galileo') && (await p.locator('.g-node.is-dim').count()) > 20, 'לחיצה על דמות מדגישה את השכנים שלה');
+    ok((await p.locator('.focus-bar').innerText()).includes('גלילאו'), 'פס המוקד מציג את הדמות');
+    await p.locator('.focus-bar').getByRole('button', { name: 'כרטיס הדמות' }).click();
+    await p.locator('aside.person').waitFor();
+    ok((await p.locator('.person-name').innerText()).includes('גלילאו'), 'מהגרף לכרטיס הדמות');
+    await p.keyboard.press('Escape');
+    await p.locator('.g-hit[data-link="l-24"]').dispatchEvent('click');
+    await p.waitForTimeout(150);
+    ok((await p.locator('.link-panel').innerText()).includes('ארכימדס'), 'לחיצה על קו פותחת כלל, תובנה ויישום');
+    await p.locator('.cut', { hasText: 'גבולות ההוכחה' }).click();
+    await p.waitForTimeout(200);
+    ok(p.url().includes('f=1890') && p.url().includes('d=mathematics'), 'חיתוך מוכן מגדיר מסננים בכתובת');
+    const limits = await p.locator('.g-node').count();
+    ok(limits > 0 && limits < 10 && (await p.locator('.g-node[data-person="p-turing"]').count()) === 1, `חיתוך "גבולות ההוכחה" (${limits} דמויות)`);
+    ok(await p.locator('.cut[aria-pressed="true"]').count() === 1, 'החיתוך הפעיל מסומן');
+    await p.getByRole('button', { name: 'איפוס' }).click();
+    await p.waitForTimeout(150);
+    ok((await p.locator('.g-node').count()) === 38, 'איפוס מחזיר את כל הדמויות');
+    await p.locator('.graph-controls select').selectOption('Paris');
+    await p.waitForTimeout(150);
+    ok(p.url().includes('c=Paris') && (await p.locator('.g-node:not(.is-context)').count()) === 5, 'סינון לפי עיר: 5 הדמויות של פריז');
+    ok(await p.locator('.g-node.is-context').count() > 0, 'שכנים מחוץ לעיר מוצגים כהקשר');
+    await p.locator('.graph-controls select').selectOption('');
+    await p.locator('.conf-chip-documented').click();
+    await p.waitForTimeout(150);
+    ok(p.url().includes('k=documented') && (await p.locator('.g-edge').count()) < eAll && (await p.locator('.g-edge.lk-documented').count()) === 0, 'סינון לפי רמת ביטחון');
+    await p.locator('.conf-chip-documented').click();
+    await p.getByRole('button', { name: 'בלי דמויות בודדות' }).click();
+    await p.waitForTimeout(150);
+    ok((await p.locator('.g-node.is-alone').count()) === 0, 'הסתרת דמויות בלי קשר');
+    await p.getByLabel('שם לתצוגה').fill('בדיקה');
+    await p.getByRole('button', { name: 'שמירת התצוגה' }).click();
+    ok((await p.locator('.save-status').innerText()) === 'נשמר' && (await p.locator('.saved-item', { hasText: 'בדיקה' }).count()) === 1, 'שמירת תצוגה עם חיווי נשמר');
+    await p.reload({ waitUntil: 'networkidle' });
+    ok((await p.locator('.saved-item', { hasText: 'בדיקה' }).count()) === 1, 'התצוגה השמורה נשארת אחרי רענון');
+    await p.getByRole('button', { name: 'איפוס' }).click();
+    await p.locator('.saved-item', { hasText: 'בדיקה' }).click();
+    await p.waitForTimeout(200);
+    ok(p.url().includes('i=1'), 'תצוגה שמורה משחזרת את המסננים');
+    await p.getByRole('button', { name: 'מחיקת בדיקה' }).click();
+    ok((await p.locator('.saved-item').count()) === 0, 'מחיקת תצוגה שמורה');
+    await p.goto(BASE + '#/graph?f=1540&t=1700&n=p-kepler', { waitUntil: 'networkidle' });
+    await p.reload({ waitUntil: 'networkidle' });
+    ok((await p.locator('.cut[aria-pressed="true"]').innerText()).includes('המהפכה המדעית') && (await p.locator('.g-node.is-focus').count()) === 1, 'קישור מועתק לגרף פותח את אותו מצב');
+
     await p.goto(BASE + '#/method', { waitUntil: 'networkidle' });
     ok((await h1(p)) === 'כל רשומה נבדקת מול המקור שלה.', 'דף השיטה');
     ok((await p.locator('.rejected').innerText()).includes('l-2'), 'רשומה שלא עברה מוצגת עם הסיבה');
@@ -211,7 +266,7 @@ const mock = async (p) => {
     ok(await p.getByText('לא נמצא מקור').isVisible(), 'מצב ריק מוסבר');
 
     ok(await p.locator('.num').count() > 5, 'מספרים מודגשים אוטומטית');
-    for (const h of ['', '#/timeline?p=p-newton', '#/compare?l=l-19', '#/map?c=Paris', '#/method']) {
+    for (const h of ['', '#/timeline?p=p-newton', '#/compare?l=l-19', '#/map?c=Paris', '#/graph', '#/method']) {
       await p.goto(BASE + h, { waitUntil: 'networkidle' });
       const square = await p.evaluate(() => [...document.querySelectorAll('button, .press, input, .chip')].every((el) => getComputedStyle(el).borderRadius === '0px'));
       ok(square, `${h || 'בית'}: כל הכפתורים מרובעים`);
@@ -225,7 +280,7 @@ const mock = async (p) => {
       const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
       await mock(m);
       m.on('pageerror', (e) => errors.push(e.message));
-      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/method']) {
+      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/graph', '#/graph?n=p-galileo&l=l-24', '#/method']) {
         await m.goto(BASE + h, { waitUntil: 'networkidle' });
         const hs = await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
         ok(!hs, `${vp.width}px ${h || 'בית'}: בלי גלילה אופקית בדף`);
@@ -234,6 +289,36 @@ const mock = async (p) => {
       const anim = await m.evaluate(() => getComputedStyle(document.querySelector('.rise')).animationName);
       ok(anim === 'none', `${vp.width}px: הפחתת תנועה מכובדת`);
       await m.close();
+    }
+    // מגע מדומה בגודל טלפון: גרירה באצבע אחת וצביטה בשתיים על הגלובוס
+    {
+      const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, hasTouch: true, isMobile: true, deviceScaleFactor: 2 });
+      const m = await ctx.newPage();
+      await mock(m);
+      await m.goto(BASE + '#/map', { waitUntil: 'networkidle' });
+      await m.locator('.map-canvas[data-ready="true"]').waitFor({ timeout: 20000 });
+      await m.locator('.map-canvas').scrollIntoViewIfNeeded();
+      const bb = await m.locator('.map-canvas').boundingBox();
+      const cdp = await ctx.newCDPSession(m);
+      const cx = bb.x + bb.width / 2, cy = bb.y + bb.height / 2;
+      const pos = () => m.evaluate(() => { const el = document.querySelector('.map-city'); const r = el.getBoundingClientRect(); return [r.x, r.y]; });
+      const touch = (type, pts) => cdp.send('Input.dispatchTouchEvent', { type, touchPoints: pts.map(([x, y], id) => ({ x, y, id })) });
+      const before = await pos();
+      await touch('touchStart', [[cx, cy]]);
+      for (let i = 1; i <= 8; i++) await touch('touchMove', [[cx + i * 10, cy + i * 4]]);
+      await touch('touchEnd', []);
+      await m.waitForTimeout(600);
+      const afterDrag = await pos();
+      ok(Math.abs(afterDrag[0] - before[0]) > 20, 'נייד: גרירה באצבע מסובבת את הגלובוס');
+      const size = () => m.evaluate(() => [...document.querySelectorAll('.map-city')].map((e) => e.getBoundingClientRect()).reduce((s, r, i, a) => (i ? s + Math.hypot(r.x - a[0].x, r.y - a[0].y) : 0), 0));
+      const spread0 = await size();
+      await touch('touchStart', [[cx - 20, cy], [cx + 20, cy]]);
+      for (let i = 1; i <= 10; i++) await touch('touchMove', [[cx - 20 - i * 9, cy], [cx + 20 + i * 9, cy]]);
+      await touch('touchEnd', []);
+      await m.waitForTimeout(800);
+      ok((await size()) > spread0 * 1.3, 'נייד: צביטה בשתי אצבעות מגדילה');
+      ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)), 'נייד: בלי גלילה אופקית אחרי מגע');
+      await ctx.close();
     }
     ok(errors.length === 0, 'אין שגיאות JavaScript ' + errors.join(' | '));
   } finally {
