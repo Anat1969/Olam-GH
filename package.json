@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "verify": "node scripts/verify-data.mjs",
     "test": "node tests/e2e.cjs",
-    "shots": "node tests/shot.cjs"
+    "shots": "node tests/shot.cjs",
+    "push": "node scripts/push-supabase.mjs",
+    "pull": "node scripts/pull-supabase.mjs"
   },
   "dependencies": {
     "d3-array": "^3.2.4",

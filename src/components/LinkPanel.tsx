@@ -1,5 +1,6 @@
 // פאנל של קשר שנבחר: הכלל (ציטוט מהמקור), התובנה והיישום. משותף להשוואה ולמפה.
 import Rich from './Rich';
+import Editable from './Editable';
 import { type End, type Link, confidenceName, endName, linkTypeName, sourceById } from '../data';
 
 export type Resolved = { link: Link; a: End; b: End; cross: boolean };
@@ -27,8 +28,8 @@ export default function LinkPanel({ selected, pick, set }: { selected: Resolved;
                     </blockquote>
                   ))}
                 </div>
-                <div className="tone tone-insight"><h4>התובנה: מה זה אומר</h4><Rich as="p">{selected.link.explanation}</Rich></div>
-                <div className="tone tone-solution"><h4>היישום: מה עושים עם זה</h4><Rich as="p">{selected.link.application || 'עדיין לא נוסח יישום לקשר הזה.'}</Rich></div>
+                <div className="tone tone-insight"><h4>התובנה: מה זה אומר</h4><Editable as="p" kind="link" id={selected.link.id} field="explanation" value={selected.link.explanation} /></div>
+                <div className="tone tone-solution"><h4>היישום: מה עושים עם זה</h4><Editable as="p" kind="link" id={selected.link.id} field="application" value={selected.link.application || 'עדיין לא נוסח יישום לקשר הזה.'} /></div>
               </div>
             </section>
   );

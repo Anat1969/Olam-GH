@@ -123,7 +123,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
     return `M${a.x},${a.y} Q${mx},${my} ${b.x},${b.y}`;
   };
   const dim = (id: string) => !!neighbors && !neighbors.has(id);
-  const ticks = [-300, 1, 500, 1000, 1500, 1600, 1700, 1800, 1850, 1900, 1950].filter((y) => y >= from && y <= to);
+  const ticks = [-2500, -1500, -500, 1, 500, 1000, 1500, 1600, 1700, 1800, 1850, 1900, 1950].filter((y) => y >= from && y <= to);
   const a0 = posScale(Math.max(from, YEAR_MIN)), b0 = posScale(Math.min(to, YEAR_MAX));
   const tx = (y: number) => W - PAD - ((posScale(y) - a0) / Math.max(0.0001, b0 - a0)) * (W - 2 * PAD);
 

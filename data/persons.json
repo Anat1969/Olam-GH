@@ -3971,6 +3971,1585 @@
       "birthApprox": false,
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_restored.jpg"
+    },
+    {
+      "id": "p-imhotep",
+      "wikipedia": "Imhotep",
+      "nameHe": "אמחותפ",
+      "nameFull": "Imhotep",
+      "birthYear": -2800,
+      "birthDate": null,
+      "deathYear": -2700,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q5715",
+        "nameHe": "ממפיס",
+        "nameFull": "Memphis",
+        "lat": 29.8447,
+        "lon": 31.2509
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Imhotep-E_3639-IMG_4607-gradient.jpg/500px-Imhotep-E_3639-IMG_4607-gradient.jpg",
+      "imageLicense": "CC BY-SA 3.0 fr",
+      "imageCredit": "Rama",
+      "sources": [
+        "s-wp-imhotep",
+        "s-wd-q131171"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q131171",
+      "nameHeSource": "wikidata",
+      "birthApprox": true,
+      "deathApprox": true,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Imhotep-E_3639-IMG_4607-gradient.jpg"
+    },
+    {
+      "id": "p-ictinus",
+      "wikipedia": "Ictinus",
+      "nameHe": "איקטינוס",
+      "nameFull": "Ictinus",
+      "birthYear": -500,
+      "birthDate": null,
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q844930",
+        "nameHe": "אתונה העתיקה",
+        "nameFull": "Classical Athens",
+        "lat": 37.9722,
+        "lon": 23.7222
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Depiction_of_Ictinus_and_Callicrates_%28%3F%29_at_the_NKUA_on_May_22%2C_2022.jpg/500px-Depiction_of_Ictinus_and_Callicrates_%28%3F%29_at_the_NKUA_on_May_22%2C_2022.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "George E. Koronaios",
+      "sources": [
+        "s-wp-ictinus",
+        "s-wd-q311502"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q311502",
+      "nameHeSource": "wikidata",
+      "birthApprox": true,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Depiction_of_Ictinus_and_Callicrates_(%3F)_at_the_NKUA_on_May_22,_2022.jpg"
+    },
+    {
+      "id": "p-callicrates",
+      "wikipedia": "Callicrates",
+      "nameHe": "קליקרטס",
+      "nameFull": "Callicrates",
+      "birthYear": -470,
+      "birthDate": null,
+      "deathYear": -420,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q844930",
+        "nameHe": "אתונה העתיקה",
+        "nameFull": "Classical Athens",
+        "lat": 37.9722,
+        "lon": 23.7222
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-callicrates",
+        "s-wd-q114112"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q114112",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-vitruvius",
+      "wikipedia": "Vitruvius",
+      "nameHe": "ויטרוביוס",
+      "nameFull": "Vitruvius",
+      "birthYear": -80,
+      "birthDate": null,
+      "deathYear": -15,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q17167",
+        "nameHe": "הרפובליקה הרומית",
+        "nameFull": "Roman Republic",
+        "lat": 41.9,
+        "lon": 12.5
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Busto_di_Vitruvio.jpg/500px-Busto_di_Vitruvio.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Mikceo",
+      "sources": [
+        "s-wp-vitruvius",
+        "s-wd-q47163"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q47163",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Busto_di_Vitruvio.jpg"
+    },
+    {
+      "id": "p-hadrian",
+      "wikipedia": "Hadrian",
+      "nameHe": "אדריאנוס",
+      "nameFull": "Hadrian",
+      "birthYear": 76,
+      "birthDate": "0076-01-24",
+      "deathYear": 138,
+      "deathDate": "0138-07-10",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q658893",
+        "nameHe": "איטליקה",
+        "nameFull": "Italica",
+        "lat": 37.4412,
+        "lon": -6.0445
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bust_Hadrian_Musei_Capitolini_MC817.jpg/500px-Bust_Hadrian_Musei_Capitolini_MC817.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Marie-Lan Nguyen",
+      "sources": [
+        "s-wp-hadrian",
+        "s-wd-q1427"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1427",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Bust_Hadrian_Musei_Capitolini_MC817.jpg"
+    },
+    {
+      "id": "p-anthemius",
+      "wikipedia": "Anthemius of Tralles",
+      "nameHe": "אנתמיוס מטרלס",
+      "nameFull": "Anthemius of Tralles",
+      "birthYear": 474,
+      "birthDate": null,
+      "deathYear": 534,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q462630",
+        "nameHe": "טראלאיס",
+        "nameFull": "Tralleis",
+        "lat": 37.86,
+        "lon": 27.8355
+      },
+      "domains": [
+        "architecture",
+        "mathematics"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-anthemius-of-tralles",
+        "s-wd-q298226"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q298226",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-isidore",
+      "wikipedia": "Isidore of Miletus",
+      "nameHe": "איזידור ממילטוס",
+      "nameFull": "Isidore of Miletus",
+      "birthYear": 442,
+      "birthDate": null,
+      "deathYear": 537,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q169460",
+        "nameHe": "מילטוס",
+        "nameFull": "Miletus",
+        "lat": 37.5311,
+        "lon": 27.2756
+      },
+      "domains": [
+        "architecture",
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/AT_13763_Roof_figure%2C_Isidor_von_Milet_at_the_Kunsthistorisches_Museum%2C_Vienna-74-Bearbeitet.jpg/500px-AT_13763_Roof_figure%2C_Isidor_von_Milet_at_the_Kunsthistorisches_Museum%2C_Vienna-74-Bearbeitet.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Hubertl",
+      "sources": [
+        "s-wp-isidore-of-miletus",
+        "s-wd-q310028"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q310028",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:AT_13763_Roof_figure,_Isidor_von_Milet_at_the_Kunsthistorisches_Museum,_Vienna-74-Bearbeitet.jpg"
+    },
+    {
+      "id": "p-brunelleschi",
+      "wikipedia": "Filippo Brunelleschi",
+      "nameHe": "פיליפו ברונלסקי",
+      "nameFull": "Filippo Brunelleschi",
+      "birthYear": 1377,
+      "birthDate": null,
+      "deathYear": 1446,
+      "deathDate": "1446-04-15",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q2044",
+        "nameHe": "פירנצה",
+        "nameFull": "Florence",
+        "lat": 43.7714,
+        "lon": 11.2542
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi.jpg/500px-Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "see filename or category",
+      "sources": [
+        "s-wp-filippo-brunelleschi",
+        "s-wd-q174330"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q174330",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Masaccio,_cappella_brancacci,_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi.jpg"
+    },
+    {
+      "id": "p-palladio",
+      "wikipedia": "Andrea Palladio",
+      "nameHe": "אנדראה פלדיו",
+      "nameFull": "Andrea Palladio",
+      "birthYear": 1508,
+      "birthDate": "1508-11-30",
+      "deathYear": 1580,
+      "deathDate": "1580-08-19",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q617",
+        "nameHe": "פדובה",
+        "nameFull": "Padua",
+        "lat": 45.4078,
+        "lon": 11.8733
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Andrea_Palladio2.jpeg/500px-Andrea_Palladio2.jpeg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Alessandro Maganza",
+      "sources": [
+        "s-wp-andrea-palladio",
+        "s-wd-q177692"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q177692",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Andrea_Palladio2.jpeg"
+    },
+    {
+      "id": "p-sinan",
+      "wikipedia": "Mimar Sinan",
+      "nameHe": "סינאן",
+      "nameFull": "Mimar Sinan",
+      "birthYear": 1490,
+      "birthDate": null,
+      "deathYear": 1588,
+      "deathDate": "1588-07-17",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1892504",
+        "nameHe": null,
+        "nameFull": "Ağırnas",
+        "lat": 38.8172,
+        "lon": 35.7206
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Mimar_Sinan%2C_architecte_de_Soliman_le_Magnifique.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Drawn by Hazan Riza",
+      "sources": [
+        "s-wp-mimar-sinan",
+        "s-wd-q5600"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5600",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Mimar_Sinan,_architecte_de_Soliman_le_Magnifique.jpg"
+    },
+    {
+      "id": "p-wren",
+      "wikipedia": "Christopher Wren",
+      "nameHe": "כריסטופר רן",
+      "nameFull": "Christopher Wren",
+      "birthYear": 1632,
+      "birthDate": "1632-10-20",
+      "deathYear": 1723,
+      "deathDate": "1723-02-25",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q3313778",
+        "nameHe": null,
+        "nameFull": "East Knoyle",
+        "lat": 51.0789,
+        "lon": -2.1772
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Christopher_Wren_by_Godfrey_Kneller_1711.jpg/500px-Christopher_Wren_by_Godfrey_Kneller_1711.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Godfrey Kneller",
+      "sources": [
+        "s-wp-christopher-wren",
+        "s-wd-q170373"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q170373",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Christopher_Wren_by_Godfrey_Kneller_1711.jpg"
+    },
+    {
+      "id": "p-paxton",
+      "wikipedia": "Joseph Paxton",
+      "nameHe": "ג'וזף פקסטון",
+      "nameFull": "Joseph Paxton",
+      "birthYear": 1804,
+      "birthDate": "1804-08-03",
+      "deathYear": 1865,
+      "deathDate": "1865-06-08",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q208257",
+        "nameHe": "בדפורד",
+        "nameFull": "Bedford",
+        "lat": 52.1344,
+        "lon": -0.4631
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Joseph_Paxton_by_Octavius_Oakley%2C_c1850.jpg/500px-Joseph_Paxton_by_Octavius_Oakley%2C_c1850.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Octavius Oakley (1800-1867)",
+      "sources": [
+        "s-wp-joseph-paxton",
+        "s-wd-q318372"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q318372",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Joseph_Paxton_by_Octavius_Oakley,_c1850.jpg"
+    },
+    {
+      "id": "p-eiffel",
+      "wikipedia": "Gustave Eiffel",
+      "nameHe": "גוסטב אייפל",
+      "nameFull": "Gustave Eiffel",
+      "birthYear": 1832,
+      "birthDate": "1832-12-15",
+      "deathYear": 1923,
+      "deathDate": "1923-12-27",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q7003",
+        "nameHe": "דיז'ון",
+        "nameFull": "Dijon",
+        "lat": 47.3231,
+        "lon": 5.0419
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Gustave_Eiffel_1888_Nadar2.jpg/500px-Gustave_Eiffel_1888_Nadar2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Nadar",
+      "sources": [
+        "s-wp-gustave-eiffel",
+        "s-wd-q20882"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q20882",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gustave_Eiffel_1888_Nadar2.jpg"
+    },
+    {
+      "id": "p-sullivan",
+      "wikipedia": "Louis Sullivan",
+      "nameHe": "לואיס סאליבן",
+      "nameFull": "Louis Sullivan",
+      "birthYear": 1856,
+      "birthDate": "1856-09-03",
+      "deathYear": 1924,
+      "deathDate": "1924-04-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q100",
+        "nameHe": "בוסטון",
+        "nameFull": "Boston",
+        "lat": 42.3603,
+        "lon": -71.0578
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/LouisSullivan.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-louis-sullivan",
+        "s-wd-q243240"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q243240",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:LouisSullivan.jpg"
+    },
+    {
+      "id": "p-adler",
+      "wikipedia": "Dankmar Adler",
+      "nameHe": "דנקמר אדלר",
+      "nameFull": "Dankmar Adler",
+      "birthYear": 1844,
+      "birthDate": "1844-07-03",
+      "deathYear": 1900,
+      "deathDate": "1900-04-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q530059",
+        "nameHe": "שטטלנגספלד",
+        "nameFull": "Stadtlengsfeld",
+        "lat": 50.7831,
+        "lon": 10.1331
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Dankmar_Adler.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-dankmar-adler",
+        "s-wd-q76573"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q76573",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Dankmar_Adler.jpg",
+      "nameHeTranslit": "דנקמר אדלר"
+    },
+    {
+      "id": "p-gaudi",
+      "wikipedia": "Antoni Gaudí",
+      "nameHe": "אנטוני גאודי",
+      "nameFull": "Antoni Gaudí",
+      "birthYear": 1852,
+      "birthDate": "1852-06-25",
+      "deathYear": 1926,
+      "deathDate": "1926-06-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q487096",
+        "nameHe": "ראוס",
+        "nameFull": "Reus",
+        "lat": 41.1549,
+        "lon": 1.1087
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Gaud%C3%AD_%281878%29.jpg/500px-Gaud%C3%AD_%281878%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Pau Audouard Deglaire",
+      "sources": [
+        "s-wp-antoni-gaudi",
+        "s-wd-q25328"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q25328",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gaud%C3%AD_(1878).jpg"
+    },
+    {
+      "id": "p-gropius",
+      "wikipedia": "Walter Gropius",
+      "nameHe": "ולטר גרופיוס",
+      "nameFull": "Walter Gropius",
+      "birthYear": 1883,
+      "birthDate": "1883-05-18",
+      "deathYear": 1969,
+      "deathDate": "1969-07-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q64",
+        "nameHe": "ברלין",
+        "nameFull": "Berlin",
+        "lat": 52.5167,
+        "lon": 13.3833
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Walter_Gropius_Foto_1920.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-walter-gropius",
+        "s-wd-q61071"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q61071",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Walter_Gropius_Foto_1920.jpg"
+    },
+    {
+      "id": "p-lecorbusier",
+      "wikipedia": "Le Corbusier",
+      "nameHe": "לה קורבוזיה",
+      "nameFull": "Le Corbusier",
+      "birthYear": 1887,
+      "birthDate": "1887-10-06",
+      "deathYear": 1965,
+      "deathDate": "1965-08-27",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q68124",
+        "nameHe": "לה שו-דה-פון",
+        "nameFull": "La Chaux-de-Fonds",
+        "lat": 47.0996,
+        "lon": 6.8296
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Le_Corbusier_%281964%29.jpg/500px-Le_Corbusier_%281964%29.jpg",
+      "imageLicense": "CC0",
+      "imageCredit": "Joop van Bilsen for Anefo",
+      "sources": [
+        "s-wp-le-corbusier",
+        "s-wd-q4724"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q4724",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Le_Corbusier_(1964).jpg"
+    },
+    {
+      "id": "p-mies",
+      "wikipedia": "Ludwig Mies van der Rohe",
+      "nameHe": "לודוויג מיס ון דר רוהה",
+      "nameFull": "Ludwig Mies van der Rohe",
+      "birthYear": 1886,
+      "birthDate": "1886-03-27",
+      "deathYear": 1969,
+      "deathDate": "1969-08-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1017",
+        "nameHe": "אאכן",
+        "nameFull": "Aachen",
+        "lat": 50.7762,
+        "lon": 6.0838
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Ludwig_Mies_van_der_Rohe_in_Arts_%26_Architecture%2C_June_1960_issue.jpg/500px-Ludwig_Mies_van_der_Rohe_in_Arts_%26_Architecture%2C_June_1960_issue.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-ludwig-mies-van-der-rohe",
+        "s-wd-q41508"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q41508",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ludwig_Mies_van_der_Rohe_in_Arts_%26_Architecture,_June_1960_issue.jpg"
+    },
+    {
+      "id": "p-wright",
+      "wikipedia": "Frank Lloyd Wright",
+      "nameHe": "פרנק לויד רייט",
+      "nameFull": "Frank Lloyd Wright",
+      "birthYear": 1867,
+      "birthDate": "1867-06-08",
+      "deathYear": 1959,
+      "deathDate": "1959-04-09",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1569965",
+        "nameHe": "ריצ'לנד סנטר",
+        "nameFull": "Richland Center",
+        "lat": 43.3378,
+        "lon": -90.3847
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Frank_Lloyd_Wright_LC-USZ62-36384.jpg/500px-Frank_Lloyd_Wright_LC-USZ62-36384.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-frank-lloyd-wright",
+        "s-wd-q5604"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5604",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_LC-USZ62-36384.jpg"
+    },
+    {
+      "id": "p-niemeyer",
+      "wikipedia": "Oscar Niemeyer",
+      "nameHe": "אוסקר נימאייר",
+      "nameFull": "Oscar Niemeyer",
+      "birthYear": 1907,
+      "birthDate": "1907-12-15",
+      "deathYear": 2012,
+      "deathDate": "2012-12-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q8678",
+        "nameHe": "ריו דה ז'ניירו",
+        "nameFull": "Rio de Janeiro",
+        "lat": -22.9111,
+        "lon": -43.2056
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Oscar_Niemeyer_1968b.jpg/500px-Oscar_Niemeyer_1968b.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-oscar-niemeyer",
+        "s-wd-q134165"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q134165",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Oscar_Niemeyer_1968b.jpg"
+    },
+    {
+      "id": "p-costa",
+      "wikipedia": "Lúcio Costa",
+      "nameHe": "לוסיו קוסטה",
+      "nameFull": "Lucio Costa",
+      "birthYear": 1902,
+      "birthDate": "1902-02-27",
+      "deathYear": 1998,
+      "deathDate": "1998-06-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q44160",
+        "nameHe": "טולון",
+        "nameFull": "Toulon",
+        "lat": 43.125,
+        "lon": 5.9306
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Lucio_Costa.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-lu-cio-costa",
+        "s-wd-q298926"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q298926",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Lucio_Costa.jpg"
+    },
+    {
+      "id": "p-geddes",
+      "wikipedia": "Patrick Geddes",
+      "nameHe": "פטריק גדס",
+      "nameFull": "Patrick Geddes",
+      "birthYear": 1854,
+      "birthDate": "1854-10-02",
+      "deathYear": 1932,
+      "deathDate": "1932-04-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q805175",
+        "nameHe": "בולטר",
+        "nameFull": "Ballater",
+        "lat": 57.0448,
+        "lon": -3.0494
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Patrick_Geddes_%28cropped%29.jpg/500px-Patrick_Geddes_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Sir Patrick Geddes, by Lafayette (Lafayette Ltd) half-plate nitrate negative, 30 December 1931 Given by Pinewood Studios",
+      "sources": [
+        "s-wp-patrick-geddes",
+        "s-wd-q381848"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q381848",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Patrick_Geddes_(cropped).jpg"
+    },
+    {
+      "id": "p-haussmann",
+      "wikipedia": "Georges-Eugène Haussmann",
+      "nameHe": "ז'ורז'-אז'ן אוסמן",
+      "nameFull": "Georges-Eugène Haussmann",
+      "birthYear": 1809,
+      "birthDate": "1809-03-27",
+      "deathYear": 1891,
+      "deathDate": "1891-01-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Georges-Eug%C3%A8ne_Haussmann_-_BNF_Gallica.jpg/500px-Georges-Eug%C3%A8ne_Haussmann_-_BNF_Gallica.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-georges-euge-ne-haussmann",
+        "s-wd-q191798"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q191798",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Georges-Eug%C3%A8ne_Haussmann_-_BNF_Gallica.jpg"
+    },
+    {
+      "id": "p-giotto",
+      "wikipedia": "Giotto",
+      "nameHe": "ג'וטו די בונדונה",
+      "nameFull": "Giotto",
+      "birthYear": 1267,
+      "birthDate": null,
+      "deathYear": 1337,
+      "deathDate": "1337-01-08",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q82880",
+        "nameHe": "ויקיו",
+        "nameFull": "Vicchio",
+        "lat": 43.9333,
+        "lon": 11.4667
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Uffizi_Giotto.jpg/500px-Uffizi_Giotto.jpg",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "Original uploader was Frieda at it.wikipedia",
+      "sources": [
+        "s-wp-giotto",
+        "s-wd-q7814"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7814",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Uffizi_Giotto.jpg"
+    },
+    {
+      "id": "p-masaccio",
+      "wikipedia": "Masaccio",
+      "nameHe": "מזאצ'ו",
+      "nameFull": "Masaccio",
+      "birthYear": 1401,
+      "birthDate": "1401-12-21",
+      "deathYear": 1428,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q52097",
+        "nameHe": null,
+        "nameFull": "San Giovanni Valdarno",
+        "lat": 43.5644,
+        "lon": 11.5328
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Masaccio_Self_Portrait.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Masaccio",
+      "sources": [
+        "s-wp-masaccio",
+        "s-wd-q5811"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5811",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Masaccio_Self_Portrait.jpg"
+    },
+    {
+      "id": "p-vaneyck",
+      "wikipedia": "Jan van Eyck",
+      "nameHe": "יאן ואן אייק",
+      "nameFull": "Jan van Eyck",
+      "birthYear": 1390,
+      "birthDate": null,
+      "deathYear": 1441,
+      "deathDate": "1441-06-09",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q110989",
+        "nameHe": "מסיק",
+        "nameFull": "Maaseik",
+        "lat": 51.1019,
+        "lon": 5.7856
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg/500px-Jan_van_Eyck_-_Portrait_of_a_Man_%28Self_Portrait%3F%29_1433.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Jan van Eyck",
+      "sources": [
+        "s-wp-jan-van-eyck",
+        "s-wd-q102272"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q102272",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait%3F)_1433.jpg"
+    },
+    {
+      "id": "p-leonardo",
+      "wikipedia": "Leonardo da Vinci",
+      "nameHe": "לאונרדו דה וינצ'י",
+      "nameFull": "Leonardo da Vinci",
+      "birthYear": 1452,
+      "birthDate": "1452-04-15",
+      "deathYear": 1519,
+      "deathDate": "1519-05-02",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q154184",
+        "nameHe": "אנצ'יאנו",
+        "nameFull": "Anchiano",
+        "lat": 43.7992,
+        "lon": 10.9381
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/500px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Attributed to Francesco Melzi",
+      "sources": [
+        "s-wp-leonardo-da-vinci",
+        "s-wd-q762"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q762",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo.png"
+    },
+    {
+      "id": "p-caravaggio",
+      "wikipedia": "Caravaggio",
+      "nameHe": "קאראווג'ו",
+      "nameFull": "Caravaggio",
+      "birthYear": 1571,
+      "birthDate": "1571-09-29",
+      "deathYear": 1610,
+      "deathDate": "1610-07-18",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q490",
+        "nameHe": "מילאנו",
+        "nameFull": "Milan",
+        "lat": 45.4669,
+        "lon": 9.19
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg/500px-Bild-Ottavio_Leoni%2C_Caravaggio.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Ottavio Leoni",
+      "sources": [
+        "s-wp-caravaggio",
+        "s-wd-q42207"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q42207",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Bild-Ottavio_Leoni,_Caravaggio.jpg"
+    },
+    {
+      "id": "p-rembrandt",
+      "wikipedia": "Rembrandt",
+      "nameHe": "רמברנדט",
+      "nameFull": "Rembrandt",
+      "birthYear": 1606,
+      "birthDate": "1606-07-15",
+      "deathYear": 1669,
+      "deathDate": "1669-10-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q43631",
+        "nameHe": "ליידן",
+        "nameFull": "Leiden",
+        "lat": 52.16,
+        "lon": 4.49
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/500px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Rembrandt",
+      "sources": [
+        "s-wp-rembrandt",
+        "s-wd-q5598"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5598",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+    },
+    {
+      "id": "p-vermeer",
+      "wikipedia": "Johannes Vermeer",
+      "nameHe": "יאן ורמיר",
+      "nameFull": "Johannes Vermeer",
+      "birthYear": 1632,
+      "birthDate": null,
+      "deathYear": 1675,
+      "deathDate": "1675-12-15",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q690",
+        "nameHe": "דלפט",
+        "nameFull": "Delft",
+        "lat": 52.0117,
+        "lon": 4.3592
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg/500px-Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Johannes Vermeer",
+      "sources": [
+        "s-wp-johannes-vermeer",
+        "s-wd-q41264"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q41264",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg"
+    },
+    {
+      "id": "p-turner",
+      "wikipedia": "J. M. W. Turner",
+      "nameHe": "ויליאם טרנר",
+      "nameFull": "J. M. W. Turner",
+      "birthYear": 1775,
+      "birthDate": "1775-04-23",
+      "deathYear": 1851,
+      "deathDate": "1851-12-19",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q23041988",
+        "nameHe": "מיידן ליין",
+        "nameFull": "Maiden Lane",
+        "lat": 51.5107,
+        "lon": -0.1229
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Joseph_Mallord_William_Turner_auto-retrato.jpg/500px-Joseph_Mallord_William_Turner_auto-retrato.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "J. M. W. Turner",
+      "sources": [
+        "s-wp-j-m-w-turner",
+        "s-wd-q159758"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q159758",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_auto-retrato.jpg"
+    },
+    {
+      "id": "p-monet",
+      "wikipedia": "Claude Monet",
+      "nameHe": "קלוד מונה",
+      "nameFull": "Claude Monet",
+      "birthYear": 1840,
+      "birthDate": "1840-11-14",
+      "deathYear": 1926,
+      "deathDate": "1926-12-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/500px-Claude_Monet_1899_Nadar_crop.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Nadar",
+      "sources": [
+        "s-wp-claude-monet",
+        "s-wd-q296"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q296",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg"
+    },
+    {
+      "id": "p-seurat",
+      "wikipedia": "Georges Seurat",
+      "nameHe": "ז'ורז' סרה",
+      "nameFull": "Georges Seurat",
+      "birthYear": 1859,
+      "birthDate": "1859-12-02",
+      "deathYear": 1891,
+      "deathDate": "1891-03-29",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2845756",
+        "nameHe": "הרובע החמישי לשעבר של פריז",
+        "nameFull": "former 5th arrondissement of Paris",
+        "lat": 48.872,
+        "lon": 2.3575
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Georges_Seurat_1888_%28cropped%29.jpg/500px-Georges_Seurat_1888_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unidentified photographer",
+      "sources": [
+        "s-wp-georges-seurat",
+        "s-wd-q34013"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q34013",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_1888_(cropped).jpg"
+    },
+    {
+      "id": "p-picasso",
+      "wikipedia": "Pablo Picasso",
+      "nameHe": "פבלו פיקאסו",
+      "nameFull": "Pablo Picasso",
+      "birthYear": 1881,
+      "birthDate": "1881-10-25",
+      "deathYear": 1973,
+      "deathDate": "1973-04-08",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q8851",
+        "nameHe": "מאלגה",
+        "nameFull": "Málaga",
+        "lat": 36.7167,
+        "lon": -4.4167
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/500px-Pablo_picasso_1.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Argentina. Revista Vea y Lea",
+      "sources": [
+        "s-wp-pablo-picasso",
+        "s-wd-q5593"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5593",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pablo_picasso_1.jpg"
+    },
+    {
+      "id": "p-kandinsky",
+      "wikipedia": "Wassily Kandinsky",
+      "nameHe": "וסילי קנדינסקי",
+      "nameFull": "Wassily Kandinsky",
+      "birthYear": 1866,
+      "birthDate": "1866-11-22",
+      "deathYear": 1944,
+      "deathDate": "1944-12-13",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q649",
+        "nameHe": "מוסקבה",
+        "nameFull": "Moscow",
+        "lat": 55.7506,
+        "lon": 37.6175
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Wassily_kandinsky.jpg/500px-Wassily_kandinsky.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "未知上傳者",
+      "sources": [
+        "s-wp-wassily-kandinsky",
+        "s-wd-q61064"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q61064",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Wassily_kandinsky.jpg"
+    },
+    {
+      "id": "p-beauchamp",
+      "wikipedia": "Pierre Beauchamp",
+      "nameHe": "פייר בושאן",
+      "nameFull": "Pierre Beauchamp",
+      "birthYear": 1631,
+      "birthDate": "1631-10-30",
+      "deathYear": 1705,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pierre_Beauchamp_-_Guest_2006_plate2.jpg/500px-Pierre_Beauchamp_-_Guest_2006_plate2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Artist not identified",
+      "sources": [
+        "s-wp-pierre-beauchamp",
+        "s-wd-q1384975"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1384975",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pierre_Beauchamp_-_Guest_2006_plate2.jpg"
+    },
+    {
+      "id": "p-noverre",
+      "wikipedia": "Jean-Georges Noverre",
+      "nameHe": "ז׳אן-ז׳ורז׳ נובר",
+      "nameFull": "Jean-Georges Noverre",
+      "birthYear": 1727,
+      "birthDate": "1727-04-29",
+      "deathYear": 1810,
+      "deathDate": "1810-10-19",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Jean-Georges_Noverre.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Jean-Baptiste Perronneau",
+      "sources": [
+        "s-wp-jean-georges-noverre",
+        "s-wd-q365581"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q365581",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Jean-Georges_Noverre.jpg",
+      "nameHeTranslit": "ז׳אן-ז׳ורז׳ נובר"
+    },
+    {
+      "id": "p-ftaglioni",
+      "wikipedia": "Filippo Taglioni",
+      "nameHe": "פיליפו טליוני",
+      "nameFull": "Filippo Taglioni",
+      "birthYear": 1777,
+      "birthDate": "1777-11-05",
+      "deathYear": 1871,
+      "deathDate": "1871-02-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q490",
+        "nameHe": "מילאנו",
+        "nameFull": "Milan",
+        "lat": 45.4669,
+        "lon": 9.19
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Filippo_Taglioni.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-filippo-taglioni",
+        "s-wd-q704671"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q704671",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Filippo_Taglioni.jpg"
+    },
+    {
+      "id": "p-mtaglioni",
+      "wikipedia": "Marie Taglioni",
+      "nameHe": "מארי טליוני",
+      "nameFull": "Marie Taglioni",
+      "birthYear": 1804,
+      "birthDate": "1804-04-23",
+      "deathYear": 1884,
+      "deathDate": "1884-04-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1754",
+        "nameHe": "סטוקהולם",
+        "nameFull": "Stockholm",
+        "lat": 59.3294,
+        "lon": 18.0686
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Miss_Taglioni%2C_G.38956.jpg/500px-Miss_Taglioni%2C_G.38956.jpg",
+      "imageLicense": "CC0",
+      "imageCredit": "Grévedon, Henri (Pierre Louis Grévedon, dit) (Paris, 17–10–1776 - Paris, 01–06–1860), dessinateur-lithographe",
+      "sources": [
+        "s-wp-marie-taglioni",
+        "s-wd-q203990"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q203990",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Miss_Taglioni,_G.38956.jpg"
+    },
+    {
+      "id": "p-petipa",
+      "wikipedia": "Marius Petipa",
+      "nameHe": "מריוס פטיפה",
+      "nameFull": "Marius Petipa",
+      "birthYear": 1818,
+      "birthDate": "1818-03-11",
+      "deathYear": 1910,
+      "deathDate": "1910-07-01",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q23482",
+        "nameHe": "מרסיי",
+        "nameFull": "Marseille",
+        "lat": 43.2967,
+        "lon": 5.3764
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Marius_Petipa_-1898.jpg/500px-Marius_Petipa_-1898.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-marius-petipa",
+        "s-wd-q312320"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q312320",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Marius_Petipa_-1898.jpg"
+    },
+    {
+      "id": "p-duncan",
+      "wikipedia": "Isadora Duncan",
+      "nameHe": "איזדורה דאנקן",
+      "nameFull": "Isadora Duncana",
+      "birthYear": 1877,
+      "birthDate": "1877-05-26",
+      "deathYear": 1927,
+      "deathDate": "1927-09-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q62",
+        "nameHe": "סן פרנסיסקו",
+        "nameFull": "San Francisco",
+        "lat": 37.775,
+        "lon": -122.4194
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/1923._duncan_%28cropped%29.jpg/500px-1923._duncan_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-isadora-duncan",
+        "s-wd-q483512"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q483512",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:1923._duncan_(cropped).jpg"
+    },
+    {
+      "id": "p-nijinsky",
+      "wikipedia": "Vaslav Nijinsky",
+      "nameHe": "ואצלב ניז'ינסקי",
+      "nameFull": "Vaslav Nijinsky",
+      "birthYear": 1889,
+      "birthDate": "1889-03-12",
+      "deathYear": 1950,
+      "deathDate": "1950-04-08",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1899",
+        "nameHe": "קייב",
+        "nameFull": "Kyiv",
+        "lat": 50.45,
+        "lon": 30.5236
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Nijinsky_%281890-1950%29_photographed_at_Krasnoe_Selo%2C_summer_1907.jpg/500px-Nijinsky_%281890-1950%29_photographed_at_Krasnoe_Selo%2C_summer_1907.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "unknwown",
+      "sources": [
+        "s-wp-vaslav-nijinsky",
+        "s-wd-q194363"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q194363",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Nijinsky_(1890-1950)_photographed_at_Krasnoe_Selo,_summer_1907.jpg"
+    },
+    {
+      "id": "p-laban",
+      "wikipedia": "Rudolf von Laban",
+      "nameHe": "רודולף לאבאן",
+      "nameFull": "Rudolf Laban",
+      "birthYear": 1879,
+      "birthDate": "1879-12-15",
+      "deathYear": 1958,
+      "deathDate": "1958-07-01",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1780",
+        "nameHe": "ברטיסלאבה",
+        "nameFull": "Bratislava",
+        "lat": 48.1517,
+        "lon": 17.1093
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Labanotation1.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "AnonymousUnknown author",
+      "sources": [
+        "s-wp-rudolf-von-laban",
+        "s-wd-q213712"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q213712",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Labanotation1.jpg"
+    },
+    {
+      "id": "p-balanchine",
+      "wikipedia": "George Balanchine",
+      "nameHe": "ג'ורג' בלנצ'ין",
+      "nameFull": "George Balanchine",
+      "birthYear": 1904,
+      "birthDate": "1904-01-09",
+      "deathYear": 1983,
+      "deathDate": "1983-04-30",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q656",
+        "nameHe": "סנקט פטרבורג",
+        "nameFull": "Saint Petersburg",
+        "lat": 59.95,
+        "lon": 30.3167
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/George_Balanchine_%281965%29.jpg/500px-George_Balanchine_%281965%29.jpg",
+      "imageLicense": "CC BY-SA 3.0 nl",
+      "imageCredit": "Jack de Nijs for Anefo / Anefo",
+      "sources": [
+        "s-wp-george-balanchine",
+        "s-wd-q310184"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q310184",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:George_Balanchine_(1965).jpg"
     }
   ]
 }

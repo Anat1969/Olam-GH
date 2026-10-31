@@ -1430,6 +1430,311 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-72",
+      "fromId": "p-vitruvius",
+      "toId": "d-1567-palladio-rotonda",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==פלדיו קרא את ויטרוביוס.== **פלדיו** הושפע בעיקר מ**ויטרוביוס**, ואייר ספר פירוש עליו.",
+      "application": "לקרוא בניין חדש כ**פירוש** לטקסט עתיק.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-andrea-palladio",
+          "quote": "Palladio, influenced by Roman and Greek architecture, primarily Vitruvius"
+        }
+      ],
+      "sources": [
+        "s-wp-andrea-palladio"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-73",
+      "fromId": "p-vitruvius",
+      "toId": "p-leonardo",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==האדם הוויטרובי: אדריכלות שהפכה לגוף.== **לאונרדו** צייר את הפרופורציות של הגוף לפי **ויטרוביוס**.",
+      "application": "למדוד את הגוף שלך מול הריבוע והעיגול של **לאונרדו**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-vitruvian-man",
+          "quote": "Inspired by the Roman architect Vitruvius, it depicts a nude man in two overlapping standing positions, inscribed within a circle and a square."
+        }
+      ],
+      "sources": [
+        "s-wp-vitruvian-man"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-74",
+      "fromId": "d-532-hagia-sophia",
+      "toId": "d-1550-suleymaniye",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==אלף שנה אחרי, אותה כיפה.== המסגד של סולימאן **מתייחס לאיה סופיה** בתכנון ובפריסה.",
+      "application": "להשוות **חתך** של שני הבניינים, ולראות מה נשמר ומה השתנה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-su-leymaniye-mosque",
+          "quote": "Suleiman's mosque, in turn, references the Hagia Sophia, Justinian's creation, in its design and layout."
+        }
+      ],
+      "sources": [
+        "s-wp-su-leymaniye-mosque"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-75",
+      "fromId": "p-anthemius",
+      "toId": "d-1011-alhazen-optics",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==המתמטיקאי של איה סופיה הגיע לאבן אל-היית׳ם.== עבודתו של **אנתמיוס** הייתה מוכרת למתמטיקאים ערבים, ובהם **אבן אל-היית׳ם**.",
+      "application": "לראות אדריכל גם כ**מדען**: גאומטריה של כיפה וגאומטריה של מראה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-anthemius-of-tralles",
+          "quote": "This work was later known to Arab mathematicians such as Alhazen."
+        }
+      ],
+      "sources": [
+        "s-wp-anthemius-of-tralles"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-76",
+      "fromId": "p-brunelleschi",
+      "toId": "d-1425-masaccio-trinity",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==הפרספקטיבה עברה מאדריכל לצייר.== הניסויים של **ברונלסקי** כנראה היו ההשראה של **מזאצ׳ו**.",
+      "application": "לשרטט את נקודת המגוז בציור, ולמצוא את **העין של הצופה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-holy-trinity-masaccio",
+          "quote": "Brunelleschi's experiments in linear perspective likely were the inspiration for the perspectival construction of the painting."
+        }
+      ],
+      "sources": [
+        "s-wp-holy-trinity-masaccio"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-77",
+      "fromId": "p-hooke",
+      "toId": "p-wren",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==המדען והאדריכל של לונדון.== **הוק** ו**רן** היו חברים, וחלקו תחומי עניין רבים.",
+      "application": "לחפש את **המדע** שמאחורי בניין, ואת **האדריכלות** שמאחורי ניסוי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-robert-hooke",
+          "quote": "Hooke often met Christopher Wren, with whom he shared many interests"
+        }
+      ],
+      "sources": [
+        "s-wp-robert-hooke"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-78",
+      "fromId": "p-gropius",
+      "toId": "p-kandinsky",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==האדריכל הזמין את הצייר.== **גרופיוס** הזמין את **קנדינסקי** ללמד בבאוהאוס.",
+      "application": "לבנות **בית ספר** שבו אמנויות שונות לומדות זו מזו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-wassily-kandinsky",
+          "quote": "In 1921, Kandinsky was invited to go to Germany to attend the Bauhaus of Weimar by its founder, architect Walter Gropius."
+        }
+      ],
+      "sources": [
+        "s-wp-wassily-kandinsky"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-79",
+      "fromId": "d-1925-bauhaus-dessau",
+      "toId": "p-mies",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מיס ניהל את הבאוהאוס האחרון.== **מיס ואן דר רוהה** היה המנהל האחרון של **הבאוהאוס**.",
+      "application": "לעקוב אחרי **רעיון** שעובר בין מנהלים של אותו מוסד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ludwig-mies-van-der-rohe",
+          "quote": "In the 1930s, Mies was the last director of the Bauhaus"
+        }
+      ],
+      "sources": [
+        "s-wp-ludwig-mies-van-der-rohe"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-80",
+      "fromId": "p-mies",
+      "toId": "p-lecorbusier",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==שלושה מייסדים, משרד אחד.== **מיס** עבד לצד **לה קורבוזיה** ו**גרופיוס**.",
+      "application": "להשוות **שלוש תשובות** לאותה שאלה: איך נראה בית מודרני.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ludwig-mies-van-der-rohe",
+          "quote": "He worked alongside Le Corbusier and Walter Gropius"
+        }
+      ],
+      "sources": [
+        "s-wp-ludwig-mies-van-der-rohe"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-81",
+      "fromId": "d-1925-geddes-telaviv",
+      "toId": "d-1925-bauhaus-dessau",
+      "type": "parallel",
+      "confidence": "interpretive",
+      "explanation": "==התוכנית של גדס, הבתים של הבאוהאוס.== האזור שתכנן **גדס** הפך ל**עיר הלבנה**, שנבנתה ב**סגנון הבינלאומי**.",
+      "application": "ללכת בעיר הלבנה עם שתי מפות: **התוכנית** של גדס ו**הבניינים** של אדריכלי הבאוהאוס.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-patrick-geddes",
+          "quote": "This section of Tel Aviv that was originally planned by Sir Patrick Geddes would later be recognized as \"The White City\""
+        },
+        {
+          "sourceId": "s-wp-white-city-tel-aviv",
+          "quote": "built in a unique form of the International Style, commonly known as Bauhaus"
+        }
+      ],
+      "sources": [
+        "s-wp-patrick-geddes",
+        "s-wp-white-city-tel-aviv"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-82",
+      "fromId": "p-vermeer",
+      "toId": "p-leeuwenhoek",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==הצייר והמיקרוסקופיסט מדלפט.== **ואן לוונהוק**, יצרן עדשות חלוץ, היה מנהל העיזבון של **ורמר**.",
+      "application": "להסתכל על אור בציור ובמיקרוסקופ: **אותה עיר**, אותה תשומת לב.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-johannes-vermeer",
+          "quote": "Vermeer was in close connection with pioneer lens maker Antonie van Leeuwenhoek, who was his executor after death."
+        }
+      ],
+      "sources": [
+        "s-wp-johannes-vermeer"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-83",
+      "fromId": "p-kandinsky",
+      "toId": "p-schoenberg",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==צבע וצליל באותה שיחה.== **קנדינסקי** פיתח את התאוריה שלו יחד עם המלחין **שנברג**.",
+      "application": "לצייר מוזיקה: צבע לכל **צליל**, צורה לכל **מקצב**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-wassily-kandinsky",
+          "quote": "As the Der Blaue Reiter Almanac essays and theorising with composer Arnold Schoenberg indicate"
+        }
+      ],
+      "sources": [
+        "s-wp-wassily-kandinsky"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-84",
+      "fromId": "d-1894-debussy-faune",
+      "toId": "d-1912-nijinsky-faune",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==מהמוזיקה לבלט.== היצירה של **דביסי** הפכה לבסיס של הבלט של **ניז׳ינסקי**.",
+      "application": "לראות ולשמוע: איך **תנועה** מפרשת **צליל**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pre-lude-a-l-apre-s-midi-d-un-faune",
+          "quote": "Debussy's work later provided the basis for the ballet Afternoon of a Faun choreographed by Vaslav Nijinsky"
+        }
+      ],
+      "sources": [
+        "s-wp-pre-lude-a-l-apre-s-midi-d-un-faune"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-85",
+      "fromId": "p-nijinsky",
+      "toId": "d-1913-stravinsky-rite",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==הכוראוגרף של המהומה.== **ניז׳ינסקי** עיצב את התנועה של **פולחן האביב**.",
+      "application": "לנסות לרקוד את **המקצב** של סטרווינסקי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-vaslav-nijinsky",
+          "quote": "for which he choreographed such influential ballets as L'après-midi d'un faune (1912), Le Sacre du Printemps (1913)"
+        }
+      ],
+      "sources": [
+        "s-wp-vaslav-nijinsky"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-86",
+      "fromId": "p-stravinsky",
+      "toId": "d-1928-balanchine-apollo",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==המוזיקה של סטרווינסקי, התנועה של בלנשין.== **סטרווינסקי** הלחין את **אפולו**, ובלנשין עיצב את הריקוד.",
+      "application": "לשים לב ש**ניקיון** במוזיקה מוביל לניקיון בתנועה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-apollo-ballet",
+          "quote": "is a neoclassical ballet in two tableaux composed between 1927 and 1928 by Igor Stravinsky."
+        }
+      ],
+      "sources": [
+        "s-wp-apollo-ballet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

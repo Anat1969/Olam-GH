@@ -4749,6 +4749,1663 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce2670-djoser",
+      "title": "הפירמידה של ג׳וסר: בניין האבן הגדול הראשון",
+      "yearFrom": -2670,
+      "yearTo": -2650,
+      "yearApprox": true,
+      "domainId": "architecture",
+      "personIds": [
+        "p-imhotep"
+      ],
+      "place": {
+        "wikipedia": "Pyramid of Djoser",
+        "nameHe": "הפירמידה של ג'וסר",
+        "nameFull": "Pyramid of Djoser",
+        "lat": 29.8711,
+        "lon": 31.2167,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-pyramid-of-djoser",
+          "quote": "It was built in the 27th century BC during the 3rd Dynasty for the burial of Pharaoh Djoser."
+        },
+        "city": {
+          "nameHe": "סקארה",
+          "nameFull": "Saqqara"
+        },
+        "wikidata": "Q192418"
+      },
+      "novelty": "**אימחותפ** ערם **מסטבות** זו על זו, ובנה במדרגות של אבן.",
+      "contribution": "מנתון כותב עליו שהיה \"**ממציא הבנייה באבן**\".",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pyramid-of-djoser",
+          "quote": "Djoser was the first or second king of the 3rd Dynasty (c. 2670–2650 BC)"
+        },
+        {
+          "sourceId": "s-wp-pyramid-of-djoser",
+          "quote": "most Egyptologists credit Djoser's vizier Imhotep with the design and construction of the complex."
+        }
+      ],
+      "sources": [
+        "s-wp-pyramid-of-djoser"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce447-parthenon",
+      "title": "הפרתנון",
+      "yearFrom": -447,
+      "yearTo": -432,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-ictinus",
+        "p-callicrates"
+      ],
+      "place": {
+        "wikipedia": "Parthenon",
+        "nameHe": "פרתנון",
+        "nameFull": "Parthenon",
+        "lat": 37.9715,
+        "lon": 23.7266,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "אתונה",
+          "nameFull": "Athens"
+        },
+        "wikidata": "Q10288"
+      },
+      "novelty": "**איקטינוס** ו**קליקרטס** בנו מקדש שבו כל קו מחושב לעין.",
+      "contribution": "הבניין הפך לסמל של **האדריכלות הקלאסית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-parthenon",
+          "quote": "Construction started in 447 BC when the Delian League was at the peak of its power."
+        },
+        {
+          "sourceId": "s-wp-parthenon",
+          "quote": "The architects Ictinos and Callicrates began their work in 447, and the building was substantially completed by 432."
+        }
+      ],
+      "sources": [
+        "s-wp-parthenon"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce30-vitruvius",
+      "title": "עשרה ספרים על אדריכלות",
+      "yearFrom": -30,
+      "yearTo": -20,
+      "yearApprox": true,
+      "domainId": "architecture",
+      "personIds": [
+        "p-vitruvius"
+      ],
+      "place": null,
+      "novelty": "**ויטרוביוס** כתב את **ספר הלימוד** המלא הראשון לאדריכלות.",
+      "contribution": "החיבור הפך למקור של אדריכלות הרנסנס.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-de-architectura",
+          "quote": "Probably written between 30 and 20 BC, it combines the knowledge and views of many antique writers, Greek and Roman, on architecture, the arts, natural history and building technology."
+        }
+      ],
+      "sources": [
+        "s-wp-de-architectura"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-117-pantheon",
+      "title": "הפנתאון: כיפה של בטון",
+      "yearFrom": 117,
+      "yearTo": 126,
+      "yearApprox": true,
+      "domainId": "architecture",
+      "personIds": [
+        "p-hadrian"
+      ],
+      "place": {
+        "wikipedia": "Pantheon, Rome",
+        "nameHe": "הפנתאון ברומא",
+        "nameFull": "Pantheon",
+        "lat": 41.8986,
+        "lon": 12.4769,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "רומא",
+          "nameFull": "Rome"
+        },
+        "wikidata": "Q99309"
+      },
+      "novelty": "כיפת **בטון** עם **פתח עגול** לשמיים, מעל אולם עגול.",
+      "contribution": "עד היום זו **כיפת הבטון הגדולה בעולם** בלי זיון.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pantheon-rome",
+          "quote": "originally built under Roman emperor Augustus (27 BC–AD 14) and reconstructed under Hadrian (117–138)."
+        },
+        {
+          "sourceId": "s-wp-pantheon-rome",
+          "quote": "Almost two thousand years after it was built, the Pantheon's dome is still the world's largest unreinforced concrete dome."
+        }
+      ],
+      "sources": [
+        "s-wp-pantheon-rome"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-532-hagia-sophia",
+      "title": "איה סופיה",
+      "yearFrom": 532,
+      "yearTo": 537,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-anthemius",
+        "p-isidore"
+      ],
+      "place": {
+        "wikipedia": "Hagia Sophia",
+        "nameHe": "איה סופיה",
+        "nameFull": "Hagia Sophia",
+        "lat": 41.0083,
+        "lon": 28.98,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "איסטנבול",
+          "nameFull": "Istanbul"
+        },
+        "wikidata": "Q12506"
+      },
+      "novelty": "שני **גאומטרים** תכננו כיפה ענקית על **משולשים כדוריים**.",
+      "contribution": "הבניין היה **החלל הפנימי הגדול בעולם**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hagia-sophia",
+          "quote": "was built by the Byzantine emperor Justinian I as the Christian basilica of Constantinople between 532–537 and was designed by the Greek geometers Isidore of Miletus and Anthemius of Tralles."
+        },
+        {
+          "sourceId": "s-wp-hagia-sophia",
+          "quote": "it was completed in AD 537, becoming the world's largest interior space and among the first to employ a fully pendentive dome."
+        }
+      ],
+      "sources": [
+        "s-wp-hagia-sophia"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1436-brunelleschi-dome",
+      "title": "הכיפה של פירנצה",
+      "yearFrom": 1436,
+      "yearTo": 1436,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-brunelleschi"
+      ],
+      "place": {
+        "wikipedia": "Florence Cathedral",
+        "nameHe": "סנטה מריה דל פיורה",
+        "nameFull": "Florence Cathedral",
+        "lat": 43.7731,
+        "lon": 11.2569,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פירנצה",
+          "nameFull": "Florence"
+        },
+        "wikidata": "Q191739"
+      },
+      "novelty": "**ברונלסקי** בנה כיפה ענקית **בלי פיגומי תמיכה** מהקרקע.",
+      "contribution": "הוא גם תיאר לראשונה **פרספקטיבה לינארית** מדויקת.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-florence-cathedral",
+          "quote": "completed by 1436 with a dome engineered by Filippo Brunelleschi"
+        },
+        {
+          "sourceId": "s-wp-filippo-brunelleschi",
+          "quote": "Brunelleschi is also credited as the first person to describe a precise system of linear perspective."
+        }
+      ],
+      "sources": [
+        "s-wp-florence-cathedral",
+        "s-wp-filippo-brunelleschi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1567-palladio-rotonda",
+      "title": "וילה לה רוטונדה",
+      "yearFrom": 1567,
+      "yearTo": 1605,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-palladio"
+      ],
+      "place": {
+        "wikipedia": "Villa La Rotonda",
+        "nameHe": "וילה קפרה \"לה רוטונדה\"",
+        "nameFull": "Villa Almerico Capra (La Rotonda)",
+        "lat": 45.5315,
+        "lon": 11.5603,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "ויצ׳נצה",
+          "nameFull": "Vicenza"
+        },
+        "wikidata": "Q505574"
+      },
+      "novelty": "**פלדיו** בנה בית כמו **מקדש**, עם ארבע חזיתות זהות.",
+      "contribution": "הסגנון שלו הפך ל**פלדיאניזם** שהתפשט באירופה ובאמריקה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-villa-la-rotonda",
+          "quote": "designed by Italian Renaissance architect Andrea Palladio, and begun in 1567, though not completed until 1605."
+        }
+      ],
+      "sources": [
+        "s-wp-villa-la-rotonda"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1550-suleymaniye",
+      "title": "מסגד סולימאניה",
+      "yearFrom": 1550,
+      "yearTo": 1557,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-sinan"
+      ],
+      "place": {
+        "wikipedia": "Süleymaniye Mosque",
+        "nameHe": "מסגד סולימאנייה",
+        "nameFull": "Süleymaniye Mosque",
+        "lat": 41.0161,
+        "lon": 28.9639,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "איסטנבול",
+          "nameFull": "Istanbul"
+        },
+        "wikidata": "Q178643"
+      },
+      "novelty": "**סינאן** פיתח את תבנית **איה סופיה** לבניין עות׳מאני.",
+      "contribution": "המסגד נחשב ליצירת המופת של **האדריכלות העות׳מאנית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-su-leymaniye-mosque",
+          "quote": "The Arabic inscription above the entrance to the prayer hall gives a foundation date of 1550 and an inauguration date of 1557."
+        },
+        {
+          "sourceId": "s-wp-su-leymaniye-mosque",
+          "quote": "It is considered a masterpiece of Ottoman architecture and one of Mimar Sinan's greatest works."
+        }
+      ],
+      "sources": [
+        "s-wp-su-leymaniye-mosque"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1710-st-pauls",
+      "title": "קתדרלת סנט פול",
+      "yearFrom": 1710,
+      "yearTo": 1710,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-wren"
+      ],
+      "place": {
+        "wikipedia": "St Paul's Cathedral",
+        "nameHe": "קתדרלת סנט פול בלונדון",
+        "nameFull": "St Paul's Cathedral",
+        "lat": 51.5138,
+        "lon": -0.0983,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q173882"
+      },
+      "novelty": "**רן** תכנן כיפה בסגנון **הבארוק האנגלי** אחרי השריפה הגדולה של לונדון.",
+      "contribution": "הכיפה שלטה בקו הרקיע של לונדון יותר מ-**300** שנה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-st-paul-s-cathedral",
+          "quote": "The high-domed present structure, which was completed in 1710, is a Grade I listed building that was designed in the English Baroque style by Sir Christopher Wren."
+        }
+      ],
+      "sources": [
+        "s-wp-st-paul-s-cathedral"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1851-crystal-palace",
+      "title": "ארמון הבדולח",
+      "yearFrom": 1851,
+      "yearTo": 1851,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-paxton"
+      ],
+      "place": {
+        "wikipedia": "Hyde Park, London",
+        "nameHe": "הייד פארק",
+        "nameFull": "Hyde Park",
+        "lat": 51.5086,
+        "lon": -0.1636,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q123738"
+      },
+      "novelty": "**פקסטון**, גנן, בנה ממבני חממה בניין **טרומי** של ברזל וזכוכית.",
+      "contribution": "הבנייה הטרומית הפכה לשפה של **הבנייה התעשייתית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-crystal-palace",
+          "quote": "originally built in Hyde Park, London, to house the Great Exhibition of 1851."
+        },
+        {
+          "sourceId": "s-wp-joseph-paxton",
+          "quote": "The Great Conservatory was the test-bed for the prefabricated glass and iron structural techniques which Paxton pioneered"
+        }
+      ],
+      "sources": [
+        "s-wp-the-crystal-palace",
+        "s-wp-joseph-paxton"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1853-haussmann-paris",
+      "title": "פריז של אוסמן",
+      "yearFrom": 1853,
+      "yearTo": 1870,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-haussmann"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**אוסמן** פרץ שדרות כדי **לאוורר, לאחד ולייפות** את העיר.",
+      "contribution": "זו הדוגמה הגדולה הראשונה של **תכנון עירוני** מודרני בעיר קיימת.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-haussmann-s-renovation-of-paris",
+          "quote": "directed by his prefect of Seine, Georges-Eugène Haussmann, between 1853 and 1870."
+        },
+        {
+          "sourceId": "s-wp-haussmann-s-renovation-of-paris",
+          "quote": "to give it air and open space, to connect and unify the different parts of the city into one whole, and to make it more beautiful."
+        }
+      ],
+      "sources": [
+        "s-wp-haussmann-s-renovation-of-paris"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1887-eiffel-tower",
+      "title": "מגדל אייפל",
+      "yearFrom": 1887,
+      "yearTo": 1889,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-eiffel"
+      ],
+      "place": {
+        "wikipedia": "Eiffel Tower",
+        "nameHe": "מגדל אייפל",
+        "nameFull": "Eiffel Tower",
+        "lat": 48.8583,
+        "lon": 2.2945,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q243"
+      },
+      "novelty": "**אייפל** הפך **מבנה ברזל** הנדסי לסמל של עיר.",
+      "contribution": "המגדל סימל, בלשונו, את \"**אמנות המהנדס המודרני**\".",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-eiffel-tower",
+          "quote": "It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889."
+        }
+      ],
+      "sources": [
+        "s-wp-eiffel-tower"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1890-wainwright",
+      "title": "בניין ויינרייט: גורד השחקים מקבל צורה",
+      "yearFrom": 1890,
+      "yearTo": 1891,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-sullivan",
+        "p-adler"
+      ],
+      "place": {
+        "wikipedia": "Wainwright Building",
+        "nameHe": "בניין וינרייט",
+        "nameFull": "Wainwright Building",
+        "lat": 38.6269,
+        "lon": -90.1922,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "סנט לואיס",
+          "nameFull": "St. Louis"
+        },
+        "wikidata": "Q1143548"
+      },
+      "novelty": "**סאליבן** ו**אדלר** נתנו לשלד הפלדה הגבוה **ביטוי אדריכלי**.",
+      "contribution": "רייט כינה אותו \"**הביטוי האנושי הראשון**\" של בניין משרדים גבוה מפלדה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-wainwright-building",
+          "quote": "It was designed by Dankmar Adler and Louis Sullivan and built between 1890 and 1891."
+        },
+        {
+          "sourceId": "s-wp-wainwright-building",
+          "quote": "The Wainwright Building is considered to be one of the first aesthetically fully expressed early skyscrapers."
+        }
+      ],
+      "sources": [
+        "s-wp-wainwright-building"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1883-sagrada-familia",
+      "title": "סגרדה פמיליה",
+      "yearFrom": 1883,
+      "yearTo": 1883,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-gaudi"
+      ],
+      "place": {
+        "wikipedia": "Sagrada Família",
+        "nameHe": "סגרדה פמיליה",
+        "nameFull": "Basilica and Expiatory Church of the Holy Family",
+        "lat": 41.4037,
+        "lon": 2.1743,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "ברצלונה",
+          "nameFull": "Barcelona"
+        },
+        "wikidata": "Q48435"
+      },
+      "novelty": "**גאודי** שילב **גותיקה** עם **צורות מתעקלות** של הטבע.",
+      "contribution": "הכנסייה, שעוד לא הושלמה, היא הכנסייה הגבוהה בעולם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-sagrada-fami-lia",
+          "quote": "In 1883, when Villar resigned, Gaudí took over as chief architect, transforming the project with his architectural and engineering style, combining Gothic and curvilinear Art Nouveau forms."
+        }
+      ],
+      "sources": [
+        "s-wp-sagrada-fami-lia"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1925-geddes-telaviv",
+      "title": "תוכנית גדס לתל אביב",
+      "yearFrom": 1925,
+      "yearTo": 1925,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-geddes"
+      ],
+      "place": {
+        "wikipedia": "Tel Aviv",
+        "nameHe": "תל אביב-יפו",
+        "nameFull": "Tel Aviv",
+        "lat": 32.08,
+        "lon": 34.78,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-patrick-geddes",
+          "quote": "In 1925 he submitted a report on town planning in Jaffa and Tel Aviv to the Municipality of Tel Aviv"
+        },
+        "city": {
+          "nameHe": "תל אביב",
+          "nameFull": "Tel Aviv"
+        },
+        "wikidata": "Q33935"
+      },
+      "novelty": "**גדס** תכנן עיר של **גנים ציבוריים** מוקפים בלוקים, עם רחובות קטנים ביניהם.",
+      "contribution": "זו העיר היחידה שהתרחבותה הראשונה תוכננה **כולה** לפי תוכנית שלו. היום היא \"**העיר הלבנה**\".",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-geddes-plan-for-tel-aviv",
+          "quote": "The Geddes plan for Tel Aviv was the proposal of Patrick Geddes presented in 1925."
+        },
+        {
+          "sourceId": "s-wp-patrick-geddes",
+          "quote": "Tel Aviv is the only city whose early expansion was entirely laid out according to a plan by Geddes."
+        }
+      ],
+      "sources": [
+        "s-wp-geddes-plan-for-tel-aviv",
+        "s-wp-patrick-geddes"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1925-bauhaus-dessau",
+      "title": "בניין הבאוהאוס בדסאו",
+      "yearFrom": 1925,
+      "yearTo": 1926,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-gropius"
+      ],
+      "place": {
+        "wikipedia": "Bauhaus Dessau",
+        "nameHe": "בניין הבאוהאוס",
+        "nameFull": "Bauhaus Dessau",
+        "lat": 51.8392,
+        "lon": 12.2267,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "דסאו",
+          "nameFull": "Dessau"
+        },
+        "wikidata": "Q516770"
+      },
+      "novelty": "**גרופיוס** בנה בית ספר שבו **הצורה נובעת מהתפקוד**, בזכוכית ובבטון.",
+      "contribution": "הבאוהאוס הפך לבית הגידול של **הסגנון הבינלאומי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bauhaus-dessau",
+          "quote": "The building was constructed between 1925 and 1926 according to plans by Walter Gropius as a school building for the Bauhaus School of Art, Design and Architecture."
+        }
+      ],
+      "sources": [
+        "s-wp-bauhaus-dessau"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1928-villa-savoye",
+      "title": "וילה סבואה: חמש הנקודות",
+      "yearFrom": 1928,
+      "yearTo": 1931,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-lecorbusier"
+      ],
+      "place": {
+        "wikipedia": "Villa Savoye",
+        "nameHe": "וילה סבואה",
+        "nameFull": "Villa Savoye",
+        "lat": 48.9244,
+        "lon": 2.0283,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פואסי",
+          "nameFull": "Poissy"
+        },
+        "wikidata": "Q940746"
+      },
+      "novelty": "**לה קורבוזיה** הדגים **חמש נקודות** לבית חדש: עמודים, גג גן, תוכנית חופשית, חלון סרט וחזית חופשית.",
+      "contribution": "הבית מייצג את **המקורות של האדריכלות המודרנית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-villa-savoye",
+          "quote": "built between 1928 and 1931 using reinforced concrete."
+        },
+        {
+          "sourceId": "s-wp-villa-savoye",
+          "quote": "As an exemplar of Le Corbusier's \"five points\" for new constructions, the villa is representative of the origins of modern architecture"
+        }
+      ],
+      "sources": [
+        "s-wp-villa-savoye"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1929-barcelona-pavilion",
+      "title": "הביתן של ברצלונה",
+      "yearFrom": 1929,
+      "yearTo": 1929,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-mies"
+      ],
+      "place": {
+        "wikipedia": "Barcelona Pavilion",
+        "nameHe": "ביתן ברצלונה",
+        "nameFull": "German Pavilion, Barcelona",
+        "lat": 41.3706,
+        "lon": 2.15,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "ברצלונה",
+          "nameFull": "Barcelona"
+        },
+        "wikidata": "Q807915"
+      },
+      "novelty": "**מיס ואן דר רוהה** בנה חלל **זורם** של קירות חופשיים, זכוכית ואבן.",
+      "contribution": "הביתן הפך לאבן דרך של **האדריכלות המודרנית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-barcelona-pavilion",
+          "quote": "It was originally built as the German Pavilion for the 1929 International Exposition in Barcelona, Catalonia, Spain."
+        }
+      ],
+      "sources": [
+        "s-wp-barcelona-pavilion"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1935-fallingwater",
+      "title": "הבית על המפל",
+      "yearFrom": 1935,
+      "yearTo": 1935,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-wright"
+      ],
+      "place": {
+        "wikipedia": "Fallingwater",
+        "nameHe": "הבית על האשד",
+        "nameFull": "Fallingwater",
+        "lat": 39.9064,
+        "lon": -79.4681,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פנסילבניה",
+          "nameFull": "Pennsylvania"
+        },
+        "wikidata": "Q463179"
+      },
+      "novelty": "**רייט** הניח את הבית **מעל המפל**, על מרפסות שמזדקרות בלי תמיכה.",
+      "contribution": "הבית מחבר **אדריכלות** ו**טבע** לגוף אחד.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-fallingwater",
+          "quote": "A map of the site's boulders, trees, and topography was completed and forwarded to Wright on March 9, 1935."
+        },
+        {
+          "sourceId": "s-wp-fallingwater",
+          "quote": "The house includes multiple outdoor terraces, which are cantilevered, extending outward from a chimney without support at the opposite end."
+        }
+      ],
+      "sources": [
+        "s-wp-fallingwater"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1956-brasilia",
+      "title": "ברזיליה: בירה שתוכננה מאפס",
+      "yearFrom": 1956,
+      "yearTo": 1960,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-costa",
+        "p-niemeyer"
+      ],
+      "place": {
+        "wikipedia": "Brasília",
+        "nameHe": "ברזיליה",
+        "nameFull": "Brasília",
+        "lat": -15.7939,
+        "lon": -47.8828,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "ברזיליה",
+          "nameFull": "Brasília"
+        },
+        "wikidata": "Q2844"
+      },
+      "novelty": "**קוסטה** תכנן את העיר, ו**נימאייר** את הבניינים הציבוריים, בבטון לבן ומתעקל.",
+      "contribution": "עיר בירה שלמה נבנתה ב-**41** חודשים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-brasi-lia",
+          "quote": "Brasília is a planned city developed by Lúcio Costa, Oscar Niemeyer, and Joaquim Cardozo in 1956"
+        },
+        {
+          "sourceId": "s-wp-brasi-lia",
+          "quote": "Brasília was built in 41 months, and was officially inaugurated in 21 April 1960."
+        }
+      ],
+      "sources": [
+        "s-wp-brasi-lia"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1305-giotto-scrovegni",
+      "title": "קפלת סקרובני",
+      "yearFrom": 1305,
+      "yearTo": 1305,
+      "yearApprox": true,
+      "domainId": "painting",
+      "personIds": [
+        "p-giotto"
+      ],
+      "place": {
+        "wikipedia": "Scrovegni Chapel",
+        "nameHe": "קפלת סקרובני",
+        "nameFull": "Scrovegni Chapel",
+        "lat": 45.4118,
+        "lon": 11.8795,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פדובה",
+          "nameFull": "Padua"
+        },
+        "wikidata": "Q963954"
+      },
+      "novelty": "**ג׳וטו** וצוותו ציירו **מחזור פרסקו** שמספר סיפור על כל הקירות.",
+      "contribution": "זו אחת מיצירות המופת של **האמנות המערבית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-scrovegni-chapel",
+          "quote": "The chapel contains a fresco cycle by Giotto, completed around 1305 and an important masterpiece of Western art."
+        }
+      ],
+      "sources": [
+        "s-wp-scrovegni-chapel"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1425-masaccio-trinity",
+      "title": "השילוש הקדוש: פרספקטיבה על קיר",
+      "yearFrom": 1425,
+      "yearTo": 1426,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-masaccio"
+      ],
+      "place": {
+        "wikipedia": "Santa Maria Novella",
+        "nameHe": "סנטה מריה נובלה",
+        "nameFull": "Basilica of Santa Maria Novella",
+        "lat": 43.7743,
+        "lon": 11.2494,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פירנצה",
+          "nameFull": "Florence"
+        },
+        "wikidata": "Q51175"
+      },
+      "novelty": "**מזאצ׳ו** צייר חלל עמוק ב**פרספקטיבה לינארית** על קיר שטוח.",
+      "contribution": "זו מהציורים המונומנטליים הראשונים של **הרנסנס** בפרספקטיבה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-holy-trinity-masaccio",
+          "quote": "Masaccio created The Holy Trinity between 1425–1426."
+        },
+        {
+          "sourceId": "s-wp-holy-trinity-masaccio",
+          "quote": "is often cited as one of the first monumental Renaissance paintings to utilize linear perspective."
+        }
+      ],
+      "sources": [
+        "s-wp-holy-trinity-masaccio"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1434-vaneyck-arnolfini",
+      "title": "דיוקן ארנולפיני",
+      "yearFrom": 1434,
+      "yearTo": 1434,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-vaneyck"
+      ],
+      "place": {
+        "wikipedia": "Bruges",
+        "nameHe": "ברוז'",
+        "nameFull": "Bruges",
+        "lat": 51.2089,
+        "lon": 3.2242,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-jan-van-eyck",
+          "quote": "worked in Lille before moving to Bruges in 1429, where he lived until his death."
+        },
+        "city": {
+          "nameHe": "ברוז׳",
+          "nameFull": "Bruges"
+        },
+        "wikidata": "Q12994"
+      },
+      "novelty": "**ואן אייק** פיתח את **צבעי השמן** לרמה חדשה של פרט ואור.",
+      "contribution": "זה מהציורים המפורסמים הוותיקים ביותר שצוירו **בשמן** ולא בטמפרה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-arnolfini-portrait",
+          "quote": "Signed and dated by van Eyck in 1434, it is, with the Ghent Altarpiece by the same artist and his brother Hubert, the oldest very famous panel painting to have been executed in oils rather than in tempera."
+        }
+      ],
+      "sources": [
+        "s-wp-arnolfini-portrait",
+        "s-wp-jan-van-eyck"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1503-leonardo-monalisa",
+      "title": "מונה ליזה",
+      "yearFrom": 1503,
+      "yearTo": 1506,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-leonardo"
+      ],
+      "place": {
+        "wikipedia": "Florence",
+        "nameHe": "פירנצה",
+        "nameFull": "Florence",
+        "lat": 43.7714,
+        "lon": 11.2542,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-mona-lisa",
+          "quote": "It is believed by some that the Mona Lisa was begun in 1503 or 1504 in Florence."
+        },
+        "city": {
+          "nameHe": "פירנצה",
+          "nameFull": "Florence"
+        },
+        "wikidata": "Q2044"
+      },
+      "novelty": "**לאונרדו** צייר דיוקן שבו **האור והצל** נמסים בלי קווי מתאר.",
+      "contribution": "זה כנראה הציור המוכר ביותר בעולם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-mona-lisa",
+          "quote": "It was believed to have been painted between 1503 and 1506;"
+        }
+      ],
+      "sources": [
+        "s-wp-mona-lisa"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1599-caravaggio-matthew",
+      "title": "קריאתו של מתיא: אור בחושך",
+      "yearFrom": 1599,
+      "yearTo": 1600,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-caravaggio"
+      ],
+      "place": {
+        "wikipedia": "San Luigi dei Francesi",
+        "nameHe": "סן לואיג'י דיי פראנצ'זי",
+        "nameFull": "San Luigi dei Francesi",
+        "lat": 41.8996,
+        "lon": 12.4747,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "רומא",
+          "nameFull": "Rome"
+        },
+        "wikidata": "Q638283"
+      },
+      "novelty": "**קאראווג׳ו** השתמש ב**מעבר חד** בין אור לחושך, כמו בתיאטרון.",
+      "contribution": "החידושים שלו השפיעו על כל **ציור הבארוק**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-calling-of-saint-matthew",
+          "quote": "It was completed in 1599–1600 for the Contarelli Chapel in the church of the French congregation, San Luigi dei Francesi in Rome, where it remains."
+        },
+        {
+          "sourceId": "s-wp-caravaggio",
+          "quote": "Caravaggio's innovations inspired Baroque painting"
+        }
+      ],
+      "sources": [
+        "s-wp-the-calling-of-saint-matthew",
+        "s-wp-caravaggio"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1642-rembrandt-nightwatch",
+      "title": "משמר הלילה",
+      "yearFrom": 1642,
+      "yearTo": 1642,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-rembrandt"
+      ],
+      "place": {
+        "wikipedia": "Amsterdam",
+        "nameHe": "אמסטרדם",
+        "nameFull": "Amsterdam",
+        "lat": 52.3667,
+        "lon": 4.8833,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-the-night-watch",
+          "quote": "commissioned to hang in the banquet hall of the newly built Kloveniersdoelen (Musketeers' Meeting Hall) in Amsterdam."
+        },
+        "city": {
+          "nameHe": "אמסטרדם",
+          "nameFull": "Amsterdam"
+        },
+        "wikidata": "Q727"
+      },
+      "novelty": "**רמברנדט** הפך דיוקן קבוצתי סטטי ל**סצנה בתנועה**.",
+      "contribution": "הציור הוא היצירה המוכרת ביותר של **תור הזהב ההולנדי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-night-watch",
+          "quote": "The Night Watch was completed in 1642 at the peak of the Dutch Golden Age."
+        }
+      ],
+      "sources": [
+        "s-wp-the-night-watch"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1665-vermeer-pearl",
+      "title": "נערה עם עגיל פנינה",
+      "yearFrom": 1665,
+      "yearTo": 1665,
+      "yearApprox": true,
+      "domainId": "painting",
+      "personIds": [
+        "p-vermeer"
+      ],
+      "place": {
+        "wikipedia": "Delft",
+        "nameHe": "דלפט",
+        "nameFull": "Delft",
+        "lat": 52.0117,
+        "lon": 4.3592,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-johannes-vermeer",
+          "quote": "He seems to have been devoted exclusively to his art, living out his life in the city of Delft."
+        },
+        "city": {
+          "nameHe": "דלפט",
+          "nameFull": "Delft"
+        },
+        "wikidata": "Q690"
+      },
+      "novelty": "**ורמר** צייר **אור** שנופל על פנים, בחדר אחד ובשקט.",
+      "contribution": "הציור הפך לסמל של **הציור ההולנדי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-girl-with-a-pearl-earring",
+          "quote": "It is estimated to have been painted around 1665."
+        }
+      ],
+      "sources": [
+        "s-wp-girl-with-a-pearl-earring",
+        "s-wp-johannes-vermeer"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1844-turner-rain",
+      "title": "גשם, קיטור ומהירות",
+      "yearFrom": 1844,
+      "yearTo": 1844,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-turner"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-rain-steam-and-speed-the-great-western-railway",
+          "quote": "It was first exhibited at the Royal Academy Exhibition of 1844"
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**טרנר** צייר את **המהירות** של רכבת דרך אור, אדים וגשם.",
+      "contribution": "הציור הביא את **הטכנולוגיה החדשה** אל הנוף.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-rain-steam-and-speed-the-great-western-railway",
+          "quote": "To convey the impact of the rapid pace of technological progress, in this 1844 painting Turner depicted infrastructure and machinery that had only recently come into use."
+        }
+      ],
+      "sources": [
+        "s-wp-rain-steam-and-speed-the-great-western-railway"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1872-monet-impression",
+      "title": "רושם, זריחה",
+      "yearFrom": 1872,
+      "yearTo": 1872,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-monet"
+      ],
+      "place": {
+        "wikipedia": "Le Havre",
+        "nameHe": "לה האבר",
+        "nameFull": "Le Havre",
+        "lat": 49.4942,
+        "lon": 0.1081,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-impression-sunrise",
+          "quote": "Monet visited his hometown of Le Havre in the Northwest of France in 1872"
+        },
+        "city": {
+          "nameHe": "לה האבר",
+          "nameFull": "Le Havre"
+        },
+        "wikidata": "Q42810"
+      },
+      "novelty": "**מונה** צייר **רושם** של אור ואוויר, לא פרטים.",
+      "contribution": "השם של הציור נתן את השם לתנועה כולה: **האימפרסיוניזם**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-impression-sunrise",
+          "quote": "is an 1872 painting by Claude Monet first shown at what would become known as the \"Exhibition of the Impressionists\" in Paris in April, 1874."
+        }
+      ],
+      "sources": [
+        "s-wp-impression-sunrise"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1884-seurat-jatte",
+      "title": "יום ראשון באי לה גראנד ז׳אט",
+      "yearFrom": 1884,
+      "yearTo": 1886,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-seurat"
+      ],
+      "place": {
+        "wikipedia": "Île de la Jatte",
+        "nameHe": "ז'אט",
+        "nameFull": "île de la Jatte",
+        "lat": 48.8956,
+        "lon": 2.2686,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q1902319"
+      },
+      "novelty": "**סרה** בנה את הציור מ**נקודות צבע**, לפי תורות מדעיות של צבע ואור.",
+      "contribution": "הציור הפך לסמל של **הפוינטיליזם**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-a-sunday-afternoon-on-the-island-of-la-grande-jatte",
+          "quote": "was painted from 1884 to 1886 and is Georges Seurat's most famous work."
+        },
+        {
+          "sourceId": "s-wp-georges-seurat",
+          "quote": "During the 19th century, scientist-writers such as Michel Eugène Chevreul, Ogden Rood and David Sutter wrote treatises on colour, optical effects and perception."
+        }
+      ],
+      "sources": [
+        "s-wp-a-sunday-afternoon-on-the-island-of-la-grande-jatte",
+        "s-wp-georges-seurat"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1907-picasso-demoiselles",
+      "title": "העלמות מאביניון",
+      "yearFrom": 1907,
+      "yearTo": 1907,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-picasso"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**פיקאסו** פירק את הגוף ל**משטחים זוויתיים** במקום פרספקטיבה.",
+      "contribution": "הציור פתח את הדרך ל**קוביזם**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-les-demoiselles-d-avignon",
+          "quote": "is a large oil painting created in 1907 by the Spanish artist Pablo Picasso."
+        }
+      ],
+      "sources": [
+        "s-wp-les-demoiselles-d-avignon"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1910-kandinsky-abstraction",
+      "title": "מופשט: ציור בלי נושא",
+      "yearFrom": 1910,
+      "yearTo": 1914,
+      "yearApprox": false,
+      "domainId": "painting",
+      "personIds": [
+        "p-kandinsky"
+      ],
+      "place": null,
+      "novelty": "**קנדינסקי** צייר **צבע וצורה** בלי לתאר עצם, ונימק זאת בספר.",
+      "contribution": "הוא נחשב לאחד מחלוצי **ההפשטה** באמנות המערב.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-wassily-kandinsky",
+          "quote": "His writing in The Blue Rider Almanac and the treatise \"On the Spiritual in Art\" (which was released in 1910) were both a defence and promotion of abstract art"
+        },
+        {
+          "sourceId": "s-wp-wassily-kandinsky",
+          "quote": "Kandinsky is generally credited as one of the pioneers of abstraction in Western art."
+        }
+      ],
+      "sources": [
+        "s-wp-wassily-kandinsky"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1661-beauchamp-positions",
+      "title": "חמש העמדות של הבלט",
+      "yearFrom": 1661,
+      "yearTo": 1671,
+      "yearApprox": true,
+      "domainId": "dance",
+      "personIds": [
+        "p-beauchamp"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**בושאן** קודד את **חמש עמדות הרגליים** של הבלט הקלאסי.",
+      "contribution": "העמדות הן עד היום **האלף-בית** של הבלט.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pierre-beauchamp",
+          "quote": "Les Fâcheux, choreography, musical composition, orchestral director (1661)"
+        },
+        {
+          "sourceId": "s-wp-pierre-beauchamp",
+          "quote": "Pierre Rameau credits Beauchamp with the codification of the five positions of the feet in classical ballet"
+        },
+        {
+          "sourceId": "s-wp-pierre-beauchamp",
+          "quote": "He was made director of the Académie Royale de Danse in 1671"
+        }
+      ],
+      "sources": [
+        "s-wp-pierre-beauchamp"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1760-noverre-letters",
+      "title": "מכתבים על הריקוד: הבלט מספר סיפור",
+      "yearFrom": 1760,
+      "yearTo": 1760,
+      "yearApprox": false,
+      "domainId": "dance",
+      "personIds": [
+        "p-noverre"
+      ],
+      "place": {
+        "wikipedia": "Lyon",
+        "nameHe": "ליון",
+        "nameFull": "Lyon",
+        "lat": 45.7675,
+        "lon": 4.835,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-jean-georges-noverre",
+          "quote": "published it in 1760 in Lyon, France."
+        },
+        "city": {
+          "nameHe": "ליון",
+          "nameFull": "Lyon"
+        },
+        "wikidata": "Q456"
+      },
+      "novelty": "**נובר** דרש שהריקוד **יספר עלילה** ויביע רגש, ולא רק יפגין טכניקה.",
+      "contribution": "המכתבים שלו הם יסוד של **הבלט הדרמטי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-jean-georges-noverre",
+          "quote": "Noverre wrote this text in London in 1756 and published it in 1760 in Lyon, France."
+        }
+      ],
+      "sources": [
+        "s-wp-jean-georges-noverre"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1832-sylphide",
+      "title": "הסילפידה: הריקוד על קצות האצבעות",
+      "yearFrom": 1832,
+      "yearTo": 1832,
+      "yearApprox": false,
+      "domainId": "dance",
+      "personIds": [
+        "p-ftaglioni",
+        "p-mtaglioni"
+      ],
+      "place": {
+        "wikipedia": "Salle Le Peletier",
+        "nameHe": "סאל לה פלטייה",
+        "nameFull": "Salle Le Peletier",
+        "lat": 48.8731,
+        "lon": 2.3389,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q3249117"
+      },
+      "novelty": "**פיליפו טליוני** יצר בלט שבו **הפוינט** של **מארי טליוני** הוא אמירה אמנותית ולא תעלול.",
+      "contribution": "הבלט הרומנטי נולד, והפוינט הפך לשפה של הבלרינה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-la-sylphide",
+          "quote": "On 12 March 1832 the first version of La Sylphide premiered at the Salle Le Peletier of the Paris Opéra with choreography by the groundbreaking Italian choreographer Filippo Taglioni"
+        },
+        {
+          "sourceId": "s-wp-marie-taglioni",
+          "quote": "it was the first ballet where dancing en pointe had an aesthetic rationale and was not merely an acrobatic stunt"
+        }
+      ],
+      "sources": [
+        "s-wp-la-sylphide",
+        "s-wp-marie-taglioni"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1890-petipa-sleeping",
+      "title": "היפהפייה הנרדמת",
+      "yearFrom": 1890,
+      "yearTo": 1890,
+      "yearApprox": false,
+      "domainId": "dance",
+      "personIds": [
+        "p-petipa"
+      ],
+      "place": {
+        "wikipedia": "Mariinsky Theatre",
+        "nameHe": "תיאטרון מרינסקי",
+        "nameFull": "Mariinsky Theatre",
+        "lat": 59.9256,
+        "lon": 30.2961,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "סנקט פטרבורג",
+          "nameFull": "Saint Petersburg"
+        },
+        "wikidata": "Q207028"
+      },
+      "novelty": "**פטיפה** בנה בלט גדול שבו כל ריקוד הוא **מבנה מוזיקלי** מדויק.",
+      "contribution": "זה אחד מהבלטים המפורסמים בכל הזמנים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-sleeping-beauty-ballet",
+          "quote": "Petersburg on January 15, 1890, and from that year forward The Sleeping Beauty has remained one of the most famous ballets of all time."
+        }
+      ],
+      "sources": [
+        "s-wp-the-sleeping-beauty-ballet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1900-duncan-free",
+      "title": "הריקוד החופשי",
+      "yearFrom": 1900,
+      "yearTo": 1900,
+      "yearApprox": true,
+      "domainId": "dance",
+      "personIds": [
+        "p-duncan"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-isadora-duncan",
+          "quote": "she traveled to Paris, where she was inspired by the Louvre and the Exposition Universelle of 1900"
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**דאנקן** רקדה **יחפה**, בתנועות טבעיות בהשראת יוון, בלי מחוך ובלי פוינט.",
+      "contribution": "היא סללה את הדרך ל**מחול המודרני**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-isadora-duncan",
+          "quote": "From London, she traveled to Paris, where she was inspired by the Louvre and the Exposition Universelle of 1900"
+        },
+        {
+          "sourceId": "s-wp-isadora-duncan",
+          "quote": "She developed from this notion a style of free and natural movements inspired by the classical Greek arts"
+        }
+      ],
+      "sources": [
+        "s-wp-isadora-duncan"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1912-nijinsky-faune",
+      "title": "אחר הצהריים של פאון: הבלט",
+      "yearFrom": 1912,
+      "yearTo": 1912,
+      "yearApprox": false,
+      "domainId": "dance",
+      "personIds": [
+        "p-nijinsky"
+      ],
+      "place": {
+        "wikipedia": "Théâtre du Châtelet",
+        "nameHe": "תיאטרון שאטלה",
+        "nameFull": "Théâtre du Châtelet",
+        "lat": 48.8578,
+        "lon": 2.3464,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q1469315"
+      },
+      "novelty": "**ניז׳ינסקי** רקד ב**פרופיל**, בתנועות שטוחות כמו תבליט יווני.",
+      "contribution": "הבכורה עוררה שערורייה, ופתחה את **הבלט המודרני**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-afternoon-of-a-faun-nijinsky",
+          "quote": "is a ballet choreographed by Vaslav Nijinsky for the Ballets Russes, and was first performed in the Théâtre du Châtelet in Paris on 29 May 1912."
+        }
+      ],
+      "sources": [
+        "s-wp-afternoon-of-a-faun-nijinsky"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1928-laban-notation",
+      "title": "כתב לבן: תנועה על הדף",
+      "yearFrom": 1928,
+      "yearTo": 1928,
+      "yearApprox": false,
+      "domainId": "dance",
+      "personIds": [
+        "p-laban"
+      ],
+      "place": null,
+      "novelty": "**לבן** פיתח **כתב תנועה** שמתעד ריקוד, כמו תווים למוזיקה.",
+      "contribution": "השיטה סללה את הדרך ל**תיעוד** ולניתוח של תנועה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-labanotation",
+          "quote": "Laban's first book on the subject was published in German in 1928 called Schrifttanz (Written Dance);"
+        },
+        {
+          "sourceId": "s-wp-rudolf-von-laban",
+          "quote": "which paved the way for further developments in dance notation and movement analysis."
+        }
+      ],
+      "sources": [
+        "s-wp-labanotation",
+        "s-wp-rudolf-von-laban"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1928-balanchine-apollo",
+      "title": "אפולו: הבלט הנאו-קלאסי",
+      "yearFrom": 1928,
+      "yearTo": 1928,
+      "yearApprox": false,
+      "domainId": "dance",
+      "personIds": [
+        "p-balanchine"
+      ],
+      "place": {
+        "wikipedia": "Théâtre Sarah-Bernhardt",
+        "nameHe": "פריז",
+        "nameFull": "Théâtre de la Ville",
+        "lat": 48.8572,
+        "lon": 2.3481,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q2352779"
+      },
+      "novelty": "**בלנשין** החזיר את הבלט ל**קווים נקיים** ולמוזיקה, בלי עלילה מסובכת.",
+      "contribution": "אפולו פתח את **הבלט הנאו-קלאסי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-apollo-ballet",
+          "quote": "It was choreographed in 1928 by twenty-four-year-old George Balanchine, with the composer contributing the libretto."
+        },
+        {
+          "sourceId": "s-wp-apollo-ballet",
+          "quote": "is a neoclassical ballet in two tableaux composed between 1927 and 1928 by Igor Stravinsky."
+        }
+      ],
+      "sources": [
+        "s-wp-apollo-ballet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

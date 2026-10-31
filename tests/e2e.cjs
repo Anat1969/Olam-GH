@@ -19,7 +19,23 @@ const parisPeople = new Set(DISC.filter((d) => d.place && d.place.city.nameFull 
 const ok = (cond, msg) => { console.log((cond ? 'PASS ' : 'FAIL ') + msg); if (!cond) fails.push(msg); };
 const h1 = (p) => p.locator('h1').innerText();
 const waitH1 = (p, part) => p.waitForFunction((t) => document.querySelector('h1')?.innerText.includes(t), part, { timeout: 5000 }).catch(() => {});
+// Supabase מדומה: טקסט אחד ערוך בענן, כניסה, בדיקת מנהלת ושמירה
+const patches = [];
+const CLOUD_NOVELTY = 'חידוש שנערך בענן לבדיקה.';
+const mockCloud = async (p, mode = 'ok') => {
+  await p.route('**/ktqmwpbzcnzkhjskqisy.supabase.co/**', async (r) => {
+    const u = r.request().url();
+    if (mode === 'down') return r.abort();
+    if (u.includes('/auth/v1/token')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ access_token: 'test-token', expires_in: 3600, user: { email: 'shtanat5@gmail.com' } }) });
+    if (u.includes('/olam_admins')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify([{ email: 'shtanat5@gmail.com' }]) });
+    if (r.request().method() === 'PATCH') { patches.push({ url: u, body: JSON.parse(r.request().postData() || '{}') }); return r.fulfill({ status: 204, body: '' }); }
+    if (u.includes('select=data&')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify([{ data: { id: 'x', title: 'x' } }]) });
+    if (u.includes('/olam_records')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify([{ kind: 'discovery', id: 'd-1687-newton-principia', data: { novelty: CLOUD_NOVELTY, evidence: 'מנסה לדרוס ציטוט' } }]) });
+    return r.fulfill({ status: 404, body: '' });
+  });
+};
 const mock = async (p) => {
+  await mockCloud(p);
   await p.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
   await p.route('**/fonts.googleapis.com/**', (r) => r.abort());
 };
@@ -186,7 +202,7 @@ const mock = async (p) => {
     ok((await p.locator('.map-city').count()) < m1700, 'בתחילת הציר יש פחות ערים');
     await p.locator('.map-controls input[type=range]').fill('1000');
     await p.waitForTimeout(200);
-    await p.locator('.map-city[data-city="Paris"]').click();
+    await p.locator('.map-city[data-city="Paris"]').dispatchEvent('click'); // בפריז סמנים צפופים: לחיצה ישירה על הסמן, כמו מקלדת
     await p.waitForTimeout(250);
     ok(p.url().includes('c=Paris') && (await p.locator('.city-panel').innerText()).includes('פריז'), 'לחיצה על עיר פותחת את הגילויים שבה');
     ok(await p.locator('.city-items li').count() === DISC.filter((d) => d.place && d.place.city.nameFull === 'Paris').length, 'פריז: כל הגילויים שבה');
@@ -267,6 +283,41 @@ const mock = async (p) => {
     await p.goto(BASE + '#/graph?f=1540&t=1700&n=p-kepler', { waitUntil: 'networkidle' });
     await p.reload({ waitUntil: 'networkidle' });
     ok((await p.locator('.cut[aria-pressed="true"]').innerText()).includes('המהפכה המדעית') && (await p.locator('.g-node.is-focus').count()) === 1, 'קישור מועתק לגרף פותח את אותו מצב');
+
+    // שלב 5: Supabase ועריכה
+    await p.goto(BASE + '#/timeline?d=physics&y=1700&p=p-newton', { waitUntil: 'networkidle' });
+    await p.locator('aside.person').waitFor();
+    ok((await p.locator('aside.person').innerText()).includes(CLOUD_NOVELTY), 'טקסט שנערך בענן מוצג מעל הנתונים');
+    ok((await p.locator('aside.person blockquote').count()) >= 2, 'הענן לא יכול לדרוס ציטוטים, רק טקסט מותר');
+    await p.locator('ai-menu .logo').click();
+    await p.getByText('כניסה לעריכה').click();
+    await p.getByRole('dialog', { name: 'כניסה לעריכה' }).waitFor();
+    ok(true, 'כניסה לעריכה נפתחת מתוך כפתור הלוגו');
+    await p.locator('.dialog input[type=email]').fill('shtanat5@gmail.com');
+    await p.locator('.dialog input[type=password]').fill('x');
+    await p.locator('.dialog').getByRole('button', { name: 'כניסה' }).click();
+    await p.locator('.edit-banner').waitFor({ timeout: 5000 });
+    ok(await p.locator('.edit-banner').isVisible(), 'מצב עריכה פעיל אחרי כניסה');
+    const area = p.locator('aside.person textarea[aria-label="עריכת novelty"]').first();
+    ok(await area.isVisible(), 'שדה עריכה בכרטיס הדמות');
+    await area.fill('חידוש חדש מהבדיקה.');
+    await p.locator('aside.person .person-name').click();
+    await p.waitForTimeout(300);
+    const last = patches[patches.length - 1];
+    ok(!!last && last.body.data.novelty === 'חידוש חדש מהבדיקה.' && last.url.includes('id=eq.d-1687-newton-principia'), 'שמירה שולחת את השדה לרשומה הנכונה');
+    ok((await area.locator('xpath=following-sibling::span').innerText()) === 'נשמר', 'חיווי נשמר אחרי שמירה');
+    await p.locator('ai-menu .logo').click();
+    await p.getByText(/^יציאה/).click();
+    await p.waitForTimeout(150);
+    ok((await p.locator('.edit-banner').count()) === 0 && (await p.locator('aside.person textarea').count()) === 0, 'יציאה מסיימת את מצב העריכה');
+    {
+      const off = await b.newPage({ viewport: { width: 1280, height: 900 } });
+      await off.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
+      await mockCloud(off, 'down');
+      await off.goto(BASE, { waitUntil: 'networkidle' });
+      ok((await off.locator('h1').innerText()).includes(`${N} גילויים`), 'בלי רשת לענן: האפליקציה עובדת מהנתונים שבחבילה');
+      await off.close();
+    }
 
     await p.goto(BASE + '#/method', { waitUntil: 'networkidle' });
     ok((await h1(p)) === 'כל רשומה נבדקת מול המקור שלה.', 'דף השיטה');

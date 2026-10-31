@@ -22,7 +22,7 @@ const ROW_CARDS = LANES * LANE + 14;
 const GAP = 168; // שדה הקשרים בין הצירים
 const TOP = 30;
 const TYPES: LinkType[] = ['influenced', 'enabled', 'opposed', 'parallel'];
-const ERAS: [string, number, number][] = [['כל הציר', YEAR_MIN, YEAR_MAX], ['עד 1100', YEAR_MIN, 1100], ['1500–1750', 1500, 1750], ['1750–1970', 1750, YEAR_MAX]];
+const ERAS: [string, number, number][] = [['כל הציר', YEAR_MIN, YEAR_MAX], ['עד 1100', -400, 1100], ['1500–1750', 1500, 1750], ['1750–1970', 1750, YEAR_MAX]];
 
 type Placed = { d: Discovery; x: number; lane: number; left: number; pin: boolean; off: boolean };
 
@@ -161,7 +161,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
   const cx = x(Math.min(Math.max(year, YEAR_MIN), YEAR_MAX));
   // שנתות: מועמדות עגולות, ומסננים כך שלא יהיו צפופות מ-56 פיקסלים
   const ticks = useMemo(() => {
-    const cand = [-300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950];
+    const cand = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950];
     const fine = viewTo - viewFrom < 160 ? x.ticks(mobile ? 4 : 8).filter((v) => Number.isInteger(v)) : [];
     const out: number[] = [];
     for (const v of [...new Set([...cand, ...fine])].sort((a, b) => b - a)) {

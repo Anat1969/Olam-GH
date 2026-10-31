@@ -6,7 +6,7 @@
 
 אפליקציה שמציגה את האבולוציה של תחומי הידע כצירי זמן מקבילים, עם דמויות מפתח, גילויים וקשרים ביניהם.
 
-כרגע: **114 גילויים** בפילוסופיה, מתמטיקה, פיזיקה, כימיה, ביולוגיה ומוזיקה, **113 דמויות** ו-**70 קשרים**, כולם מאומתים מול מקור.
+כרגע: **154 גילויים** בעשרה תחומים, מפילוסופיה ומדע ועד מוזיקה, ריקוד, ציור ואדריכלות. **158 דמויות** ו-**85 קשרים**, כולם מאומתים מול מקור.
 
 ## מה יש כאן כרגע
 
@@ -37,9 +37,10 @@ npm run build && npm test
 - `src/components/Timeline.tsx`: ציר זמן ב-D3, הזמן זורם מימין לשמאל, ציר דחוס לפני 1500.
 - `src/components/PersonCard.tsx`: כרטיס דמות עם ציטוטים, קשרים ומקורות.
 - `src/pages/Compare.tsx`: שלב 2, השוואה בין תחומים עם זום מסונכרן וקשרים בלחיצה.
+- `src/cloud.ts`, `scripts/push-supabase.mjs`, `scripts/pull-supabase.mjs`: שלב 5, Supabase (cultura-GH, טבלאות `olam_`) ועריכת טקסט.
 - `src/pages/MapPage.tsx`, `src/components/MapView.tsx`, `src/geo.ts`: שלב 3, גלובוס עם מחוון זמן, מסלולי ידע ומרכז הכובד.
 - `src/pages/GraphPage.tsx`, `src/graph.ts`, `data/cuts.json`: שלב 4, גרף דמויות, מסננים מתקדמים, חיתוכים ותצוגות שמורות.
-- `tests/e2e.cjs`: 131 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.
+- `tests/e2e.cjs`: 140 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.
 
 ## תיעוד
 
