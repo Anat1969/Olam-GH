@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Timeline, { YEAR_MAX, YEAR_MIN, posScale, xScale } from '../components/Timeline';
 import PersonCard from '../components/PersonCard';
 import Rich from '../components/Rich';
-import { activeDomains, discoveries, personById, yearText } from '../data';
+import { activeDomains, discoveries, domainById, personById, yearText } from '../data';
 import { replace } from '../route';
 
 const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -117,6 +117,33 @@ export default function TimelinePage({ params }: { params: Record<string, string
           <li><span className="lg-arc lg-arc-opposed" />קשר של ערעור</li>
           <li><span className="lg-hatch" />ציר דחוס: לפני <bdi className="num">1500</bdi> כל שנתה מכסה יותר שנים</li>
         </ul>
+      </section>
+
+      <section className="card subs-wrap" aria-label={`תתי התחומים של ${domainName}`}>
+        <h2 className="section-title">תתי התחומים של {domainName}</h2>
+        <p className="muted small">כל תת-תחום והדמויות שלו לפי סדר הזמן. לחיצה על דמות מדגישה את השנה שלה על הציר. תת-תחום ריק הוא חור שעדיין לא מולא, ולא סימן שאין בו גילויים.</p>
+        <div className="subs-grid">
+          {(domainById.get(domain)?.subs || []).map((s) => {
+            const xs = items.filter((d) => d.sub === s.id);
+            return (
+              <div key={s.id} className={`sub-col${xs.length ? '' : ' is-empty'}`} data-sub={s.id}>
+                <h3 className="sub-title">{s.nameHe} <bdi className="num muted">{xs.length}</bdi></h3>
+                {xs.length ? (
+                  <ul className="sub-people">
+                    {xs.map((d) => (
+                      <li key={d.id}>
+                        <button type="button" className="press sub-person" aria-pressed={!!person && d.personIds.includes(person.id)} onClick={() => pick(d.personIds[0], d.id)}>
+                          <span className="sub-name">{d.personIds.map((id) => personById.get(id)?.nameHe).filter(Boolean).join(' ו')}</span>
+                          <bdi className="num sub-year">{yearText(d.yearFrom)}</bdi>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                ) : <p className="muted small">עדיין אין גילויים מאומתים</p>}
+              </div>
+            );
+          })}
+        </div>
       </section>
 
       {person && <PersonCard person={person} onClose={close} onOpen={(id) => pick(id)} />}

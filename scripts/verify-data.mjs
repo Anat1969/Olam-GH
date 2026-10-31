@@ -108,6 +108,7 @@ async function commonsImage(file) {
 const yearTokens = (y) => (y < 0 ? [`${-y} BC`, `${-y} BCE`] : [String(y)]);
 
 async function main() {
+  const subsOf = new Map(read('fields.json').families.flatMap((f) => f.domains.map((d) => [d.id, (d.subs || []).map((x) => x.id)])));
   const { _note: pn, persons } = read('persons.json');
   const { _note: dn, discoveries } = read('discoveries.json');
   const { _note: ln, links } = read('links.json');
@@ -139,8 +140,10 @@ async function main() {
     if (!e) reasons.push('לא נמצא פריט בוויקינתונים');
     else {
       p.wikidata = qid;
-      p.nameHe = label(e, 'he') || p.nameHeTranslit || null;
-      p.nameHeSource = label(e, 'he') ? 'wikidata' : p.nameHeTranslit ? 'transliteration' : null;
+      // preferTranslit: כשהתווית העברית בוויקינתונים שגויה (למשל "הקיסר הסיני הזה" לקיסר יונגלה), התעתיק גובר
+      const he = p.preferTranslit ? null : label(e, 'he');
+      p.nameHe = he || p.nameHeTranslit || null;
+      p.nameHeSource = he ? 'wikidata' : p.nameHeTranslit ? 'transliteration' : null;
       p.nameFull = label(e, 'en');
       if (!p.nameHe) reasons.push('אין שם עברי בוויקינתונים, וגם לא תעתיק');
       const b = lifeDate(claim(e, 'P569'));
@@ -148,7 +151,8 @@ async function main() {
       p.birthYear = b?.year ?? null; p.birthDate = b?.date ?? null; p.birthApprox = b?.approx ?? false;
       p.deathYear = d?.year ?? null; p.deathDate = d?.date ?? null; p.deathApprox = d?.approx ?? false;
       p.calendar = b ? (b.julian ? 'julian' : 'gregorian') : d ? (d.julian ? 'julian' : 'gregorian') : null;
-      if (!b && !d) reasons.push('אין תאריך לידה או פטירה');
+      // דמות עתיקה בלי תאריכים בוויקינתונים: לא ממציאים. הממשק מציג "שנים לא ידועות", והגילוי עצמו מתוארך לפי הציטוט.
+      if (!b && !d) p.datesUnknown = true; else delete p.datesUnknown;
       const bp = claim(e, 'P19');
       p.birthPlace = bp ? await placeFromQid(bp.id) : null;
       const img = claim(e, 'P18');
@@ -173,6 +177,7 @@ async function main() {
     if (!d.evidence.some((ev) => [...yearTokens(d.yearFrom), ...yearTokens(d.yearTo)].some((t) => ev.quote.includes(t)))) reasons.push(`השנה ${d.yearFrom} או ${d.yearTo} לא מופיעה באף ציטוט`);
     for (const pid of d.personIds) if (!personIds.has(pid)) reasons.push(`דמות לא קיימת: ${pid}`);
     if (d.yearTo < d.yearFrom) reasons.push('טווח שנים הפוך');
+    if (d.sub && !subsOf.get(d.domainId)?.includes(d.sub)) reasons.push(`תת-תחום לא קיים בתחום: ${d.sub}`);
     if (d.place) {
       const art = await article(d.place.wikipedia);
       const geo = art?.qid ? await placeFromQid(art.qid) : null;
@@ -190,6 +195,7 @@ async function main() {
       } else if (d.place.confidence === 'documented') d.place.confidence = 'interpretive';
       report.places.push({ id: d.id, place: d.place.nameFull, ok: placeOk, confidence: d.place.confidence });
     }
+    for (const pid of d.personIds) if (persons.find((p) => p.id === pid)?.verified === false) reasons.push(`הדמות ${pid} לא אומתה`);
     d.verified = reasons.length === 0;
     d.verifiedAt = d.verified ? TODAY : null;
     report.discoveries.push({ id: d.id, verified: d.verified, reasons });
@@ -218,6 +224,9 @@ async function main() {
 
   console.log('אימות', TODAY, JSON.stringify(report.summary));
   for (const group of ['persons', 'discoveries', 'links']) for (const r of report[group]) if (!r.verified) console.log(`  לא אומת ${r.id}: ${r.reasons.join(' | ')}`);
+  // תרגום עברי לכל ציטוט: הממשק מציג אותו קודם, מסומן כתרגום. חסר תרגום הוא אזהרה, לא כשל, כי האימות נעשה על המקור.
+  const noHe = [...discoveries.flatMap((d) => [...d.evidence, d.place?.evidence].filter(Boolean).map((e) => [d.id, e])), ...links.flatMap((l) => l.evidence.map((e) => [l.id, e]))].filter(([, e]) => !e.quoteHe);
+  if (noHe.length) console.log(`  אזהרה: ${noHe.length} ציטוטים בלי תרגום לעברית (quoteHe): ${[...new Set(noHe.map(([id]) => id))].slice(0, 8).join(', ')}`);
   for (const p of report.places) if (!p.ok) console.log(`  מקום לא אומת ${p.id}: ${p.place}`);
 }
 

@@ -14,6 +14,7 @@ const DISC = read('discoveries.json').discoveries.filter((d) => d.verified);
 const PERS = read('persons.json').persons.filter((x) => x.verified);
 const DOMS = [...new Set(DISC.map((d) => d.domainId))];
 const N = DISC.length;
+const FIELDS = read('fields.json').families.flatMap((f) => f.domains);
 const inDomain = (id) => DISC.filter((d) => d.domainId === id).length;
 const parisPeople = new Set(DISC.filter((d) => d.place && d.place.city.nameFull === 'Paris').flatMap((d) => d.personIds)).size;
 const ok = (cond, msg) => { console.log((cond ? 'PASS ' : 'FAIL ') + msg); if (!cond) fails.push(msg); };
@@ -37,6 +38,36 @@ const mockCloud = async (p, mode = 'ok') => {
     return r.fulfill({ status: 404, body: '' });
   });
 };
+// טקסט שעולה על טקסט (בלי מה שמוסתר מתחת לשכבה אטומה)
+const overlaps = (p) => p.evaluate(() => {
+        const rects = [];
+        const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+        while (w.nextNode()) {
+          const t = w.currentNode; if (!t.textContent.trim()) continue;
+          const el = t.parentElement; const cs = getComputedStyle(el);
+          if (cs.visibility === 'hidden' || +cs.opacity === 0 || el.closest('[aria-hidden="true"]:not(svg)')) continue;
+          const r = document.createRange(); r.selectNodeContents(t);
+          for (const q of r.getClientRects()) if (q.width > 2 && q.height > 2 && q.bottom > 0 && q.top < innerHeight * 3) rects.push({ q, el, txt: t.textContent.trim().slice(0, 30) });
+        }
+        const out = [];
+        for (let i = 0; i < rects.length; i++) for (let j = i + 1; j < rects.length; j++) {
+          const a = rects[i], c = rects[j]; if (a.el === c.el || a.el.contains(c.el) || c.el.contains(a.el)) continue;
+          const x = Math.min(a.q.right, c.q.right) - Math.max(a.q.left, c.q.left), y = Math.min(a.q.bottom, c.q.bottom) - Math.max(a.q.top, c.q.top);
+          if (x <= 0 || y <= 0) continue;
+          const small = Math.min(a.q.width * a.q.height, c.q.width * c.q.height);
+          if (x * y <= 0.3 * small) continue;
+          // מוסתר מתחת לשכבה אטומה? בודקים את האלמנט העליון במרכז החפיפה
+          const px = Math.max(a.q.left, c.q.left) + x / 2, py = Math.max(a.q.top, c.q.top) + y / 2;
+          if (py < 0 || py > innerHeight) continue;
+          const top = document.elementFromPoint(px, py);
+          const lower = top && (a.el.contains(top) || top.contains(a.el) || top === a.el) ? c.el : a.el;
+          let n = top, occluded = false;
+          while (n && n !== document.body && !n.contains(lower)) { const bg = getComputedStyle(n).backgroundColor; if (bg && bg !== 'rgba(0, 0, 0, 0)' && bg !== 'transparent' && !bg.endsWith(', 0)')) { occluded = true; break; } n = n.parentElement; }
+          if (occluded) continue;
+          if (true) out.push(`${a.txt} ⟂ ${c.txt} [${(a.el.getAttribute('class') || a.el.tagName)}|${(c.el.getAttribute('class') || c.el.tagName)}]`);
+        }
+        return [...new Set(out)].slice(0, 25);
+      });
 const mock = async (p) => {
   await mockCloud(p);
   await p.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
@@ -76,13 +107,15 @@ const mock = async (p) => {
     ok(await p.locator('.tl-card').count() === PHYS.length, `ציר הפיזיקה: ${PHYS.length} כרטיסים, רק רשומות מאומתות`);
     ok(await p.locator('.tl-card.is-hidden').count() === PHYS.length - physKnown, 'גילויים אחרי 1700 מתחת לזכוכית');
     await p.getByRole('button', { name: 'הגילוי הבא' }).click();
-    await waitH1(p, '1785');
-    ok((await h1(p)).includes('בשנת 1785 ידועים 9'), 'הגילוי הבא קופץ ל-1785');
+    const nextY = Math.min(...PHYS.filter((d) => d.yearFrom > 1700).map((d) => d.yearFrom));
+    const prevY = Math.max(...PHYS.filter((d) => d.yearFrom < nextY).map((d) => d.yearFrom));
+    await waitH1(p, String(nextY));
+    ok((await h1(p)).includes(`בשנת ${nextY} ידועים ${PHYS.filter((d) => d.yearFrom <= nextY).length}`), `הגילוי הבא קופץ ל-${nextY}`);
     await p.waitForTimeout(400);
-    ok(p.url().includes('y=1785'), 'השנה נשמרת בכתובת');
+    ok(p.url().includes(`y=${nextY}`), 'השנה נשמרת בכתובת');
     await p.getByRole('button', { name: 'הגילוי הקודם' }).click();
-    await waitH1(p, '1687');
-    ok((await h1(p)).includes('בשנת 1687'), 'הגילוי הקודם קופץ ל-1687');
+    await waitH1(p, String(prevY));
+    ok((await h1(p)).includes(`בשנת ${prevY}`), `הגילוי הקודם קופץ ל-${prevY}`);
     await p.locator('input[type=range]').fill('500');
     await p.waitForTimeout(100);
     ok(!(await h1(p)).includes('1687'), 'המחוון משנה את השנה');
@@ -104,6 +137,12 @@ const mock = async (p) => {
     ok(await p.locator('aside.person .person-face figcaption').innerText().then((t) => t.includes('רישיון')), 'התמונה מגיעה עם רישיון');
     ok(await p.locator('.tl-arc').count() >= 1, 'קשרי הדמות מסומנים כקשתות על הציר');
     ok(await p.locator('.tl-card[aria-pressed="true"]').count() === 1, 'הכרטיס של הדמות מסומן כנבחר');
+    ok(await p.locator('.tl-mark[data-year="1687"]').count() === 1, 'השנה של הדמות שנבחרה מודגשת על הציר');
+    ok(await p.locator('aside.person .find-nc dd').first().evaluate((e) => +getComputedStyle(e).fontWeight >= 600), 'החידוש והתרומה בהבלטה');
+    const PHYS_SUBS = FIELDS.find((d) => d.id === 'physics').subs;
+    ok(await p.locator('.subs-grid .sub-col').count() === PHYS_SUBS.length, `מתחת לציר: ${PHYS_SUBS.length} תתי תחומים של פיזיקה`);
+    ok(DISC.every((d) => !d.sub || FIELDS.find((f) => f.id === d.domainId).subs.some((x) => x.id === d.sub)), 'כל תת-תחום בנתונים קיים בתחום שלו');
+    ok(await p.locator('.sub-person[aria-pressed="true"]').count() >= 1, 'הדמות שנבחרה מסומנת גם ברשימת תתי התחומים');
     await p.locator('aside.person .rel .chip').first().click();
     await p.waitForFunction(() => document.querySelector('.person-name')?.textContent !== 'אייזק ניוטון');
     ok((await p.locator('.person-name').innerText()).includes('קפלר'), 'קשר מוביל לדמות השנייה');
@@ -420,10 +459,11 @@ const mock = async (p) => {
       const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
       await mock(m);
       m.on('pageerror', (e) => errors.push(e.message));
-      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/graph', '#/graph?n=p-galileo&l=l-24', '#/method']) {
+      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/timeline?d=religion&y=2025', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/graph', '#/graph?n=p-galileo&l=l-24', '#/method']) {
         await m.goto(BASE + h, { waitUntil: 'networkidle' });
         const hs = await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
         ok(!hs, `${vp.width}px ${h || 'בית'}: בלי גלילה אופקית בדף`);
+        if (!h.startsWith('#/map')) { const ov = await overlaps(m); ok(ov.length === 0, `${vp.width}px ${h || 'בית'}: טקסט לא עולה על טקסט${ov.length ? ' — ' + ov.slice(0, 3).join(' | ') : ''}`); }
       }
       await m.goto(BASE, { waitUntil: 'networkidle' });
       const anim = await m.evaluate(() => getComputedStyle(document.querySelector('.rise')).animationName);

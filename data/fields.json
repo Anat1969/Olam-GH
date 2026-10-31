@@ -8,17 +8,123 @@
         {
           "id": "religion",
           "nameHe": "דת",
-          "nameFull": "Religion"
+          "nameFull": "Religion",
+          "subs": [
+            {
+              "id": "judaism",
+              "nameHe": "יהדות"
+            },
+            {
+              "id": "christianity",
+              "nameHe": "נצרות"
+            },
+            {
+              "id": "islam",
+              "nameHe": "אסלאם"
+            },
+            {
+              "id": "hinduism",
+              "nameHe": "הינדואיזם"
+            },
+            {
+              "id": "buddhism",
+              "nameHe": "בודהיזם"
+            },
+            {
+              "id": "sikhism-jainism",
+              "nameHe": "סיקיזם וג׳ייניזם"
+            },
+            {
+              "id": "east-asian",
+              "nameHe": "דתות סין ויפן"
+            },
+            {
+              "id": "indigenous",
+              "nameHe": "דתות ילידיות ואפריקאיות"
+            },
+            {
+              "id": "new-movements",
+              "nameHe": "תנועות דתיות חדשות"
+            }
+          ]
         },
         {
           "id": "philosophy",
           "nameHe": "פילוסופיה",
-          "nameFull": "Philosophy"
+          "nameFull": "Philosophy",
+          "subs": [
+            {
+              "id": "ethics",
+              "nameHe": "אתיקה"
+            },
+            {
+              "id": "political",
+              "nameHe": "פילוסופיה פוליטית"
+            },
+            {
+              "id": "epistemology",
+              "nameHe": "תורת ההכרה"
+            },
+            {
+              "id": "metaphysics",
+              "nameHe": "מטאפיזיקה"
+            },
+            {
+              "id": "science",
+              "nameHe": "פילוסופיה של המדע"
+            },
+            {
+              "id": "logic-language",
+              "nameHe": "לוגיקה ושפה"
+            },
+            {
+              "id": "eastern",
+              "nameHe": "פילוסופיה מזרחית"
+            }
+          ]
         },
         {
           "id": "psychology",
           "nameHe": "פסיכולוגיה",
-          "nameFull": "Psychology"
+          "nameFull": "Psychology",
+          "subs": [
+            {
+              "id": "experimental",
+              "nameHe": "ניסויית"
+            },
+            {
+              "id": "psychoanalysis",
+              "nameHe": "פסיכואנליזה"
+            },
+            {
+              "id": "behavioral",
+              "nameHe": "התנהגותית"
+            },
+            {
+              "id": "developmental",
+              "nameHe": "התפתחותית"
+            },
+            {
+              "id": "cognitive",
+              "nameHe": "קוגניטיבית"
+            },
+            {
+              "id": "social",
+              "nameHe": "חברתית"
+            },
+            {
+              "id": "assessment",
+              "nameHe": "אבחון ומדידה"
+            },
+            {
+              "id": "clinical",
+              "nameHe": "טיפול"
+            },
+            {
+              "id": "body-mind",
+              "nameHe": "גוף ונפש"
+            }
+          ]
         }
       ]
     },
@@ -30,22 +136,138 @@
         {
           "id": "mathematics",
           "nameHe": "מתמטיקה",
-          "nameFull": "Mathematics"
+          "nameFull": "Mathematics",
+          "subs": [
+            {
+              "id": "geometry",
+              "nameHe": "גאומטריה"
+            },
+            {
+              "id": "number-theory",
+              "nameHe": "אריתמטיקה ותורת המספרים"
+            },
+            {
+              "id": "algebra",
+              "nameHe": "אלגברה"
+            },
+            {
+              "id": "analysis",
+              "nameHe": "חשבון ואנליזה"
+            },
+            {
+              "id": "probability",
+              "nameHe": "הסתברות וסטטיסטיקה"
+            },
+            {
+              "id": "logic",
+              "nameHe": "לוגיקה ויסודות"
+            },
+            {
+              "id": "computation",
+              "nameHe": "חישוב ומחשבים"
+            }
+          ]
         },
         {
           "id": "physics",
           "nameHe": "פיזיקה",
-          "nameFull": "Physics"
+          "nameFull": "Physics",
+          "subs": [
+            {
+              "id": "mechanics",
+              "nameHe": "מכניקה"
+            },
+            {
+              "id": "optics",
+              "nameHe": "אופטיקה"
+            },
+            {
+              "id": "electromagnetism",
+              "nameHe": "חשמל ומגנטיות"
+            },
+            {
+              "id": "thermodynamics",
+              "nameHe": "חום ואנרגיה"
+            },
+            {
+              "id": "astronomy",
+              "nameHe": "אסטרונומיה וקוסמולוגיה"
+            },
+            {
+              "id": "relativity",
+              "nameHe": "יחסות"
+            },
+            {
+              "id": "quantum",
+              "nameHe": "קוונטים וחלקיקים"
+            }
+          ]
         },
         {
           "id": "chemistry",
           "nameHe": "כימיה",
-          "nameFull": "Chemistry"
+          "nameFull": "Chemistry",
+          "subs": [
+            {
+              "id": "elements",
+              "nameHe": "יסודות ואטומים"
+            },
+            {
+              "id": "reactions",
+              "nameHe": "תגובות וכימיה פיזיקלית"
+            },
+            {
+              "id": "organic",
+              "nameHe": "כימיה אורגנית"
+            },
+            {
+              "id": "biochemistry",
+              "nameHe": "ביוכימיה"
+            },
+            {
+              "id": "materials",
+              "nameHe": "חומרים ותעשייה"
+            },
+            {
+              "id": "nuclear",
+              "nameHe": "רדיואקטיביות וגרעין"
+            }
+          ]
         },
         {
           "id": "biology",
           "nameHe": "ביולוגיה",
-          "nameFull": "Biology"
+          "nameFull": "Biology",
+          "subs": [
+            {
+              "id": "anatomy",
+              "nameHe": "אנטומיה ופיזיולוגיה"
+            },
+            {
+              "id": "evolution",
+              "nameHe": "מיון ואבולוציה"
+            },
+            {
+              "id": "cells-microbes",
+              "nameHe": "תאים ומיקרואורגניזמים"
+            },
+            {
+              "id": "genetics",
+              "nameHe": "גנטיקה"
+            },
+            {
+              "id": "medicine",
+              "nameHe": "רפואה וחיסונים"
+            },
+            {
+              "id": "neuroscience",
+              "nameHe": "מדעי המוח"
+            },
+            {
+              "id": "ecology",
+              "nameHe": "אקולוגיה"
+            }
+          ]
         }
       ]
     },
@@ -57,17 +279,95 @@
         {
           "id": "music",
           "nameHe": "מוזיקה",
-          "nameFull": "Music"
+          "nameFull": "Music",
+          "subs": [
+            {
+              "id": "theory",
+              "nameHe": "תיאוריה ותיווי"
+            },
+            {
+              "id": "vocal",
+              "nameHe": "אופרה ומוזיקה ווקאלית"
+            },
+            {
+              "id": "orchestral",
+              "nameHe": "מוזיקה תזמורתית"
+            },
+            {
+              "id": "keyboard-chamber",
+              "nameHe": "מקלדת ומוזיקה קאמרית"
+            },
+            {
+              "id": "jazz-popular",
+              "nameHe": "ג׳אז ומוזיקה פופולרית"
+            },
+            {
+              "id": "modern",
+              "nameHe": "מוזיקה מודרנית וניסיונית"
+            },
+            {
+              "id": "world",
+              "nameHe": "מוזיקה לא מערבית"
+            }
+          ]
         },
         {
           "id": "dance",
           "nameHe": "ריקוד",
-          "nameFull": "Dance"
+          "nameFull": "Dance",
+          "subs": [
+            {
+              "id": "ballet",
+              "nameHe": "בלט"
+            },
+            {
+              "id": "modern",
+              "nameHe": "מחול מודרני"
+            },
+            {
+              "id": "notation",
+              "nameHe": "תיווי ותורת התנועה"
+            },
+            {
+              "id": "folk",
+              "nameHe": "מחול עממי ומסורתי"
+            },
+            {
+              "id": "contemporary",
+              "nameHe": "מחול עכשווי"
+            }
+          ]
         },
         {
           "id": "combat-sports",
           "nameHe": "קרב מגע",
-          "nameFull": "Combat sports"
+          "nameFull": "Combat sports",
+          "subs": [
+            {
+              "id": "ancient",
+              "nameHe": "קרב עתיק"
+            },
+            {
+              "id": "boxing",
+              "nameHe": "אגרוף"
+            },
+            {
+              "id": "japanese",
+              "nameHe": "אמנויות לחימה יפניות"
+            },
+            {
+              "id": "chinese-korean",
+              "nameHe": "אמנויות לחימה סיניות וקוריאניות"
+            },
+            {
+              "id": "self-defense",
+              "nameHe": "הגנה עצמית"
+            },
+            {
+              "id": "mixed",
+              "nameHe": "קרב משולב"
+            }
+          ]
         }
       ]
     },
@@ -79,22 +379,134 @@
         {
           "id": "painting",
           "nameHe": "ציור",
-          "nameFull": "Painting"
+          "nameFull": "Painting",
+          "subs": [
+            {
+              "id": "medieval-renaissance",
+              "nameHe": "ימי הביניים והרנסנס"
+            },
+            {
+              "id": "baroque",
+              "nameHe": "בארוק"
+            },
+            {
+              "id": "romantic-realist",
+              "nameHe": "רומנטיקה וריאליזם"
+            },
+            {
+              "id": "impressionism",
+              "nameHe": "אימפרסיוניזם ואחריו"
+            },
+            {
+              "id": "modern-abstract",
+              "nameHe": "מודרניזם ומופשט"
+            },
+            {
+              "id": "non-western",
+              "nameHe": "ציור לא מערבי"
+            },
+            {
+              "id": "contemporary",
+              "nameHe": "ציור עכשווי"
+            }
+          ]
         },
         {
           "id": "sculpture",
           "nameHe": "פיסול",
-          "nameFull": "Sculpture"
+          "nameFull": "Sculpture",
+          "subs": [
+            {
+              "id": "ancient",
+              "nameHe": "פיסול עתיק"
+            },
+            {
+              "id": "renaissance-baroque",
+              "nameHe": "רנסנס ובארוק"
+            },
+            {
+              "id": "modern",
+              "nameHe": "פיסול מודרני"
+            },
+            {
+              "id": "contemporary",
+              "nameHe": "פיסול עכשווי"
+            },
+            {
+              "id": "non-western",
+              "nameHe": "פיסול לא מערבי"
+            }
+          ]
         },
         {
           "id": "architecture",
           "nameHe": "אדריכלות",
-          "nameFull": "Architecture"
+          "nameFull": "Architecture",
+          "subs": [
+            {
+              "id": "ancient",
+              "nameHe": "עתיקה"
+            },
+            {
+              "id": "sacred",
+              "nameHe": "מקדשים, כנסיות ומסגדים"
+            },
+            {
+              "id": "classical-revival",
+              "nameHe": "רנסנס וקלאסיציזם"
+            },
+            {
+              "id": "engineering",
+              "nameHe": "הנדסה וחומרים חדשים"
+            },
+            {
+              "id": "modernism",
+              "nameHe": "מודרניזם"
+            },
+            {
+              "id": "urban",
+              "nameHe": "תכנון ערים"
+            },
+            {
+              "id": "contemporary",
+              "nameHe": "אדריכלות עכשווית"
+            }
+          ]
         },
         {
           "id": "cinema",
           "nameHe": "קולנוע",
-          "nameFull": "Cinema"
+          "nameFull": "Cinema",
+          "subs": [
+            {
+              "id": "early",
+              "nameHe": "ראשית הקולנוע"
+            },
+            {
+              "id": "silent",
+              "nameHe": "קולנוע אילם ומונטאז׳"
+            },
+            {
+              "id": "hollywood",
+              "nameHe": "הוליווד הקלאסית"
+            },
+            {
+              "id": "auteur",
+              "nameHe": "ניאו-ריאליזם וגל חדש"
+            },
+            {
+              "id": "world",
+              "nameHe": "קולנוע עולמי"
+            },
+            {
+              "id": "animation-effects",
+              "nameHe": "אנימציה ואפקטים"
+            },
+            {
+              "id": "contemporary",
+              "nameHe": "קולנוע עכשווי"
+            }
+          ]
         }
       ]
     }

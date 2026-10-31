@@ -24,6 +24,22 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
   const centerMarker = useRef<Marker>();
   const [ready, setReady] = useState(false);
   const cb = useRef({ onCity, onRoute, onCountry });
+  // שמות ערים שעולים זה על זה: נשאר השם של העיר הגדולה (או הנבחרת). השאר מופיעים בריחוף.
+  const declutter = useRef(() => {});
+  declutter.current = () => {
+    const btns = [...markers.current.values()].map((mk) => mk.getElement().firstElementChild as HTMLButtonElement);
+    btns.sort((a, b) => Number(b.classList.contains('is-on')) - Number(a.classList.contains('is-on')) || parseFloat(b.style.getPropertyValue('--sq')) - parseFloat(a.style.getPropertyValue('--sq')));
+    const kept: DOMRect[] = [];
+    for (const b of btns) {
+      b.classList.remove('label-quiet');
+      const r = (b.querySelector('.mc-name') as HTMLElement).getBoundingClientRect();
+      const sq = (b.querySelector('.mc-sq') as HTMLElement).getBoundingClientRect();
+      const hit = (o: DOMRect) => r.left < o.right && r.right > o.left && r.top < o.bottom && r.bottom > o.top;
+      if (r.width && kept.some(hit)) b.classList.add('label-quiet');
+      else kept.push(r);
+      kept.push(sq);
+    }
+  };
   cb.current = { onCity, onRoute, onCountry };
 
   useEffect(() => {
@@ -42,6 +58,7 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
     m.touchZoomRotate.disableRotation();
     const zoomClass = () => { if (el.current) el.current.dataset.z = m.getZoom() < 3.4 ? 'low' : 'high'; };
     m.on('zoom', zoomClass);
+    m.on('moveend', () => declutter.current());
     zoomClass();
     m.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
     m.on('error', (e) => { if (String(e.error?.message || '').includes('WebGL')) onFail(); });
@@ -134,6 +151,8 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
       (btn.querySelector('.mc-name') as HTMLElement).textContent = c.city.nameHe;
     }
     for (const [k, mk] of markers.current) if (!seen.has(k)) { mk.remove(); markers.current.delete(k); }
+    const raf = requestAnimationFrame(() => declutter.current());
+    return () => cancelAnimationFrame(raf);
   }, [cities]);
 
   // מרכז הכובד

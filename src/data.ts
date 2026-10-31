@@ -8,7 +8,8 @@ import reportJson from '../data/verification-report.json';
 
 export type Confidence = 'documented' | 'interpretive' | 'hypothesis';
 export type LinkType = 'influenced' | 'enabled' | 'opposed' | 'parallel';
-export interface Evidence { sourceId: string; quote: string }
+/** quote: מילולי מהמקור (אנגלית). quoteHe: תרגום נאמן, מסומן בממשק כתרגום. האימות נעשה תמיד על המקור. */
+export interface Evidence { sourceId: string; quote: string; quoteHe?: string }
 export interface Place {
   wikipedia: string; wikidata?: string; nameHe: string | null; nameFull: string | null;
   lat: number | null; lon: number | null; confidence: Confidence; evidence: Evidence | null;
@@ -22,11 +23,12 @@ export interface Person {
   calendar: 'julian' | 'gregorian' | null;
   birthPlace: { wikidata: string; nameHe: string | null; nameFull: string | null; lat: number | null; lon: number | null } | null;
   nameHeSource?: 'wikidata' | 'transliteration' | null;
+  nameShort?: string;
   domains: string[]; imageUrl: string | null; imageLicense: string | null; imageCredit: string | null; imagePage?: string | null;
   sources: string[]; verified: boolean; verifiedAt: string | null;
 }
 export interface Discovery {
-  id: string; title: string; yearFrom: number; yearTo: number; yearApprox: boolean; domainId: string;
+  id: string; title: string; yearFrom: number; yearTo: number; yearApprox: boolean; domainId: string; sub?: string; draftId?: string;
   personIds: string[]; place: Place | null; novelty?: string; contribution: string; confidence: Confidence;
   evidence: Evidence[]; sources: string[]; verified: boolean; verifiedAt: string | null;
 }
@@ -35,7 +37,8 @@ export interface Link {
   explanation: string; application?: string; evidence: Evidence[]; sources: string[]; verified: boolean; rejectedReason?: string;
 }
 export interface Source { id: string; title: string; url: string; accessedAt: string | null }
-export interface Domain { id: string; nameHe: string; nameFull: string }
+export interface Sub { id: string; nameHe: string }
+export interface Domain { id: string; nameHe: string; nameFull: string; subs?: Sub[] }
 export interface Family { id: string; nameHe: string; color: string; domains: Domain[] }
 
 export const families = fieldsJson.families as Family[];
@@ -98,7 +101,7 @@ export function rangeText(d: Pick<Discovery, 'yearFrom' | 'yearTo' | 'yearApprox
 export function lifeText(p: Person) {
   const b = p.birthYear === null ? null : (p.birthApprox ? 'בערך ' : '') + yearText(p.birthYear);
   const d = p.deathYear === null ? null : (p.deathApprox ? 'בערך ' : '') + yearText(p.deathYear);
-  return [b, d].filter(Boolean).join(' – ');
+  return [b, d].filter(Boolean).join(' – ') || 'שנים לא ידועות';
 }
 
 /** ערי הידע: כמה גילויים נוצרו בכל עיר */
@@ -135,3 +138,13 @@ export const resolvedLinks = links.map((l) => resolveLink(l)).filter((r): r is N
 export const crossLinks = resolvedLinks.filter((r) => r.cross);
 export const linkTypeName: Record<LinkType, string> = { influenced: 'השפעה', enabled: 'איפשור', opposed: 'ערעור', parallel: 'מקביל' };
 export const endName = (e: End) => (e.viaPerson ? personById.get(e.id)!.nameHe : e.d.title.split(':')[0]);
+
+/** שם קצר לתווית: בלי תואר שאחרי פסיק ("מלך מאלי") ובלי מספר סידורי ("ה-4", "הראשון"). בדרך כלל שם המשפחה. */
+const ORDINAL = /^(ה-?\d+|ה-?[IVX]+|ה(ראשון|ראשונה|שני|שנייה|שלישי|רביעי|חמישי|שישי|גדול|קדוש|זקן|צעיר))$/;
+/** nameShort בנתונים גובר: בשמות סיניים וקוריאניים שם המשפחה בא קודם */
+export function shortName(nameHe: string, nameShort?: string) {
+  if (nameShort) return nameShort;
+  const words = nameHe.split(',')[0].trim().split(/\s+/);
+  while (words.length > 1 && ORDINAL.test(words[words.length - 1])) words.pop();
+  return words[words.length - 1];
+}

@@ -569,3 +569,38 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .draft-state { color: var(--draft); white-space: nowrap; }
 .draft-state.ok { color: var(--archive); }
 @media (max-width: 560px) { .draft-grid { grid-template-columns: 1fr; } }
+
+/* טקסט לא עולה על טקסט */
+.g-label.is-quiet, .g-deg.is-quiet { opacity: 0; transition: opacity .15s; }
+.g-node:hover .is-quiet, .g-node:focus-visible .is-quiet { opacity: 1; }
+.map-city.label-quiet .mc-name { visibility: hidden; }
+.map-city.label-quiet:hover .mc-name, .map-city.label-quiet:focus-visible .mc-name, .map-city.is-on .mc-name { visibility: visible; }
+
+/* החידוש והתרומה: הכי חשוב בכרטיס, בהבלטה ובהשחרה */
+.find-nc { margin: 4px 0 12px; padding: 10px 12px; gap: 10px; background: var(--sheet); border-right: 4px solid var(--ink); }
+.find-nc div { grid-template-columns: 64px minmax(0, 1fr); }
+.find-nc dt { font-weight: 800; color: var(--ink); letter-spacing: 0; font-size: 12px; }
+.find-nc dd { font-size: 16px; line-height: 1.65; font-weight: 600; color: var(--ink); }
+.find-nc dd strong { font-weight: 800; background: linear-gradient(transparent 55%, var(--marker) 55%); }
+.chip-sub { font-size: 12px; padding: 1px 8px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink-soft); }
+/* ציטוט: תרגום לעברית קודם, המקור באנגלית מתחתיו */
+.quote-he { margin: 0 0 4px; font-size: 14px; line-height: 1.7; color: var(--ink); }
+.quote-he .label { font-size: 10px; margin-inline-start: 4px; }
+.quote .quote-orig { font-size: 12px; color: var(--ink-mute); }
+
+/* ציר: השנים של הדמות שנבחרה */
+.tl-mark line { stroke: var(--ink); stroke-width: 2; }
+.tl-mark .tl-mark-bg { fill: var(--marker); stroke: var(--ink); stroke-width: 1; }
+.tl-mark text { font-family: var(--font); font-size: 13px; font-weight: 800; fill: var(--ink); }
+.tl-mark .tl-mark-range { fill: var(--marker); opacity: .8; }
+/* תתי תחומים מתחת לציר */
+.subs-wrap { margin-top: 16px; }
+.subs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-top: 10px; }
+.sub-col { padding: 10px 12px; border: 1px solid var(--rule); background: var(--sheet); }
+.sub-col.is-empty { background: transparent; border-style: dashed; }
+.sub-title { margin: 0 0 6px; font-size: 15px; font-weight: 800; }
+.sub-people { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.sub-person { width: 100%; display: flex; justify-content: space-between; gap: 8px; padding: 4px 6px; background: none; border: 0; text-align: start; font: inherit; font-size: 14px; color: var(--ink); cursor: pointer; }
+.sub-person:hover { background: var(--paper); }
+.sub-person[aria-pressed="true"] { background: var(--marker); font-weight: 700; }
+.sub-year { color: var(--ink-mute); font-size: 12px; white-space: nowrap; }

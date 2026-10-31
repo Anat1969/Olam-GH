@@ -2,6 +2,7 @@
 import { useEffect, useRef } from 'react';
 import Rich from './Rich';
 import Editable from './Editable';
+import Quote from './Quote';
 import {
   type Person, confidenceName, discoveriesOf, domainById, lifeText, linkVerb, linksOf, nodeLabel, personById, rangeText, sourceById,
 } from '../data';
@@ -64,10 +65,11 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
           <div className="find-top">
             <span className="find-year"><Rich>{rangeText(d)}</Rich></span>
             <span className={`chip-tag tag-${d.domainId}`}>{domainById.get(d.domainId)?.nameHe}</span>
+            {d.sub && <span className="chip-sub">{domainById.get(d.domainId)?.subs?.find((x) => x.id === d.sub)?.nameHe}</span>}
           </div>
           <h4 className="find-title"><Editable kind="discovery" id={d.id} field="title" value={d.title} rich={false} /></h4>
           {d.novelty ? (
-            <dl className="find-nc">
+            <dl className="find-nc" aria-label="החידוש והתרומה">
               <div><dt className="label">החידוש</dt><dd><Editable kind="discovery" id={d.id} field="novelty" value={d.novelty} /></dd></div>
               <div><dt className="label">התרומה</dt><dd><Editable kind="discovery" id={d.id} field="contribution" value={d.contribution} /></dd></div>
             </dl>
@@ -83,12 +85,7 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
               <span className={`conf conf-${d.place.confidence}`}>{confidenceName[d.place.confidence]}</span>
             </p>
           )}
-          {d.evidence.map((ev, i) => (
-            <blockquote key={i} className={`quote conf-edge-${d.confidence}`}>
-              <span dir="ltr" lang="en">“{/^[a-z(]/.test(ev.quote) ? '…' : ''}{ev.quote}”</span>
-              <footer><SourceLink id={ev.sourceId} /></footer>
-            </blockquote>
-          ))}
+          {d.evidence.map((ev, i) => <Quote key={i} ev={ev} edge={`conf-edge-${d.confidence}`} />)}
         </article>
       ))}
 
@@ -107,12 +104,7 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
                   <span className={`conf conf-${link.confidence}`}>{confidenceName[link.confidence]}</span>
                 </div>
                 <Rich as="p" className="rel-text">{link.explanation}</Rich>
-                {link.evidence.map((ev, i) => (
-                  <blockquote key={i} className="quote quote-small">
-                    <span dir="ltr" lang="en">“{/^[a-z(]/.test(ev.quote) ? '…' : ''}{ev.quote}”</span>
-                    <footer><SourceLink id={ev.sourceId} /></footer>
-                  </blockquote>
-                ))}
+                {link.evidence.map((ev, i) => <Quote key={i} ev={ev} small />)}
               </article>
             );
           })}
