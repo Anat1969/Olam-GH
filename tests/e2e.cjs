@@ -155,6 +155,53 @@ const mock = async (p) => {
     ok((await p.locator('.cmp-view').innerText()).includes('1600') && (await p.locator('.link-panel').innerText()).includes('דקארט'), 'קישור מועתק להשוואה פותח את אותו מצב');
     ok(await p.locator('.link-panel .conf-interpretive').count() === 1, 'קשר פרשני מסומן בכתום');
 
+    // שלב 3: מפה
+    await p.goto(BASE + '#/map', { waitUntil: 'networkidle' });
+    await p.locator('.map-canvas[data-ready="true"]').waitFor({ timeout: 20000 });
+    ok(await p.locator('.tabs [aria-current="page"]').innerText() === 'מפה', 'לשונית מפה מסומנת');
+    const mapH1 = await h1(p);
+    ok(/^בשנת 1700: \d+ גילויים ב-\d+ ערים\.$/.test(mapH1), 'מפה: שורת התובנה ' + mapH1);
+    const m1700 = await p.locator('.map-city').count();
+    ok(m1700 === Number(mapH1.match(/ב-(\d+) ערים/)[1]), `סמן לכל עיר ידועה (${m1700})`);
+    ok(await p.locator('.city-rank li').count() === m1700, 'רשימת הערים תואמת למפה');
+    ok((await p.locator('.page-sub').innerText()).includes('מרכז הכובד'), 'מרכז הכובד מחושב ומוסבר');
+    ok(await p.locator('.map-center').count() === 1, 'סמן מרכז הכובד על הגלובוס');
+    await p.locator('.map-controls input[type=range]').fill('1000');
+    await p.waitForTimeout(250);
+    const m1950 = await p.locator('.map-city').count();
+    ok(p.url().includes('y=1950') && m1950 > m1700, `המחוון מזיז את הנקודות בזמן אמת (${m1700} ל-${m1950})`);
+    await p.locator('.map-controls input[type=range]').fill('0');
+    await p.waitForTimeout(250);
+    ok((await p.locator('.map-city').count()) < m1700, 'בתחילת הציר יש פחות ערים');
+    await p.locator('.map-controls input[type=range]').fill('1000');
+    await p.waitForTimeout(200);
+    await p.locator('.map-city[data-city="Paris"]').click();
+    await p.waitForTimeout(250);
+    ok(p.url().includes('c=Paris') && (await p.locator('.city-panel').innerText()).includes('פריז'), 'לחיצה על עיר פותחת את הגילויים שבה');
+    ok(await p.locator('.city-items li').count() === 4, 'פריז: 4 גילויים');
+    await p.locator('.city-items .chip', { hasText: 'בלז פסקל' }).click();
+    await p.locator('aside.person').waitFor();
+    ok((await p.locator('.person-name').innerText()).includes('פסקל'), 'מהעיר לכרטיס הדמות');
+    await p.keyboard.press('Escape');
+    await p.getByRole('button', { name: 'חזרה לכל הערים' }).click();
+    const routesN = await p.locator('.link-item').count();
+    ok(routesN >= 15, `מסלולי ידע ברשימה (${routesN})`);
+    await p.locator('.link-item', { hasText: 'קהיר' }).first().click();
+    await p.waitForTimeout(200);
+    ok(p.url().includes('l=') && (await p.locator('.link-panel').innerText()).includes('היישום'), 'מסלול נבחר עם כלל, תובנה ויישום');
+    await p.locator('.map-controls .chip-dom', { hasText: 'פיזיקה' }).click();
+    await p.waitForTimeout(200);
+    ok(p.url().includes('d=mathematics') && (await p.locator('.map-city.dom-physics').count()) === 0, 'סינון תחום על המפה');
+    await p.locator('.map-controls .chip-dom', { hasText: 'פיזיקה' }).click();
+    await p.locator('.map-controls input[type=range]').fill('0');
+    await p.getByRole('button', { name: 'הפעלה' }).click();
+    await p.waitForTimeout(1500);
+    await p.getByRole('button', { name: 'עצירה' }).click();
+    ok(!p.url().includes('y=-350'), 'הפעלה מקדמת את הזמן על המפה');
+    await p.goto(BASE + '#/map?y=1640&c=Prague', { waitUntil: 'networkidle' });
+    await p.reload({ waitUntil: 'networkidle' });
+    ok((await h1(p)).includes('1640') && (await p.locator('.city-panel').innerText()).includes('פראג'), 'קישור מועתק למפה פותח את אותו מצב');
+
     await p.goto(BASE + '#/method', { waitUntil: 'networkidle' });
     ok((await h1(p)) === 'כל רשומה נבדקת מול המקור שלה.', 'דף השיטה');
     ok((await p.locator('.rejected').innerText()).includes('l-2'), 'רשומה שלא עברה מוצגת עם הסיבה');
@@ -164,7 +211,7 @@ const mock = async (p) => {
     ok(await p.getByText('לא נמצא מקור').isVisible(), 'מצב ריק מוסבר');
 
     ok(await p.locator('.num').count() > 5, 'מספרים מודגשים אוטומטית');
-    for (const h of ['', '#/timeline?p=p-newton', '#/compare?l=l-19', '#/method']) {
+    for (const h of ['', '#/timeline?p=p-newton', '#/compare?l=l-19', '#/map?c=Paris', '#/method']) {
       await p.goto(BASE + h, { waitUntil: 'networkidle' });
       const square = await p.evaluate(() => [...document.querySelectorAll('button, .press, input, .chip')].every((el) => getComputedStyle(el).borderRadius === '0px'));
       ok(square, `${h || 'בית'}: כל הכפתורים מרובעים`);
@@ -178,7 +225,7 @@ const mock = async (p) => {
       const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
       await mock(m);
       m.on('pageerror', (e) => errors.push(e.message));
-      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/method']) {
+      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/method']) {
         await m.goto(BASE + h, { waitUntil: 'networkidle' });
         const hs = await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
         ok(!hs, `${vp.width}px ${h || 'בית'}: בלי גלילה אופקית בדף`);

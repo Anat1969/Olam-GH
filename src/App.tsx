@@ -3,13 +3,14 @@ import Home from './pages/Home';
 import TimelinePage from './pages/TimelinePage';
 import Method from './pages/Method';
 import Compare from './pages/Compare';
+import MapPage from './pages/MapPage';
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace JSX { interface IntrinsicElements { 'ai-menu': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & { chat?: string } } }
 }
 
-const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['method', 'מקורות']];
+const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['method', 'מקורות']];
 
 export default function App() {
   const { page, params } = useRoute();
@@ -30,7 +31,7 @@ export default function App() {
           <ai-menu chat="https://claude.ai/code/session_018qeN17LAcGjZpUinASMoqS"></ai-menu>
         </div>
       </header>
-      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'method' ? <Method /> : <Home />}
+      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'method' ? <Method /> : <Home />}
     </>
   );
 }

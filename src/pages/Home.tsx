@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Rich from '../components/Rich';
 import { activeDomains, citiesRanking, crossLinks, discoveries, families, links, persons, sources } from '../data';
 import { href } from '../route';
+import { cities } from '../geo';
 import { posScale } from '../components/Timeline';
 
 // ערימת שכבות איזומטרית: ארבע משפחות הידע כגיליונות זכוכית. שכל מלאה, השאר ממתינות.
@@ -111,6 +112,11 @@ export default function Home() {
           <span className="label">השוואה בין תחומים</span>
           <strong className="map-title">פיזיקה מול מתמטיקה</strong>
           <span><bdi className="num">{cross}</bdi> קשרים חוצי תחום, עם כלל, תובנה ויישום</span>
+        </a>
+        <a className="press card map-card" href={href('map')}>
+          <span className="label">מפה</span>
+          <strong className="map-title">איפה נולד הידע</strong>
+          <span><bdi className="num">{cities.length}</bdi> ערים, ומרכז כובד שנודד עם הזמן</span>
         </a>
         <a className="press card map-card" href={href('method')}>
           <span className="label">שיטה ומקורות</span>
