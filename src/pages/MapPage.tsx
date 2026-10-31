@@ -7,8 +7,9 @@ import LinkPanel from '../components/LinkPanel';
 import PersonCard from '../components/PersonCard';
 import PlacePanel from '../components/PlacePanel';
 import WorkImage from '../components/WorkImage';
+import PeoplePanel from '../components/PeoplePanel';
 import { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
-import { activeDomains, confidenceName, endName, linkTypeName, personById, rangeText, yearText, ANON, workParams, discoveryById } from '../data';
+import { activeDomains, confidenceName, discoveries, endName, linkTypeName, personById, rangeText, yearText, ANON, workParams, discoveryById } from '../data';
 import { arc, centerAt, centerTrail, cities, countries, countryByName, km, nearestCity, routes, sameCityLinks, unplaced } from '../geo';
 import { href, replace, go } from '../route';
 
@@ -18,11 +19,47 @@ const MapView = lazy(() => import('../components/MapView'));
 const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const DEFAULT_YEAR = 1700;
 
+/** שעון זמן במסע: סופר את השנים מהתחנה הקודמת לתחנה הנוכחית, כדי שיורגש שהזמן עובר */
+function TourClock({ year }: { year: number }) {
+  const [shown, setShown] = useState(year);
+  const from = useRef(year);
+  useEffect(() => {
+    const a = from.current, b = year;
+    from.current = year;
+    if (a === b || reduced()) { setShown(b); return; }
+    const t0 = performance.now(), dur = Math.min(1600, 300 + Math.abs(b - a) * 4);
+    let raf = 0;
+    const step = (now: number) => {
+      const k = Math.min(1, (now - t0) / dur);
+      setShown(Math.round(a + (b - a) * (1 - Math.pow(1 - k, 3))));
+      if (k < 1) raf = requestAnimationFrame(step);
+    };
+    raf = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(raf);
+  }, [year]);
+  return (
+    <div className="tour-clock" role="timer" aria-live="off" aria-label={`השנה במסע: ${yearText(year)}`}>
+      <span className="label">שעון הזמן</span>
+      <bdi className="num tour-clock-y">{Math.abs(shown)}</bdi>{shown < 0 && <span className="tour-clock-bc">לפנה״ס</span>}
+    </div>
+  );
+}
+
 export default function MapPage({ params }: { params: Record<string, string> }) {
   const kwm = useMatches();
   const kwOf = (key: string): boolean | undefined => (kwm.active ? kwm.cities.has(key) : undefined);
   const year = params.y && Number.isFinite(Number(params.y)) ? Math.min(Math.max(Number(params.y), YEAR_MIN), YEAR_MAX) : DEFAULT_YEAR;
-  const domains = new Set((params.d || activeDomains.map((d) => d.id).join(',')).split(','));
+  // בחירת תחומים: בלי d = כל התחומים. מסע ישן (t=<תחום>) נקרא כבחירה של התחום הזה.
+  const legacyT = params.t && params.t !== '1' && params.t !== 'all' ? params.t : undefined;
+  const allOn = !params.d && !legacyT;
+  const domains = new Set(allOn ? activeDomains.map((d) => d.id) : (params.d || legacyT!).split(','));
+  // לחיצה ראשונה כשהכול בחור: בוחרת רק את התחום הזה. אחר כך כל לחיצה מוסיפה או מורידה. אם לא נשאר כלום, חוזרים לכל התחומים.
+  const pickDomain = (id: string) => {
+    const next = allOn ? new Set([id]) : new Set(domains);
+    if (!allOn) { if (next.has(id)) next.delete(id); else next.add(id); }
+    set({ d: next.size === 0 || next.size === activeDomains.length ? undefined : activeDomains.map((a) => a.id).filter((a) => next.has(a)).join(','), t: params.t ? '1' : undefined, s: params.t ? '0' : undefined, c: undefined, k: undefined, f: undefined });
+  };
+  const domainsLabel = allOn ? 'כל התחומים' : activeDomains.filter((d) => domains.has(d.id)).map((d) => d.nameHe).join(', ');
   const showRoutes = params.r !== '0';
   const showTrail = params.g !== '0';
   const person = params.p ? personById.get(params.p) : undefined;
@@ -81,14 +118,15 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
   const near = center ? nearestCity(center) : null;
   const nearKm = center && near ? Math.round(km(center, near.lonLat) / 10) * 10 : 0;
   const pick = (personId: string) => set({ p: personId });
+  const focusCity = params.f ? cities.find((c) => c.key === params.f) : undefined;
 
-  // מסע: הגילויים של תחום אחד לפי סדר כרונולוגי, תחנה אחרי תחנה
-  // t=all: מסע חוצה תחומים, כל הגילויים שיש להם מקום, לפי סדר כרונולוגי
-  const tourAll = params.t === 'all';
-  const tourDomain = tourAll ? { id: 'all', nameHe: 'כל התחומים' } : activeDomains.find((d) => d.id === params.t);
-  const stops = useMemo(() => (tourDomain
-    ? cities.flatMap((c) => c.items.filter((d) => tourDomain.id === 'all' ? activeDomains.some((a) => a.id === d.domainId) : d.domainId === tourDomain.id).map((d) => ({ d, city: c }))).sort((a, b) => a.d.yearFrom - b.d.yearFrom || a.d.id.localeCompare(b.d.id))
-    : []), [tourDomain?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  // מסע: הגילויים של התחומים שנבחרו, לפי סדר כרונולוגי, תחנה אחרי תחנה. כשנבחר יותר מתחום אחד: רק מה שעברנו מוצג, והמספר רק על העיר הנוכחית.
+  const tourOn = !!params.t;
+  const tourAll = domains.size > 1;
+  const tourDomain = tourOn ? { id: allOn ? 'all' : [...domains].join(','), nameHe: domainsLabel } : undefined;
+  const stops = useMemo(() => (tourOn
+    ? cities.flatMap((c) => c.items.filter((d) => domains.has(d.domainId)).map((d) => ({ d, city: c }))).sort((a, b) => a.d.yearFrom - b.d.yearFrom || a.d.id.localeCompare(b.d.id))
+    : []), [tourOn, params.d, legacyT]); // eslint-disable-line react-hooks/exhaustive-deps
   const si = Math.min(Math.max(Number(params.s) || 0, 0), Math.max(stops.length - 1, 0));
   const stop = stops[si];
   const [touring, setTouring] = useState(false);
@@ -108,6 +146,11 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
     }, 4200);
     return () => window.clearInterval(id);
   }, [touring, tourDomain, stops.length, set]);
+  // במסע המחוון זז עם התחנות: השנה בכתובת היא שנת התחנה
+  useEffect(() => {
+    if (tourOn && stop && params.y !== String(stop.d.yearFrom)) set({ y: String(stop.d.yearFrom) });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tourOn, stop?.d.id]);
   // בכל התחומים יש מאות תחנות: מציגים רק את מה שכבר עברנו, והמספר רק על העיר הנוכחית
   const seen = tourAll ? stops.slice(0, si + 1) : stops;
   const tourCities = useMemo(() => {
@@ -125,11 +168,11 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
     <main className="page page-wide">
       <div className="crumbs"><a href="#/">בית</a> / מפה</div>
       <h1 className="page-title"><Rich>{tourDomain && stop
-        ? `מסע ב${tourDomain.nameHe}${tourAll && stop ? ` (${domainName(stop.d.domainId)})` : ''}: תחנה ${si + 1} מתוך ${stops.length}, ${stop.city.nameHe}.`
+        ? `מסע בזמן, ${tourDomain.nameHe}: תחנה ${si + 1} מתוך ${stops.length}, ${stop.city.nameHe}, ${yearText(stop.d.yearFrom)}.`
         : `בשנת ${yearText(year)}: ${knownCount} גילויים ב-${visible.length} ערים.`}</Rich></h1>
       <p className="page-sub lines">
         {!tourDomain && center && near && <span><Rich>{`**מרכז הכובד** של הידע: ${nearKm < 60 ? 'ב' : `כ-${nearKm} ק״מ מ`}${near.nameHe}. ==הוא נודד עם הזמן==, והקו המקווקו הוא המסלול שלו.`}</Rich></span>}
-        <span>לחיצה על עיר או על שם של ארץ מציגה את כל הדמויות שלה. <strong>מסע</strong> עובר על תחום אחד לפי הסדר.</span>
+        <span>בחירת תחום מציגה את <strong>הדמויות</strong> שלו. לחיצה על עיר או על ארץ מציגה את כל מה שקרה בה. <strong>מסע בזמן</strong> עובר על התחומים שנבחרו לפי הסדר.</span>
       </p>
 
       {kwm.active && (() => {
@@ -143,25 +186,18 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
         ) : null;
       })()}
       <div className="map-controls card glass">
+        {/* שורה אחת של תחומים: "כל התחומים" מאפס, לחיצה ראשונה בוחרת רק את התחום שנלחץ, ומשם מוסיפים או מורידים */}
         <div className="seg map-domains" role="group" aria-label="תחומים">
-          {activeDomains.map((d) => {
-            const on = domains.has(d.id);
-            return (
-              <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={on} disabled={on && domains.size === 1}
-                onClick={() => set({ d: activeDomains.map((a) => a.id).filter((a) => (a === d.id ? !on : domains.has(a))).join(',') })}><DomainIcon id={d.id} />{d.nameHe}</button>
-            );
-          })}
+          <button type="button" className="press chip chip-all" aria-pressed={allOn} onClick={() => set({ d: undefined, t: params.t ? '1' : undefined, s: params.t ? '0' : undefined, f: undefined })}>כל התחומים</button>
+          {activeDomains.map((d) => (
+            <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={!allOn && domains.has(d.id)} onClick={() => pickDomain(d.id)}><DomainIcon id={d.id} />{d.nameHe}</button>
+          ))}
+        </div>
+        <div className="seg map-modes" role="group" aria-label="תצוגה">
+          <button type="button" className="press chip chip-tour" aria-pressed={tourOn}
+            onClick={() => { setTouring(false); set(tourOn ? { t: undefined, s: undefined } : { t: '1', s: '0', c: undefined, k: undefined, f: undefined }); }}>מסע בזמן{tourOn ? '' : `: ${domainsLabel}`}</button>
           <button type="button" className="press chip" aria-pressed={showRoutes} onClick={() => set({ r: showRoutes ? '0' : undefined })}>מסלולי ידע <bdi className="num">{shownRoutes.length}</bdi></button>
           <button type="button" className="press chip" aria-pressed={showTrail} onClick={() => set({ g: showTrail ? '0' : undefined })}>שובל מרכז הכובד</button>
-        </div>
-        <div className="seg tour-seg" role="group" aria-label="מסע לפי סדר כרונולוגי">
-          <span className="label">מסע</span>
-          <button type="button" className="press chip chip-all" aria-pressed={tourAll}
-            onClick={() => { setTouring(false); set(tourAll ? { t: undefined, s: undefined } : { t: 'all', s: '0', c: undefined, k: undefined }); }}>כל התחומים</button>
-          {activeDomains.map((d) => (
-            <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={tourDomain?.id === d.id}
-              onClick={() => { setTouring(false); set(tourDomain?.id === d.id ? { t: undefined, s: undefined } : { t: d.id, s: '0', c: undefined, k: undefined }); }}><DomainIcon id={d.id} />{d.nameHe}</button>
-          ))}
         </div>
         <label className="slider">
           <span className="label">שנה</span>
@@ -185,11 +221,11 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             <Suspense fallback={<div className="map-loading">טוען את הגלובוס…</div>}>
               <MapView
                 cities={tourDomain
-                  ? tourCities.map((t) => ({ city: t.city, known: t.nums.length, recent: false, on: !!stop && stop.city.key === t.city.key, kw: kwOf(t.city.key), domain: tourAll ? t.domain : tourDomain.id, badge: tourAll ? (stop && stop.city.key === t.city.key ? String(si + 1) : undefined) : t.nums.join('·') }))
-                  : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || (!!country && v.city.country?.key === country.key), kw: kwOf(v.city.key), domain: v.domain }))}
+                  ? tourCities.map((t) => ({ city: t.city, known: t.nums.length, recent: false, on: !!stop && stop.city.key === t.city.key, kw: kwOf(t.city.key), domain: tourAll ? t.domain : [...domains][0], badge: tourAll ? (stop && stop.city.key === t.city.key ? String(si + 1) : undefined) : t.nums.join('·') }))
+                  : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || v.city.key === params.f || (!!country && v.city.country?.key === country.key), kw: kwOf(v.city.key), domain: v.domain }))}
                 routes={showRoutes && !tourDomain ? shownRoutes.map((r) => ({ id: r.link.id, path: r.path, type: r.link.type, confidence: r.link.confidence, on: r.link.id === params.l })) : []}
                 trail={tourDomain ? [] : trail} tour={tourPath} center={tourDomain ? null : center}
-                focus={tourDomain && stop ? stop.city.lonLat : sel ? sel.city.lonLat : country ? country.lonLat : null}
+                focus={tourDomain && stop ? stop.city.lonLat : sel ? sel.city.lonLat : country ? country.lonLat : focusCity ? focusCity.lonLat : null}
                 focusZoom={tourDomain ? 3.4 : country ? 2.8 : 3.2}
                 onCity={(k) => (tourDomain ? set({ s: String(tourAll ? seen.map((x) => x.city.key).lastIndexOf(k) : stops.findIndex((x) => x.city.key === k)) }) : set({ c: k === params.c ? undefined : k, k: undefined }))}
                 onRoute={(id) => set({ l: id === params.l ? undefined : id })}
@@ -215,9 +251,10 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             const p = personById.get(stop.d.personIds[0]);
             return (
               <div className="tour-card card glass rise" key={stop.d.id} role="region" aria-label="תחנה במסע">
+                <TourClock year={stop.d.yearFrom} />
                 <div className="tour-top">
                   <span className="tour-num"><bdi className="num">{si + 1}</bdi>/<bdi className="num">{stops.length}</bdi></span>
-                  <span className="label">{tourAll ? domainName(stop.d.domainId) : tourDomain.nameHe} · {stop.city.nameHe}{stop.city.country ? `, ${stop.city.country.nameHe}` : ''}</span>
+                  <span className="label">{domainName(stop.d.domainId)} · {stop.city.nameHe}{stop.city.country ? `, ${stop.city.country.nameHe}` : ''}</span>
                 </div>
                 <div className="tour-body">
                   {p?.imageUrl && <img className="tour-face" src={p.imageUrl} alt={p.nameHe} />}
@@ -269,6 +306,10 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                 <button type="button" className="press chip" onClick={() => set({ k: undefined })}>חזרה לכל הארצות</button>
               </div>
             </PlacePanel>
+          ) : !allOn ? (
+            <PeoplePanel title={`הדמויות ב${domainsLabel}`} year={year}
+              items={discoveries.filter((d) => domains.has(d.domainId))}
+              onPick={(d) => (d.personIds[0] ? set({ p: d.personIds[0], f: d.place?.city.nameFull }) : go('timeline', workParams(d)))} />
           ) : (
             <div className="card city-panel">
               <h2 className="city-title">ארצות הידע</h2>

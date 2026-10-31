@@ -173,10 +173,13 @@ export default function GraphPage({ params }: { params: Record<string, string> }
         <div className="gc-row">
           <span className="label">תחום</span>
           <div className="seg">
+            <button type="button" className="press chip chip-all" aria-pressed={!params.d} onClick={() => set({ d: undefined })}>כל התחומים</button>
             {activeDomains.map((d) => {
               const on = domains.has(d.id);
-              return <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={on} disabled={on && domains.size === 1}
-                onClick={() => set({ d: activeDomains.map((a) => a.id).filter((a) => (a === d.id ? !on : domains.has(a))).join(',') })}><DomainIcon id={d.id} />{d.nameHe}</button>;
+              // כמו במפה: לחיצה ראשונה כשהכול בחור בוחרת רק את התחום הזה, ואחר כך מוסיפים או מורידים
+              const allOn = !params.d;
+              return <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={!allOn && on}
+                onClick={() => { const next = allOn ? new Set([d.id]) : new Set(domains); if (!allOn) { if (on) next.delete(d.id); else next.add(d.id); } set({ d: next.size === 0 || next.size === activeDomains.length ? undefined : activeDomains.map((a) => a.id).filter((a) => next.has(a)).join(',') }); }}><DomainIcon id={d.id} />{d.nameHe}</button>;
             })}
           </div>
         </div>

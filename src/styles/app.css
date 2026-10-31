@@ -531,7 +531,7 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 @media (max-width: 860px) { .tl-controls { grid-template-columns: minmax(0, 1fr); } }
 /* שורות הבקרה של המפה: תחומים, מסע, ואז מחוון והפעלה */
 .map-controls { grid-template-columns: minmax(0, 1fr) auto; }
-.map-controls > .map-domains, .map-controls > .tour-seg { grid-column: 1 / -1; }
+.map-controls > .map-domains, .map-controls > .map-modes { grid-column: 1 / -1; }
 .tour-seg { padding-top: 8px; border-top: 1px solid var(--rule); }
 
 /* מסע חוצה תחומים */
@@ -701,3 +701,25 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .mc-ico { display: grid; place-items: center; width: 72%; height: 72%; }
 .mc-ico .dicon { width: 100%; height: 100%; color: #fff; }
 .map-city.has-badge .mc-ico { display: none; }
+
+/* מפה: שורת תחומים אחת, ומצבי תצוגה בשורה משלהם */
+.map-modes { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip-tour[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--sheet); }
+/* שעון הזמן במסע */
+.tour-clock { display: flex; align-items: baseline; gap: 8px; padding: 6px 10px; background: var(--ink); color: var(--sheet); }
+.tour-clock .label { color: #C9C7C0; }
+.tour-clock-y { font-size: 34px; font-weight: 800; line-height: 1; letter-spacing: .02em; }
+.tour-clock-bc { font-size: 14px; }
+/* הדמויות של התחום */
+.people-sort { margin: 6px 0 10px; }
+.people-groups { max-height: min(70vh, 720px); overflow-y: auto; display: grid; gap: 12px; position: relative; }
+.people-group-title { margin: 0 0 4px; font-size: 13px; font-weight: 800; color: var(--ink-soft); border-bottom: 1px solid var(--rule); padding-bottom: 3px; }
+.people-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.people-row { width: 100%; display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; align-items: center; gap: 8px; padding: 5px 6px; background: var(--sheet); border: 1px solid var(--rule); font: inherit; text-align: start; cursor: pointer; color: var(--ink); }
+.people-row:hover, .people-row:focus-visible { border-color: var(--ink); }
+.people-row.is-later { opacity: .6; }
+.people-face { width: 36px; height: 36px; display: grid; place-items: center; font-size: 22px; overflow: hidden; background: var(--paper); }
+.people-face img { width: 100%; height: 100%; object-fit: cover; }
+.people-text { display: grid; min-width: 0; }
+.people-name { font-weight: 700; font-size: 14px; }
+.people-sub { font-size: 12px; color: var(--ink-mute); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
