@@ -4749,6 +4749,1787 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1661-boyle-sceptical",
+      "title": "הכימאי הספקן: מאלכימיה לכימיה",
+      "yearFrom": 1661,
+      "yearTo": 1661,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-boyle"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-the-sceptical-chymist",
+          "quote": "published in London in 1661"
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**בויל** פקפק בעקרונות של האלכימאים, ודרש ניסוי במקום סמכות.",
+      "contribution": "הספר נחשב לנקודת המעבר מ**אלכימיה** ל**כימיה** כמדע ניסויי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-sceptical-chymist",
+          "quote": "The Sceptical Chymist: or Chymico-Physical Doubts & Paradoxes is the title of a book by Robert Boyle, published in London in 1661."
+        }
+      ],
+      "sources": [
+        "s-wp-the-sceptical-chymist"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1766-cavendish-hydrogen",
+      "title": "מימן: \"אוויר דליק\" שיוצר מים",
+      "yearFrom": 1766,
+      "yearTo": 1766,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-cavendish"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-henry-cavendish",
+          "quote": "He then lived with his father in London, where he soon had his own laboratory complete with dog-room."
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**קוונדיש** זיהה לראשונה את **המימן** כחומר נפרד.",
+      "contribution": "הגז ש**שריפתו יוצרת מים** קיבל את שמו מהתגלית: \"יוצר מים\".",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hydrogen",
+          "quote": "In 1766, Henry Cavendish was the first to recognize hydrogen gas as a discrete substance, by naming the gas from a metal-acid reaction \"inflammable air\"."
+        }
+      ],
+      "sources": [
+        "s-wp-hydrogen",
+        "s-wp-henry-cavendish"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1774-priestley-oxygen",
+      "title": "חמצן: אוויר חדש לגמרי",
+      "yearFrom": 1774,
+      "yearTo": 1774,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-priestley"
+      ],
+      "place": {
+        "wikipedia": "Calne",
+        "nameHe": "קאלן",
+        "nameFull": "Calne",
+        "lat": 51.4353,
+        "lon": -2.0043,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-joseph-priestley",
+          "quote": "Priestley's years in Calne were the only ones in his life dominated by scientific investigations"
+        },
+        "city": {
+          "nameHe": "קאלן",
+          "nameFull": "Calne"
+        },
+        "wikidata": "Q1235307"
+      },
+      "novelty": "**פריסטלי** בודד גז חדש מפירוק תחמוצת כספית בחום.",
+      "contribution": "החמצן הפך למפתח להבנת **בעירה** ו**נשימה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-joseph-priestley",
+          "quote": "Priestley is credited with his independent discovery of oxygen by the thermal decomposition of mercuric oxide, having isolated it in 1774."
+        }
+      ],
+      "sources": [
+        "s-wp-joseph-priestley"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1789-lavoisier-traite",
+      "title": "ספר היסוד של הכימיה המודרנית",
+      "yearFrom": 1789,
+      "yearTo": 1789,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-lavoisier"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**לבואזיה** הציג **שפת שמות חדשה** לחומרים, שבה השם מתאר את ההרכב.",
+      "contribution": "השפה הזאת היא הבסיס ל**מינוח הכימי** עד היום.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-antoine-lavoisier",
+          "quote": "Lavoisier employed the new nomenclature in his Traité élémentaire de chimie (Elementary Treatise on Chemistry), published in 1789."
+        }
+      ],
+      "sources": [
+        "s-wp-antoine-lavoisier"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1808-dalton-atoms",
+      "title": "תורת האטומים של דלטון",
+      "yearFrom": 1808,
+      "yearTo": 1808,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-dalton"
+      ],
+      "place": {
+        "wikipedia": "Manchester",
+        "nameHe": "מנצ'סטר",
+        "nameFull": "Manchester",
+        "lat": 53.4794,
+        "lon": -2.2453,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-john-dalton",
+          "quote": "In 1800, Dalton became secretary of the Manchester Literary and Philosophical Society"
+        },
+        "city": {
+          "nameHe": "מנצ׳סטר",
+          "nameFull": "Manchester"
+        },
+        "wikidata": "Q18125"
+      },
+      "novelty": "**דלטון** נתן לכל יסוד **משקל אטומי יחסי** וסימון משלו.",
+      "contribution": "הכימיה עברה מתיאור איכותי ל**מדע כמותי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-john-dalton",
+          "quote": "His A New System of Chemical Philosophy (1808) presented a coherent atomic model, supplied relative atomic weights and symbolic notation"
+        }
+      ],
+      "sources": [
+        "s-wp-john-dalton"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1811-avogadro-law",
+      "title": "חוק אבוגדרו: נפח שווה, מספר מולקולות שווה",
+      "yearFrom": 1811,
+      "yearTo": 1811,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-avogadro"
+      ],
+      "place": {
+        "wikipedia": "Turin",
+        "nameHe": "טורינו",
+        "nameFull": "Turin",
+        "lat": 45.0792,
+        "lon": 7.6761,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-amedeo-avogadro",
+          "quote": "Amedeo Avogadro was born in Turin to a noble family of the Kingdom of Sardinia in the year 1776."
+        },
+        "city": {
+          "nameHe": "טורינו",
+          "nameFull": "Turin"
+        },
+        "wikidata": "Q495"
+      },
+      "novelty": "**אבוגדרו** הבחין בין **אטום** ל**מולקולה** בגזים.",
+      "contribution": "ההשערה יישבה בין תורת האטומים של דלטון לבין מדידות הנפח של הגזים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-avogadro-s-law",
+          "quote": "The law is named after Amedeo Avogadro who, in 1811, hypothesized that two given samples of an ideal gas, of the same volume and at the same temperature and pressure, contain the same number of molecules."
+        }
+      ],
+      "sources": [
+        "s-wp-avogadro-s-law",
+        "s-wp-amedeo-avogadro"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1828-wohler-urea",
+      "title": "סינתזת אוריאה: חומר אורגני מחומרים דוממים",
+      "yearFrom": 1828,
+      "yearTo": 1828,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-wohler"
+      ],
+      "place": {
+        "wikipedia": "Berlin",
+        "nameHe": "ברלין",
+        "nameFull": "Berlin",
+        "lat": 52.5167,
+        "lon": 13.3833,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-friedrich-wo-hler",
+          "quote": "From 1826 to 1831, Wöhler taught chemistry at the Gewerbeschule in Berlin."
+        },
+        "city": {
+          "nameHe": "ברלין",
+          "nameFull": "Berlin"
+        },
+        "wikidata": "Q64"
+      },
+      "novelty": "**וולר** יצר במעבדה חומר שנחשב לתוצר של **גוף חי** בלבד.",
+      "contribution": "הניסוי ערער על **הוויטליזם**, האמונה ב\"כוח חיים\" מיוחד.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-wo-hler-synthesis",
+          "quote": "This chemical reaction was described in 1828 by Friedrich Wöhler."
+        },
+        {
+          "sourceId": "s-wp-friedrich-wo-hler",
+          "quote": "His synthesis of the organic compound urea in the laboratory from inorganic substances contradicted the belief that organic compounds could only be produced by living organisms due to a \"life force\" known as vitalism."
+        }
+      ],
+      "sources": [
+        "s-wp-wo-hler-synthesis",
+        "s-wp-friedrich-wo-hler"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1833-faraday-electrolysis",
+      "title": "חוקי האלקטרוליזה: חשמל שמפרק חומר",
+      "yearFrom": 1833,
+      "yearTo": 1833,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-faraday"
+      ],
+      "place": {
+        "wikipedia": "Royal Institution",
+        "nameHe": "המכון המלכותי של בריטניה הגדולה",
+        "nameFull": "Royal Institution",
+        "lat": 51.5098,
+        "lon": -0.1425,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-michael-faraday",
+          "quote": "Faraday ultimately became the first and foremost Fullerian Professor of Chemistry at the Royal Institution, a lifetime position."
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q2171086"
+      },
+      "novelty": "**פאראדיי** מדד שהחומר שמשתחרר באלקטרודה **פרופורציוני למטען**.",
+      "contribution": "החוקים חיברו **חשמל** ו**כימיה** במספרים, וקבעו מונחים כמו אנודה וקתודה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-faraday-s-laws-of-electrolysis",
+          "quote": "are quantitative relationships based on the electrochemical research published by Michael Faraday in 1833."
+        }
+      ],
+      "sources": [
+        "s-wp-faraday-s-laws-of-electrolysis",
+        "s-wp-michael-faraday"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1848-pasteur-chirality",
+      "title": "כיראליות: מולקולות של יד ימין ויד שמאל",
+      "yearFrom": 1848,
+      "yearTo": 1848,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-pasteur"
+      ],
+      "place": {
+        "wikipedia": "University of Strasbourg",
+        "nameHe": "האוניברסיטה של שטרסבורג",
+        "nameFull": "University of Strasbourg",
+        "lat": 48.5803,
+        "lon": 7.7644,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-louis-pasteur",
+          "quote": "Pasteur was appointed professor of chemistry at the University of Strasbourg in 1848"
+        },
+        "city": {
+          "nameHe": "שטרסבורג",
+          "nameFull": "Strasbourg"
+        },
+        "wikidata": "Q157575"
+      },
+      "novelty": "**פסטר** הראה ששני חומרים זהים בהרכב נבדלים ב**כיוון המבנה** שלהם.",
+      "contribution": "זו ההדגמה הראשונה של **כיראליות מולקולרית**, יסוד בכימיה של התרופות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-louis-pasteur",
+          "quote": "He resolved a problem concerning the nature of tartaric acid in 1848."
+        },
+        {
+          "sourceId": "s-wp-louis-pasteur",
+          "quote": "This was the first time anyone had demonstrated molecular chirality, and also the first explanation of isomerism."
+        }
+      ],
+      "sources": [
+        "s-wp-louis-pasteur"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1856-perkin-mauveine",
+      "title": "צבע סינתטי ראשון: סגול מטעות",
+      "yearFrom": 1856,
+      "yearTo": 1856,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-perkin"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**פרקין** חיפש תרופה למלריה, ובמקרה יצר **צבע סגול** מתרכובת אורגנית.",
+      "contribution": "הגילוי פתח את **תעשיית הכימיקלים הסינתטיים**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-mauveine",
+          "quote": "It was discovered serendipitously by William Henry Perkin in 1856 while he was attempting to synthesise the phytochemical quinine for the treatment of malaria."
+        }
+      ],
+      "sources": [
+        "s-wp-mauveine"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1859-bunsen-kirchhoff-spectroscopy",
+      "title": "ספקטרוסקופיה: לזהות יסוד לפי האור שלו",
+      "yearFrom": 1859,
+      "yearTo": 1859,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-bunsen",
+        "p-kirchhoff"
+      ],
+      "place": {
+        "wikipedia": "Heidelberg University",
+        "nameHe": "אוניברסיטת היידלברג",
+        "nameFull": "Heidelberg University",
+        "lat": 49.4103,
+        "lon": 8.7064,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-robert-bunsen",
+          "quote": "In late 1852, Bunsen became the successor of Leopold Gmelin at the University of Heidelberg."
+        },
+        "city": {
+          "nameHe": "היידלברג",
+          "nameFull": "Heidelberg"
+        },
+        "wikidata": "Q151510"
+      },
+      "novelty": "**בונזן** ו**קירכהוף** זיהו יסודות לפי **קווי האור** שהם פולטים.",
+      "contribution": "כך התגלו יסודות חדשים, ונמצא **נתרן בשמש**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gustav-kirchhoff",
+          "quote": "Together, Kirchhoff and Bunsen improved on Joseph von Fraunhofer's 1814 spectroscope, which Kirchhoff used to pioneer the identification of the elements in the Sun, showing in 1859 that the Sun contains sodium."
+        }
+      ],
+      "sources": [
+        "s-wp-gustav-kirchhoff",
+        "s-wp-robert-bunsen"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1865-kekule-benzene",
+      "title": "טבעת הבנזן",
+      "yearFrom": 1865,
+      "yearTo": 1865,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-kekule"
+      ],
+      "place": {
+        "wikipedia": "Ghent University",
+        "nameHe": "אוניברסיטת גנט",
+        "nameFull": "Ghent University",
+        "lat": 51.0439,
+        "lon": 3.7261,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-august-kekule",
+          "quote": "In 1858, he was hired as full professor at the University of Ghent"
+        },
+        "city": {
+          "nameHe": "גנט",
+          "nameFull": "Ghent"
+        },
+        "wikidata": "Q1137665"
+      },
+      "novelty": "**קקולה** הציע לבנזן **מבנה של טבעת**.",
+      "contribution": "ההבנה הזאת פתחה את הכימיה של כל **התרכובות הארומטיות**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-august-kekule",
+          "quote": "Kekulé published the theory of the structure of benzene in January of 1865."
+        }
+      ],
+      "sources": [
+        "s-wp-august-kekule"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1869-mendeleev-periodic",
+      "title": "הטבלה המחזורית",
+      "yearFrom": 1869,
+      "yearTo": 1869,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-mendeleev"
+      ],
+      "place": {
+        "wikipedia": "Saint Petersburg",
+        "nameHe": "סנקט פטרבורג",
+        "nameFull": "Saint Petersburg",
+        "lat": 59.95,
+        "lon": 30.3167,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-dmitri-mendeleev",
+          "quote": "In 1857, he returned to Saint Petersburg with fully restored health."
+        },
+        "city": {
+          "nameHe": "סנקט פטרבורג",
+          "nameFull": "Saint Petersburg"
+        },
+        "wikidata": "Q656"
+      },
+      "novelty": "**מנדלייב** סידר את היסודות לפי **משקל אטומי** ו**ערכיות**, והשאיר מקום ליסודות שעוד לא התגלו.",
+      "contribution": "הטבלה הפכה לתבנית של כל הכימיה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-periodic-table",
+          "quote": "The first periodic table to become generally accepted was that of the Russian chemist Dmitri Mendeleev in 1869;"
+        }
+      ],
+      "sources": [
+        "s-wp-periodic-table",
+        "s-wp-dmitri-mendeleev"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1876-gibbs-potential",
+      "title": "הפוטנציאל הכימי",
+      "yearFrom": 1876,
+      "yearTo": 1876,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-gibbs"
+      ],
+      "place": {
+        "wikipedia": "Yale University",
+        "nameHe": "אוניברסיטת ייל",
+        "nameFull": "Yale University",
+        "lat": 41.3111,
+        "lon": -72.9267,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-josiah-willard-gibbs",
+          "quote": "Gibbs spent the rest of his career at Yale, where he was a professor of mathematical physics from 1871 until his death in 1903."
+        },
+        "city": {
+          "nameHe": "ניו הייבן",
+          "nameFull": "New Haven"
+        },
+        "wikidata": "Q49112"
+      },
+      "novelty": "**גיבס** נתן לתגובה כימית **מדד מתמטי** של הנטייה להתרחש.",
+      "contribution": "הוא ייסד את **התרמודינמיקה הכימית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-josiah-willard-gibbs",
+          "quote": "including the notions of chemical potential (1876) and statistical ensemble (1902)."
+        }
+      ],
+      "sources": [
+        "s-wp-josiah-willard-gibbs"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1884-arrhenius-ions",
+      "title": "יונים: מלח שמתפרק במים",
+      "yearFrom": 1884,
+      "yearTo": 1884,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-arrhenius"
+      ],
+      "place": {
+        "wikipedia": "Uppsala",
+        "nameHe": "אופסלה",
+        "nameFull": "Uppsala",
+        "lat": 59.8498,
+        "lon": 17.6389,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-svante-arrhenius",
+          "quote": "he submitted a 150-page dissertation on electrolytic conductivity to Uppsala for the doctorate."
+        },
+        "city": {
+          "nameHe": "אופסלה",
+          "nameFull": "Uppsala"
+        },
+        "wikidata": "Q25286"
+      },
+      "novelty": "**ארניוס** טען שחומרים בתמיסה מתפרקים ל**יונים** טעונים.",
+      "contribution": "מכאן נגזרו ההגדרות המודרניות ל**חומצה** ול**בסיס**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-svante-arrhenius",
+          "quote": "In an extension of his ionic theory Arrhenius proposed definitions for acids and bases, in 1884."
+        }
+      ],
+      "sources": [
+        "s-wp-svante-arrhenius"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1898-curie-radium",
+      "title": "פולוניום ורדיום",
+      "yearFrom": 1898,
+      "yearTo": 1898,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-curie"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**מארי קירי** גילתה **שני יסודות חדשים** דרך הקרינה שלהם.",
+      "contribution": "הקרינה הפכה ל**כלי לגילוי יסודות**, והמחקר זיכה אותה בשני פרסי נובל.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-marie-curie",
+          "quote": "In July 1898, Curie and her husband published a joint paper announcing the existence of an element they named 'polonium'"
+        },
+        {
+          "sourceId": "s-wp-marie-curie",
+          "quote": "On 26 December 1898, the Curies announced the existence of a second element, which they named 'radium', from the Latin word for 'ray'."
+        }
+      ],
+      "sources": [
+        "s-wp-marie-curie"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1909-haber-ammonia",
+      "title": "אמוניה מהאוויר",
+      "yearFrom": 1909,
+      "yearTo": 1909,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-haber"
+      ],
+      "place": {
+        "wikipedia": "Karlsruhe",
+        "nameHe": "קרלסרוהה",
+        "nameFull": "Karlsruhe",
+        "lat": 49.0167,
+        "lon": 8.4,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-fritz-haber",
+          "quote": "Haber worked in a variety of areas while at Karlsruhe, making significant contributions in several areas."
+        },
+        "city": {
+          "nameHe": "קרלסרוהה",
+          "nameFull": "Karlsruhe"
+        },
+        "wikidata": "Q1040"
+      },
+      "novelty": "**הבר** הפיק **אמוניה** מחנקן שבאוויר.",
+      "contribution": "התהליך הפך לבסיס של **הדשנים** בעולם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-haber-process",
+          "quote": "Haber showed it working in the laboratory in 1909, and Bosch scaled it up for the German company BASF."
+        }
+      ],
+      "sources": [
+        "s-wp-haber-process",
+        "s-wp-fritz-haber"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1913-moseley-number",
+      "title": "המספר האטומי",
+      "yearFrom": 1913,
+      "yearTo": 1913,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-moseley"
+      ],
+      "place": {
+        "wikipedia": "Victoria University of Manchester",
+        "nameHe": "אוניברסיטת ויקטוריה של מנצ'סטר",
+        "nameFull": "Victoria University of Manchester",
+        "lat": 53.4675,
+        "lon": -2.2325,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-henry-moseley",
+          "quote": "Moseley became a demonstrator in physics at the University of Manchester"
+        },
+        "city": {
+          "nameHe": "מנצ׳סטר",
+          "nameFull": "Manchester"
+        },
+        "wikidata": "Q867530"
+      },
+      "novelty": "**מוזלי** מדד את **ספקטרום הרנטגן** של יסודות, ומצא את מקומם בטבלה.",
+      "contribution": "\"מספר אטומי\" הפך מ**מקום בטבלה** ל**גודל פיזיקלי** שאפשר למדוד.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-henry-moseley",
+          "quote": "In 1913, Moseley observed and measured the X-ray spectra of various chemical elements (mostly metals) that were found by the method of diffraction through crystals."
+        }
+      ],
+      "sources": [
+        "s-wp-henry-moseley"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1916-lewis-bond",
+      "title": "הקשר הקוולנטי: זוג אלקטרונים משותף",
+      "yearFrom": 1916,
+      "yearTo": 1916,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-lewis"
+      ],
+      "place": {
+        "wikipedia": "University of California, Berkeley",
+        "nameHe": "אוניברסיטת קליפורניה בברקלי",
+        "nameFull": "University of California, Berkeley",
+        "lat": 37.8719,
+        "lon": -122.2583,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-gilbert-n-lewis",
+          "quote": "Lewis moved to California in 1912 to teach chemistry at the University of California, Berkeley"
+        },
+        "city": {
+          "nameHe": "ברקלי",
+          "nameFull": "Berkeley"
+        },
+        "wikidata": "Q168756"
+      },
+      "novelty": "**לואיס** תיאר קשר כימי כ**זוג אלקטרונים** ששני אטומים חולקים.",
+      "contribution": "הסימון שלו מלמד קשרים כימיים עד היום.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gilbert-n-lewis",
+          "quote": "In 1916, he also proposed his theory of bonding and added information about electrons in the periodic table of the chemical elements."
+        }
+      ],
+      "sources": [
+        "s-wp-gilbert-n-lewis"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1939-pauling-bond",
+      "title": "טבעו של הקשר הכימי",
+      "yearFrom": 1939,
+      "yearTo": 1939,
+      "yearApprox": false,
+      "domainId": "chemistry",
+      "personIds": [
+        "p-pauling"
+      ],
+      "place": {
+        "wikipedia": "California Institute of Technology",
+        "nameHe": "המכון הטכנולוגי של קליפורניה",
+        "nameFull": "California Institute of Technology",
+        "lat": 34.1385,
+        "lon": -118.1244,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-linus-pauling",
+          "quote": "He went on to graduate school at the California Institute of Technology (Caltech) in Pasadena, California"
+        },
+        "city": {
+          "nameHe": "פסדינה",
+          "nameFull": "Pasadena"
+        },
+        "wikidata": "Q161562"
+      },
+      "novelty": "**פאולינג** הסביר קשרים כימיים בכלים של **מכניקת הקוונטים**.",
+      "contribution": "הספר שלו מבסס את **הכימיה הקוונטית**, ונעשה אחד הספרים המצוטטים במדע.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-linus-pauling",
+          "quote": "In the 30 years after its first edition was published in 1939, the book was cited more than 16,000 times."
+        },
+        {
+          "sourceId": "s-wp-linus-pauling",
+          "quote": "becoming one of the founders of the new science of quantum chemistry."
+        }
+      ],
+      "sources": [
+        "s-wp-linus-pauling"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce350-aristotle-animals",
+      "title": "תולדות בעלי החיים",
+      "yearFrom": -350,
+      "yearTo": -322,
+      "yearApprox": true,
+      "domainId": "biology",
+      "personIds": [
+        "p-aristotle"
+      ],
+      "place": {
+        "wikipedia": "Lesbos",
+        "nameHe": "לסבוס",
+        "nameFull": "Lesbos",
+        "lat": 39.21,
+        "lon": 26.28,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-aristotle",
+          "quote": "He spent two years observing and describing the zoology of Lesbos and the surrounding seas"
+        },
+        "city": {
+          "nameHe": "לסבוס",
+          "nameFull": "Lesbos"
+        },
+        "wikidata": "Q128087"
+      },
+      "novelty": "**אריסטו** תיעד קודם **עובדות** על בעלי חיים, ורק אחר כך חיפש **סיבות**.",
+      "contribution": "החיבור נחשב ליצירה החלוצית של **הזואולוגיה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-history-of-animals",
+          "quote": "It was written in sometime between the mid-fourth century BC and Aristotle's death in 322 BC."
+        },
+        {
+          "sourceId": "s-wp-history-of-animals",
+          "quote": "Generally seen as a pioneering work of zoology"
+        }
+      ],
+      "sources": [
+        "s-wp-history-of-animals",
+        "s-wp-aristotle"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1543-vesalius-fabrica",
+      "title": "מבנה גוף האדם",
+      "yearFrom": 1543,
+      "yearTo": 1543,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-vesalius"
+      ],
+      "place": {
+        "wikipedia": "University of Padua",
+        "nameHe": "אוניברסיטת פדובה",
+        "nameFull": "University of Padua",
+        "lat": 45.42,
+        "lon": 11.87,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-andreas-vesalius",
+          "quote": "He was a professor at the University of Padua (1537–1542)"
+        },
+        "city": {
+          "nameHe": "פדובה",
+          "nameFull": "Padua"
+        },
+        "wikidata": "Q193510"
+      },
+      "novelty": "**וזאליוס** תיאר את הגוף מתוך **ניתוח** ולא מתוך ספרים עתיקים.",
+      "contribution": "האטלס שלו ייסד את **האנטומיה המודרנית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-andreas-vesalius",
+          "quote": "In 1543, Vesalius asked Johannes Oporinus to publish the book De Humani Corporis Fabrica Libri Septem (On the fabric of the human body in seven books), a groundbreaking work of human anatomy"
+        }
+      ],
+      "sources": [
+        "s-wp-andreas-vesalius"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1628-harvey-circulation",
+      "title": "מחזור הדם",
+      "yearFrom": 1628,
+      "yearTo": 1628,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-harvey"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-william-harvey",
+          "quote": "Following this, Harvey established himself in London, joining the Royal College of Physicians on 5 October 1604."
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**הארווי** הראה שהדם **מסתובב במעגל** שהלב מניע.",
+      "contribution": "ההבנה החליפה את התורה העתיקה, והפכה לבסיס של **הפיזיולוגיה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-william-harvey",
+          "quote": "In 1628 he published in Frankfurt his completed treatise on the circulation of the blood, the De Motu Cordis."
+        }
+      ],
+      "sources": [
+        "s-wp-william-harvey"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1665-hooke-micrographia",
+      "title": "מיקרוגרפיה: המילה \"תא\"",
+      "yearFrom": 1665,
+      "yearTo": 1665,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-hooke"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-robert-hooke",
+          "quote": "which Christopher Cock made for him in London"
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**הוק** הסתכל בצמחים דרך **מיקרוסקופ** שבנה, וקרא למבנים שראה \"תאים\".",
+      "contribution": "הספר הפך ל**רב-מכר מדעי** ראשון, ועורר עניין במיקרוסקופיה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-micrographia",
+          "quote": "Published in January 1665, the first major publication of the Royal Society, it became the first scientific best-seller"
+        },
+        {
+          "sourceId": "s-wp-micrographia",
+          "quote": "The book originated the biological term \"cell\"."
+        }
+      ],
+      "sources": [
+        "s-wp-micrographia",
+        "s-wp-robert-hooke"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1676-leeuwenhoek-microbes",
+      "title": "יצורים חד-תאיים",
+      "yearFrom": 1676,
+      "yearTo": 1676,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-leeuwenhoek"
+      ],
+      "place": {
+        "wikipedia": "Delft",
+        "nameHe": "דלפט",
+        "nameFull": "Delft",
+        "lat": 52.0117,
+        "lon": 4.3592,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-antonie-van-leeuwenhoek",
+          "quote": "Raised in Delft, Dutch Republic"
+        },
+        "city": {
+          "nameHe": "דלפט",
+          "nameFull": "Delft"
+        },
+        "wikidata": "Q690"
+      },
+      "novelty": "**ואן לוונהוק** ראה לראשונה **יצורים חיים זעירים** בטיפת מים.",
+      "contribution": "הוא פתח את העולם של **המיקרוביולוגיה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-antonie-van-leeuwenhoek",
+          "quote": "he sent the Royal Society a copy of his first observations of microscopic single-celled organisms dated 9 October 1676."
+        }
+      ],
+      "sources": [
+        "s-wp-antonie-van-leeuwenhoek"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1735-linnaeus-systema",
+      "title": "מערכת הטבע: שם לכל מין",
+      "yearFrom": 1735,
+      "yearTo": 1735,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-linnaeus"
+      ],
+      "place": {
+        "wikipedia": "Netherlands",
+        "nameHe": "הולנד",
+        "nameFull": "Netherlands",
+        "lat": 52.3167,
+        "lon": 5.55,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-carl-linnaeus",
+          "quote": "published the first edition of his Systema Naturae in the Netherlands."
+        },
+        "city": {
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        },
+        "wikidata": "Q55"
+      },
+      "novelty": "**לינאוס** סידר את כל היצורים ב**מערכת היררכית** אחת.",
+      "contribution": "השיטה שלו היא הבסיס ל**מיון** ול**שמות המדעיים** של מינים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-systema-naturae",
+          "quote": "published the first edition of Systema Naturae in 1735, during his stay in the Netherlands."
+        }
+      ],
+      "sources": [
+        "s-wp-systema-naturae",
+        "s-wp-carl-linnaeus"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1796-jenner-vaccine",
+      "title": "החיסון הראשון",
+      "yearFrom": 1796,
+      "yearTo": 1796,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-jenner"
+      ],
+      "place": {
+        "wikipedia": "Berkeley, Gloucestershire",
+        "nameHe": "ברקלי",
+        "nameFull": "Berkeley",
+        "lat": 51.691,
+        "lon": -2.459,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-edward-jenner",
+          "quote": "In 1821, he was appointed physician to King George IV, and was also made mayor of Berkeley and justice of the peace."
+        },
+        "city": {
+          "nameHe": "ברקלי, גלוסטרשייר",
+          "nameFull": "Berkeley, Gloucestershire"
+        },
+        "wikidata": "Q584443"
+      },
+      "novelty": "**ג׳נר** הדביק ילד באבעבועות הפרה, והראה שהוא **מוגן מאבעבועות שחורות**.",
+      "contribution": "זו הייתה תחילת **החיסונים**, שבסופה האנושות מיגרה מחלה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-edward-jenner",
+          "quote": "On 14 May 1796, he tested his hypothesis by inoculating James Phipps, the eight-year-old son of Jenner's gardener."
+        }
+      ],
+      "sources": [
+        "s-wp-edward-jenner"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1839-cell-theory",
+      "title": "תורת התא",
+      "yearFrom": 1838,
+      "yearTo": 1839,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-schleiden",
+        "p-schwann"
+      ],
+      "place": {
+        "wikipedia": "Humboldt University of Berlin",
+        "nameHe": "אוניברסיטת הומבולדט של ברלין",
+        "nameFull": "Humboldt-Universität zu Berlin",
+        "lat": 52.5181,
+        "lon": 13.3933,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-theodor-schwann",
+          "quote": "From 1834 to 1839, Schwann worked as an assistant to Müller in at the Anatomisch-zootomische Museum at the University of Berlin."
+        },
+        "city": {
+          "nameHe": "ברלין",
+          "nameFull": "Berlin"
+        },
+        "wikidata": "Q152087"
+      },
+      "novelty": "**שליידן** קבע שצמחים בנויים מתאים, ו**שוואן** הרחיב זאת לבעלי חיים.",
+      "contribution": "התא הפך ל**יחידת היסוד** של כל החיים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-matthias-jakob-schleiden",
+          "quote": "he wrote Contributions to our Knowledge of Phytogenesis (1838), in which he stated that all plants are composed of cells."
+        },
+        {
+          "sourceId": "s-wp-cell-theory",
+          "quote": "In 1839, Theodor Schwann stated that along with plants, animals are composed of cells or the product of cells in their structures."
+        }
+      ],
+      "sources": [
+        "s-wp-matthias-jakob-schleiden",
+        "s-wp-cell-theory",
+        "s-wp-theodor-schwann"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1855-virchow-cells",
+      "title": "כל תא נולד מתא",
+      "yearFrom": 1855,
+      "yearTo": 1855,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-virchow"
+      ],
+      "place": null,
+      "novelty": "**וירכוב** ניסח את העיקרון \"**כל תא מתא**\".",
+      "contribution": "העיקרון השלים את תורת התא, ונעשה בסיס ל**פתולוגיה** המודרנית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-rudolf-virchow",
+          "quote": "Virchow's cellular theory was encapsulated in the epigram Omnis cellula e cellula (\"all cells (come) from cells\"), which he published in 1855."
+        }
+      ],
+      "sources": [
+        "s-wp-rudolf-virchow"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1858-wallace-ternate",
+      "title": "מכתב מטרנטה: ברירה טבעית",
+      "yearFrom": 1858,
+      "yearTo": 1858,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-wallace"
+      ],
+      "place": {
+        "wikipedia": "Ternate",
+        "nameHe": "טרנאטה (עיר)",
+        "nameFull": "Ternate",
+        "lat": 0.7833,
+        "lon": 127.3667,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-alfred-russel-wallace",
+          "quote": "From 1858 to 1861, he rented a house on Ternate"
+        },
+        "city": {
+          "nameHe": "טרנטה",
+          "nameFull": "Ternate"
+        },
+        "wikidata": "Q19151"
+      },
+      "novelty": "**וואלאס** הגיע לבדו לרעיון **הברירה הטבעית** מתוך מחקר באיי מלאיה.",
+      "contribution": "המאמר שלו פורסם יחד עם כתבי דרווין, והאיץ את הפרסום של שניהם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-alfred-russel-wallace",
+          "quote": "his 1858 paper on the subject was published that year alongside extracts from Charles Darwin's writings on the topic."
+        }
+      ],
+      "sources": [
+        "s-wp-alfred-russel-wallace"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1859-darwin-origin",
+      "title": "מוצא המינים",
+      "yearFrom": 1859,
+      "yearTo": 1859,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-darwin"
+      ],
+      "place": {
+        "wikipedia": "Down House",
+        "nameHe": "בית דאון",
+        "nameFull": "Down House",
+        "lat": 51.3314,
+        "lon": 0.0533,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-charles-darwin",
+          "quote": "To escape the pressures of London, the family moved to rural Down House in Kent in September."
+        },
+        "city": {
+          "nameHe": "דאון",
+          "nameFull": "Downe"
+        },
+        "wikidata": "Q3038318"
+      },
+      "novelty": "**דרווין** הסביר את מגוון החיים ב**ברירה טבעית** לאורך דורות.",
+      "contribution": "התאוריה איחדה את כל הביולוגיה סביב **האבולוציה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-on-the-origin-of-species",
+          "quote": "It was published on 24 November 1859."
+        },
+        {
+          "sourceId": "s-wp-charles-darwin",
+          "quote": "he proposed that this branching pattern of evolution resulted from a process he called natural selection"
+        }
+      ],
+      "sources": [
+        "s-wp-on-the-origin-of-species",
+        "s-wp-charles-darwin"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1859-pasteur-spontaneous",
+      "title": "הפרכת ההיווצרות הספונטנית",
+      "yearFrom": 1859,
+      "yearTo": 1862,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-pasteur"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**פסטר** הראה בניסוי שחיידקים **לא נוצרים מעצמם** בנוזל.",
+      "contribution": "הניסוי חיזק את **תורת החיידקים** כגורם למחלות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-spontaneous-generation",
+          "quote": "After Pasteur's 1859 experiment, the term \"spontaneous generation\" fell out of favor."
+        },
+        {
+          "sourceId": "s-wp-louis-pasteur",
+          "quote": "Pasteur was responsible for disproving the doctrine of spontaneous generation."
+        }
+      ],
+      "sources": [
+        "s-wp-spontaneous-generation",
+        "s-wp-louis-pasteur"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1865-mendel-heredity",
+      "title": "חוקי התורשה",
+      "yearFrom": 1865,
+      "yearTo": 1866,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-mendel"
+      ],
+      "place": {
+        "wikipedia": "Brno",
+        "nameHe": "ברנו",
+        "nameFull": "Brno",
+        "lat": 49.1953,
+        "lon": 16.6083,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-gregor-mendel",
+          "quote": "Mendel entered the Augustinian St Thomas's Abbey in Brno"
+        },
+        "city": {
+          "nameHe": "ברנו",
+          "nameFull": "Brno"
+        },
+        "wikidata": "Q14960"
+      },
+      "novelty": "**מנדל** הראה ב**אפונה** שתכונות עוברות ביחידות נפרדות, שהיום נקראות **גנים**.",
+      "contribution": "העבודה נשכחה ל-**35** שנה, ואחר כך הפכה ליסוד של **הגנטיקה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gregor-mendel",
+          "quote": "Mendel presented his paper, Versuche über Pflanzenhybriden (\"Experiments on Plant Hybridization\"), at two meetings of the Natural History Society of Brno in Moravia on 8 February and 8 March 1865."
+        },
+        {
+          "sourceId": "s-wp-gregor-mendel",
+          "quote": "He published his work in 1866, demonstrating the actions of invisible \"factors\"—now called genes—in predictably determining the traits of an organism."
+        }
+      ],
+      "sources": [
+        "s-wp-gregor-mendel"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1869-miescher-nuclein",
+      "title": "נוקלאין: החומר שבגרעין",
+      "yearFrom": 1869,
+      "yearTo": 1869,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-miescher"
+      ],
+      "place": {
+        "wikipedia": "University of Tübingen",
+        "nameHe": "אוניברסיטת טיבינגן",
+        "nameFull": "University of Tübingen",
+        "lat": 48.525,
+        "lon": 9.0589,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-friedrich-miescher",
+          "quote": "in Felix Hoppe-Seyler's laboratory at the University of Tübingen, Germany"
+        },
+        "city": {
+          "nameHe": "טובינגן",
+          "nameFull": "Tübingen"
+        },
+        "wikidata": "Q153978"
+      },
+      "novelty": "**מישר** בודד לראשונה **חומצת גרעין** מתאי דם לבנים.",
+      "contribution": "הבידוד סלל את הדרך לזיהוי ה-**DNA**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-friedrich-miescher",
+          "quote": "He was the first scientist to isolate nucleic acid in 1869."
+        }
+      ],
+      "sources": [
+        "s-wp-friedrich-miescher"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1882-koch-tuberculosis",
+      "title": "חיידק השחפת",
+      "yearFrom": 1882,
+      "yearTo": 1882,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-koch"
+      ],
+      "place": {
+        "wikipedia": "Berlin",
+        "nameHe": "ברלין",
+        "nameFull": "Berlin",
+        "lat": 52.5167,
+        "lon": 13.3833,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-robert-koch",
+          "quote": "he left for Berlin when he was appointed a government advisor at the Imperial Health Office, where he worked from 1880 to 1885."
+        },
+        "city": {
+          "nameHe": "ברלין",
+          "nameFull": "Berlin"
+        },
+        "wikidata": "Q64"
+      },
+      "novelty": "**קוך** זיהה את **החיידק** שגורם לשחפת.",
+      "contribution": "יום הגילוי מצוין עד היום כ**יום השחפת העולמי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-robert-koch",
+          "quote": "The day he announced the discovery of the tuberculosis bacterium, 24 March 1882, has been observed by the World Health Organization as \"World Tuberculosis Day\" every year since 1982."
+        }
+      ],
+      "sources": [
+        "s-wp-robert-koch"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1887-cajal-neuron",
+      "title": "תורת הנוירון",
+      "yearFrom": 1887,
+      "yearTo": 1887,
+      "yearApprox": true,
+      "domainId": "biology",
+      "personIds": [
+        "p-cajal"
+      ],
+      "place": null,
+      "novelty": "**קחאל** הראה שמערכת העצבים בנויה מ**תאים נפרדים**, ולא מרשת רציפה.",
+      "contribution": "תורת הנוירון היא הבסיס של **מדעי המוח**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-neuron-doctrine",
+          "quote": "Santiago Ramón y Cajal started investigating nervous system in 1887 using Golgi stain."
+        },
+        {
+          "sourceId": "s-wp-neuron-doctrine",
+          "quote": "The neuron doctrine is the concept that the nervous system is made up of discrete individual cells, a discovery due to decisive neuro-anatomical work of Santiago Ramón y Cajal"
+        }
+      ],
+      "sources": [
+        "s-wp-neuron-doctrine"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1910-morgan-chromosomes",
+      "title": "הגנים יושבים על כרומוזומים",
+      "yearFrom": 1910,
+      "yearTo": 1915,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-morgan"
+      ],
+      "place": {
+        "wikipedia": "Columbia University",
+        "nameHe": "אוניברסיטת קולומביה",
+        "nameFull": "Columbia University",
+        "lat": 40.8075,
+        "lon": -73.9619,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-thomas-hunt-morgan",
+          "quote": "Morgan worked at Columbia University for 24 years, from 1904 until 1928"
+        },
+        "city": {
+          "nameHe": "ניו יורק",
+          "nameFull": "New York City"
+        },
+        "wikidata": "Q49088"
+      },
+      "novelty": "**מורגן** מצא ב**זבוב פירות** שגנים נישאים על **כרומוזומים**.",
+      "contribution": "תורת התורשה קיבלה **בסיס פיזי** בתוך התא.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thomas-hunt-morgan",
+          "quote": "in 1910 Morgan noticed a white-eyed mutant male among the red-eyed wild types."
+        },
+        {
+          "sourceId": "s-wp-thomas-hunt-morgan",
+          "quote": "In his famous Fly Room at Columbia University's Schermerhorn Hall, Morgan demonstrated that genes are carried on chromosomes and are the mechanical basis of heredity."
+        }
+      ],
+      "sources": [
+        "s-wp-thomas-hunt-morgan"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1928-fleming-penicillin",
+      "title": "פניצילין",
+      "yearFrom": 1928,
+      "yearTo": 1928,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-fleming"
+      ],
+      "place": {
+        "wikipedia": "St Mary's Hospital, London",
+        "nameHe": "בית החולים סנט מרי",
+        "nameFull": "St Mary's Hospital",
+        "lat": 51.5172,
+        "lon": -0.1731,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-alexander-fleming",
+          "quote": "In 1918 he returned to St Mary's Hospital"
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q3495342"
+      },
+      "novelty": "**פלמינג** גילה ש**עובש** מסוים הורג חיידקים.",
+      "contribution": "זו האנטיביוטיקה הראשונה, שתוארה כ\"**הניצחון הגדול ביותר על מחלה**\".",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-alexander-fleming",
+          "quote": "His discovery in 1928 of what was later named benzylpenicillin (or penicillin G) from the mould Penicillium rubens has been described as the \"single greatest victory ever achieved over disease\"."
+        }
+      ],
+      "sources": [
+        "s-wp-alexander-fleming"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1952-photo51",
+      "title": "תצלום 51",
+      "yearFrom": 1952,
+      "yearTo": 1952,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-franklin"
+      ],
+      "place": {
+        "wikipedia": "King's College London",
+        "nameHe": "קינגס קולג' לונדון",
+        "nameFull": "King's College London",
+        "lat": 51.5119,
+        "lon": -0.1161,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-rosalind-franklin",
+          "quote": "After joining King's College London in 1951 as a research associate"
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q245247"
+      },
+      "novelty": "**פרנקלין** והסטודנט שלה צילמו **תמונת עקיפה** של סיב DNA.",
+      "contribution": "התצלום היה המפתח לגילוי **הסליל הכפול**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-photo-51",
+          "quote": "Photo 51 is a 1952 X-ray based fiber diffraction image of a paracrystalline gel composed of DNA fiber taken by Rosalind Franklin's PhD student Raymond Gosling at King's College London"
+        }
+      ],
+      "sources": [
+        "s-wp-photo-51",
+        "s-wp-rosalind-franklin"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1953-double-helix",
+      "title": "הסליל הכפול של ה-DNA",
+      "yearFrom": 1953,
+      "yearTo": 1953,
+      "yearApprox": false,
+      "domainId": "biology",
+      "personIds": [
+        "p-watson",
+        "p-crick"
+      ],
+      "place": {
+        "wikipedia": "University of Cambridge",
+        "nameHe": "אוניברסיטת קיימברידג'",
+        "nameFull": "University of Cambridge",
+        "lat": 52.2054,
+        "lon": 0.1132,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-james-watson",
+          "quote": "Watson worked at the University of Cambridge's Cavendish Laboratory in England, where he met his future collaborator Francis Crick."
+        },
+        "city": {
+          "nameHe": "קיימברידג׳",
+          "nameFull": "Cambridge"
+        },
+        "wikidata": "Q35794"
+      },
+      "novelty": "**ווטסון** ו**קריק** הציעו שה-DNA בנוי כ**סליל כפול** של שני גדילים.",
+      "contribution": "המבנה הסביר איך **מידע תורשתי** מועתק, וייסד את **הביולוגיה המולקולרית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-molecular-structure-of-nucleic-acids",
+          "quote": "Watson in the scientific journal Nature on pages 737–738 of its 171st volume (dated 25 April 1953)."
+        },
+        {
+          "sourceId": "s-wp-nucleic-acid-double-helix",
+          "quote": "The double helix structure of DNA was first proposed by James Watson and Francis Crick"
+        }
+      ],
+      "sources": [
+        "s-wp-molecular-structure-of-nucleic-acids",
+        "s-wp-nucleic-acid-double-helix",
+        "s-wp-james-watson"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1908-hardy-weinberg",
+      "title": "שיווי משקל הארדי-וינברג",
+      "yearFrom": 1908,
+      "yearTo": 1908,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-hardy",
+        "p-weinberg"
+      ],
+      "place": null,
+      "novelty": "**הארדי** ו**וינברג** הוכיחו במתמטיקה ששכיחות הגנים **נשארת קבועה** בלי כוחות חיצוניים.",
+      "contribution": "המשוואה היא נקודת האפס של **גנטיקת האוכלוסיות**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hardy-weinberg-principle",
+          "quote": "it had first been formulated independently in 1908 by the German physician Wilhelm Weinberg."
+        },
+        {
+          "sourceId": "s-wp-hardy-weinberg-principle",
+          "quote": "Hardy and Wilhelm Weinberg, who first demonstrated it mathematically."
+        }
+      ],
+      "sources": [
+        "s-wp-hardy-weinberg-principle"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1918-fisher-variance",
+      "title": "השונות: סטטיסטיקה של תורשה",
+      "yearFrom": 1918,
+      "yearTo": 1918,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-fisher"
+      ],
+      "place": {
+        "wikipedia": "Rothamsted Research",
+        "nameHe": "תחנת הניסויים רות׳האמסטד",
+        "nameFull": "Rothamsted Research",
+        "lat": 51.8092,
+        "lon": -0.3553,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-ronald-fisher",
+          "quote": "In 1919, he began working at the Rothamsted Experimental Station in Hertfordshire"
+        },
+        "city": {
+          "nameHe": "הרפנדן",
+          "nameFull": "Harpenden"
+        },
+        "wikidata": "Q1326711"
+      },
+      "novelty": "**פישר** הציג את מושג **השונות**, והראה שגנים רבים יוצרים יחד שונות רציפה.",
+      "contribution": "הוא איחד את **מנדל** ואת **דרווין** בשפה מתמטית אחת.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ronald-fisher",
+          "quote": "In 1918 he published \"The Correlation between Relatives on the Supposition of Mendelian Inheritance\", in which he introduced the term variance and proposed its formal analysis."
+        }
+      ],
+      "sources": [
+        "s-wp-ronald-fisher"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }
