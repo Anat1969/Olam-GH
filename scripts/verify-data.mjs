@@ -3,7 +3,7 @@
 //
 // How a record earns verified=true:
 //   discovery: every evidence quote is found verbatim in its source article (whitespace-normalised),
-//              and at least one quote contains the year (yearFrom, or "N BC"/"N BCE" for negative years).
+//              and at least one quote contains a year of the range (yearFrom or yearTo; "N BC"/"N BCE" for negative years).
 //   place:     its own evidence quote is found; coordinates and names come from Wikidata.
 //   link:      both ends exist, and every evidence quote is found. A link without evidence stays false.
 //   person:    resolved to a Wikidata item with a Hebrew label and at least one dated life event.
@@ -131,9 +131,10 @@ async function main() {
     if (!e) reasons.push('לא נמצא פריט בוויקינתונים');
     else {
       p.wikidata = qid;
-      p.nameHe = label(e, 'he');
+      p.nameHe = label(e, 'he') || p.nameHeTranslit || null;
+      p.nameHeSource = label(e, 'he') ? 'wikidata' : p.nameHeTranslit ? 'transliteration' : null;
       p.nameFull = label(e, 'en');
-      if (!p.nameHe) reasons.push('אין שם עברי בוויקינתונים');
+      if (!p.nameHe) reasons.push('אין שם עברי בוויקינתונים, וגם לא תעתיק');
       const b = lifeDate(claim(e, 'P569'));
       const d = lifeDate(claim(e, 'P570'));
       p.birthYear = b?.year ?? null; p.birthDate = b?.date ?? null; p.birthApprox = b?.approx ?? false;
@@ -161,7 +162,7 @@ async function main() {
   for (const d of discoveries) {
     const reasons = [];
     for (const ev of d.evidence) if (!(await quoteFound(ev))) reasons.push(`הציטוט לא נמצא במקור ${ev.sourceId}: "${ev.quote.slice(0, 60)}"`);
-    if (!d.evidence.some((ev) => yearTokens(d.yearFrom).some((t) => ev.quote.includes(t)))) reasons.push(`השנה ${d.yearFrom} לא מופיעה באף ציטוט`);
+    if (!d.evidence.some((ev) => [...yearTokens(d.yearFrom), ...yearTokens(d.yearTo)].some((t) => ev.quote.includes(t)))) reasons.push(`השנה ${d.yearFrom} או ${d.yearTo} לא מופיעה באף ציטוט`);
     for (const pid of d.personIds) if (!personIds.has(pid)) reasons.push(`דמות לא קיימת: ${pid}`);
     if (d.yearTo < d.yearFrom) reasons.push('טווח שנים הפוך');
     if (d.place) {

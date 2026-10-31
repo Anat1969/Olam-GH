@@ -521,6 +521,435 @@
       "verified": true,
       "verifiedAt": "2026-10-31",
       "application": "לחשב **תוחלת** של משחק פשוט, כמו שעשה הויגנס."
+    },
+    {
+      "id": "l-27",
+      "fromId": "d-1896-becquerel-radioactivity",
+      "toId": "d-1898-curie-radium",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הקרן של בקרל הפכה ליסוד של קירי.== **קירי** חיפשה חומרים נוספים שקורנים, אחרי שבקרל גילה את קרינת **האורניום**.",
+      "application": "לספר את הגילוי כשרשרת: **קרינה** של בקרל, ואז **יסודות** של קירי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-marie-curie",
+          "quote": "In 1896, Henri Becquerel discovered that uranium salts emitted rays that resembled X-rays in their penetrating power."
+        },
+        {
+          "sourceId": "s-wp-marie-curie",
+          "quote": "\"for their joint researches on the radioactivity phenomena discovered by Professor Henri Becquerel\"."
+        }
+      ],
+      "sources": [
+        "s-wp-marie-curie"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-28",
+      "fromId": "d-1898-curie-radium",
+      "toId": "p-rutherford",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הרדיום של קירי הזין את הפיזיקה של רתרפורד.== **רתרפורד** עבד עם דגימות **רדיום** שקיבל ממארי קירי.",
+      "application": "להראות איך **חומר** שהתגלה בכימיה הופך ל**כלי מחקר** בפיזיקה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ernest-rutherford",
+          "quote": "and radium, from Marie Curie."
+        }
+      ],
+      "sources": [
+        "s-wp-ernest-rutherford"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-29",
+      "fromId": "d-1869-mendeleev-periodic",
+      "toId": "p-bohr",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==הטבלה של הכימאים הכתיבה את מודל האטום.== **בוהר** הרחיב את המודל שלו לאטומים כבדים בעקבות העבודה על **הטבלה המחזורית**.",
+      "application": "לקרוא את הטבלה המחזורית כ**מפה של קליפות אלקטרונים**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bohr-model",
+          "quote": "In 1921, following the work of chemists and others involved in work on the periodic table, Bohr extended the model of hydrogen to give an approximate model for heavier atoms."
+        }
+      ],
+      "sources": [
+        "s-wp-bohr-model"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-30",
+      "fromId": "d-1895-rontgen-xrays",
+      "toId": "d-1913-moseley-number",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==קרני רנטגן סידרו את הטבלה המחזורית.== **מוזלי** מדד את ספקטרום ה**רנטגן** של היסודות.",
+      "application": "להראות שכלי מדידה מפיזיקה יכול **לתקן סדר** בכימיה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-x-ray",
+          "quote": "X-rays were discovered in 1895 by the German scientist Wilhelm Conrad Röntgen"
+        },
+        {
+          "sourceId": "s-wp-henry-moseley",
+          "quote": "In 1913, Moseley observed and measured the X-ray spectra of various chemical elements"
+        }
+      ],
+      "sources": [
+        "s-wp-x-ray",
+        "s-wp-henry-moseley"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-31",
+      "fromId": "d-1869-mendeleev-periodic",
+      "toId": "d-1913-moseley-number",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מוזלי נתן למקום בטבלה משמעות פיזיקלית.== לפני מוזלי, **המספר האטומי** היה רק מקומו של יסוד בטבלה של מנדלייב.",
+      "application": "ללמד את הטבלה בשני שלבים: **סדר לפי משקל**, ואחר כך **סדר לפי מטען**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-moseley-s-law",
+          "quote": "Until Moseley's work, \"atomic number\" was merely an element's place in the periodic table and was not known to be associated with any measurable physical quantity."
+        }
+      ],
+      "sources": [
+        "s-wp-moseley-s-law"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-32",
+      "fromId": "p-maxwell",
+      "toId": "d-1876-gibbs-potential",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==שלושה אנשים בנו את המכניקה הסטטיסטית.== **גיבס**, **מקסוול** ו**בולצמן** הסבירו את התרמודינמיקה מתוך הסתברות.",
+      "application": "להראות ש**חום** ו**כימיה** הם אותה סטטיסטיקה של חלקיקים רבים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-josiah-willard-gibbs",
+          "quote": "Together with James Clerk Maxwell and Ludwig Boltzmann, he created statistical mechanics"
+        }
+      ],
+      "sources": [
+        "s-wp-josiah-willard-gibbs"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-33",
+      "fromId": "p-kirchhoff",
+      "toId": "d-1900-planck-quantum",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==השאלה של קירכהוף חיכתה 40 שנה לפלאנק.== **הפונקציה של קירכהוף** לקרינה קיבלה צורה מתמטית רק אצל **פלאנק**.",
+      "application": "להציג שאלה פתוחה כ**מנוע** של גילוי עתידי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-planck-s-law",
+          "quote": "has occasionally been called 'Kirchhoff's (emission, universal) function', though its precise mathematical form would not be known for another forty years, till it was discovered by Planck in 1900."
+        }
+      ],
+      "sources": [
+        "s-wp-planck-s-law"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-34",
+      "fromId": "d-1808-dalton-atoms",
+      "toId": "d-1811-avogadro-law",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==אבוגדרו יישב סתירה בתורת האטומים.== ההשערה שלו חיברה את **דלטון** עם מדידות הגזים של **גיי-לוסק**.",
+      "application": "ללמד שסתירה בין שתי מדידות היא **רמז לגילוי**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-avogadro-s-law",
+          "quote": "it reconciled Dalton atomic theory with the \"incompatible\" idea of Joseph Louis Gay-Lussac"
+        }
+      ],
+      "sources": [
+        "s-wp-avogadro-s-law"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-35",
+      "fromId": "d-1766-cavendish-hydrogen",
+      "toId": "p-lavoisier",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==לבואזיה חזר על הניסוי של קוונדיש ונתן לו שם.== **לבואזיה** ו**לפלס** שחזרו את הממצא ש**שריפת מימן יוצרת מים**.",
+      "application": "להראות ש**שחזור** של ניסוי הוא חלק מהגילוי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hydrogen",
+          "quote": "In 1783, Antoine Lavoisier identified the element that came to be known as hydrogen when he and Laplace reproduced Cavendish's finding that water is produced when hydrogen is burned."
+        }
+      ],
+      "sources": [
+        "s-wp-hydrogen"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-36",
+      "fromId": "p-pauling",
+      "toId": "d-1953-double-helix",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הכימיה של הקשר הובילה לסליל הכפול.== העבודה של **פאולינג** השפיעה על **ווטסון**, **קריק**, **פרנקלין** ו**וילקינס**.",
+      "application": "ללמד את ה-DNA כ**מבנה כימי** לפני שמלמדים אותו כ**קוד**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-linus-pauling",
+          "quote": "His discoveries inspired the work of James Watson, Francis Crick, Rosalind Franklin, and Maurice Wilkins on the structure of DNA"
+        }
+      ],
+      "sources": [
+        "s-wp-linus-pauling"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-37",
+      "fromId": "d-1952-photo51",
+      "toId": "d-1953-double-helix",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==התצלום של פרנקלין היה המפתח.== **ווטסון** ו**קריק** הציעו את המבנה על סמך העבודה של **פרנקלין** ו**גוסלינג**.",
+      "application": "להציג את התגלית כ**עבודת צוות**, עם הקרדיט לכל המשתתפים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nucleic-acid-double-helix",
+          "quote": "The double helix structure of DNA was first proposed by James Watson and Francis Crick, based on the work of Rosalind Franklin, Raymond Gosling, Maurice Wilkins, and others."
+        }
+      ],
+      "sources": [
+        "s-wp-nucleic-acid-double-helix"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-38",
+      "fromId": "d-1895-rontgen-xrays",
+      "toId": "d-1952-photo51",
+      "type": "enabled",
+      "confidence": "interpretive",
+      "explanation": "==קרני רנטגן צילמו את מולקולת החיים.== **פרנקלין** צילמה סיב DNA ב**קרני רנטגן**.",
+      "application": "להראות שכלי אחד מפיזיקה משרת אחר כך **ביולוגיה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-x-ray-crystallography",
+          "quote": "Rosalind Franklin worked on the X-ray photography of a DNA fibre that proved key to James Watson and Francis Crick's discovery of the double helix"
+        }
+      ],
+      "sources": [
+        "s-wp-x-ray-crystallography"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-39",
+      "fromId": "d-1865-mendel-heredity",
+      "toId": "d-1918-fisher-variance",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==פישר איחד את מנדל ודרווין במתמטיקה.== ה**סטטיסטיקה** חיברה בין **תורשה** ל**ברירה טבעית**.",
+      "application": "ללמד גנטיקה עם **סטטיסטיקה**, לא רק עם אפונה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ronald-fisher",
+          "quote": "In genetics, Fisher was the one to most comprehensively combine the ideas of Gregor Mendel and Charles Darwin, as his work used mathematics to combine Mendelian genetics and natural selection"
+        }
+      ],
+      "sources": [
+        "s-wp-ronald-fisher"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-40",
+      "fromId": "d-1859-darwin-origin",
+      "toId": "d-1918-fisher-variance",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==פישר איחד את מנדל ודרווין במתמטיקה.== ה**סטטיסטיקה** חיברה בין **תורשה** ל**ברירה טבעית**.",
+      "application": "ללמד גנטיקה עם **סטטיסטיקה**, לא רק עם אפונה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ronald-fisher",
+          "quote": "In genetics, Fisher was the one to most comprehensively combine the ideas of Gregor Mendel and Charles Darwin, as his work used mathematics to combine Mendelian genetics and natural selection"
+        }
+      ],
+      "sources": [
+        "s-wp-ronald-fisher"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-41",
+      "fromId": "d-1865-mendel-heredity",
+      "toId": "d-1908-hardy-weinberg",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מתמטיקאי הגן על מנדל בשורה אחת של אלגברה.== **הארדי** כתב את המשוואה על **תכונות מנדליות**.",
+      "application": "לחשב שכיחות של גן ב**אוכלוסייה**, לא רק ב**משפחה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hardy-weinberg-principle",
+          "quote": "Suppose that Aa is a pair of Mendelian characters, A being dominant"
+        }
+      ],
+      "sources": [
+        "s-wp-hardy-weinberg-principle"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-42",
+      "fromId": "d-1858-wallace-ternate",
+      "toId": "d-1859-darwin-origin",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==אותו רעיון, בשני קצות העולם.== **וואלאס** שלח ל**דרווין** מאמר עם אותה תאוריה בזמן שדרווין כתב אותה.",
+      "application": "להשוות את שתי הדרכים לאותה מסקנה: **שנים של עבודה** מול **איי מלאיה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-charles-darwin",
+          "quote": "He was writing up his theory in 1858 when Wallace sent him an essay outlining the same idea"
+        }
+      ],
+      "sources": [
+        "s-wp-charles-darwin"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-43",
+      "fromId": "d-1665-hooke-micrographia",
+      "toId": "d-1676-leeuwenhoek-microbes",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==שני מיקרוסקופים, אותו עולם חדש.== **ואן לוונהוק** היה מהראשונים שראו תאים, כמו **הוק**.",
+      "application": "להשוות **כלי** מול **כלי**: מיקרוסקופ מורכב של הוק מול עדשה בודדת של לוונהוק.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-antonie-van-leeuwenhoek",
+          "quote": "Van Leeuwenhoek was one of the first people to observe cells, much like Robert Hooke."
+        }
+      ],
+      "sources": [
+        "s-wp-antonie-van-leeuwenhoek"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-44",
+      "fromId": "d-1839-cell-theory",
+      "toId": "d-1855-virchow-cells",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==וירכוב השלים את תורת התא.== \"**כל תא מתא**\" הוא העיקרון השלישי של תורת התא.",
+      "application": "ללמד את תורת התא כ**שלושה עקרונות** שנוספו בזה אחר זה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-rudolf-virchow",
+          "quote": "introduced the third dictum in cell theory: Omnis cellula e cellula (\"All cells come from cells\")"
+        }
+      ],
+      "sources": [
+        "s-wp-rudolf-virchow"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-45",
+      "fromId": "d-1865-mendel-heredity",
+      "toId": "d-1910-morgan-chromosomes",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מורגן מצא איפה הגורמים של מנדל יושבים.== הגנטיקאים פיתחו את **התאוריה המנדלית-כרומוזומית** בין **1910** ל-**1915**.",
+      "application": "לחבר בין **חוק** (מנדל) ל**מקום** (כרומוזום).",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thomas-hunt-morgan",
+          "quote": "The activities of 'geneticists' were aimed at further elucidation of the details and implications of the Mendelian-chromosome theory developed between 1910 and 1915."
+        }
+      ],
+      "sources": [
+        "s-wp-thomas-hunt-morgan"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-46",
+      "fromId": "d-1869-miescher-nuclein",
+      "toId": "d-1953-double-helix",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==84 שנה מהבידוד ועד המבנה.== **מישר** בודד את החומר ב-**1869**, והמבנה שלו פוענח ב-**1953**.",
+      "application": "להראות שגילוי יכול **לחכות לדור הבא** כדי שיבינו אותו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-friedrich-miescher",
+          "quote": "Before Watson and Crick in 1953 Came Friedrich Miescher in 1869."
+        }
+      ],
+      "sources": [
+        "s-wp-friedrich-miescher"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-47",
+      "fromId": "d-1800-volta-pile",
+      "toId": "d-1833-faraday-electrolysis",
+      "type": "enabled",
+      "confidence": "interpretive",
+      "explanation": "==הסוללה פתחה את הכימיה החשמלית.== **הסוללה של וולטה** אפשרה לראשונה **לפרק מים** בחשמל.",
+      "application": "להראות איך **מקור אנרגיה חדש** פותח תחום מחקר שלם.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-voltaic-pile",
+          "quote": "Use of the voltaic pile enabled a rapid series of other discoveries, including the electrical decomposition (electrolysis) of water into oxygen and hydrogen"
+        }
+      ],
+      "sources": [
+        "s-wp-voltaic-pile"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

@@ -7,6 +7,15 @@ const PORT = 4199;
 const BASE = `http://localhost:${PORT}/`;
 const MENU = fs.readFileSync(path.join(__dirname, 'fixtures/ai-menu.js'), 'utf8');
 const fails = [];
+// ספירות צפויות נגזרות מהנתונים עצמם, כדי שהבדיקות לא יישברו כשנוסף תוכן מאומת
+const DATA = path.join(__dirname, '..', 'data');
+const read = (f) => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8'));
+const DISC = read('discoveries.json').discoveries.filter((d) => d.verified);
+const PERS = read('persons.json').persons.filter((x) => x.verified);
+const DOMS = [...new Set(DISC.map((d) => d.domainId))];
+const N = DISC.length;
+const inDomain = (id) => DISC.filter((d) => d.domainId === id).length;
+const parisPeople = new Set(DISC.filter((d) => d.place && d.place.city.nameFull === 'Paris').flatMap((d) => d.personIds)).size;
 const ok = (cond, msg) => { console.log((cond ? 'PASS ' : 'FAIL ') + msg); if (!cond) fails.push(msg); };
 const h1 = (p) => p.locator('h1').innerText();
 const waitH1 = (p, part) => p.waitForFunction((t) => document.querySelector('h1')?.innerText.includes(t), part, { timeout: 5000 }).catch(() => {});
@@ -30,11 +39,11 @@ const mock = async (p) => {
     const loadMs = Date.now() - t0;
     ok(loadMs < 2000, `טעינה מתחת ל-2 שניות (${loadMs}ms)`);
     ok(await p.evaluate(() => document.documentElement.dir === 'rtl' && document.documentElement.lang === 'he'), 'עברית ו-RTL מוגדרים במפורש');
-    ok((await h1(p)).includes('40 גילויים'), 'דף הבית: שורת התובנה עם המספר המרכזי');
+    ok((await h1(p)).includes(`${N} גילויים`), `דף הבית: שורת התובנה עם המספר המרכזי (${N})`);
     ok(await p.locator('ai-menu .logo').isVisible(), 'כפתור הלוגו A&I בסרגל העליון');
     ok(!(await p.locator('header >> text=העתקת קישור').first().isVisible().catch(() => false)), 'אין כפתורי פיתוח חופשיים בסרגל');
     ok(await p.locator('svg.stack .slab').count() === 4, 'דף הבית: 4 שכבות של משפחות ידע');
-    ok(await p.locator('svg.stack .stack-dot').count() === 40, 'דף הבית: 40 נקודות גילוי על שכבת שכל');
+    ok(await p.locator('svg.stack .stack-dot').count() === N, `דף הבית: ${N} נקודות גילוי על שכבת שכל`);
     await p.locator('.stack-legend li').nth(1).hover();
     ok(await p.locator('.slab.is-hover').count() === 1, 'ריחוף על המקרא מרים את השכבה');
     ok(await p.locator('.city-bars li').count() >= 5, 'ערי הידע מוצגות');
@@ -83,14 +92,16 @@ const mock = async (p) => {
 
     await p.getByRole('button', { name: /מתמטיקה/ }).click();
     await p.waitForTimeout(150);
-    ok(p.url().includes('d=mathematics') && (await p.locator('.tl-card').count()) === 20, 'מעבר לתחום מתמטיקה');
+    ok(p.url().includes('d=mathematics') && (await p.locator('.tl-card').count()) === inDomain('mathematics'), 'מעבר לתחום מתמטיקה');
 
     await p.goto(BASE + '#/timeline?d=mathematics&y=1850&p=p-godel', { waitUntil: 'networkidle' });
+    await waitH1(p, 'בשנת 1850');
+    await p.locator('.person-name').waitFor();
     ok((await h1(p)).includes('בשנת 1850') && (await p.locator('.person-name').innerText()) === 'קורט גדל', 'קישור מועתק פותח את אותו מצב');
     ok((await p.locator('aside.person .rel').first().innerText()).includes('ערער על'), 'כיוון הקשר: גדל ערער על הילברט');
     await p.locator('.brand').click();
-    await waitH1(p, '40 גילויים');
-    ok((await h1(p)).includes('40 גילויים'), 'שם האפליקציה מוביל לבית');
+    await waitH1(p, `${N} גילויים`);
+    ok((await h1(p)).includes(`${N} גילויים`), 'שם האפליקציה מוביל לבית');
 
     // שלב 2: השוואה בין תחומים
     await p.goto(BASE + '#/compare', { waitUntil: 'networkidle' });
@@ -99,14 +110,14 @@ const mock = async (p) => {
     const cmpTitle = await h1(p);
     const crossN = Number(cmpTitle.match(/\d+/)[0]);
     ok(/קשרים חוצים בין/.test(cmpTitle) && crossN >= 8, `השוואה: שורת התובנה (${crossN} קשרים חוצים)`);
-    ok(await p.locator('.cmp-rowname').count() === 2, 'שתי שורות תחום על ציר אחד');
-    ok((await p.locator('.cmp-card').count()) + (await p.locator('.cmp-pin').count()) === 40, 'כל 40 הגילויים על הציר המשותף');
+    ok(await p.locator('.cmp-rowname').count() === DOMS.length, `${DOMS.length} שורות תחום על ציר אחד`);
+    ok((await p.locator('.cmp-card').count()) + (await p.locator('.cmp-pin').count()) === N, `כל ${N} הגילויים על הציר המשותף`);
     await p.getByRole('button', { name: '1500–1750' }).click();
     await p.waitForTimeout(250);
     ok(p.url().includes('f=1500') && p.url().includes('t=1750'), 'חלון התקופה נשמר בכתובת');
     ok((await p.locator('.cmp-view').innerText()).includes('1500'), 'חלון הזום מוצג');
     const inWindow = await p.locator('.cmp-card').count();
-    ok(inWindow > 0 && inWindow < 40, `זום מסונכרן: רק הגילויים בחלון (${inWindow})`);
+    ok(inWindow > 0 && inWindow < N, `זום מסונכרן: רק הגילויים בחלון (${inWindow})`);
     const ys = await p.locator('.cmp-card').evaluateAll((els) => [...new Set(els.map((e) => e.style.top))].length);
     ok(ys > 2, 'הזום חל על שתי השורות יחד');
     await p.getByRole('button', { name: 'כל הציר' }).click();
@@ -117,8 +128,9 @@ const mock = async (p) => {
     ok((await p.locator('.cmp-view').innerText()) !== fullSpan, 'כפתור הגדלה משנה את החלון');
     const box = await p.locator('.cmp-plot').boundingBox();
     const beforeDrag = await p.locator('.cmp-view').innerText();
-    await p.mouse.move(box.x + box.width / 2, box.y + box.height / 2 + 20);
-    await p.mouse.down(); await p.mouse.move(box.x + box.width / 2 - 200, box.y + box.height / 2 + 20, { steps: 8 }); await p.mouse.up();
+    const gapY = box.y + 30 + 188 + 60; // בתוך שדה הקשרים, לא על כרטיס
+    await p.mouse.move(box.x + box.width / 2, gapY);
+    await p.mouse.down(); await p.mouse.move(box.x + box.width / 2 - 200, gapY, { steps: 8 }); await p.mouse.up();
     await p.waitForTimeout(200);
     ok((await p.locator('.cmp-view').innerText()) !== beforeDrag, 'גרירה מזיזה את הציר');
     await p.getByRole('button', { name: 'כל הציר' }).click();
@@ -141,10 +153,9 @@ const mock = async (p) => {
     await p.getByRole('button', { name: 'רק חוצי תחום' }).click();
     await p.waitForTimeout(150);
     ok((await p.locator('.link-item').count()) === crossN, 'רק קשרים חוצי תחום');
-    await p.locator('.cmp-controls').getByRole('button', { name: /^פיזיקה/ }).click();
-    await p.waitForTimeout(150);
+    await p.goto(BASE + '#/compare?d=physics', { waitUntil: 'networkidle' });
     ok((await p.locator('.cmp-rowname').count()) === 1 && (await h1(p)).includes('בתוך'), 'אפשר להשאיר תחום אחד');
-    await p.locator('.cmp-controls').getByRole('button', { name: /^פיזיקה/ }).click();
+    await p.goto(BASE + '#/compare?d=mathematics,physics', { waitUntil: 'networkidle' });
     await p.locator('[data-id="d-1915-einstein-general"]').click();
     await p.locator('aside.person').waitFor();
     ok((await p.locator('.person-name').innerText()).includes('איינשטיין'), 'כרטיס בהשוואה פותח את הדמות');
@@ -169,7 +180,7 @@ const mock = async (p) => {
     await p.locator('.map-controls input[type=range]').fill('1000');
     await p.waitForTimeout(250);
     const m1950 = await p.locator('.map-city').count();
-    ok(p.url().includes('y=1950') && m1950 > m1700, `המחוון מזיז את הנקודות בזמן אמת (${m1700} ל-${m1950})`);
+    ok(p.url().includes('y=1960') && m1950 > m1700, `המחוון מזיז את הנקודות בזמן אמת (${m1700} ל-${m1950})`);
     await p.locator('.map-controls input[type=range]').fill('0');
     await p.waitForTimeout(250);
     ok((await p.locator('.map-city').count()) < m1700, 'בתחילת הציר יש פחות ערים');
@@ -178,7 +189,7 @@ const mock = async (p) => {
     await p.locator('.map-city[data-city="Paris"]').click();
     await p.waitForTimeout(250);
     ok(p.url().includes('c=Paris') && (await p.locator('.city-panel').innerText()).includes('פריז'), 'לחיצה על עיר פותחת את הגילויים שבה');
-    ok(await p.locator('.city-items li').count() === 4, 'פריז: 4 גילויים');
+    ok(await p.locator('.city-items li').count() === DISC.filter((d) => d.place && d.place.city.nameFull === 'Paris').length, 'פריז: כל הגילויים שבה');
     await p.locator('.city-items .chip', { hasText: 'בלז פסקל' }).click();
     await p.locator('aside.person').waitFor();
     ok((await p.locator('.person-name').innerText()).includes('פסקל'), 'מהעיר לכרטיס הדמות');
@@ -207,7 +218,7 @@ const mock = async (p) => {
     ok(await p.locator('.tabs [aria-current="page"]').innerText() === 'גרף', 'לשונית גרף מסומנת');
     ok((await h1(p)).startsWith('הצומת המרכזי:'), 'גרף: שורת התובנה מחושבת ' + (await h1(p)));
     const nAll = await p.locator('.g-node').count();
-    ok(nAll === 38, `צומת לכל דמות מאומתת (${nAll})`);
+    ok(nAll === PERS.length, `צומת לכל דמות מאומתת (${nAll})`);
     const eAll = await p.locator('.g-edge').count();
     ok(eAll >= 25, `קו לכל קשר בין דמויות (${eAll})`);
     await p.locator('.g-node[data-person="p-galileo"]').click();
@@ -229,10 +240,10 @@ const mock = async (p) => {
     ok(await p.locator('.cut[aria-pressed="true"]').count() === 1, 'החיתוך הפעיל מסומן');
     await p.getByRole('button', { name: 'איפוס' }).click();
     await p.waitForTimeout(150);
-    ok((await p.locator('.g-node').count()) === 38, 'איפוס מחזיר את כל הדמויות');
+    ok((await p.locator('.g-node').count()) === PERS.length, 'איפוס מחזיר את כל הדמויות');
     await p.locator('.graph-controls select').selectOption('Paris');
     await p.waitForTimeout(150);
-    ok(p.url().includes('c=Paris') && (await p.locator('.g-node:not(.is-context)').count()) === 5, 'סינון לפי עיר: 5 הדמויות של פריז');
+    ok(p.url().includes('c=Paris') && (await p.locator('.g-node:not(.is-context)').count()) === parisPeople, `סינון לפי עיר: ${parisPeople} הדמויות של פריז`);
     ok(await p.locator('.g-node.is-context').count() > 0, 'שכנים מחוץ לעיר מוצגים כהקשר');
     await p.locator('.graph-controls select').selectOption('');
     await p.locator('.conf-chip-documented').click();

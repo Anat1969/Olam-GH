@@ -18,7 +18,7 @@
 |---|---|---|
 | Person | id, nameHe, nameFull, birthYear, deathYear, calendar, birthPlace, domains, imageUrl, imageLicense, sources, verified | שנים כטווח אם צריך. `calendar` = gregorian או julian |
 | Place | id, nameHe, nameFull, lat, lon | לתצוגה במפה |
-| Discovery | id, title, yearFrom, yearTo, place, personIds, domainId, contribution, confidence, sources, verified | `confidence`: documented, interpretive, hypothesis |
+| Discovery | id, title, yearFrom, yearTo, place, personIds, domainId, novelty, contribution, confidence, sources, verified | `novelty` = החידוש (מה היה ייחודי), `contribution` = התרומה (מה זה שינה) | `confidence`: documented, interpretive, hypothesis |
 | Link | id, fromId, toId, type, confidence, explanation, sources, verified | type: influenced, enabled, opposed, parallel |
 | Source | id, title, url, accessedAt | כל רשומה מצביעה לפחות על מקור אחד |
 
@@ -36,7 +36,7 @@
 - **שלב 2, השוואה וקשרים.** שני תחומים או יותר, סימון קשר בלחיצה.
 - **שלב 3, מפה.** תצוגת מפה עם מחליק זמן.
 - **שלב 4, גרף ותצוגות חיתוך.** גרף קשרים, מסננים מתקדמים, שמירת תצוגות.
-- **שלב 4ב, תחומים נוספים (הצעה).** אותו צינור אימות, 20 גילויים לתחום. סדר מוצע: כימיה וביולוגיה (משפחת שכל, קשרים ישירים לפיזיקה ולמתמטיקה), אחר כך פילוסופיה (רוח), ובסוף רגש ויצר, שבהם "גילוי" הוא יצירה או סגנון ודורש הגדרה משלו. קריטריון: כל רשומה `verified: true`, ולפחות 5 קשרים חוצי תחום לכל תחום חדש.
+- **שלב 4ב, תחומים נוספים.** בוצע לכימיה ולביולוגיה (31.10.2026), 20 גילויים בכל אחד. הגדרת "גילוי" ברגש וביצר (החלטת ענת): **החידוש שביצירה של כל יוצר, הייחודיות שלה ותרומתה**, באותם שני שדות. המשך: אותו צינור אימות, 20 גילויים לתחום. סדר מוצע: כימיה וביולוגיה (משפחת שכל, קשרים ישירים לפיזיקה ולמתמטיקה), אחר כך פילוסופיה (רוח), ובסוף רגש ויצר, שבהם "גילוי" הוא יצירה או סגנון ודורש הגדרה משלו. קריטריון: כל רשומה `verified: true`, ולפחות 5 קשרים חוצי תחום לכל תחום חדש.
 - **שלב 5, תשתית.** העברה ל-Supabase עם RLS לקריאה ציבורית, ועריכה לא טכנית.
 
 ## 6. החלטות (אושרו על ידי ענת, 31.10.2026)

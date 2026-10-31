@@ -34,7 +34,8 @@
       "wikidata": "Q11104",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Ibn_Al-Haytham_portrait.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ibn_Al-Haytham_portrait.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-copernicus",
@@ -69,7 +70,8 @@
       "wikidata": "Q619",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-galileo",
@@ -103,7 +105,8 @@
       "wikidata": "Q307",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-kepler",
@@ -138,7 +141,8 @@
       "wikidata": "Q8963",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Johannes_Kepler_by_Hans_von_Aachen.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Johannes_Kepler_by_Hans_von_Aachen.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-huygens",
@@ -173,7 +177,8 @@
       "wikidata": "Q39599",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Christiaan-huygens4.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Christiaan-huygens4.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-newton",
@@ -208,7 +213,8 @@
       "wikidata": "Q935",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-coulomb",
@@ -242,7 +248,8 @@
       "wikidata": "Q81716",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Charles_de_Coulomb.png"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Charles_de_Coulomb.png",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-volta",
@@ -276,7 +283,8 @@
       "wikidata": "Q680",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Alessandro_Volta.jpeg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alessandro_Volta.jpeg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-young",
@@ -310,7 +318,8 @@
       "wikidata": "Q25820",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Thomas_Young_by_Briggs.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Thomas_Young_by_Briggs.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-faraday",
@@ -330,7 +339,8 @@
         "lon": -0.1011
       },
       "domains": [
-        "physics"
+        "physics",
+        "chemistry"
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/500px-M_Faraday_Th_Phillips_oil_1842.jpg",
       "imageLicense": "Public domain",
@@ -344,7 +354,8 @@
       "wikidata": "Q8750",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-maxwell",
@@ -378,7 +389,8 @@
       "wikidata": "Q9095",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:James-Clerk-Maxwell-1831-1879.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:James-Clerk-Maxwell-1831-1879.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-rontgen",
@@ -412,7 +424,8 @@
       "wikidata": "Q35149",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Wilhelm_Conrad_R%C3%B6ntgen_(1888-1900),_88374_p.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Wilhelm_Conrad_R%C3%B6ntgen_(1888-1900),_88374_p.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-becquerel",
@@ -446,7 +459,8 @@
       "wikidata": "Q41269",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Paul_Nadar_-_Henri_Becquerel.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Paul_Nadar_-_Henri_Becquerel.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-planck",
@@ -480,7 +494,8 @@
       "wikidata": "Q9021",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Max_Planck.png"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Max_Planck.png",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-einstein",
@@ -514,7 +529,8 @@
       "wikidata": "Q937",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-rutherford",
@@ -548,7 +564,8 @@
       "wikidata": "Q9123",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-bohr",
@@ -582,7 +599,8 @@
       "wikidata": "Q7085",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-noether",
@@ -617,7 +635,8 @@
       "wikidata": "Q7099",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:EmmyNoether_MFO3096.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:EmmyNoether_MFO3096.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-euclid",
@@ -645,7 +664,8 @@
       "wikidata": "Q8747",
       "birthApprox": true,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Euklid2.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Euklid2.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-archimedes",
@@ -680,7 +700,8 @@
       "wikidata": "Q8739",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Retrato_de_un_erudito_(%C2%BFArqu%C3%ADmedes%3F),_por_Domenico_Fetti.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Retrato_de_un_erudito_(%C2%BFArqu%C3%ADmedes%3F),_por_Domenico_Fetti.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-aryabhata",
@@ -714,7 +735,8 @@
       "wikidata": "Q11359",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:2064_aryabhata-crp.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:2064_aryabhata-crp.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-brahmagupta",
@@ -748,7 +770,8 @@
       "wikidata": "Q202943",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Hindu_astronomer,_19th-century_illustration.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Hindu_astronomer,_19th-century_illustration.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-khwarizmi",
@@ -782,7 +805,8 @@
       "wikidata": "Q9038",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Madrid_-_Ciudad_Universitaria,_Monumento_a_Muhammad_al-Juarismi_(cropped).jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Madrid_-_Ciudad_Universitaria,_Monumento_a_Muhammad_al-Juarismi_(cropped).jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-fibonacci",
@@ -816,7 +840,8 @@
       "wikidata": "Q8763",
       "birthApprox": false,
       "deathApprox": true,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Fibonacci5.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Fibonacci5.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-napier",
@@ -850,7 +875,8 @@
       "wikidata": "Q159592",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:John_Napier.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:John_Napier.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-descartes",
@@ -884,7 +910,8 @@
       "wikidata": "Q9191",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-pascal",
@@ -918,7 +945,8 @@
       "wikidata": "Q1290",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles.JPG"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles.JPG",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-fermat",
@@ -952,7 +980,8 @@
       "wikidata": "Q75655",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat3.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat3.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-leibniz",
@@ -986,7 +1015,8 @@
       "wikidata": "Q9047",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-euler",
@@ -1020,7 +1050,8 @@
       "wikidata": "Q7604",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-gauss",
@@ -1054,7 +1085,8 @@
       "wikidata": "Q6722",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-lobachevsky",
@@ -1088,7 +1120,8 @@
       "wikidata": "Q129199",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Lobachevsky.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Lobachevsky.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-galois",
@@ -1122,7 +1155,8 @@
       "wikidata": "Q7091",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:E._Galois_Portrait_No.2.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:E._Galois_Portrait_No.2.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-riemann",
@@ -1156,7 +1190,8 @@
       "wikidata": "Q42299",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-cantor",
@@ -1190,7 +1225,8 @@
       "wikidata": "Q76420",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Georg_Cantor2.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Georg_Cantor2.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-hilbert",
@@ -1224,7 +1260,8 @@
       "wikidata": "Q41585",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Hilbert.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Hilbert.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-godel",
@@ -1258,7 +1295,8 @@
       "wikidata": "Q41390",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg",
+      "nameHeSource": "wikidata"
     },
     {
       "id": "p-turing",
@@ -1292,7 +1330,1558 @@
       "wikidata": "Q7251",
       "birthApprox": false,
       "deathApprox": false,
-      "imagePage": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951)_(crop).jpg"
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951)_(crop).jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-boyle",
+      "wikipedia": "Robert Boyle",
+      "nameHe": "רוברט בויל",
+      "nameFull": "Robert Boyle",
+      "birthYear": 1627,
+      "birthDate": "1627-01-25",
+      "deathYear": 1691,
+      "deathDate": "1691-12-31",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2368947",
+        "nameHe": "טירת ליזמור",
+        "nameFull": "Lismore Castle",
+        "lat": 52.1406,
+        "lon": -7.9325
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg/500px-The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Johann Kerseboom",
+      "sources": [
+        "s-wp-robert-boyle",
+        "s-wd-q43393"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q43393",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-cavendish",
+      "wikipedia": "Henry Cavendish",
+      "nameHe": "הנרי קוונדיש",
+      "nameFull": "Henry Cavendish",
+      "birthYear": 1731,
+      "birthDate": "1731-10-10",
+      "deathYear": 1810,
+      "deathDate": "1810-02-24",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q33959",
+        "nameHe": "ניס",
+        "nameFull": "Nice",
+        "lat": 43.7019,
+        "lon": 7.2683
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Cavendish_Henry_signature.jpg/500px-Cavendish_Henry_signature.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "George Wilson",
+      "sources": [
+        "s-wp-henry-cavendish",
+        "s-wd-q131733"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q131733",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Cavendish_Henry_signature.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-priestley",
+      "wikipedia": "Joseph Priestley",
+      "nameHe": "ג'וזף פריסטלי",
+      "nameFull": "Joseph Priestley",
+      "birthYear": 1733,
+      "birthDate": "1733-03-13",
+      "deathYear": 1804,
+      "deathDate": "1804-02-06",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q865872",
+        "nameHe": "בריסטול",
+        "nameFull": "Birstall",
+        "lat": 53.7343,
+        "lon": -1.6609
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Priestley.jpg/500px-Priestley.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Ellen Sharples",
+      "sources": [
+        "s-wp-joseph-priestley",
+        "s-wd-q159636"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q159636",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Priestley.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-lavoisier",
+      "wikipedia": "Antoine Lavoisier",
+      "nameHe": "אנטואן לבואזיה",
+      "nameFull": "Antoine Lavoisier",
+      "birthYear": 1743,
+      "birthDate": "1743-08-26",
+      "deathYear": 1794,
+      "deathDate": "1794-05-08",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%29.jpg/500px-David_-_Portrait_of_Monsieur_Lavoisier_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Jacques-Louis David",
+      "sources": [
+        "s-wp-antoine-lavoisier",
+        "s-wd-q39607"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q39607",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_(cropped).jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-dalton",
+      "wikipedia": "John Dalton",
+      "nameHe": "ג'ון דלטון",
+      "nameFull": "John Dalton",
+      "birthYear": 1766,
+      "birthDate": "1766-09-06",
+      "deathYear": 1844,
+      "deathDate": "1844-07-27",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q23360",
+        "nameHe": "קמברלנד",
+        "nameFull": "Cumberland",
+        "lat": 54.75,
+        "lon": -3
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0006489.jpg/500px-John_Dalton._Line_engraving_by_W._H._Worthington%2C_1823%2C_afte_Wellcome_V0006489.jpg",
+      "imageLicense": "CC BY 4.0",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-john-dalton",
+        "s-wd-q41284"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q41284",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:John_Dalton._Line_engraving_by_W._H._Worthington,_1823,_afte_Wellcome_V0006489.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-avogadro",
+      "wikipedia": "Amedeo Avogadro",
+      "nameHe": "אמדאו אבוגדרו",
+      "nameFull": "Amedeo Avogadro",
+      "birthYear": 1776,
+      "birthDate": "1776-08-09",
+      "deathYear": 1856,
+      "deathDate": "1856-07-09",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q495",
+        "nameHe": "טורינו",
+        "nameFull": "Turin",
+        "lat": 45.0792,
+        "lon": 7.6761
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Amadeo_Avogadro.png/500px-Amadeo_Avogadro.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "The original uploader was Anton at German Wikipedia.",
+      "sources": [
+        "s-wp-amedeo-avogadro",
+        "s-wd-q43476"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q43476",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Amadeo_Avogadro.png",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-wohler",
+      "wikipedia": "Friedrich Wöhler",
+      "nameHe": "פרידריך ולר",
+      "nameFull": "Friedrich Wöhler",
+      "birthYear": 1800,
+      "birthDate": "1800-07-31",
+      "deathYear": 1882,
+      "deathDate": "1882-09-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q450028",
+        "nameHe": null,
+        "nameFull": "Eschersheim",
+        "lat": 50.1569,
+        "lon": 8.6558
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Friedrich_W%C3%B6hler_Litho.jpg/500px-Friedrich_W%C3%B6hler_Litho.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Rudolph Hoffmann",
+      "sources": [
+        "s-wp-friedrich-wo-hler",
+        "s-wd-q58575"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q58575",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Friedrich_W%C3%B6hler_Litho.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-pasteur",
+      "wikipedia": "Louis Pasteur",
+      "nameHe": "לואי פסטר",
+      "nameFull": "Louis Pasteur",
+      "birthYear": 1822,
+      "birthDate": "1822-12-27",
+      "deathYear": 1895,
+      "deathDate": "1895-09-28",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q205586",
+        "nameHe": "דול",
+        "nameFull": "Dole",
+        "lat": 47.0922,
+        "lon": 5.4897
+      },
+      "domains": [
+        "chemistry",
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Louis_Pasteur_%281822_-_1895%29%2C_microbiologist_and_chemist_Wellcome_V0026980.jpg/500px-Louis_Pasteur_%281822_-_1895%29%2C_microbiologist_and_chemist_Wellcome_V0026980.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Paul Nadar",
+      "sources": [
+        "s-wp-louis-pasteur",
+        "s-wd-q529"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q529",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur_(1822_-_1895),_microbiologist_and_chemist_Wellcome_V0026980.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-perkin",
+      "wikipedia": "William Henry Perkin",
+      "nameHe": "ויליאם הנרי פרקין",
+      "nameFull": "William Henry Perkin",
+      "birthYear": 1838,
+      "birthDate": "1838-03-12",
+      "deathYear": 1907,
+      "deathDate": "1907-07-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q84",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/William_Henry_Perkin.jpg/500px-William_Henry_Perkin.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-william-henry-perkin",
+        "s-wd-q165749"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q165749",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:William_Henry_Perkin.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-bunsen",
+      "wikipedia": "Robert Bunsen",
+      "nameHe": "רוברט בונזן",
+      "nameFull": "Robert Bunsen",
+      "birthYear": 1811,
+      "birthDate": "1811-03-30",
+      "deathYear": 1899,
+      "deathDate": "1899-08-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q3033",
+        "nameHe": "גטינגן",
+        "nameFull": "Göttingen",
+        "lat": 51.5339,
+        "lon": 9.9356
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Robert_Wilhelm_Bunsen_%28HeidICON_53016%29_%28cropped%29.jpg/500px-Robert_Wilhelm_Bunsen_%28HeidICON_53016%29_%28cropped%29.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-robert-bunsen",
+        "s-wd-q71031"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q71031",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Robert_Wilhelm_Bunsen_(HeidICON_53016)_(cropped).jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-kirchhoff",
+      "wikipedia": "Gustav Kirchhoff",
+      "nameHe": "גוסטב קירכהוף",
+      "nameFull": "Gustav Kirchhoff",
+      "birthYear": 1824,
+      "birthDate": "1824-03-12",
+      "deathYear": 1887,
+      "deathDate": "1887-10-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q4120832",
+        "nameHe": "קניגסברג",
+        "nameFull": "Königsberg",
+        "lat": 54.7115,
+        "lon": 20.5093
+      },
+      "domains": [
+        "chemistry",
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Gustav_Robert_Kirchhoff.jpg/500px-Gustav_Robert_Kirchhoff.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-gustav-kirchhoff",
+        "s-wd-q60052"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q60052",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gustav_Robert_Kirchhoff.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-kekule",
+      "wikipedia": "August Kekulé",
+      "nameHe": "פרידריך אוגוסט קקולה",
+      "nameFull": "August Kekulé",
+      "birthYear": 1829,
+      "birthDate": "1829-09-07",
+      "deathYear": 1896,
+      "deathDate": "1896-07-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2973",
+        "nameHe": "דרמשטאדט",
+        "nameFull": "Darmstadt",
+        "lat": 49.8667,
+        "lon": 8.65
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Friedrich_August_Kekul%C3%A9_von_Stradonitz_%281890er%29.jpg/500px-Friedrich_August_Kekul%C3%A9_von_Stradonitz_%281890er%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-august-kekule",
+        "s-wd-q76784"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q76784",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Friedrich_August_Kekul%C3%A9_von_Stradonitz_(1890er).jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-mendeleev",
+      "wikipedia": "Dmitri Mendeleev",
+      "nameHe": "דמיטרי מנדלייב",
+      "nameFull": "Dmitri Mendeleev",
+      "birthYear": 1834,
+      "birthDate": "1834-01-27",
+      "deathYear": 1907,
+      "deathDate": "1907-01-20",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q168782",
+        "nameHe": "טובולסק",
+        "nameFull": "Tobolsk",
+        "lat": 58.1953,
+        "lon": 68.2581
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Dmitri_Mendeleev.jpg/500px-Dmitri_Mendeleev.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Original: Unknown authorUnknown author Upload: Germansociety2014",
+      "sources": [
+        "s-wp-dmitri-mendeleev",
+        "s-wd-q9106"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9106",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Dmitri_Mendeleev.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-gibbs",
+      "wikipedia": "Josiah Willard Gibbs",
+      "nameHe": "ג'וסיה וילארד גיבס",
+      "nameFull": "Josiah Willard Gibbs",
+      "birthYear": 1839,
+      "birthDate": "1839-02-11",
+      "deathYear": 1903,
+      "deathDate": "1903-04-28",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q49145",
+        "nameHe": "ניו הייבן",
+        "nameFull": "New Haven",
+        "lat": 41.3083,
+        "lon": -72.925
+      },
+      "domains": [
+        "chemistry",
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Josiah_Willard_Gibbs_-from_MMS-.jpg/500px-Josiah_Willard_Gibbs_-from_MMS-.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-josiah-willard-gibbs",
+        "s-wd-q153243"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q153243",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Josiah_Willard_Gibbs_-from_MMS-.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-arrhenius",
+      "wikipedia": "Svante Arrhenius",
+      "nameHe": "סוונטה ארהניוס",
+      "nameFull": "Svante August Arrhenius",
+      "birthYear": 1859,
+      "birthDate": "1859-02-19",
+      "deathYear": 1927,
+      "deathDate": "1927-10-02",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1543476",
+        "nameHe": null,
+        "nameFull": "Wik Castle",
+        "lat": 59.7361,
+        "lon": 17.4617
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Arrhenius2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Photogravure Meisenbach Riffarth &amp; Co. Leipzig.",
+      "sources": [
+        "s-wp-svante-arrhenius",
+        "s-wd-q80956"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q80956",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Arrhenius2.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-curie",
+      "wikipedia": "Marie Curie",
+      "nameHe": "מארי קירי",
+      "nameFull": null,
+      "birthYear": 1867,
+      "birthDate": "1867-11-07",
+      "deathYear": 1934,
+      "deathDate": "1934-07-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q270",
+        "nameHe": "ורשה",
+        "nameFull": "Warsaw",
+        "lat": 52.23,
+        "lon": 21.0111
+      },
+      "domains": [
+        "chemistry",
+        "physics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Marie_Curie_%281900%29_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-marie-curie",
+        "s-wd-q7186"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7186",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Marie_Curie_(1900)_(cropped).jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-haber",
+      "wikipedia": "Fritz Haber",
+      "nameHe": "פריץ הבר",
+      "nameFull": "Fritz Haber",
+      "birthYear": 1868,
+      "birthDate": "1868-12-09",
+      "deathYear": 1934,
+      "deathDate": "1934-01-29",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1799",
+        "nameHe": "ורוצלב",
+        "nameFull": "Wrocław",
+        "lat": 51.11,
+        "lon": 17.0325
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Portret_van_Professor_Fritz_Haber%2C_een_chemicus_uit_Duitsland_%28foto_1918-_1934%29%2C_SFA002023057.jpg/500px-Portret_van_Professor_Fritz_Haber%2C_een_chemicus_uit_Duitsland_%28foto_1918-_1934%29%2C_SFA002023057.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-fritz-haber",
+        "s-wd-q57075"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q57075",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Portret_van_Professor_Fritz_Haber,_een_chemicus_uit_Duitsland_(foto_1918-_1934),_SFA002023057.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-moseley",
+      "wikipedia": "Henry Moseley",
+      "nameHe": "הנרי מוזלי",
+      "nameFull": "Henry Moseley",
+      "birthYear": 1887,
+      "birthDate": "1887-11-23",
+      "deathYear": 1915,
+      "deathDate": "1915-08-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q661619",
+        "nameHe": "ויימות'",
+        "nameFull": "Weymouth",
+        "lat": 50.6097,
+        "lon": -2.4547
+      },
+      "domains": [
+        "chemistry",
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Henry_Moseley_%281887-1915%29.jpg/500px-Henry_Moseley_%281887-1915%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "AIP Emilio Segre Visual Archives, W. F. Meggers Gallery of Nobel Laureates",
+      "sources": [
+        "s-wp-henry-moseley",
+        "s-wd-q310759"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q310759",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Henry_Moseley_(1887-1915).jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-lewis",
+      "wikipedia": "Gilbert N. Lewis",
+      "nameHe": "גילברט ניוטון לואיס",
+      "nameFull": "Gilbert N. Lewis",
+      "birthYear": 1875,
+      "birthDate": "1875-10-23",
+      "deathYear": 1946,
+      "deathDate": "1946-03-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q54195",
+        "nameHe": "ויימאות'",
+        "nameFull": "Weymouth",
+        "lat": 42.2208,
+        "lon": -70.9403
+      },
+      "domains": [
+        "chemistry"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-gilbert-n-lewis",
+        "s-wd-q208858"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q208858",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null,
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-pauling",
+      "wikipedia": "Linus Pauling",
+      "nameHe": "לינוס פאולינג",
+      "nameFull": "Linus Pauling",
+      "birthYear": 1901,
+      "birthDate": "1901-02-28",
+      "deathYear": 1994,
+      "deathDate": "1994-08-19",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q6106",
+        "nameHe": "פורטלנד",
+        "nameFull": "Portland",
+        "lat": 45.515,
+        "lon": -122.6792
+      },
+      "domains": [
+        "chemistry",
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Linus_Pauling_1962.jpg/500px-Linus_Pauling_1962.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Nobel Foundation",
+      "sources": [
+        "s-wp-linus-pauling",
+        "s-wd-q48983"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q48983",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Linus_Pauling_1962.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-aristotle",
+      "wikipedia": "Aristotle",
+      "nameHe": "אריסטו",
+      "nameFull": "Aristotle",
+      "birthYear": -384,
+      "birthDate": null,
+      "deathYear": -322,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q846127",
+        "nameHe": "סטאגירה",
+        "nameFull": "Stageira",
+        "lat": 40.5908,
+        "lon": 23.7942
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/500px-Aristotle_Altemps_Inv8575.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "After Lysippos",
+      "sources": [
+        "s-wp-aristotle",
+        "s-wd-q868"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q868",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-vesalius",
+      "wikipedia": "Andreas Vesalius",
+      "nameHe": "אנדריאס וסאליוס",
+      "nameFull": "Andreas Vesalius",
+      "birthYear": 1514,
+      "birthDate": "1514-12-31",
+      "deathYear": 1564,
+      "deathDate": "1564-10-16",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1864473",
+        "nameHe": null,
+        "nameFull": "Mont aux Potences - Galgenberg",
+        "lat": 50.8367,
+        "lon": 4.3517
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Vesalius_Fabrica_portrait.jpg/500px-Vesalius_Fabrica_portrait.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Attributed to Jan van Calcar",
+      "sources": [
+        "s-wp-andreas-vesalius",
+        "s-wd-q170267"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q170267",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_portrait.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-harvey",
+      "wikipedia": "William Harvey",
+      "nameHe": "ויליאם הארווי",
+      "nameFull": "William Harvey",
+      "birthYear": 1578,
+      "birthDate": "1578-04-01",
+      "deathYear": 1657,
+      "deathDate": "1657-06-03",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q375314",
+        "nameHe": "פולקסטון",
+        "nameFull": "Folkestone",
+        "lat": 51.0792,
+        "lon": 1.1794
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/William_Harvey_2.jpg/500px-William_Harvey_2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "After Daniël Mijtens",
+      "sources": [
+        "s-wp-william-harvey",
+        "s-wd-q93128"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q93128",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-hooke",
+      "wikipedia": "Robert Hooke",
+      "nameHe": "רוברט הוק",
+      "nameFull": "Robert Hooke",
+      "birthYear": 1635,
+      "birthDate": "1635-07-18",
+      "deathYear": 1703,
+      "deathDate": "1703-03-03",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q2428909",
+        "nameHe": "פרשווטר",
+        "nameFull": "Freshwater",
+        "lat": 50.6826,
+        "lon": -1.5249
+      },
+      "domains": [
+        "biology",
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Portrait_of_a_Mathematician_1680c.jpg/500px-Portrait_of_a_Mathematician_1680c.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Mary Beale",
+      "sources": [
+        "s-wp-robert-hooke",
+        "s-wd-q46830"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q46830",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Mathematician_1680c.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-leeuwenhoek",
+      "wikipedia": "Antonie van Leeuwenhoek",
+      "nameHe": "אנטוני ואן לוונהוק",
+      "nameFull": "Antonie van Leeuwenhoek",
+      "birthYear": 1632,
+      "birthDate": "1632-10-24",
+      "deathYear": 1723,
+      "deathDate": "1723-08-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q690",
+        "nameHe": "דלפט",
+        "nameFull": "Delft",
+        "lat": 52.0117,
+        "lon": 4.3592
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Portret_van_Antonie_van_Leeuwenhoek%2C_RP-P-1903-A-23563.jpg/500px-Portret_van_Antonie_van_Leeuwenhoek%2C_RP-P-1903-A-23563.jpg",
+      "imageLicense": "CC0",
+      "imageCredit": "Rijksmuseum",
+      "sources": [
+        "s-wp-antonie-van-leeuwenhoek",
+        "s-wd-q43522"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q43522",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Portret_van_Antonie_van_Leeuwenhoek,_RP-P-1903-A-23563.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-linnaeus",
+      "wikipedia": "Carl Linnaeus",
+      "nameHe": "קארולוס לינאוס",
+      "nameFull": null,
+      "birthYear": 1707,
+      "birthDate": "1707-05-23",
+      "deathYear": 1778,
+      "deathDate": "1778-01-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q927776",
+        "nameHe": null,
+        "nameFull": "Råshult",
+        "lat": 56.618,
+        "lon": 14.202
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Carl_von_Linn%C3%A9.jpg/500px-Carl_von_Linn%C3%A9.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Alexander Roslin",
+      "sources": [
+        "s-wp-carl-linnaeus",
+        "s-wd-q1043"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1043",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Carl_von_Linn%C3%A9.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-jenner",
+      "wikipedia": "Edward Jenner",
+      "nameHe": "אדוארד ג'נר",
+      "nameFull": "Edward Jenner",
+      "birthYear": 1749,
+      "birthDate": "1749-05-17",
+      "deathYear": 1823,
+      "deathDate": "1823-01-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q584443",
+        "nameHe": "ברקלי",
+        "nameFull": "Berkeley",
+        "lat": 51.691,
+        "lon": -2.459
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Edward_Jenner_by_James_Northcote.jpg/500px-Edward_Jenner_by_James_Northcote.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "James Northcote",
+      "sources": [
+        "s-wp-edward-jenner",
+        "s-wd-q40852"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q40852",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Edward_Jenner_by_James_Northcote.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-schleiden",
+      "wikipedia": "Matthias Jakob Schleiden",
+      "nameHe": "מתיאס שליידן",
+      "nameFull": "Matthias Jacob Schleiden",
+      "birthYear": 1804,
+      "birthDate": "1804-04-05",
+      "deathYear": 1881,
+      "deathDate": "1881-06-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1055",
+        "nameHe": "המבורג",
+        "nameFull": "Hamburg",
+        "lat": 53.55,
+        "lon": 10
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/PSM_V22_D156_Matthias_Jacob_Schleiden.jpg/500px-PSM_V22_D156_Matthias_Jacob_Schleiden.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-matthias-jakob-schleiden",
+        "s-wd-q76747"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q76747",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:PSM_V22_D156_Matthias_Jacob_Schleiden.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-schwann",
+      "wikipedia": "Theodor Schwann",
+      "nameHe": "תאודור שוואן",
+      "nameFull": "Theodor Schwann",
+      "birthYear": 1810,
+      "birthDate": "1810-12-07",
+      "deathYear": 1882,
+      "deathDate": "1882-01-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2948",
+        "nameHe": "נויס",
+        "nameFull": "Neuss",
+        "lat": 51.2003,
+        "lon": 6.6939
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Theodor_Schwann_Litho.jpg/500px-Theodor_Schwann_Litho.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Rudolph Hoffmann",
+      "sources": [
+        "s-wp-theodor-schwann",
+        "s-wd-q76745"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q76745",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Theodor_Schwann_Litho.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-wallace",
+      "wikipedia": "Alfred Russel Wallace",
+      "nameHe": "אלפרד ראסל וולאס",
+      "nameFull": "Alfred Russel Wallace",
+      "birthYear": 1823,
+      "birthDate": "1823-01-08",
+      "deathYear": 1913,
+      "deathDate": "1913-11-07",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q573757",
+        "nameHe": "אוסק",
+        "nameFull": "Usk",
+        "lat": 51.7036,
+        "lon": -2.9019
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Alfred-Russel-Wallace-c1895.jpg/500px-Alfred-Russel-Wallace-c1895.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "London Stereoscopic and Photographic Company (active 1855-1922)",
+      "sources": [
+        "s-wp-alfred-russel-wallace",
+        "s-wd-q160627"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q160627",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alfred-Russel-Wallace-c1895.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-darwin",
+      "wikipedia": "Charles Darwin",
+      "nameHe": "צ'ארלס דרווין",
+      "nameFull": "Charles Darwin",
+      "birthYear": 1809,
+      "birthDate": "1809-02-12",
+      "deathYear": 1882,
+      "deathDate": "1882-04-19",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2412935",
+        "nameHe": "דה מאונט",
+        "nameFull": null,
+        "lat": 52.7128,
+        "lon": -2.7633
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Charles_Darwin_portrait.jpg/500px-Charles_Darwin_portrait.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Herbert Rose Barraud",
+      "sources": [
+        "s-wp-charles-darwin",
+        "s-wd-q1035"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1035",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_portrait.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-mendel",
+      "wikipedia": "Gregor Mendel",
+      "nameHe": "גרגור מנדל",
+      "nameFull": "Gregor Mendel",
+      "birthYear": 1822,
+      "birthDate": "1822-07-20",
+      "deathYear": 1884,
+      "deathDate": "1884-01-06",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2711986",
+        "nameHe": "הינצ'יצה",
+        "nameFull": "Hynčice",
+        "lat": 49.6189,
+        "lon": 17.8353
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Gregor_Mendel_2.jpg/500px-Gregor_Mendel_2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-gregor-mendel",
+        "s-wd-q37970"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q37970",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-virchow",
+      "wikipedia": "Rudolf Virchow",
+      "nameHe": "רודולף וירכו",
+      "nameFull": "Rudolf Virchow",
+      "birthYear": 1821,
+      "birthDate": "1821-10-13",
+      "deathYear": 1902,
+      "deathDate": "1902-09-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q387406",
+        "nameHe": "סווידווין",
+        "nameFull": "Świdwin",
+        "lat": 53.7744,
+        "lon": 15.7767
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Rudolf_Ludwig_Karl_Virchow._Photograph_by_J._C._Schaarw%C3%A4chte_Wellcome_V0027292.jpg/500px-Rudolf_Ludwig_Karl_Virchow._Photograph_by_J._C._Schaarw%C3%A4chte_Wellcome_V0027292.jpg",
+      "imageLicense": "CC BY 4.0",
+      "imageCredit": "Julius Cornelius Schaarwächter",
+      "sources": [
+        "s-wp-rudolf-virchow",
+        "s-wd-q76432"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q76432",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Rudolf_Ludwig_Karl_Virchow._Photograph_by_J._C._Schaarw%C3%A4chte_Wellcome_V0027292.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-miescher",
+      "wikipedia": "Friedrich Miescher",
+      "nameHe": "פרידריך מישר",
+      "nameFull": "Friedrich Miescher",
+      "birthYear": 1844,
+      "birthDate": "1844-08-13",
+      "deathYear": 1895,
+      "deathDate": "1895-08-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q78",
+        "nameHe": "בזל",
+        "nameFull": "Basel",
+        "lat": 47.5581,
+        "lon": 7.5878
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Friedrich_Miescher.jpg/500px-Friedrich_Miescher.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-friedrich-miescher",
+        "s-wd-q116072"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q116072",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Friedrich_Miescher.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-koch",
+      "wikipedia": "Robert Koch",
+      "nameHe": "רוברט קוך",
+      "nameFull": "Robert Koch",
+      "birthYear": 1843,
+      "birthDate": "1843-12-11",
+      "deathYear": 1910,
+      "deathDate": "1910-05-27",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q15377091",
+        "nameHe": "קלאוסטאל",
+        "nameFull": "Clausthal",
+        "lat": 51.8036,
+        "lon": 10.3331
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Robert_Koch.jpg/500px-Robert_Koch.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Wilhelm Fechner",
+      "sources": [
+        "s-wp-robert-koch",
+        "s-wd-q37193"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q37193",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Robert_Koch.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-cajal",
+      "wikipedia": "Santiago Ramón y Cajal",
+      "nameHe": "סנטיאגו רמון אי קחאל",
+      "nameFull": "Santiago Ramón y Cajal",
+      "birthYear": 1852,
+      "birthDate": "1852-05-01",
+      "deathYear": 1934,
+      "deathDate": "1934-10-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q984872",
+        "nameHe": null,
+        "nameFull": "Petilla de Aragón",
+        "lat": 42.4436,
+        "lon": -1.1195
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Cajal-mi.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-santiago-ramo-n-y-cajal",
+        "s-wd-q150526"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q150526",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Cajal-mi.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-morgan",
+      "wikipedia": "Thomas Hunt Morgan",
+      "nameHe": "תומאס הנט מורגן",
+      "nameFull": "Thomas Hunt Morgan",
+      "birthYear": 1866,
+      "birthDate": "1866-09-25",
+      "deathYear": 1945,
+      "deathDate": "1945-12-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q49241",
+        "nameHe": "לקסינגטון",
+        "nameFull": "Lexington",
+        "lat": 38.0497,
+        "lon": -84.4586
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Thomas_Hunt_Morgan.jpg/500px-Thomas_Hunt_Morgan.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-thomas-hunt-morgan",
+        "s-wd-q177681"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q177681",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-fleming",
+      "wikipedia": "Alexander Fleming",
+      "nameHe": "אלכסנדר פלמינג",
+      "nameFull": "Alexander Fleming",
+      "birthYear": 1881,
+      "birthDate": "1881-08-06",
+      "deathYear": 1955,
+      "deathDate": "1955-03-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q56619307",
+        "nameHe": null,
+        "nameFull": "Lochfield",
+        "lat": 55.6472,
+        "lon": -4.2538
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg/500px-Synthetic_Production_of_Penicillin_TR1468.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Official photographer",
+      "sources": [
+        "s-wp-alexander-fleming",
+        "s-wd-q37064"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q37064",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-franklin",
+      "wikipedia": "Rosalind Franklin",
+      "nameHe": "רוזלינד פרנקלין",
+      "nameFull": "Rosalind Franklin",
+      "birthYear": 1920,
+      "birthDate": "1920-07-25",
+      "deathYear": 1958,
+      "deathDate": "1958-04-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q215354",
+        "nameHe": "נוטינג היל",
+        "nameFull": "Notting Hill",
+        "lat": 51.5096,
+        "lon": -0.2043
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Rosalind_Franklin.jpg/500px-Rosalind_Franklin.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "MRC Laboratory of Molecular Biology",
+      "sources": [
+        "s-wp-rosalind-franklin",
+        "s-wd-q7474"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7474",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-watson",
+      "wikipedia": "James Watson",
+      "nameHe": "ג'יימס ווטסון",
+      "nameFull": "James Watson",
+      "birthYear": 1928,
+      "birthDate": "1928-04-06",
+      "deathYear": 2025,
+      "deathDate": "2025-11-06",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1297",
+        "nameHe": "שיקגו",
+        "nameFull": "Chicago",
+        "lat": 41.8819,
+        "lon": -87.6278
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/James_D._Watson_LCCN2007680359.jpg/500px-James_D._Watson_LCCN2007680359.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Newspaper Enterprise Association",
+      "sources": [
+        "s-wp-james-watson",
+        "s-wd-q83333"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q83333",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:James_D._Watson_LCCN2007680359.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-crick",
+      "wikipedia": "Francis Crick",
+      "nameHe": "פרנסיס קריק",
+      "nameFull": "Francis Crick",
+      "birthYear": 1916,
+      "birthDate": "1916-06-08",
+      "deathYear": 2004,
+      "deathDate": "2004-07-28",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q192240",
+        "nameHe": "נורת'האמפטון",
+        "nameFull": "Northampton",
+        "lat": 52.2333,
+        "lon": -0.9
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Francis_Crick_1995.jpg/500px-Francis_Crick_1995.jpg",
+      "imageLicense": "CC BY 4.0",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-francis-crick",
+        "s-wd-q123280"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q123280",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Francis_Crick_1995.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-hardy",
+      "wikipedia": "G. H. Hardy",
+      "nameHe": "גודפרי הרולד הארדי",
+      "nameFull": "G.H. Hardy",
+      "birthYear": 1877,
+      "birthDate": "1877-02-07",
+      "deathYear": 1947,
+      "deathDate": "1947-12-01",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2681944",
+        "nameHe": "קרנלי",
+        "nameFull": "Cranleigh",
+        "lat": 51.1363,
+        "lon": -0.4784
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Godfrey_Harold_Hardy_1.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-g-h-hardy",
+        "s-wd-q184337"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q184337",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Godfrey_Harold_Hardy_1.jpg",
+      "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-weinberg",
+      "wikipedia": "Wilhelm Weinberg",
+      "nameHe": "וילהלם וינברג",
+      "nameFull": "Wilhelm Weinberg",
+      "birthYear": 1862,
+      "birthDate": "1862-12-25",
+      "deathYear": 1937,
+      "deathDate": "1937-11-27",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1022",
+        "nameHe": "שטוטגרט",
+        "nameFull": "Stuttgart",
+        "lat": 48.7775,
+        "lon": 9.18
+      },
+      "domains": [
+        "mathematics",
+        "biology"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-wilhelm-weinberg",
+        "s-wd-q69594"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q69594",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null,
+      "nameHeTranslit": "וילהלם וינברג",
+      "nameHeSource": "transliteration"
+    },
+    {
+      "id": "p-fisher",
+      "wikipedia": "Ronald Fisher",
+      "nameHe": "רונלד פישר",
+      "nameFull": "Ronald Fisher",
+      "birthYear": 1890,
+      "birthDate": "1890-02-17",
+      "deathYear": 1962,
+      "deathDate": "1962-07-29",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q149654",
+        "nameHe": "מזרח פינצ'לי",
+        "nameFull": "East Finchley",
+        "lat": 51.5902,
+        "lon": -0.1753
+      },
+      "domains": [
+        "mathematics",
+        "biology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Youngronaldfisher2.JPG",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-ronald-fisher",
+        "s-wd-q216723"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q216723",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Youngronaldfisher2.JPG",
+      "nameHeSource": "wikidata"
     }
   ]
 }

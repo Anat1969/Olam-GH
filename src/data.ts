@@ -20,12 +20,13 @@ export interface Person {
   deathYear: number | null; deathDate: string | null; deathApprox?: boolean;
   calendar: 'julian' | 'gregorian' | null;
   birthPlace: { wikidata: string; nameHe: string | null; nameFull: string | null; lat: number | null; lon: number | null } | null;
+  nameHeSource?: 'wikidata' | 'transliteration' | null;
   domains: string[]; imageUrl: string | null; imageLicense: string | null; imageCredit: string | null; imagePage?: string | null;
   sources: string[]; verified: boolean; verifiedAt: string | null;
 }
 export interface Discovery {
   id: string; title: string; yearFrom: number; yearTo: number; yearApprox: boolean; domainId: string;
-  personIds: string[]; place: Place | null; contribution: string; confidence: Confidence;
+  personIds: string[]; place: Place | null; novelty?: string; contribution: string; confidence: Confidence;
   evidence: Evidence[]; sources: string[]; verified: boolean; verifiedAt: string | null;
 }
 export interface Link {

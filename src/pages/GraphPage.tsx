@@ -257,9 +257,8 @@ export default function GraphPage({ params }: { params: Record<string, string> }
           )}
         </div>
         <ul className="legend" aria-label="מקרא">
-          <li><span className="lg-sq dom-physics" />פיזיקה</li>
-          <li><span className="lg-sq dom-mathematics" />מתמטיקה</li>
-          <li><span className="lg-sq dom-mixed" />שני התחומים</li>
+          {activeDomains.map((d) => <li key={d.id}><span className={`lg-sq dom-${d.id}`} />{d.nameHe}</li>)}
+          <li><span className="lg-sq dom-mixed" />כמה תחומים</li>
           <li><span className="lg-line line-influenced" />השפעה</li>
           <li><span className="lg-line line-enabled" />איפשור</li>
           <li><span className="lg-line line-opposed" />ערעור</li>

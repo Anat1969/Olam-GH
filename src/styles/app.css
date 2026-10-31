@@ -369,3 +369,25 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
   .cut strong { font-size: 13px; }
   .cut-lead { font-size: 11px; }
 }
+
+/* כימיה וביולוגיה: אותה חוקיות צבע כמו פיזיקה ומתמטיקה */
+.tl-dot-chemistry { fill: var(--chemistry); background: var(--chemistry); }
+.tl-dot-biology { fill: var(--biology); background: var(--biology); }
+.tag-chemistry { background: var(--chemistry); }
+.tag-biology { background: var(--biology); }
+.axis-chemistry { stroke: var(--chemistry); }
+.axis-biology { stroke: var(--biology); }
+.row-chemistry { background: var(--chemistry); }
+.row-biology { background: var(--biology); }
+.pin-chemistry { background: var(--chemistry); border-color: var(--chemistry); }
+.pin-biology { background: var(--biology); border-color: var(--biology); }
+.chip-dom[aria-pressed="true"].dom-chemistry { background: var(--chemistry); border-color: var(--chemistry); }
+.chip-dom[aria-pressed="true"].dom-biology { background: var(--biology); border-color: var(--biology); }
+.dom-chemistry .mc-sq, .lg-sq.dom-chemistry { background: var(--chemistry); }
+.dom-biology .mc-sq, .lg-sq.dom-biology { background: var(--biology); }
+.g-node.dom-chemistry .g-sq { stroke: var(--chemistry); }
+.g-node.dom-biology .g-sq { stroke: var(--biology); }
+.g-node.dom-mathematics .g-sq, .g-node.dom-chemistry .g-sq, .g-node.dom-biology .g-sq { stroke-dasharray: none; }
+.find-nc { margin: 0 0 8px; display: grid; gap: 6px; }
+.find-nc div { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 8px; align-items: baseline; }
+.find-nc dd { margin: 0; font-size: 14px; line-height: 1.7; color: var(--ink-soft); }
