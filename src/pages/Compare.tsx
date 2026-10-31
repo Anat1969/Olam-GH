@@ -10,7 +10,7 @@ import LinkPanel from '../components/LinkPanel';
 import { BREAKS, FRACS, YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
 import {
   type Discovery, type LinkType, activeDomains, discoveries, endName, linkTypeName, personById,
-  resolveLink, links as allLinks, yearText,
+  resolveLink, links as allLinks, yearText, shortName,
 } from '../data';
 import { replace } from '../route';
 
@@ -271,7 +271,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
                 style={{ left: p.left, top, width: cw, height: CARD_H }} aria-label={label} onClick={() => pick(people[0].id)}>
                 <span className="cmp-face">{people[0].imageUrl ? <img src={people[0].imageUrl} alt="" loading="lazy" /> : null}</span>
                 <span className="cmp-text">
-                  <span className="tl-name">{people.map((x) => x.nameHe.split(' ').slice(-1)[0]).join(' ו')}</span>
+                  <span className="tl-name">{people.map((x) => shortName(x.nameHe, x.nameShort)).join(' ו')}</span>
                   <span className="tl-year"><bdi className="num">{p.d.yearFrom < 0 ? -p.d.yearFrom : p.d.yearFrom}</bdi>{p.d.yearFrom < 0 ? ' לפנה״ס' : ''}</span>
                 </span>
                 <i className="cmp-stem" style={{ left: Math.min(Math.max(p.x - p.left, 6), cw - 6), [row === 0 ? 'top' : 'bottom']: CARD_H, height: row === 0 ? 14 + p.lane * LANE : 14 + p.lane * LANE } as React.CSSProperties} />

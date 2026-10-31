@@ -2,9 +2,27 @@
   "_note": "accessedAt מתעדכן בכל הרצה מוצלחת של npm run verify.",
   "sources": [
     {
+      "id": "s-wd-q100948",
+      "title": "Rachel Carson, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q100948",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q101054",
+      "title": "Baháʼu'lláh, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q101054",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q101638",
       "title": "Mary Wollstonecraft, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q101638",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q101740",
+      "title": "Benoit Mandelbrot, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q101740",
       "accessedAt": "2026-10-31"
     },
     {
@@ -14,9 +32,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q102379",
+      "title": "Paul Berg, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q102379",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q1035",
       "title": "Charles Darwin, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q1035",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q104104",
+      "title": "Andre Geim, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q104104",
       "accessedAt": "2026-10-31"
     },
     {
@@ -26,15 +56,81 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q104607",
+      "title": "Andrew Huxley, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q104607",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q106454",
+      "title": "Adam Riess, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q106454",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q106494",
+      "title": "Konstantin Novoselov, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q106494",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q106746",
+      "title": "Richard Smalley, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q106746",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q106949",
+      "title": "Saul Perlmutter, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q106949",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1073335",
+      "title": "Ahmes, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1073335",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q110925",
+      "title": "Karl Barry Sharpless, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q110925",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q110930",
+      "title": "Robert Curl, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q110930",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q11104",
       "title": "Ibn al-Haytham, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q11104",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q1110560",
+      "title": "Umm Kulthum, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1110560",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q113335784",
+      "title": "Kenneth Nnebue, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q113335784",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q11359",
       "title": "Aryabhata, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q11359",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q11401680",
+      "title": "Susumu Kitagawa, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q11401680",
       "accessedAt": "2026-10-31"
     },
     {
@@ -50,9 +146,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q115475",
+      "title": "Paul Hermann Müller, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q115475",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q116072",
       "title": "Friedrich Miescher, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q116072",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q117346",
+      "title": "Grigori Perelman, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q117346",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1203",
+      "title": "John Lennon, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1203",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q122279",
+      "title": "Hermann Rorschach, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q122279",
       "accessedAt": "2026-10-31"
     },
     {
@@ -68,9 +188,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q123975",
+      "title": "Michel Mayor, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q123975",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q124013",
+      "title": "Didier Queloz, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q124013",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q125249",
       "title": "William James, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q125249",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1267054",
+      "title": "Ziryab, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1267054",
       "accessedAt": "2026-10-31"
     },
     {
@@ -80,9 +218,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q1278559",
+      "title": "Fan Kuan, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1278559",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q1281943",
       "title": "Alan Crosland, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q1281943",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q128736",
+      "title": "John Forbes Nash, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q128736",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q128868",
+      "title": "John Bowlby, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q128868",
       "accessedAt": "2026-10-31"
     },
     {
@@ -98,6 +254,24 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q130347",
+      "title": "Stanley Miller, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q130347",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q130631",
+      "title": "Jacques Derrida, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q130631",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q130777",
+      "title": "Kazimir Malevich, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q130777",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q131171",
       "title": "Imhotep, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q131171",
@@ -107,6 +281,12 @@
       "id": "s-wd-q131733",
       "title": "Henry Cavendish, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q131733",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1334304",
+      "title": "Izumo no Okuni, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1334304",
       "accessedAt": "2026-10-31"
     },
     {
@@ -122,6 +302,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q1353638",
+      "title": "Ian Wilmut, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1353638",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q1384975",
       "title": "Pierre Beauchamp, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q1384975",
@@ -134,9 +320,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q140188",
+      "title": "Aristarchus of Samos, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q140188",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q1427",
       "title": "Hadrian, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q1427",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1430",
+      "title": "Marcus Aurelius, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1430",
       "accessedAt": "2026-10-31"
     },
     {
@@ -146,9 +344,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q151097",
+      "title": "Henry Moore, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q151097",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q1511",
       "title": "Richard Wagner, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q1511",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q151564",
+      "title": "Frederick Sanger, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q151564",
       "accessedAt": "2026-10-31"
     },
     {
@@ -176,9 +386,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q153753",
+      "title": "Albert Bandura, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q153753",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q154770",
       "title": "Arnold Schoenberg, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q154770",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q155538",
+      "title": "Pina Bausch, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q155538",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1566571",
+      "title": "Yang Lu-ch'an, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1566571",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q157194",
+      "title": "Alberto Giacometti, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157194",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q157224",
+      "title": "Kary Mullis, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157224",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q157250",
+      "title": "Harry Kroto, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157250",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q159409",
+      "title": "Louise Bourgeois, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q159409",
       "accessedAt": "2026-10-31"
     },
     {
@@ -200,6 +452,30 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q16010938",
+      "title": "Starke R. Hathaway, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q16010938",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q160115",
+      "title": "Ai Weiwei, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q160115",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q160149",
+      "title": "Mark Rothko, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q160149",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q160460",
+      "title": "Farabi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q160460",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q160538",
       "title": "Gian Lorenzo Bernini, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q160538",
@@ -212,9 +488,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q163415",
+      "title": "William Shockley, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q163415",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q163830",
+      "title": "Ip Man, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q163830",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q16397",
+      "title": "Bruce Lee, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q16397",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1646477",
+      "title": "Esigie, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1646477",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q165749",
       "title": "William Henry Perkin, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q165749",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q167852",
+      "title": "Jabir ibn Hayyan, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q167852",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q169234",
+      "title": "Abu Bakr al-Razi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q169234",
       "accessedAt": "2026-10-31"
     },
     {
@@ -227,6 +539,48 @@
       "id": "s-wd-q170373",
       "title": "Christopher Wren, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q170373",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q171034",
+      "title": "Robert Wilson, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q171034",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q171195",
+      "title": "Nagarjuna, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q171195",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q172544",
+      "title": "John Rawls, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q172544",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q17280087",
+      "title": "Emmanuelle Charpentier, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q17280087",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q172840",
+      "title": "Murray Gell-Mann, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q172840",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q172877",
+      "title": "Arno Allan Penzias, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q172877",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q17293",
+      "title": "Tenzin Gyatso, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q17293",
       "accessedAt": "2026-10-31"
     },
     {
@@ -254,9 +608,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q179777",
+      "title": "Harold Urey, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q179777",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q180374",
+      "title": "Frank Gehry, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q180374",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q180398",
+      "title": "Jørn Utzon, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q180398",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q180727",
+      "title": "John Cage, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q180727",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q180967",
+      "title": "Ādi Shankara, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q180967",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q184337",
       "title": "G.H. Hardy, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q184337",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q184433",
+      "title": "Andrew Wiles, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q184433",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q184577",
+      "title": "Walter Houser Brattain, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q184577",
       "accessedAt": "2026-10-31"
     },
     {
@@ -272,15 +668,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q189990",
+      "title": "Antony Hewish, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q189990",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q190141",
       "title": "Kanō Jigorō, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q190141",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q190148",
+      "title": "Renzo Piano, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q190148",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q191004",
+      "title": "Carl Rogers, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q191004",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q191798",
       "title": "Georges-Eugène Haussmann, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q191798",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q192112",
+      "title": "Peter Higgs, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q192112",
       "accessedAt": "2026-10-31"
     },
     {
@@ -293,6 +713,18 @@
       "id": "s-wd-q192238",
       "title": "Guido of Arezzo, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q192238",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q193650",
+      "title": "Alan Lloyd Hodgkin, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q193650",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q193670",
+      "title": "Frantz Fanon, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q193670",
       "accessedAt": "2026-10-31"
     },
     {
@@ -314,9 +746,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q196831",
+      "title": "Bharata Muni, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q196831",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q2001",
       "title": "Stanley Kubrick, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q2001",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q201452",
+      "title": "Brian Schmidt, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q201452",
       "accessedAt": "2026-10-31"
     },
     {
@@ -356,15 +800,123 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q210134",
+      "title": "Louis Kahn, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q210134",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q211539",
+      "title": "Peter Singer, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q211539",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q2128461",
+      "title": "Rainer Weiss, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2128461",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q213195",
+      "title": "B.F. Skinner, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q213195",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q213712",
       "title": "Rudolf Laban, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q213712",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q213758",
+      "title": "Pachacútec, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q213758",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q216723",
       "title": "Ronald Fisher, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q216723",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q216809",
+      "title": "Paul Cohen, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q216809",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q218311",
+      "title": "François Jacob, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q218311",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q224787",
+      "title": "Kenneth Appel, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q224787",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q23073819",
+      "title": "Richard Robson, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q23073819",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q231121",
+      "title": "Yayoi Kusama, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q231121",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q231402",
+      "title": "Jacques Monod, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q231402",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q23357",
+      "title": "Abraham Maslow, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q23357",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q233950",
+      "title": "Daniel Kahneman, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q233950",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q233974",
+      "title": "Jocelyn Bell Burnell, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q233974",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q234145",
+      "title": "Giulio Natta, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q234145",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q234583",
+      "title": "Lynn Margulis, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q234583",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q237412",
+      "title": "Richard Rogers, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q237412",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q23873",
+      "title": "John XXIII, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q23873",
       "accessedAt": "2026-10-31"
     },
     {
@@ -398,9 +950,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q2551253",
+      "title": "Ahmad Lahori, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2551253",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q25820",
       "title": "Thomas Young, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q25820",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q2599",
+      "title": "Paul McCartney, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2599",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q262154",
+      "title": "Elizabeth Loftus, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q262154",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q262791",
+      "title": "Steve Reich, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q262791",
       "accessedAt": "2026-10-31"
     },
     {
@@ -440,6 +1016,24 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q3022141",
+      "title": "Demis Hassabis, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3022141",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q302849",
+      "title": "Aaron Beck, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q302849",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q3043486",
+      "title": "Sultan Walad, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3043486",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q307",
       "title": "Galileo Galilei, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q307",
@@ -449,6 +1043,12 @@
       "id": "s-wd-q30755",
       "title": "Auguste Rodin, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q30755",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q309333",
+      "title": "Mansa Musa, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q309333",
       "accessedAt": "2026-10-31"
     },
     {
@@ -482,9 +1082,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q313298",
+      "title": "Suryavarman II, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q313298",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q313765",
       "title": "Vincenzo Galilei, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q313765",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q313868",
+      "title": "Fela Kuti, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q313868",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q315399",
+      "title": "Theodore Maiman, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q315399",
       "accessedAt": "2026-10-31"
     },
     {
@@ -494,9 +1112,63 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q316304",
+      "title": "Liu Hui, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q316304",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q318064",
+      "title": "Dōgen, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q318064",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q318364",
+      "title": "Merce Cunningham, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q318364",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q318372",
       "title": "Joseph Paxton, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q318372",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q319146",
+      "title": "Ibn al-Nafis, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q319146",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q320426",
+      "title": "Handsome Lake, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q320426",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q320624",
+      "title": "Adi Shamir, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q320624",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q320927",
+      "title": "Martin Seligman, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q320927",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q323320",
+      "title": "Kip S. Thorne, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q323320",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q327293",
+      "title": "Anish Kapoor, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q327293",
       "accessedAt": "2026-10-31"
     },
     {
@@ -506,9 +1178,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q336658",
+      "title": "Francis Collins, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q336658",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q34013",
       "title": "Georges Seurat, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q34013",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q3442020",
+      "title": "Rorion Gracie, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3442020",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q34943",
+      "title": "Ptolemy, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q34943",
       "accessedAt": "2026-10-31"
     },
     {
@@ -518,15 +1208,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q354878",
+      "title": "Herbert Boyer, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q354878",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q356335",
+      "title": "Choi Hong-hi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q356335",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q35802",
       "title": "Benedictus de Spinoza, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q35802",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q35900",
+      "title": "Omar Khayyám, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q35900",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q365581",
       "title": "Jean-Georges Noverre, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q365581",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q369920",
+      "title": "Guru Arjan, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q369920",
       "accessedAt": "2026-10-31"
     },
     {
@@ -548,9 +1262,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q372438",
+      "title": "Ralf Hütter, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q372438",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q37388",
       "title": "Francis Bacon, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q37388",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q374276",
+      "title": "Adrian Smith, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q374276",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q37571",
+      "title": "Jackson Pollock, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q37571",
       "accessedAt": "2026-10-31"
     },
     {
@@ -566,9 +1298,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q379898",
+      "title": "Ezana of Axum, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q379898",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q381848",
       "title": "Patrick Geddes, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q381848",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q38222",
+      "title": "George Lucas, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q38222",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q384705",
+      "title": "Ō no Yasumaro, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q384705",
       "accessedAt": "2026-10-31"
     },
     {
@@ -584,9 +1334,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q39837",
+      "title": "Averroes, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q39837",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q40852",
       "title": "Edward Jenner, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q40852",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q409",
+      "title": "Bob Marley, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q409",
       "accessedAt": "2026-10-31"
     },
     {
@@ -632,6 +1394,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q41980",
+      "title": "Democritus, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q41980",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q42063",
+      "title": "Xuanzang, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q42063",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q42207",
       "title": "Caravaggio, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q42207",
@@ -656,6 +1430,24 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q43182",
+      "title": "Eratosthenes, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q43182",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q43216",
+      "title": "Epicurus, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q43216",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q43347",
+      "title": "Rumi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q43347",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q43393",
       "title": "Robert Boyle, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q43393",
@@ -674,9 +1466,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q435744",
+      "title": "Florian Schneider, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q435744",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q44272",
+      "title": "Michel Foucault, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q44272",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q44335",
+      "title": "Keith Campbell, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q44335",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q449037",
+      "title": "Alvin Ailey, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q449037",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q450328",
       "title": "Imi Lichtenfeld, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q450328",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q451248",
+      "title": "David Wechsler, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q451248",
       "accessedAt": "2026-10-31"
     },
     {
@@ -689,6 +1511,24 @@
       "id": "s-wd-q456758",
       "title": "Moshé de León, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q456758",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q458787",
+      "title": "DJ Kool Herc, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q458787",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q4604",
+      "title": "Confucius, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q4604",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q463153",
+      "title": "Henry Murray, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q463153",
       "accessedAt": "2026-10-31"
     },
     {
@@ -710,6 +1550,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q4701206",
+      "title": "Akira Yoshino, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q4701206",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q471332",
+      "title": "Gebre Mesqel Lalibela, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q471332",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q47163",
       "title": "Vitruvius, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q47163",
@@ -722,9 +1574,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q474333",
+      "title": "Amos Tversky, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q474333",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q47780",
+      "title": "Zaha Hadid, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q47780",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q483512",
       "title": "Isadora Duncana, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q483512",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q487604",
+      "title": "Martha Graham, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q487604",
       "accessedAt": "2026-10-31"
     },
     {
@@ -734,9 +1604,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q495980",
+      "title": "Bong Joon-ho, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q495980",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q50020",
       "title": "John Stuart Mill, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q50020",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q5110438",
+      "title": "Christiana Morgan, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q5110438",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q5264",
+      "title": "Hippocrates, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q5264",
       "accessedAt": "2026-10-31"
     },
     {
@@ -764,6 +1652,36 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q553469",
+      "title": "Royce Gracie, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q553469",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q55400",
+      "title": "Hayao Miyazaki, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q55400",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q55402",
+      "title": "Yasujirō Ozu, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q55402",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q5586",
+      "title": "Katsushika Hokusai, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q5586",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q5588",
+      "title": "Frida Kahlo, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q5588",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q5592",
       "title": "Michelangelo, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q5592",
@@ -788,9 +1706,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q5603",
+      "title": "Andy Warhol, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q5603",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q5604",
       "title": "Frank Lloyd Wright, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q5604",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q56068",
+      "title": "Jennifer Doudna, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q56068",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q56189",
+      "title": "Lise Meitner, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q56189",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q57065",
+      "title": "Otto Hahn, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q57065",
       "accessedAt": "2026-10-31"
     },
     {
@@ -803,6 +1745,12 @@
       "id": "s-wd-q57332",
       "title": "Hermann Ebbinghaus, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q57332",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q578036",
+      "title": "Ron Rivest, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q578036",
       "accessedAt": "2026-10-31"
     },
     {
@@ -830,9 +1778,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q60025",
+      "title": "Hannah Arendt, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q60025",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q60052",
       "title": "Gustav Kirchhoff, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q60052",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q60859",
+      "title": "Fritz Strassmann, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q60859",
       "accessedAt": "2026-10-31"
     },
     {
@@ -854,6 +1814,24 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q63121753",
+      "title": "Shep Doeleman, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q63121753",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q65082",
+      "title": "Wolfgang Haken, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q65082",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q653207",
+      "title": "Robert Spitzer, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q653207",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q6722",
       "title": "Carl Friedrich Gauss, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q6722",
@@ -863,6 +1841,12 @@
       "id": "s-wd-q680",
       "title": "Alessandro Volta, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q680",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q6914509",
+      "title": "Morten P. Meldal, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q6914509",
       "accessedAt": "2026-10-31"
     },
     {
@@ -896,6 +1880,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q7094480",
+      "title": "Onomastus of Smyrna, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7094480",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q7099",
       "title": "Emmy Noether, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q7099",
@@ -905,6 +1895,12 @@
       "id": "s-wd-q71031",
       "title": "Robert Bunsen, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q71031",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q713283",
+      "title": "Manuel dos Reis Machado, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q713283",
       "accessedAt": "2026-10-31"
     },
     {
@@ -920,6 +1916,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q7192",
+      "title": "Qin Shi Huang, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7192",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7197",
+      "title": "Simone de Beauvoir, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7197",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q7251",
       "title": "Alan Turing, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q7251",
@@ -932,9 +1940,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q733785",
+      "title": "Ohad Naharin, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q733785",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q741299",
+      "title": "Stanley Norman Cohen, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q741299",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q742357",
+      "title": "Simon Kimbangu, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q742357",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q742620",
       "title": "Rav Ashi, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q742620",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q743252",
+      "title": "Omar M. Yaghi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q743252",
       "accessedAt": "2026-10-31"
     },
     {
@@ -986,6 +2018,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q76624",
+      "title": "Karl Ziegler, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q76624",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q76745",
       "title": "Theodor Schwann, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q76745",
@@ -1034,6 +2072,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q8069062",
+      "title": "Zeng Gongliang, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8069062",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q80917",
+      "title": "Shinya Yamanaka, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q80917",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q80956",
       "title": "Svante August Arrhenius, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q80956",
@@ -1052,9 +2102,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q81794",
+      "title": "Akhenaten, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q81794",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q83333",
       "title": "James Watson, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q83333",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q83672",
+      "title": "Shah Jahan, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q83672",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1067,6 +2129,12 @@
       "id": "s-wd-q859",
       "title": "Plato, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q859",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8597",
+      "title": "Akbar, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8597",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1100,9 +2168,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q8778",
+      "title": "Galen, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8778",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q882",
+      "title": "Charlie Chaplin, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q882",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q88608397",
+      "title": "Katalin Karikó, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q88608397",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q88608402",
+      "title": "Drew Weissman, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q88608402",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8873",
+      "title": "Satyajit Ray, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8873",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8877",
+      "title": "Steven Spielberg, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8877",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q8958",
       "title": "Johannes Gutenberg, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q8958",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q89620738",
+      "title": "John Michael Jumper, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q89620738",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1130,6 +2240,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q906529",
+      "title": "John B. Goodenough, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q906529",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q90723882",
+      "title": "Khety, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q90723882",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q9095",
       "title": "James Clerk Maxwell, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q9095",
@@ -1145,6 +2267,18 @@
       "id": "s-wd-q9123",
       "title": "Ernest Rutherford, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q9123",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q913",
+      "title": "Socrates, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q913",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q918650",
+      "title": "Leonard Adleman, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q918650",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1169,6 +2303,12 @@
       "id": "s-wd-q9235",
       "title": "Georg Wilhelm Friedrich Hegel, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q9235",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q92760",
+      "title": "Claude Shannon, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q92760",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1202,6 +2342,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q9364",
+      "title": "Jean-Paul Sartre, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9364",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q937",
       "title": "Albert Einstein, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q937",
@@ -1214,9 +2360,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q9397",
+      "title": "Zhu Xi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9397",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9422",
+      "title": "Mahavira, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9422",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q9438",
       "title": "Thomas Aquinas, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q9438",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q949",
+      "title": "John Bardeen, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q949",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9546",
+      "title": "Al-Ghazali, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9546",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1226,9 +2396,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q9965",
+      "title": "Yongle Emperor, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9965",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-14th-dalai-lama",
+      "title": "14th Dalai Lama, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/14th_Dalai_Lama",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-2001-a-space-odyssey-film",
       "title": "2001: A Space Odyssey (film), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/2001%3A_A_Space_Odyssey_(film)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-4-33",
+      "title": "4′33″, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/4%E2%80%B233%E2%80%B3",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-51-pegasi-b",
+      "title": "51 Pegasi b, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/51_Pegasi_b",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1238,9 +2432,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-a-mathematical-theory-of-communication",
+      "title": "A Mathematical Theory of Communication, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-a-sunday-afternoon-on-the-island-of-la-grande-jatte",
       "title": "A Sunday Afternoon on the Island of La Grande Jatte, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-a-theory-of-justice",
+      "title": "A Theory of Justice, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Theory_of_Justice",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1256,15 +2462,105 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-aaron-t-beck",
+      "title": "Aaron T. Beck, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aaron_T._Beck",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-abraham-maslow",
+      "title": "Abraham Maslow, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abraham_Maslow",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-abu-bakr-al-razi",
+      "title": "Abu Bakr al-Razi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abu_Bakr_al-Razi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-accelerating-expansion-of-the-universe",
+      "title": "Accelerating expansion of the universe, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-adam-riess",
+      "title": "Adam Riess, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adam_Riess",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-adi-shamir",
+      "title": "Adi Shamir, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adi_Shamir",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-adi-shankara",
+      "title": "Adi Shankara, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adi_Shankara",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-adrian-smith-architect",
+      "title": "Adrian Smith (architect), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Adrian_Smith_(architect)",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-afternoon-of-a-faun-nijinsky",
       "title": "Afternoon of a Faun (Nijinsky), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Afternoon_of_a_Faun_(Nijinsky)",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-ahmes",
+      "title": "Ahmes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ahmes",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ai-weiwei",
+      "title": "Ai Weiwei, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ai_Weiwei",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-akbar",
+      "title": "Akbar, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Akbar",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-akhenaten",
+      "title": "Akhenaten, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Akhenaten",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-akira-kurosawa",
       "title": "Akira Kurosawa, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Akira_Kurosawa",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-akira-yoshino",
+      "title": "Akira Yoshino, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Akira_Yoshino",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-al-farabi",
+      "title": "Al-Farabi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Farabi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-al-ghazali",
+      "title": "Al-Ghazali, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Ghazali",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1280,15 +2576,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-alan-hodgkin",
+      "title": "Alan Hodgkin, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alan_Hodgkin",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-alan-turing",
       "title": "Alan Turing, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Alan_Turing",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-albert-bandura",
+      "title": "Albert Bandura, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Albert_Bandura",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-albert-einstein",
       "title": "Albert Einstein, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alberto-giacometti",
+      "title": "Alberto Giacometti, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alberto_Giacometti",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1328,9 +2642,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-almagest",
+      "title": "Almagest, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Almagest",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alphafold",
+      "title": "AlphaFold, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AlphaFold",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alvin-ailey",
+      "title": "Alvin Ailey, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alvin_Ailey",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alvin-ailey-american-dance-theater",
+      "title": "Alvin Ailey American Dance Theater, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alvin_Ailey_American_Dance_Theater",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-amedeo-avogadro",
       "title": "Amedeo Avogadro, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Amedeo_Avogadro",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-amos-tversky",
+      "title": "Amos Tversky, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amos_Tversky",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1340,9 +2684,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-analects",
+      "title": "Analects, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Analects",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-ancient-olympic-games",
       "title": "Ancient Olympic Games, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-andre-geim",
+      "title": "Andre Geim, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andre_Geim",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1355,6 +2711,42 @@
       "id": "s-wp-andreas-vesalius",
       "title": "Andreas Vesalius, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Andreas_Vesalius",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-andrew-huxley",
+      "title": "Andrew Huxley, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Huxley",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-andrew-wiles",
+      "title": "Andrew Wiles, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Wiles",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-andy-warhol",
+      "title": "Andy Warhol, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andy_Warhol",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-angkor-wat",
+      "title": "Angkor Wat, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Angkor_Wat",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-animal-liberation-book",
+      "title": "Animal Liberation (book), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Animal_Liberation_(book)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-anish-kapoor",
+      "title": "Anish Kapoor, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anish_Kapoor",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1382,9 +2774,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-antony-hewish",
+      "title": "Antony Hewish, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antony_Hewish",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-apollo-ballet",
       "title": "Apollo (ballet), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Apollo_(ballet)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-apology-plato",
+      "title": "Apology (Plato), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apology_(Plato)",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1394,9 +2798,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-archimedes-principle",
+      "title": "Archimedes' principle, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Archimedes'_principle",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-aristarchus-of-samos",
+      "title": "Aristarchus of Samos, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aristarchus_of_Samos",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-aristotle",
       "title": "Aristotle, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Aristotle",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-arno-allan-penzias",
+      "title": "Arno Allan Penzias, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arno_Allan_Penzias",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1436,6 +2858,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-atenism",
+      "title": "Atenism, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atenism",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-atomism",
+      "title": "Atomism, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atomism",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-august-kekule",
       "title": "August Kekulé, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
@@ -1460,6 +2894,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-autobahn-album",
+      "title": "Autobahn (album), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Autobahn_(album)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-averroes",
+      "title": "Averroes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Averroes",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-avicenna",
       "title": "Avicenna, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Avicenna",
@@ -1472,9 +2918,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-b-f-skinner",
+      "title": "B. F. Skinner, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/B._F._Skinner",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-babylonian-talmud",
       "title": "Babylonian Talmud, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Babylonian_Talmud",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-baha-u-lla-h",
+      "title": "Baháʼu'lláh, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bah%C3%A1%CA%BCu'll%C3%A1h",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1490,6 +2948,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-batsheva-dance-company",
+      "title": "Batsheva Dance Company, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Batsheva_Dance_Company",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-battleship-potemkin",
       "title": "Battleship Potemkin, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Battleship_Potemkin",
@@ -1502,9 +2966,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-beck-depression-inventory",
+      "title": "Beck Depression Inventory, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beck_Depression_Inventory",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-being-and-nothingness",
+      "title": "Being and Nothingness, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Being_and_Nothingness",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-beni-hasan",
+      "title": "Beni Hasan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beni_Hasan",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-benin-bronzes",
+      "title": "Benin Bronzes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Benin_Bronzes",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-benoit-mandelbrot",
+      "title": "Benoit Mandelbrot, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Benoit_Mandelbrot",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-bernhard-riemann",
       "title": "Bernhard Riemann, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Bernhard_Riemann",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-bharata-sage",
+      "title": "Bharata (sage), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharata_(sage)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-bharatanatyam",
+      "title": "Bharatanatyam, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharatanatyam",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1526,15 +3032,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-black-skin-white-masks",
+      "title": "Black Skin, White Masks, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Skin,_White_Masks",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-black-square-painting",
+      "title": "Black Square (painting), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Square_(painting)",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-blaise-pascal",
       "title": "Blaise Pascal, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Blaise_Pascal",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-bob-marley",
+      "title": "Bob Marley, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bob_Marley",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-bobo-doll-experiment",
+      "title": "Bobo doll experiment, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bobo_doll_experiment",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-bohr-model",
       "title": "Bohr model, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Bohr_model",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-bong-joon-ho",
+      "title": "Bong Joon Ho, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bong_Joon_Ho",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-boxing",
+      "title": "Boxing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boxing",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1556,9 +3098,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-breakdancing",
+      "title": "Breakdancing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Breakdancing",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-breathless-1960-film",
       "title": "Breathless (1960 film), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Breathless_(1960_film)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-brian-schmidt",
+      "title": "Brian Schmidt, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brian_Schmidt",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-bruce-lee",
+      "title": "Bruce Lee, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruce_Lee",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-buckminsterfullerene",
+      "title": "Buckminsterfullerene, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Buckminsterfullerene",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-burj-khalifa",
+      "title": "Burj Khalifa, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1568,9 +3140,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-campbell-s-soup-cans",
+      "title": "Campbell's Soup Cans, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Campbell's_Soup_Cans",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-cantor-s-first-set-theory-article",
       "title": "Cantor's first set theory article, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Cantor's_first_set_theory_article",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-capoeira",
+      "title": "Capoeira, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Capoeira",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-capoeira-regional",
+      "title": "Capoeira Regional, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Capoeira_Regional",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1592,15 +3182,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-carl-rogers",
+      "title": "Carl Rogers, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carl_Rogers",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-carlos-gracie",
       "title": "Carlos Gracie, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Carlos_Gracie",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-catch-a-fire",
+      "title": "Catch a Fire, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Catch_a_Fire",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-cell-theory",
       "title": "Cell theory, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Cell_theory",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-centre-pompidou",
+      "title": "Centre Pompidou, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Centre_Pompidou",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1616,9 +3224,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-charlie-chaplin",
+      "title": "Charlie Chaplin, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-choi-hong-hi",
+      "title": "Choi Hong Hi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Choi_Hong_Hi",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-christiaan-huygens",
       "title": "Christiaan Huygens, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Christiaan_Huygens",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-christiana-d-morgan",
+      "title": "Christiana D. Morgan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christiana_D._Morgan",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1652,9 +3278,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-claude-shannon",
+      "title": "Claude Shannon, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_Shannon",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-claudio-monteverdi",
       "title": "Claudio Monteverdi, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-click-chemistry",
+      "title": "Click chemistry, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Click_chemistry",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-cloud-gate",
+      "title": "Cloud Gate, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cloud_Gate",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1664,9 +3308,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-cognitive-therapy",
+      "title": "Cognitive therapy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cognitive_therapy",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-confessions-augustine",
       "title": "Confessions (Augustine), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Confessions_(Augustine)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-confucius",
+      "title": "Confucius, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Confucius",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1676,15 +3332,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-continuum-hypothesis",
+      "title": "Continuum hypothesis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Continuum_hypothesis",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-cosmic-microwave-background",
+      "title": "Cosmic microwave background, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-coulomb-s-law",
       "title": "Coulomb's law, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Coulomb's_law",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-crispr-gene-editing",
+      "title": "CRISPR gene editing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-critique-of-pure-reason",
       "title": "Critique of Pure Reason, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Critique_of_Pure_Reason",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-daniel-kahneman",
+      "title": "Daniel Kahneman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Kahneman",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1712,9 +3392,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-david-wechsler",
+      "title": "David Wechsler, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/David_Wechsler",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ddt",
+      "title": "DDT, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DDT",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-de-architectura",
       "title": "De architectura, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/De_architectura",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-demis-hassabis",
+      "title": "Demis Hassabis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-democritus",
+      "title": "Democritus, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Democritus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-diagnostic-and-statistical-manual-of-mental-disorders",
+      "title": "Diagnostic and Statistical Manual of Mental Disorders, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Diagnostic_and_Statistical_Manual_of_Mental_Disorders",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-didier-queloz",
+      "title": "Didier Queloz, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Didier_Queloz",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-discipline-and-punish",
+      "title": "Discipline and Punish, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Discipline_and_Punish",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1736,15 +3458,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-dj-kool-herc",
+      "title": "DJ Kool Herc, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DJ_Kool_Herc",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-dmitri-mendeleev",
       "title": "Dmitri Mendeleev, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-do-gen",
+      "title": "Dōgen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/D%C5%8Dgen",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-dolly-sheep",
+      "title": "Dolly (sheep), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dolly_(sheep)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-drew-weissman",
+      "title": "Drew Weissman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Drew_Weissman",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-e-variste-galois",
       "title": "Évariste Galois, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/%C3%89variste_Galois",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-earth-s-circumference",
+      "title": "Earth's circumference, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Earth's_circumference",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1778,6 +3530,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-elizabeth-loftus",
+      "title": "Elizabeth Loftus, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Loftus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-emmanuelle-charpentier",
+      "title": "Emmanuelle Charpentier, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-emmy-noether",
       "title": "Emmy Noether, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Emmy_Noether",
@@ -1790,9 +3554,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-epicureanism",
+      "title": "Epicureanism, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Epicureanism",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-epicurus",
+      "title": "Epicurus, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Epicurus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-eratosthenes",
+      "title": "Eratosthenes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eratosthenes",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-ernest-rutherford",
       "title": "Ernest Rutherford, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-esigie",
+      "title": "Esigie, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Esigie",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1814,9 +3602,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-event-horizon-telescope",
+      "title": "Event Horizon Telescope, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ezana-of-axum",
+      "title": "Ezana of Axum, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ezana_of_Axum",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-fallingwater",
       "title": "Fallingwater, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Fallingwater",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-fan-kuan",
+      "title": "Fan Kuan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fan_Kuan",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1829,6 +3635,18 @@
       "id": "s-wp-faraday-s-laws-of-electrolysis",
       "title": "Faraday's laws of electrolysis, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Faraday's_laws_of_electrolysis",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-fela-kuti",
+      "title": "Fela Kuti, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-fermat-s-last-theorem",
+      "title": "Fermat's Last Theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fermat's_Last_Theorem",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1850,9 +3668,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-first-observation-of-gravitational-waves",
+      "title": "First observation of gravitational waves, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_observation_of_gravitational_waves",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-florence-cathedral",
       "title": "Florence Cathedral, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Florence_Cathedral",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-florian-schneider",
+      "title": "Florian Schneider, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Florian_Schneider",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-forbidden-city",
+      "title": "Forbidden City, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Forbidden_City",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-forcing-mathematics",
+      "title": "Forcing (mathematics), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Forcing_(mathematics)",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1862,9 +3704,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-four-books-and-five-classics",
+      "title": "Four Books and Five Classics, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Four_Books_and_Five_Classics",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-four-color-theorem",
+      "title": "Four color theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-franc-ois-jacob",
+      "title": "François Jacob, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Jacob",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-francis-bacon",
       "title": "Francis Bacon, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Francis_Bacon",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-francis-collins",
+      "title": "Francis Collins, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francis_Collins",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1874,9 +3740,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-frank-gehry",
+      "title": "Frank Gehry, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frank_Gehry",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-frank-lloyd-wright",
       "title": "Frank Lloyd Wright, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Frank_Lloyd_Wright",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-frantz-fanon",
+      "title": "Frantz Fanon, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frantz_Fanon",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-frederick-sanger",
+      "title": "Frederick Sanger, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frederick_Sanger",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-frida-kahlo",
+      "title": "Frida Kahlo, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frida_Kahlo",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1910,9 +3800,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-fritz-strassmann",
+      "title": "Fritz Strassmann, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fritz_Strassmann",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-g-h-hardy",
       "title": "G. H. Hardy, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/G._H._Hardy",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-gaga-dance-vocabulary",
+      "title": "Gaga (dance vocabulary), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaga_(dance_vocabulary)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-galen",
+      "title": "Galen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galen",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1925,6 +3833,12 @@
       "id": "s-wp-galois-theory",
       "title": "Galois theory, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Galois_theory",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-gebre-meskel-lalibela",
+      "title": "Gebre Meskel Lalibela, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gebre_Meskel_Lalibela",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1961,6 +3875,12 @@
       "id": "s-wp-george-balanchine",
       "title": "George Balanchine, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/George_Balanchine",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-george-lucas",
+      "title": "George Lucas, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/George_Lucas",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2012,9 +3932,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-giulio-natta",
+      "title": "Giulio Natta, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Giulio_Natta",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-go-del-s-incompleteness-theorems",
       "title": "Gödel's incompleteness theorems, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-google-deepmind",
+      "title": "Google DeepMind, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2024,9 +3956,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-graphene",
+      "title": "Graphene, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graphene",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-gregor-mendel",
       "title": "Gregor Mendel, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-grigori-perelman",
+      "title": "Grigori Perelman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grigori_Perelman",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-guggenheim-museum-bilbao",
+      "title": "Guggenheim Museum Bilbao, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2039,6 +3989,24 @@
       "id": "s-wp-guido-of-arezzo",
       "title": "Guido of Arezzo, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Guido_of_Arezzo",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-gunpowder",
+      "title": "Gunpowder, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gunpowder",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-guru-arjan",
+      "title": "Guru Arjan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guru_Arjan",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-guru-granth-sahib",
+      "title": "Guru Granth Sahib, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guru_Granth_Sahib",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2078,9 +4046,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-hamzanama",
+      "title": "Hamzanama, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hamzanama",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-handsome-lake",
+      "title": "Handsome Lake, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Handsome_Lake",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hannah-arendt",
+      "title": "Hannah Arendt, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hannah_Arendt",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-hardy-weinberg-principle",
       "title": "Hardy–Weinberg principle, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-harold-urey",
+      "title": "Harold Urey, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harold_Urey",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2090,9 +4082,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-harry-kroto",
+      "title": "Harry Kroto, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harry_Kroto",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-haussmann-s-renovation-of-paris",
       "title": "Haussmann's renovation of Paris, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Haussmann's_renovation_of_Paris",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hayao-miyazaki",
+      "title": "Hayao Miyazaki, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hayao_Miyazaki",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2114,9 +4118,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-henry-moore",
+      "title": "Henry Moore, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_Moore",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-henry-moseley",
       "title": "Henry Moseley, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Henry_Moseley",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-henry-murray",
+      "title": "Henry Murray, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_Murray",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-herbert-boyer",
+      "title": "Herbert Boyer, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Herbert_Boyer",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2126,9 +4148,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-hermann-rorschach",
+      "title": "Hermann Rorschach, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hermann_Rorschach",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-hermann-von-helmholtz",
       "title": "Hermann von Helmholtz, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hermann_von_Helmholtz",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-heydar-aliyev-center",
+      "title": "Heydar Aliyev Center, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Heydar_Aliyev_Center",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-higgs-boson",
+      "title": "Higgs boson, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Higgs_boson",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2144,9 +4184,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-hippocrates",
+      "title": "Hippocrates, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hippocrates",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-history-of-animals",
       "title": "History of Animals, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/History_of_Animals",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hodgkin-huxley-model",
+      "title": "Hodgkin–Huxley model, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hodgkin%E2%80%93Huxley_model",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hokusai",
+      "title": "Hokusai, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hokusai",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2162,15 +4220,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-human-genome-project",
+      "title": "Human Genome Project, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human_Genome_Project",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-hydrogen",
       "title": "Hydrogen, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hydrogen",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-ian-wilmut",
+      "title": "Ian Wilmut, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ian_Wilmut",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-ibn-al-haytham",
       "title": "Ibn al-Haytham, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ibn-al-nafis",
+      "title": "Ibn al-Nafis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Nafis",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2210,6 +4286,24 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-induced-pluripotent-stem-cell",
+      "title": "Induced pluripotent stem cell, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Induced_pluripotent_stem_cell",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-industrial-light-magic",
+      "title": "Industrial Light & Magic, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Industrial_Light_%26_Magic",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ip-man",
+      "title": "Ip Man, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ip_Man",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-isaac-newton",
       "title": "Isaac Newton, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
@@ -2228,15 +4322,57 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-it-s-gonna-rain",
+      "title": "It's Gonna Rain, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/It's_Gonna_Rain",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-ivan-pavlov",
       "title": "Ivan Pavlov, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ivan_Pavlov",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-izumo-no-okuni",
+      "title": "Izumo no Okuni, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Izumo_no_Okuni",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-j-m-w-turner",
       "title": "J. M. W. Turner, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/J._M._W._Turner",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-j-rn-utzon",
+      "title": "Jørn Utzon, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/J%C3%B8rn_Utzon",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-jabir-ibn-hayyan",
+      "title": "Jabir ibn Hayyan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jabir_ibn_Hayyan",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-jackson-pollock",
+      "title": "Jackson Pollock, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jackson_Pollock",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-jacques-derrida",
+      "title": "Jacques Derrida, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jacques_Derrida",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-jacques-monod",
+      "title": "Jacques Monod, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jacques_Monod",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2258,6 +4394,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-jatiya-sangsad-bhaban",
+      "title": "Jatiya Sangsad Bhaban, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jatiya_Sangsad_Bhaban",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-jean-georges-noverre",
       "title": "Jean-Georges Noverre, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Jean-Georges_Noverre",
@@ -2270,9 +4412,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-jean-paul-sartre",
+      "title": "Jean-Paul Sartre, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-jean-piaget",
       "title": "Jean Piaget, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Jean_Piaget",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-jeet-kune-do",
+      "title": "Jeet Kune Do, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jeet_Kune_Do",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-jennifer-doudna",
+      "title": "Jennifer Doudna, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jennifer_Doudna",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-jocelyn-bell-burnell",
+      "title": "Jocelyn Bell Burnell, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2300,9 +4466,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-john-b-goodenough",
+      "title": "John B. Goodenough, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_B._Goodenough",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-john-bardeen",
+      "title": "John Bardeen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Bardeen",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-john-bowlby",
+      "title": "John Bowlby, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Bowlby",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-john-cage",
+      "title": "John Cage, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Cage",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-john-dalton",
       "title": "John Dalton, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/John_Dalton",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-john-forbes-nash-jr",
+      "title": "John Forbes Nash Jr., Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr.",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2318,15 +4514,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-john-lennon",
+      "title": "John Lennon, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Lennon",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-john-locke",
       "title": "John Locke, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/John_Locke",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-john-m-jumper",
+      "title": "John M. Jumper, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_M._Jumper",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-john-napier",
       "title": "John Napier, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/John_Napier",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-john-rawls",
+      "title": "John Rawls, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Rawls",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2366,6 +4580,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-jurassic-park-film",
+      "title": "Jurassic Park (film), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kabuki",
+      "title": "Kabuki, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kabuki",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-kano-jigoro",
       "title": "Kanō Jigorō, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D",
@@ -2378,15 +4604,99 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-karl-barry-sharpless",
+      "title": "Karl Barry Sharpless, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Karl_Barry_Sharpless",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-karl-popper",
       "title": "Karl Popper, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Karl_Popper",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-karl-ziegler",
+      "title": "Karl Ziegler, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Karl_Ziegler",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kary-mullis",
+      "title": "Kary Mullis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kary_Mullis",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-katalin-kariko",
+      "title": "Katalin Karikó, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kazimir-malevich",
+      "title": "Kazimir Malevich, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kazimir_Malevich",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-keith-campbell-biologist",
+      "title": "Keith Campbell (biologist), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Keith_Campbell_(biologist)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kenneth-appel",
+      "title": "Kenneth Appel, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kenneth_Appel",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kenneth-nnebue",
+      "title": "Kenneth Nnebue, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kenneth_Nnebue",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-kepler-s-laws-of-planetary-motion",
       "title": "Kepler's laws of planetary motion, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-khety-bh17",
+      "title": "Khety (BH17), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Khety_(BH17)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kimbanguist-church",
+      "title": "Kimbanguist Church, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kimbanguist_Church",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kip-thorne",
+      "title": "Kip Thorne, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kip_Thorne",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kojiki",
+      "title": "Kojiki, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kojiki",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-konstantin-novoselov",
+      "title": "Konstantin Novoselov, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Konstantin_Novoselov",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kraftwerk",
+      "title": "Kraftwerk, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kraftwerk",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2426,6 +4736,24 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-lac-operon",
+      "title": "Lac operon, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lac_operon",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-lamentation-ballet",
+      "title": "Lamentation (ballet), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lamentation_(ballet)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-laser",
+      "title": "Laser, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Laser",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-le-corbusier",
       "title": "Le Corbusier, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Le_Corbusier",
@@ -2441,6 +4769,12 @@
       "id": "s-wp-leon-festinger",
       "title": "Leon Festinger, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Leon_Festinger",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-leonard-adleman",
+      "title": "Leonard Adleman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leonard_Adleman",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2474,9 +4808,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-lise-meitner",
+      "title": "Lise Meitner, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lise_Meitner",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-lithium-ion-battery",
+      "title": "Lithium-ion battery, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-liu-hui",
+      "title": "Liu Hui, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liu_Hui",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-living-in-bondage",
+      "title": "Living in Bondage, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Living_in_Bondage",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-louis-armstrong",
       "title": "Louis Armstrong, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Louis_Armstrong",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-louis-kahn",
+      "title": "Louis Kahn, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_Kahn",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2495,6 +4859,12 @@
       "id": "s-wp-louis-sullivan",
       "title": "Louis Sullivan, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Louis_Sullivan",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-louise-bourgeois",
+      "title": "Louise Bourgeois, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louise_Bourgeois",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2522,9 +4892,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-lynn-margulis",
+      "title": "Lynn Margulis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lynn_Margulis",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-machu-picchu",
+      "title": "Machu Picchu, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-mahavira",
+      "title": "Mahavira, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mahavira",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-maimonides",
       "title": "Maimonides, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Maimonides",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-maman-sculpture",
+      "title": "Maman (sculpture), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maman_(sculpture)",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2534,9 +4928,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-man-pointing",
+      "title": "Man Pointing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Man_Pointing",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-mansa-musa",
+      "title": "Mansa Musa, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mansa_Musa",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-marcel-duchamp",
       "title": "Marcel Duchamp, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Marcel_Duchamp",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-marcus-aurelius",
+      "title": "Marcus Aurelius, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2564,15 +4976,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-mark-rothko",
+      "title": "Mark Rothko, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mark_Rothko",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-marquess-of-queensberry-rules",
       "title": "Marquess of Queensberry Rules, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-martha-graham",
+      "title": "Martha Graham, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Martha_Graham",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-martin-luther",
       "title": "Martin Luther, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-martin-seligman",
+      "title": "Martin Seligman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Martin_Seligman",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2585,6 +5015,12 @@
       "id": "s-wp-masaccio",
       "title": "Masaccio, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Masaccio",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-maslow-s-hierarchy-of-needs",
+      "title": "Maslow's hierarchy of needs, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2612,15 +5048,57 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-meditations",
+      "title": "Meditations, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Meditations",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-merce-cunningham",
+      "title": "Merce Cunningham, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Merce_Cunningham",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-mestre-bimba",
+      "title": "Mestre Bimba, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mestre_Bimba",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-metal-organic-framework",
+      "title": "Metal–organic framework, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-metropolis-1927-film",
       "title": "Metropolis (1927 film), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-mevlevi-order",
+      "title": "Mevlevi Order, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mevlevi_Order",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-michael-faraday",
       "title": "Michael Faraday, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Michael_Faraday",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-michel-foucault",
+      "title": "Michel Foucault, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michel_Foucault",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-michel-mayor",
+      "title": "Michel Mayor, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michel_Mayor",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2642,15 +5120,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-miller-urey-experiment",
+      "title": "Miller–Urey experiment, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Miller%E2%80%93Urey_experiment",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-mimar-sinan",
       "title": "Mimar Sinan, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Mimar_Sinan",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-minnesota-multiphasic-personality-inventory",
+      "title": "Minnesota Multiphasic Personality Inventory, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Minnesota_Multiphasic_Personality_Inventory",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-mirifici-logarithmorum-canonis-descriptio",
       "title": "Mirifici Logarithmorum Canonis Descriptio, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Mirifici_Logarithmorum_Canonis_Descriptio",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-misinformation-effect",
+      "title": "Misinformation effect, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Misinformation_effect",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-modern-times-film",
+      "title": "Modern Times (film), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Modern_Times_(film)",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2672,6 +5174,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-morten-meldal",
+      "title": "Morten Meldal, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Morten_Meldal",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-moseley-s-law",
       "title": "Moseley's law, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Moseley's_law",
@@ -2690,9 +5198,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-mrna-vaccine",
+      "title": "MRNA vaccine, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MRNA_vaccine",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-mu-lamadhyamakaka-rika",
+      "title": "Mūlamadhyamakakārikā, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M%C5%ABlamadhyamakak%C4%81rik%C4%81",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-murray-gell-mann",
+      "title": "Murray Gell-Mann, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Murray_Gell-Mann",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-myron",
       "title": "Myron, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Myron",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-nagarjuna",
+      "title": "Nagarjuna, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nagarjuna",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-nash-equilibrium",
+      "title": "Nash equilibrium, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-natya-shastra",
+      "title": "Natya Shastra, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Natya_Shastra",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2726,6 +5270,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-nicomachean-ethics",
+      "title": "Nicomachean Ethics, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nicomachean_Ethics",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-niels-bohr",
       "title": "Niels Bohr, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Niels_Bohr",
@@ -2756,15 +5306,57 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-nollywood",
+      "title": "Nollywood, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nollywood",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-novum-organum",
       "title": "Novum Organum, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Novum_Organum",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-nuclear-fission",
+      "title": "Nuclear fission, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_fission",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-nucleic-acid-double-helix",
       "title": "Nucleic acid double helix, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Nucleic_acid_double_helix",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-o-no-yasumaro",
+      "title": "Ō no Yasumaro, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/%C5%8C_no_Yasumaro",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-of-grammatology",
+      "title": "Of Grammatology, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Of_Grammatology",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ohad-naharin",
+      "title": "Ohad Naharin, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ohad_Naharin",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-omar-khayyam",
+      "title": "Omar Khayyam, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Omar_Khayyam",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-omar-m-yaghi",
+      "title": "Omar M. Yaghi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Omar_M._Yaghi",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2780,6 +5372,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-on-the-soul",
+      "title": "On the Soul, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/On_the_Soul",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-onomastus-of-smyrna",
+      "title": "Onomastus of Smyrna, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Onomastus_of_Smyrna",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-orson-welles",
       "title": "Orson Welles, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Orson_Welles",
@@ -2792,9 +5396,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-otto-hahn",
+      "title": "Otto Hahn, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Otto_Hahn",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-pablo-picasso",
       "title": "Pablo Picasso, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pachacuti",
+      "title": "Pachacuti, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pachacuti",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2810,15 +5426,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-parasite-2019-film",
+      "title": "Parasite (2019 film), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Parasite_(2019_film)",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-parthenon",
       "title": "Parthenon, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Parthenon",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-pather-panchali",
+      "title": "Pather Panchali, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pather_Panchali",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-patrick-geddes",
       "title": "Patrick Geddes, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Patrick_Geddes",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-paul-berg",
+      "title": "Paul Berg, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Berg",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-paul-cohen",
+      "title": "Paul Cohen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Cohen",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-paul-hermann-mu-ller",
+      "title": "Paul Hermann Müller, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Hermann_M%C3%BCller",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-paul-mccartney",
+      "title": "Paul McCartney, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_McCartney",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2831,6 +5483,24 @@
       "id": "s-wp-periodic-table",
       "title": "Periodic table, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Periodic_table",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-person-centered-therapy",
+      "title": "Person-centered therapy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Person-centered_therapy",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-peter-higgs",
+      "title": "Peter Higgs, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peter_Higgs",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-peter-singer",
+      "title": "Peter Singer, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peter_Singer",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2858,6 +5528,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-pina-bausch",
+      "title": "Pina Bausch, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pina_Bausch",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-planck-s-law",
       "title": "Planck's law, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Planck's_law",
@@ -2867,6 +5543,24 @@
       "id": "s-wp-plato",
       "title": "Plato, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Plato",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-polymerase-chain-reaction",
+      "title": "Polymerase chain reaction, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pope-john-xxiii",
+      "title": "Pope John XXIII, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pope_John_XXIII",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-positive-psychology",
+      "title": "Positive psychology, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Positive_psychology",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2882,9 +5576,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-prospect-theory",
+      "title": "Prospect theory, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Prospect_theory",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ptolemy",
+      "title": "Ptolemy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ptolemy",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pulmonary-circulation",
+      "title": "Pulmonary circulation, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pulmonary_circulation",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pulsar",
+      "title": "Pulsar, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pulsar",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-pyramid-of-djoser",
       "title": "Pyramid of Djoser, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Pyramid_of_Djoser",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-qin-shi-huang",
+      "title": "Qin Shi Huang, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-quark-model",
+      "title": "Quark model, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quark_model",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rachel-carson",
+      "title": "Rachel Carson, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rachel_Carson",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2897,6 +5633,18 @@
       "id": "s-wp-rain-steam-and-speed-the-great-western-railway",
       "title": "Rain, Steam and Speed – The Great Western Railway, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Rain,_Steam_and_Speed_%E2%80%93_The_Great_Western_Railway",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rainer-weiss",
+      "title": "Rainer Weiss, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rainer_Weiss",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ralf-hu-tter",
+      "title": "Ralf Hütter, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ralf_H%C3%BCtter",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2918,6 +5666,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-recombinant-dna",
+      "title": "Recombinant DNA, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Recombinant_DNA",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-rembrandt",
       "title": "Rembrandt, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Rembrandt",
@@ -2930,9 +5684,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-renzo-piano",
+      "title": "Renzo Piano, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Renzo_Piano",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-republic-plato",
       "title": "Republic (Plato), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rhind-mathematical-papyrus",
+      "title": "Rhind Mathematical Papyrus, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-richard-robson-chemist",
+      "title": "Richard Robson (chemist), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Richard_Robson_(chemist)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-richard-rogers",
+      "title": "Richard Rogers, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Richard_Rogers",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-richard-smalley",
+      "title": "Richard Smalley, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Richard_Smalley",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2960,6 +5744,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-robert-curl",
+      "title": "Robert Curl, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Curl",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-robert-hooke",
       "title": "Robert Hooke, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Robert_Hooke",
@@ -2972,15 +5762,63 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-robert-spitzer-psychiatrist",
+      "title": "Robert Spitzer (psychiatrist), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Spitzer_(psychiatrist)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-robert-woodrow-wilson",
+      "title": "Robert Woodrow Wilson, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Woodrow_Wilson",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rock-hewn-churches-lalibela",
+      "title": "Rock-Hewn Churches, Lalibela, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ron-rivest",
+      "title": "Ron Rivest, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ron_Rivest",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-ronald-fisher",
       "title": "Ronald Fisher, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ronald_Fisher",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-rorion-gracie",
+      "title": "Rorion Gracie, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rorion_Gracie",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rorschach-test",
+      "title": "Rorschach test, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rorschach_test",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-rosalind-franklin",
       "title": "Rosalind Franklin, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-royce-gracie",
+      "title": "Royce Gracie, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Royce_Gracie",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rsa-cryptosystem",
+      "title": "RSA cryptosystem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RSA_cryptosystem",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2996,9 +5834,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-rumi",
+      "title": "Rumi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rumi",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-sagrada-fami-lia",
       "title": "Sagrada Família, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-sanger-sequencing",
+      "title": "Sanger sequencing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sanger_sequencing",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3014,9 +5864,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-satyajit-ray",
+      "title": "Satyajit Ray, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Satyajit_Ray",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-saul-perlmutter",
+      "title": "Saul Perlmutter, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saul_Perlmutter",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-scripps-research",
+      "title": "Scripps Research, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Scripps_Research",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-scrovegni-chapel",
       "title": "Scrovegni Chapel, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Scrovegni_Chapel",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-second-vatican-council",
+      "title": "Second Vatican Council, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Second_Vatican_Council",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3029,6 +5903,30 @@
       "id": "s-wp-seven-bridges-of-ko-nigsberg",
       "title": "Seven Bridges of Königsberg, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-sgt-pepper-s-lonely-hearts-club-band",
+      "title": "Sgt. Pepper's Lonely Hearts Club Band, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sgt._Pepper's_Lonely_Hearts_Club_Band",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-shah-jahan",
+      "title": "Shah Jahan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shah_Jahan",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-sheperd-doeleman",
+      "title": "Sheperd Doeleman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sheperd_Doeleman",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-shinya-yamanaka",
+      "title": "Shinya Yamanaka, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shinya_Yamanaka",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3050,9 +5948,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-silent-spring",
+      "title": "Silent Spring, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silent_Spring",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-simon-kimbangu",
+      "title": "Simon Kimbangu, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Simon_Kimbangu",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-simone-de-beauvoir",
+      "title": "Simone de Beauvoir, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-socrates",
+      "title": "Socrates, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Socrates",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-special-relativity",
       "title": "Special relativity, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Special_relativity",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-spirited-away",
+      "title": "Spirited Away, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spirited_Away",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3080,9 +6008,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-stanley-miller",
+      "title": "Stanley Miller, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stanley_Miller",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-stanley-norman-cohen",
+      "title": "Stanley Norman Cohen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stanley_Norman_Cohen",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-star-wars-film",
+      "title": "Star Wars (film), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Star_Wars_(film)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-starke-r-hathaway",
+      "title": "Starke R. Hathaway, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Starke_R._Hathaway",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-steve-reich",
+      "title": "Steve Reich, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Steve_Reich",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-steven-spielberg",
+      "title": "Steven Spielberg, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Steven_Spielberg",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-su-leymaniye-mosque",
       "title": "Süleymaniye Mosque, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-sultan-walad",
+      "title": "Sultan Walad, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sultan_Walad",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3092,9 +6062,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-sunflower-seeds-artwork",
+      "title": "Sunflower Seeds (artwork), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sunflower_Seeds_(artwork)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-suryavarman-ii",
+      "title": "Suryavarman II, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suryavarman_II",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-susumu-kitagawa",
+      "title": "Susumu Kitagawa, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Susumu_Kitagawa",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-svante-arrhenius",
       "title": "Svante Arrhenius, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-sydney-opera-house",
+      "title": "Sydney Opera House, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-symbiogenesis",
+      "title": "Symbiogenesis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Symbiogenesis",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3107,6 +6107,36 @@
       "id": "s-wp-systema-naturae",
       "title": "Systema Naturae, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Systema_Naturae",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-taekwondo",
+      "title": "Taekwondo, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taekwondo",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-taj-mahal",
+      "title": "Taj Mahal, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-tanztheater-wuppertal-pina-bausch",
+      "title": "Tanztheater Wuppertal Pina Bausch, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tanztheater_Wuppertal_Pina_Bausch",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-terracotta-army",
+      "title": "Terracotta Army, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Terracotta_Army",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-behavior-of-organisms",
+      "title": "The Behavior of Organisms, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Behavior_of_Organisms",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3140,9 +6170,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-the-fractal-geometry-of-nature",
+      "title": "The Fractal Geometry of Nature, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Fractal_Geometry_of_Nature",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-great-wave-off-kanagawa",
+      "title": "The Great Wave off Kanagawa, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-the-guide-for-the-perplexed",
       "title": "The Guide for the Perplexed, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/The_Guide_for_the_Perplexed",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-incoherence-of-the-incoherence",
+      "title": "The Incoherence of the Incoherence, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Incoherence_of_the_Incoherence",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-incoherence-of-the-philosophers",
+      "title": "The Incoherence of the Philosophers, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Incoherence_of_the_Philosophers",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3167,6 +6221,18 @@
       "id": "s-wp-the-night-watch",
       "title": "The Night Watch, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/The_Night_Watch",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-nine-chapters-on-the-mathematical-art",
+      "title": "The Nine Chapters on the Mathematical Art, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Nine_Chapters_on_the_Mathematical_Art",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-origins-of-totalitarianism",
+      "title": "The Origins of Totalitarianism, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Origins_of_Totalitarianism",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3200,6 +6266,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-the-second-sex",
+      "title": "The Second Sex, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Second_Sex",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-the-sleeping-beauty-ballet",
       "title": "The Sleeping Beauty (ballet), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/The_Sleeping_Beauty_(ballet)",
@@ -3218,15 +6290,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-the-two-fridas",
+      "title": "The Two Fridas, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Two_Fridas",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-the-well-tempered-clavier",
       "title": "The Well-Tempered Clavier, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/The_Well-Tempered_Clavier",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-thematic-apperception-test",
+      "title": "Thematic apperception test, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thematic_apperception_test",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-theodor-schwann",
       "title": "Theodor Schwann, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Theodor_Schwann",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-theodore-maiman",
+      "title": "Theodore Maiman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Theodore_Maiman",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3272,6 +6362,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-tokyo-story",
+      "title": "Tokyo Story, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tokyo_Story",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-toy-story",
       "title": "Toy Story, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Toy_Story",
@@ -3281,6 +6377,12 @@
       "id": "s-wp-tractatus-logico-philosophicus",
       "title": "Tractatus Logico-Philosophicus, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-transistor",
+      "title": "Transistor, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Transistor",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3311,6 +6413,24 @@
       "id": "s-wp-two-new-sciences",
       "title": "Two New Sciences, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Two_New_Sciences",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ufc-1",
+      "title": "UFC 1, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/UFC_1",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-umm-kulthum",
+      "title": "Umm Kulthum, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Umm_Kulthum",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ustad-ahmad-lahori",
+      "title": "Ustad Ahmad Lahori, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ustad_Ahmad_Lahori",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3374,15 +6494,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-walter-houser-brattain",
+      "title": "Walter Houser Brattain, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Walter_Houser_Brattain",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-wassily-kandinsky",
       "title": "Wassily Kandinsky, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Wassily_Kandinsky",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-wechsler-adult-intelligence-scale",
+      "title": "Wechsler Adult Intelligence Scale, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wechsler_Adult_Intelligence_Scale",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-white-city-tel-aviv",
       "title": "White City (Tel Aviv), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/White_City_(Tel_Aviv)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-wiles-s-proof-of-fermat-s-last-theorem",
+      "title": "Wiles's proof of Fermat's Last Theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wiles's_proof_of_Fermat's_Last_Theorem",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3422,15 +6560,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-william-shockley",
+      "title": "William Shockley, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Shockley",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-wo-hler-synthesis",
       "title": "Wöhler synthesis, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/W%C3%B6hler_synthesis",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-wolfgang-haken",
+      "title": "Wolfgang Haken, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wolfgang_Haken",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-workers-leaving-the-lumie-re-factory",
       "title": "Workers Leaving the Lumière Factory, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Workers_Leaving_the_Lumi%C3%A8re_Factory",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-wujing-zongyao",
+      "title": "Wujing Zongyao, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wujing_Zongyao",
       "accessedAt": "2026-10-31"
     },
     {
@@ -3446,15 +6602,87 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-xuanzang",
+      "title": "Xuanzang, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xuanzang",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-yang-luchan",
+      "title": "Yang Luchan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yang_Luchan",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-yang-style-tai-chi",
+      "title": "Yang-style tai chi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yang-style_tai_chi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-yasujiro-ozu",
+      "title": "Yasujirō Ozu, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yasujir%C5%8D_Ozu",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-yayoi-kusama",
+      "title": "Yayoi Kusama, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yayoi_Kusama",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-yongle-emperor",
+      "title": "Yongle Emperor, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yongle_Emperor",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-young-s-interference-experiment",
       "title": "Young's interference experiment, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Young's_interference_experiment",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-zaha-hadid",
+      "title": "Zaha Hadid, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zaha_Hadid",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-zeng-gongliang",
+      "title": "Zeng Gongliang, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zeng_Gongliang",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-zhu-xi",
+      "title": "Zhu Xi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zhu_Xi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ziegler-natta-catalyst",
+      "title": "Ziegler–Natta catalyst, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ziegler%E2%80%93Natta_catalyst",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ziryab",
+      "title": "Ziryab, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ziryab",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-zohar",
       "title": "Zohar, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Zohar",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-zombie-album",
+      "title": "Zombie (album), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zombie_(album)",
       "accessedAt": "2026-10-31"
     }
   ]

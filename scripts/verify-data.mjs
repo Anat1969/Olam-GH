@@ -151,7 +151,8 @@ async function main() {
       p.birthYear = b?.year ?? null; p.birthDate = b?.date ?? null; p.birthApprox = b?.approx ?? false;
       p.deathYear = d?.year ?? null; p.deathDate = d?.date ?? null; p.deathApprox = d?.approx ?? false;
       p.calendar = b ? (b.julian ? 'julian' : 'gregorian') : d ? (d.julian ? 'julian' : 'gregorian') : null;
-      if (!b && !d) reasons.push('אין תאריך לידה או פטירה');
+      // דמות עתיקה בלי תאריכים בוויקינתונים: לא ממציאים. הממשק מציג "שנים לא ידועות", והגילוי עצמו מתוארך לפי הציטוט.
+      if (!b && !d) p.datesUnknown = true; else delete p.datesUnknown;
       const bp = claim(e, 'P19');
       p.birthPlace = bp ? await placeFromQid(bp.id) : null;
       const img = claim(e, 'P18');
@@ -194,6 +195,7 @@ async function main() {
       } else if (d.place.confidence === 'documented') d.place.confidence = 'interpretive';
       report.places.push({ id: d.id, place: d.place.nameFull, ok: placeOk, confidence: d.place.confidence });
     }
+    for (const pid of d.personIds) if (persons.find((p) => p.id === pid)?.verified === false) reasons.push(`הדמות ${pid} לא אומתה`);
     d.verified = reasons.length === 0;
     d.verifiedAt = d.verified ? TODAY : null;
     report.discoveries.push({ id: d.id, verified: d.verified, reasons });

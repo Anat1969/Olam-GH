@@ -3,7 +3,7 @@
 // מימין לו "מציאות מצויה", משמאל לו שכבת זכוכית שמכסה את "העולם הנעלם".
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
 import { scaleLinear } from 'd3-scale';
-import { type Discovery, links, personById, yearText, discoveries as allShown } from '../data';
+import { type Discovery, links, personById, yearText, discoveries as allShown, shortName } from '../data';
 
 export const YEAR_MIN = -2700;
 export const YEAR_MAX = 2025;
@@ -166,7 +166,7 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
               aria-label={`${people.map((x) => x.nameHe).join(' ו')}, ${yearText(p.d.yearFrom)}: ${p.d.title}`}>
               <span className="tl-face">{lead.imageUrl ? <img src={lead.imageUrl} alt="" loading="lazy" decoding="async" /> : null}</span>
               <span className="tl-text">
-                <span className="tl-name">{people.map((x) => x.nameHe.split(' ').slice(-1)[0]).join(' ו')}</span>
+                <span className="tl-name">{people.map((x) => shortName(x.nameHe, x.nameShort)).join(' ו')}</span>
                 <span className="tl-year"><bdi className="num">{p.d.yearFrom < 0 ? -p.d.yearFrom : p.d.yearFrom}</bdi>{p.d.yearFrom < 0 ? ' לפנה״ס' : ''}</span>
                 <span className="tl-title">{p.d.title.split(':')[0]}</span>
               </span>

@@ -23,6 +23,7 @@ export interface Person {
   calendar: 'julian' | 'gregorian' | null;
   birthPlace: { wikidata: string; nameHe: string | null; nameFull: string | null; lat: number | null; lon: number | null } | null;
   nameHeSource?: 'wikidata' | 'transliteration' | null;
+  nameShort?: string;
   domains: string[]; imageUrl: string | null; imageLicense: string | null; imageCredit: string | null; imagePage?: string | null;
   sources: string[]; verified: boolean; verifiedAt: string | null;
 }
@@ -100,7 +101,7 @@ export function rangeText(d: Pick<Discovery, 'yearFrom' | 'yearTo' | 'yearApprox
 export function lifeText(p: Person) {
   const b = p.birthYear === null ? null : (p.birthApprox ? 'בערך ' : '') + yearText(p.birthYear);
   const d = p.deathYear === null ? null : (p.deathApprox ? 'בערך ' : '') + yearText(p.deathYear);
-  return [b, d].filter(Boolean).join(' – ');
+  return [b, d].filter(Boolean).join(' – ') || 'שנים לא ידועות';
 }
 
 /** ערי הידע: כמה גילויים נוצרו בכל עיר */
@@ -137,3 +138,13 @@ export const resolvedLinks = links.map((l) => resolveLink(l)).filter((r): r is N
 export const crossLinks = resolvedLinks.filter((r) => r.cross);
 export const linkTypeName: Record<LinkType, string> = { influenced: 'השפעה', enabled: 'איפשור', opposed: 'ערעור', parallel: 'מקביל' };
 export const endName = (e: End) => (e.viaPerson ? personById.get(e.id)!.nameHe : e.d.title.split(':')[0]);
+
+/** שם קצר לתווית: בלי תואר שאחרי פסיק ("מלך מאלי") ובלי מספר סידורי ("ה-4", "הראשון"). בדרך כלל שם המשפחה. */
+const ORDINAL = /^(ה-?\d+|ה-?[IVX]+|ה(ראשון|ראשונה|שני|שנייה|שלישי|רביעי|חמישי|שישי|גדול|קדוש|זקן|צעיר))$/;
+/** nameShort בנתונים גובר: בשמות סיניים וקוריאניים שם המשפחה בא קודם */
+export function shortName(nameHe: string, nameShort?: string) {
+  if (nameShort) return nameShort;
+  const words = nameHe.split(',')[0].trim().split(/\s+/);
+  while (words.length > 1 && ORDINAL.test(words[words.length - 1])) words.pop();
+  return words[words.length - 1];
+}

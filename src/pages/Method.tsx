@@ -22,6 +22,7 @@ export default function Method() {
       <h1 className="page-title">כל רשומה נבדקת מול המקור שלה.</h1>
       <p className="page-sub lines">
         <span><strong>ציטוט מילולי</strong> מוויקיפדיה לכל גילוי ולכל קשר, ו<strong>נתונים מובנים</strong> מוויקינתונים לכל דמות.</span>
+        <span>הציטוט מופיע עם <strong>תרגום לעברית</strong>, מסומן כתרגום. האימות נעשה תמיד על המקור באנגלית, כי רק כך אפשר לבדוק התאמה מילה במילה.</span>
         <span>הבדיקה רצה מחדש בכל עדכון. הבדיקה האחרונה: <bdi className="num">{report.date}</bdi>.</span>
       </p>
 

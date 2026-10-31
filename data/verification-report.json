@@ -1020,6 +1020,986 @@
       "id": "p-myamada",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-akhenaten",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mahavira",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-xuanzang",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-yasumaro",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-shankara",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ezana",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ghazali",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rumi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-dogen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mansamusa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-arjan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-handsomelake",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bahaullah",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kimbangu",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-johnxxiii",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-dalailama",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-khety",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-onomastus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-yangluchan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ipman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-brucelee",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-choihonghi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bimba",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rorion",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-royce",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rorschach",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hmurray",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cmorgan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wechsler",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hathaway",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-beck",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-spitzer",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-skinner",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-maslow",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rogers",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bandura",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bowlby",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-loftus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kahneman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-tversky",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-seligman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-socrates",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-confucius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-nagarjuna",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-zhuxi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-farabi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-averroes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-epicurus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-maurelius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-sartre",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-beauvoir",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-arendt",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fanon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-derrida",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rawls",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-singer",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-foucault",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-aristarchus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-eratosthenes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ptolemy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bardeen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-brattain",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-shockley",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-maiman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-gell-mann",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-penzias",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rwwilson",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bell-burnell",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hewish",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mayor",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-queloz",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-perlmutter",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-riess",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bschmidt",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-higgs",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-weiss",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-thorne",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-doeleman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ahmes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-liu-hui",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-khayyam",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-shannon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-nash",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cohen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mandelbrot",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-appel",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-haken",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rivest",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-shamir",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-adleman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wiles",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-perelman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-democritus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-jabir",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-razi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-zeng",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hahn",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-strassmann",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-meitner",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-pmuller",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-smiller",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-urey",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ziegler",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-natta",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-sanger",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mullis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kroto",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-curl",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-smalley",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-goodenough",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-yoshino",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-sharpless",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-meldal",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-geim",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-novoselov",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-robson",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kitagawa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-yaghi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hassabis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-jumper",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hippocrates",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-galen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ibn-nafis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hodgkin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-huxley",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-jacob",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-monod",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-carson",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-margulis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-berg",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-scohen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-boyer",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wilmut",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kcampbell",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-collins",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-yamanaka",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-doudna",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-charpentier",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kariko",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-weissman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ziryab",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kulthum",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cage",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-reich",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lennon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mccartney",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-herc",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-marley",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hutter",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fschneider",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fela",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fankuan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-akbar",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hokusai",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-malevich",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kahlo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-pollock",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rothko",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kusama",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-warhol",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-qinshihuang",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-esigie",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-giacometti",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hmoore",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bourgeois",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kapoor",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-aiweiwei",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-suryavarman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lalibela",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-yongle",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-pachacuti",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-shahjahan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lahori",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-utzon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rpiano",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rrogers",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kahn",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-gehry",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-asmith",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hadid",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bharata",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-okuni",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-sultanwalad",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-graham",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ailey",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cunningham",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bausch",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-naharin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-chaplin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ozu",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-sray",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lucas",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-nnebue",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-spielberg",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-miyazaki",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bong",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -2017,6 +2997,826 @@
       "id": "d-1964-budokan",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "d-bce1353-aten",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce599-mahavira",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-629-xuanzang",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-712-kojiki",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-700-shankara",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-320-ezana",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1091-ghazali-incoherence",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1273-mevlevi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1227-dogen-soto",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1324-mansa-musa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1604-adi-granth",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1799-handsome-lake",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1863-bahaullah",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1921-kimbangu",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1962-vatican-ii",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1959-dalai-lama-exile",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce2055-beni-hasan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce688-olympic-boxing",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1850-yang-taichi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1949-ipman-wingchun",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1955-taekwondo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1967-jeet-kune-do",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1932-bimba-regional",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1993-ufc1",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce350-aristotle-de-anima",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1921-rorschach-test",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1935-thematic-apperception",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1939-wechsler-bellevue",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1943-mmpi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1961-beck-depression-inventory",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1980-dsm-iii",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1938-skinner-operant",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1943-maslow-needs",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1951-rogers-client-centered",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1961-bandura-bobo-doll",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1967-beck-cognitive-therapy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1958-bowlby-attachment",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1974-loftus-misinformation",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1979-prospect-theory",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1998-seligman-positive-psychology",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce475-confucius-analects",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce399-socrates-apology",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce335-aristotle-nicomachean",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce307-epicurus-garden",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-150-nagarjuna-mmk",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-170-marcus-aurelius-meditations",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-942-farabi-virtuous-city",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1180-averroes-incoherence",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1130-zhuxi-four-books",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1943-sartre-being-nothingness",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1949-beauvoir-second-sex",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1951-arendt-totalitarianism",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1952-fanon-black-skin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1967-derrida-grammatology",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1971-rawls-justice",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1975-singer-animal-liberation",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1975-foucault-discipline-punish",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce246-archimedes-buoyancy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce280-aristarchus-heliocentric",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce240-eratosthenes-earth",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-150-ptolemy-almagest",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1947-bell-transistor",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1960-maiman-laser",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1964-gell-mann-quarks",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1964-cmb",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1967-bell-pulsar",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1995-mayor-queloz-exoplanet",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1998-accelerating-universe",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2012-higgs-boson",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2015-ligo-gravitational-waves",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2019-eht-black-hole",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce1550-rhind-papyrus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-263-liu-hui-nine-chapters",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1070-khayyam-cubic",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1948-shannon-information",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1950-nash-equilibrium",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1963-cohen-forcing",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1975-mandelbrot-fractals",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1976-four-color",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1977-rsa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1994-wiles-fermat",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2002-perelman-poincare",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce460-democritus-atoms",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-850-jabir-classification",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-865-razi-substances",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1044-wujing-gunpowder",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1938-hahn-fission",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1939-muller-ddt",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1952-miller-urey",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1952-ziegler-natta",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1977-sanger-sequencing",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1983-mullis-pcr",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1985-fullerene",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1985-lithium-ion",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2001-click-chemistry",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2004-graphene",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1999-mof",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2020-alphafold",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce460-hippocrates-medicine",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-162-galen-anatomy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1242-ibn-nafis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1952-hodgkin-huxley",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1961-jacob-monod",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1962-silent-spring",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1967-margulis-endosymbiosis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1973-recombinant-dna",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1996-dolly",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2003-human-genome",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2006-yamanaka-ipsc",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2012-crispr",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2005-mrna-vaccine",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-822-ziryab-cordoba",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1934-kulthum-radio",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1952-cage-433",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1965-reich-rain",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1967-beatles-pepper",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1973-herc-breakbeat",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1973-marley-catchafire",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1974-kraftwerk-autobahn",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1976-fela-zombie",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-960-fankuan-travelers",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1562-akbar-hamzanama",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1831-hokusai-wave",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1915-malevich-square",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1939-kahlo-twofridas",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1947-pollock-drip",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1949-rothko-colorfield",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1958-kusama-infinitynets",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1961-warhol-soup",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce210-terracotta-army",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1550-benin-plaques",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1947-giacometti-pointing",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1951-moore-reclining",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1999-bourgeois-maman",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2004-kapoor-cloudgate",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2010-aiweiwei-seeds",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1150-angkor-wat",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1181-lalibela",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1420-forbidden-city",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1450-machu-picchu",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1653-taj-mahal",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1973-sydney-opera",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1977-pompidou",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1982-dhaka-assembly",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1997-guggenheim-bilbao",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2010-burj-khalifa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2012-heydar-aliyev",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce200-natya-shastra",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1603-okuni-kabuki",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1273-mevlevi-sema",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1930-graham-lamentation",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1960-ailey-revelations",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1953-cunningham-chance",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1973-bausch-tanztheater",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1973-herc-breaking",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1990-naharin-gaga",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1936-chaplin-modern-times",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1953-ozu-tokyo-story",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1955-ray-pather-panchali",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1977-lucas-star-wars",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1992-living-in-bondage",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1993-spielberg-jurassic",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2001-miyazaki-spirited-away",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-2019-bong-parasite",
+      "verified": true,
+      "reasons": []
     }
   ],
   "links": [
@@ -2584,6 +4384,406 @@
     },
     {
       "id": "l-113",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-114",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-115",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-116",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-117",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-118",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-119",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-120",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-121",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-122",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-123",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-124",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-125",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-126",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-127",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-128",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-129",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-130",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-131",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-132",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-133",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-134",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-135",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-136",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-137",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-138",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-139",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-140",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-141",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-142",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-143",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-144",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-145",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-146",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-147",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-148",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-149",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-150",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-151",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-152",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-153",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-154",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-155",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-156",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-157",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-158",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-159",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-160",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-161",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-162",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-163",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-164",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-165",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-166",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-167",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-168",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-169",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-170",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-171",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-172",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-173",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-174",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-175",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-176",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-177",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-178",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-179",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-180",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-181",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-182",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-183",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-184",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-185",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-186",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-187",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-188",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-189",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-190",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-191",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-192",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-193",
       "verified": true,
       "reasons": []
     }
@@ -3596,12 +5796,804 @@
       "place": "Tokyo",
       "ok": true,
       "confidence": "documented"
+    },
+    {
+      "id": "d-bce1353-aten",
+      "place": "Amarna",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-629-xuanzang",
+      "place": "Nalanda Mahavihara",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-320-ezana",
+      "place": "Axum",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1091-ghazali-incoherence",
+      "place": "Baghdad",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1273-mevlevi",
+      "place": "Konya",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1227-dogen-soto",
+      "place": "Kennin-ji Temple",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1324-mansa-musa",
+      "place": "Mecca",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1604-adi-granth",
+      "place": "Amritsar",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1863-bahaullah",
+      "place": "Baghdad",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1921-kimbangu",
+      "place": "Nkamba",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1962-vatican-ii",
+      "place": "St. Peter's Basilica",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1959-dalai-lama-exile",
+      "place": "Dharamshala",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce2055-beni-hasan",
+      "place": "Beni Hasan",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce688-olympic-boxing",
+      "place": "Olympia",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1850-yang-taichi",
+      "place": "Beijing",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1949-ipman-wingchun",
+      "place": "Hong Kong",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1967-jeet-kune-do",
+      "place": "Los Angeles",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1932-bimba-regional",
+      "place": "Salvador",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1993-ufc1",
+      "place": "Denver",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1921-rorschach-test",
+      "place": "Herisau",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1935-thematic-apperception",
+      "place": "Harvard University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1939-wechsler-bellevue",
+      "place": "Bellevue Hospital Center",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1943-mmpi",
+      "place": "Minneapolis",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1961-beck-depression-inventory",
+      "place": "University of Pennsylvania",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1938-skinner-operant",
+      "place": "Minneapolis",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1943-maslow-needs",
+      "place": "Brooklyn College",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1951-rogers-client-centered",
+      "place": "University of Chicago",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1961-bandura-bobo-doll",
+      "place": "Stanford University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1967-beck-cognitive-therapy",
+      "place": "University of Pennsylvania",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1958-bowlby-attachment",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1974-loftus-misinformation",
+      "place": null,
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1998-seligman-positive-psychology",
+      "place": "University of Pennsylvania",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce399-socrates-apology",
+      "place": "Athens",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce335-aristotle-nicomachean",
+      "place": "Athens",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce307-epicurus-garden",
+      "place": "Athens",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-170-marcus-aurelius-meditations",
+      "place": "Sremska Mitrovica",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-942-farabi-virtuous-city",
+      "place": "Damascus",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1180-averroes-incoherence",
+      "place": "Seville",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1943-sartre-being-nothingness",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1949-beauvoir-second-sex",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1951-arendt-totalitarianism",
+      "place": "New York City",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1952-fanon-black-skin",
+      "place": "Lyon",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1975-foucault-discipline-punish",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce246-archimedes-buoyancy",
+      "place": "Syracuse",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce280-aristarchus-heliocentric",
+      "place": "Alexandria",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce240-eratosthenes-earth",
+      "place": "Alexandria",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-150-ptolemy-almagest",
+      "place": "Alexandria",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1947-bell-transistor",
+      "place": "Murray Hill",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1960-maiman-laser",
+      "place": "Malibu",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1964-gell-mann-quarks",
+      "place": "California Institute of Technology",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1964-cmb",
+      "place": "Holmdel Township",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1967-bell-pulsar",
+      "place": "University of Cambridge",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1995-mayor-queloz-exoplanet",
+      "place": "Geneva",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1998-accelerating-universe",
+      "place": "University of California, Berkeley",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-2012-higgs-boson",
+      "place": "Geneva",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2015-ligo-gravitational-waves",
+      "place": "Livingston",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1070-khayyam-cubic",
+      "place": "Samarkand",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1950-nash-equilibrium",
+      "place": "Princeton University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1976-four-color",
+      "place": "University of Illinois Urbana-Champaign",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1977-rsa",
+      "place": "Massachusetts Institute of Technology",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1994-wiles-fermat",
+      "place": "Princeton University",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-2002-perelman-poincare",
+      "place": "Saint Petersburg",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce460-democritus-atoms",
+      "place": "Ancient Abdera",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-865-razi-substances",
+      "place": "Baghdad",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1938-hahn-fission",
+      "place": "Berlin",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1939-muller-ddt",
+      "place": "Basel",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1952-miller-urey",
+      "place": "University of Chicago",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1952-ziegler-natta",
+      "place": "Max Planck Institute for Coal Research",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1977-sanger-sequencing",
+      "place": "Laboratory of Molecular Biology",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1983-mullis-pcr",
+      "place": "Emeryville",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1985-fullerene",
+      "place": "Rice University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2001-click-chemistry",
+      "place": "Scripps Research",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2004-graphene",
+      "place": "University of Manchester",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2020-alphafold",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce460-hippocrates-medicine",
+      "place": "Kos",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-162-galen-anatomy",
+      "place": "Rome",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1242-ibn-nafis",
+      "place": "Cairo",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1952-hodgkin-huxley",
+      "place": "Plymouth",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1961-jacob-monod",
+      "place": "Pasteur Institute",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1962-silent-spring",
+      "place": "Silver Spring",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1967-margulis-endosymbiosis",
+      "place": "Boston University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1973-recombinant-dna",
+      "place": "Stanford University",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1996-dolly",
+      "place": "The Roslin Institute",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2006-yamanaka-ipsc",
+      "place": "Kyoto University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2012-crispr",
+      "place": "University of California, Berkeley",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2005-mrna-vaccine",
+      "place": "University of Pennsylvania",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-822-ziryab-cordoba",
+      "place": "Córdoba",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1934-kulthum-radio",
+      "place": "Cairo",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1952-cage-433",
+      "place": "Woodstock",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1965-reich-rain",
+      "place": "San Francisco",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1967-beatles-pepper",
+      "place": "London",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1973-herc-breakbeat",
+      "place": "New York City",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1973-marley-catchafire",
+      "place": "Kingston",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1974-kraftwerk-autobahn",
+      "place": "Düsseldorf",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1976-fela-zombie",
+      "place": "Lagos",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1831-hokusai-wave",
+      "place": "Tokyo",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1915-malevich-square",
+      "place": "Saint Petersburg",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1939-kahlo-twofridas",
+      "place": "Mexico City",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1947-pollock-drip",
+      "place": "Springs",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1949-rothko-colorfield",
+      "place": "New York City",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1958-kusama-infinitynets",
+      "place": "New York City",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1961-warhol-soup",
+      "place": "Los Angeles",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce210-terracotta-army",
+      "place": "Xi'an",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1550-benin-plaques",
+      "place": "Benin City",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1947-giacometti-pointing",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1951-moore-reclining",
+      "place": "London",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1999-bourgeois-maman",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2004-kapoor-cloudgate",
+      "place": "Chicago",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2010-aiweiwei-seeds",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1150-angkor-wat",
+      "place": "Angkor Wat",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1181-lalibela",
+      "place": "Monolithic churches in Lalibela",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1420-forbidden-city",
+      "place": "Forbidden City",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1450-machu-picchu",
+      "place": "Machu Picchu",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1653-taj-mahal",
+      "place": "Taj Mahal",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1973-sydney-opera",
+      "place": "Sydney Opera House",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1977-pompidou",
+      "place": "Centre Georges Pompidou",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1982-dhaka-assembly",
+      "place": "Jatiya Sangsad Bhaban",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1997-guggenheim-bilbao",
+      "place": "Guggenheim Museum Bilbao",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2010-burj-khalifa",
+      "place": "Burj Khalifa",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-2012-heydar-aliyev",
+      "place": "Heydar Aliyev Cultural Center",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1603-okuni-kabuki",
+      "place": "Kyoto",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1273-mevlevi-sema",
+      "place": "Konya",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1930-graham-lamentation",
+      "place": "New York City",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1960-ailey-revelations",
+      "place": "New York City",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1953-cunningham-chance",
+      "place": "Black Mountain College",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1973-bausch-tanztheater",
+      "place": "Wuppertal",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1973-herc-breaking",
+      "place": "The Bronx",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1990-naharin-gaga",
+      "place": "Tel Aviv",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1953-ozu-tokyo-story",
+      "place": "Kamakura",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1955-ray-pather-panchali",
+      "place": "Kolkata",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1977-lucas-star-wars",
+      "place": "Van Nuys",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-2019-bong-parasite",
+      "place": "Cannes",
+      "ok": true,
+      "confidence": "interpretive"
     }
   ],
   "summary": {
-    "persons": "204/204",
-    "discoveries": "199/199",
-    "links": "112/113",
-    "images": 191
+    "persons": "400/400",
+    "discoveries": "363/363",
+    "links": "192/193",
+    "images": 371
   }
 }
