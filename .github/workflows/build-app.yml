@@ -1,0 +1,25 @@
+name: build-app
+# Builds app/ (relative paths) so the latest main is viewable without Vercel:
+# https://raw.githack.com/Anat1969/Olam-GH/main/app/index.html
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['app/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run build:github
+      - name: Commit app/ if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add app
+          git diff --cached --quiet || (git commit -m "build: app/ for raw.githack" && git push)

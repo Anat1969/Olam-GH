@@ -1,0 +1,135 @@
+// בדיקת קצה לקצה מול vite preview: node tests/e2e.cjs (אחרי npm run build)
+const { chromium } = require('playwright');
+const { spawn } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+const PORT = 4199;
+const BASE = `http://localhost:${PORT}/`;
+const MENU = fs.readFileSync(path.join(__dirname, 'fixtures/ai-menu.js'), 'utf8');
+const fails = [];
+const ok = (cond, msg) => { console.log((cond ? 'PASS ' : 'FAIL ') + msg); if (!cond) fails.push(msg); };
+const h1 = (p) => p.locator('h1').innerText();
+const waitH1 = (p, part) => p.waitForFunction((t) => document.querySelector('h1')?.innerText.includes(t), part, { timeout: 5000 }).catch(() => {});
+const mock = async (p) => {
+  await p.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
+  await p.route('**/fonts.googleapis.com/**', (r) => r.abort());
+};
+
+(async () => {
+  const srv = spawn('npx', ['vite', 'preview', '--port', String(PORT), '--strictPort'], { stdio: 'ignore' });
+  await new Promise((r) => setTimeout(r, 2500));
+  const b = await chromium.launch();
+  try {
+    const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
+    await mock(p);
+    const errors = [];
+    p.on('pageerror', (e) => errors.push(e.message));
+    const t0 = Date.now();
+    await p.goto(BASE, { waitUntil: 'load' });
+    await p.locator('h1').waitFor();
+    const loadMs = Date.now() - t0;
+    ok(loadMs < 2000, `טעינה מתחת ל-2 שניות (${loadMs}ms)`);
+    ok(await p.evaluate(() => document.documentElement.dir === 'rtl' && document.documentElement.lang === 'he'), 'עברית ו-RTL מוגדרים במפורש');
+    ok((await h1(p)).includes('40 גילויים'), 'דף הבית: שורת התובנה עם המספר המרכזי');
+    ok(await p.locator('ai-menu .logo').isVisible(), 'כפתור הלוגו A&I בסרגל העליון');
+    ok(!(await p.locator('header >> text=העתקת קישור').first().isVisible().catch(() => false)), 'אין כפתורי פיתוח חופשיים בסרגל');
+    ok(await p.locator('svg.stack .slab').count() === 4, 'דף הבית: 4 שכבות של משפחות ידע');
+    ok(await p.locator('svg.stack .stack-dot').count() === 40, 'דף הבית: 40 נקודות גילוי על שכבת שכל');
+    await p.locator('.stack-legend li').nth(1).hover();
+    ok(await p.locator('.slab.is-hover').count() === 1, 'ריחוף על המקרא מרים את השכבה');
+    ok(await p.locator('.city-bars li').count() >= 5, 'ערי הידע מוצגות');
+
+    await p.locator('.tabs').getByText('ציר הזמן').click();
+    await waitH1(p, 'בשנת');
+    ok((await h1(p)).includes('בשנת 1700 ידועים 8 מתוך 20 גילויים'), 'ציר הזמן: ברירת מחדל, פיזיקה ב-1700');
+    ok(await p.locator('.tabs [aria-current="page"]').innerText() === 'ציר הזמן', 'לשונית ציר הזמן מסומנת');
+    ok(await p.locator('.tl-card').count() === 20, 'ציר הפיזיקה: 20 כרטיסים, רק רשומות מאומתות');
+    ok(await p.locator('.tl-card.is-hidden').count() === 12, 'גילויים אחרי 1700 מתחת לזכוכית');
+    await p.getByRole('button', { name: 'הגילוי הבא' }).click();
+    await waitH1(p, '1785');
+    ok((await h1(p)).includes('בשנת 1785 ידועים 9'), 'הגילוי הבא קופץ ל-1785');
+    await p.waitForTimeout(400);
+    ok(p.url().includes('y=1785'), 'השנה נשמרת בכתובת');
+    await p.getByRole('button', { name: 'הגילוי הקודם' }).click();
+    await waitH1(p, '1687');
+    ok((await h1(p)).includes('בשנת 1687'), 'הגילוי הקודם קופץ ל-1687');
+    await p.locator('input[type=range]').fill('500');
+    await p.waitForTimeout(100);
+    ok(!(await h1(p)).includes('1687'), 'המחוון משנה את השנה');
+    await p.getByRole('button', { name: 'הפעלה' }).click();
+    const before = await h1(p);
+    await p.waitForTimeout(900);
+    const after = await h1(p);
+    await p.getByRole('button', { name: 'עצירה' }).click();
+    ok(before !== after, 'הפעלה מזיזה את הזמן, ועצירה עוצרת');
+
+    await p.locator('.tl-card[data-id="d-1687-newton-principia"]').click();
+    await p.locator('aside.person').waitFor();
+    ok(await p.locator('.person-name').innerText() === 'אייזק ניוטון', 'לחיצה על כרטיס פותחת את כרטיס הדמות');
+    ok(p.url().includes('p=p-newton'), 'הדמות נשמרת בכתובת');
+    ok((await p.locator('aside.person').innerText()).includes('הלוח היוליאני'), 'לוח יוליאני מסומן במפורש');
+    ok((await p.locator('aside.person .facts').innerText()).includes('1642'), 'ניוטון: שנת לידה 1642 לפי המקור');
+    ok(await p.locator('aside.person blockquote').count() >= 2, 'ציטוטים מהמקור בכרטיס');
+    ok(await p.locator('aside.person .src-list a').count() >= 2, 'רשימת מקורות עם קישורים');
+    ok(await p.locator('aside.person .person-face figcaption').innerText().then((t) => t.includes('רישיון')), 'התמונה מגיעה עם רישיון');
+    ok(await p.locator('.tl-arc').count() >= 1, 'קשרי הדמות מסומנים כקשתות על הציר');
+    ok(await p.locator('.tl-card[aria-pressed="true"]').count() === 1, 'הכרטיס של הדמות מסומן כנבחר');
+    await p.locator('aside.person .rel .chip').first().click();
+    await p.waitForFunction(() => document.querySelector('.person-name')?.textContent !== 'אייזק ניוטון');
+    ok((await p.locator('.person-name').innerText()).includes('קפלר'), 'קשר מוביל לדמות השנייה');
+    await p.keyboard.press('Escape');
+    await p.waitForTimeout(150);
+    ok(await p.locator('aside.person').count() === 0, 'Escape סוגר את הכרטיס');
+
+    await p.getByRole('button', { name: /מתמטיקה/ }).click();
+    await p.waitForTimeout(150);
+    ok(p.url().includes('d=mathematics') && (await p.locator('.tl-card').count()) === 20, 'מעבר לתחום מתמטיקה');
+
+    await p.goto(BASE + '#/timeline?d=mathematics&y=1850&p=p-godel', { waitUntil: 'networkidle' });
+    ok((await h1(p)).includes('בשנת 1850') && (await p.locator('.person-name').innerText()) === 'קורט גדל', 'קישור מועתק פותח את אותו מצב');
+    ok((await p.locator('aside.person .rel').first().innerText()).includes('ערער על'), 'כיוון הקשר: גדל ערער על הילברט');
+    await p.locator('.brand').click();
+    await waitH1(p, '40 גילויים');
+    ok((await h1(p)).includes('40 גילויים'), 'שם האפליקציה מוביל לבית');
+
+    await p.goto(BASE + '#/method', { waitUntil: 'networkidle' });
+    ok((await h1(p)) === 'כל רשומה נבדקת מול המקור שלה.', 'דף השיטה');
+    ok((await p.locator('.rejected').innerText()).includes('l-2'), 'רשומה שלא עברה מוצגת עם הסיבה');
+    await p.getByLabel('חיפוש במקורות').fill('Kepler');
+    ok((await p.locator('.src-table tbody tr').count()) >= 2, 'חיפוש מסנן מקורות');
+    await p.getByLabel('חיפוש במקורות').fill('zzzz');
+    ok(await p.getByText('לא נמצא מקור').isVisible(), 'מצב ריק מוסבר');
+
+    ok(await p.locator('.num').count() > 5, 'מספרים מודגשים אוטומטית');
+    for (const h of ['', '#/timeline?p=p-newton', '#/method']) {
+      await p.goto(BASE + h, { waitUntil: 'networkidle' });
+      const square = await p.evaluate(() => [...document.querySelectorAll('button, .press, input, .chip')].every((el) => getComputedStyle(el).borderRadius === '0px'));
+      ok(square, `${h || 'בית'}: כל הכפתורים מרובעים`);
+    }
+    const cdp = await p.context().newCDPSession(p);
+    await p.goto(BASE, { waitUntil: 'networkidle' });
+    const inst = await cdp.send('Page.getInstallabilityErrors');
+    ok(inst.installabilityErrors.length === 0, 'התקנה מ-Chrome: ' + (JSON.stringify(inst.installabilityErrors) || 'אין שגיאות'));
+
+    for (const vp of [{ width: 390, height: 844 }, { width: 1280, height: 900 }]) {
+      const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
+      await mock(m);
+      m.on('pageerror', (e) => errors.push(e.message));
+      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/method']) {
+        await m.goto(BASE + h, { waitUntil: 'networkidle' });
+        const hs = await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
+        ok(!hs, `${vp.width}px ${h || 'בית'}: בלי גלילה אופקית בדף`);
+      }
+      await m.goto(BASE, { waitUntil: 'networkidle' });
+      const anim = await m.evaluate(() => getComputedStyle(document.querySelector('.rise')).animationName);
+      ok(anim === 'none', `${vp.width}px: הפחתת תנועה מכובדת`);
+      await m.close();
+    }
+    ok(errors.length === 0, 'אין שגיאות JavaScript ' + errors.join(' | '));
+  } finally {
+    await b.close();
+    srv.kill();
+  }
+  console.log(fails.length ? `\n${fails.length} נכשלו` : '\nהכול עבר');
+  process.exit(fails.length ? 1 : 0);
+})();
