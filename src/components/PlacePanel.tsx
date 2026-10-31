@@ -1,6 +1,7 @@
 // כל מה שקרה במקום אחד (עיר או ארץ), בהיררכיה: משפחת ידע, תחום, דמות, יצירות.
 // הסדר: משפחות לפי fields.json, תחומים לפי מספר הגילויים, דמויות לפי השנה הראשונה.
 import Rich from './Rich';
+import DomainIcon from '../icons';
 import { type Discovery, families, personById, rangeText, yearText, ANON } from '../data';
 
 export default function PlacePanel({ title, subtitle, items, year, onPerson, children }: {
@@ -31,7 +32,7 @@ export default function PlacePanel({ title, subtitle, items, year, onPerson, chi
           <h3 className="pp-fam-title">{f.nameHe}</h3>
           {domains.map(({ dm, count, persons }) => (
             <div key={dm.id} className="pp-domain">
-              <h4 className="pp-dom-title"><span className={`lg-sq dom-${dm.id}`} />{dm.nameHe} <bdi className="num">{count}</bdi></h4>
+              <h4 className="pp-dom-title"><DomainIcon id={dm.id} />{dm.nameHe} <bdi className="num">{count}</bdi></h4>
               <ul className="pp-people">
                 {persons.map(([pid, works]) => {
                   const p = personById.get(pid);

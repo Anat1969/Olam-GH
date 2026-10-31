@@ -139,6 +139,21 @@ const mock = async (p) => {
     ok(await p.locator('.tl-card[aria-pressed="true"]').count() === 1, 'הכרטיס של הדמות מסומן כנבחר');
     ok(await p.locator('.tl-mark[data-year="1687"]').count() === 1, 'השנה של הדמות שנבחרה מודגשת על הציר');
     ok(await p.locator('aside.person .find-nc dd').first().evaluate((e) => +getComputedStyle(e).fontWeight >= 600), 'החידוש והתרומה בהבלטה');
+    ok(await p.locator('aside.person .quote-he').first().evaluate((e) => +getComputedStyle(e).fontWeight >= 700), 'הציטוט בעברית בבולט');
+    ok(await p.locator('aside.person .card-nav').isVisible(), 'בכרטיס הדמות: הקודם והבא באותו נושא');
+    const navPos = await p.locator('.card-nav-pos').innerText();
+    await p.locator('.card-nav').getByRole('button', { name: 'הבא' }).click();
+    await p.waitForTimeout(300);
+    ok(!p.url().includes('p=p-newton') && (await p.locator('.card-nav-pos').innerText()) !== navPos, 'הבא עובר לדמות הבאה בזמן');
+    await p.locator('.card-nav').getByRole('button', { name: 'הקודם' }).click();
+    await p.waitForTimeout(300);
+    ok(p.url().includes('p=p-newton'), 'הקודם חוזר לדמות');
+    if ((await p.viewportSize()).width >= 1100) {
+      const asideR = await p.locator('aside.person').evaluate((e) => e.getBoundingClientRect().right);
+      const ctlL = await p.locator('.tl-controls').evaluate((e) => e.getBoundingClientRect().left);
+      ok(ctlL >= asideR, 'מסך לא על מסך: כרטיס הדמות לא מסתיר את הציר');
+    }
+    ok(DISC.filter((d) => d.workImage).every((d) => d.workImage.license && d.workImage.url.includes('wikimedia')), 'תמונות היצירות מוויקישיתוף ועם רישיון');
     const PHYS_SUBS = FIELDS.find((d) => d.id === 'physics').subs;
     ok(await p.locator('.subs-grid .sub-col').count() === PHYS_SUBS.length, `מתחת לציר: ${PHYS_SUBS.length} תתי תחומים של פיזיקה`);
     ok(DISC.every((d) => !d.sub || FIELDS.find((f) => f.id === d.domainId).subs.some((x) => x.id === d.sub)), 'כל תת-תחום בנתונים קיים בתחום שלו');
@@ -288,7 +303,7 @@ const mock = async (p) => {
     ok(p.url().includes('t=all') && (await p.locator('.tour-num').innerText()) === `1/${tourAllN}`, `מסע בכל התחומים: ${tourAllN} תחנות`);
     const allYears = await p.locator('.tour-list .tour-y').evaluateAll((els) => els.map((e) => Number(e.dataset.year)));
     ok(allYears.length === tourAllN && allYears.every((v, i, a) => i === 0 || a[i - 1] <= v), 'כל התחומים בסדר כרונולוגי אחד');
-    ok(new Set(await p.locator('.tour-list .tour-dot').evaluateAll((els) => els.map((e) => e.className))).size >= 10, 'ברשימה סימן צבע לכל תחום');
+    ok(new Set(await p.locator('.tour-list .dicon').evaluateAll((els) => els.map((e) => e.getAttribute('class')))).size >= 10, 'ברשימה אייקון בצבע לכל תחום');
     await p.locator('.tour-list li button').nth(30).click();
     await p.waitForTimeout(300);
     const badges = await p.evaluate(() => [...document.querySelectorAll('.mc-n')].filter((e) => e.textContent).map((e) => e.textContent));
@@ -375,14 +390,14 @@ const mock = async (p) => {
     const boxes = [];
     for (const h of ['#/timeline', '#/map', '#/graph', '#/method']) {
       await p.goto(BASE + h, { waitUntil: 'networkidle' });
-      const bx = await p.locator('header .kw-input').boundingBox();
+      const bx = await p.locator('header .kw-field input').boundingBox();
       boxes.push(bx && `${Math.round(bx.x)},${Math.round(bx.y)},${Math.round(bx.width)}`);
     }
     ok(boxes.every((x) => x && x === boxes[0]), `שדה החיפוש באותו מקום בכל הדפים (${boxes[0]})`);
-    ok(await p.locator('header .kw-clear').isVisible() && await p.locator('header .kw-clear').evaluate((e) => getComputedStyle(e).color !== 'rgba(0, 0, 0, 0)'), 'האיקס לאיפוס גלוי גם כשהשדה ריק');
+    ok(await p.locator('header .kw-field .clearable-x').isVisible() && await p.locator('header .kw-field .clearable-x').evaluate((e) => getComputedStyle(e).color !== 'rgba(0, 0, 0, 0)'), 'האיקס לאיפוס גלוי גם כשהשדה ריק');
     await p.goto(BASE + '#/timeline?d=physics&y=2025', { waitUntil: 'networkidle' });
     await p.locator('body').press('/');
-    ok(await p.evaluate(() => document.activeElement?.classList.contains('kw-input')), 'מקש / מתמקד בשדה החיפוש');
+    ok(await p.evaluate(() => document.activeElement?.closest('.kw-field')), 'מקש / מתמקד בשדה החיפוש');
     await p.keyboard.type('טלפון');
     await p.locator('.kw-strip').waitFor();
     const TEL = DISC.filter((d) => /טלפון/.test(d.title));
@@ -394,25 +409,25 @@ const mock = async (p) => {
     ok(p.url().includes(`p=${TEL[0].personIds[0]}`), 'בחירה מהרשימה פותחת את הדמות');
     await p.goto(BASE + '#/graph', { waitUntil: 'networkidle' });
     ok(await p.locator('.g-node.is-kw').count() >= 1, 'המילה נשמרת במעבר דף: הגרף מדגיש');
-    await p.locator('header .kw-clear').click();
+    await p.locator('header .kw-field .clearable-x').click();
     await p.waitForTimeout(300);
     ok(await p.locator('.kw-strip').count() === 0 && await p.locator('.is-kw, .is-kw-off').count() === 0, 'האיקס מאפס את החיפוש ואת ההדגשה');
     // דף כל התוצאות
     await p.goto(BASE + '#/search?q=' + encodeURIComponent('קירי'), { waitUntil: 'networkidle' });
     await p.locator('.search-hit[data-kind="person"]').first().waitFor();
-    ok((await p.locator('.search-hit[data-kind="person"]').allInnerTexts()).some((t) => t.includes('קירי')) && (await p.locator('header .kw-input').inputValue()) === 'קירי', 'קישור לכל התוצאות ממלא את השדה בסרגל');
-    await p.locator('header .kw-input').fill('Kyoto');
+    ok((await p.locator('.search-hit[data-kind="person"]').allInnerTexts()).some((t) => t.includes('קירי')) && (await p.locator('header .kw-field input').inputValue()) === 'קירי', 'קישור לכל התוצאות ממלא את השדה בסרגל');
+    await p.locator('header .kw-field input').fill('Kyoto');
     await p.locator('.search-hit[data-kind="city"]').first().waitFor();
     ok((await p.locator('.search-hit[data-kind="city"]').first().innerText()).includes('קיוטו'), 'חיפוש בלועזית מוצא עיר בעברית');
-    await p.locator('header .kw-input').fill('אבחון');
+    await p.locator('header .kw-field input').fill('אבחון');
     await p.locator('.search-hit[data-kind="sub"]').first().waitFor();
     await p.locator('.search-hit[data-kind="sub"]').first().click();
     await p.locator('.sub-col.is-target').waitFor();
     ok(p.url().includes('sub=assessment'), 'תת-תחום מהחיפוש נפתח ומסומן מתחת לציר');
-    await p.locator('header .kw-input').fill('xqzw');
+    await p.locator('header .kw-field input').fill('xqzw');
     await p.waitForTimeout(300);
     ok((await p.locator('.kw-strip').innerText()).includes('אין תוצאות'), 'חיפוש בלי תוצאות אומר זאת במפורש');
-    await p.locator('header .kw-clear').click();
+    await p.locator('header .kw-field .clearable-x').click();
     // יצירה בלי יוצר ידוע
     const ANON_D = DISC.find((d) => !d.personIds.length);
     ok(!!ANON_D, 'בנתונים יש יצירה בלי יוצר ידוע');
@@ -491,9 +506,9 @@ const mock = async (p) => {
     await p.goto(BASE + '#/method', { waitUntil: 'networkidle' });
     ok((await h1(p)) === 'כל רשומה נבדקת מול המקור שלה.', 'דף השיטה');
     ok((await p.locator('.rejected').innerText()).includes('l-2'), 'רשומה שלא עברה מוצגת עם הסיבה');
-    await p.getByLabel('חיפוש במקורות').fill('Kepler');
+    await p.getByLabel('חיפוש במקורות', { exact: true }).fill('Kepler');
     ok((await p.locator('.src-table tbody tr').count()) >= 2, 'חיפוש מסנן מקורות');
-    await p.getByLabel('חיפוש במקורות').fill('zzzz');
+    await p.getByLabel('חיפוש במקורות', { exact: true }).fill('zzzz');
     ok(await p.getByText('לא נמצא מקור').isVisible(), 'מצב ריק מוסבר');
 
     ok(await p.locator('.num').count() > 5, 'מספרים מודגשים אוטומטית');

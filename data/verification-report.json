@@ -7627,10 +7627,12 @@
       "confidence": "documented"
     }
   ],
+  "workImages": 243,
   "summary": {
     "persons": "459/459",
     "discoveries": "424/424",
     "links": "229/230",
-    "images": 426
+    "images": 426,
+    "workImages": 243
   }
 }

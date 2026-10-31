@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import maplibregl, { type GeoJSONSource, type Map as MLMap, type Marker } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import type { City, LonLat } from '../geo';
+import { iconSvg } from '../icons';
 
 export type RouteView = { id: string; path: LonLat[]; type: string; confidence: string; on: boolean };
 export type CityView = { city: City; known: number; recent: boolean; on: boolean; domain: string; badge?: string; kw?: boolean };
@@ -135,7 +136,7 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
         btn.type = 'button';
         btn.dir = 'rtl';
         btn.dataset.city = c.city.key;
-        btn.innerHTML = '<span class="mc-sq"><bdi class="num mc-n"></bdi></span><span class="mc-name"></span>';
+        btn.innerHTML = '<span class="mc-sq"><span class="mc-ico"></span><bdi class="num mc-n"></bdi></span><span class="mc-name"></span>';
         btn.addEventListener('click', (e) => { e.stopPropagation(); cb.current.onCity(c.city.key); });
         mk = new maplibregl.Marker({ element: wrapEl, anchor: 'center' }).setLngLat(c.city.lonLat).addTo(m);
         markers.current.set(c.city.key, mk);
@@ -149,6 +150,9 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
       // מספר מופיע רק במסע (סדר התחנות). בתצוגה הרגילה הגודל מספר את הכמות, לפי המקרא.
       (btn.querySelector('.mc-n') as HTMLElement).textContent = c.badge || '';
       (btn.querySelector('.mc-name') as HTMLElement).textContent = c.city.nameHe;
+      // אייקון התחום בלבן בתוך הריבוע (רק כשהסמן גדול מספיק כדי שיהיה קריא)
+      const ico = btn.querySelector('.mc-ico') as HTMLElement;
+      if (ico.dataset.d !== c.domain) { ico.innerHTML = size >= 18 ? iconSvg(c.domain) : ''; ico.dataset.d = c.domain; }
     }
     for (const [k, mk] of markers.current) if (!seen.has(k)) { mk.remove(); markers.current.delete(k); }
     const raf = requestAnimationFrame(() => declutter.current());

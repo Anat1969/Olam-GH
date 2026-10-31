@@ -1,14 +1,16 @@
 // שלב 3: מפה. אותם גילויים לפי מקום, ומחוון זמן שמזיז את הנקודות בזמן אמת.
 import { useMatches } from '../search';
+import DomainIcon from '../icons';
 import { Suspense, lazy, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Rich from '../components/Rich';
 import LinkPanel from '../components/LinkPanel';
 import PersonCard from '../components/PersonCard';
 import PlacePanel from '../components/PlacePanel';
+import WorkImage from '../components/WorkImage';
 import { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
-import { activeDomains, confidenceName, endName, linkTypeName, personById, rangeText, yearText, ANON, workParams } from '../data';
+import { activeDomains, confidenceName, endName, linkTypeName, personById, rangeText, yearText, ANON, workParams, discoveryById } from '../data';
 import { arc, centerAt, centerTrail, cities, countries, countryByName, km, nearestCity, routes, sameCityLinks, unplaced } from '../geo';
-import { href, replace } from '../route';
+import { href, replace, go } from '../route';
 
 const domainName = (id: string) => activeDomains.find((d) => d.id === id)?.nameHe || id;
 
@@ -146,7 +148,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             const on = domains.has(d.id);
             return (
               <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={on} disabled={on && domains.size === 1}
-                onClick={() => set({ d: activeDomains.map((a) => a.id).filter((a) => (a === d.id ? !on : domains.has(a))).join(',') })}>{d.nameHe}</button>
+                onClick={() => set({ d: activeDomains.map((a) => a.id).filter((a) => (a === d.id ? !on : domains.has(a))).join(',') })}><DomainIcon id={d.id} />{d.nameHe}</button>
             );
           })}
           <button type="button" className="press chip" aria-pressed={showRoutes} onClick={() => set({ r: showRoutes ? '0' : undefined })}>מסלולי ידע <bdi className="num">{shownRoutes.length}</bdi></button>
@@ -158,7 +160,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             onClick={() => { setTouring(false); set(tourAll ? { t: undefined, s: undefined } : { t: 'all', s: '0', c: undefined, k: undefined }); }}>כל התחומים</button>
           {activeDomains.map((d) => (
             <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={tourDomain?.id === d.id}
-              onClick={() => { setTouring(false); set(tourDomain?.id === d.id ? { t: undefined, s: undefined } : { t: d.id, s: '0', c: undefined, k: undefined }); }}>{d.nameHe}</button>
+              onClick={() => { setTouring(false); set(tourDomain?.id === d.id ? { t: undefined, s: undefined } : { t: d.id, s: '0', c: undefined, k: undefined }); }}><DomainIcon id={d.id} />{d.nameHe}</button>
           ))}
         </div>
         <label className="slider">
@@ -195,6 +197,20 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                 onFail={() => setFailed(true)} />
             </Suspense>
           )}
+          <ul className="legend" aria-label="מקרא">
+          {activeDomains.map((d) => <li key={d.id}><DomainIcon id={d.id} />{d.nameHe}</li>)}
+            <li><DomainIcon id="mixed" />כמה תחומים</li>
+            <li><span className="lg-sq lg-big" />גודל: מספר הגילויים בעיר</li>
+            <li><span className="lg-sq lg-badge">3</span>מספר: סדר התחנה במסע</li>
+            <li><span className="lg-sq lg-recent" />גילוי ב-<bdi className="num">30</bdi> השנים האחרונות</li>
+            <li><span className="lg-line line-influenced" />מסלול ידע מתועד</li>
+            <li><span className="lg-line lg-orange" />פרשנות מקובלת</li>
+            <li><span className="lg-trail" />שובל מרכז הכובד, מחושב</li>
+          </ul>
+        </section>
+
+        <aside className="map-side" aria-label="ערים">
+          {/* כרטיס התחנה יושב בטור שבצד ולא מעל המפה, כדי שלא יסתיר אותה */}
           {tourDomain && stop && (() => {
             const p = personById.get(stop.d.personIds[0]);
             return (
@@ -210,6 +226,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                     <h3 className="tour-title">{stop.d.title}</h3>
                     <div className="tour-who">{stop.d.personIds.map((id) => personById.get(id)?.nameHe).filter(Boolean).join(' ו') || ANON}</div>
                     {stop.d.novelty && <Rich as="p" className="tour-text">{stop.d.novelty}</Rich>}
+                    <WorkImage d={stop.d} small />
                   </div>
                 </div>
                 <div className="seg">
@@ -222,19 +239,6 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
               </div>
             );
           })()}
-          <ul className="legend" aria-label="מקרא">
-          {activeDomains.map((d) => <li key={d.id}><span className={`lg-sq dom-${d.id}`} />{d.nameHe}</li>)}
-            <li><span className="lg-sq dom-mixed" />כמה תחומים</li>
-            <li><span className="lg-sq lg-big" />גודל: מספר הגילויים בעיר</li>
-            <li><span className="lg-sq lg-badge">3</span>מספר: סדר התחנה במסע</li>
-            <li><span className="lg-sq lg-recent" />גילוי ב-<bdi className="num">30</bdi> השנים האחרונות</li>
-            <li><span className="lg-line line-influenced" />מסלול ידע מתועד</li>
-            <li><span className="lg-line lg-orange" />פרשנות מקובלת</li>
-            <li><span className="lg-trail" />שובל מרכז הכובד, מחושב</li>
-          </ul>
-        </section>
-
-        <aside className="map-side" aria-label="ערים">
           {tourDomain ? (
             <div className="card city-panel">
               <h2 className="city-title">המסע ב{tourDomain.nameHe}</h2>
@@ -244,7 +248,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                   <li key={st.d.id}>
                     <button type="button" className="press city-row" aria-pressed={i === si} onClick={() => { setTouring(false); set({ s: String(i) }); }}>
                       <span className="tour-n"><bdi className="num">{i + 1}</bdi></span>
-                      <span>{tourAll && <i className={`tour-dot dom-${st.d.domainId}`} aria-label={domainName(st.d.domainId)} />}{st.d.title.split(':')[0]} <span className="muted">{st.city.nameHe}</span></span>
+                      <span>{tourAll && <DomainIcon id={st.d.domainId} label={domainName(st.d.domainId)} />}{st.d.title.split(':')[0]} <span className="muted">{st.city.nameHe}</span></span>
                       <span className="tour-y" data-year={st.d.yearFrom}><bdi className="num">{Math.abs(st.d.yearFrom)}</bdi>{st.d.yearFrom < 0 ? ' לפנה״ס' : ''}</span>
                     </button>
                   </li>
@@ -274,7 +278,8 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                   .filter((x) => x.n > 0).sort((a2, b2) => b2.n - a2.n || a2.c.nameHe.localeCompare(b2.c.nameHe, 'he')).map(({ c, n }) => (
                     <li key={c.key}>
                       <button type="button" className="press city-row" onClick={() => set({ k: c.key })}>
-                        <span className="lg-sq dom-mixed" />
+                        {/* אייקון התחום המוביל בארץ, בצבע שלו */}
+                        <DomainIcon id={(() => { const m = new Map<string, number>(); c.cities.forEach((x) => x.items.forEach((d) => { if (domains.has(d.domainId)) m.set(d.domainId, (m.get(d.domainId) || 0) + 1); })); return [...m].sort((a2, b2) => b2[1] - a2[1])[0]?.[0] || 'mixed'; })()} />
                         <span>{c.nameHe} <span className="muted" dir="ltr">{c.nameFull}</span></span>
                         <bdi className="num">{n}</bdi>
                       </button>
@@ -305,7 +310,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
       )}
       {sameCityLinks.length > 0 && <p className="muted small"><bdi className="num">{sameCityLinks.length}</bdi> קשרים נוספים מחברים גילויים באותה עיר, ולכן אין להם קשת. הם מופיעים במסך ההשוואה.</p>}
 
-      {person && <PersonCard person={person} onClose={() => set({ p: undefined })} onOpen={(id) => set({ p: id })} />}
+      {person && <PersonCard person={person} onClose={() => set({ p: undefined })} onOpen={(id, did) => (id ? set({ p: id }) : did ? go('timeline', workParams(discoveryById.get(did)!)) : undefined)} />}
     </main>
   );
 }

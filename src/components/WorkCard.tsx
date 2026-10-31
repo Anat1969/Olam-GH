@@ -4,9 +4,11 @@ import { useEffect, useRef } from 'react';
 import Rich from './Rich';
 import Editable from './Editable';
 import Quote from './Quote';
+import WorkImage from './WorkImage';
+import CardNav, { type Nav } from './CardNav';
 import { ANON, type Discovery, confidenceName, domainById, linkVerb, linksOfDiscovery, nodeLabel, rangeText, sourceById } from '../data';
 
-export default function WorkCard({ d, onClose, onOpen }: { d: Discovery; onClose: () => void; onOpen: (personId: string | undefined, discoveryId?: string) => void }) {
+export default function WorkCard({ d, onClose, onOpen, nav }: { d: Discovery; onClose: () => void; onOpen: (personId: string | undefined, discoveryId?: string) => void; nav?: Nav }) {
   const ref = useRef<HTMLElement>(null);
   const rel = linksOfDiscovery(d.id);
   const closeRef = useRef(onClose);
@@ -24,7 +26,9 @@ export default function WorkCard({ d, onClose, onOpen }: { d: Discovery; onClose
         <div className="crumbs">ציר הזמן / כרטיס יצירה</div>
         <button type="button" className="press btn btn-quiet" onClick={onClose}>סגירה</button>
       </div>
+      <CardNav nav={nav} />
       <h2 className="person-name"><Editable kind="discovery" id={d.id} field="title" value={d.title} rich={false} /></h2>
+      <WorkImage d={d} />
       <dl className="facts">
         <div><dt className="label">שנים</dt><dd><Rich>{rangeText(d)}</Rich></dd></div>
         <div><dt className="label">יוצר</dt><dd>{ANON} <span className="muted">· המקור לא מציין יוצר, ולכן לא ממציאים אחד</span></dd></div>

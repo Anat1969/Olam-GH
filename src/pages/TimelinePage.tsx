@@ -1,7 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import DomainIcon from '../icons';
 import Timeline, { YEAR_MAX, YEAR_MIN, posScale, xScale } from '../components/Timeline';
 import PersonCard from '../components/PersonCard';
 import WorkCard from '../components/WorkCard';
+import type { Nav } from '../components/CardNav';
+import { useMatches } from '../search';
 import Rich from '../components/Rich';
 import { ANON, activeDomains, discoveries, discoveryById, domainById, personById, yearText } from '../data';
 import { replace } from '../route';
@@ -84,6 +87,21 @@ export default function TimelinePage({ params }: { params: Record<string, string
     const el = document.querySelector(`.sub-col[data-sub="${params.sub}"]`);
     el?.scrollIntoView({ block: 'center', behavior: reduced() ? 'auto' : 'smooth' });
   }, [params.sub, domain]);
+  // קדימה ואחורה בין הדמויות של הנושא שנבחר, לפי הזמן. כשיש מילת מפתח והדמות בתוצאות, הרצף הוא תוצאות החיפוש בתחום.
+  const kw = useMatches();
+  const nav = useMemo((): Nav | undefined => {
+    if (!person && !work) return undefined;
+    const has = (d: (typeof items)[number]) => (person ? d.personIds.includes(person.id) : d.id === work!.id);
+    const inKw = kw.active && items.some((d) => has(d) && kw.discoveries.has(d.id));
+    const seq = inKw ? items.filter((d) => kw.discoveries.has(d.id)) : items;
+    const idx = seq.reduce((best, d, i) => (has(d) && (best < 0 || Math.abs(d.yearFrom - year) < Math.abs(seq[best].yearFrom - year)) ? i : best), -1);
+    if (idx < 0) return undefined;
+    const open = (d: (typeof items)[number]) => () => pick(d.personIds[0], d.id);
+    const prev = [...seq.slice(0, idx)].reverse().find((d) => !has(d));
+    const next = seq.slice(idx + 1).find((d) => !has(d));
+    return { pos: idx + 1, total: seq.length, label: inKw ? `בתוצאות החיפוש ב${domainName}` : `ב${domainName}`, onPrev: prev && open(prev), onNext: next && open(next) };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [person?.id, work?.id, items, kw, year]);
   const close = useCallback(() => replace('timeline', { d: domain, y: String(year) }), [domain, year]);
 
   return (
@@ -102,7 +120,7 @@ export default function TimelinePage({ params }: { params: Record<string, string
           {activeDomains.map((d) => (
             <button key={d.id} type="button" className="press chip" aria-pressed={d.id === domain}
               onClick={() => replace('timeline', { d: d.id, y: String(year) })}>
-              {d.nameHe} <bdi className="num">{discoveries.filter((x) => x.domainId === d.id).length}</bdi>
+              <DomainIcon id={d.id} />{d.nameHe} <bdi className="num">{discoveries.filter((x) => x.domainId === d.id).length}</bdi>
             </button>
           ))}
         </div>
@@ -156,8 +174,8 @@ export default function TimelinePage({ params }: { params: Record<string, string
         </div>
       </section>
 
-      {person && <PersonCard person={person} onClose={close} onOpen={(id, did) => pick(id, did)} />}
-      {work && <WorkCard d={work} onClose={close} onOpen={(id, did) => pick(id, did)} />}
+      {person && <PersonCard person={person} onClose={close} onOpen={(id, did) => pick(id, did)} nav={nav} />}
+      {work && <WorkCard d={work} onClose={close} onOpen={(id, did) => pick(id, did)} nav={nav} />}
     </main>
   );
 }

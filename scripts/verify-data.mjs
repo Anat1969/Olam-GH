@@ -202,6 +202,24 @@ async function main() {
   }
   const ids = new Set([...personIds, ...discoveries.map((d) => d.id)]);
 
+  // תמונת היצירה: מהפריט בוויקינתונים של מאמר המקור (P18 תמונה, P3383 כרזת סרט), מוויקישיתוף ועם רישיון בלבד.
+  // מאמר של הדמות עצמה לא נחשב, כדי שדיוקן לא יוצג כתמונת היצירה.
+  const personTitles = new Set(persons.map((p) => p.wikipedia));
+  for (const d of discoveries) {
+    let found = null;
+    const titles = [...new Set(d.evidence.map((ev) => srcById.get(ev.sourceId)?.title?.replace(/, Wikipedia$/, '')).filter(Boolean))];
+    for (const t of titles) {
+      if (personTitles.has(t)) continue;
+      const art = await article(t);
+      const e = art?.qid ? await entity(art.qid) : null;
+      const file = e && (claim(e, 'P18') || claim(e, 'P3383'));
+      const im = file && (await commonsImage(file));
+      if (im) { found = { url: im.imageUrl, license: im.imageLicense, credit: im.imageCredit, page: im.imagePage, article: t }; break; }
+    }
+    if (found) d.workImage = found; else delete d.workImage;
+  }
+  report.workImages = discoveries.filter((d) => d.workImage).length;
+
   // עיר אחת, שם עברי אחד: רוב קובע, ובשוויון השם הקצר (מוסד בתוך עיר, כמו "מקדש קנין-ג׳י", לא הופך לשם העיר)
   const cityNames = new Map();
   for (const d of discoveries) if (d.place?.city) { const m = cityNames.get(d.place.city.nameFull) || new Map(); m.set(d.place.city.nameHe, (m.get(d.place.city.nameHe) || 0) + 1); cityNames.set(d.place.city.nameFull, m); }
@@ -227,7 +245,7 @@ async function main() {
   write('links.json', { _note: ln, links });
   write('sources.json', { _note: sn, sources });
   const count = (arr) => `${arr.filter((x) => x.verified).length}/${arr.length}`;
-  report.summary = { persons: count(report.persons), discoveries: count(report.discoveries), links: count(report.links), images: persons.filter((p) => p.imageUrl).length };
+  report.summary = { persons: count(report.persons), discoveries: count(report.discoveries), links: count(report.links), images: persons.filter((p) => p.imageUrl).length, workImages: discoveries.filter((d) => d.workImage).length };
   write('verification-report.json', report);
 
   console.log('אימות', TODAY, JSON.stringify(report.summary));

@@ -176,7 +176,7 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
               style={{ left: p.left, top: AXIS_Y + 34 + p.lane * LANE_H, width: CARD_W, height: CARD_H }}
               onClick={() => onPick(lead?.id, p.d.id)}
               aria-label={`${people.map((x) => x.nameHe).join(' ו') || ANON}, ${yearText(p.d.yearFrom)}: ${p.d.title}`}>
-              <span className="tl-face">{lead?.imageUrl ? <img src={lead.imageUrl} alt="" loading="lazy" decoding="async" /> : null}</span>
+              <span className="tl-face">{lead?.imageUrl ? <img src={lead.imageUrl} alt="" loading="lazy" decoding="async" /> : p.d.workImage ? <img src={p.d.workImage.url} alt="" loading="lazy" decoding="async" /> : null}</span>
               <span className="tl-text">
                 <span className="tl-name">{people.map((x) => shortName(x.nameHe, x.nameShort)).join(' ו') || ANON}</span>
                 <span className="tl-year"><bdi className="num">{p.d.yearFrom < 0 ? -p.d.yearFrom : p.d.yearFrom}</bdi>{p.d.yearFrom < 0 ? ' לפנה״ס' : ''}</span>
