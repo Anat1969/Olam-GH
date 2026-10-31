@@ -2,6 +2,18 @@
   "_note": "accessedAt מתעדכן בכל הרצה מוצלחת של npm run verify.",
   "sources": [
     {
+      "id": "s-wd-q1035",
+      "title": "Charles Darwin, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1035",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1043",
+      "title": "null, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1043",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q11104",
       "title": "Ibn al-Haytham, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q11104",
@@ -11,6 +23,18 @@
       "id": "s-wd-q11359",
       "title": "Aryabhata, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q11359",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q116072",
+      "title": "Friedrich Miescher, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q116072",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q123280",
+      "title": "Francis Crick, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q123280",
       "accessedAt": "2026-10-31"
     },
     {
@@ -26,15 +50,81 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q131733",
+      "title": "Henry Cavendish, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q131733",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q150526",
+      "title": "Santiago Ramón y Cajal, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q150526",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q153243",
+      "title": "Josiah Willard Gibbs, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q153243",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q159592",
       "title": "John Napier, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q159592",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q159636",
+      "title": "Joseph Priestley, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q159636",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q160627",
+      "title": "Alfred Russel Wallace, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q160627",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q165749",
+      "title": "William Henry Perkin, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q165749",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q170267",
+      "title": "Andreas Vesalius, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q170267",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q177681",
+      "title": "Thomas Hunt Morgan, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q177681",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q184337",
+      "title": "G.H. Hardy, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q184337",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q202943",
       "title": "Brahmagupta, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q202943",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q208858",
+      "title": "Gilbert N. Lewis, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q208858",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q216723",
+      "title": "Ronald Fisher, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q216723",
       "accessedAt": "2026-10-31"
     },
     {
@@ -50,9 +140,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q310759",
+      "title": "Henry Moseley, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q310759",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q35149",
       "title": "Wilhelm Röntgen, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q35149",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q37064",
+      "title": "Alexander Fleming, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q37064",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q37193",
+      "title": "Robert Koch, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q37193",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q37970",
+      "title": "Gregor Mendel, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q37970",
       "accessedAt": "2026-10-31"
     },
     {
@@ -62,9 +176,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q39607",
+      "title": "Antoine Lavoisier, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q39607",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q40852",
+      "title": "Edward Jenner, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q40852",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q41269",
       "title": "Antoine Henri Becquerel, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q41269",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q41284",
+      "title": "John Dalton, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q41284",
       "accessedAt": "2026-10-31"
     },
     {
@@ -86,6 +218,60 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q43393",
+      "title": "Robert Boyle, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q43393",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q43476",
+      "title": "Amedeo Avogadro, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q43476",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q43522",
+      "title": "Antonie van Leeuwenhoek, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q43522",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q46830",
+      "title": "Robert Hooke, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q46830",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q48983",
+      "title": "Linus Pauling, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q48983",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q529",
+      "title": "Louis Pasteur, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q529",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q57075",
+      "title": "Fritz Haber, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q57075",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q58575",
+      "title": "Friedrich Wöhler, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q58575",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q60052",
+      "title": "Gustav Kirchhoff, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q60052",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q619",
       "title": "Nicolaus Copernicus, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q619",
@@ -101,6 +287,12 @@
       "id": "s-wd-q680",
       "title": "Alessandro Volta, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q680",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q69594",
+      "title": "Wilhelm Weinberg, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q69594",
       "accessedAt": "2026-10-31"
     },
     {
@@ -122,9 +314,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q71031",
+      "title": "Robert Bunsen, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q71031",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7186",
+      "title": "null, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7186",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q7251",
       "title": "Alan Turing, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q7251",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7474",
+      "title": "Rosalind Franklin, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7474",
       "accessedAt": "2026-10-31"
     },
     {
@@ -146,9 +356,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q76432",
+      "title": "Rudolf Virchow, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q76432",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q76745",
+      "title": "Theodor Schwann, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q76745",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q76747",
+      "title": "Matthias Jacob Schleiden, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q76747",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q76784",
+      "title": "August Kekulé, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q76784",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q80956",
+      "title": "Svante August Arrhenius, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q80956",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q81716",
       "title": "Charles-Augustin de Coulomb, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q81716",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q83333",
+      "title": "James Watson, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q83333",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q868",
+      "title": "Aristotle, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q868",
       "accessedAt": "2026-10-31"
     },
     {
@@ -206,6 +458,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q9106",
+      "title": "Dmitri Mendeleev, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9106",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q9123",
       "title": "Ernest Rutherford, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q9123",
@@ -215,6 +473,12 @@
       "id": "s-wd-q9191",
       "title": "René Descartes, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q9191",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q93128",
+      "title": "William Harvey, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q93128",
       "accessedAt": "2026-10-31"
     },
     {
@@ -260,15 +524,57 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-alexander-fleming",
+      "title": "Alexander Fleming, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alfred-russel-wallace",
+      "title": "Alfred Russel Wallace, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-algebra",
       "title": "Algebra, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Algebra",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-amedeo-avogadro",
+      "title": "Amedeo Avogadro, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amedeo_Avogadro",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-andreas-vesalius",
+      "title": "Andreas Vesalius, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andreas_Vesalius",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-antoine-lavoisier",
+      "title": "Antoine Lavoisier, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antoine_Lavoisier",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-antonie-van-leeuwenhoek",
+      "title": "Antonie van Leeuwenhoek, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-archimedes",
       "title": "Archimedes, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Archimedes",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-aristotle",
+      "title": "Aristotle, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aristotle",
       "accessedAt": "2026-10-31"
     },
     {
@@ -281,6 +587,18 @@
       "id": "s-wp-aryabhatiya",
       "title": "Aryabhatiya, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Aryabhatiya",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-august-kekule",
+      "title": "August Kekulé, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/August_Kekul%C3%A9",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-avogadro-s-law",
+      "title": "Avogadro's law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Avogadro's_law",
       "accessedAt": "2026-10-31"
     },
     {
@@ -320,9 +638,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-carl-linnaeus",
+      "title": "Carl Linnaeus, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carl_Linnaeus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-cell-theory",
+      "title": "Cell theory, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cell_theory",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-charles-augustin-de-coulomb",
       "title": "Charles-Augustin de Coulomb, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-charles-darwin",
+      "title": "Charles Darwin, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
       "accessedAt": "2026-10-31"
     },
     {
@@ -350,9 +686,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-dmitri-mendeleev",
+      "title": "Dmitri Mendeleev, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-e-variste-galois",
       "title": "Évariste Galois, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/%C3%89variste_Galois",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-edward-jenner",
+      "title": "Edward Jenner, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Edward_Jenner",
       "accessedAt": "2026-10-31"
     },
     {
@@ -398,9 +746,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-faraday-s-laws-of-electrolysis",
+      "title": "Faraday's laws of electrolysis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Faraday's_laws_of_electrolysis",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-fibonacci",
       "title": "Fibonacci, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Fibonacci",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-francis-crick",
+      "title": "Francis Crick, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francis_Crick",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-friedrich-miescher",
+      "title": "Friedrich Miescher, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Friedrich_Miescher",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-friedrich-wo-hler",
+      "title": "Friedrich Wöhler, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Friedrich_W%C3%B6hler",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-fritz-haber",
+      "title": "Fritz Haber, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fritz_Haber",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-g-h-hardy",
+      "title": "G. H. Hardy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/G._H._Hardy",
       "accessedAt": "2026-10-31"
     },
     {
@@ -434,6 +818,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-gilbert-n-lewis",
+      "title": "Gilbert N. Lewis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gilbert_N._Lewis",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-go-del-s-incompleteness-theorems",
       "title": "Gödel's incompleteness theorems, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems",
@@ -446,9 +836,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-gregor-mendel",
+      "title": "Gregor Mendel, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gregor_Mendel",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-gustav-kirchhoff",
+      "title": "Gustav Kirchhoff, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gustav_Kirchhoff",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-haber-process",
+      "title": "Haber process, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Haber_process",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hardy-weinberg-principle",
+      "title": "Hardy–Weinberg principle, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-henri-becquerel",
       "title": "Henri Becquerel, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Henri_Becquerel",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-henry-cavendish",
+      "title": "Henry Cavendish, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_Cavendish",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-henry-moseley",
+      "title": "Henry Moseley, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_Moseley",
       "accessedAt": "2026-10-31"
     },
     {
@@ -461,6 +887,18 @@
       "id": "s-wp-hilbert-s-program",
       "title": "Hilbert's program, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hilbert's_program",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-history-of-animals",
+      "title": "History of Animals, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_Animals",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hydrogen",
+      "title": "Hydrogen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen",
       "accessedAt": "2026-10-31"
     },
     {
@@ -482,15 +920,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-james-watson",
+      "title": "James Watson, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Watson",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-johannes-kepler",
       "title": "Johannes Kepler, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-john-dalton",
+      "title": "John Dalton, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Dalton",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-john-napier",
       "title": "John Napier, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/John_Napier",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-joseph-priestley",
+      "title": "Joseph Priestley, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Priestley",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-josiah-willard-gibbs",
+      "title": "Josiah Willard Gibbs, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs",
       "accessedAt": "2026-10-31"
     },
     {
@@ -524,6 +986,36 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-linus-pauling",
+      "title": "Linus Pauling, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Linus_Pauling",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-louis-pasteur",
+      "title": "Louis Pasteur, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-marie-curie",
+      "title": "Marie Curie, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-matthias-jakob-schleiden",
+      "title": "Matthias Jakob Schleiden, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Matthias_Jakob_Schleiden",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-mauveine",
+      "title": "Mauveine, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mauveine",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-max-planck",
       "title": "Max Planck, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Max_Planck",
@@ -542,9 +1034,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-micrographia",
+      "title": "Micrographia, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Micrographia",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-mirifici-logarithmorum-canonis-descriptio",
       "title": "Mirifici Logarithmorum Canonis Descriptio, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Mirifici_Logarithmorum_Canonis_Descriptio",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-molecular-structure-of-nucleic-acids",
+      "title": "Molecular structure of Nucleic Acids, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Molecular_structure_of_Nucleic_Acids",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-moseley-s-law",
+      "title": "Moseley's law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moseley's_law",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-neuron-doctrine",
+      "title": "Neuron doctrine, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neuron_doctrine",
       "accessedAt": "2026-10-31"
     },
     {
@@ -578,15 +1094,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-nucleic-acid-double-helix",
+      "title": "Nucleic acid double helix, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nucleic_acid_double_helix",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-on-the-origin-of-species",
+      "title": "On the Origin of Species, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-pendulum-clock",
       "title": "Pendulum clock, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Pendulum_clock",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-periodic-table",
+      "title": "Periodic table, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Periodic_table",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-philosophi-naturalis-principia-mathematica",
       "title": "Philosophiæ Naturalis Principia Mathematica, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-photo-51",
+      "title": "Photo 51, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Photo_51",
       "accessedAt": "2026-10-31"
     },
     {
@@ -620,6 +1160,54 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-robert-boyle",
+      "title": "Robert Boyle, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Boyle",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-robert-bunsen",
+      "title": "Robert Bunsen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Bunsen",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-robert-hooke",
+      "title": "Robert Hooke, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Hooke",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-robert-koch",
+      "title": "Robert Koch, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_Koch",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ronald-fisher",
+      "title": "Ronald Fisher, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ronald_Fisher",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rosalind-franklin",
+      "title": "Rosalind Franklin, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rosalind_Franklin",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rudolf-virchow",
+      "title": "Rudolf Virchow, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rudolf_Virchow",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-santiago-ramo-n-y-cajal",
+      "title": "Santiago Ramón y Cajal, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Santiago_Ram%C3%B3n_y_Cajal",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-seven-bridges-of-ko-nigsberg",
       "title": "Seven Bridges of Königsberg, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
@@ -638,9 +1226,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-spontaneous-generation",
+      "title": "Spontaneous generation, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spontaneous_generation",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-svante-arrhenius",
+      "title": "Svante Arrhenius, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-systema-naturae",
+      "title": "Systema Naturae, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Systema_Naturae",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-the-compendious-book-on-calculation-by-completion-and-balancing",
       "title": "The Compendious Book on Calculation by Completion and Balancing, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/The_Compendious_Book_on_Calculation_by_Completion_and_Balancing",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-sceptical-chymist",
+      "title": "The Sceptical Chymist, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Sceptical_Chymist",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-theodor-schwann",
+      "title": "Theodor Schwann, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Theodor_Schwann",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-thomas-hunt-morgan",
+      "title": "Thomas Hunt Morgan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hunt_Morgan",
       "accessedAt": "2026-10-31"
     },
     {
@@ -674,9 +1298,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-wilhelm-weinberg",
+      "title": "Wilhelm Weinberg, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Weinberg",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-william-harvey",
+      "title": "William Harvey, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Harvey",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-william-henry-perkin",
+      "title": "William Henry Perkin, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Henry_Perkin",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-wo-hler-synthesis",
+      "title": "Wöhler synthesis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/W%C3%B6hler_synthesis",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-x-ray",
       "title": "X-ray, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/X-ray",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-x-ray-crystallography",
+      "title": "X-ray crystallography, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/X-ray_crystallography",
       "accessedAt": "2026-10-31"
     },
     {

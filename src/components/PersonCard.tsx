@@ -45,6 +45,7 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
         <div>
           <h2 className="person-name">{person.nameHe}</h2>
           <div className="person-full" dir="ltr">{person.nameFull}</div>
+          {person.nameHeSource === 'transliteration' && <div className="label">השם בעברית: תעתיק, כי אין שם עברי בוויקינתונים</div>}
           <dl className="facts">
             <div><dt className="label">שנים</dt><dd><Rich>{lifeText(person)}</Rich></dd></div>
             {person.calendar === 'julian' && <div><dt className="label">לוח שנה</dt><dd>התאריכים לפי <strong>הלוח היוליאני</strong></dd></div>}
@@ -64,7 +65,12 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
             <span className={`chip-tag tag-${d.domainId}`}>{domainById.get(d.domainId)?.nameHe}</span>
           </div>
           <h4 className="find-title">{d.title}</h4>
-          <Rich as="p" className="find-text">{d.contribution}</Rich>
+          {d.novelty ? (
+            <dl className="find-nc">
+              <div><dt className="label">החידוש</dt><dd><Rich>{d.novelty}</Rich></dd></div>
+              <div><dt className="label">התרומה</dt><dd><Rich>{d.contribution}</Rich></dd></div>
+            </dl>
+          ) : <Rich as="p" className="find-text">{d.contribution}</Rich>}
           {d.personIds.length > 1 && (
             <p className="find-with">יחד עם {d.personIds.filter((id) => id !== person.id).map((id) => (
               <button key={id} type="button" className="press chip" onClick={() => onOpen(id)}>{personById.get(id)?.nameHe}</button>

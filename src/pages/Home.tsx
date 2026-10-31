@@ -28,9 +28,10 @@ function LayerStack({ hover, setHover }: { hover: string | null; setHover: (id: 
             {active && discoveries.map((d) => {
               const cx = 392 - frac(d.yearFrom) * 324;
               const half = 85 * (1 - Math.abs(cx - 230) / 170);
-              const side = d.domainId === 'physics' ? -1 : 1;
-              return <circle key={d.id} className="stack-dot" cx={cx} cy={y + side * 0.42 * half} r={3.6}
-                fill={d.domainId === 'physics' ? 'var(--physics)' : 'var(--mathematics)'} />;
+              const di = activeDomains.findIndex((a) => a.id === d.domainId);
+              const side = activeDomains.length > 1 ? -0.9 + (1.8 * di) / (activeDomains.length - 1) : 0;
+              return <circle key={d.id} className="stack-dot" cx={cx} cy={y + side * 0.5 * half} r={3.6}
+                fill={`var(--${d.domainId})`} />;
             })}
           </g>
         );
@@ -55,7 +56,7 @@ export default function Home() {
           <div className="label">שלב 0 ושלב 1 · <bdi className="num">{discoveries.length}</bdi> גילויים מאומתים</div>
           <h1 className="hero-title"><Rich>{`${discoveries.length} גילויים, ולכל אחד ציטוט מהמקור.`}</Rich></h1>
           <p className="hero-sub lines">
-            <span><strong>פיזיקה</strong> ו<strong>מתמטיקה</strong> על ציר זמן אחד, לאורך <bdi className="num">{span.toLocaleString('en')}</bdi> שנה.</span>
+            <span><Rich>{activeDomains.map((d) => `**${d.nameHe}**`).join(', ').replace(/, ([^,]*)$/, ' ו$1')}</Rich> על ציר זמן אחד, לאורך <bdi className="num">{span.toLocaleString('en')}</bdi> שנה.</span>
             <span>מ<strong>{first.title.split(':')[0]}</strong> ועד <strong>{last.title.split(':')[0]}</strong>.</span>
           </p>
           <div className="hero-actions">
@@ -92,9 +93,9 @@ export default function Home() {
 
       <h2 className="section-title">למה ציר אחד</h2>
       <div className="grid-3">
-        <div className="tone tone-problem"><h4>תחומים נלמדים בנפרד.</h4><p>פיזיקה ומתמטיקה נלמדות כשני מקצועות, והקשר ביניהם נעלם.</p></div>
+        <div className="tone tone-problem"><h4>תחומים נלמדים בנפרד.</h4><p>כל תחום נלמד כמקצוע נפרד, והקשרים ביניהם נעלמים.</p></div>
         <div className="tone tone-solution"><h4>ציר משותף, וציטוט לכל טענה.</h4><p>כל גילוי מופיע עם <strong>ציטוט מילולי</strong> מהמקור, וכל קשר עם הכלל שמסביר אותו.</p></div>
-        <div className="tone tone-insight"><h4>גילוי הוא תשובה לגילוי קודם.</h4><p><Rich>{`==${links.length} קשרים מאומתים==, ו-**${cross}** מהם חוצים בין פיזיקה למתמטיקה.`}</Rich></p></div>
+        <div className="tone tone-insight"><h4>גילוי הוא תשובה לגילוי קודם.</h4><p><Rich>{`==${links.length} קשרים מאומתים==, ו-**${cross}** מהם חוצים בין תחומים.`}</Rich></p></div>
       </div>
 
       <h2 className="section-title">מפת התוכן</h2>
@@ -111,7 +112,7 @@ export default function Home() {
         })}
         <a className="press card map-card" href={href('compare')}>
           <span className="label">השוואה בין תחומים</span>
-          <strong className="map-title">פיזיקה מול מתמטיקה</strong>
+          <strong className="map-title">{activeDomains.length} תחומים על ציר אחד</strong>
           <span><bdi className="num">{cross}</bdi> קשרים חוצי תחום, עם כלל, תובנה ויישום</span>
         </a>
         <a className="press card map-card" href={href('map')}>

@@ -190,6 +190,226 @@
       "id": "p-turing",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-boyle",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cavendish",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-priestley",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lavoisier",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-dalton",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-avogadro",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wohler",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-pasteur",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-perkin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bunsen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kirchhoff",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kekule",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mendeleev",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-gibbs",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-arrhenius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-curie",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-haber",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-moseley",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lewis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-pauling",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-aristotle",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-vesalius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-harvey",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hooke",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-leeuwenhoek",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-linnaeus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-jenner",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-schleiden",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-schwann",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wallace",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-darwin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mendel",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-virchow",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-miescher",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-koch",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cajal",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-morgan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fleming",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-franklin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-watson",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-crick",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hardy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-weinberg",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fisher",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -392,6 +612,216 @@
       "id": "d-1936-turing-machine",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "d-1661-boyle-sceptical",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1766-cavendish-hydrogen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1774-priestley-oxygen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1789-lavoisier-traite",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1808-dalton-atoms",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1811-avogadro-law",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1828-wohler-urea",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1833-faraday-electrolysis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1848-pasteur-chirality",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1856-perkin-mauveine",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1859-bunsen-kirchhoff-spectroscopy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1865-kekule-benzene",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1869-mendeleev-periodic",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1876-gibbs-potential",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1884-arrhenius-ions",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1898-curie-radium",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1909-haber-ammonia",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1913-moseley-number",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1916-lewis-bond",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1939-pauling-bond",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce350-aristotle-animals",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1543-vesalius-fabrica",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1628-harvey-circulation",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1665-hooke-micrographia",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1676-leeuwenhoek-microbes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1735-linnaeus-systema",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1796-jenner-vaccine",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1839-cell-theory",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1855-virchow-cells",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1858-wallace-ternate",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1859-darwin-origin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1859-pasteur-spontaneous",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1865-mendel-heredity",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1869-miescher-nuclein",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1882-koch-tuberculosis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1887-cajal-neuron",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1910-morgan-chromosomes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1928-fleming-penicillin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1952-photo51",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1953-double-helix",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1908-hardy-weinberg",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1918-fisher-variance",
+      "verified": true,
+      "reasons": []
     }
   ],
   "links": [
@@ -524,6 +954,111 @@
     },
     {
       "id": "l-26",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-27",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-28",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-29",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-30",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-31",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-32",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-33",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-34",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-35",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-36",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-37",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-38",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-39",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-40",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-41",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-42",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-43",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-44",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-45",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-46",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-47",
       "verified": true,
       "reasons": []
     }
@@ -756,12 +1291,246 @@
       "place": "King's College",
       "ok": true,
       "confidence": "interpretive"
+    },
+    {
+      "id": "d-1661-boyle-sceptical",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1766-cavendish-hydrogen",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1774-priestley-oxygen",
+      "place": "Calne",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1789-lavoisier-traite",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1808-dalton-atoms",
+      "place": "Manchester",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1811-avogadro-law",
+      "place": "Turin",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1828-wohler-urea",
+      "place": "Berlin",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1833-faraday-electrolysis",
+      "place": "Royal Institution",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1848-pasteur-chirality",
+      "place": "University of Strasbourg",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1856-perkin-mauveine",
+      "place": "London",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1859-bunsen-kirchhoff-spectroscopy",
+      "place": "Heidelberg University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1865-kekule-benzene",
+      "place": "Ghent University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1869-mendeleev-periodic",
+      "place": "Saint Petersburg",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1876-gibbs-potential",
+      "place": "Yale University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1884-arrhenius-ions",
+      "place": "Uppsala",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1898-curie-radium",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1909-haber-ammonia",
+      "place": "Karlsruhe",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1913-moseley-number",
+      "place": "Victoria University of Manchester",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1916-lewis-bond",
+      "place": "University of California, Berkeley",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1939-pauling-bond",
+      "place": "California Institute of Technology",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce350-aristotle-animals",
+      "place": "Lesbos",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1543-vesalius-fabrica",
+      "place": "University of Padua",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1628-harvey-circulation",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1665-hooke-micrographia",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1676-leeuwenhoek-microbes",
+      "place": "Delft",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1735-linnaeus-systema",
+      "place": "Netherlands",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1796-jenner-vaccine",
+      "place": "Berkeley",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1839-cell-theory",
+      "place": "Humboldt-Universität zu Berlin",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1858-wallace-ternate",
+      "place": "Ternate",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1859-darwin-origin",
+      "place": "Down House",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1859-pasteur-spontaneous",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1865-mendel-heredity",
+      "place": "Brno",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1869-miescher-nuclein",
+      "place": "University of Tübingen",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1882-koch-tuberculosis",
+      "place": "Berlin",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1910-morgan-chromosomes",
+      "place": "Columbia University",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1928-fleming-penicillin",
+      "place": "St Mary's Hospital",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1952-photo51",
+      "place": "King's College London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1953-double-helix",
+      "place": "University of Cambridge",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1918-fisher-variance",
+      "place": "Rothamsted Research",
+      "ok": true,
+      "confidence": "interpretive"
     }
   ],
   "summary": {
-    "persons": "38/38",
-    "discoveries": "40/40",
-    "links": "25/26",
-    "images": 38
+    "persons": "82/82",
+    "discoveries": "82/82",
+    "links": "46/47",
+    "images": 80
   }
 }

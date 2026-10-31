@@ -22,7 +22,7 @@ const ROW_CARDS = LANES * LANE + 14;
 const GAP = 168; // שדה הקשרים בין הצירים
 const TOP = 30;
 const TYPES: LinkType[] = ['influenced', 'enabled', 'opposed', 'parallel'];
-const ERAS: [string, number, number][] = [['כל הציר', YEAR_MIN, YEAR_MAX], ['עד 1100', YEAR_MIN, 1100], ['1500–1750', 1500, 1750], ['1750–1950', 1750, YEAR_MAX]];
+const ERAS: [string, number, number][] = [['כל הציר', YEAR_MIN, YEAR_MAX], ['עד 1100', YEAR_MIN, 1100], ['1500–1750', 1500, 1750], ['1750–1960', 1750, YEAR_MAX]];
 
 type Placed = { d: Discovery; x: number; lane: number; left: number; pin: boolean; off: boolean };
 
@@ -70,7 +70,8 @@ export default function Compare({ params }: { params: Record<string, string> }) 
   const base = useMemo(() => scaleLinear<number, number>().domain(BREAKS).range(FRACS.map((f) => W - PAD - f * (W - 2 * PAD))), [W]);
   const [t, setT] = useState<ZoomTransform>(zoomIdentity);
   const x = useMemo(() => t.rescaleX(base), [t, base]);
-  const axisY = (i: number) => (i === 0 ? TOP + ROW_CARDS : TOP + ROW_CARDS + GAP * i);
+  // שורה 0: כרטיסים מעל הציר. כל שורה אחרת: מתחת לציר, ולכן בין הציר שלה לבא אחריו יש מקום לכרטיסים
+  const axisY = (i: number) => TOP + ROW_CARDS + GAP * i + ROW_CARDS * Math.max(0, i - 1);
   const H = axisY(rows.length - 1) + (rows.length > 1 ? ROW_CARDS : 20) + 12;
 
   // זום: גרירה מזיזה, צביטה או Ctrl+גלגלת מגדילים. גלגלת רגילה ממשיכה לגלול את הדף.
@@ -173,7 +174,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
   const pick = (personId: string) => set({ p: personId });
   const rowName = (id: string) => activeDomains.find((d) => d.id === id)!.nameHe;
   const title = rows.length > 1
-    ? `${crossCount} קשרים חוצים בין ${rows.map(rowName).join(' ל')}.`
+    ? (rows.length === 2 ? `${crossCount} קשרים חוצים בין ${rows.map(rowName).join(' ל')}.` : `${crossCount} קשרים חוצים בין ${rows.length} תחומים.`)
     : `${all.length} קשרים בתוך ${rowName(rows[0])}.`;
 
   return (

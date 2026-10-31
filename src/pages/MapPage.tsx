@@ -124,9 +124,8 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             </Suspense>
           )}
           <ul className="legend" aria-label="מקרא">
-            <li><span className="lg-sq dom-physics" />פיזיקה</li>
-            <li><span className="lg-sq dom-mathematics" />מתמטיקה</li>
-            <li><span className="lg-sq dom-mixed" />שני התחומים</li>
+          {activeDomains.map((d) => <li key={d.id}><span className={`lg-sq dom-${d.id}`} />{d.nameHe}</li>)}
+            <li><span className="lg-sq dom-mixed" />כמה תחומים</li>
             <li><span className="lg-sq lg-big" />גודל: מספר הגילויים</li>
             <li><span className="lg-sq lg-recent" />גילוי ב-<bdi className="num">30</bdi> השנים האחרונות</li>
             <li><span className="lg-line line-influenced" />מסלול ידע מתועד</li>

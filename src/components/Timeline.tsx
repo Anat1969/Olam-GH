@@ -6,7 +6,7 @@ import { scaleLinear } from 'd3-scale';
 import { type Discovery, links, personById, yearText, discoveries as allShown } from '../data';
 
 export const YEAR_MIN = -350;
-export const YEAR_MAX = 1950;
+export const YEAR_MAX = 1960;
 const W = 2200;
 const PAD = 56;
 const AXIS_Y = 132;
