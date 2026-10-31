@@ -68,6 +68,11 @@ mark.insight { background: linear-gradient(transparent 45%, var(--marker) 45%, v
 .press:disabled { opacity: .45; cursor: not-allowed; transform: none; box-shadow: none; }
 .btn { padding: 10px 18px; font-size: 14px; font-weight: 500; }
 .chip { padding: 6px 14px; font-size: 13px; }
+/* בורר (chip): בלי מסגרת מרובעת. טקסט עם צל רך; הנבחר בשחור ומודגש, האחרים באפור. שפה אחידה לכל הבוררים. */
+.press.chip { background: none; border: 0; box-shadow: none; padding: 6px 8px; color: var(--ink-mute); font-weight: 500; text-shadow: 0 1px 2px rgba(23, 25, 28, .14); }
+.press.chip:hover { color: var(--ink); box-shadow: none; transform: translateY(-1px); }
+.press.chip[aria-pressed="true"], .press.chip.is-on { background: none !important; border-color: transparent !important; color: var(--ink) !important; font-weight: 800; text-shadow: 0 1px 3px rgba(23, 25, 28, .28); }
+.press.chip:disabled { opacity: .35; }
 .field { border-radius: 0; border: 1px solid var(--rule); padding: 10px 14px; font: inherit; font-size: 14px; background: var(--sheet); }
 .field:focus-visible { outline: 2px solid var(--bank); outline-offset: 0; }
 
