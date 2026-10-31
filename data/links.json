@@ -2015,6 +2015,275 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-101",
+      "fromId": "d-1517-luther-theses",
+      "toId": "p-bach",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==באך כתב על המזמורים של לותר.== **באך** שילב את המזמורים הלותרניים בקנטטות ובכוראלים שלו.",
+      "application": "לראות איך **טקסט דתי** הופך לחומר גלם של מלחין.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-martin-luther",
+          "quote": "Johann Sebastian Bach included several verses as chorales in his cantatas"
+        },
+        {
+          "sourceId": "s-wp-johann-sebastian-bach",
+          "quote": "He adopted Lutheran hymns, not only in his larger vocal works but also in such works as his four-part chorales and his sacred songs."
+        }
+      ],
+      "sources": [
+        "s-wp-martin-luther",
+        "s-wp-johann-sebastian-bach"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-102",
+      "fromId": "d-500-babylonian-talmud",
+      "toId": "p-maimonides",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הרמב״ם עמד על שתי רגליים: אריסטו והתלמוד.== **הרמב״ם** נשען על המדע של **אריסטו** ועל תורת **התלמוד**.",
+      "application": "לחבר בין **שתי מסורות** שנראות רחוקות, ולחפש את הבסיס של אחת בשנייה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-maimonides",
+          "quote": "Maimonides primarily relied upon the science of Aristotle and the teachings of the Talmud"
+        }
+      ],
+      "sources": [
+        "s-wp-maimonides"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-103",
+      "fromId": "p-maimonides",
+      "toId": "d-1270-zohar",
+      "type": "opposed",
+      "confidence": "documented",
+      "explanation": "==הזוהר שימש נשק נגד הרמב״ם.== במאה ה-**15** השתמשו בזוהר כדי **לתקוף** את הרמב״ם.",
+      "application": "לראות איך **מיסטיקה ופילוסופיה** מתחרות על אותו קהל.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-zohar",
+          "quote": "Joseph ibn Shem-Tov drew arguments from it in his attacks against Maimonides"
+        }
+      ],
+      "sources": [
+        "s-wp-zohar"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-104",
+      "fromId": "p-aristotle",
+      "toId": "d-1517-luther-theses",
+      "type": "opposed",
+      "confidence": "interpretive",
+      "explanation": "==לותר נגד התבונה של אריסטו.== ל**לותר** היו יחסי **אהבה ושנאה** עם אריסטו, בגלל הדגש שלו על התבונה.",
+      "application": "לשאול **מה התבונה לא יכולה** להשיג, לפי מי שדוחה אותה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-martin-luther",
+          "quote": "he thereafter developed a love-hate relationship with Aristotle over Aristotle's emphasis on reason."
+        }
+      ],
+      "sources": [
+        "s-wp-martin-luther"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-105",
+      "fromId": "p-helmholtz",
+      "toId": "d-1879-wundt-lab",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הפסיכולוגיה הניסויית יצאה מהמעבדה של פיזיקאי.== **וונט** היה התלמיד והעוזר של **הלמהולץ**, ובנה על הפיזיולוגיה של החושים שלו.",
+      "application": "להעביר **שיטת מדידה** מתחום אחד לתחום שעוד לא נמדד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hermann-von-helmholtz",
+          "quote": "The sensory physiology of Helmholtz was the basis of the work of Wilhelm Wundt, Helmholtz's student"
+        }
+      ],
+      "sources": [
+        "s-wp-hermann-von-helmholtz"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-106",
+      "fromId": "d-1859-darwin-origin",
+      "toId": "d-1890-james-principles",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==ג׳יימס קיבל את דרווין, ודחה את הדרוויניזם החברתי.== **ג׳יימס** קיבל את תורת האבולוציה של **דרווין**, אך לא את החלתה על חברות.",
+      "application": "להבחין בין **תאוריה** לבין **השימוש** שעושים בה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-william-james",
+          "quote": "While James accepted Darwin's theories of biological evolution, he regarded social Darwinism as propagated by philosophers such as Herbert Spencer to be a sham."
+        }
+      ],
+      "sources": [
+        "s-wp-william-james"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-107",
+      "fromId": "d-1781-kant-critique",
+      "toId": "d-1923-piaget-child",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==פיאז׳ה המשיך את קאנט בתוך הילד.== **פיאז׳ה** נשען על **קאנט** כשתיאר איך המוסר מתפתח.",
+      "application": "לבדוק **רעיון פילוסופי** בתצפית על ילדים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-jean-piaget",
+          "quote": "Piaget, drawing on Kantian theory, proposed that morality developed out of peer interaction and that it was autonomous from authority mandates."
+        }
+      ],
+      "sources": [
+        "s-wp-jean-piaget"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-108",
+      "fromId": "d-1883-nietzsche-zarathustra",
+      "toId": "d-1899-freud-dreams",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==פרויד נמנע מניטשה, כי הוא היה קרוב מדי.== **פרויד** אמר שקרא את **ניטשה** בהתלהבות, אבל לא למד אותו לעומק.",
+      "application": "לשים לב לרעיון ש**מגיע משני כיוונים** באותו זמן.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-sigmund-freud",
+          "quote": "In 1908, Freud said that he occasionally read Nietzsche and was strongly fascinated by his writings"
+        }
+      ],
+      "sources": [
+        "s-wp-sigmund-freud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-109",
+      "fromId": "d-1882-kano-judo",
+      "toId": "d-1949-feldenkrais-body",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==מייסד הג׳ודו פגש פיזיקאי בפריז.== **פלדנקרייז** פגש את **קאנו** בפריז ב-**1933**, למד ג׳ודו בעידודו, ונשאר חבר שלו.",
+      "application": "לבנות **שיטה של למידה** מתוך תנועה שהגוף כבר מכיר.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-moshe-feldenkrais",
+          "quote": "In September 1933, he met Jigoro Kano, the founder of judo in Paris."
+        },
+        {
+          "sourceId": "s-wp-moshe-feldenkrais",
+          "quote": "Feldenkrais became a close friend of Kano and corresponded with him regularly."
+        }
+      ],
+      "sources": [
+        "s-wp-moshe-feldenkrais"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-110",
+      "fromId": "d-1882-kano-judo",
+      "toId": "d-1943-sanshiro-sugata",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הסרט הראשון של קורוסאווה הוא סרט ג׳ודו.== הסרט מבוסס על רומן על **הקודוקאן**, בית הספר של קאנו.",
+      "application": "לקחת **מסורת של אימון** ולהפוך אותה לסיפור התבגרות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-sanshiro-sugata",
+          "quote": "The film is based on the 1942 novel by Tsuneo Tomita, which is a roman à clef of prominent judoka Shirō Saigō and the Kodokan–Totsuka rivalry."
+        }
+      ],
+      "sources": [
+        "s-wp-sanshiro-sugata"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-111",
+      "fromId": "d-1882-kano-judo",
+      "toId": "d-1964-budokan",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==ענף ספורט הזמין בניין.== **הבודוקאן** נבנה לתחרות **הג׳ודו** האולימפית הראשונה.",
+      "application": "לתכנן אולם **סביב טקס** ותנועה של ענף אחד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nippon-budokan",
+          "quote": "It was originally built for the inaugural Olympic judo competition in the 1964 Summer Olympics."
+        }
+      ],
+      "sources": [
+        "s-wp-nippon-budokan"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-112",
+      "fromId": "d-bce648-pankration",
+      "toId": "p-plato",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==אפלטון כתב על אסטרטגיה בפנקרטיון.== ב\"**החוקים**\" **אפלטון** מתאר איך מנצלים את **הצד החלש** של היריב.",
+      "application": "לחפש את **נקודת החולשה** לפני שמתחילים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pankration",
+          "quote": "As indicated by Plato in his Laws, an important element of strategy was to understand if the opponent had a weak or untrained side"
+        }
+      ],
+      "sources": [
+        "s-wp-pankration"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-113",
+      "fromId": "d-bce648-pankration",
+      "toId": "p-aristotle",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==אריסטו ראה במאמן מי שמפתח סגנון אישי.== לפי **אריסטו**, המאמן בקרב צריך לעזור לכל לוחם לפתח **סגנון משלו**.",
+      "application": "לאמן **אדם**, לא שיטה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pankration",
+          "quote": "it is very clear (including in Aristotle's Nicomachean Ethics) that the objective of a teacher of combat sports was to help each of his athletes to develop his personal style"
+        }
+      ],
+      "sources": [
+        "s-wp-pankration"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

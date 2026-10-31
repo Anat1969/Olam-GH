@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useRoute, href } from './route';
 import { loadCloud, logout, toggleEditing, useCloud } from './cloud';
 import LoginDialog from './components/LoginDialog';
+import DraftDialog from './components/DraftDialog';
 import Home from './pages/Home';
 import TimelinePage from './pages/TimelinePage';
 import Method from './pages/Method';
@@ -20,6 +21,7 @@ export default function App() {
   const { page, params } = useRoute();
   const cloud = useCloud();
   const [loginOpen, setLoginOpen] = useState(false);
+  const [draftOpen, setDraftOpen] = useState(false);
   useEffect(() => { loadCloud(); }, []);
   // כל פעולות העריכה יושבות בתוך כפתור הלוגו, לפי תקן ai-menu
   useEffect(() => {
@@ -29,6 +31,7 @@ export default function App() {
       menu.items = cloud.admin
         ? [
           { label: 'מצב עריכה', pressed: cloud.editing, onSelect: () => toggleEditing() },
+          { label: 'גילוי חדש (טיוטה)', onSelect: () => setDraftOpen(true) },
           { label: `יציאה (${cloud.session?.email || ''})`, onSelect: () => logout() },
         ]
         : [{ label: 'כניסה לעריכה', onSelect: () => setLoginOpen(true) }];
@@ -55,6 +58,7 @@ export default function App() {
         </div>
       </header>
       {loginOpen && <LoginDialog onClose={() => setLoginOpen(false)} />}
+      {draftOpen && cloud.admin && <DraftDialog onClose={() => setDraftOpen(false)} />}
       {cloud.editing && <div className="edit-banner" role="status">מצב עריכה: לחצי על דמות או על קשר, וערכי את הטקסט. כל שינוי נשמר עם היסטוריה.</div>}
       {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'method' ? <Method /> : <Home />}
     </>

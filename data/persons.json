@@ -7995,6 +7995,168 @@
       "birthApprox": false,
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:Grand_masters_small_talk.jpg"
+    },
+    {
+      "id": "p-arrhichion",
+      "wikipedia": "Arrhichion",
+      "nameHe": "אריכיון",
+      "nameHeTranslit": "אריכיון",
+      "nameFull": "Arrhichion",
+      "birthYear": -600,
+      "birthDate": null,
+      "deathYear": -564,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q7623270",
+        "nameHe": null,
+        "nameFull": "Phigalia",
+        "lat": 37.3963,
+        "lon": 21.8391,
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-arrhichion",
+        "s-wd-q699635"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q699635",
+      "nameHeSource": "transliteration",
+      "birthApprox": true,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-helmholtz",
+      "wikipedia": "Hermann von Helmholtz",
+      "nameHe": "הרמן פון הלמהולץ",
+      "nameFull": "Hermann von Helmholtz",
+      "birthYear": 1821,
+      "birthDate": "1821-08-31",
+      "deathYear": 1894,
+      "deathDate": "1894-09-08",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1711",
+        "nameHe": "פוטסדאם",
+        "nameFull": "Potsdam",
+        "lat": 52.4009,
+        "lon": 13.0591,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hermann_von_Helmholtz.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-hermann-von-helmholtz",
+        "s-wd-q60024"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q60024",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Hermann_von_Helmholtz.jpg"
+    },
+    {
+      "id": "p-feldenkrais",
+      "wikipedia": "Moshe Feldenkrais",
+      "nameHe": "משה פלדנקרייז",
+      "nameFull": "Moshé Feldenkrais",
+      "birthYear": 1904,
+      "birthDate": "1904-05-06",
+      "deathYear": 1984,
+      "deathDate": "1984-07-01",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q856018",
+        "nameHe": "סלאוויטא",
+        "nameFull": "Slavuta",
+        "lat": 50.3,
+        "lon": 26.8667,
+        "country": {
+          "wikidata": "Q212",
+          "nameHe": "אוקראינה",
+          "nameFull": "Ukraine"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Moshe_Feldenkrais.png",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "International Feldenkrais Federation, www.feldenkrais-method.org",
+      "sources": [
+        "s-wp-moshe-feldenkrais",
+        "s-wd-q716293"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q716293",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Moshe_Feldenkrais.png"
+    },
+    {
+      "id": "p-myamada",
+      "wikipedia": "Mamoru Yamada",
+      "nameHe": "מאמורו יאמאדה",
+      "nameHeTranslit": "מאמורו יאמאדה",
+      "nameFull": "Mamoru Yamada",
+      "birthYear": 1894,
+      "birthDate": "1894-04-19",
+      "deathYear": 1966,
+      "deathDate": "1966-06-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q11358403",
+        "nameHe": null,
+        "nameFull": "Kaminakashima",
+        "lat": 35.2967,
+        "lon": 136.7009,
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-mamoru-yamada",
+        "s-wd-q11470304"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q11470304",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
     }
   ]
 }
