@@ -251,3 +251,58 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
   .brand span { display: none; }
   .tab { padding: 16px 10px; }
 }
+
+/* שלב 3: מפה */
+.map-controls { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px 16px; align-items: center; margin-bottom: 12px; padding: 12px 16px; }
+.map-controls .slider { grid-template-columns: auto minmax(0, 1fr) auto; }
+.map-year { font-size: 15px; min-width: 88px; text-align: center; }
+.chip-dom[aria-pressed="true"].dom-physics { background: var(--physics); border-color: var(--physics); }
+.chip-dom[aria-pressed="true"].dom-mathematics { background: var(--mathematics); border-color: var(--mathematics); }
+.map-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 320px); gap: 16px; align-items: start; }
+.map-card-wrap { padding: 0; overflow: hidden; }
+.map-canvas { height: min(72vh, 640px); min-height: 360px; background: var(--paper); direction: ltr; }
+.map-loading, .map-fail { height: min(72vh, 640px); min-height: 360px; display: grid; place-content: center; text-align: center; color: var(--ink-mute); }
+.map-fail { margin: 16px; height: auto; min-height: 200px; }
+.maplibregl-ctrl-group { border-radius: 0 !important; box-shadow: var(--shadow-1) !important; }
+.maplibregl-ctrl-group button { border-radius: 0 !important; }
+.maplibregl-ctrl-attrib { font-size: 10px; border-radius: 0 !important; }
+.map-city { --sq: 18px; position: relative; display: flex; align-items: center; gap: 6px; padding: 0; border: 0; background: none; cursor: pointer; font: inherit; direction: rtl; }
+.mc-sq { width: var(--sq); height: var(--sq); display: grid; place-items: center; color: #fff; font-size: 11px; border: 2px solid var(--archive); box-shadow: 0 2px 6px rgba(23, 25, 28, .35); transition: width .4s cubic-bezier(.2, .7, .2, 1), height .4s cubic-bezier(.2, .7, .2, 1), transform .15s; }
+.map-city.conf-interpretive .mc-sq { border-color: var(--reading); }
+.map-city:hover .mc-sq { transform: translateY(-2px); }
+.map-city:active .mc-sq { transform: translateY(1px); }
+.map-city:focus-visible { outline: 2px solid var(--sechel); outline-offset: 3px; }
+.dom-physics .mc-sq, .lg-sq.dom-physics { background: var(--physics); }
+.dom-mathematics .mc-sq, .lg-sq.dom-mathematics { background: var(--mathematics); }
+.dom-mixed .mc-sq, .lg-sq.dom-mixed { background: linear-gradient(135deg, var(--physics) 50%, var(--mathematics) 50%); }
+.mc-name { position: absolute; right: calc(100% + 4px); white-space: nowrap; font-size: 12px; font-weight: 600; color: var(--ink); background: rgba(255, 255, 255, .85); padding: 1px 6px; box-shadow: var(--shadow-1); pointer-events: none; }
+.map-city.is-recent .mc-sq { outline: 3px solid var(--marker); outline-offset: 1px; }
+.map-city.is-on .mc-sq { outline: 3px solid var(--ink); outline-offset: 2px; }
+.map-city.is-on .mc-name { background: var(--ink); color: #fff; }
+.map-center { display: grid; justify-items: center; pointer-events: none; }
+.map-center i { width: 16px; height: 16px; border: 2px solid var(--ink); background: rgba(255, 228, 92, .9); transform: rotate(45deg); box-shadow: 0 0 0 6px rgba(255, 228, 92, .35); }
+.map-center span { margin-top: 6px; font-size: 11px; font-weight: 600; background: var(--ink); color: #fff; padding: 1px 6px; direction: rtl; }
+.lg-sq { width: 12px; height: 12px; display: inline-block; flex: 0 0 auto; background: var(--draft); }
+.lg-sq.lg-big { width: 18px; height: 18px; background: var(--sechel); }
+.lg-sq.lg-recent { background: var(--sechel); outline: 3px solid var(--marker); outline-offset: 1px; }
+.lg-orange { border-top-color: var(--reading) !important; }
+.lg-trail { width: 26px; border-top: 2px dotted var(--ink); }
+.map-side { display: grid; gap: 12px; }
+.city-panel { display: grid; gap: 10px; }
+.city-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.city-title { font-size: 18px; margin: 0; font-weight: 600; }
+.city-title .muted { font-size: 13px; font-weight: 400; }
+.city-items { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.city-items li { display: grid; gap: 4px; padding: 10px 12px; background: var(--sheet); border: 1px solid var(--rule); border-right: 3px solid var(--sechel); font-size: 14px; }
+.city-items li.is-hidden { opacity: .55; border-style: dashed; }
+.city-people { display: flex; flex-wrap: wrap; gap: 6px; }
+.city-rank { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; max-height: min(60vh, 560px); overflow-y: auto; }
+.city-row { width: 100%; display: grid; grid-template-columns: 14px minmax(0, 1fr) auto; gap: 8px; align-items: center; padding: 8px 10px; text-align: right; font-size: 14px; color: var(--ink); }
+@media (max-width: 860px) {
+  .map-layout { grid-template-columns: minmax(0, 1fr); }
+  .map-controls { grid-template-columns: minmax(0, 1fr); }
+  .map-canvas, .map-loading { height: 60vh; }
+}
+/* בזום רחוק: שם רק לעיר עם יותר מגילוי אחד, לעיר שנבחרה ובריחוף */
+.map-canvas[data-z="low"] .map-city:not(.is-big):not(.is-on):not(:hover):not(:focus-visible) .mc-name { display: none; }
+.maplibregl-marker:has(.map-city:hover), .maplibregl-marker:has(.map-city.is-on) { z-index: 5; }

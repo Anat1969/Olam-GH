@@ -6,10 +6,11 @@ import { select } from 'd3-selection';
 import { zoom, zoomIdentity, type ZoomBehavior, type ZoomTransform } from 'd3-zoom';
 import Rich from '../components/Rich';
 import PersonCard from '../components/PersonCard';
+import LinkPanel from '../components/LinkPanel';
 import { BREAKS, FRACS, YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
 import {
-  type Discovery, type LinkType, activeDomains, confidenceName, discoveries, endName, linkTypeName, personById,
-  resolveLink, links as allLinks, sourceById, yearText,
+  type Discovery, type LinkType, activeDomains, discoveries, endName, linkTypeName, personById,
+  resolveLink, links as allLinks, yearText,
 } from '../data';
 import { replace } from '../route';
 
@@ -316,31 +317,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
       </section>
 
       {selected ? (
-        <section className="link-panel rise" aria-label="הקשר שנבחר">
-          <div className="link-head">
-            <span className="label">{linkTypeName[selected.link.type]} · {selected.cross ? 'חוצה תחום' : 'בתוך התחום'}</span>
-            <h2 className="link-title">
-              <button type="button" className="press chip" onClick={() => pick(selected.a.viaPerson ? selected.a.id : selected.a.d.personIds[0])}>{endName(selected.a)}</button>
-              <span className="link-arrow" aria-hidden="true">←</span>
-              <button type="button" className="press chip" onClick={() => pick(selected.b.viaPerson ? selected.b.id : selected.b.d.personIds[0])}>{endName(selected.b)}</button>
-            </h2>
-            <span className={`conf conf-${selected.link.confidence}`}>{confidenceName[selected.link.confidence]}</span>
-            <button type="button" className="press btn btn-quiet" onClick={() => set({ l: undefined })}>ניקוי בחירה</button>
-          </div>
-          <div className="grid-3">
-            <div className="tone tone-neutral">
-              <h4>הכלל: למה הם קשורים</h4>
-              {selected.link.evidence.map((ev, i) => (
-                <blockquote key={i} className="quote quote-small">
-                  <span dir="ltr" lang="en">“{/^[a-z(]/.test(ev.quote) ? '…' : ''}{ev.quote}”</span>
-                  <footer><a className="src-link" href={sourceById.get(ev.sourceId)?.url} target="_blank" rel="noreferrer" dir="ltr">{sourceById.get(ev.sourceId)?.title}</a></footer>
-                </blockquote>
-              ))}
-            </div>
-            <div className="tone tone-insight"><h4>התובנה: מה זה אומר</h4><Rich as="p">{selected.link.explanation}</Rich></div>
-            <div className="tone tone-solution"><h4>היישום: מה עושים עם זה</h4><Rich as="p">{selected.link.application || 'עדיין לא נוסח יישום לקשר הזה.'}</Rich></div>
-          </div>
-        </section>
+        <LinkPanel selected={selected} pick={pick} set={set} />
       ) : (
         <p className="link-empty tone tone-neutral">בחרו קשר על הציר או ברשימה, כדי לראות את הכלל, התובנה והיישום שלו.</p>
       )}
