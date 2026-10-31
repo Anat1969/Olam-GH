@@ -9,18 +9,8 @@ import type { City, LonLat } from '../geo';
 export type RouteView = { id: string; path: LonLat[]; type: string; confidence: string; on: boolean };
 export type CityView = { city: City; known: number; recent: boolean; on: boolean; domain: string };
 
-const STYLE: maplibregl.StyleSpecification = {
-  version: 8,
-  projection: { type: 'globe' },
-  sources: {
-    osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, maxzoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>' },
-  },
-  layers: [
-    { id: 'paper', type: 'background', paint: { 'background-color': '#F4F2EC' } },
-    { id: 'osm', type: 'raster', source: 'osm', paint: { 'raster-saturation': -0.85, 'raster-contrast': -0.2, 'raster-brightness-min': 0.22, 'raster-opacity': 0.9 } },
-  ],
-  sky: { 'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 0.6, 5, 0] },
-};
+// OpenFreeMap: אריחים וקטוריים חינמיים על נתוני OpenStreetMap, בלי מפתח ובלי מגבלת שימוש, מתאים לתערוכה ולקהל רחב.
+const STYLE_URL = 'https://tiles.openfreemap.org/styles/positron';
 
 const fc = (features: GeoJSON.Feature[]): GeoJSON.FeatureCollection => ({ type: 'FeatureCollection', features });
 
@@ -41,7 +31,7 @@ export default function MapView({ cities, routes, trail, center, focus, onCity, 
     let m: MLMap;
     try {
       m = new maplibregl.Map({
-        container: el.current, style: STYLE, center: [22, 41], zoom: el.current.clientWidth > 700 ? 2.3 : 1.5, minZoom: 0.8, maxZoom: 9,
+        container: el.current, style: STYLE_URL, center: [22, 41], zoom: el.current.clientWidth > 700 ? 2.3 : 1.5, minZoom: 0.8, maxZoom: 9,
         attributionControl: { compact: true }, cooperativeGestures: false, dragRotate: false, pitchWithRotate: false,
       });
     } catch {
@@ -55,6 +45,11 @@ export default function MapView({ cities, routes, trail, center, focus, onCity, 
     zoomClass();
     m.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
     m.on('error', (e) => { if (String(e.error?.message || '').includes('WebGL')) onFail(); });
+    // גלובוס, ורקע בגוון נייר לפי ה-DNA
+    m.on('style.load', () => {
+      m.setProjection({ type: 'globe' });
+      if (m.getLayer('background')) m.setPaintProperty('background', 'background-color', '#F4F2EC');
+    });
     m.on('load', () => {
       m.addSource('routes', { type: 'geojson', data: fc([]) });
       m.addSource('trail', { type: 'geojson', data: fc([]) });
