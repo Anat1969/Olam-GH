@@ -410,6 +410,161 @@
       "id": "p-fisher",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-plato",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-augustine",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-avicenna",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-maimonides",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-aquinas",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-machiavelli",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bacon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hobbes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-spinoza",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-locke",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hume",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kant",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wollstonecraft",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hegel",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-jsmill",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-htmill",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-nietzsche",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wittgenstein",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-popper",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kuhn",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-guido",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-vgalilei",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-monteverdi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mersenne",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bach",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-beethoven",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wagner",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-debussy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-stravinsky",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-schoenberg",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-armstrong",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -822,6 +977,166 @@
       "id": "d-1918-fisher-variance",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "d-bce375-plato-republic",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-397-augustine-confessions",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1027-avicenna-healing",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1190-maimonides-guide",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1265-aquinas-summa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1513-machiavelli-prince",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1620-bacon-organum",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1637-descartes-discourse",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1651-hobbes-leviathan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1677-spinoza-ethics",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1689-locke-essay",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1714-leibniz-monadology",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1739-hume-treatise",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1781-kant-critique",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1792-wollstonecraft-vindication",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1807-hegel-phenomenology",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1859-mill-liberty",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1883-nietzsche-zarathustra",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1921-wittgenstein-tractatus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1934-popper-falsifiability",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1962-kuhn-revolutions",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1013-guido-staff",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1581-vgalilei-dialogue",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1607-monteverdi-orfeo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1636-mersenne-harmonie",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1722-bach-wtc",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1804-beethoven-eroica",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1865-wagner-tristan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1894-debussy-faune",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1913-stravinsky-rite",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1923-schoenberg-twelve",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1925-armstrong-hotfive",
+      "verified": true,
+      "reasons": []
     }
   ],
   "links": [
@@ -1059,6 +1374,126 @@
     },
     {
       "id": "l-47",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-48",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-49",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-50",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-51",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-52",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-53",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-54",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-55",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-56",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-57",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-58",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-59",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-60",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-61",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-62",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-63",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-64",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-65",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-66",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-67",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-68",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-69",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-70",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-71",
       "verified": true,
       "reasons": []
     }
@@ -1525,12 +1960,162 @@
       "place": "Rothamsted Research",
       "ok": true,
       "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce375-plato-republic",
+      "place": "Athens",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-397-augustine-confessions",
+      "place": "Hippo Regius",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1190-maimonides-guide",
+      "place": "El-Fustat",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1513-machiavelli-prince",
+      "place": "Sant'Andrea in Percussina",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1620-bacon-organum",
+      "place": "London",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1637-descartes-discourse",
+      "place": "Dutch Republic",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1651-hobbes-leviathan",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1677-spinoza-ethics",
+      "place": "The Hague",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1714-leibniz-monadology",
+      "place": "Vienna",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1781-kant-critique",
+      "place": "Königsberg",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1792-wollstonecraft-vindication",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1807-hegel-phenomenology",
+      "place": "Jena",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1859-mill-liberty",
+      "place": "London",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1934-popper-falsifiability",
+      "place": "Vienna",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1013-guido-staff",
+      "place": "Abbazia di Pomposa",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1581-vgalilei-dialogue",
+      "place": "Florence",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1607-monteverdi-orfeo",
+      "place": "Mantua",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1636-mersenne-harmonie",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1722-bach-wtc",
+      "place": "Köthen",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1804-beethoven-eroica",
+      "place": "Vienna",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1865-wagner-tristan",
+      "place": "Munich",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1894-debussy-faune",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1913-stravinsky-rite",
+      "place": "Théâtre des Champs-Élysées",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1923-schoenberg-twelve",
+      "place": "Vienna",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1925-armstrong-hotfive",
+      "place": "Chicago",
+      "ok": true,
+      "confidence": "documented"
     }
   ],
   "summary": {
-    "persons": "82/82",
-    "discoveries": "82/82",
-    "links": "46/47",
-    "images": 80
+    "persons": "113/113",
+    "discoveries": "114/114",
+    "links": "70/71",
+    "images": 110
   }
 }

@@ -391,3 +391,22 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .find-nc { margin: 0 0 8px; display: grid; gap: 6px; }
 .find-nc div { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 8px; align-items: baseline; }
 .find-nc dd { margin: 0; font-size: 14px; line-height: 1.7; color: var(--ink-soft); }
+
+/* פילוסופיה ומוזיקה */
+.tl-dot-philosophy { fill: var(--philosophy); background: var(--philosophy); }
+.tl-dot-music { fill: var(--music); background: var(--music); }
+.tag-philosophy { background: var(--philosophy); }
+.tag-music { background: var(--music); }
+.axis-philosophy { stroke: var(--philosophy); }
+.axis-music { stroke: var(--music); }
+.row-philosophy { background: var(--philosophy); }
+.row-music { background: var(--music); }
+.pin-philosophy { background: var(--philosophy); border-color: var(--philosophy); }
+.pin-music { background: var(--music); border-color: var(--music); }
+.chip-dom[aria-pressed="true"].dom-philosophy { background: var(--philosophy); border-color: var(--philosophy); }
+.chip-dom[aria-pressed="true"].dom-music { background: var(--music); border-color: var(--music); }
+.dom-philosophy .mc-sq, .lg-sq.dom-philosophy { background: var(--philosophy); }
+.dom-music .mc-sq, .lg-sq.dom-music { background: var(--music); }
+.g-node.dom-philosophy .g-sq { stroke: var(--philosophy); }
+.g-node.dom-music .g-sq { stroke: var(--music); }
+.g-node.dom-philosophy .g-sq, .g-node.dom-music .g-sq { stroke-dasharray: none; }

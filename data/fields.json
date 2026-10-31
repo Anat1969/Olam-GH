@@ -3,11 +3,23 @@
     {
       "id": "ruach",
       "nameHe": "רוח",
-      "color": "#2F6B4F",
+      "color": "#5E4B8B",
       "domains": [
-        { "id": "religion", "nameHe": "דת", "nameFull": "Religion" },
-        { "id": "philosophy", "nameHe": "פילוסופיה", "nameFull": "Philosophy" },
-        { "id": "psychology", "nameHe": "פסיכולוגיה", "nameFull": "Psychology" }
+        {
+          "id": "religion",
+          "nameHe": "דת",
+          "nameFull": "Religion"
+        },
+        {
+          "id": "philosophy",
+          "nameHe": "פילוסופיה",
+          "nameFull": "Philosophy"
+        },
+        {
+          "id": "psychology",
+          "nameHe": "פסיכולוגיה",
+          "nameFull": "Psychology"
+        }
       ]
     },
     {
@@ -15,10 +27,26 @@
       "nameHe": "שכל",
       "color": "#1F4E79",
       "domains": [
-        { "id": "mathematics", "nameHe": "מתמטיקה", "nameFull": "Mathematics" },
-        { "id": "physics", "nameHe": "פיזיקה", "nameFull": "Physics" },
-        { "id": "chemistry", "nameHe": "כימיה", "nameFull": "Chemistry" },
-        { "id": "biology", "nameHe": "ביולוגיה", "nameFull": "Biology" }
+        {
+          "id": "mathematics",
+          "nameHe": "מתמטיקה",
+          "nameFull": "Mathematics"
+        },
+        {
+          "id": "physics",
+          "nameHe": "פיזיקה",
+          "nameFull": "Physics"
+        },
+        {
+          "id": "chemistry",
+          "nameHe": "כימיה",
+          "nameFull": "Chemistry"
+        },
+        {
+          "id": "biology",
+          "nameHe": "ביולוגיה",
+          "nameFull": "Biology"
+        }
       ]
     },
     {
@@ -26,9 +54,21 @@
       "nameHe": "רגש",
       "color": "#8A3B5C",
       "domains": [
-        { "id": "music", "nameHe": "מוזיקה", "nameFull": "Music" },
-        { "id": "dance", "nameHe": "ריקוד", "nameFull": "Dance" },
-        { "id": "combat-sports", "nameHe": "קרב מגע", "nameFull": "Combat sports" }
+        {
+          "id": "music",
+          "nameHe": "מוזיקה",
+          "nameFull": "Music"
+        },
+        {
+          "id": "dance",
+          "nameHe": "ריקוד",
+          "nameFull": "Dance"
+        },
+        {
+          "id": "combat-sports",
+          "nameHe": "קרב מגע",
+          "nameFull": "Combat sports"
+        }
       ]
     },
     {
@@ -36,10 +76,26 @@
       "nameHe": "יצר",
       "color": "#8C5A1E",
       "domains": [
-        { "id": "painting", "nameHe": "ציור", "nameFull": "Painting" },
-        { "id": "sculpture", "nameHe": "פיסול", "nameFull": "Sculpture" },
-        { "id": "architecture", "nameHe": "אדריכלות", "nameFull": "Architecture" },
-        { "id": "cinema", "nameHe": "קולנוע", "nameFull": "Cinema" }
+        {
+          "id": "painting",
+          "nameHe": "ציור",
+          "nameFull": "Painting"
+        },
+        {
+          "id": "sculpture",
+          "nameHe": "פיסול",
+          "nameFull": "Sculpture"
+        },
+        {
+          "id": "architecture",
+          "nameHe": "אדריכלות",
+          "nameFull": "Architecture"
+        },
+        {
+          "id": "cinema",
+          "nameHe": "קולנוע",
+          "nameFull": "Cinema"
+        }
       ]
     }
   ]

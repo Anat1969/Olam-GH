@@ -5,8 +5,8 @@ import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { type Discovery, links, personById, yearText, discoveries as allShown } from '../data';
 
-export const YEAR_MIN = -350;
-export const YEAR_MAX = 1960;
+export const YEAR_MIN = -400;
+export const YEAR_MAX = 1970;
 const W = 2200;
 const PAD = 56;
 const AXIS_Y = 132;
@@ -25,7 +25,7 @@ export const xScale = scaleLinear<number, number>()
   .range(FRACS.map((f) => W - PAD - f * (W - 2 * PAD)))
   .clamp(true);
 
-const TICKS = [-300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950];
+const TICKS = [-300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970];
 
 type Item = { d: Discovery; x: number; lane: number; left: number };
 

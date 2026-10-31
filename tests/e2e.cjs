@@ -180,7 +180,7 @@ const mock = async (p) => {
     await p.locator('.map-controls input[type=range]').fill('1000');
     await p.waitForTimeout(250);
     const m1950 = await p.locator('.map-city').count();
-    ok(p.url().includes('y=1960') && m1950 > m1700, `המחוון מזיז את הנקודות בזמן אמת (${m1700} ל-${m1950})`);
+    ok(p.url().includes('y=1970') && m1950 > m1700, `המחוון מזיז את הנקודות בזמן אמת (${m1700} ל-${m1950})`);
     await p.locator('.map-controls input[type=range]').fill('0');
     await p.waitForTimeout(250);
     ok((await p.locator('.map-city').count()) < m1700, 'בתחילת הציר יש פחות ערים');
@@ -202,13 +202,13 @@ const mock = async (p) => {
     ok(p.url().includes('l=') && (await p.locator('.link-panel').innerText()).includes('היישום'), 'מסלול נבחר עם כלל, תובנה ויישום');
     await p.locator('.map-controls .chip-dom', { hasText: 'פיזיקה' }).click();
     await p.waitForTimeout(200);
-    ok(p.url().includes('d=mathematics') && (await p.locator('.map-city.dom-physics').count()) === 0, 'סינון תחום על המפה');
+    ok(!new URL(p.url().replace('#/', '')).searchParams.get('d').split(',').includes('physics') && (await p.locator('.map-city.dom-physics').count()) === 0, 'סינון תחום על המפה');
     await p.locator('.map-controls .chip-dom', { hasText: 'פיזיקה' }).click();
     await p.locator('.map-controls input[type=range]').fill('0');
     await p.getByRole('button', { name: 'הפעלה' }).click();
     await p.waitForTimeout(1500);
     await p.getByRole('button', { name: 'עצירה' }).click();
-    ok(!p.url().includes('y=-350'), 'הפעלה מקדמת את הזמן על המפה');
+    ok(!p.url().includes('y=-400'), 'הפעלה מקדמת את הזמן על המפה');
     await p.goto(BASE + '#/map?y=1640&c=Prague', { waitUntil: 'networkidle' });
     await p.reload({ waitUntil: 'networkidle' });
     ok((await h1(p)).includes('1640') && (await p.locator('.city-panel').innerText()).includes('פראג'), 'קישור מועתק למפה פותח את אותו מצב');

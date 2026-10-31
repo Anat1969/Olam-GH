@@ -2,6 +2,12 @@
   "_note": "accessedAt מתעדכן בכל הרצה מוצלחת של npm run verify.",
   "sources": [
     {
+      "id": "s-wd-q101638",
+      "title": "Mary Wollstonecraft, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q101638",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q1035",
       "title": "Charles Darwin, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q1035",
@@ -38,6 +44,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q127398",
+      "title": "Moshe ben Maimon, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q127398",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q1290",
       "title": "Blaise Pascal, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q1290",
@@ -56,15 +68,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q1339",
+      "title": "Johann Sebastian Bach, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1339",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1399",
+      "title": "Niccolò Machiavelli, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1399",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q150526",
       "title": "Santiago Ramón y Cajal, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q150526",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q1511",
+      "title": "Richard Wagner, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1511",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q153243",
       "title": "Josiah Willard Gibbs, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q153243",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q154770",
+      "title": "Arnold Schoenberg, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q154770",
       "accessedAt": "2026-10-31"
     },
     {
@@ -104,9 +140,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q1779",
+      "title": "Louis Armstrong, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1779",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q184337",
       "title": "G.H. Hardy, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q184337",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q184980",
+      "title": "Thomas Kuhn, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q184980",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q188663",
+      "title": "Marin Mersenne, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q188663",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q192238",
+      "title": "Guido of Arezzo, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q192238",
       "accessedAt": "2026-10-31"
     },
     {
@@ -128,6 +188,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q240782",
+      "title": "Harriet Taylor Mill, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q240782",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q255",
+      "title": "Ludwig van Beethoven, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q255",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q25820",
       "title": "Thomas Young, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q25820",
@@ -146,9 +218,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q313765",
+      "title": "Vincenzo Galilei, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q313765",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q35149",
       "title": "Wilhelm Röntgen, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q35149",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q35802",
+      "title": "Benedictus de Spinoza, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q35802",
       "accessedAt": "2026-10-31"
     },
     {
@@ -158,9 +242,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q37160",
+      "title": "David Hume, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q37160",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q37193",
       "title": "Robert Koch, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q37193",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q37388",
+      "title": "Francis Bacon, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q37388",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q37621",
+      "title": "Thomas Hobbes, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q37621",
       "accessedAt": "2026-10-31"
     },
     {
@@ -242,15 +344,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q4700",
+      "title": "Claude Debussy, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q4700",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q48983",
       "title": "Linus Pauling, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q48983",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q50020",
+      "title": "John Stuart Mill, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q50020",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q529",
       "title": "Louis Pasteur, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q529",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q53068",
+      "title": "Claudio Monteverdi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q53068",
       "accessedAt": "2026-10-31"
     },
     {
@@ -332,6 +452,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q7314",
+      "title": "Igor Stravinsky, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7314",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q7474",
       "title": "Rosalind Franklin, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q7474",
@@ -380,9 +506,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q8011",
+      "title": "Avicenna, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8011",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8018",
+      "title": "Augustine of Hippo, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8018",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q80956",
       "title": "Svante August Arrhenius, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q80956",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q81244",
+      "title": "Karl Popper, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q81244",
       "accessedAt": "2026-10-31"
     },
     {
@@ -395,6 +539,12 @@
       "id": "s-wd-q83333",
       "title": "James Watson, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q83333",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q859",
+      "title": "Plato, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q859",
       "accessedAt": "2026-10-31"
     },
     {
@@ -476,6 +626,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q9235",
+      "title": "Georg Wilhelm Friedrich Hegel, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9235",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9312",
+      "title": "Immanuel Kant, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9312",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q93128",
       "title": "William Harvey, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q93128",
@@ -488,15 +650,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q9353",
+      "title": "John Locke, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9353",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9358",
+      "title": "Friedrich Nietzsche, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9358",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q937",
       "title": "Albert Einstein, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q937",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q9391",
+      "title": "Ludwig Wittgenstein, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9391",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9438",
+      "title": "Thomas Aquinas, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9438",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-a-dynamical-theory-of-the-electromagnetic-field",
       "title": "A Dynamical Theory of the Electromagnetic Field, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-a-vindication-of-the-rights-of-woman",
+      "title": "A Vindication of the Rights of Woman, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman",
       "accessedAt": "2026-10-31"
     },
     {
@@ -548,6 +740,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-an-essay-concerning-human-understanding",
+      "title": "An Essay Concerning Human Understanding, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/An_Essay_Concerning_Human_Understanding",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-andreas-vesalius",
       "title": "Andreas Vesalius, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Andreas_Vesalius",
@@ -578,6 +776,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-arnold-schoenberg",
+      "title": "Arnold Schoenberg, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arnold_Schoenberg",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-aryabhata",
       "title": "Aryabhata, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Aryabhata",
@@ -596,9 +800,27 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-augustine-of-hippo",
+      "title": "Augustine of Hippo, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-avicenna",
+      "title": "Avicenna, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Avicenna",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-avogadro-s-law",
       "title": "Avogadro's law, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Avogadro's_law",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-baruch-spinoza",
+      "title": "Baruch Spinoza, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Baruch_Spinoza",
       "accessedAt": "2026-10-31"
     },
     {
@@ -668,15 +890,45 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-claude-debussy",
+      "title": "Claude Debussy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claude_Debussy",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-claudio-monteverdi",
+      "title": "Claudio Monteverdi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-confessions-augustine",
+      "title": "Confessions (Augustine), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Confessions_(Augustine)",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-coulomb-s-law",
       "title": "Coulomb's law, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Coulomb's_law",
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-critique-of-pure-reason",
+      "title": "Critique of Pure Reason, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Critique_of_Pure_Reason",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-david-hilbert",
       "title": "David Hilbert, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/David_Hilbert",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-david-hume",
+      "title": "David Hume, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/David_Hume",
       "accessedAt": "2026-10-31"
     },
     {
@@ -728,6 +980,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-ethics-spinoza-book",
+      "title": "Ethics (Spinoza book), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ethics_(Spinoza_book)",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-euclid",
       "title": "Euclid, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Euclid",
@@ -758,6 +1016,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-francis-bacon",
+      "title": "Francis Bacon, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Francis_Bacon",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-francis-crick",
       "title": "Francis Crick, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Francis_Crick",
@@ -767,6 +1031,12 @@
       "id": "s-wp-friedrich-miescher",
       "title": "Friedrich Miescher, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Friedrich_Miescher",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-friedrich-nietzsche",
+      "title": "Friedrich Nietzsche, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
       "accessedAt": "2026-10-31"
     },
     {
@@ -818,6 +1088,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-georg-wilhelm-friedrich-hegel",
+      "title": "Georg Wilhelm Friedrich Hegel, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-gilbert-n-lewis",
       "title": "Gilbert N. Lewis, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gilbert_N._Lewis",
@@ -842,6 +1118,18 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-guide-for-the-perplexed",
+      "title": "Guide for the Perplexed, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guide_for_the_Perplexed",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-guido-of-arezzo",
+      "title": "Guido of Arezzo, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guido_of_Arezzo",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-gustav-kirchhoff",
       "title": "Gustav Kirchhoff, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Gustav_Kirchhoff",
@@ -857,6 +1145,12 @@
       "id": "s-wp-hardy-weinberg-principle",
       "title": "Hardy–Weinberg principle, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-harriet-taylor-mill",
+      "title": "Harriet Taylor Mill, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Harriet_Taylor_Mill",
       "accessedAt": "2026-10-31"
     },
     {
@@ -896,6 +1190,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-hot-five",
+      "title": "Hot Five, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hot_Five",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-hydrogen",
       "title": "Hydrogen, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hydrogen",
@@ -905,6 +1205,18 @@
       "id": "s-wp-ibn-al-haytham",
       "title": "Ibn al-Haytham, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-igor-stravinsky",
+      "title": "Igor Stravinsky, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-immanuel-kant",
+      "title": "Immanuel Kant, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Immanuel_Kant",
       "accessedAt": "2026-10-31"
     },
     {
@@ -926,6 +1238,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-johann-sebastian-bach",
+      "title": "Johann Sebastian Bach, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-johannes-kepler",
       "title": "Johannes Kepler, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
@@ -938,9 +1256,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-john-locke",
+      "title": "John Locke, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Locke",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-john-napier",
       "title": "John Napier, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/John_Napier",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-john-stuart-mill",
+      "title": "John Stuart Mill, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
       "accessedAt": "2026-10-31"
     },
     {
@@ -956,6 +1286,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-karl-popper",
+      "title": "Karl Popper, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Karl_Popper",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-kepler-s-laws-of-planetary-motion",
       "title": "Kepler's laws of planetary motion, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion",
@@ -965,6 +1301,12 @@
       "id": "s-wp-kurt-go-del",
       "title": "Kurt Gödel, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Kurt_G%C3%B6del",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-l-orfeo",
+      "title": "L'Orfeo, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/L'Orfeo",
       "accessedAt": "2026-10-31"
     },
     {
@@ -986,9 +1328,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-leviathan-hobbes-book",
+      "title": "Leviathan (Hobbes book), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-linus-pauling",
       "title": "Linus Pauling, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Linus_Pauling",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-louis-armstrong",
+      "title": "Louis Armstrong, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_Armstrong",
       "accessedAt": "2026-10-31"
     },
     {
@@ -998,9 +1352,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-ludwig-van-beethoven",
+      "title": "Ludwig van Beethoven, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ludwig-wittgenstein",
+      "title": "Ludwig Wittgenstein, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-maimonides",
+      "title": "Maimonides, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maimonides",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-marie-curie",
       "title": "Marie Curie, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-marin-mersenne",
+      "title": "Marin Mersenne, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marin_Mersenne",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-mary-wollstonecraft",
+      "title": "Mary Wollstonecraft, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1052,6 +1436,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-monadology",
+      "title": "Monadology, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monadology",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-moseley-s-law",
       "title": "Moseley's law, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Moseley's_law",
@@ -1067,6 +1457,12 @@
       "id": "s-wp-newton-s-law-of-universal-gravitation",
       "title": "Newton's law of universal gravitation, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Newton's_law_of_universal_gravitation",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-niccolo-machiavelli",
+      "title": "Niccolò Machiavelli, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1094,9 +1490,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-novum-organum",
+      "title": "Novum Organum, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Novum_Organum",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-nucleic-acid-double-helix",
       "title": "Nucleic acid double helix, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Nucleic_acid_double_helix",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-on-liberty",
+      "title": "On Liberty, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/On_Liberty",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1142,6 +1550,24 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-plato",
+      "title": "Plato, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plato",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pre-lude-a-l-apre-s-midi-d-un-faune",
+      "title": "Prélude à l'après-midi d'un faune, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pr%C3%A9lude_%C3%A0_l'apr%C3%A8s-midi_d'un_faune",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-problem-of-induction",
+      "title": "Problem of induction, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Problem_of_induction",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-radioactive-decay",
       "title": "Radioactive decay, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Radioactive_decay",
@@ -1151,6 +1577,18 @@
       "id": "s-wp-rene-descartes",
       "title": "René Descartes, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-republic-plato",
+      "title": "Republic (Plato), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Republic_(Plato)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-richard-wagner",
+      "title": "Richard Wagner, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Richard_Wagner",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1232,9 +1670,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-summa-theologica",
+      "title": "Summa Theologica, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Summa_Theologica",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-svante-arrhenius",
       "title": "Svante Arrhenius, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Svante_Arrhenius",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-symphony-no-3-beethoven",
+      "title": "Symphony No. 3 (Beethoven), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Symphony_No._3_(Beethoven)",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1244,9 +1694,51 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-the-book-of-healing",
+      "title": "The Book of Healing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Book_of_Healing",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-the-compendious-book-on-calculation-by-completion-and-balancing",
       "title": "The Compendious Book on Calculation by Completion and Balancing, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/The_Compendious_Book_on_Calculation_by_Completion_and_Balancing",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-copernican-revolution-book",
+      "title": "The Copernican Revolution (book), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Copernican_Revolution_(book)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-guide-for-the-perplexed",
+      "title": "The Guide for the Perplexed, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Guide_for_the_Perplexed",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-logic-of-scientific-discovery",
+      "title": "The Logic of Scientific Discovery, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-phenomenology-of-spirit",
+      "title": "The Phenomenology of Spirit, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Phenomenology_of_Spirit",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-prince",
+      "title": "The Prince, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Prince",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-rite-of-spring",
+      "title": "The Rite of Spring, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Rite_of_Spring",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1256,9 +1748,33 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-the-structure-of-scientific-revolutions",
+      "title": "The Structure of Scientific Revolutions, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-well-tempered-clavier",
+      "title": "The Well-Tempered Clavier, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Well-Tempered_Clavier",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-theodor-schwann",
       "title": "Theodor Schwann, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Theodor_Schwann",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-thomas-aquinas",
+      "title": "Thomas Aquinas, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-thomas-hobbes",
+      "title": "Thomas Hobbes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1268,9 +1784,39 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-thomas-kuhn",
+      "title": "Thomas Kuhn, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Kuhn",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-thomas-young-scientist",
       "title": "Thomas Young (scientist), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Thomas_Young_(scientist)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-thus-spoke-zarathustra",
+      "title": "Thus Spoke Zarathustra, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thus_Spoke_Zarathustra",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-tractatus-logico-philosophicus",
+      "title": "Tractatus Logico-Philosophicus, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-tristan-chord",
+      "title": "Tristan chord, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tristan_chord",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-tristan-und-isolde",
+      "title": "Tristan und Isolde, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tristan_und_Isolde",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1280,9 +1826,21 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-twelve-tone-technique",
+      "title": "Twelve-tone technique, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twelve-tone_technique",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-two-new-sciences",
       "title": "Two New Sciences, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Two_New_Sciences",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-vincenzo-galilei",
+      "title": "Vincenzo Galilei, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vincenzo_Galilei",
       "accessedAt": "2026-10-31"
     },
     {

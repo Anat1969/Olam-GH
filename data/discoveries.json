@@ -40,7 +40,8 @@
         "s-wp-ibn-al-haytham"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "הראייה הוסברה כ**אור שנכנס לעין**, ונבדקה ב**ניסוי**."
     },
     {
       "id": "d-1543-copernicus-revolutionibus",
@@ -81,7 +82,8 @@
         "s-wp-nicolaus-copernicus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**השמש**, ולא כדור הארץ, הוצבה במרכז המודל."
     },
     {
       "id": "d-1609-kepler-orbits",
@@ -123,7 +125,8 @@
         "s-wp-johannes-kepler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "המסלול של מאדים הוא **אליפסה**, ולא מעגל."
     },
     {
       "id": "d-1610-galileo-sidereus",
@@ -165,7 +168,8 @@
         "s-wp-galileo-galilei"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**טלסקופ** הופנה לשמים, ונמצאו **ירחים** שמקיפים את צדק."
     },
     {
       "id": "d-1619-kepler-third",
@@ -207,7 +211,8 @@
         "s-wp-johannes-kepler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**זמן המחזור** והמרחק מהשמש קשורים ב**נוסחה אחת**."
     },
     {
       "id": "d-1638-galileo-two-sciences",
@@ -249,7 +254,8 @@
         "s-wp-galileo-galilei"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**הנפילה** תוארה בחוק מתמטי, ולא בתיאור איכותי."
     },
     {
       "id": "d-1656-huygens-pendulum",
@@ -291,7 +297,8 @@
         "s-wp-christiaan-huygens"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**מטוטלת** הפכה למנגנון שמווסת את השעון."
     },
     {
       "id": "d-1687-newton-principia",
@@ -338,7 +345,8 @@
         "s-wp-isaac-newton"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**כוח אחד** מסביר גם תפוח שנופל וגם כוכב לכת שנע."
     },
     {
       "id": "d-1785-coulomb-law",
@@ -376,7 +384,8 @@
         "s-wp-coulomb-s-law"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "הכוח החשמלי **נמדד** במאזני פיתול, ולא רק תואר."
     },
     {
       "id": "d-1800-volta-pile",
@@ -418,7 +427,8 @@
         "s-wp-alessandro-volta"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "ערימה של **דסקיות מתכת** הפיקה זרם רציף."
     },
     {
       "id": "d-1801-young-interference",
@@ -460,7 +470,8 @@
         "s-wp-thomas-young-scientist"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "אור שמתאבך עם עצמו מתנהג כמו **גל**."
     },
     {
       "id": "d-1831-faraday-induction",
@@ -485,7 +496,8 @@
         "s-wp-electromagnetic-induction"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**מגנט שזז** יוצר זרם חשמלי."
     },
     {
       "id": "d-1865-maxwell-field",
@@ -527,7 +539,8 @@
         "s-wp-james-clerk-maxwell"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "חשמל, מגנטיות ואור הם **שדה אחד**."
     },
     {
       "id": "d-1895-rontgen-xrays",
@@ -569,7 +582,8 @@
         "s-wp-wilhelm-ro-ntgen"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "קרינה **לא מוכרת** עוברת דרך חומר אטום."
     },
     {
       "id": "d-1896-becquerel-radioactivity",
@@ -607,7 +621,8 @@
         "s-wp-radioactive-decay"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "חומר **קורן מעצמו**, בלי מקור אור."
     },
     {
       "id": "d-1900-planck-quantum",
@@ -649,7 +664,8 @@
         "s-wp-max-planck"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "אנרגיה משתנה רק ב**מנות** קטנות."
     },
     {
       "id": "d-1905-einstein-special",
@@ -691,7 +707,8 @@
         "s-wp-albert-einstein"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**מהירות האור** קבועה לכל צופה, והזמן הוא שתלוי בצופה."
     },
     {
       "id": "d-1911-rutherford-nucleus",
@@ -733,7 +750,8 @@
         "s-wp-ernest-rutherford"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "לאטום יש **גרעין** קטן וכבד במרכז."
     },
     {
       "id": "d-1913-bohr-atom",
@@ -771,7 +789,8 @@
         "s-wp-bohr-model"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "אלקטרונים קופצים בין **רמות אנרגיה** קבועות."
     },
     {
       "id": "d-1915-einstein-general",
@@ -813,7 +832,8 @@
         "s-wp-albert-einstein"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**כבידה** היא עקמומיות של המרחב והזמן."
     },
     {
       "id": "d-bce300-euclid-elements",
@@ -855,7 +875,8 @@
         "s-wp-euclid"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "הגאומטריה נבנתה כ**מערכת הוכחות** מתוך מעט אקסיומות."
     },
     {
       "id": "d-bce250-archimedes-circle",
@@ -897,7 +918,8 @@
         "s-wp-archimedes"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**פאי** נחסם בין שני ערכים בעזרת מצולעים."
     },
     {
       "id": "d-499-aryabhata",
@@ -939,7 +961,8 @@
         "s-wp-aryabhata"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "מתמטיקה ואסטרונומיה של הודו רוכזו ב**ספר יסוד** אחד."
     },
     {
       "id": "d-628-brahmagupta-zero",
@@ -984,7 +1007,8 @@
         "s-wp-brahmagupta"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**אפס** נחשב למספר, עם חוקי חשבון משלו."
     },
     {
       "id": "d-820-khwarizmi-algebra",
@@ -1034,7 +1058,8 @@
         "s-wp-algebra"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "משוואות מוינו ל-**6** צורות, ולכל צורה דרך פתרון קבועה."
     },
     {
       "id": "d-1202-fibonacci-abaci",
@@ -1075,7 +1100,8 @@
         "s-wp-fibonacci"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**ערך המקום** והספרות ההודיות-ערביות הגיעו לאירופה."
     },
     {
       "id": "d-1614-napier-logarithms",
@@ -1117,7 +1143,8 @@
         "s-wp-mirifici-logarithmorum-canonis-descriptio"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**כפל** הופך ל**חיבור** בעזרת טבלה."
     },
     {
       "id": "d-1637-descartes-geometrie",
@@ -1159,7 +1186,8 @@
         "s-wp-rene-descartes"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**צורה** נכתבת כ**משוואה**."
     },
     {
       "id": "d-1654-pascal-fermat-probability",
@@ -1198,7 +1226,8 @@
         "s-wp-pierre-de-fermat"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**מקרה** חושב במספרים, במכתבים בין שני מתמטיקאים."
     },
     {
       "id": "d-1684-leibniz-calculus",
@@ -1240,7 +1269,8 @@
         "s-wp-gottfried-wilhelm-leibniz"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**שינוי רגעי** קיבל סימון וחוקי חישוב."
     },
     {
       "id": "d-1736-euler-bridges",
@@ -1282,7 +1312,8 @@
         "s-wp-leonhard-euler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "בעיה של מפה נפתרה בלי מרחקים, רק ב**חיבורים** בין מקומות."
     },
     {
       "id": "d-1801-gauss-disquisitiones",
@@ -1324,7 +1355,8 @@
         "s-wp-carl-friedrich-gauss"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "תוצאות מפוזרות על **מספרים שלמים** סודרו לתורה אחת."
     },
     {
       "id": "d-1829-lobachevsky-geometry",
@@ -1365,7 +1397,8 @@
         "s-wp-nikolai-lobachevsky"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "גאומטריה עקבית **בלי** אקסיומת המקבילים."
     },
     {
       "id": "d-1830-galois-theory",
@@ -1394,7 +1427,8 @@
         "s-wp-galois-theory"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**סימטריה** של השורשים קובעת אם משוואה פתירה."
     },
     {
       "id": "d-1859-riemann-hypothesis",
@@ -1436,7 +1470,8 @@
         "s-wp-bernhard-riemann"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**הראשוניים** נקשרו לאפסים של פונקציה מרוכבת."
     },
     {
       "id": "d-1874-cantor-uncountable",
@@ -1478,7 +1513,8 @@
         "s-wp-georg-cantor"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "יש **אינסוף גדול יותר** מאינסוף אחר."
     },
     {
       "id": "d-1900-hilbert-problems",
@@ -1519,7 +1555,8 @@
         "s-wp-hilbert-s-problems"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**רשימת שאלות פתוחות** הפכה למפת דרכים של תחום שלם."
     },
     {
       "id": "d-1918-noether-theorem",
@@ -1561,7 +1598,8 @@
         "s-wp-emmy-noether"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "כל **סימטריה** מולידה **חוק שימור**."
     },
     {
       "id": "d-1931-godel-incompleteness",
@@ -1603,7 +1641,8 @@
         "s-wp-kurt-go-del"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "יש **אמת** שאי אפשר להוכיח בתוך המערכת."
     },
     {
       "id": "d-1936-turing-machine",
@@ -1645,7 +1684,8 @@
         "s-wp-alan-turing"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "novelty": "**חישוב** הוגדר כמכונה מופשטת פשוטה."
     },
     {
       "id": "d-1661-boyle-sceptical",
@@ -3424,6 +3464,1288 @@
       ],
       "sources": [
         "s-wp-ronald-fisher"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce375-plato-republic",
+      "title": "המדינה: מהו צדק",
+      "yearFrom": -375,
+      "yearTo": -375,
+      "yearApprox": true,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-plato"
+      ],
+      "place": {
+        "wikipedia": "Athens",
+        "nameHe": "אתונה",
+        "nameFull": "Athens",
+        "lat": 37.9842,
+        "lon": 23.7281,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-plato",
+          "quote": "was the founder of the Academy, a philosophical school in Athens"
+        },
+        "city": {
+          "nameHe": "אתונה",
+          "nameFull": "Athens"
+        },
+        "wikidata": "Q1524"
+      },
+      "novelty": "**אפלטון** שאל מהו **צדק**, ובנה בשבילו עיר שלמה במחשבה.",
+      "contribution": "הדיאלוג הפך לבסיס של **הפילוסופיה המדינית** במערב.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-republic-plato",
+          "quote": "is a Socratic dialogue authored by Plato around 375 BC, concerning justice (dikaiosúnē), the order and character of the just city-state, and the just man."
+        }
+      ],
+      "sources": [
+        "s-wp-republic-plato",
+        "s-wp-plato"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-397-augustine-confessions",
+      "title": "וידויים: האוטוביוגרפיה הראשונה",
+      "yearFrom": 397,
+      "yearTo": 400,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-augustine"
+      ],
+      "place": {
+        "wikipedia": "Hippo Regius",
+        "nameHe": "היפו רגיוס",
+        "nameFull": "Hippo Regius",
+        "lat": 36.8825,
+        "lon": 7.75,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-augustine-of-hippo",
+          "quote": "was a Christian theologian and philosopher from Thagaste, Numidia Cirtensis and the Bishop of Hippo Regius."
+        },
+        "city": {
+          "nameHe": "היפו רגיוס",
+          "nameFull": "Hippo Regius"
+        },
+        "wikidata": "Q858024"
+      },
+      "novelty": "**אוגוסטינוס** כתב על **חייו הפנימיים** בגוף ראשון, כמסע של חיפוש.",
+      "contribution": "הספר נחשב לאחת **האוטוביוגרפיות** הראשונות בספרות המערב.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-confessions-augustine",
+          "quote": "is an autobiographical work by Augustine of Hippo, consisting of 13 books written in Latin between AD 397 and 400."
+        }
+      ],
+      "sources": [
+        "s-wp-confessions-augustine",
+        "s-wp-augustine-of-hippo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1027-avicenna-healing",
+      "title": "ספר הריפוי: אנציקלופדיה של ידע",
+      "yearFrom": 1014,
+      "yearTo": 1027,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-avicenna"
+      ],
+      "place": null,
+      "novelty": "**אבן סינא** איחד **לוגיקה**, טבע ומטפיזיקה בחיבור אחד.",
+      "contribution": "החיבור עיצב את הפילוסופיה בעולם האסלאם ובאירופה של ימי הביניים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-book-of-healing",
+          "quote": "He most likely began to compose the book in 1014, completed it around 1020, and published it in 1027."
+        }
+      ],
+      "sources": [
+        "s-wp-the-book-of-healing"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1190-maimonides-guide",
+      "title": "מורה הנבוכים",
+      "yearFrom": 1185,
+      "yearTo": 1190,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-maimonides"
+      ],
+      "place": {
+        "wikipedia": "Fustat",
+        "nameHe": "פוסטאט",
+        "nameFull": "El-Fustat",
+        "lat": 30.005,
+        "lon": 31.2375,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-maimonides",
+          "quote": "He continued to live in Fustat until his death in 1204"
+        },
+        "city": {
+          "nameHe": "קהיר",
+          "nameFull": "Cairo"
+        },
+        "wikidata": "Q839456"
+      },
+      "novelty": "**הרמב״ם** יישב בין **התורה** לבין **הפילוסופיה של אריסטו**.",
+      "contribution": "הספר הפך לגשר בין פילוסופיה יהודית, ערבית ונוצרית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-guide-for-the-perplexed",
+          "quote": "The Guide for the Perplexed was originally written sometime between 1185 and 1190 by Maimonides in Judeo-Arabic (Classical Arabic using the Hebrew alphabet)."
+        }
+      ],
+      "sources": [
+        "s-wp-the-guide-for-the-perplexed",
+        "s-wp-maimonides"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1265-aquinas-summa",
+      "title": "סיכום התאולוגיה",
+      "yearFrom": 1265,
+      "yearTo": 1274,
+      "yearApprox": true,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-aquinas"
+      ],
+      "place": null,
+      "novelty": "**תומאס אקווינס** איחד את **אריסטו** עם עקרונות הנצרות.",
+      "contribution": "הסינתזה שלו הפכה לבסיס של **הפילוסופיה הסכולסטית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-summa-theologica",
+          "quote": "He worked on it from the time of Clement IV (after 1265) until the end of his life."
+        },
+        {
+          "sourceId": "s-wp-thomas-aquinas",
+          "quote": "sought to synthesize Aristotelian philosophy with the principles of Christianity."
+        }
+      ],
+      "sources": [
+        "s-wp-summa-theologica",
+        "s-wp-thomas-aquinas"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1513-machiavelli-prince",
+      "title": "הנסיך: הפוליטיקה כמו שהיא",
+      "yearFrom": 1513,
+      "yearTo": 1513,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-machiavelli"
+      ],
+      "place": {
+        "wikipedia": "Sant'Andrea in Percussina",
+        "nameHe": "סנט׳אנדראה אין פרקוסינה",
+        "nameFull": "Sant'Andrea in Percussina",
+        "lat": 43.6828,
+        "lon": 11.1972,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-niccolo-machiavelli",
+          "quote": "Machiavelli then retired to his farm estate at Sant'Andrea in Percussina, near San Casciano in Val di Pesa, where he devoted himself to studying and writing political treatises."
+        },
+        "city": {
+          "nameHe": "פירנצה",
+          "nameFull": "Florence"
+        },
+        "wikidata": "Q2509922"
+      },
+      "novelty": "**מקיאוולי** תיאר את השלטון כפי שהוא **פועל בפועל**, ולא כפי שהוא אמור להיות.",
+      "contribution": "הספר נחשב לבסיס של **מדע המדינה** המודרני.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-prince",
+          "quote": "It is known from his personal correspondence that it was written during 1513, the year after the Medici regained control of Florence"
+        }
+      ],
+      "sources": [
+        "s-wp-the-prince",
+        "s-wp-niccolo-machiavelli"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1620-bacon-organum",
+      "title": "האורגנון החדש: שיטה לחקר הטבע",
+      "yearFrom": 1620,
+      "yearTo": 1620,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-bacon"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**בייקון** הציע ללמוד את הטבע מ**תצפית** ומ**ניסוי** שיטתי.",
+      "contribution": "הוא נחשב לאחד ממייסדי **השיטה המדעית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-novum-organum",
+          "quote": "written in Latin and consisting of two books of aphorisms, was included in the volume that Bacon published in 1620;"
+        },
+        {
+          "sourceId": "s-wp-francis-bacon",
+          "quote": "makes Bacon one of the founders of the scientific method."
+        }
+      ],
+      "sources": [
+        "s-wp-novum-organum",
+        "s-wp-francis-bacon"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1637-descartes-discourse",
+      "title": "מאמר על המתודה",
+      "yearFrom": 1637,
+      "yearTo": 1637,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-descartes"
+      ],
+      "place": {
+        "wikipedia": "Dutch Republic",
+        "nameHe": "הרפובליקה ההולנדית",
+        "nameFull": "Dutch Republic",
+        "lat": 52.08,
+        "lon": 4.3,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-rene-descartes",
+          "quote": "Descartes returned to the Dutch Republic in 1628."
+        },
+        "city": {
+          "nameHe": "הרפובליקה ההולנדית",
+          "nameFull": "Dutch Republic"
+        },
+        "wikidata": "Q170072"
+      },
+      "novelty": "**דקארט** הציע להטיל **ספק** בכל דבר, עד שמגיעים לוודאות.",
+      "contribution": "השיטה שלו פתחה את **הפילוסופיה המודרנית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-la-ge-ome-trie",
+          "quote": "was published in 1637 as an appendix to Discours de la méthode (Discourse on the Method), written by René Descartes."
+        }
+      ],
+      "sources": [
+        "s-wp-la-ge-ome-trie",
+        "s-wp-rene-descartes"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1651-hobbes-leviathan",
+      "title": "לוויתן: האמנה החברתית",
+      "yearFrom": 1651,
+      "yearTo": 1651,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-hobbes"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**הובס** טען שאנשים מוותרים על חלק מחירותם ב**אמנה**, כדי לחיות בביטחון.",
+      "contribution": "הרעיון של **אמנה חברתית** הפך ליסוד של התאוריה המדינית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-leviathan-hobbes-book",
+          "quote": "Written during the English Civil War (1642–1651), it argues for a social contract and rule by an absolute sovereign."
+        }
+      ],
+      "sources": [
+        "s-wp-leviathan-hobbes-book"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1677-spinoza-ethics",
+      "title": "האתיקה",
+      "yearFrom": 1661,
+      "yearTo": 1677,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-spinoza"
+      ],
+      "place": {
+        "wikipedia": "The Hague",
+        "nameHe": "האג",
+        "nameFull": "The Hague",
+        "lat": 52.08,
+        "lon": 4.31,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-baruch-spinoza",
+          "quote": "In 1670, Spinoza moved to The Hague for easier access to intellectual life with his friends and followers."
+        },
+        "city": {
+          "nameHe": "האג",
+          "nameFull": "The Hague"
+        },
+        "wikidata": "Q36600"
+      },
+      "novelty": "**שפינוזה** כתב פילוסופיה **כמו גאומטריה**, בהגדרות, אקסיומות והוכחות.",
+      "contribution": "האתיקה שלו הייתה מהיסודות של **הנאורות הרדיקלית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ethics-spinoza-book",
+          "quote": "It was written between 1661 and 1675 and was first published posthumously in 1677."
+        }
+      ],
+      "sources": [
+        "s-wp-ethics-spinoza-book",
+        "s-wp-baruch-spinoza"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1689-locke-essay",
+      "title": "מסה על שכל האדם",
+      "yearFrom": 1689,
+      "yearTo": 1689,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-locke"
+      ],
+      "place": null,
+      "novelty": "**לוק** טען שהידע מגיע מ**ניסיון**, ולא מרעיונות מולדים.",
+      "contribution": "הוא ייסד את **האמפיריציזם** הבריטי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-an-essay-concerning-human-understanding",
+          "quote": "It first appeared in 1689 (although dated 1690) with the printed title An Essay Concerning Humane Understanding."
+        }
+      ],
+      "sources": [
+        "s-wp-an-essay-concerning-human-understanding"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1714-leibniz-monadology",
+      "title": "המונדולוגיה",
+      "yearFrom": 1714,
+      "yearTo": 1714,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-leibniz"
+      ],
+      "place": {
+        "wikipedia": "Vienna",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-monadology",
+          "quote": "During his last stay in Vienna from 1712 to September 1714, Leibniz wrote two short texts in French"
+        },
+        "city": {
+          "nameHe": "וינה",
+          "nameFull": "Vienna"
+        },
+        "wikidata": "Q1741"
+      },
+      "novelty": "**לייבניץ** תיאר את העולם כמורכב מ**יחידות פשוטות** בלי חלקים, \"מונאדות\".",
+      "contribution": "החיבור מסכם את הפילוסופיה המאוחרת שלו בטקסט קצר אחד.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-monadology",
+          "quote": "The Monadology (French: La Monadologie, 1714) is one of Gottfried Leibniz's best known works of his later philosophy."
+        }
+      ],
+      "sources": [
+        "s-wp-monadology"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1739-hume-treatise",
+      "title": "בעיית האינדוקציה",
+      "yearFrom": 1739,
+      "yearTo": 1740,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-hume"
+      ],
+      "place": null,
+      "novelty": "**יום** הראה שאין הצדקה לוגית להסיק את **העתיד** מ**העבר**.",
+      "contribution": "השאלה שלו עדיין פתוחה בפילוסופיה של המדע.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-problem-of-induction",
+          "quote": "David Hume, who first formulated the problem in 1739, argued that there is no non-circular way to justify inductive inferences"
+        }
+      ],
+      "sources": [
+        "s-wp-problem-of-induction"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1781-kant-critique",
+      "title": "ביקורת התבונה הטהורה",
+      "yearFrom": 1781,
+      "yearTo": 1781,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-kant"
+      ],
+      "place": {
+        "wikipedia": "Königsberg",
+        "nameHe": "קניגסברג",
+        "nameFull": "Königsberg",
+        "lat": 54.7115,
+        "lon": 20.5093,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-immanuel-kant",
+          "quote": "Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment."
+        },
+        "city": {
+          "nameHe": "קניגסברג",
+          "nameFull": "Königsberg"
+        },
+        "wikidata": "Q4120832"
+      },
+      "novelty": "**קאנט** שאל מה **התבונה** יכולה לדעת לפני כל ניסיון.",
+      "contribution": "הספר שינה את כיוון הפילוסופיה, ונעשה ליצירה הראשונה שלו שזכתה לפרסום רחב.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-critique-of-pure-reason",
+          "quote": "After the two Prefaces (the A edition Preface of 1781 and the B edition Preface of 1787)"
+        }
+      ],
+      "sources": [
+        "s-wp-critique-of-pure-reason",
+        "s-wp-immanuel-kant"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1792-wollstonecraft-vindication",
+      "title": "הצדקת זכויות האישה",
+      "yearFrom": 1792,
+      "yearTo": 1792,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-wollstonecraft"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-mary-wollstonecraft",
+          "quote": "She moved to London and, assisted by the liberal publisher Joseph Johnson, found a place to live and work to support herself."
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**וולסטונקרפט** טענה שנשים זקוקות ל**חינוך** כמו גברים, כדי לממש את התבונה שלהן.",
+      "contribution": "החיבור נחשב לאחד הטקסטים המכוננים של **הפמיניזם**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-a-vindication-of-the-rights-of-woman",
+          "quote": "is a 1792 essay by British philosopher and women's rights advocate Mary Wollstonecraft."
+        }
+      ],
+      "sources": [
+        "s-wp-a-vindication-of-the-rights-of-woman",
+        "s-wp-mary-wollstonecraft"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1807-hegel-phenomenology",
+      "title": "הפנומנולוגיה של הרוח",
+      "yearFrom": 1807,
+      "yearTo": 1807,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-hegel"
+      ],
+      "place": {
+        "wikipedia": "Jena",
+        "nameHe": "ינה",
+        "nameFull": "Jena",
+        "lat": 50.9272,
+        "lon": 11.5864,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-georg-wilhelm-friedrich-hegel",
+          "quote": "Hegel was putting the finishing touches to it, The Phenomenology of Spirit, as Napoleon engaged Prussian troops on 14 October 1806 in the Battle of Jena"
+        },
+        "city": {
+          "nameHe": "ינה",
+          "nameFull": "Jena"
+        },
+        "wikidata": "Q3150"
+      },
+      "novelty": "**הגל** תיאר את התודעה כ**תהליך התפתחות** היסטורי.",
+      "contribution": "הספר היה נקודת מפנה בדרכו, והשפיע על הפילוסופיה של המאה ה-**19**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-phenomenology-of-spirit",
+          "quote": "is an 1807 book by the German philosopher Georg Wilhelm Friedrich Hegel."
+        }
+      ],
+      "sources": [
+        "s-wp-the-phenomenology-of-spirit",
+        "s-wp-georg-wilhelm-friedrich-hegel"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1859-mill-liberty",
+      "title": "על החירות",
+      "yearFrom": 1859,
+      "yearTo": 1859,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-jsmill",
+        "p-htmill"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84"
+      },
+      "novelty": "**הרייט טיילור מיל** ו**ג׳ון סטיוארט מיל** הגדירו את הגבול שבו החברה רשאית להגביל את הפרט.",
+      "contribution": "החיבור הוא אחד הטקסטים המרכזיים של **הליברליזם**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-on-liberty",
+          "quote": "On Liberty is an essay written by the English philosophers Harriet Taylor Mill and John Stuart Mill and published in 1859 under the latter's name."
+        }
+      ],
+      "sources": [
+        "s-wp-on-liberty"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1883-nietzsche-zarathustra",
+      "title": "כה אמר זרתוסטרא",
+      "yearFrom": 1883,
+      "yearTo": 1885,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-nietzsche"
+      ],
+      "place": null,
+      "novelty": "**ניטשה** כתב פילוסופיה בצורת **יצירה ספרותית**, עם נביא בדיוני.",
+      "contribution": "הספר הביא את רעיונותיו ליצירה, למוזיקה ולספרות של המאה ה-**20**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thus-spoke-zarathustra",
+          "quote": "Nietzsche returned to \"the sacred place\" in the summer of 1883 and he \"found\" the second part."
+        }
+      ],
+      "sources": [
+        "s-wp-thus-spoke-zarathustra"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1921-wittgenstein-tractatus",
+      "title": "טרקטטוס: גבולות השפה",
+      "yearFrom": 1921,
+      "yearTo": 1921,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-wittgenstein"
+      ],
+      "place": null,
+      "novelty": "**ויטגנשטיין** טען שגבולות **השפה** הם גבולות העולם שאפשר לדבר עליו.",
+      "contribution": "הספר השפיע על **הפילוסופיה האנליטית** ועל חוג וינה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tractatus-logico-philosophicus",
+          "quote": "It was originally published in German in 1921 as Logisch-Philosophische Abhandlung (Logical-Philosophical Treatise)."
+        }
+      ],
+      "sources": [
+        "s-wp-tractatus-logico-philosophicus"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1934-popper-falsifiability",
+      "title": "ההיגיון של הגילוי המדעי",
+      "yearFrom": 1934,
+      "yearTo": 1934,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-popper"
+      ],
+      "place": {
+        "wikipedia": "Vienna",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-karl-popper",
+          "quote": "Karl Popper was born in Vienna (then in Austria-Hungary) in 1902 to upper-middle-class parents."
+        },
+        "city": {
+          "nameHe": "וינה",
+          "nameFull": "Vienna"
+        },
+        "wikidata": "Q1741"
+      },
+      "novelty": "**פופר** קבע שתאוריה מדעית חייבת להיות **ניתנת להפרכה**.",
+      "contribution": "ההבחנה הזאת הפכה למבחן מקובל בין **מדע** ל**לא-מדע**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-logic-of-scientific-discovery",
+          "quote": "Popper rewrote his book in English from the 1934 (imprint '1935') German original, titled Logik der Forschung."
+        }
+      ],
+      "sources": [
+        "s-wp-the-logic-of-scientific-discovery",
+        "s-wp-karl-popper"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1962-kuhn-revolutions",
+      "title": "המבנה של מהפכות מדעיות",
+      "yearFrom": 1962,
+      "yearTo": 1962,
+      "yearApprox": false,
+      "domainId": "philosophy",
+      "personIds": [
+        "p-kuhn"
+      ],
+      "place": null,
+      "novelty": "**קון** טען שהמדע מתקדם ב**מהפכות** של פרדיגמות, ולא רק בהצטברות.",
+      "contribution": "המושג **\"שינוי פרדיגמה\"** נכנס לשפה של המדע ושל החברה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-structure-of-scientific-revolutions",
+          "quote": "The Structure of Scientific Revolutions is a 1962 book about the history of science by the philosopher Thomas S."
+        }
+      ],
+      "sources": [
+        "s-wp-the-structure-of-scientific-revolutions"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1013-guido-staff",
+      "title": "חמשת הקווים: מוזיקה שאפשר לקרוא",
+      "yearFrom": 1013,
+      "yearTo": 1033,
+      "yearApprox": true,
+      "domainId": "music",
+      "personIds": [
+        "p-guido"
+      ],
+      "place": {
+        "wikipedia": "Pomposa Abbey",
+        "nameHe": "מנזר פומפוזה",
+        "nameFull": "Abbazia di Pomposa",
+        "lat": 44.8319,
+        "lon": 12.1757,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-guido-of-arezzo",
+          "quote": "By around 1013 he began teaching at Pomposa Abbey"
+        },
+        "city": {
+          "nameHe": "פומפוזה",
+          "nameFull": "Pomposa"
+        },
+        "wikidata": "Q514366"
+      },
+      "novelty": "**גוידו מארצו** פיתח את **החמשה**, תווים על קווים שמראים גובה צליל.",
+      "contribution": "אפשר היה ללמוד מוזיקה **מהדף** ולא רק מהזיכרון, וזה הבסיס לכתב התווים המערבי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-guido-of-arezzo",
+          "quote": "By around 1013 he began teaching at Pomposa Abbey, but his antiphonary Prologus in antiphonarium and novel teaching methods based on staff notation brought considerable resentment from his colleagues."
+        },
+        {
+          "sourceId": "s-wp-guido-of-arezzo",
+          "quote": "he is regarded as the inventor—or by some, developer—of the modern staff notation"
+        }
+      ],
+      "sources": [
+        "s-wp-guido-of-arezzo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1581-vgalilei-dialogue",
+      "title": "דיאלוג על המוזיקה העתיקה והחדשה",
+      "yearFrom": 1581,
+      "yearTo": 1581,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-vgalilei"
+      ],
+      "place": {
+        "wikipedia": "Florence",
+        "nameHe": "פירנצה",
+        "nameFull": "Florence",
+        "lat": 43.7714,
+        "lon": 11.2542,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-galileo-galilei",
+          "quote": "Vincenzo was part of the Florentine Camerata, which laid the groundwork for the new genre of opera."
+        },
+        "city": {
+          "nameHe": "פירנצה",
+          "nameFull": "Florence"
+        },
+        "wikidata": "Q2044"
+      },
+      "novelty": "**וינצ׳נצו גליליי** חקר **מיתרים** במדידה מתמטית, יחד עם בנו גלילאו.",
+      "contribution": "הוא היה מחלוצי **האקוסטיקה**, וחבר בקמרטה שהניחה את היסוד ל**אופרה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-vincenzo-galilei",
+          "quote": "della musica antica, et della moderna (published by Giorgio Marescotti, 1581)"
+        },
+        {
+          "sourceId": "s-wp-vincenzo-galilei",
+          "quote": "Vincenzo Galilei was one of the pioneers in the systematic study of acoustics"
+        }
+      ],
+      "sources": [
+        "s-wp-vincenzo-galilei",
+        "s-wp-galileo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1607-monteverdi-orfeo",
+      "title": "אורפיאו: האופרה ששרדה",
+      "yearFrom": 1607,
+      "yearTo": 1607,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-monteverdi"
+      ],
+      "place": {
+        "wikipedia": "Mantua",
+        "nameHe": "מנטובה",
+        "nameFull": "Mantua",
+        "lat": 45.1564,
+        "lon": 10.7911,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-l-orfeo",
+          "quote": "The libretto was published in Mantua in 1607 to coincide with the premiere"
+        },
+        "city": {
+          "nameHe": "מנטובה",
+          "nameFull": "Mantua"
+        },
+        "wikidata": "Q6247"
+      },
+      "novelty": "**מונטוורדי** חיבר **דרמה מוזיקלית שלמה**, שבה המוזיקה מספרת את הסיפור.",
+      "contribution": "זו האופרה המוקדמת ביותר שעדיין מבוצעת באופן קבוע.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-l-orfeo",
+          "quote": "It was written in 1607 for a court performance during the annual Carnival at Mantua."
+        },
+        {
+          "sourceId": "s-wp-l-orfeo",
+          "quote": "L'Orfeo is the earliest that is still regularly performed."
+        }
+      ],
+      "sources": [
+        "s-wp-l-orfeo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1636-mersenne-harmonie",
+      "title": "ההרמוניה האוניברסלית: צליל נמדד בהרץ",
+      "yearFrom": 1636,
+      "yearTo": 1636,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-mersenne"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-marin-mersenne",
+          "quote": "Harmonie universelle First edition online from Gallica (Paris, 1636)."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**מרסן** קבע לראשונה **תדר מוחלט** של צליל נשמע.",
+      "contribution": "המוזיקה קיבלה **מדידה פיזיקלית**, והצליל הפך למספר.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-marin-mersenne",
+          "quote": "Mersenne's description in the 1636 Harmonie universelle of the first absolute determination of the frequency of an audible tone (at 84 Hz)"
+        }
+      ],
+      "sources": [
+        "s-wp-marin-mersenne"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1722-bach-wtc",
+      "title": "הפסנתר המושווה: כל 24 הסולמות",
+      "yearFrom": 1722,
+      "yearTo": 1722,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-bach"
+      ],
+      "place": {
+        "wikipedia": "Köthen",
+        "nameHe": "קטן",
+        "nameFull": "Köthen",
+        "lat": 51.7511,
+        "lon": 11.9736,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-the-well-tempered-clavier",
+          "quote": "The first set was compiled in 1722 during Bach's appointment in Köthen"
+        },
+        "city": {
+          "nameHe": "קטן",
+          "nameFull": "Köthen"
+        },
+        "wikidata": "Q1796771"
+      },
+      "novelty": "**באך** כתב פרלוד ופוגה **בכל אחד מ-24 הסולמות**, מז׳ור ומינור.",
+      "contribution": "היצירה הראתה שכלי אחד יכול לנגן בכל הסולמות, ונעשתה ליצירת לימוד יסודית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-well-tempered-clavier",
+          "quote": "Bach gave the title Das Wohltemperirte Clavier to a book of preludes and fugues in all 24 keys, major and minor, dated 1722"
+        }
+      ],
+      "sources": [
+        "s-wp-the-well-tempered-clavier"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1804-beethoven-eroica",
+      "title": "הסימפוניה ההרואית",
+      "yearFrom": 1803,
+      "yearTo": 1804,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-beethoven"
+      ],
+      "place": {
+        "wikipedia": "Vienna",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-ludwig-van-beethoven",
+          "quote": "At age 21, he moved to Vienna, which became his base"
+        },
+        "city": {
+          "nameHe": "וינה",
+          "nameFull": "Vienna"
+        },
+        "wikidata": "Q1741"
+      },
+      "novelty": "**בטהובן** שבר את גבולות הסימפוניה ב**אורך**, בהרמוניה וב**רגש**.",
+      "contribution": "היא נחשבת לסימפוניה **הרומנטית** הראשונה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-symphony-no-3-beethoven",
+          "quote": "Composed mainly in 1803–1804, the work broke boundaries in symphonic form, length, harmony, emotional and cultural content."
+        },
+        {
+          "sourceId": "s-wp-symphony-no-3-beethoven",
+          "quote": "It is also often considered to be the first Romantic symphony."
+        }
+      ],
+      "sources": [
+        "s-wp-symphony-no-3-beethoven",
+        "s-wp-ludwig-van-beethoven"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1865-wagner-tristan",
+      "title": "טריסטן ואיזולדה: אקורד בלי בית",
+      "yearFrom": 1857,
+      "yearTo": 1865,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-wagner"
+      ],
+      "place": {
+        "wikipedia": "Munich",
+        "nameHe": "מינכן",
+        "nameFull": "Munich",
+        "lat": 48.1375,
+        "lon": 11.575,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-tristan-und-isolde",
+          "quote": "premiered at the Königliches Hoftheater und Nationaltheater in Munich on 10 June 1865"
+        },
+        "city": {
+          "nameHe": "מינכן",
+          "nameFull": "Munich"
+        },
+        "wikidata": "Q1726"
+      },
+      "novelty": "**וגנר** כתב הרמוניות **שלא נפתרות**, ונודדות בין סולמות.",
+      "contribution": "האקורד שלו התרחק מהטונאליות, והשפיע על דורות של מלחינים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tristan-und-isolde",
+          "quote": "the music was composed between 1857 and 1859 and premiered at the Königliches Hoftheater und Nationaltheater in Munich on 10 June 1865"
+        },
+        {
+          "sourceId": "s-wp-tristan-chord",
+          "quote": "The Tristan chord's significance is in its move away from traditional tonal harmony, and even toward atonality."
+        }
+      ],
+      "sources": [
+        "s-wp-tristan-und-isolde",
+        "s-wp-tristan-chord"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1894-debussy-faune",
+      "title": "אחר הצהריים של פאון",
+      "yearFrom": 1894,
+      "yearTo": 1894,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-debussy"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-pre-lude-a-l-apre-s-midi-d-un-faune",
+          "quote": "first performed in Paris on 22 December 1894"
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90"
+      },
+      "novelty": "**דביסי** כתב מוזיקה של **צבע ואווירה**, כתגובה למסורת הגרמנית.",
+      "contribution": "היצירה נחשבת לנקודת פתיחה של **המוזיקה המודרנית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pre-lude-a-l-apre-s-midi-d-un-faune",
+          "quote": "It was composed in 1894 and first performed in Paris on 22 December 1894, conducted by Gustave Doret."
+        },
+        {
+          "sourceId": "s-wp-claude-debussy",
+          "quote": "His music was to a considerable extent a reaction against Wagner and the German musical tradition."
+        }
+      ],
+      "sources": [
+        "s-wp-pre-lude-a-l-apre-s-midi-d-un-faune",
+        "s-wp-claude-debussy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1913-stravinsky-rite",
+      "title": "פולחן האביב",
+      "yearFrom": 1913,
+      "yearTo": 1913,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-stravinsky"
+      ],
+      "place": {
+        "wikipedia": "Théâtre des Champs-Élysées",
+        "nameHe": "תיאטרון שאנז אליזה",
+        "nameFull": "Théâtre des Champs-Élysées",
+        "lat": 48.8658,
+        "lon": 2.3031,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-the-rite-of-spring",
+          "quote": "When first performed at the Théâtre des Champs-Élysées on 29 May 1913"
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q726531"
+      },
+      "novelty": "**סטרווינסקי** הביא **מקצב** פראי ודיסוננס אל הבלט.",
+      "contribution": "הבכורה כמעט הפכה למהומה, והיצירה הפכה לסמל של **האוונגרד**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-rite-of-spring",
+          "quote": "When first performed at the Théâtre des Champs-Élysées on 29 May 1913, the avant-garde nature of the music and choreography caused a sensation."
+        }
+      ],
+      "sources": [
+        "s-wp-the-rite-of-spring"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1923-schoenberg-twelve",
+      "title": "שיטת שנים עשר הצלילים",
+      "yearFrom": 1921,
+      "yearTo": 1923,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-schoenberg"
+      ],
+      "place": {
+        "wikipedia": "Vienna",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-arnold-schoenberg",
+          "quote": "He taught composition in Vienna and at the Prussian Academy of Arts (1925–1933)"
+        },
+        "city": {
+          "nameHe": "וינה",
+          "nameFull": "Vienna"
+        },
+        "wikidata": "Q1741"
+      },
+      "novelty": "**שנברג** בנה שיטה שבה כל **12** הצלילים שווים, בלי צליל מרכזי.",
+      "contribution": "השיטה הפכה לשפה של **בית הספר הווינאי השני**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-twelve-tone-technique",
+          "quote": "In 1923, Arnold Schoenberg (1874–1951) developed his own, better-known version of 12-tone technique"
+        },
+        {
+          "sourceId": "s-wp-twelve-tone-technique",
+          "quote": "He recalls using it in 1921 and describing it to pupils two years later."
+        }
+      ],
+      "sources": [
+        "s-wp-twelve-tone-technique",
+        "s-wp-arnold-schoenberg"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1925-armstrong-hotfive",
+      "title": "הוט פייב: הסולו נולד",
+      "yearFrom": 1925,
+      "yearTo": 1928,
+      "yearApprox": false,
+      "domainId": "music",
+      "personIds": [
+        "p-armstrong"
+      ],
+      "place": {
+        "wikipedia": "Chicago",
+        "nameHe": "שיקגו",
+        "nameFull": "Chicago",
+        "lat": 41.8819,
+        "lon": -87.6278,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-louis-armstrong",
+          "quote": "In 1922, Armstrong moved to Chicago at the invitation of King Oliver"
+        },
+        "city": {
+          "nameHe": "שיקגו",
+          "nameFull": "Chicago"
+        },
+        "wikidata": "Q1297"
+      },
+      "novelty": "**ארמסטרונג** העביר את הג׳אז מ**אלתור קבוצתי** ל**סולו** של נגן אחד.",
+      "contribution": "ההקלטות של הוט פייב הפכו ליסוד של **הג׳אז**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hot-five",
+          "quote": "The first Hot Five sides, \"Yes! I'm in the Barrel\", composed by Armstrong, \"My Heart\" composed by Hardin Armstrong, and \"Gut Bucket Blues\" attributed to Armstrong, were recorded on November 12, 1925, with little rehearsal."
+        },
+        {
+          "sourceId": "s-wp-louis-armstrong",
+          "quote": "shifting the focus of the music from collective improvisation to solo performance."
+        }
+      ],
+      "sources": [
+        "s-wp-hot-five",
+        "s-wp-louis-armstrong"
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
