@@ -140,8 +140,10 @@ async function main() {
     if (!e) reasons.push('לא נמצא פריט בוויקינתונים');
     else {
       p.wikidata = qid;
-      p.nameHe = label(e, 'he') || p.nameHeTranslit || null;
-      p.nameHeSource = label(e, 'he') ? 'wikidata' : p.nameHeTranslit ? 'transliteration' : null;
+      // preferTranslit: כשהתווית העברית בוויקינתונים שגויה (למשל "הקיסר הסיני הזה" לקיסר יונגלה), התעתיק גובר
+      const he = p.preferTranslit ? null : label(e, 'he');
+      p.nameHe = he || p.nameHeTranslit || null;
+      p.nameHeSource = he ? 'wikidata' : p.nameHeTranslit ? 'transliteration' : null;
       p.nameFull = label(e, 'en');
       if (!p.nameHe) reasons.push('אין שם עברי בוויקינתונים, וגם לא תעתיק');
       const b = lifeDate(claim(e, 'P569'));
