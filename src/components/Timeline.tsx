@@ -6,7 +6,7 @@ import { scaleLinear } from 'd3-scale';
 import { type Discovery, links, personById, yearText, discoveries as allShown } from '../data';
 
 export const YEAR_MIN = -2700;
-export const YEAR_MAX = 1970;
+export const YEAR_MAX = 2025;
 const W = 2200;
 const PAD = 56;
 const AXIS_Y = 132;
@@ -16,8 +16,8 @@ const LANE_H = 86;
 const GAP = 10;
 
 // ציר דחוס: לפני 1500 כל מילימטר מכסה יותר שנים, כי שם יש פחות גילויים.
-export const BREAKS = [YEAR_MIN, -400, 1000, 1500, 1800, YEAR_MAX];
-export const FRACS = [0, 0.07, 0.16, 0.27, 0.55, 1];
+export const BREAKS = [YEAR_MIN, -400, 1000, 1500, 1800, 1970, YEAR_MAX];
+export const FRACS = [0, 0.07, 0.15, 0.25, 0.52, 0.93, 1];
 /** מיקום 0..1 לאורך הציר, למחוון שמסונכרן עם הדחיסה */
 export const posScale = scaleLinear<number, number>().domain(BREAKS).range(FRACS).clamp(true);
 export const xScale = scaleLinear<number, number>()
@@ -25,7 +25,7 @@ export const xScale = scaleLinear<number, number>()
   .range(FRACS.map((f) => W - PAD - f * (W - 2 * PAD)))
   .clamp(true);
 
-const TICKS = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970];
+const TICKS = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970, 2000, 2025];
 
 type Item = { d: Discovery; x: number; lane: number; left: number };
 

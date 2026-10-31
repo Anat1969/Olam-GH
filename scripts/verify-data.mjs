@@ -79,7 +79,15 @@ async function placeFromQid(qid) {
   const e = await entity(qid);
   if (!e) return null;
   const c = claim(e, 'P625');
-  return { wikidata: qid, nameHe: label(e, 'he'), nameFull: label(e, 'en'), lat: c ? +c.latitude.toFixed(4) : null, lon: c ? +c.longitude.toFixed(4) : null };
+  const k = claim(e, 'P17');
+  let country = null;
+  // ממלכת ארצות השפלה (Q29999) מאוחדת עם הולנד (Q55), כדי שלא יהיו שתי ארצות לאותה עיר
+  const kid = k?.id === 'Q29999' ? 'Q55' : k?.id;
+  if (kid && kid !== qid) {
+    const ce = await entity(kid);
+    if (ce) country = { wikidata: kid, nameHe: label(ce, 'he'), nameFull: label(ce, 'en') };
+  }
+  return { wikidata: qid, nameHe: label(e, 'he'), nameFull: label(e, 'en'), lat: c ? +c.latitude.toFixed(4) : null, lon: c ? +c.longitude.toFixed(4) : null, country };
 }
 
 async function commonsImage(file) {
@@ -168,7 +176,7 @@ async function main() {
     if (d.place) {
       const art = await article(d.place.wikipedia);
       const geo = art?.qid ? await placeFromQid(art.qid) : null;
-      if (geo) Object.assign(d.place, { wikidata: geo.wikidata, nameFull: geo.nameFull, lat: geo.lat, lon: geo.lon, nameHe: geo.nameHe || d.place.nameHe });
+      if (geo) Object.assign(d.place, { wikidata: geo.wikidata, nameFull: geo.nameFull, lat: geo.lat, lon: geo.lon, nameHe: geo.nameHe || d.place.nameHe, country: geo.country });
       let placeOk = !!geo && geo.lat !== null;
       if (d.place.evidence) {
         const found = await quoteFound(d.place.evidence);

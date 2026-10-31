@@ -16,7 +16,12 @@
         "nameHe": "בצרה",
         "nameFull": "Basra",
         "lat": 30.515,
-        "lon": 47.81
+        "lon": 47.81,
+        "country": {
+          "wikidata": "Q796",
+          "nameHe": "עיראק",
+          "nameFull": "Iraq"
+        }
       },
       "domains": [
         "physics",
@@ -52,7 +57,12 @@
         "nameHe": "טורון",
         "nameFull": "Toruń",
         "lat": 53.0167,
-        "lon": 18.6167
+        "lon": 18.6167,
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
+        }
       },
       "domains": [
         "physics",
@@ -88,7 +98,12 @@
         "nameHe": "פיזה",
         "nameFull": "Pisa",
         "lat": 43.7167,
-        "lon": 10.4
+        "lon": 10.4,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "physics"
@@ -123,7 +138,12 @@
         "nameHe": "וייל",
         "nameFull": "Weil der Stadt",
         "lat": 48.7508,
-        "lon": 8.8706
+        "lon": 8.8706,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "physics",
@@ -159,7 +179,12 @@
         "nameHe": "האג",
         "nameFull": "The Hague",
         "lat": 52.08,
-        "lon": 4.31
+        "lon": 4.31,
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "domains": [
         "physics",
@@ -195,7 +220,12 @@
         "nameHe": "וולסתורפ מאנור",
         "nameFull": "Woolsthorpe Manor",
         "lat": 52.8092,
-        "lon": -0.6306
+        "lon": -0.6306,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "physics",
@@ -231,7 +261,12 @@
         "nameHe": "אנגולם",
         "nameFull": "Angoulême",
         "lat": 45.6494,
-        "lon": 0.1594
+        "lon": 0.1594,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "physics"
@@ -266,7 +301,12 @@
         "nameHe": "קומו",
         "nameFull": "Como",
         "lat": 45.8103,
-        "lon": 9.0861
+        "lon": 9.0861,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "physics"
@@ -301,7 +341,12 @@
         "nameHe": "מילברטון",
         "nameFull": "Milverton",
         "lat": 51.0241,
-        "lon": -3.2588
+        "lon": -3.2588,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "physics"
@@ -336,7 +381,12 @@
         "nameHe": null,
         "nameFull": "Newington Butts",
         "lat": 51.4928,
-        "lon": -0.1011
+        "lon": -0.1011,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "physics",
@@ -372,7 +422,12 @@
         "nameHe": "אדינבורו",
         "nameFull": "Edinburgh",
         "lat": 55.9533,
-        "lon": -3.1892
+        "lon": -3.1892,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "physics"
@@ -407,7 +462,12 @@
         "nameHe": "לנפ",
         "nameFull": "Lennep",
         "lat": 51.1926,
-        "lon": 7.2571
+        "lon": 7.2571,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "physics"
@@ -442,7 +502,12 @@
         "nameHe": "פריז",
         "nameFull": "Paris",
         "lat": 48.8567,
-        "lon": 2.3522
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "physics"
@@ -477,7 +542,12 @@
         "nameHe": "קיל",
         "nameFull": "Kiel",
         "lat": 54.3233,
-        "lon": 10.1394
+        "lon": 10.1394,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "physics"
@@ -512,7 +582,12 @@
         "nameHe": "אולם",
         "nameFull": "Ulm",
         "lat": 48.3986,
-        "lon": 9.9911
+        "lon": 9.9911,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "physics"
@@ -547,7 +622,12 @@
         "nameHe": "ספרינג גרוב",
         "nameFull": "Spring Grove",
         "lat": -41.388,
-        "lon": 173.079
+        "lon": 173.079,
+        "country": {
+          "wikidata": "Q664",
+          "nameHe": "ניו זילנד",
+          "nameFull": "New Zealand"
+        }
       },
       "domains": [
         "physics"
@@ -582,7 +662,12 @@
         "nameHe": "קופנהגן",
         "nameFull": "Copenhagen",
         "lat": 55.6761,
-        "lon": 12.5689
+        "lon": 12.5689,
+        "country": {
+          "wikidata": "Q35",
+          "nameHe": "דנמרק",
+          "nameFull": "Denmark"
+        }
       },
       "domains": [
         "physics"
@@ -617,7 +702,12 @@
         "nameHe": "ארלנגן",
         "nameFull": "Erlangen",
         "lat": 49.5925,
-        "lon": 11.005
+        "lon": 11.005,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "mathematics",
@@ -682,7 +772,12 @@
         "nameHe": "סירקוסאי",
         "nameFull": "Syracuse",
         "lat": 37.0833,
-        "lon": 15.2833
+        "lon": 15.2833,
+        "country": {
+          "wikidata": "Q1747689",
+          "nameHe": "רומא העתיקה",
+          "nameFull": "Ancient Rome"
+        }
       },
       "domains": [
         "mathematics",
@@ -718,7 +813,12 @@
         "nameHe": "פטאליפוטרה",
         "nameFull": "Pataliputra",
         "lat": 25.611,
-        "lon": 85.144
+        "lon": 85.144,
+        "country": {
+          "wikidata": "Q668",
+          "nameHe": "הודו",
+          "nameFull": "India"
+        }
       },
       "domains": [
         "mathematics"
@@ -753,7 +853,12 @@
         "nameHe": null,
         "nameFull": "Bhinmal",
         "lat": 25,
-        "lon": 72.25
+        "lon": 72.25,
+        "country": {
+          "wikidata": "Q668",
+          "nameHe": "הודו",
+          "nameFull": "India"
+        }
       },
       "domains": [
         "mathematics"
@@ -788,7 +893,12 @@
         "nameHe": "ח'ווארזם",
         "nameFull": "Khwarazm",
         "lat": 42.3,
-        "lon": 59.15
+        "lon": 59.15,
+        "country": {
+          "wikidata": "Q874",
+          "nameHe": "טורקמניסטן",
+          "nameFull": "Turkmenistan"
+        }
       },
       "domains": [
         "mathematics"
@@ -823,7 +933,12 @@
         "nameHe": "פיזה",
         "nameFull": "Pisa",
         "lat": 43.7167,
-        "lon": 10.4
+        "lon": 10.4,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "mathematics"
@@ -858,7 +973,12 @@
         "nameHe": null,
         "nameFull": "Merchiston Tower",
         "lat": 55.9333,
-        "lon": -3.2139
+        "lon": -3.2139,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "mathematics"
@@ -893,7 +1013,12 @@
         "nameHe": "דקארט",
         "nameFull": "Descartes",
         "lat": 46.9736,
-        "lon": 0.6978
+        "lon": 0.6978,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "mathematics",
@@ -929,7 +1054,12 @@
         "nameHe": null,
         "nameFull": "birth house of Blaise Pascal",
         "lat": 45.7784,
-        "lon": 3.0853
+        "lon": 3.0853,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "mathematics"
@@ -964,7 +1094,12 @@
         "nameHe": "בומון-דה-לומאן",
         "nameFull": "Beaumont-de-Lomagne",
         "lat": 43.8831,
-        "lon": 0.9883
+        "lon": 0.9883,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "mathematics"
@@ -999,7 +1134,12 @@
         "nameHe": "לייפציג",
         "nameFull": "Leipzig",
         "lat": 51.3406,
-        "lon": 12.3747
+        "lon": 12.3747,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "mathematics",
@@ -1035,7 +1175,12 @@
         "nameHe": "בזל",
         "nameFull": "Basel",
         "lat": 47.5581,
-        "lon": 7.5878
+        "lon": 7.5878,
+        "country": {
+          "wikidata": "Q39",
+          "nameHe": "שווייץ",
+          "nameFull": "Switzerland"
+        }
       },
       "domains": [
         "mathematics"
@@ -1070,7 +1215,12 @@
         "nameHe": "בראונשווייג",
         "nameFull": "Brunswick",
         "lat": 52.2692,
-        "lon": 10.5211
+        "lon": 10.5211,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "mathematics"
@@ -1105,7 +1255,12 @@
         "nameHe": "ניז'ני נובגורוד",
         "nameFull": "Nizhny Novgorod",
         "lat": 56.3269,
-        "lon": 44.0075
+        "lon": 44.0075,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "domains": [
         "mathematics"
@@ -1140,7 +1295,12 @@
         "nameHe": "בור-לה-רן",
         "nameFull": "Bourg-la-Reine",
         "lat": 48.7781,
-        "lon": 2.3158
+        "lon": 2.3158,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "mathematics"
@@ -1175,7 +1335,12 @@
         "nameHe": null,
         "nameFull": "Breselenz",
         "lat": 53.0393,
-        "lon": 11.0605
+        "lon": 11.0605,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "mathematics"
@@ -1210,7 +1375,12 @@
         "nameHe": "סנקט פטרבורג",
         "nameFull": "Saint Petersburg",
         "lat": 59.95,
-        "lon": 30.3167
+        "lon": 30.3167,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "domains": [
         "mathematics"
@@ -1245,7 +1415,12 @@
         "nameHe": "קלינינגרד",
         "nameFull": "Kaliningrad",
         "lat": 54.7167,
-        "lon": 20.5
+        "lon": 20.5,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "domains": [
         "mathematics"
@@ -1280,7 +1455,12 @@
         "nameHe": "ברנו",
         "nameFull": "Brno",
         "lat": 49.1953,
-        "lon": 16.6083
+        "lon": 16.6083,
+        "country": {
+          "wikidata": "Q213",
+          "nameHe": "צ'כיה",
+          "nameFull": "Czech Republic"
+        }
       },
       "domains": [
         "mathematics"
@@ -1315,7 +1495,12 @@
         "nameHe": "מיידה וייל",
         "nameFull": "Maida Vale",
         "lat": 51.5274,
-        "lon": -0.1899
+        "lon": -0.1899,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "mathematics"
@@ -1350,7 +1535,12 @@
         "nameHe": "טירת ליזמור",
         "nameFull": "Lismore Castle",
         "lat": 52.1406,
-        "lon": -7.9325
+        "lon": -7.9325,
+        "country": {
+          "wikidata": "Q27",
+          "nameHe": "אירלנד",
+          "nameFull": "Ireland"
+        }
       },
       "domains": [
         "chemistry"
@@ -1385,7 +1575,12 @@
         "nameHe": "ניס",
         "nameFull": "Nice",
         "lat": 43.7019,
-        "lon": 7.2683
+        "lon": 7.2683,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "chemistry"
@@ -1420,7 +1615,12 @@
         "nameHe": "בריסטול",
         "nameFull": "Birstall",
         "lat": 53.7343,
-        "lon": -1.6609
+        "lon": -1.6609,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "chemistry"
@@ -1455,7 +1655,12 @@
         "nameHe": "פריז",
         "nameFull": "Paris",
         "lat": 48.8567,
-        "lon": 2.3522
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "chemistry"
@@ -1490,7 +1695,12 @@
         "nameHe": "קמברלנד",
         "nameFull": "Cumberland",
         "lat": 54.75,
-        "lon": -3
+        "lon": -3,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "chemistry"
@@ -1525,7 +1735,12 @@
         "nameHe": "טורינו",
         "nameFull": "Turin",
         "lat": 45.0792,
-        "lon": 7.6761
+        "lon": 7.6761,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "chemistry"
@@ -1560,7 +1775,12 @@
         "nameHe": null,
         "nameFull": "Eschersheim",
         "lat": 50.1569,
-        "lon": 8.6558
+        "lon": 8.6558,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "chemistry"
@@ -1595,7 +1815,12 @@
         "nameHe": "דול",
         "nameFull": "Dole",
         "lat": 47.0922,
-        "lon": 5.4897
+        "lon": 5.4897,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "chemistry",
@@ -1631,7 +1856,12 @@
         "nameHe": "לונדון",
         "nameFull": "London",
         "lat": 51.5072,
-        "lon": -0.1275
+        "lon": -0.1275,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "chemistry"
@@ -1666,7 +1896,12 @@
         "nameHe": "גטינגן",
         "nameFull": "Göttingen",
         "lat": 51.5339,
-        "lon": 9.9356
+        "lon": 9.9356,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "chemistry"
@@ -1701,7 +1936,12 @@
         "nameHe": "קניגסברג",
         "nameFull": "Königsberg",
         "lat": 54.7115,
-        "lon": 20.5093
+        "lon": 20.5093,
+        "country": {
+          "wikidata": "Q27306",
+          "nameHe": "ממלכת פרוסיה",
+          "nameFull": "Kingdom of Prussia"
+        }
       },
       "domains": [
         "chemistry",
@@ -1737,7 +1977,12 @@
         "nameHe": "דרמשטאדט",
         "nameFull": "Darmstadt",
         "lat": 49.8667,
-        "lon": 8.65
+        "lon": 8.65,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "chemistry"
@@ -1772,7 +2017,12 @@
         "nameHe": "טובולסק",
         "nameFull": "Tobolsk",
         "lat": 58.1953,
-        "lon": 68.2581
+        "lon": 68.2581,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "domains": [
         "chemistry"
@@ -1807,7 +2057,12 @@
         "nameHe": "ניו הייבן",
         "nameFull": "New Haven",
         "lat": 41.3083,
-        "lon": -72.925
+        "lon": -72.925,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "chemistry",
@@ -1843,7 +2098,12 @@
         "nameHe": null,
         "nameFull": "Wik Castle",
         "lat": 59.7361,
-        "lon": 17.4617
+        "lon": 17.4617,
+        "country": {
+          "wikidata": "Q34",
+          "nameHe": "שוודיה",
+          "nameFull": "Sweden"
+        }
       },
       "domains": [
         "chemistry"
@@ -1878,7 +2138,12 @@
         "nameHe": "ורשה",
         "nameFull": "Warsaw",
         "lat": 52.23,
-        "lon": 21.0111
+        "lon": 21.0111,
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
+        }
       },
       "domains": [
         "chemistry",
@@ -1914,7 +2179,12 @@
         "nameHe": "ורוצלב",
         "nameFull": "Wrocław",
         "lat": 51.11,
-        "lon": 17.0325
+        "lon": 17.0325,
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
+        }
       },
       "domains": [
         "chemistry"
@@ -1949,7 +2219,12 @@
         "nameHe": "ויימות'",
         "nameFull": "Weymouth",
         "lat": 50.6097,
-        "lon": -2.4547
+        "lon": -2.4547,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "chemistry",
@@ -1985,7 +2260,12 @@
         "nameHe": "ויימאות'",
         "nameFull": "Weymouth",
         "lat": 42.2208,
-        "lon": -70.9403
+        "lon": -70.9403,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "chemistry"
@@ -2020,7 +2300,12 @@
         "nameHe": "פורטלנד",
         "nameFull": "Portland",
         "lat": 45.515,
-        "lon": -122.6792
+        "lon": -122.6792,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "chemistry",
@@ -2056,7 +2341,12 @@
         "nameHe": "סטאגירה",
         "nameFull": "Stageira",
         "lat": 40.5908,
-        "lon": 23.7942
+        "lon": 23.7942,
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
       },
       "domains": [
         "biology",
@@ -2092,7 +2382,12 @@
         "nameHe": null,
         "nameFull": "Mont aux Potences - Galgenberg",
         "lat": 50.8367,
-        "lon": 4.3517
+        "lon": 4.3517,
+        "country": {
+          "wikidata": "Q31",
+          "nameHe": "בלגיה",
+          "nameFull": "Belgium"
+        }
       },
       "domains": [
         "biology"
@@ -2127,7 +2422,12 @@
         "nameHe": "פולקסטון",
         "nameFull": "Folkestone",
         "lat": 51.0792,
-        "lon": 1.1794
+        "lon": 1.1794,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology"
@@ -2162,7 +2462,12 @@
         "nameHe": "פרשווטר",
         "nameFull": "Freshwater",
         "lat": 50.6826,
-        "lon": -1.5249
+        "lon": -1.5249,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology",
@@ -2198,7 +2503,12 @@
         "nameHe": "דלפט",
         "nameFull": "Delft",
         "lat": 52.0117,
-        "lon": 4.3592
+        "lon": 4.3592,
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "domains": [
         "biology"
@@ -2233,7 +2543,12 @@
         "nameHe": null,
         "nameFull": "Råshult",
         "lat": 56.618,
-        "lon": 14.202
+        "lon": 14.202,
+        "country": {
+          "wikidata": "Q34",
+          "nameHe": "שוודיה",
+          "nameFull": "Sweden"
+        }
       },
       "domains": [
         "biology"
@@ -2268,7 +2583,12 @@
         "nameHe": "ברקלי",
         "nameFull": "Berkeley",
         "lat": 51.691,
-        "lon": -2.459
+        "lon": -2.459,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology"
@@ -2303,7 +2623,12 @@
         "nameHe": "המבורג",
         "nameFull": "Hamburg",
         "lat": 53.55,
-        "lon": 10
+        "lon": 10,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "biology"
@@ -2338,7 +2663,12 @@
         "nameHe": "נויס",
         "nameFull": "Neuss",
         "lat": 51.2003,
-        "lon": 6.6939
+        "lon": 6.6939,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "biology"
@@ -2373,7 +2703,12 @@
         "nameHe": "אוסק",
         "nameFull": "Usk",
         "lat": 51.7036,
-        "lon": -2.9019
+        "lon": -2.9019,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology"
@@ -2408,7 +2743,12 @@
         "nameHe": "דה מאונט",
         "nameFull": null,
         "lat": 52.7128,
-        "lon": -2.7633
+        "lon": -2.7633,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology"
@@ -2443,7 +2783,12 @@
         "nameHe": "הינצ'יצה",
         "nameFull": "Hynčice",
         "lat": 49.6189,
-        "lon": 17.8353
+        "lon": 17.8353,
+        "country": {
+          "wikidata": "Q213",
+          "nameHe": "צ'כיה",
+          "nameFull": "Czech Republic"
+        }
       },
       "domains": [
         "biology"
@@ -2478,7 +2823,12 @@
         "nameHe": "סווידווין",
         "nameFull": "Świdwin",
         "lat": 53.7744,
-        "lon": 15.7767
+        "lon": 15.7767,
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
+        }
       },
       "domains": [
         "biology"
@@ -2513,7 +2863,12 @@
         "nameHe": "בזל",
         "nameFull": "Basel",
         "lat": 47.5581,
-        "lon": 7.5878
+        "lon": 7.5878,
+        "country": {
+          "wikidata": "Q39",
+          "nameHe": "שווייץ",
+          "nameFull": "Switzerland"
+        }
       },
       "domains": [
         "biology"
@@ -2548,7 +2903,12 @@
         "nameHe": "קלאוסטאל",
         "nameFull": "Clausthal",
         "lat": 51.8036,
-        "lon": 10.3331
+        "lon": 10.3331,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "biology"
@@ -2583,7 +2943,12 @@
         "nameHe": null,
         "nameFull": "Petilla de Aragón",
         "lat": 42.4436,
-        "lon": -1.1195
+        "lon": -1.1195,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
       },
       "domains": [
         "biology"
@@ -2618,7 +2983,12 @@
         "nameHe": "לקסינגטון",
         "nameFull": "Lexington",
         "lat": 38.0497,
-        "lon": -84.4586
+        "lon": -84.4586,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "biology"
@@ -2653,7 +3023,12 @@
         "nameHe": null,
         "nameFull": "Lochfield",
         "lat": 55.6472,
-        "lon": -4.2538
+        "lon": -4.2538,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology"
@@ -2688,7 +3063,12 @@
         "nameHe": "נוטינג היל",
         "nameFull": "Notting Hill",
         "lat": 51.5096,
-        "lon": -0.2043
+        "lon": -0.2043,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology"
@@ -2723,7 +3103,12 @@
         "nameHe": "שיקגו",
         "nameFull": "Chicago",
         "lat": 41.8819,
-        "lon": -87.6278
+        "lon": -87.6278,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "biology"
@@ -2758,7 +3143,12 @@
         "nameHe": "נורת'האמפטון",
         "nameFull": "Northampton",
         "lat": 52.2333,
-        "lon": -0.9
+        "lon": -0.9,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "biology"
@@ -2793,7 +3183,12 @@
         "nameHe": "קרנלי",
         "nameFull": "Cranleigh",
         "lat": 51.1363,
-        "lon": -0.4784
+        "lon": -0.4784,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "mathematics"
@@ -2828,7 +3223,12 @@
         "nameHe": "שטוטגרט",
         "nameFull": "Stuttgart",
         "lat": 48.7775,
-        "lon": 9.18
+        "lon": 9.18,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "mathematics",
@@ -2865,7 +3265,12 @@
         "nameHe": "מזרח פינצ'לי",
         "nameFull": "East Finchley",
         "lat": 51.5902,
-        "lon": -0.1753
+        "lon": -0.1753,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "mathematics",
@@ -2901,7 +3306,12 @@
         "nameHe": "אתונה",
         "nameFull": "Athens",
         "lat": 37.9842,
-        "lon": 23.7281
+        "lon": 23.7281,
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
       },
       "domains": [
         "philosophy"
@@ -2936,7 +3346,12 @@
         "nameHe": "תאגסטה",
         "nameFull": "Thagaste",
         "lat": 36.2864,
-        "lon": 7.9511
+        "lon": 7.9511,
+        "country": {
+          "wikidata": "Q262",
+          "nameHe": "אלג'יריה",
+          "nameFull": "Algeria"
+        }
       },
       "domains": [
         "philosophy"
@@ -2971,7 +3386,12 @@
         "nameHe": "אפשונה",
         "nameFull": "Afshona",
         "lat": 39.9944,
-        "lon": 64.3792
+        "lon": 64.3792,
+        "country": {
+          "wikidata": "Q265",
+          "nameHe": "אוזבקיסטן",
+          "nameFull": "Uzbekistan"
+        }
       },
       "domains": [
         "philosophy"
@@ -3006,7 +3426,12 @@
         "nameHe": "קורדובה",
         "nameFull": "Córdoba",
         "lat": 37.89,
-        "lon": -4.78
+        "lon": -4.78,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
       },
       "domains": [
         "philosophy"
@@ -3041,7 +3466,12 @@
         "nameHe": null,
         "nameFull": "castle of the counts of Aquino",
         "lat": 41.5478,
-        "lon": 13.6704
+        "lon": 13.6704,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "philosophy"
@@ -3076,7 +3506,12 @@
         "nameHe": "פירנצה",
         "nameFull": "Florence",
         "lat": 43.7714,
-        "lon": 11.2542
+        "lon": 11.2542,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "philosophy"
@@ -3111,7 +3546,12 @@
         "nameHe": "בית יורק, סטרנד",
         "nameFull": "York House, Strand",
         "lat": 51.5081,
-        "lon": -0.1233
+        "lon": -0.1233,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "philosophy"
@@ -3146,7 +3586,12 @@
         "nameHe": "וסטפורט",
         "nameFull": "Westport",
         "lat": 51.5854,
-        "lon": -2.1014
+        "lon": -2.1014,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "philosophy"
@@ -3181,7 +3626,12 @@
         "nameHe": "אמסטרדם",
         "nameFull": "Amsterdam",
         "lat": 52.3667,
-        "lon": 4.8833
+        "lon": 4.8833,
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "domains": [
         "philosophy"
@@ -3216,7 +3666,12 @@
         "nameHe": "רינגטון",
         "nameFull": "Wrington",
         "lat": 51.3617,
-        "lon": -2.7606
+        "lon": -2.7606,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "philosophy"
@@ -3251,7 +3706,12 @@
         "nameHe": "אדינבורו",
         "nameFull": "Edinburgh",
         "lat": 55.9533,
-        "lon": -3.1892
+        "lon": -3.1892,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "philosophy"
@@ -3286,7 +3746,12 @@
         "nameHe": "קניגסברג",
         "nameFull": "Königsberg",
         "lat": 54.7115,
-        "lon": 20.5093
+        "lon": 20.5093,
+        "country": {
+          "wikidata": "Q27306",
+          "nameHe": "ממלכת פרוסיה",
+          "nameFull": "Kingdom of Prussia"
+        }
       },
       "domains": [
         "philosophy"
@@ -3321,7 +3786,12 @@
         "nameHe": "ספיטלפילדס",
         "nameFull": "Spitalfields",
         "lat": 51.5166,
-        "lon": -0.075
+        "lon": -0.075,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "philosophy"
@@ -3356,7 +3826,12 @@
         "nameHe": "שטוטגרט",
         "nameFull": "Stuttgart",
         "lat": 48.7775,
-        "lon": 9.18
+        "lon": 9.18,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "philosophy"
@@ -3391,7 +3866,12 @@
         "nameHe": "פנטונוויל",
         "nameFull": "Pentonville",
         "lat": 51.535,
-        "lon": -0.1031
+        "lon": -0.1031,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "philosophy"
@@ -3426,7 +3906,12 @@
         "nameHe": "לונדון",
         "nameFull": "London",
         "lat": 51.5072,
-        "lon": -0.1275
+        "lon": -0.1275,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "philosophy"
@@ -3461,7 +3946,12 @@
         "nameHe": "רקן",
         "nameFull": "Röcken",
         "lat": 51.2408,
-        "lon": 12.1161
+        "lon": 12.1161,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "philosophy"
@@ -3496,7 +3986,12 @@
         "nameHe": null,
         "nameFull": "Neuwaldegg",
         "lat": 48.2378,
-        "lon": 16.2861
+        "lon": 16.2861,
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
       },
       "domains": [
         "philosophy"
@@ -3531,7 +4026,12 @@
         "nameHe": "וינה",
         "nameFull": "Vienna",
         "lat": 48.2083,
-        "lon": 16.3725
+        "lon": 16.3725,
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
       },
       "domains": [
         "philosophy"
@@ -3566,7 +4066,12 @@
         "nameHe": "סינסינטי",
         "nameFull": "Cincinnati",
         "lat": 39.1,
-        "lon": -84.5125
+        "lon": -84.5125,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "philosophy"
@@ -3601,7 +4106,12 @@
         "nameHe": "ארצו",
         "nameFull": "Arezzo",
         "lat": 43.4631,
-        "lon": 11.8781
+        "lon": 11.8781,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "music"
@@ -3636,7 +4146,12 @@
         "nameHe": "סנטה מריה א מונטה",
         "nameFull": "Santa Maria a Monte",
         "lat": 43.7,
-        "lon": 10.6833
+        "lon": 10.6833,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "music"
@@ -3671,7 +4186,12 @@
         "nameHe": "קרמונה",
         "nameFull": "Cremona",
         "lat": 45.1333,
-        "lon": 10.0247
+        "lon": 10.0247,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "music"
@@ -3706,7 +4226,12 @@
         "nameHe": "ואזה",
         "nameFull": "Oizé",
         "lat": 47.8106,
-        "lon": 0.1033
+        "lon": 0.1033,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "music",
@@ -3742,7 +4267,12 @@
         "nameHe": "אייזנך",
         "nameFull": "Eisenach",
         "lat": 50.9747,
-        "lon": 10.3244
+        "lon": 10.3244,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "music"
@@ -3777,7 +4307,12 @@
         "nameHe": "בון",
         "nameFull": "Bonn",
         "lat": 50.7353,
-        "lon": 7.1022
+        "lon": 7.1022,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "music"
@@ -3812,7 +4347,12 @@
         "nameHe": "לייפציג",
         "nameFull": "Leipzig",
         "lat": 51.3406,
-        "lon": 12.3747
+        "lon": 12.3747,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "music"
@@ -3847,7 +4387,12 @@
         "nameHe": "סן-ז'רמן-אן-לה",
         "nameFull": "Saint-Germain-en-Laye",
         "lat": 48.8964,
-        "lon": 2.0906
+        "lon": 2.0906,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "music"
@@ -3882,7 +4427,12 @@
         "nameHe": "לומונוסוב",
         "nameFull": "Lomonosov",
         "lat": 59.9167,
-        "lon": 29.7667
+        "lon": 29.7667,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "domains": [
         "music"
@@ -3917,7 +4467,12 @@
         "nameHe": "וינה",
         "nameFull": "Vienna",
         "lat": 48.2083,
-        "lon": 16.3725
+        "lon": 16.3725,
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
       },
       "domains": [
         "music"
@@ -3952,7 +4507,12 @@
         "nameHe": "ניו אורלינס",
         "nameFull": "New Orleans",
         "lat": 29.9761,
-        "lon": -90.0783
+        "lon": -90.0783,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "music"
@@ -3987,7 +4547,12 @@
         "nameHe": "ממפיס",
         "nameFull": "Memphis",
         "lat": 29.8447,
-        "lon": 31.2509
+        "lon": 31.2509,
+        "country": {
+          "wikidata": "Q79",
+          "nameHe": "מצרים",
+          "nameFull": "Egypt"
+        }
       },
       "domains": [
         "architecture"
@@ -4022,7 +4587,8 @@
         "nameHe": "אתונה העתיקה",
         "nameFull": "Classical Athens",
         "lat": 37.9722,
-        "lon": 23.7222
+        "lon": 23.7222,
+        "country": null
       },
       "domains": [
         "architecture"
@@ -4057,7 +4623,8 @@
         "nameHe": "אתונה העתיקה",
         "nameFull": "Classical Athens",
         "lat": 37.9722,
-        "lon": 23.7222
+        "lon": 23.7222,
+        "country": null
       },
       "domains": [
         "architecture"
@@ -4092,7 +4659,8 @@
         "nameHe": "הרפובליקה הרומית",
         "nameFull": "Roman Republic",
         "lat": 41.9,
-        "lon": 12.5
+        "lon": 12.5,
+        "country": null
       },
       "domains": [
         "architecture"
@@ -4127,7 +4695,12 @@
         "nameHe": "איטליקה",
         "nameFull": "Italica",
         "lat": 37.4412,
-        "lon": -6.0445
+        "lon": -6.0445,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
       },
       "domains": [
         "architecture"
@@ -4162,7 +4735,12 @@
         "nameHe": "טראלאיס",
         "nameFull": "Tralleis",
         "lat": 37.86,
-        "lon": 27.8355
+        "lon": 27.8355,
+        "country": {
+          "wikidata": "Q43",
+          "nameHe": "טורקיה",
+          "nameFull": "Turkey"
+        }
       },
       "domains": [
         "architecture",
@@ -4198,7 +4776,12 @@
         "nameHe": "מילטוס",
         "nameFull": "Miletus",
         "lat": 37.5311,
-        "lon": 27.2756
+        "lon": 27.2756,
+        "country": {
+          "wikidata": "Q43",
+          "nameHe": "טורקיה",
+          "nameFull": "Turkey"
+        }
       },
       "domains": [
         "architecture",
@@ -4234,7 +4817,12 @@
         "nameHe": "פירנצה",
         "nameFull": "Florence",
         "lat": 43.7714,
-        "lon": 11.2542
+        "lon": 11.2542,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "architecture"
@@ -4269,7 +4857,12 @@
         "nameHe": "פדובה",
         "nameFull": "Padua",
         "lat": 45.4078,
-        "lon": 11.8733
+        "lon": 11.8733,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "architecture"
@@ -4304,7 +4897,12 @@
         "nameHe": null,
         "nameFull": "Ağırnas",
         "lat": 38.8172,
-        "lon": 35.7206
+        "lon": 35.7206,
+        "country": {
+          "wikidata": "Q43",
+          "nameHe": "טורקיה",
+          "nameFull": "Turkey"
+        }
       },
       "domains": [
         "architecture"
@@ -4339,7 +4937,12 @@
         "nameHe": null,
         "nameFull": "East Knoyle",
         "lat": 51.0789,
-        "lon": -2.1772
+        "lon": -2.1772,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "architecture"
@@ -4374,7 +4977,12 @@
         "nameHe": "בדפורד",
         "nameFull": "Bedford",
         "lat": 52.1344,
-        "lon": -0.4631
+        "lon": -0.4631,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "architecture"
@@ -4409,7 +5017,12 @@
         "nameHe": "דיז'ון",
         "nameFull": "Dijon",
         "lat": 47.3231,
-        "lon": 5.0419
+        "lon": 5.0419,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "architecture"
@@ -4444,7 +5057,12 @@
         "nameHe": "בוסטון",
         "nameFull": "Boston",
         "lat": 42.3603,
-        "lon": -71.0578
+        "lon": -71.0578,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "architecture"
@@ -4479,7 +5097,12 @@
         "nameHe": "שטטלנגספלד",
         "nameFull": "Stadtlengsfeld",
         "lat": 50.7831,
-        "lon": 10.1331
+        "lon": 10.1331,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "architecture"
@@ -4515,7 +5138,12 @@
         "nameHe": "ראוס",
         "nameFull": "Reus",
         "lat": 41.1549,
-        "lon": 1.1087
+        "lon": 1.1087,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
       },
       "domains": [
         "architecture"
@@ -4550,7 +5178,12 @@
         "nameHe": "ברלין",
         "nameFull": "Berlin",
         "lat": 52.5167,
-        "lon": 13.3833
+        "lon": 13.3833,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "architecture"
@@ -4585,7 +5218,12 @@
         "nameHe": "לה שו-דה-פון",
         "nameFull": "La Chaux-de-Fonds",
         "lat": 47.0996,
-        "lon": 6.8296
+        "lon": 6.8296,
+        "country": {
+          "wikidata": "Q39",
+          "nameHe": "שווייץ",
+          "nameFull": "Switzerland"
+        }
       },
       "domains": [
         "architecture"
@@ -4620,7 +5258,12 @@
         "nameHe": "אאכן",
         "nameFull": "Aachen",
         "lat": 50.7762,
-        "lon": 6.0838
+        "lon": 6.0838,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "domains": [
         "architecture"
@@ -4655,7 +5298,12 @@
         "nameHe": "ריצ'לנד סנטר",
         "nameFull": "Richland Center",
         "lat": 43.3378,
-        "lon": -90.3847
+        "lon": -90.3847,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "architecture"
@@ -4690,7 +5338,12 @@
         "nameHe": "ריו דה ז'ניירו",
         "nameFull": "Rio de Janeiro",
         "lat": -22.9111,
-        "lon": -43.2056
+        "lon": -43.2056,
+        "country": {
+          "wikidata": "Q155",
+          "nameHe": "ברזיל",
+          "nameFull": "Brazil"
+        }
       },
       "domains": [
         "architecture"
@@ -4725,7 +5378,12 @@
         "nameHe": "טולון",
         "nameFull": "Toulon",
         "lat": 43.125,
-        "lon": 5.9306
+        "lon": 5.9306,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "architecture"
@@ -4760,7 +5418,12 @@
         "nameHe": "בולטר",
         "nameFull": "Ballater",
         "lat": 57.0448,
-        "lon": -3.0494
+        "lon": -3.0494,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "architecture"
@@ -4795,7 +5458,12 @@
         "nameHe": "פריז",
         "nameFull": "Paris",
         "lat": 48.8567,
-        "lon": 2.3522
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "architecture"
@@ -4830,7 +5498,12 @@
         "nameHe": "ויקיו",
         "nameFull": "Vicchio",
         "lat": 43.9333,
-        "lon": 11.4667
+        "lon": 11.4667,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "painting"
@@ -4865,7 +5538,12 @@
         "nameHe": null,
         "nameFull": "San Giovanni Valdarno",
         "lat": 43.5644,
-        "lon": 11.5328
+        "lon": 11.5328,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "painting"
@@ -4900,7 +5578,12 @@
         "nameHe": "מסיק",
         "nameFull": "Maaseik",
         "lat": 51.1019,
-        "lon": 5.7856
+        "lon": 5.7856,
+        "country": {
+          "wikidata": "Q31",
+          "nameHe": "בלגיה",
+          "nameFull": "Belgium"
+        }
       },
       "domains": [
         "painting"
@@ -4935,7 +5618,12 @@
         "nameHe": "אנצ'יאנו",
         "nameFull": "Anchiano",
         "lat": 43.7992,
-        "lon": 10.9381
+        "lon": 10.9381,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "painting"
@@ -4970,7 +5658,12 @@
         "nameHe": "מילאנו",
         "nameFull": "Milan",
         "lat": 45.4669,
-        "lon": 9.19
+        "lon": 9.19,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "painting"
@@ -5005,7 +5698,12 @@
         "nameHe": "ליידן",
         "nameFull": "Leiden",
         "lat": 52.16,
-        "lon": 4.49
+        "lon": 4.49,
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "domains": [
         "painting"
@@ -5040,7 +5738,12 @@
         "nameHe": "דלפט",
         "nameFull": "Delft",
         "lat": 52.0117,
-        "lon": 4.3592
+        "lon": 4.3592,
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "domains": [
         "painting"
@@ -5075,7 +5778,12 @@
         "nameHe": "מיידן ליין",
         "nameFull": "Maiden Lane",
         "lat": 51.5107,
-        "lon": -0.1229
+        "lon": -0.1229,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "domains": [
         "painting"
@@ -5110,7 +5818,12 @@
         "nameHe": "פריז",
         "nameFull": "Paris",
         "lat": 48.8567,
-        "lon": 2.3522
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "painting"
@@ -5145,7 +5858,12 @@
         "nameHe": "הרובע החמישי לשעבר של פריז",
         "nameFull": "former 5th arrondissement of Paris",
         "lat": 48.872,
-        "lon": 2.3575
+        "lon": 2.3575,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "painting"
@@ -5180,7 +5898,12 @@
         "nameHe": "מאלגה",
         "nameFull": "Málaga",
         "lat": 36.7167,
-        "lon": -4.4167
+        "lon": -4.4167,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
       },
       "domains": [
         "painting"
@@ -5215,7 +5938,12 @@
         "nameHe": "מוסקבה",
         "nameFull": "Moscow",
         "lat": 55.7506,
-        "lon": 37.6175
+        "lon": 37.6175,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "domains": [
         "painting"
@@ -5250,7 +5978,12 @@
         "nameHe": "פריז",
         "nameFull": "Paris",
         "lat": 48.8567,
-        "lon": 2.3522
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "dance"
@@ -5285,7 +6018,12 @@
         "nameHe": "פריז",
         "nameFull": "Paris",
         "lat": 48.8567,
-        "lon": 2.3522
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "dance"
@@ -5321,7 +6059,12 @@
         "nameHe": "מילאנו",
         "nameFull": "Milan",
         "lat": 45.4669,
-        "lon": 9.19
+        "lon": 9.19,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "domains": [
         "dance"
@@ -5356,7 +6099,12 @@
         "nameHe": "סטוקהולם",
         "nameFull": "Stockholm",
         "lat": 59.3294,
-        "lon": 18.0686
+        "lon": 18.0686,
+        "country": {
+          "wikidata": "Q34",
+          "nameHe": "שוודיה",
+          "nameFull": "Sweden"
+        }
       },
       "domains": [
         "dance"
@@ -5391,7 +6139,12 @@
         "nameHe": "מרסיי",
         "nameFull": "Marseille",
         "lat": 43.2967,
-        "lon": 5.3764
+        "lon": 5.3764,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "domains": [
         "dance"
@@ -5426,7 +6179,12 @@
         "nameHe": "סן פרנסיסקו",
         "nameFull": "San Francisco",
         "lat": 37.775,
-        "lon": -122.4194
+        "lon": -122.4194,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "domains": [
         "dance"
@@ -5461,7 +6219,12 @@
         "nameHe": "קייב",
         "nameFull": "Kyiv",
         "lat": 50.45,
-        "lon": 30.5236
+        "lon": 30.5236,
+        "country": {
+          "wikidata": "Q212",
+          "nameHe": "אוקראינה",
+          "nameFull": "Ukraine"
+        }
       },
       "domains": [
         "dance"
@@ -5496,7 +6259,12 @@
         "nameHe": "ברטיסלאבה",
         "nameFull": "Bratislava",
         "lat": 48.1517,
-        "lon": 17.1093
+        "lon": 17.1093,
+        "country": {
+          "wikidata": "Q214",
+          "nameHe": "סלובקיה",
+          "nameFull": "Slovakia"
+        }
       },
       "domains": [
         "dance"
@@ -5531,7 +6299,12 @@
         "nameHe": "סנקט פטרבורג",
         "nameFull": "Saint Petersburg",
         "lat": 59.95,
-        "lon": 30.3167
+        "lon": 30.3167,
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "domains": [
         "dance"
@@ -5550,6 +6323,796 @@
       "birthApprox": false,
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:George_Balanchine_(1965).jpg"
+    },
+    {
+      "id": "p-thutmose",
+      "wikipedia": "Thutmose (sculptor)",
+      "nameHe": "תחותמס",
+      "nameFull": "Thutmose",
+      "birthYear": -1500,
+      "birthDate": null,
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": null,
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-thutmose-sculptor",
+        "s-wd-q281100"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q281100",
+      "nameHeSource": "transliteration",
+      "birthApprox": true,
+      "deathApprox": false,
+      "imagePage": null,
+      "nameHeTranslit": "תחותמס"
+    },
+    {
+      "id": "p-myron",
+      "wikipedia": "Myron",
+      "nameHe": "מירון",
+      "nameFull": "Myron",
+      "birthYear": -500,
+      "birthDate": null,
+      "deathYear": -500,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1328318",
+        "nameHe": null,
+        "nameFull": "Fortress of Eleutherai",
+        "lat": 38.1794,
+        "lon": 23.376,
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-myron",
+        "s-wd-q192211"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q192211",
+      "nameHeSource": "wikidata",
+      "birthApprox": true,
+      "deathApprox": true,
+      "imagePage": null
+    },
+    {
+      "id": "p-michelangelo",
+      "wikipedia": "Michelangelo",
+      "nameHe": "מיכלאנג'לו",
+      "nameFull": "Michelangelo",
+      "birthYear": 1475,
+      "birthDate": "1475-03-06",
+      "deathYear": 1564,
+      "deathDate": "1564-02-18",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q52069",
+        "nameHe": "קפרזה מיכלאנג'לו",
+        "nameFull": "Caprese Michelangelo",
+        "lat": 43.6408,
+        "lon": 11.9858,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/500px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Attributed to Daniele da Volterra",
+      "sources": [
+        "s-wp-michelangelo",
+        "s-wd-q5592"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5592",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg"
+    },
+    {
+      "id": "p-bernini",
+      "wikipedia": "Gian Lorenzo Bernini",
+      "nameHe": "ג'ובאני לורנצו ברניני",
+      "nameFull": "Gian Lorenzo Bernini",
+      "birthYear": 1598,
+      "birthDate": "1598-12-07",
+      "deathYear": 1680,
+      "deathDate": "1680-11-28",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2634",
+        "nameHe": "נאפולי",
+        "nameFull": "Naples",
+        "lat": 40.8358,
+        "lon": 14.2486,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Gian_Lorenzo_Bernini%2C_self-portrait%2C_c1623.jpg/500px-Gian_Lorenzo_Bernini%2C_self-portrait%2C_c1623.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Gian Lorenzo Bernini",
+      "sources": [
+        "s-wp-gian-lorenzo-bernini",
+        "s-wd-q160538"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q160538",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gian_Lorenzo_Bernini,_self-portrait,_c1623.jpg"
+    },
+    {
+      "id": "p-rodin",
+      "wikipedia": "Auguste Rodin",
+      "nameHe": "אוגוסט רודן",
+      "nameFull": "Auguste Rodin",
+      "birthYear": 1840,
+      "birthDate": "1840-11-12",
+      "deathYear": 1917,
+      "deathDate": "1917-11-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Auguste_Rodin_fotografato_da_Nadar_nel_1891.jpg/500px-Auguste_Rodin_fotografato_da_Nadar_nel_1891.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Nadar",
+      "sources": [
+        "s-wp-auguste-rodin",
+        "s-wd-q30755"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q30755",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_fotografato_da_Nadar_nel_1891.jpg"
+    },
+    {
+      "id": "p-duchamp",
+      "wikipedia": "Marcel Duchamp",
+      "nameHe": "מרסל דושאן",
+      "nameFull": "Marcel Duchamp",
+      "birthYear": 1887,
+      "birthDate": "1887-07-28",
+      "deathYear": 1968,
+      "deathDate": "1968-10-02",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q475617",
+        "nameHe": "בלנוויל-קרבון",
+        "nameFull": "Blainville-Crevon",
+        "lat": 49.5033,
+        "lon": 1.3008,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Marcel_Duchamp_01.jpg/500px-Marcel_Duchamp_01.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-marcel-duchamp",
+        "s-wd-q5912"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5912",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp_01.jpg"
+    },
+    {
+      "id": "p-brancusi",
+      "wikipedia": "Constantin Brâncuși",
+      "nameHe": "קונסטנטין ברנקושי",
+      "nameFull": "Constantin Brâncuși",
+      "birthYear": 1876,
+      "birthDate": "1876-02-19",
+      "deathYear": 1957,
+      "deathDate": "1957-03-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q957957",
+        "nameHe": "הוביצה",
+        "nameFull": "Hobița",
+        "lat": 45.0528,
+        "lon": 23.0542,
+        "country": {
+          "wikidata": "Q218",
+          "nameHe": "רומניה",
+          "nameFull": "Romania"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Edward_Steichen_-_Brancusi.jpg/500px-Edward_Steichen_-_Brancusi.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Edward Steichen",
+      "sources": [
+        "s-wp-constantin-bra-ncus-i",
+        "s-wd-q153048"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q153048",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Edward_Steichen_-_Brancusi.jpg"
+    },
+    {
+      "id": "p-calder",
+      "wikipedia": "Alexander Calder",
+      "nameHe": "אלכסנדר קלדר",
+      "nameFull": "Alexander Calder",
+      "birthYear": 1898,
+      "birthDate": "1898-07-22",
+      "deathYear": 1976,
+      "deathDate": "1976-11-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1186496",
+        "nameHe": "לואנטון",
+        "nameFull": "Lawnton",
+        "lat": 40.2614,
+        "lon": -76.8031,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Alexander_Calder_1968.jpg/500px-Alexander_Calder_1968.jpg",
+      "imageLicense": "CC BY 3.0",
+      "imageCredit": "Josepclopesbosc",
+      "sources": [
+        "s-wp-alexander-calder",
+        "s-wd-q151580"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q151580",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alexander_Calder_1968.jpg"
+    },
+    {
+      "id": "p-llumiere",
+      "wikipedia": "Louis Lumière",
+      "nameHe": "לואי לומייר",
+      "nameFull": "Louis Lumière",
+      "birthYear": 1864,
+      "birthDate": "1864-10-05",
+      "deathYear": 1948,
+      "deathDate": "1948-06-06",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q37776",
+        "nameHe": "בזאנסון",
+        "nameFull": "Besançon",
+        "lat": 47.2422,
+        "lon": 6.0214,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Louis_Lumi%C3%A8re_mit_Filmprojektor_%28cropped%29.png/500px-Louis_Lumi%C3%A8re_mit_Filmprojektor_%28cropped%29.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unidentified photographer",
+      "sources": [
+        "s-wp-louis-lumie-re",
+        "s-wd-q1962284"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1962284",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Louis_Lumi%C3%A8re_mit_Filmprojektor_(cropped).png"
+    },
+    {
+      "id": "p-alumiere",
+      "wikipedia": "Auguste Lumière",
+      "nameHe": "אוגוסט לומייר",
+      "nameFull": "Auguste Lumière",
+      "birthYear": 1862,
+      "birthDate": "1862-10-19",
+      "deathYear": 1954,
+      "deathDate": "1954-04-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q37776",
+        "nameHe": "בזאנסון",
+        "nameFull": "Besançon",
+        "lat": 47.2422,
+        "lon": 6.0214,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Auguste_Lumi%C3%A8re.jpg/500px-Auguste_Lumi%C3%A8re.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Henri Lumière",
+      "sources": [
+        "s-wp-auguste-lumie-re",
+        "s-wd-q4272245"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q4272245",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Auguste_Lumi%C3%A8re.jpg"
+    },
+    {
+      "id": "p-melies",
+      "wikipedia": "Georges Méliès",
+      "nameHe": "ז'ורז' מלייס",
+      "nameFull": "Georges Méliès",
+      "birthYear": 1861,
+      "birthDate": "1861-12-08",
+      "deathYear": 1938,
+      "deathDate": "1938-01-21",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/M%C3%A9li%C3%A8s_portrait_%28cropped%29.png/500px-M%C3%A9li%C3%A8s_portrait_%28cropped%29.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Georges Méliès",
+      "sources": [
+        "s-wp-georges-me-lie-s",
+        "s-wd-q152272"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q152272",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:M%C3%A9li%C3%A8s_portrait_(cropped).png"
+    },
+    {
+      "id": "p-eisenstein",
+      "wikipedia": "Sergei Eisenstein",
+      "nameHe": "סרגיי אייזנשטיין",
+      "nameFull": "Sergei Eisenstein",
+      "birthYear": 1898,
+      "birthDate": "1898-01-10",
+      "deathYear": 1948,
+      "deathDate": "1948-02-11",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1773",
+        "nameHe": "ריגה",
+        "nameFull": "Riga",
+        "lat": 56.9475,
+        "lon": 24.1069,
+        "country": {
+          "wikidata": "Q211",
+          "nameHe": "לטביה",
+          "nameFull": "Latvia"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sergei_Eisenstein_03.jpg/500px-Sergei_Eisenstein_03.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-sergei-eisenstein",
+        "s-wd-q8003"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8003",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Sergei_Eisenstein_03.jpg"
+    },
+    {
+      "id": "p-lang",
+      "wikipedia": "Fritz Lang",
+      "nameHe": "פריץ לאנג",
+      "nameFull": "Fritz Lang",
+      "birthYear": 1890,
+      "birthDate": "1890-12-05",
+      "deathYear": 1976,
+      "deathDate": "1976-08-02",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1741",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Fritz_Lang_%281969%29.jpg/500px-Fritz_Lang_%281969%29.jpg",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "Joost Evers / Anefo",
+      "sources": [
+        "s-wp-fritz-lang",
+        "s-wd-q19504"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q19504",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Fritz_Lang_(1969).jpg"
+    },
+    {
+      "id": "p-crosland",
+      "wikipedia": "Alan Crosland",
+      "nameHe": "אלן קרוסלנד",
+      "nameFull": "Alan Crosland",
+      "birthYear": 1894,
+      "birthDate": "1894-08-10",
+      "deathYear": 1936,
+      "deathDate": "1936-07-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q60",
+        "nameHe": "ניו יורק",
+        "nameFull": "New York City",
+        "lat": 40.7128,
+        "lon": -74.0061,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Alan_Crosland_-_Aug_1921_EH.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-alan-crosland",
+        "s-wd-q1281943"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1281943",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alan_Crosland_-_Aug_1921_EH.jpg"
+    },
+    {
+      "id": "p-welles",
+      "wikipedia": "Orson Welles",
+      "nameHe": "אורסון ולס",
+      "nameFull": "Orson Welles",
+      "birthYear": 1915,
+      "birthDate": "1915-05-06",
+      "deathYear": 1985,
+      "deathDate": "1985-10-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q462161",
+        "nameHe": "קנושה",
+        "nameFull": "Kenosha",
+        "lat": 42.5822,
+        "lon": -87.8456,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Orson_Welles_1937_cr3-4.jpg/500px-Orson_Welles_1937_cr3-4.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Carl Van Vechten",
+      "sources": [
+        "s-wp-orson-welles",
+        "s-wd-q24829"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q24829",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Orson_Welles_1937_cr3-4.jpg"
+    },
+    {
+      "id": "p-desica",
+      "wikipedia": "Vittorio De Sica",
+      "nameHe": "ויטוריו דה סיקה",
+      "nameFull": "Vittorio De Sica",
+      "birthYear": 1901,
+      "birthDate": "1901-07-07",
+      "deathYear": 1974,
+      "deathDate": "1974-11-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q117382",
+        "nameHe": "סורה",
+        "nameFull": "Sora",
+        "lat": 41.7167,
+        "lon": 13.6167,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Vittorio_De_Sica_-_portrait.jpg/500px-Vittorio_De_Sica_-_portrait.jpg",
+      "imageLicense": "CC0",
+      "imageCredit": "Harry Pot for Anefo",
+      "sources": [
+        "s-wp-vittorio-de-sica",
+        "s-wd-q53004"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q53004",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Vittorio_De_Sica_-_portrait.jpg"
+    },
+    {
+      "id": "p-kurosawa",
+      "wikipedia": "Akira Kurosawa",
+      "nameHe": "אקירה קורוסאווה",
+      "nameFull": "Akira Kurosawa",
+      "birthYear": 1910,
+      "birthDate": "1910-03-23",
+      "deathYear": 1998,
+      "deathDate": "1998-09-06",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q11432209",
+        "nameHe": null,
+        "nameFull": "Ōi",
+        "lat": 35.6019,
+        "lon": 139.7366,
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Akirakurosawa-onthesetof7samurai-1953-page88.jpg/500px-Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "映画の友 (Eiga no tomo)",
+      "sources": [
+        "s-wp-akira-kurosawa",
+        "s-wd-q8006"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8006",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg"
+    },
+    {
+      "id": "p-godard",
+      "wikipedia": "Jean-Luc Godard",
+      "nameHe": "ז'אן-לוק גודאר",
+      "nameFull": "Jean-Luc Godard",
+      "birthYear": 1930,
+      "birthDate": "1930-12-03",
+      "deathYear": 2022,
+      "deathDate": "2022-09-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q259463",
+        "nameHe": "הרובע השביעי של פריז",
+        "nameFull": "7th arrondissement of Paris",
+        "lat": 48.8592,
+        "lon": 2.3128,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Jean-Luc_Godard_at_Berkeley%2C_1968.jpg/500px-Jean-Luc_Godard_at_Berkeley%2C_1968.jpg",
+      "imageLicense": "CC BY 2.0",
+      "imageCredit": "Gary Stevens",
+      "sources": [
+        "s-wp-jean-luc-godard",
+        "s-wd-q53001"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q53001",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Jean-Luc_Godard_at_Berkeley,_1968.jpg"
+    },
+    {
+      "id": "p-kubrick",
+      "wikipedia": "Stanley Kubrick",
+      "nameHe": "סטנלי קובריק",
+      "nameFull": "Stanley Kubrick",
+      "birthYear": 1928,
+      "birthDate": "1928-07-26",
+      "deathYear": 1999,
+      "deathDate": "1999-03-07",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q18426",
+        "nameHe": "הברונקס",
+        "nameFull": "The Bronx",
+        "lat": 40.8467,
+        "lon": -73.8733,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Stanley_Kubrick_%281949_portrait_by_Phillip_Harrington_-_cropped%29.jpg/500px-Stanley_Kubrick_%281949_portrait_by_Phillip_Harrington_-_cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Phillip A. Harrington, an American photographer and staffer for Look magazine between 1949–1971",
+      "sources": [
+        "s-wp-stanley-kubrick",
+        "s-wd-q2001"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q2001",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Stanley_Kubrick_(1949_portrait_by_Phillip_Harrington_-_cropped).jpg"
+    },
+    {
+      "id": "p-lasseter",
+      "wikipedia": "John Lasseter",
+      "nameHe": "ג'ון לאסיטר",
+      "nameFull": "John Lasseter",
+      "birthYear": 1957,
+      "birthDate": "1957-01-12",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q34006",
+        "nameHe": "הוליווד",
+        "nameFull": "Hollywood",
+        "lat": 34.0983,
+        "lon": -118.3267,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/JohnLasseterOct2011.jpg/500px-JohnLasseterOct2011.jpg",
+      "imageLicense": "CC BY 2.0",
+      "imageCredit": "Vanessa Lua",
+      "sources": [
+        "s-wp-john-lasseter",
+        "s-wd-q269214"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q269214",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:JohnLasseterOct2011.jpg"
     }
   ]
 }

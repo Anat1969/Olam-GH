@@ -7,24 +7,24 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import type { City, LonLat } from '../geo';
 
 export type RouteView = { id: string; path: LonLat[]; type: string; confidence: string; on: boolean };
-export type CityView = { city: City; known: number; recent: boolean; on: boolean; domain: string };
+export type CityView = { city: City; known: number; recent: boolean; on: boolean; domain: string; badge?: string };
 
 // OpenFreeMap: אריחים וקטוריים חינמיים על נתוני OpenStreetMap, בלי מפתח ובלי מגבלת שימוש, מתאים לתערוכה ולקהל רחב.
 const STYLE_URL = 'https://tiles.openfreemap.org/styles/positron';
 
 const fc = (features: GeoJSON.Feature[]): GeoJSON.FeatureCollection => ({ type: 'FeatureCollection', features });
 
-export default function MapView({ cities, routes, trail, center, focus, onCity, onRoute, onFail }: {
-  cities: CityView[]; routes: RouteView[]; trail: LonLat[]; center: LonLat | null; focus: LonLat | null;
-  onCity: (key: string) => void; onRoute: (id: string) => void; onFail: () => void;
+export default function MapView({ cities, routes, trail, tour = [], center, focus, focusZoom = 3.2, onCity, onRoute, onCountry, onFail }: {
+  cities: CityView[]; routes: RouteView[]; trail: LonLat[]; tour?: LonLat[][]; center: LonLat | null; focus: LonLat | null; focusZoom?: number;
+  onCity: (key: string) => void; onRoute: (id: string) => void; onCountry?: (name: string) => void; onFail: () => void;
 }) {
   const el = useRef<HTMLDivElement>(null);
   const map = useRef<MLMap>();
   const markers = useRef(new Map<string, Marker>());
   const centerMarker = useRef<Marker>();
   const [ready, setReady] = useState(false);
-  const cb = useRef({ onCity, onRoute });
-  cb.current = { onCity, onRoute };
+  const cb = useRef({ onCity, onRoute, onCountry });
+  cb.current = { onCity, onRoute, onCountry };
 
   useEffect(() => {
     if (!el.current) return;
@@ -49,10 +49,26 @@ export default function MapView({ cities, routes, trail, center, focus, onCity, 
     m.on('style.load', () => {
       m.setProjection({ type: 'globe' });
       if (m.getLayer('background')) m.setPaintProperty('background', 'background-color', '#F4F2EC');
+      // מפת בסיס שקטה: בלי כבישים, אתרים ויישובים קטנים. ארצות וערים גדולות בגוון נייר, קטן ושקוף.
+      for (const layer of m.getStyle().layers || []) {
+        if (layer.type !== 'symbol') continue;
+        const id = layer.id.toLowerCase();
+        const isCountry = id.includes('country');
+        const isBigCity = id.includes('city') && !id.includes('town') && !id.includes('village');
+        if (!isCountry && !isBigCity) { m.setLayoutProperty(layer.id, 'visibility', 'none'); continue; }
+        m.setPaintProperty(layer.id, 'text-color', isCountry ? '#9C998F' : '#AFACA4');
+        m.setPaintProperty(layer.id, 'text-halo-color', '#F4F2EC');
+        m.setPaintProperty(layer.id, 'text-halo-width', 1);
+        m.setPaintProperty(layer.id, 'text-opacity', isCountry ? 0.8 : 0.6);
+        m.setLayoutProperty(layer.id, 'text-size', isCountry ? 11 : 10);
+        if (isCountry) m.setLayoutProperty(layer.id, 'text-transform', 'none');
+      }
     });
     m.on('load', () => {
       m.addSource('routes', { type: 'geojson', data: fc([]) });
       m.addSource('trail', { type: 'geojson', data: fc([]) });
+      m.addSource('tour', { type: 'geojson', data: fc([]) });
+      m.addLayer({ id: 'tour', type: 'line', source: 'tour', paint: { 'line-color': '#17191C', 'line-width': 2.2, 'line-opacity': 0.75, 'line-dasharray': [2, 1.5] }, layout: { 'line-cap': 'round' } });
       m.addLayer({ id: 'trail', type: 'line', source: 'trail', paint: { 'line-color': '#17191C', 'line-width': 2, 'line-opacity': 0.55, 'line-dasharray': [1, 2] }, layout: { 'line-cap': 'round' } });
       m.addLayer({ id: 'routes-halo', type: 'line', source: 'routes', filter: ['==', ['get', 'on'], true], paint: { 'line-color': '#FFE45C', 'line-width': 12, 'line-opacity': 0.9 }, layout: { 'line-cap': 'round' } });
       const color: maplibregl.ExpressionSpecification = ['match', ['get', 'confidence'], 'interpretive', '#B85F16', '#2F7A55'];
@@ -64,6 +80,13 @@ export default function MapView({ cities, routes, trail, center, focus, onCity, 
       m.on('click', 'routes-hit', (e) => { const id = e.features?.[0]?.properties?.id; if (id) cb.current.onRoute(String(id)); });
       m.on('mouseenter', 'routes-hit', () => { m.getCanvas().style.cursor = 'pointer'; });
       m.on('mouseleave', 'routes-hit', () => { m.getCanvas().style.cursor = ''; });
+      // לחיצה על שם של ארץ במפת הבסיס פותחת את הארץ
+      m.on('click', (e) => {
+        const layers = (m.getStyle().layers || []).filter((l) => l.type === 'symbol' && l.id.toLowerCase().includes('country') && m.getLayoutProperty(l.id, 'visibility') !== 'none').map((l) => l.id);
+        const f = m.queryRenderedFeatures([[e.point.x - 6, e.point.y - 6], [e.point.x + 6, e.point.y + 6]], { layers })[0];
+        const name = f?.properties?.['name:en'] || f?.properties?.name_en || f?.properties?.name;
+        if (name && cb.current.onCountry) cb.current.onCountry(String(name));
+      });
       setReady(true);
     });
     return () => { m.remove(); map.current = undefined; markers.current.clear(); };
@@ -76,7 +99,8 @@ export default function MapView({ cities, routes, trail, center, focus, onCity, 
     if (!m || !ready) return;
     (m.getSource('routes') as GeoJSONSource).setData(fc(routes.map((r) => ({ type: 'Feature', properties: { id: r.id, type: r.type, confidence: r.confidence, on: r.on }, geometry: { type: 'LineString', coordinates: r.path } }))));
     (m.getSource('trail') as GeoJSONSource).setData(fc(trail.length > 1 ? [{ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: trail } }] : []));
-  }, [routes, trail, ready]);
+    (m.getSource('tour') as GeoJSONSource).setData(fc(tour.filter((p) => p.length > 1).map((p) => ({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: p } }))));
+  }, [routes, trail, tour, ready]);
 
   // ערים: סמן מרובע לכל עיר, גודל לפי מספר הגילויים הידועים
   useEffect(() => {
@@ -101,11 +125,12 @@ export default function MapView({ cities, routes, trail, center, focus, onCity, 
       }
       const btn = mk.getElement().firstElementChild as HTMLButtonElement;
       const size = 14 + Math.sqrt(c.known) * 8;
-      btn.className = `map-city dom-${c.domain}${c.known > 1 ? ' is-big' : ''}${c.recent ? ' is-recent' : ''}${c.on ? ' is-on' : ''} conf-${c.city.confidence}`;
+      btn.className = `map-city dom-${c.domain}${c.known > 1 ? ' is-big' : ''}${c.recent ? ' is-recent' : ''}${c.on ? ' is-on' : ''}${c.badge ? ' has-badge' : ''} conf-${c.city.confidence}`;
       btn.style.setProperty('--sq', `${size}px`);
       btn.setAttribute('aria-pressed', String(c.on));
       btn.setAttribute('aria-label', `${c.city.nameHe}, ${c.known} גילויים`);
-      (btn.querySelector('.mc-n') as HTMLElement).textContent = String(c.known);
+      // מספר מופיע רק במסע (סדר התחנות). בתצוגה הרגילה הגודל מספר את הכמות, לפי המקרא.
+      (btn.querySelector('.mc-n') as HTMLElement).textContent = c.badge || '';
       (btn.querySelector('.mc-name') as HTMLElement).textContent = c.city.nameHe;
     }
     for (const [k, mk] of markers.current) if (!seen.has(k)) { mk.remove(); markers.current.delete(k); }
@@ -127,8 +152,9 @@ export default function MapView({ cities, routes, trail, center, focus, onCity, 
 
   useEffect(() => {
     const m = map.current;
-    if (m && focus) m.easeTo({ center: focus, zoom: Math.max(m.getZoom(), 3.2), duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 900 });
-  }, [focus?.[0], focus?.[1]]); // eslint-disable-line react-hooks/exhaustive-deps
+    if (!m || !focus || !ready) return; // מחכים לטעינה: מעבר לפני שהסגנון נטען מתבטל
+    m.easeTo({ center: focus, zoom: Math.max(m.getZoom(), focusZoom), duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 1100 });
+  }, [focus?.[0], focus?.[1], focusZoom, ready]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <div ref={el} className="map-canvas" role="region" aria-label="גלובוס הגילויים. הערים הן כפתורים." data-ready={ready} />;
 }

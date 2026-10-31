@@ -1,7 +1,8 @@
 // טקסט עשיר: **מודגש**, ==תובנה== (מרקר צהוב), ומספרים מודגשים אוטומטית בכיוון LTR מבודד.
 import type { ElementType } from 'react';
 const TOKEN = /(\*\*[^*]+\*\*|==[^=]+==)/g;
-const NUM = /(\d[\d,]*(?:\.\d+)?%?)/g;
+// מספר: ספרות, ופסיק רק כמפריד אלפים (1,000). פסיק אחרי מספר הוא פיסוק, ולא חלק ממנו.
+const NUM = /(\d+(?:,\d{3})*(?:\.\d+)?%?)/g;
 
 function Numbers({ text }: { text: string }) {
   return <>{text.split(NUM).map((part, i) => (i % 2 ? <bdi key={i} className="num">{part}</bdi> : part))}</>;

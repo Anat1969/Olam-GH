@@ -39,9 +39,10 @@ export function centroid(points: LonLat[]): LonLat | null {
   return toLonLat(s);
 }
 
+export interface Country { key: string; nameHe: string; nameFull: string }
 export interface City {
   key: string; nameHe: string; nameFull: string; lonLat: LonLat;
-  items: Discovery[]; confidence: 'documented' | 'interpretive';
+  items: Discovery[]; confidence: 'documented' | 'interpretive'; country: Country | null;
 }
 
 /** הגילויים מקובצים לפי עיר. מוסדות באותה עיר נספרים יחד, והמיקום הוא הממוצע שלהם. */
@@ -59,6 +60,7 @@ export const cities: City[] = (() => {
     lonLat: centroid(items.map((d) => [d.place!.lon!, d.place!.lat!] as LonLat))!,
     items: items.sort((a, b) => a.yearFrom - b.yearFrom),
     confidence: items.every((d) => d.place!.confidence === 'documented') ? 'documented' : 'interpretive',
+    country: (() => { const c = items.find((d) => d.place!.country)?.place!.country; return c ? { key: c.nameFull, nameHe: c.nameHe || c.nameFull, nameFull: c.nameFull } : null; })(),
   }));
 })();
 export const cityOf = new Map(cities.flatMap((c) => c.items.map((d) => [d.id, c] as const)));
@@ -85,3 +87,19 @@ export function centerTrail(year: number): LonLat[] {
 export function nearestCity(p: LonLat) {
   return cities.reduce((best, c) => (km(p, c.lonLat) < km(p, best.lonLat) ? c : best), cities[0]);
 }
+
+/** ארצות: קיבוץ הערים לפי הארץ שלהן בוויקינתונים (P17) */
+export const countries = (() => {
+  const m = new Map<string, Country & { cities: City[]; lonLat: LonLat }>();
+  for (const c of cities) {
+    if (!c.country) continue;
+    const e = m.get(c.country.key) || { ...c.country, cities: [], lonLat: c.lonLat };
+    e.cities.push(c); m.set(c.country.key, e);
+  }
+  for (const e of m.values()) e.lonLat = centroid(e.cities.map((c) => c.lonLat))!;
+  return [...m.values()];
+})();
+export const countryByName = (name: string) => {
+  const n = name.trim().toLowerCase();
+  return countries.find((c) => c.nameFull.toLowerCase() === n || c.nameHe === name.trim());
+};

@@ -112,6 +112,16 @@
         "t": "1930",
         "d": "music,dance"
       }
+    },
+    {
+      "id": "readymade",
+      "title": "מהחפץ אל המסך",
+      "lead": "**דושאן**, **קלדר** ו**מטרופוליס**: האמנות של המאה ה-20 זזה.",
+      "params": {
+        "f": "1895",
+        "t": "1935",
+        "d": "sculpture,cinema,architecture,painting"
+      }
     }
   ]
 }

@@ -790,6 +790,106 @@
       "id": "p-balanchine",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-thutmose",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-myron",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-michelangelo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bernini",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rodin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-duchamp",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-brancusi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-calder",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-llumiere",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-alumiere",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-melies",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-eisenstein",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lang",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-crosland",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-welles",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-desica",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kurosawa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-godard",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kubrick",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lasseter",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -1562,6 +1662,101 @@
       "id": "d-1928-balanchine-apollo",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "d-bce1345-nefertiti",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce460-discobolus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1501-michelangelo-david",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1652-bernini-teresa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1880-rodin-thinker",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1917-duchamp-fountain",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1923-brancusi-bird",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1931-calder-mobile",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1895-lumiere-workers",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1902-melies-moon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1925-eisenstein-potemkin",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1927-metropolis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1927-jazz-singer",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1941-citizen-kane",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1948-bicycle-thieves",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1950-rashomon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1960-breathless",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1968-2001",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1995-toy-story",
+      "verified": true,
+      "reasons": []
     }
   ],
   "links": [
@@ -1994,6 +2189,36 @@
     },
     {
       "id": "l-86",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-87",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-88",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-89",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-90",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-91",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-92",
       "verified": true,
       "reasons": []
     }
@@ -2832,12 +3057,102 @@
       "place": "Théâtre de la Ville",
       "ok": true,
       "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce1345-nefertiti",
+      "place": "Amarna",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1501-michelangelo-david",
+      "place": "piazza della Signoria",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1652-bernini-teresa",
+      "place": "Rome",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1880-rodin-thinker",
+      "place": "Musée Rodin",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1917-duchamp-fountain",
+      "place": "New York City",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1923-brancusi-bird",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1931-calder-mobile",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1895-lumiere-workers",
+      "place": "Lyon",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1902-melies-moon",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1925-eisenstein-potemkin",
+      "place": "Odesa",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1927-metropolis",
+      "place": "Berlin",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1948-bicycle-thieves",
+      "place": "Rome",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1950-rashomon",
+      "place": "Kyoto",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1960-breathless",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1995-toy-story",
+      "place": "El Capitan Theatre",
+      "ok": true,
+      "confidence": "documented"
     }
   ],
   "summary": {
-    "persons": "158/158",
-    "discoveries": "154/154",
-    "links": "85/86",
-    "images": 153
+    "persons": "178/178",
+    "discoveries": "173/173",
+    "links": "91/92",
+    "images": 171
   }
 }
