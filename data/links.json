@@ -11,7 +11,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-newton-s-law-of-universal-gravitation",
-          "quote": "In 1687, Newton published his Principia which combined his laws of motion with new mathematical analysis to explain Kepler's empirical results."
+          "quote": "In 1687, Newton published his Principia which combined his laws of motion with new mathematical analysis to explain Kepler's empirical results.",
+          "quoteHe": "ב-1687 פרסם ניוטון את הפרינקיפיה, שבה שילב את חוקי התנועה שלו עם ניתוח מתמטי חדש כדי להסביר את התוצאות האמפיריות של קפלר."
         }
       ],
       "sources": [
@@ -44,11 +45,13 @@
       "evidence": [
         {
           "sourceId": "s-wp-johannes-kepler",
-          "quote": "he learned both the Ptolemaic system and the Copernican system of planetary motion."
+          "quote": "he learned both the Ptolemaic system and the Copernican system of planetary motion.",
+          "quoteHe": "הוא למד גם את השיטה התלמיית וגם את השיטה הקופרניקנית של תנועת כוכבי הלכת."
         },
         {
           "sourceId": "s-wp-johannes-kepler",
-          "quote": "He became a Copernican at that time."
+          "quote": "He became a Copernican at that time.",
+          "quoteHe": "באותה תקופה נעשה קופרניקני."
         }
       ],
       "sources": [
@@ -68,7 +71,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-galileo-galilei",
-          "quote": "Galileo's championing of Copernican heliocentrism was met with opposition from within the Catholic Church and from some astronomers."
+          "quote": "Galileo's championing of Copernican heliocentrism was met with opposition from within the Catholic Church and from some astronomers.",
+          "quoteHe": "תמיכתו של גלילאו בשיטה ההליוצנטרית של קופרניקוס נתקלה בהתנגדות מתוך הכנסייה הקתולית ומצד כמה אסטרונומים."
         }
       ],
       "sources": [
@@ -88,7 +92,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ibn-al-haytham",
-          "quote": "Kepler's later theory of the retinal image (which resolved the problem of the correspondence of points on an object and points in the eye) built directly on the conceptual framework of Alhazen."
+          "quote": "Kepler's later theory of the retinal image (which resolved the problem of the correspondence of points on an object and points in the eye) built directly on the conceptual framework of Alhazen.",
+          "quoteHe": "התאוריה המאוחרת של קפלר על הדימוי ברשתית (שפתרה את בעיית ההתאמה בין נקודות על עצם לנקודות בעין) נבנתה ישירות על המסגרת המושגית של אבן אל-היית׳ם."
         }
       ],
       "sources": [
@@ -108,7 +113,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-pendulum-clock",
-          "quote": "From its invention in 1656 by Christiaan Huygens, inspired by Galileo Galilei"
+          "quote": "From its invention in 1656 by Christiaan Huygens, inspired by Galileo Galilei",
+          "quoteHe": "מאז המצאתו ב-1656 על ידי כריסטיאן הויגנס, בהשראת גלילאו גליליי"
         }
       ],
       "sources": [
@@ -128,7 +134,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-faraday-s-law-of-induction",
-          "quote": "James Clerk Maxwell later gave Faraday's insights mathematical expression, incorporating them into his broader electromagnetic theory in the early 1860s."
+          "quote": "James Clerk Maxwell later gave Faraday's insights mathematical expression, incorporating them into his broader electromagnetic theory in the early 1860s.",
+          "quoteHe": "ג׳יימס קלרק מקסוול נתן מאוחר יותר ביטוי מתמטי לתובנות של פאראדיי, ושילב אותן בתורה האלקטרומגנטית הרחבה שלו בראשית שנות ה-60 של המאה ה-19."
         }
       ],
       "sources": [
@@ -148,7 +155,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-special-relativity",
-          "quote": "The constancy of the speed of light was motivated by Maxwell's theory of electromagnetism and the lack of evidence for the luminiferous ether."
+          "quote": "The constancy of the speed of light was motivated by Maxwell's theory of electromagnetism and the lack of evidence for the luminiferous ether.",
+          "quoteHe": "קביעות מהירות האור נבעה מתורת האלקטרומגנטיות של מקסוול ומהיעדר עדות לאתר נושא האור."
         }
       ],
       "sources": [
@@ -168,7 +176,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-henri-becquerel",
-          "quote": "In early 1896, there was a wave of excitement following Wilhelm Röntgen's discovery of X-rays in late 1895."
+          "quote": "In early 1896, there was a wave of excitement following Wilhelm Röntgen's discovery of X-rays in late 1895.",
+          "quoteHe": "בתחילת 1896 התעורר גל של התרגשות בעקבות גילוי קרני הרנטגן בידי וילהלם רנטגן בסוף 1895."
         }
       ],
       "sources": [
@@ -188,7 +197,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-bohr-model",
-          "quote": "building on Ernest Rutherford's discovery of the atom's nucleus"
+          "quote": "building on Ernest Rutherford's discovery of the atom's nucleus",
+          "quoteHe": "על בסיס גילוי גרעין האטום בידי ארנסט רתרפורד"
         }
       ],
       "sources": [
@@ -208,7 +218,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-leibniz-newton-calculus-controversy",
-          "quote": "Today, the consensus is that Leibniz and Newton independently invented and described calculus in Europe in the 17th century."
+          "quote": "Today, the consensus is that Leibniz and Newton independently invented and described calculus in Europe in the 17th century.",
+          "quoteHe": "כיום יש הסכמה שלייבניץ וניוטון המציאו ותיארו את החשבון האינפיניטסימלי באירופה במאה ה-17 באופן עצמאי."
         }
       ],
       "sources": [
@@ -228,7 +239,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-nikolai-lobachevsky",
-          "quote": "Before him, mathematicians were trying to deduce Euclid's fifth postulate from other axioms."
+          "quote": "Before him, mathematicians were trying to deduce Euclid's fifth postulate from other axioms.",
+          "quoteHe": "לפניו ניסו מתמטיקאים לגזור את האקסיומה החמישית של אוקלידס מאקסיומות אחרות."
         }
       ],
       "sources": [
@@ -248,7 +260,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-hilbert-s-program",
-          "quote": "Gödel's incompleteness theorems, published in 1931, showed that Hilbert's program was unattainable for key areas of mathematics."
+          "quote": "Gödel's incompleteness theorems, published in 1931, showed that Hilbert's program was unattainable for key areas of mathematics.",
+          "quoteHe": "משפטי האי-שלמות של גדל, שפורסמו ב-1931, הראו שתוכנית הילברט אינה ניתנת להשגה בתחומים מרכזיים של המתמטיקה."
         }
       ],
       "sources": [
@@ -268,11 +281,13 @@
       "evidence": [
         {
           "sourceId": "s-wp-entscheidungsproblem",
-          "quote": "is a challenge posed by David Hilbert and Wilhelm Ackermann in 1928."
+          "quote": "is a challenge posed by David Hilbert and Wilhelm Ackermann in 1928.",
+          "quoteHe": "הוא אתגר שהציבו דויד הילברט ווילהלם אקרמן ב-1928."
         },
         {
           "sourceId": "s-wp-entscheidungsproblem",
-          "quote": "In 1936, Alonzo Church and Alan Turing published independent papers showing that a general solution to the Entscheidungsproblem is impossible"
+          "quote": "In 1936, Alonzo Church and Alan Turing published independent papers showing that a general solution to the Entscheidungsproblem is impossible",
+          "quoteHe": "ב-1936 פרסמו אלונזו צ׳רץ׳ ואלן טיורינג מאמרים עצמאיים שהראו שפתרון כללי לבעיית ההכרעה (Entscheidungsproblem) אינו אפשרי"
         }
       ],
       "sources": [
@@ -292,7 +307,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-noether-s-theorem",
-          "quote": "Emmy Noether's work on the invariance theorem began in 1915 when she was helping Felix Klein and David Hilbert with their work related to Albert Einstein's theory of general relativity"
+          "quote": "Emmy Noether's work on the invariance theorem began in 1915 when she was helping Felix Klein and David Hilbert with their work related to Albert Einstein's theory of general relativity",
+          "quoteHe": "עבודתה של אמי נתר על משפט האינווריאנטיות החלה ב-1915, כשסייעה לפליקס קליין ולדויד הילברט בעבודתם הקשורה לתורת היחסות הכללית של אלברט איינשטיין"
         }
       ],
       "sources": [
@@ -312,7 +328,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-disquisitiones-arithmeticae",
-          "quote": "In this book, Gauss brought together and reconciled results in number theory obtained by such eminent mathematicians as Fermat, Euler, Lagrange, and Legendre"
+          "quote": "In this book, Gauss brought together and reconciled results in number theory obtained by such eminent mathematicians as Fermat, Euler, Lagrange, and Legendre",
+          "quoteHe": "בספר זה ריכז גאוס ויישב זה עם זה תוצאות בתורת המספרים שהשיגו מתמטיקאים בולטים כמו פרמה, אוילר, לגראנז׳ ולז׳נדר"
         }
       ],
       "sources": [
@@ -332,7 +349,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-disquisitiones-arithmeticae",
-          "quote": "In this book, Gauss brought together and reconciled results in number theory obtained by such eminent mathematicians as Fermat, Euler, Lagrange, and Legendre"
+          "quote": "In this book, Gauss brought together and reconciled results in number theory obtained by such eminent mathematicians as Fermat, Euler, Lagrange, and Legendre",
+          "quoteHe": "בספר זה ריכז גאוס ויישב זה עם זה תוצאות בתורת המספרים שהשיגו מתמטיקאים בולטים כמו פרמה, אוילר, לגראנז׳ ולז׳נדר"
         }
       ],
       "sources": [
@@ -352,7 +370,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-johannes-kepler",
-          "quote": "In 1617, while working on the Tables, Kepler first read Napier's work on logarithms, which had been published in 1614."
+          "quote": "In 1617, while working on the Tables, Kepler first read Napier's work on logarithms, which had been published in 1614.",
+          "quoteHe": "ב-1617, בזמן העבודה על הטבלאות, קרא קפלר לראשונה את עבודתו של נייפיר על הלוגריתמים, שפורסמה ב-1614."
         }
       ],
       "sources": [
@@ -372,7 +391,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-general-relativity",
-          "quote": "A version of non-Euclidean geometry, called Riemannian geometry, enabled Einstein to develop general relativity by providing the key mathematical framework on which he fit his physical ideas of gravity."
+          "quote": "A version of non-Euclidean geometry, called Riemannian geometry, enabled Einstein to develop general relativity by providing the key mathematical framework on which he fit his physical ideas of gravity.",
+          "quoteHe": "גרסה של גאומטריה לא-אוקלידית, הנקראת גאומטריה רימנית, אפשרה לאיינשטיין לפתח את תורת היחסות הכללית, בכך שסיפקה את המסגרת המתמטית המרכזית שבה התאים את רעיונותיו הפיזיקליים על הכבידה."
         }
       ],
       "sources": [
@@ -392,7 +412,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ibn-al-haytham",
-          "quote": "Alhazen's achievement was to come up with a theory that successfully combined parts of the mathematical ray arguments of Euclid, the medical tradition of Galen, and the intromission theories of Aristotle."
+          "quote": "Alhazen's achievement was to come up with a theory that successfully combined parts of the mathematical ray arguments of Euclid, the medical tradition of Galen, and the intromission theories of Aristotle.",
+          "quoteHe": "הישגו של אבן אל-היית׳ם היה לנסח תאוריה ששילבה בהצלחה חלקים מטיעוני הקרניים המתמטיים של אוקלידס, מהמסורת הרפואית של גלנוס ומתאוריות הקליטה של אריסטו."
         }
       ],
       "sources": [
@@ -412,7 +433,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-alan-turing",
-          "quote": "Turing worked on the decidability of problems, starting from Gödel's incompleteness theorems."
+          "quote": "Turing worked on the decidability of problems, starting from Gödel's incompleteness theorems.",
+          "quoteHe": "טיורינג עסק בכריעות של בעיות, החל ממשפטי האי-שלמות של גדל."
         }
       ],
       "sources": [
@@ -432,7 +454,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-bohr-model",
-          "quote": "Bohr would recognize the terms as energy levels of the atom divided by the Planck constant, leading to the modern view that the spectral lines result from energy differences."
+          "quote": "Bohr would recognize the terms as energy levels of the atom divided by the Planck constant, leading to the modern view that the spectral lines result from energy differences.",
+          "quoteHe": "בור יזהה את האיברים כרמות האנרגיה של האטום מחולקות בקבוע פלאנק, וכך תיווצר התפיסה המודרנית שקווי הספקטרום נובעים מהפרשי אנרגיה."
         }
       ],
       "sources": [
@@ -452,7 +475,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-isaac-newton",
-          "quote": "Cambridge's teachings were based on those of Aristotle, whom Newton read along with then more modern philosophers, including René Descartes and astronomers such as Galileo Galilei and Thomas Street."
+          "quote": "Cambridge's teachings were based on those of Aristotle, whom Newton read along with then more modern philosophers, including René Descartes and astronomers such as Galileo Galilei and Thomas Street.",
+          "quoteHe": "הלימודים בקיימברידג׳ התבססו על תורתו של אריסטו, שאותו קרא ניוטון לצד פילוסופים מודרניים יותר לזמנם, ובהם רנה דקארט, ואסטרונומים כמו גלילאו גליליי ותומאס סטריט."
         }
       ],
       "sources": [
@@ -472,7 +496,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-galileo-galilei",
-          "quote": "his mathematical methods were the standard ones of the day, including dozens of examples of an inverse proportion square root method passed down from Fibonacci and Archimedes."
+          "quote": "his mathematical methods were the standard ones of the day, including dozens of examples of an inverse proportion square root method passed down from Fibonacci and Archimedes.",
+          "quoteHe": "השיטות המתמטיות שלו היו השיטות המקובלות בזמנו, כולל עשרות דוגמאות לשיטת שורש ריבועי של יחס הפוך שעברה מפיבונאצ׳י ומארכימדס."
         }
       ],
       "sources": [
@@ -492,7 +517,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-galileo-galilei",
-          "quote": "his mathematical methods were the standard ones of the day, including dozens of examples of an inverse proportion square root method passed down from Fibonacci and Archimedes."
+          "quote": "his mathematical methods were the standard ones of the day, including dozens of examples of an inverse proportion square root method passed down from Fibonacci and Archimedes.",
+          "quoteHe": "השיטות המתמטיות שלו היו השיטות המקובלות בזמנו, כולל עשרות דוגמאות לשיטת שורש ריבועי של יחס הפוך שעברה מפיבונאצ׳י ומארכימדס."
         }
       ],
       "sources": [
@@ -512,7 +538,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-christiaan-huygens",
-          "quote": "Huygens took from Pascal the concepts of a \"fair game\" and equitable contract (i.e., equal division when the chances are equal), and extended the argument to set up a non-standard theory of expected values."
+          "quote": "Huygens took from Pascal the concepts of a \"fair game\" and equitable contract (i.e., equal division when the chances are equal), and extended the argument to set up a non-standard theory of expected values.",
+          "quoteHe": "הויגנס לקח מפסקל את המושגים \"משחק הוגן\" וחוזה שוויוני (כלומר, חלוקה שווה כשהסיכויים שווים), והרחיב את הטיעון כדי לבסס תורה לא-תקנית של תוחלות."
         }
       ],
       "sources": [
@@ -533,11 +560,13 @@
       "evidence": [
         {
           "sourceId": "s-wp-marie-curie",
-          "quote": "In 1896, Henri Becquerel discovered that uranium salts emitted rays that resembled X-rays in their penetrating power."
+          "quote": "In 1896, Henri Becquerel discovered that uranium salts emitted rays that resembled X-rays in their penetrating power.",
+          "quoteHe": "ב-1896 גילה אנרי בקרל שמלחי אורניום פולטים קרניים שדמו לקרני רנטגן בכוח החדירה שלהן."
         },
         {
           "sourceId": "s-wp-marie-curie",
-          "quote": "\"for their joint researches on the radioactivity phenomena discovered by Professor Henri Becquerel\"."
+          "quote": "\"for their joint researches on the radioactivity phenomena discovered by Professor Henri Becquerel\".",
+          "quoteHe": "\"על מחקריהם המשותפים בתופעות הרדיואקטיביות שגילה פרופסור אנרי בקרל\"."
         }
       ],
       "sources": [
@@ -557,7 +586,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ernest-rutherford",
-          "quote": "and radium, from Marie Curie."
+          "quote": "and radium, from Marie Curie.",
+          "quoteHe": "ורדיום, ממארי קירי."
         }
       ],
       "sources": [
@@ -577,7 +607,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-bohr-model",
-          "quote": "In 1921, following the work of chemists and others involved in work on the periodic table, Bohr extended the model of hydrogen to give an approximate model for heavier atoms."
+          "quote": "In 1921, following the work of chemists and others involved in work on the periodic table, Bohr extended the model of hydrogen to give an approximate model for heavier atoms.",
+          "quoteHe": "ב-1921, בעקבות עבודתם של כימאים ואחרים שעסקו בטבלה המחזורית, הרחיב בור את מודל המימן כדי לספק מודל משוער לאטומים כבדים יותר."
         }
       ],
       "sources": [
@@ -597,11 +628,13 @@
       "evidence": [
         {
           "sourceId": "s-wp-x-ray",
-          "quote": "X-rays were discovered in 1895 by the German scientist Wilhelm Conrad Röntgen"
+          "quote": "X-rays were discovered in 1895 by the German scientist Wilhelm Conrad Röntgen",
+          "quoteHe": "קרני רנטגן התגלו ב-1895 על ידי המדען הגרמני וילהלם קונרד רנטגן"
         },
         {
           "sourceId": "s-wp-henry-moseley",
-          "quote": "In 1913, Moseley observed and measured the X-ray spectra of various chemical elements"
+          "quote": "In 1913, Moseley observed and measured the X-ray spectra of various chemical elements",
+          "quoteHe": "ב-1913 צפה מוזלי ומדד את ספקטרום קרני הרנטגן של יסודות כימיים שונים"
         }
       ],
       "sources": [
@@ -622,7 +655,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-moseley-s-law",
-          "quote": "Until Moseley's work, \"atomic number\" was merely an element's place in the periodic table and was not known to be associated with any measurable physical quantity."
+          "quote": "Until Moseley's work, \"atomic number\" was merely an element's place in the periodic table and was not known to be associated with any measurable physical quantity.",
+          "quoteHe": "עד עבודתו של מוזלי, \"המספר האטומי\" היה רק מקומו של היסוד בטבלה המחזורית, ולא היה ידוע שהוא קשור לגודל פיזיקלי מדיד כלשהו."
         }
       ],
       "sources": [
@@ -642,7 +676,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-josiah-willard-gibbs",
-          "quote": "Together with James Clerk Maxwell and Ludwig Boltzmann, he created statistical mechanics"
+          "quote": "Together with James Clerk Maxwell and Ludwig Boltzmann, he created statistical mechanics",
+          "quoteHe": "יחד עם ג׳יימס קלרק מקסוול ולודוויג בולצמן יצר את המכניקה הסטטיסטית"
         }
       ],
       "sources": [
@@ -662,7 +697,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-planck-s-law",
-          "quote": "has occasionally been called 'Kirchhoff's (emission, universal) function', though its precise mathematical form would not be known for another forty years, till it was discovered by Planck in 1900."
+          "quote": "has occasionally been called 'Kirchhoff's (emission, universal) function', though its precise mathematical form would not be known for another forty years, till it was discovered by Planck in 1900.",
+          "quoteHe": "כונתה מדי פעם 'פונקציית (הפליטה, האוניברסלית) של קירכהוף', אף שצורתה המתמטית המדויקת לא תהיה ידועה עוד ארבעים שנה, עד שגילה אותה פלאנק ב-1900."
         }
       ],
       "sources": [
@@ -682,7 +718,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-avogadro-s-law",
-          "quote": "it reconciled Dalton atomic theory with the \"incompatible\" idea of Joseph Louis Gay-Lussac"
+          "quote": "it reconciled Dalton atomic theory with the \"incompatible\" idea of Joseph Louis Gay-Lussac",
+          "quoteHe": "הוא יישב את התאוריה האטומית של דלטון עם הרעיון ה\"בלתי מתיישב\" של ז׳וזף לואי גיי-לוסאק"
         }
       ],
       "sources": [
@@ -702,7 +739,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-hydrogen",
-          "quote": "In 1783, Antoine Lavoisier identified the element that came to be known as hydrogen when he and Laplace reproduced Cavendish's finding that water is produced when hydrogen is burned."
+          "quote": "In 1783, Antoine Lavoisier identified the element that came to be known as hydrogen when he and Laplace reproduced Cavendish's finding that water is produced when hydrogen is burned.",
+          "quoteHe": "ב-1783 זיהה אנטואן לבואזיה את היסוד שנודע לימים כמימן, כשהוא ולפלס שחזרו את ממצאו של קוונדיש שמים נוצרים כששורפים מימן."
         }
       ],
       "sources": [
@@ -722,7 +760,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-linus-pauling",
-          "quote": "His discoveries inspired the work of James Watson, Francis Crick, Rosalind Franklin, and Maurice Wilkins on the structure of DNA"
+          "quote": "His discoveries inspired the work of James Watson, Francis Crick, Rosalind Franklin, and Maurice Wilkins on the structure of DNA",
+          "quoteHe": "תגליותיו היו השראה לעבודתם של ג׳יימס ווטסון, פרנסיס קריק, רוזלינד פרנקלין ומוריס וילקינס על מבנה ה-DNA"
         }
       ],
       "sources": [
@@ -742,7 +781,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-nucleic-acid-double-helix",
-          "quote": "The double helix structure of DNA was first proposed by James Watson and Francis Crick, based on the work of Rosalind Franklin, Raymond Gosling, Maurice Wilkins, and others."
+          "quote": "The double helix structure of DNA was first proposed by James Watson and Francis Crick, based on the work of Rosalind Franklin, Raymond Gosling, Maurice Wilkins, and others.",
+          "quoteHe": "מבנה הסליל הכפול של ה-DNA הוצע לראשונה על ידי ג׳יימס ווטסון ופרנסיס קריק, על בסיס עבודתם של רוזלינד פרנקלין, ריימונד גוסלינג, מוריס וילקינס ואחרים."
         }
       ],
       "sources": [
@@ -762,7 +802,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-x-ray-crystallography",
-          "quote": "Rosalind Franklin worked on the X-ray photography of a DNA fibre that proved key to James Watson and Francis Crick's discovery of the double helix"
+          "quote": "Rosalind Franklin worked on the X-ray photography of a DNA fibre that proved key to James Watson and Francis Crick's discovery of the double helix",
+          "quoteHe": "רוזלינד פרנקלין עסקה בצילום רנטגן של סיב DNA, שהתברר כמפתח לגילוי הסליל הכפול בידי ג׳יימס ווטסון ופרנסיס קריק"
         }
       ],
       "sources": [
@@ -782,7 +823,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ronald-fisher",
-          "quote": "In genetics, Fisher was the one to most comprehensively combine the ideas of Gregor Mendel and Charles Darwin, as his work used mathematics to combine Mendelian genetics and natural selection"
+          "quote": "In genetics, Fisher was the one to most comprehensively combine the ideas of Gregor Mendel and Charles Darwin, as his work used mathematics to combine Mendelian genetics and natural selection",
+          "quoteHe": "בגנטיקה, פישר היה זה ששילב באופן המקיף ביותר את רעיונותיהם של גרגור מנדל וצ׳ארלס דרווין, שכן עבודתו השתמשה במתמטיקה כדי לשלב את הגנטיקה המנדלית עם הברירה הטבעית"
         }
       ],
       "sources": [
@@ -802,7 +844,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ronald-fisher",
-          "quote": "In genetics, Fisher was the one to most comprehensively combine the ideas of Gregor Mendel and Charles Darwin, as his work used mathematics to combine Mendelian genetics and natural selection"
+          "quote": "In genetics, Fisher was the one to most comprehensively combine the ideas of Gregor Mendel and Charles Darwin, as his work used mathematics to combine Mendelian genetics and natural selection",
+          "quoteHe": "בגנטיקה, פישר היה זה ששילב באופן המקיף ביותר את רעיונותיהם של גרגור מנדל וצ׳ארלס דרווין, שכן עבודתו השתמשה במתמטיקה כדי לשלב את הגנטיקה המנדלית עם הברירה הטבעית"
         }
       ],
       "sources": [
@@ -822,7 +865,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-hardy-weinberg-principle",
-          "quote": "Suppose that Aa is a pair of Mendelian characters, A being dominant"
+          "quote": "Suppose that Aa is a pair of Mendelian characters, A being dominant",
+          "quoteHe": "נניח ש-Aa הוא זוג של תכונות מנדליות, כאשר A דומיננטית"
         }
       ],
       "sources": [
@@ -842,7 +886,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-charles-darwin",
-          "quote": "He was writing up his theory in 1858 when Wallace sent him an essay outlining the same idea"
+          "quote": "He was writing up his theory in 1858 when Wallace sent him an essay outlining the same idea",
+          "quoteHe": "הוא היה בשלבי כתיבת התאוריה שלו ב-1858 כשוואלאס שלח לו מסה שהתוותה את אותו רעיון"
         }
       ],
       "sources": [
@@ -862,7 +907,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-antonie-van-leeuwenhoek",
-          "quote": "Van Leeuwenhoek was one of the first people to observe cells, much like Robert Hooke."
+          "quote": "Van Leeuwenhoek was one of the first people to observe cells, much like Robert Hooke.",
+          "quoteHe": "ואן לוונהוק היה מהאנשים הראשונים שצפו בתאים, בדומה לרוברט הוק."
         }
       ],
       "sources": [
@@ -882,7 +928,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-rudolf-virchow",
-          "quote": "introduced the third dictum in cell theory: Omnis cellula e cellula (\"All cells come from cells\")"
+          "quote": "introduced the third dictum in cell theory: Omnis cellula e cellula (\"All cells come from cells\")",
+          "quoteHe": "הוסיף את העיקרון השלישי בתורת התא: Omnis cellula e cellula (\"כל התאים באים מתאים\")"
         }
       ],
       "sources": [
@@ -902,7 +949,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-thomas-hunt-morgan",
-          "quote": "The activities of 'geneticists' were aimed at further elucidation of the details and implications of the Mendelian-chromosome theory developed between 1910 and 1915."
+          "quote": "The activities of 'geneticists' were aimed at further elucidation of the details and implications of the Mendelian-chromosome theory developed between 1910 and 1915.",
+          "quoteHe": "פעילותם של ה'גנטיקאים' כוונה להבהרה נוספת של הפרטים וההשלכות של התאוריה המנדלית-כרומוזומלית שפותחה בין 1910 ל-1915."
         }
       ],
       "sources": [
@@ -922,7 +970,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-friedrich-miescher",
-          "quote": "Before Watson and Crick in 1953 Came Friedrich Miescher in 1869."
+          "quote": "Before Watson and Crick in 1953 Came Friedrich Miescher in 1869.",
+          "quoteHe": "לפני ווטסון וקריק ב-1953 בא פרידריך מישר ב-1869."
         }
       ],
       "sources": [
@@ -942,7 +991,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-voltaic-pile",
-          "quote": "Use of the voltaic pile enabled a rapid series of other discoveries, including the electrical decomposition (electrolysis) of water into oxygen and hydrogen"
+          "quote": "Use of the voltaic pile enabled a rapid series of other discoveries, including the electrical decomposition (electrolysis) of water into oxygen and hydrogen",
+          "quoteHe": "השימוש בערמה הוולטאית אפשר שורה מהירה של תגליות נוספות, ובהן הפירוק החשמלי (אלקטרוליזה) של מים לחמצן ולמימן"
         }
       ],
       "sources": [
@@ -962,7 +1012,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-la-ge-ome-trie",
-          "quote": "was published in 1637 as an appendix to Discours de la méthode (Discourse on the Method), written by René Descartes."
+          "quote": "was published in 1637 as an appendix to Discours de la méthode (Discourse on the Method), written by René Descartes.",
+          "quoteHe": "פורסם ב-1637 כנספח ל\"מאמר על המתודה\" (Discours de la méthode) מאת רנה דקארט."
         }
       ],
       "sources": [
@@ -982,7 +1033,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-immanuel-kant",
-          "quote": "Like many of his contemporaries, Kant was greatly impressed with the scientific advances made by Sir Isaac Newton and others."
+          "quote": "Like many of his contemporaries, Kant was greatly impressed with the scientific advances made by Sir Isaac Newton and others.",
+          "quoteHe": "כמו רבים מבני דורו, קאנט התרשם מאוד מההתקדמות המדעית של סר אייזק ניוטון ואחרים."
         }
       ],
       "sources": [
@@ -1002,7 +1054,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-karl-popper",
-          "quote": "Popper thought that Einstein's theory, as a theory properly grounded in scientific thought and method, was highly \"risky\""
+          "quote": "Popper thought that Einstein's theory, as a theory properly grounded in scientific thought and method, was highly \"risky\"",
+          "quoteHe": "פופר חשב שהתאוריה של איינשטיין, כתאוריה המבוססת כראוי על חשיבה ושיטה מדעיות, הייתה \"מסוכנת\" מאוד"
         }
       ],
       "sources": [
@@ -1022,7 +1075,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-karl-popper",
-          "quote": "I approached the problem of induction through Hume."
+          "quote": "I approached the problem of induction through Hume.",
+          "quoteHe": "ניגשתי לבעיית האינדוקציה דרך יום."
         }
       ],
       "sources": [
@@ -1042,7 +1096,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-the-copernican-revolution-book",
-          "quote": "The Copernican Revolution is a 1957 book by the philosopher Thomas Kuhn, in which the author provides an analysis of the Copernican Revolution"
+          "quote": "The Copernican Revolution is a 1957 book by the philosopher Thomas Kuhn, in which the author provides an analysis of the Copernican Revolution",
+          "quoteHe": "המהפכה הקופרניקנית הוא ספר משנת 1957 מאת הפילוסוף תומאס קון, שבו המחבר מנתח את המהפכה הקופרניקנית"
         }
       ],
       "sources": [
@@ -1062,7 +1117,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-guide-for-the-perplexed",
-          "quote": "While Aristotle's view with respect to the eternity of the universe is rejected, Maimonides extensively borrows his proofs of the existence of God and his concepts such as the Prime Mover"
+          "quote": "While Aristotle's view with respect to the eternity of the universe is rejected, Maimonides extensively borrows his proofs of the existence of God and his concepts such as the Prime Mover",
+          "quoteHe": "אף שהרמב״ם דוחה את השקפת אריסטו בדבר נצחיות העולם, הוא שואל ממנו בהרחבה את הוכחותיו למציאות האל ומושגים כמו המניע הראשון"
         }
       ],
       "sources": [
@@ -1082,7 +1138,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-thomas-aquinas",
-          "quote": "He embraced several ideas put forward by Aristotle and sought to synthesize Aristotelian philosophy with the principles of Christianity."
+          "quote": "He embraced several ideas put forward by Aristotle and sought to synthesize Aristotelian philosophy with the principles of Christianity.",
+          "quoteHe": "הוא אימץ כמה רעיונות שהעלה אריסטו, וביקש ליצור סינתזה בין הפילוסופיה האריסטוטלית לבין עקרונות הנצרות."
         }
       ],
       "sources": [
@@ -1102,7 +1159,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-thomas-aquinas",
-          "quote": "It was at this university that Thomas was presumably introduced to Aristotle, Averroes and Maimonides, all of whom would influence his theological philosophy."
+          "quote": "It was at this university that Thomas was presumably introduced to Aristotle, Averroes and Maimonides, all of whom would influence his theological philosophy.",
+          "quoteHe": "באוניברסיטה זו נחשף תומאס ככל הנראה לאריסטו, לאבן רושד ולרמב״ם, שכולם השפיעו על הפילוסופיה התאולוגית שלו."
         }
       ],
       "sources": [
@@ -1122,7 +1180,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-baruch-spinoza",
-          "quote": "Influenced by Stoicism, Thomas Hobbes, René Descartes, and heterodox Christians"
+          "quote": "Influenced by Stoicism, Thomas Hobbes, René Descartes, and heterodox Christians",
+          "quoteHe": "בהשפעת הסטואה, תומאס הובס, רנה דקארט ונוצרים בעלי דעות חריגות"
         }
       ],
       "sources": [
@@ -1142,7 +1201,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-baruch-spinoza",
-          "quote": "Influenced by Stoicism, Thomas Hobbes, René Descartes, and heterodox Christians"
+          "quote": "Influenced by Stoicism, Thomas Hobbes, René Descartes, and heterodox Christians",
+          "quoteHe": "בהשפעת הסטואה, תומאס הובס, רנה דקארט ונוצרים בעלי דעות חריגות"
         }
       ],
       "sources": [
@@ -1162,7 +1222,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-robert-boyle",
-          "quote": "Boyle's great merit as a scientific investigator is that he carried out the principles which Francis Bacon espoused in the Novum Organum."
+          "quote": "Boyle's great merit as a scientific investigator is that he carried out the principles which Francis Bacon espoused in the Novum Organum.",
+          "quoteHe": "גדולתו של בויל כחוקר מדעי היא בכך שיישם את העקרונות שבהם דגל פרנסיס בייקון ב\"אורגנון החדש\"."
         }
       ],
       "sources": [
@@ -1182,7 +1243,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-john-locke",
-          "quote": "During this period, he discussed matters with such figures as John Dryden and Isaac Newton."
+          "quote": "During this period, he discussed matters with such figures as John Dryden and Isaac Newton.",
+          "quoteHe": "בתקופה זו שוחח בנושאים שונים עם דמויות כמו ג׳ון דריידן ואייזק ניוטון."
         }
       ],
       "sources": [
@@ -1202,7 +1264,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-avicenna",
-          "quote": "Avicenna's commentaries on Aristotle often criticized the philosopher"
+          "quote": "Avicenna's commentaries on Aristotle often criticized the philosopher",
+          "quoteHe": "הפירושים של אבן סינא לאריסטו מתחו לעתים קרובות ביקורת על הפילוסוף"
         }
       ],
       "sources": [
@@ -1222,7 +1285,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-baruch-spinoza",
-          "quote": "In 1676, Leibniz traveled to The Hague to meet Spinoza, remaining with him for three days to converse about current events and philosophy."
+          "quote": "In 1676, Leibniz traveled to The Hague to meet Spinoza, remaining with him for three days to converse about current events and philosophy.",
+          "quoteHe": "ב-1676 נסע לייבניץ להאג כדי לפגוש את שפינוזה, ונשאר עמו שלושה ימים כדי לשוחח על אירועי השעה ועל פילוסופיה."
         }
       ],
       "sources": [
@@ -1242,7 +1306,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-vincenzo-galilei",
-          "quote": "mainly in his research (assisted by his son Galileo) in the mathematical formula of stretched strings."
+          "quote": "mainly in his research (assisted by his son Galileo) in the mathematical formula of stretched strings.",
+          "quoteHe": "בעיקר במחקרו (בסיוע בנו גלילאו) על הנוסחה המתמטית של מיתרים מתוחים."
         }
       ],
       "sources": [
@@ -1262,7 +1327,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-galileo-galilei",
-          "quote": "Vincenzo was part of the Florentine Camerata, which laid the groundwork for the new genre of opera."
+          "quote": "Vincenzo was part of the Florentine Camerata, which laid the groundwork for the new genre of opera.",
+          "quoteHe": "וינצ׳נצו היה חבר בקמרטה הפלורנטינית, שהניחה את היסודות לסוגה החדשה של האופרה."
         }
       ],
       "sources": [
@@ -1282,7 +1348,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ludwig-van-beethoven",
-          "quote": "the chief piece he plays is Das wohltemperierte Klavier of Sebastian Bach, which Herr Neefe puts into his hands"
+          "quote": "the chief piece he plays is Das wohltemperierte Klavier of Sebastian Bach, which Herr Neefe puts into his hands",
+          "quoteHe": "היצירה העיקרית שהוא מנגן היא \"הפסנתר המושווה היטב\" של סבסטיאן באך, שהר נפה מוסר לידיו"
         }
       ],
       "sources": [
@@ -1302,7 +1369,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-claude-debussy",
-          "quote": "Debussy heard the first act of Wagner's Tristan und Isolde at the Concerts Lamoureux and judged it \"decidedly the finest thing I know\"."
+          "quote": "Debussy heard the first act of Wagner's Tristan und Isolde at the Concerts Lamoureux and judged it \"decidedly the finest thing I know\".",
+          "quoteHe": "דביסי שמע את המערכה הראשונה של \"טריסטן ואיזולדה\" של וגנר בקונצרטים למורו, וקבע שזה \"ללא ספק הדבר היפה ביותר שאני מכיר\"."
         }
       ],
       "sources": [
@@ -1322,7 +1390,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-tristan-und-isolde",
-          "quote": "directly inspiring Anton Bruckner, Gustav Mahler, Richard Strauss, Alban Berg, Arnold Schoenberg"
+          "quote": "directly inspiring Anton Bruckner, Gustav Mahler, Richard Strauss, Alban Berg, Arnold Schoenberg",
+          "quoteHe": "והיה השראה ישירה לאנטון ברוקנר, גוסטב מאהלר, ריכרד שטראוס, אלבן ברג, ארנולד שנברג"
         }
       ],
       "sources": [
@@ -1342,7 +1411,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-friedrich-nietzsche",
-          "quote": "drew inspiration from such diverse sources as Greek tragedy, Arthur Schopenhauer, Ralph Waldo Emerson, and Richard Wagner"
+          "quote": "drew inspiration from such diverse sources as Greek tragedy, Arthur Schopenhauer, Ralph Waldo Emerson, and Richard Wagner",
+          "quoteHe": "שאב השראה ממקורות מגוונים כמו הטרגדיה היוונית, ארתור שופנהאואר, ראלף וולדו אמרסון וריכרד וגנר"
         }
       ],
       "sources": [
@@ -1362,7 +1432,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-the-rite-of-spring",
-          "quote": "he and the composer Claude Debussy played the first half of this together, in June 1912."
+          "quote": "he and the composer Claude Debussy played the first half of this together, in June 1912.",
+          "quoteHe": "הוא והמלחין קלוד דביסי ניגנו יחד את המחצית הראשונה שלה ביוני 1912."
         }
       ],
       "sources": [
@@ -1382,7 +1453,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-marin-mersenne",
-          "quote": "He was a staunch defender of Galileo, assisting him in translations of some of his mechanical works."
+          "quote": "He was a staunch defender of Galileo, assisting him in translations of some of his mechanical works.",
+          "quoteHe": "הוא היה מגינו הנאמן של גלילאו, וסייע לו בתרגום חלק מעבודותיו במכניקה."
         }
       ],
       "sources": [
@@ -1402,7 +1474,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-thomas-hobbes",
-          "quote": "was later a regular debater in philosophic groups in Paris, held together by Marin Mersenne."
+          "quote": "was later a regular debater in philosophic groups in Paris, held together by Marin Mersenne.",
+          "quoteHe": "לימים היה משתתף קבוע בוויכוחים בחוגים פילוסופיים בפריז, שאותם ליכד מרן מרסן."
         }
       ],
       "sources": [
@@ -1422,7 +1495,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-marin-mersenne",
-          "quote": "Among his correspondents were Descartes, Galileo, Roberval, Pascal, Beeckman and other scientists."
+          "quote": "Among his correspondents were Descartes, Galileo, Roberval, Pascal, Beeckman and other scientists.",
+          "quoteHe": "בין אלה שהתכתב עמם היו דקארט, גלילאו, רוברוואל, פסקל, בקמן ומדענים נוספים."
         }
       ],
       "sources": [
@@ -1442,7 +1516,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-andrea-palladio",
-          "quote": "Palladio, influenced by Roman and Greek architecture, primarily Vitruvius"
+          "quote": "Palladio, influenced by Roman and Greek architecture, primarily Vitruvius",
+          "quoteHe": "פלאדיו, בהשפעת האדריכלות הרומית והיוונית, ובעיקר ויטרוביוס"
         }
       ],
       "sources": [
@@ -1462,7 +1537,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-vitruvian-man",
-          "quote": "Inspired by the Roman architect Vitruvius, it depicts a nude man in two overlapping standing positions, inscribed within a circle and a square."
+          "quote": "Inspired by the Roman architect Vitruvius, it depicts a nude man in two overlapping standing positions, inscribed within a circle and a square.",
+          "quoteHe": "הוא נעשה בהשראת האדריכל הרומי ויטרוביוס, ומתאר אדם עירום בשתי תנוחות עמידה חופפות, החסום במעגל ובריבוע."
         }
       ],
       "sources": [
@@ -1482,7 +1558,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-su-leymaniye-mosque",
-          "quote": "Suleiman's mosque, in turn, references the Hagia Sophia, Justinian's creation, in its design and layout."
+          "quote": "Suleiman's mosque, in turn, references the Hagia Sophia, Justinian's creation, in its design and layout.",
+          "quoteHe": "המסגד של סולימאן, מצדו, מתייחס בתכנונו ובפריסתו לאיה סופיה, יצירתו של יוסטיניאנוס."
         }
       ],
       "sources": [
@@ -1502,7 +1579,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-anthemius-of-tralles",
-          "quote": "This work was later known to Arab mathematicians such as Alhazen."
+          "quote": "This work was later known to Arab mathematicians such as Alhazen.",
+          "quoteHe": "יצירה זו הייתה מוכרת לימים למתמטיקאים ערבים כמו אבן אל-היית׳ם."
         }
       ],
       "sources": [
@@ -1522,7 +1600,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-holy-trinity-masaccio",
-          "quote": "Brunelleschi's experiments in linear perspective likely were the inspiration for the perspectival construction of the painting."
+          "quote": "Brunelleschi's experiments in linear perspective likely were the inspiration for the perspectival construction of the painting.",
+          "quoteHe": "הניסויים של ברונלסקי בפרספקטיבה קווית היו ככל הנראה ההשראה למבנה הפרספקטיבי של הציור."
         }
       ],
       "sources": [
@@ -1542,7 +1621,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-robert-hooke",
-          "quote": "Hooke often met Christopher Wren, with whom he shared many interests"
+          "quote": "Hooke often met Christopher Wren, with whom he shared many interests",
+          "quoteHe": "הוק נפגש לעתים קרובות עם כריסטופר רן, שעמו חלק תחומי עניין רבים"
         }
       ],
       "sources": [
@@ -1562,7 +1642,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-wassily-kandinsky",
-          "quote": "In 1921, Kandinsky was invited to go to Germany to attend the Bauhaus of Weimar by its founder, architect Walter Gropius."
+          "quote": "In 1921, Kandinsky was invited to go to Germany to attend the Bauhaus of Weimar by its founder, architect Walter Gropius.",
+          "quoteHe": "ב-1921 הוזמן קנדינסקי לבוא לגרמניה ולהשתתף בבאוהאוס בוויימאר על ידי מייסדו, האדריכל ולטר גרופיוס."
         }
       ],
       "sources": [
@@ -1582,7 +1663,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ludwig-mies-van-der-rohe",
-          "quote": "In the 1930s, Mies was the last director of the Bauhaus"
+          "quote": "In the 1930s, Mies was the last director of the Bauhaus",
+          "quoteHe": "בשנות ה-30 היה מיס המנהל האחרון של הבאוהאוס"
         }
       ],
       "sources": [
@@ -1602,7 +1684,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ludwig-mies-van-der-rohe",
-          "quote": "He worked alongside Le Corbusier and Walter Gropius"
+          "quote": "He worked alongside Le Corbusier and Walter Gropius",
+          "quoteHe": "הוא עבד לצד לה קורבוזיה וולטר גרופיוס"
         }
       ],
       "sources": [
@@ -1622,11 +1705,13 @@
       "evidence": [
         {
           "sourceId": "s-wp-patrick-geddes",
-          "quote": "This section of Tel Aviv that was originally planned by Sir Patrick Geddes would later be recognized as \"The White City\""
+          "quote": "This section of Tel Aviv that was originally planned by Sir Patrick Geddes would later be recognized as \"The White City\"",
+          "quoteHe": "חלק זה של תל אביב, שתוכנן במקור על ידי סר פטריק גדס, יוכר לימים כ\"העיר הלבנה\""
         },
         {
           "sourceId": "s-wp-white-city-tel-aviv",
-          "quote": "built in a unique form of the International Style, commonly known as Bauhaus"
+          "quote": "built in a unique form of the International Style, commonly known as Bauhaus",
+          "quoteHe": "שנבנו בצורה ייחודית של הסגנון הבין-לאומי, הידועה בדרך כלל כבאוהאוס"
         }
       ],
       "sources": [
@@ -1647,7 +1732,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-johannes-vermeer",
-          "quote": "Vermeer was in close connection with pioneer lens maker Antonie van Leeuwenhoek, who was his executor after death."
+          "quote": "Vermeer was in close connection with pioneer lens maker Antonie van Leeuwenhoek, who was his executor after death.",
+          "quoteHe": "ורמיר היה בקשר הדוק עם יצרן העדשות החלוצי אנטוני ואן לוונהוק, שהיה מנהל עזבונו לאחר מותו."
         }
       ],
       "sources": [
@@ -1667,7 +1753,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-wassily-kandinsky",
-          "quote": "As the Der Blaue Reiter Almanac essays and theorising with composer Arnold Schoenberg indicate"
+          "quote": "As the Der Blaue Reiter Almanac essays and theorising with composer Arnold Schoenberg indicate",
+          "quoteHe": "כפי שמעידים המסות באלמנך \"הפרש הכחול\" והתאוריות שפיתח עם המלחין ארנולד שנברג"
         }
       ],
       "sources": [
@@ -1687,7 +1774,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-pre-lude-a-l-apre-s-midi-d-un-faune",
-          "quote": "Debussy's work later provided the basis for the ballet Afternoon of a Faun choreographed by Vaslav Nijinsky"
+          "quote": "Debussy's work later provided the basis for the ballet Afternoon of a Faun choreographed by Vaslav Nijinsky",
+          "quoteHe": "יצירתו של דביסי שימשה מאוחר יותר בסיס לבלט \"אחר הצהריים של פאון\" בכוריאוגרפיה של וצלב ניז׳ינסקי"
         }
       ],
       "sources": [
@@ -1707,7 +1795,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-vaslav-nijinsky",
-          "quote": "for which he choreographed such influential ballets as L'après-midi d'un faune (1912), Le Sacre du Printemps (1913)"
+          "quote": "for which he choreographed such influential ballets as L'après-midi d'un faune (1912), Le Sacre du Printemps (1913)",
+          "quoteHe": "שעבורו יצר בלטים רבי השפעה כמו \"אחר הצהריים של פאון\" (1912) ו\"פולחן האביב\" (1913)"
         }
       ],
       "sources": [
@@ -1727,7 +1816,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-apollo-ballet",
-          "quote": "is a neoclassical ballet in two tableaux composed between 1927 and 1928 by Igor Stravinsky."
+          "quote": "is a neoclassical ballet in two tableaux composed between 1927 and 1928 by Igor Stravinsky.",
+          "quoteHe": "הוא בלט ניאו-קלאסי בשתי תמונות שהלחין איגור סטרווינסקי בין 1927 ל-1928."
         }
       ],
       "sources": [
@@ -1747,7 +1837,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-georges-me-lie-s",
-          "quote": "Méliès attended a special private demonstration of the Lumière brothers' cinematograph"
+          "quote": "Méliès attended a special private demonstration of the Lumière brothers' cinematograph",
+          "quoteHe": "מלייס השתתף בהדגמה פרטית מיוחדת של הקולנוע (סינמטוגרף) של האחים לומייר"
         }
       ],
       "sources": [
@@ -1767,7 +1858,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-alexander-calder",
-          "quote": "were christened \"mobiles\" by Marcel Duchamp"
+          "quote": "were christened \"mobiles\" by Marcel Duchamp",
+          "quoteHe": "כונו \"מוביילים\" על ידי מרסל דושאן"
         }
       ],
       "sources": [
@@ -1787,7 +1879,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-constantin-bra-ncus-i",
-          "quote": "In March 1907, Brâncuși began working as an assistant to Auguste Rodin."
+          "quote": "In March 1907, Brâncuși began working as an assistant to Auguste Rodin.",
+          "quoteHe": "במרץ 1907 החל ברנקוזי לעבוד כעוזרו של אוגוסט רודן."
         }
       ],
       "sources": [
@@ -1807,7 +1900,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-david-michelangelo",
-          "quote": "David was originally commissioned as one of a series of statues of twelve prophets to be positioned along the roofline of the east end of Florence Cathedral"
+          "quote": "David was originally commissioned as one of a series of statues of twelve prophets to be positioned along the roofline of the east end of Florence Cathedral",
+          "quoteHe": "דוד הוזמן במקור כאחד מסדרת פסלים של שנים-עשר נביאים שנועדו להיות מוצבים לאורך קו הגג של הקצה המזרחי של הקתדרלה של פירנצה"
         }
       ],
       "sources": [
@@ -1827,7 +1921,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-metropolis-1927-film",
-          "quote": "the film's art direction by Otto Hunte, Erich Kettelhut, and Karl Vollbrecht draws influence from opera, Bauhaus, Cubist, and Futurist design"
+          "quote": "the film's art direction by Otto Hunte, Erich Kettelhut, and Karl Vollbrecht draws influence from opera, Bauhaus, Cubist, and Futurist design",
+          "quoteHe": "עיצוב האמנותי של הסרט, מאת אוטו הונטה, אריך קטלהוט וקרל פולברכט, שואב השפעה מהאופרה, מהבאוהאוס ומהעיצוב הקוביסטי והפוטוריסטי"
         }
       ],
       "sources": [
@@ -1847,7 +1942,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-metropolis-1927-film",
-          "quote": "draws influence from opera, Bauhaus, Cubist, and Futurist design"
+          "quote": "draws influence from opera, Bauhaus, Cubist, and Futurist design",
+          "quoteHe": "שואב השפעה מהאופרה, מהבאוהאוס ומהעיצוב הקוביסטי והפוטוריסטי"
         }
       ],
       "sources": [
@@ -1867,7 +1963,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-rashi",
-          "quote": "His commentary on the Talmud, which covers nearly all of the Babylonian Talmud"
+          "quote": "His commentary on the Talmud, which covers nearly all of the Babylonian Talmud",
+          "quoteHe": "פירושו לתלמוד, המכסה כמעט את כל התלמוד הבבלי"
         }
       ],
       "sources": [
@@ -1887,7 +1984,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-shulchan-aruch",
-          "quote": "Karo adopted the halakhot of Isaac Alfasi, Maimonides, and Asher ben Jehiel as his stand"
+          "quote": "Karo adopted the halakhot of Isaac Alfasi, Maimonides, and Asher ben Jehiel as his stand",
+          "quoteHe": "קארו אימץ את ההלכות של רבי יצחק אלפסי, הרמב״ם ורבי אשר בן יחיאל כעמדתו"
         }
       ],
       "sources": [
@@ -1907,7 +2005,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-ninety-five-theses",
-          "quote": "The Latin Theses were printed in a four-page pamphlet in Basel, and as placards in Leipzig and Nuremberg."
+          "quote": "The Latin Theses were printed in a four-page pamphlet in Basel, and as placards in Leipzig and Nuremberg.",
+          "quoteHe": "התזות בלטינית הודפסו בקונטרס בן ארבעה עמודים בבזל, וככרזות בלייפציג ובנירנברג."
         }
       ],
       "sources": [
@@ -1927,7 +2026,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-jean-piaget",
-          "quote": "Piaget assisted in the marking of Binet's intelligence tests."
+          "quote": "Piaget assisted in the marking of Binet's intelligence tests.",
+          "quoteHe": "פיאז׳ה סייע בבדיקת מבחני האינטליגנציה של בינה."
         }
       ],
       "sources": [
@@ -1947,7 +2047,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-sigmund-freud",
-          "quote": "Freud owned and made use of Charles Darwin's major evolutionary writings"
+          "quote": "Freud owned and made use of Charles Darwin's major evolutionary writings",
+          "quoteHe": "פרויד החזיק ברשותו את כתביו האבולוציוניים העיקריים של צ׳ארלס דרווין ועשה בהם שימוש"
         }
       ],
       "sources": [
@@ -1967,7 +2068,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-karl-popper",
-          "quote": "Popper believed that there was a contrast between the theories of Sigmund Freud and Alfred Adler, which he considered non-scientific"
+          "quote": "Popper believed that there was a contrast between the theories of Sigmund Freud and Alfred Adler, which he considered non-scientific",
+          "quoteHe": "פופר סבר שיש ניגוד בין התאוריות של זיגמונד פרויד ואלפרד אדלר, שאותן ראה כלא-מדעיות"
         }
       ],
       "sources": [
@@ -1987,7 +2089,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-karate",
-          "quote": "Funakoshi incorporated elements from judo, such as the training uniforms, colored belts, and ranking systems."
+          "quote": "Funakoshi incorporated elements from judo, such as the training uniforms, colored belts, and ranking systems.",
+          "quoteHe": "פונאקושי שילב מרכיבים מהג׳ודו, כמו מדי האימון, החגורות הצבעוניות ושיטות הדירוג."
         }
       ],
       "sources": [
@@ -2007,7 +2110,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-brazilian-jiu-jitsu",
-          "quote": "Maeda's demonstrations of \"Kano jiu-jitsu\"—a term then synonymous with judo—laid the groundwork for what would become Brazilian jiu-jitsu."
+          "quote": "Maeda's demonstrations of \"Kano jiu-jitsu\"—a term then synonymous with judo—laid the groundwork for what would become Brazilian jiu-jitsu.",
+          "quoteHe": "ההדגמות של מאדה ב\"ג׳יו-ג׳יטסו של קאנו\", מונח שהיה אז נרדף לג׳ודו, הניחו את היסודות למה שיהפוך לג׳יו-ג׳יטסו ברזילאי."
         }
       ],
       "sources": [
@@ -2027,11 +2131,13 @@
       "evidence": [
         {
           "sourceId": "s-wp-martin-luther",
-          "quote": "Johann Sebastian Bach included several verses as chorales in his cantatas"
+          "quote": "Johann Sebastian Bach included several verses as chorales in his cantatas",
+          "quoteHe": "יוהאן סבסטיאן באך שילב כמה בתים ככוראלים בקנטטות שלו"
         },
         {
           "sourceId": "s-wp-johann-sebastian-bach",
-          "quote": "He adopted Lutheran hymns, not only in his larger vocal works but also in such works as his four-part chorales and his sacred songs."
+          "quote": "He adopted Lutheran hymns, not only in his larger vocal works but also in such works as his four-part chorales and his sacred songs.",
+          "quoteHe": "הוא אימץ מזמורים לותרניים, לא רק ביצירותיו הקוליות הגדולות אלא גם ביצירות כמו הכוראלים לארבעה קולות והשירים הדתיים שלו."
         }
       ],
       "sources": [
@@ -2052,7 +2158,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-maimonides",
-          "quote": "Maimonides primarily relied upon the science of Aristotle and the teachings of the Talmud"
+          "quote": "Maimonides primarily relied upon the science of Aristotle and the teachings of the Talmud",
+          "quoteHe": "הרמב״ם הסתמך בעיקר על המדע של אריסטו ועל תורת התלמוד"
         }
       ],
       "sources": [
@@ -2072,7 +2179,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-zohar",
-          "quote": "Joseph ibn Shem-Tov drew arguments from it in his attacks against Maimonides"
+          "quote": "Joseph ibn Shem-Tov drew arguments from it in his attacks against Maimonides",
+          "quoteHe": "יוסף אבן שם טוב שאב ממנו טיעונים בהתקפותיו על הרמב״ם"
         }
       ],
       "sources": [
@@ -2092,7 +2200,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-martin-luther",
-          "quote": "he thereafter developed a love-hate relationship with Aristotle over Aristotle's emphasis on reason."
+          "quote": "he thereafter developed a love-hate relationship with Aristotle over Aristotle's emphasis on reason.",
+          "quoteHe": "לאחר מכן פיתח יחסי אהבה-שנאה עם אריסטו, בשל הדגש של אריסטו על התבונה."
         }
       ],
       "sources": [
@@ -2112,7 +2221,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-hermann-von-helmholtz",
-          "quote": "The sensory physiology of Helmholtz was the basis of the work of Wilhelm Wundt, Helmholtz's student"
+          "quote": "The sensory physiology of Helmholtz was the basis of the work of Wilhelm Wundt, Helmholtz's student",
+          "quoteHe": "הפיזיולוגיה של החושים של הלמהולץ הייתה הבסיס לעבודתו של וילהלם וונט, תלמידו של הלמהולץ"
         }
       ],
       "sources": [
@@ -2132,7 +2242,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-william-james",
-          "quote": "While James accepted Darwin's theories of biological evolution, he regarded social Darwinism as propagated by philosophers such as Herbert Spencer to be a sham."
+          "quote": "While James accepted Darwin's theories of biological evolution, he regarded social Darwinism as propagated by philosophers such as Herbert Spencer to be a sham.",
+          "quoteHe": "אף שג׳יימס קיבל את תורת האבולוציה הביולוגית של דרווין, הוא ראה בדרוויניזם החברתי, כפי שהפיצו אותו פילוסופים כמו הרברט ספנסר, הונאה."
         }
       ],
       "sources": [
@@ -2152,7 +2263,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-jean-piaget",
-          "quote": "Piaget, drawing on Kantian theory, proposed that morality developed out of peer interaction and that it was autonomous from authority mandates."
+          "quote": "Piaget, drawing on Kantian theory, proposed that morality developed out of peer interaction and that it was autonomous from authority mandates.",
+          "quoteHe": "פיאז׳ה, בהסתמך על התאוריה הקאנטיאנית, הציע שהמוסר התפתח מתוך אינטראקציה בין בני גיל, ושהוא אוטונומי ביחס לצווי סמכות."
         }
       ],
       "sources": [
@@ -2172,7 +2284,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-sigmund-freud",
-          "quote": "In 1908, Freud said that he occasionally read Nietzsche and was strongly fascinated by his writings"
+          "quote": "In 1908, Freud said that he occasionally read Nietzsche and was strongly fascinated by his writings",
+          "quoteHe": "ב-1908 אמר פרויד שהוא קורא מדי פעם את ניטשה ושכתביו מרתקים אותו מאוד"
         }
       ],
       "sources": [
@@ -2192,11 +2305,13 @@
       "evidence": [
         {
           "sourceId": "s-wp-moshe-feldenkrais",
-          "quote": "In September 1933, he met Jigoro Kano, the founder of judo in Paris."
+          "quote": "In September 1933, he met Jigoro Kano, the founder of judo in Paris.",
+          "quoteHe": "בספטמבר 1933 פגש בפריז את ג׳יגורו קאנו, מייסד הג׳ודו."
         },
         {
           "sourceId": "s-wp-moshe-feldenkrais",
-          "quote": "Feldenkrais became a close friend of Kano and corresponded with him regularly."
+          "quote": "Feldenkrais became a close friend of Kano and corresponded with him regularly.",
+          "quoteHe": "פלדנקרייז נעשה חבר קרוב של קאנו והתכתב עמו באופן קבוע."
         }
       ],
       "sources": [
@@ -2216,7 +2331,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-sanshiro-sugata",
-          "quote": "The film is based on the 1942 novel by Tsuneo Tomita, which is a roman à clef of prominent judoka Shirō Saigō and the Kodokan–Totsuka rivalry."
+          "quote": "The film is based on the 1942 novel by Tsuneo Tomita, which is a roman à clef of prominent judoka Shirō Saigō and the Kodokan–Totsuka rivalry.",
+          "quoteHe": "הסרט מבוסס על הרומן משנת 1942 מאת צונאו טומיטה, רומן מפתח על הג׳ודוקה הבולט שירו סאיגו ועל היריבות בין הקודוקן לבין אסכולת טוצוקה."
         }
       ],
       "sources": [
@@ -2236,7 +2352,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-nippon-budokan",
-          "quote": "It was originally built for the inaugural Olympic judo competition in the 1964 Summer Olympics."
+          "quote": "It was originally built for the inaugural Olympic judo competition in the 1964 Summer Olympics.",
+          "quoteHe": "הוא נבנה במקור לתחרות הג׳ודו האולימפית הראשונה, במשחקים האולימפיים של קיץ 1964."
         }
       ],
       "sources": [
@@ -2256,7 +2373,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-pankration",
-          "quote": "As indicated by Plato in his Laws, an important element of strategy was to understand if the opponent had a weak or untrained side"
+          "quote": "As indicated by Plato in his Laws, an important element of strategy was to understand if the opponent had a weak or untrained side",
+          "quoteHe": "כפי שציין אפלטון ב\"החוקים\", מרכיב חשוב באסטרטגיה היה להבין אם ליריב יש צד חלש או לא מאומן"
         }
       ],
       "sources": [
@@ -2276,7 +2394,8 @@
       "evidence": [
         {
           "sourceId": "s-wp-pankration",
-          "quote": "it is very clear (including in Aristotle's Nicomachean Ethics) that the objective of a teacher of combat sports was to help each of his athletes to develop his personal style"
+          "quote": "it is very clear (including in Aristotle's Nicomachean Ethics) that the objective of a teacher of combat sports was to help each of his athletes to develop his personal style",
+          "quoteHe": "ברור מאוד (כולל באתיקה הניקומכית של אריסטו) שמטרתו של מורה לספורט קרבי הייתה לעזור לכל אחד מספורטאיו לפתח את סגנונו האישי"
         }
       ],
       "sources": [

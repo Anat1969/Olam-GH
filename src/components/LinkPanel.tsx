@@ -1,7 +1,8 @@
 // פאנל של קשר שנבחר: הכלל (ציטוט מהמקור), התובנה והיישום. משותף להשוואה ולמפה.
 import Rich from './Rich';
 import Editable from './Editable';
-import { type End, type Link, confidenceName, endName, linkTypeName, sourceById } from '../data';
+import Quote from './Quote';
+import { type End, type Link, confidenceName, endName, linkTypeName } from '../data';
 
 export type Resolved = { link: Link; a: End; b: End; cross: boolean };
 
@@ -21,12 +22,7 @@ export default function LinkPanel({ selected, pick, set }: { selected: Resolved;
               <div className="grid-3">
                 <div className="tone tone-neutral">
                   <h4>הכלל: למה הם קשורים</h4>
-                  {selected.link.evidence.map((ev, i) => (
-                    <blockquote key={i} className="quote quote-small">
-                      <span dir="ltr" lang="en">“{/^[a-z(]/.test(ev.quote) ? '…' : ''}{ev.quote}”</span>
-                      <footer><a className="src-link" href={sourceById.get(ev.sourceId)?.url} target="_blank" rel="noreferrer" dir="ltr">{sourceById.get(ev.sourceId)?.title}</a></footer>
-                    </blockquote>
-                  ))}
+                  {selected.link.evidence.map((ev, i) => <Quote key={i} ev={ev} small />)}
                 </div>
                 <div className="tone tone-insight"><h4>התובנה: מה זה אומר</h4><Editable as="p" kind="link" id={selected.link.id} field="explanation" value={selected.link.explanation} /></div>
                 <div className="tone tone-solution"><h4>היישום: מה עושים עם זה</h4><Editable as="p" kind="link" id={selected.link.id} field="application" value={selected.link.application || 'עדיין לא נוסח יישום לקשר הזה.'} /></div>

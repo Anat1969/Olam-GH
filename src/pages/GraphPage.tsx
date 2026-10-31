@@ -96,6 +96,22 @@ export default function GraphPage({ params }: { params: Record<string, string> }
     return s;
   }, [focus, edges]);
 
+  // שמות שעולים זה על זה: נשאר השם של הצומת החשוב יותר (מוקד, שכן, יותר קשרים). השאר מופיעים בריחוף ובמוקד.
+  const quiet = useMemo(() => {
+    const rank = (id: string, deg: number) => (id === focus ? 1e6 : neighbors?.has(id) ? 1e5 : 0) + deg;
+    const boxes: [number, number, number, number][] = [];
+    const out = new Set<string>();
+    for (const n of [...nodes].sort((a, b) => rank(b.id, b.degree) - rank(a.id, a.degree))) {
+      const p = layout.get(n.id);
+      if (!p) continue;
+      const w = n.person.nameHe.split(' ').slice(-1)[0].length * 7 + 6;
+      const b: [number, number, number, number] = [p.x! - w / 2, p.y! + p.r + 3, p.x! + w / 2, p.y! + p.r + 18];
+      if (boxes.some((o) => b[0] < o[2] && b[2] > o[0] && b[1] < o[3] && b[3] > o[1])) out.add(n.id);
+      else boxes.push(b);
+    }
+    return out;
+  }, [nodes, layout, focus, neighbors]);
+
   const top = [...nodes].sort((a, b) => b.degree - a.degree)[0];
   const isolated = nodes.filter((n) => n.degree === 0).length;
   const crossN = edges.filter((e) => e.cross).length;
@@ -247,8 +263,8 @@ export default function GraphPage({ params }: { params: Record<string, string> }
                       {n.person.imageUrl
                         ? <image href={n.person.imageUrl} x={-p.r} y={-p.r} width={s} height={s} preserveAspectRatio="xMidYMid meet" clipPath={`url(#clip-${n.id})`} />
                         : <rect x={-p.r} y={-p.r} width={s} height={s} className="g-noimg" />}
-                      <text className="g-label" y={p.r + 15} textAnchor="middle">{n.person.nameHe.split(' ').slice(-1)[0]}</text>
-                      {n.degree > 0 && <text className="g-deg" x={p.r - 2} y={-p.r + 11} textAnchor="end">{n.degree}</text>}
+                      <text className={`g-label${quiet.has(n.id) ? ' is-quiet' : ''}`} y={p.r + 15} textAnchor="middle">{n.person.nameHe.split(' ').slice(-1)[0]}</text>
+                      {n.degree > 0 && <text className={`g-deg${quiet.has(n.id) ? ' is-quiet' : ''}`} x={p.r - 2} y={-p.r + 11} textAnchor="end">{n.degree}</text>}
                     </g>
                   );
                 })}

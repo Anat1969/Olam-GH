@@ -8,7 +8,8 @@ import reportJson from '../data/verification-report.json';
 
 export type Confidence = 'documented' | 'interpretive' | 'hypothesis';
 export type LinkType = 'influenced' | 'enabled' | 'opposed' | 'parallel';
-export interface Evidence { sourceId: string; quote: string }
+/** quote: מילולי מהמקור (אנגלית). quoteHe: תרגום נאמן, מסומן בממשק כתרגום. האימות נעשה תמיד על המקור. */
+export interface Evidence { sourceId: string; quote: string; quoteHe?: string }
 export interface Place {
   wikipedia: string; wikidata?: string; nameHe: string | null; nameFull: string | null;
   lat: number | null; lon: number | null; confidence: Confidence; evidence: Evidence | null;
@@ -26,7 +27,7 @@ export interface Person {
   sources: string[]; verified: boolean; verifiedAt: string | null;
 }
 export interface Discovery {
-  id: string; title: string; yearFrom: number; yearTo: number; yearApprox: boolean; domainId: string;
+  id: string; title: string; yearFrom: number; yearTo: number; yearApprox: boolean; domainId: string; sub?: string; draftId?: string;
   personIds: string[]; place: Place | null; novelty?: string; contribution: string; confidence: Confidence;
   evidence: Evidence[]; sources: string[]; verified: boolean; verifiedAt: string | null;
 }
@@ -35,7 +36,8 @@ export interface Link {
   explanation: string; application?: string; evidence: Evidence[]; sources: string[]; verified: boolean; rejectedReason?: string;
 }
 export interface Source { id: string; title: string; url: string; accessedAt: string | null }
-export interface Domain { id: string; nameHe: string; nameFull: string }
+export interface Sub { id: string; nameHe: string }
+export interface Domain { id: string; nameHe: string; nameFull: string; subs?: Sub[] }
 export interface Family { id: string; nameHe: string; color: string; domains: Domain[] }
 
 export const families = fieldsJson.families as Family[];

@@ -25,7 +25,11 @@ export const xScale = scaleLinear<number, number>()
   .range(FRACS.map((f) => W - PAD - f * (W - 2 * PAD)))
   .clamp(true);
 
-const TICKS = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970, 2000, 2025];
+const TICKS_ALL = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970, 2000, 2025];
+
+// בציר הדחוס שנתות קרובות עולות זו על זו: שומרים רק שנתה במרחק 46 פיקסל לפחות מהשנתה הקודמת שנשמרה
+const TICKS: number[] = [];
+for (const t of TICKS_ALL) if (!TICKS.length || Math.abs(xScale(t) - xScale(TICKS[TICKS.length - 1])) >= 46) TICKS.push(t);
 
 type Item = { d: Discovery; x: number; lane: number; left: number };
 
@@ -63,6 +67,16 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
     if (el) el.scrollLeft = cx - el.clientWidth / 2;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [items]);
+
+  // דמות שנבחרה: השנים שלה מודגשות על הציר, והציר נגלל אליהן
+  const marks = useMemo(() => (selectedPerson ? placed.filter((p) => p.d.personIds.includes(selectedPerson)) : []), [selectedPerson, placed]);
+  useEffect(() => {
+    const el = scroller.current;
+    const m = marks[0];
+    if (!el || !m) return;
+    if (m.x < el.scrollLeft + 60 || m.x > el.scrollLeft + el.clientWidth - 60) el.scrollTo({ left: m.x - el.clientWidth / 2, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedPerson]);
 
   // קשרים של הדמות הנבחרת, כקשתות מעל הציר
   const arcs = useMemo(() => {
@@ -105,6 +119,19 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
               <path key={l.id} className={`tl-arc tl-arc-${l.type}`} d={`M${a},${AXIS_Y} Q${mid},${AXIS_Y - h * 2} ${b},${AXIS_Y}`} />
             );
           })}
+          {/* השנים של הדמות שנבחרה, במרקר על הציר */}
+          {marks.map((m) => {
+            const label = m.d.yearFrom < 0 ? `${-m.d.yearFrom} לפנה״ס` : String(m.d.yearFrom);
+            const w = label.length * 8 + 16;
+            return (
+              <g key={m.d.id} className="tl-mark" data-year={m.d.yearFrom}>
+                {m.d.yearTo !== m.d.yearFrom && <rect className="tl-mark-range" x={Math.min(xScale(m.d.yearFrom), xScale(m.d.yearTo))} y={AXIS_Y - 5} width={Math.abs(xScale(m.d.yearTo) - xScale(m.d.yearFrom))} height={10} />}
+                <line x1={m.x} x2={m.x} y1={AXIS_Y - 40} y2={AXIS_Y + 8} />
+                <rect className="tl-mark-bg" x={m.x - w / 2} y={AXIS_Y - 62} width={w} height={22} rx={3} />
+                <text x={m.x} y={AXIS_Y - 46} textAnchor="middle">{label}</text>
+              </g>
+            );
+          })}
           {/* מחברים בין נקודה לכרטיס */}
           {placed.map((p) => (
             <line key={p.d.id} className={p.d.yearFrom <= year ? 'tl-stem' : 'tl-stem is-hidden'}
@@ -120,8 +147,9 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
           ))}
           {/* שכבת הזכוכית: העולם הנעלם */}
           <rect className="tl-veil" x={0} y={0} width={Math.max(cx, 0)} height={H} />
-          <text className="tl-zone" x={Math.max(cx - 16, 140)} y={24} textAnchor="end">עולם נעלם</text>
-          <text className="tl-zone tl-zone-known" x={Math.min(cx + 16, W - 140)} y={24} textAnchor="start">מציאות מצויה</text>
+          {/* בקצוות הציר אחת השכבות צרה מדי לשם שלה, ושני השמות היו עולים זה על זה */}
+          {cx > PAD + 120 && <text className="tl-zone" x={cx - 16} y={24} textAnchor="end">עולם נעלם</text>}
+          {cx < W - PAD - 120 && <text className="tl-zone tl-zone-known" x={cx + 16} y={24} textAnchor="start">מציאות מצויה</text>}
           <line className="tl-cursor" x1={cx} x2={cx} y1={34} y2={H - 4} />
         </svg>
         <div className="tl-cursor-label" style={{ left: cx }}><bdi className="num">{year < 0 ? -year : year}</bdi>{year < 0 && <span> לפנה״ס</span>}</div>

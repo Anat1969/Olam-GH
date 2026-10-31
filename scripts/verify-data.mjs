@@ -108,6 +108,7 @@ async function commonsImage(file) {
 const yearTokens = (y) => (y < 0 ? [`${-y} BC`, `${-y} BCE`] : [String(y)]);
 
 async function main() {
+  const subsOf = new Map(read('fields.json').families.flatMap((f) => f.domains.map((d) => [d.id, (d.subs || []).map((x) => x.id)])));
   const { _note: pn, persons } = read('persons.json');
   const { _note: dn, discoveries } = read('discoveries.json');
   const { _note: ln, links } = read('links.json');
@@ -173,6 +174,7 @@ async function main() {
     if (!d.evidence.some((ev) => [...yearTokens(d.yearFrom), ...yearTokens(d.yearTo)].some((t) => ev.quote.includes(t)))) reasons.push(`השנה ${d.yearFrom} או ${d.yearTo} לא מופיעה באף ציטוט`);
     for (const pid of d.personIds) if (!personIds.has(pid)) reasons.push(`דמות לא קיימת: ${pid}`);
     if (d.yearTo < d.yearFrom) reasons.push('טווח שנים הפוך');
+    if (d.sub && !subsOf.get(d.domainId)?.includes(d.sub)) reasons.push(`תת-תחום לא קיים בתחום: ${d.sub}`);
     if (d.place) {
       const art = await article(d.place.wikipedia);
       const geo = art?.qid ? await placeFromQid(art.qid) : null;
@@ -218,6 +220,9 @@ async function main() {
 
   console.log('אימות', TODAY, JSON.stringify(report.summary));
   for (const group of ['persons', 'discoveries', 'links']) for (const r of report[group]) if (!r.verified) console.log(`  לא אומת ${r.id}: ${r.reasons.join(' | ')}`);
+  // תרגום עברי לכל ציטוט: הממשק מציג אותו קודם, מסומן כתרגום. חסר תרגום הוא אזהרה, לא כשל, כי האימות נעשה על המקור.
+  const noHe = [...discoveries.flatMap((d) => [...d.evidence, d.place?.evidence].filter(Boolean).map((e) => [d.id, e])), ...links.flatMap((l) => l.evidence.map((e) => [l.id, e]))].filter(([, e]) => !e.quoteHe);
+  if (noHe.length) console.log(`  אזהרה: ${noHe.length} ציטוטים בלי תרגום לעברית (quoteHe): ${[...new Set(noHe.map(([id]) => id))].slice(0, 8).join(', ')}`);
   for (const p of report.places) if (!p.ok) console.log(`  מקום לא אומת ${p.id}: ${p.place}`);
 }
 
