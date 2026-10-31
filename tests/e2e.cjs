@@ -92,6 +92,69 @@ const mock = async (p) => {
     await waitH1(p, '40 גילויים');
     ok((await h1(p)).includes('40 גילויים'), 'שם האפליקציה מוביל לבית');
 
+    // שלב 2: השוואה בין תחומים
+    await p.goto(BASE + '#/compare', { waitUntil: 'networkidle' });
+    await p.locator('.tabs').getByText('השוואה').waitFor();
+    ok(await p.locator('.tabs [aria-current="page"]').innerText() === 'השוואה', 'לשונית השוואה מסומנת');
+    const cmpTitle = await h1(p);
+    const crossN = Number(cmpTitle.match(/\d+/)[0]);
+    ok(/קשרים חוצים בין/.test(cmpTitle) && crossN >= 8, `השוואה: שורת התובנה (${crossN} קשרים חוצים)`);
+    ok(await p.locator('.cmp-rowname').count() === 2, 'שתי שורות תחום על ציר אחד');
+    ok((await p.locator('.cmp-card').count()) + (await p.locator('.cmp-pin').count()) === 40, 'כל 40 הגילויים על הציר המשותף');
+    await p.getByRole('button', { name: '1500–1750' }).click();
+    await p.waitForTimeout(250);
+    ok(p.url().includes('f=1500') && p.url().includes('t=1750'), 'חלון התקופה נשמר בכתובת');
+    ok((await p.locator('.cmp-view').innerText()).includes('1500'), 'חלון הזום מוצג');
+    const inWindow = await p.locator('.cmp-card').count();
+    ok(inWindow > 0 && inWindow < 40, `זום מסונכרן: רק הגילויים בחלון (${inWindow})`);
+    const ys = await p.locator('.cmp-card').evaluateAll((els) => [...new Set(els.map((e) => e.style.top))].length);
+    ok(ys > 2, 'הזום חל על שתי השורות יחד');
+    await p.getByRole('button', { name: 'כל הציר' }).click();
+    await p.waitForTimeout(200);
+    const fullSpan = await p.locator('.cmp-view').innerText();
+    await p.getByRole('button', { name: 'הגדלה' }).click();
+    await p.waitForTimeout(250);
+    ok((await p.locator('.cmp-view').innerText()) !== fullSpan, 'כפתור הגדלה משנה את החלון');
+    const box = await p.locator('.cmp-plot').boundingBox();
+    const beforeDrag = await p.locator('.cmp-view').innerText();
+    await p.mouse.move(box.x + box.width / 2, box.y + box.height / 2 + 20);
+    await p.mouse.down(); await p.mouse.move(box.x + box.width / 2 - 200, box.y + box.height / 2 + 20, { steps: 8 }); await p.mouse.up();
+    await p.waitForTimeout(200);
+    ok((await p.locator('.cmp-view').innerText()) !== beforeDrag, 'גרירה מזיזה את הציר');
+    await p.getByRole('button', { name: 'כל הציר' }).click();
+    await p.locator('.link-item', { hasText: 'רימן' }).click();
+    await p.waitForTimeout(200);
+    ok(p.url().includes('l=l-19'), 'בחירת קשר נשמרת בכתובת');
+    const panel = await p.locator('.link-panel').innerText();
+    ok(panel.includes('הכלל') && panel.includes('התובנה') && panel.includes('היישום'), 'קשר מוצג עם כלל, תובנה ויישום');
+    ok(await p.locator('.link-panel blockquote').count() >= 1, 'הכלל מגיע עם ציטוט מהמקור');
+    ok(await p.locator('.lk.is-on .lk-halo').count() === 1, 'הקשר שנבחר מסומן על הציר');
+    ok(await p.locator('.cmp-card.is-end, .cmp-pin.is-end').count() === 2, 'שני קצות הקשר מודגשים');
+    await p.locator('[data-link="l-26"]').dispatchEvent('click');
+    await p.waitForTimeout(200);
+    ok(p.url().includes('l=l-26') && (await p.locator('.link-panel').innerText()).includes('הויגנס'), 'לחיצה על קו הקשר בוחרת אותו');
+    const allN = await p.locator('.link-item').count();
+    await p.locator('.cmp-controls .line-opposed').click();
+    await p.waitForTimeout(150);
+    ok(p.url().includes('h=opposed') && (await p.locator('.link-item').count()) < allN, 'סינון לפי סוג קשר');
+    await p.locator('.cmp-controls .line-opposed').click();
+    await p.getByRole('button', { name: 'רק חוצי תחום' }).click();
+    await p.waitForTimeout(150);
+    ok((await p.locator('.link-item').count()) === crossN, 'רק קשרים חוצי תחום');
+    await p.locator('.cmp-controls').getByRole('button', { name: /^פיזיקה/ }).click();
+    await p.waitForTimeout(150);
+    ok((await p.locator('.cmp-rowname').count()) === 1 && (await h1(p)).includes('בתוך'), 'אפשר להשאיר תחום אחד');
+    await p.locator('.cmp-controls').getByRole('button', { name: /^פיזיקה/ }).click();
+    await p.locator('[data-id="d-1915-einstein-general"]').click();
+    await p.locator('aside.person').waitFor();
+    ok((await p.locator('.person-name').innerText()).includes('איינשטיין'), 'כרטיס בהשוואה פותח את הדמות');
+    ok((await p.locator('aside.person').innerText()).includes('רימן'), 'כרטיס הדמות כולל את הקשר החדש');
+    await p.keyboard.press('Escape');
+    await p.goto(BASE + '#/compare?f=1600&t=1700&l=l-23', { waitUntil: 'networkidle' });
+    await p.reload({ waitUntil: 'networkidle' });
+    ok((await p.locator('.cmp-view').innerText()).includes('1600') && (await p.locator('.link-panel').innerText()).includes('דקארט'), 'קישור מועתק להשוואה פותח את אותו מצב');
+    ok(await p.locator('.link-panel .conf-interpretive').count() === 1, 'קשר פרשני מסומן בכתום');
+
     await p.goto(BASE + '#/method', { waitUntil: 'networkidle' });
     ok((await h1(p)) === 'כל רשומה נבדקת מול המקור שלה.', 'דף השיטה');
     ok((await p.locator('.rejected').innerText()).includes('l-2'), 'רשומה שלא עברה מוצגת עם הסיבה');
@@ -101,7 +164,7 @@ const mock = async (p) => {
     ok(await p.getByText('לא נמצא מקור').isVisible(), 'מצב ריק מוסבר');
 
     ok(await p.locator('.num').count() > 5, 'מספרים מודגשים אוטומטית');
-    for (const h of ['', '#/timeline?p=p-newton', '#/method']) {
+    for (const h of ['', '#/timeline?p=p-newton', '#/compare?l=l-19', '#/method']) {
       await p.goto(BASE + h, { waitUntil: 'networkidle' });
       const square = await p.evaluate(() => [...document.querySelectorAll('button, .press, input, .chip')].every((el) => getComputedStyle(el).borderRadius === '0px'));
       ok(square, `${h || 'בית'}: כל הכפתורים מרובעים`);
@@ -115,7 +178,7 @@ const mock = async (p) => {
       const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
       await mock(m);
       m.on('pageerror', (e) => errors.push(e.message));
-      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/method']) {
+      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/method']) {
         await m.goto(BASE + h, { waitUntil: 'networkidle' });
         const hs = await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
         ok(!hs, `${vp.width}px ${h || 'בית'}: בלי גלילה אופקית בדף`);

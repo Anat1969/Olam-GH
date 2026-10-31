@@ -1,5 +1,5 @@
 {
-  "_note": "type: influenced / enabled / opposed / parallel. explanation: שורת תובנה ב-==מרקר== ומשפט הסבר. verified=true רק כשכל הציטוטים נמצאו במקור.",
+  "_note": "type: influenced / enabled / opposed / parallel. explanation: שורת תובנה ב-==מרקר== ומשפט הסבר. application: מה עושים עם הקשר (ניסוח, לא עובדה). verified=true רק כשכל הציטוטים נמצאו במקור.",
   "links": [
     {
       "id": "l-1",
@@ -18,7 +18,8 @@
         "s-wp-newton-s-law-of-universal-gravitation"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "ללמד את שני הגילויים כזוג: קודם **התצפית** של קפלר, אחר כך **ההסבר** של ניוטון."
     },
     {
       "id": "l-2",
@@ -54,7 +55,8 @@
         "s-wp-johannes-kepler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "להציג את קפלר כ**ממשיך** של קופרניקוס: אותו מודל, ונתונים מדויקים יותר."
     },
     {
       "id": "l-4",
@@ -73,7 +75,8 @@
         "s-wp-galileo-galilei"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "להראות שרעיון מדעי עובר גם דרך **ויכוח ציבורי**, לא רק דרך הוכחה."
     },
     {
       "id": "l-5",
@@ -92,7 +95,8 @@
         "s-wp-ibn-al-haytham"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לסמן על המפה את המסלול **קהיר–פראג**: ידע שעבר בתרגום לטינית ובין תרבויות."
     },
     {
       "id": "l-6",
@@ -111,7 +115,8 @@
         "s-wp-pendulum-clock"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לבנות מטוטלת פשוטה ולמדוד זמן מחזור: **התצפית** של גלילאו הופכת ל**כלי**."
     },
     {
       "id": "l-7",
@@ -130,7 +135,8 @@
         "s-wp-faraday-s-law-of-induction"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "ללמד את החשמל פעמיים: קודם **בניסוי** של פאראדיי, אחר כך **במשוואה** של מקסוול."
     },
     {
       "id": "l-8",
@@ -149,7 +155,8 @@
         "s-wp-special-relativity"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לשאול מה נשאר קבוע כשהכול זז: אצל מקסוול ואיינשטיין, **מהירות האור**."
     },
     {
       "id": "l-9",
@@ -168,7 +175,8 @@
         "s-wp-henri-becquerel"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לראות איך **גילוי אחד** הופך לשאלת מחקר חדשה בתוך **שבועות**."
     },
     {
       "id": "l-10",
@@ -187,7 +195,8 @@
         "s-wp-bohr-model"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לצייר את האטום בשלבים: **גרעין** של רתרפורד, ואז **רמות** של בוהר."
     },
     {
       "id": "l-11",
@@ -206,7 +215,8 @@
         "s-wp-leibniz-newton-calculus-controversy"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "להשוות את **הסימון** של לייבניץ לזה של ניוטון: סימון טוב מאיץ חשיבה."
     },
     {
       "id": "l-12",
@@ -225,7 +235,8 @@
         "s-wp-nikolai-lobachevsky"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לנסות לצייר שני ישרים מקבילים על **כדור**: כך מבינים גאומטריה לא אוקלידית."
     },
     {
       "id": "l-13",
@@ -244,7 +255,8 @@
         "s-wp-hilbert-s-program"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לזכור ש**גבול מוכח** הוא גם תוצאה: הוא חוסך חיפוש של דורות."
     },
     {
       "id": "l-14",
@@ -267,7 +279,8 @@
         "s-wp-entscheidungsproblem"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "להראות שיש שאלות **שאין להן אלגוריתם**, גם במחשב החזק ביותר."
     },
     {
       "id": "l-15",
@@ -286,7 +299,8 @@
         "s-wp-noether-s-theorem"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לחפש **סימטריה** בבעיה, ולשאול איזה גודל היא משמרת."
     },
     {
       "id": "l-16",
@@ -305,7 +319,8 @@
         "s-wp-disquisitiones-arithmeticae"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לראות ב**סידור** של ידע קיים תרומה בפני עצמה, כמו אצל גאוס."
     },
     {
       "id": "l-17",
@@ -324,7 +339,188 @@
         "s-wp-disquisitiones-arithmeticae"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-10-31",
+      "application": "לראות ב**סידור** של ידע קיים תרומה בפני עצמה, כמו אצל גאוס."
+    },
+    {
+      "id": "l-18",
+      "fromId": "d-1614-napier-logarithms",
+      "toId": "p-kepler",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==כלי מתמטי חדש קיצר את עבודת האסטרונום.== **קפלר** קרא את **הלוגריתמים** של נייפיר בזמן שחישב את הטבלאות שלו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-johannes-kepler",
+          "quote": "In 1617, while working on the Tables, Kepler first read Napier's work on logarithms, which had been published in 1614."
+        }
+      ],
+      "sources": [
+        "s-wp-johannes-kepler"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "להראות איך **כלי חישוב** משנה את קצב המחקר, אז הלוגריתם והיום המחשב."
+    },
+    {
+      "id": "l-19",
+      "fromId": "p-riemann",
+      "toId": "d-1915-einstein-general",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הגאומטריה של רימן הייתה השפה של הכבידה.== **הגאומטריה הרימנית** נתנה לאיינשטיין את המסגרת המתמטית ליחסות הכללית.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-general-relativity",
+          "quote": "A version of non-Euclidean geometry, called Riemannian geometry, enabled Einstein to develop general relativity by providing the key mathematical framework on which he fit his physical ideas of gravity."
+        }
+      ],
+      "sources": [
+        "s-wp-general-relativity"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "ללמד גאומטריה של **משטחים מעוקמים** לפני היחסות הכללית."
+    },
+    {
+      "id": "l-20",
+      "fromId": "p-euclid",
+      "toId": "d-1011-alhazen-optics",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הקרן של אוקלידס נכנסה לתורת הראייה.== **אבן אל-היית'ם** שילב את **טיעוני הקרניים המתמטיים** של אוקלידס עם הרפואה של גלנוס.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ibn-al-haytham",
+          "quote": "Alhazen's achievement was to come up with a theory that successfully combined parts of the mathematical ray arguments of Euclid, the medical tradition of Galen, and the intromission theories of Aristotle."
+        }
+      ],
+      "sources": [
+        "s-wp-ibn-al-haytham"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "להציג את האופטיקה כמקום שבו **גאומטריה** פוגשת **גוף האדם**."
+    },
+    {
+      "id": "l-21",
+      "fromId": "d-1931-godel-incompleteness",
+      "toId": "d-1936-turing-machine",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==ממשפט על הוכחות לשאלה על מכונות.== **טיורינג** התחיל את עבודתו על הכרעה מתוך **משפטי אי-השלמות** של גדל.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-alan-turing",
+          "quote": "Turing worked on the decidability of problems, starting from Gödel's incompleteness theorems."
+        }
+      ],
+      "sources": [
+        "s-wp-alan-turing"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "לקרוא את גדל ואת טיורינג **ברצף**, כשאלה אחת על גבולות ההוכחה והחישוב."
+    },
+    {
+      "id": "l-22",
+      "fromId": "d-1900-planck-quantum",
+      "toId": "d-1913-bohr-atom",
+      "type": "enabled",
+      "confidence": "interpretive",
+      "explanation": "==הקבוע של פלאנק נכנס לתוך האטום.== **בוהר** הסביר את קווי הספקטרום כרמות אנרגיה מחולקות ב**קבוע פלאנק**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bohr-model",
+          "quote": "Bohr would recognize the terms as energy levels of the atom divided by the Planck constant, leading to the modern view that the spectral lines result from energy differences."
+        }
+      ],
+      "sources": [
+        "s-wp-bohr-model"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "להראות איך **קבוע אחד** עובר מקרינת גוף שחור אל מבנה האטום."
+    },
+    {
+      "id": "l-23",
+      "fromId": "p-descartes",
+      "toId": "p-newton",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==ניוטון הצעיר קרא את דקארט.== בקיימברידג' למד **ניוטון** את **אריסטו**, ולצדו קרא את דקארט ואת גלילאו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-isaac-newton",
+          "quote": "Cambridge's teachings were based on those of Aristotle, whom Newton read along with then more modern philosophers, including René Descartes and astronomers such as Galileo Galilei and Thomas Street."
+        }
+      ],
+      "sources": [
+        "s-wp-isaac-newton"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "לבנות **רשימת קריאה** של ניוטון הצעיר, ולראות מה עיצב אותו."
+    },
+    {
+      "id": "l-24",
+      "fromId": "p-archimedes",
+      "toId": "p-galileo",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הפיזיקה החדשה נשענה על מתמטיקה עתיקה.== **גלילאו** השתמש בשיטות חישוב שעברו אליו מ**ארכימדס** ומ**פיבונאצ'י**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-galileo-galilei",
+          "quote": "his mathematical methods were the standard ones of the day, including dozens of examples of an inverse proportion square root method passed down from Fibonacci and Archimedes."
+        }
+      ],
+      "sources": [
+        "s-wp-galileo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "להראות שפיזיקה חדשה יכולה לרוץ על **מתמטיקה ישנה** ומוכרת."
+    },
+    {
+      "id": "l-25",
+      "fromId": "p-fibonacci",
+      "toId": "p-galileo",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הפיזיקה החדשה נשענה על מתמטיקה עתיקה.== **גלילאו** השתמש בשיטות חישוב שעברו אליו מ**ארכימדס** ומ**פיבונאצ'י**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-galileo-galilei",
+          "quote": "his mathematical methods were the standard ones of the day, including dozens of examples of an inverse proportion square root method passed down from Fibonacci and Archimedes."
+        }
+      ],
+      "sources": [
+        "s-wp-galileo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "להראות שפיזיקה חדשה יכולה לרוץ על **מתמטיקה ישנה** ומוכרת."
+    },
+    {
+      "id": "l-26",
+      "fromId": "d-1654-pascal-fermat-probability",
+      "toId": "p-huygens",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==ממשחק מזל לתוחלת.== **הויגנס** לקח מ**פסקל** את רעיון \"המשחק ההוגן\", והרחיב אותו לתאוריה של **ערך צפוי**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-christiaan-huygens",
+          "quote": "Huygens took from Pascal the concepts of a \"fair game\" and equitable contract (i.e., equal division when the chances are equal), and extended the argument to set up a non-standard theory of expected values."
+        }
+      ],
+      "sources": [
+        "s-wp-christiaan-huygens"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "application": "לחשב **תוחלת** של משחק פשוט, כמו שעשה הויגנס."
     }
   ]
 }

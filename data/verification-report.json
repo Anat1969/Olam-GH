@@ -481,6 +481,51 @@
       "id": "l-17",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "l-18",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-19",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-20",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-21",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-22",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-23",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-24",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-25",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-26",
+      "verified": true,
+      "reasons": []
     }
   ],
   "places": [
@@ -716,7 +761,7 @@
   "summary": {
     "persons": "38/38",
     "discoveries": "40/40",
-    "links": "16/17",
+    "links": "25/26",
     "images": 38
   }
 }

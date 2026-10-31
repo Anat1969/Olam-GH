@@ -34,7 +34,8 @@ npm run build && npm test
 - `scripts/verify-data.mjs`: בודק ציטוט מילולי מול ויקיפדיה, וממלא דמויות, מקומות ותמונות (עם רישיון) מוויקינתונים ומוויקישיתוף.
 - `src/components/Timeline.tsx`: ציר זמן ב-D3, הזמן זורם מימין לשמאל, ציר דחוס לפני 1500.
 - `src/components/PersonCard.tsx`: כרטיס דמות עם ציטוטים, קשרים ומקורות.
-- `tests/e2e.cjs`: 53 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.
+- `src/pages/Compare.tsx`: שלב 2, השוואה בין תחומים עם זום מסונכרן וקשרים בלחיצה.
+- `tests/e2e.cjs`: 81 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.
 
 ## תיעוד
 
