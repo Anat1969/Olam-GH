@@ -26,6 +26,11 @@
         "city": {
           "nameHe": "קהיר",
           "nameFull": "Cairo"
+        },
+        "country": {
+          "wikidata": "Q79",
+          "nameHe": "מצרים",
+          "nameFull": "Egypt"
         }
       },
       "contribution": "**אבן אל-היית'ם** כתב חיבור בן **7** כרכים על האור והראייה, והפך את **הניסוי** לכלי מרכזי במחקר.",
@@ -68,6 +73,11 @@
         "city": {
           "nameHe": "פרומבורק",
           "nameFull": "Frombork"
+        },
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
         }
       },
       "contribution": "**קופרניקוס** פרסם מודל שבו **השמש**, ולא כדור הארץ, במרכז, והצית את **המהפכה הקופרניקאית**.",
@@ -110,6 +120,11 @@
         "city": {
           "nameHe": "פראג",
           "nameFull": "Prague"
+        },
+        "country": {
+          "wikidata": "Q213",
+          "nameHe": "צ'כיה",
+          "nameFull": "Czech Republic"
         }
       },
       "contribution": "מניתוח התצפיות של **טיכו ברהה** הראה **קפלר** שמסלול **מאדים** הוא **אליפסה**.",
@@ -153,6 +168,11 @@
         "city": {
           "nameHe": "פדובה",
           "nameFull": "Padua"
+        },
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
         }
       },
       "contribution": "**גלילאו** פרסם תצפיות טלסקופ, ובהן **ירחי צדק**, שערערו את התמונה שכדור הארץ הוא מרכז כל תנועה.",
@@ -196,6 +216,11 @@
         "city": {
           "nameHe": "לינץ",
           "nameFull": "Linz"
+        },
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
         }
       },
       "contribution": "ריבוע **זמן המחזור** של כוכב לכת פרופורציונלי לחזקה השלישית של **מרחקו הממוצע** מהשמש.",
@@ -239,6 +264,11 @@
         "city": {
           "nameHe": "פירנצה",
           "nameFull": "Florence"
+        },
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
         }
       },
       "contribution": "בספרו האחרון ניסח **גלילאו** את **חוק הנפילה החופשית** ואת יסודות **חוזק החומרים**.",
@@ -282,6 +312,11 @@
         "city": {
           "nameHe": "האג",
           "nameFull": "The Hague"
+        },
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
         }
       },
       "contribution": "**הויגנס** המציא את **שעון המטוטלת**, השעון המדויק בעולם במשך כמעט **300** שנה.",
@@ -325,6 +360,11 @@
         "city": {
           "nameHe": "קיימברידג׳",
           "nameFull": "Cambridge"
+        },
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
         }
       },
       "contribution": "**ניוטון** איחד את **חוקי התנועה** ואת **כוח הכבידה**, והסביר באותם חוקים את תנועת כוכבי הלכת.",
@@ -370,6 +410,11 @@
         "city": {
           "nameHe": "פריז",
           "nameFull": "Paris"
+        },
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
         }
       },
       "contribution": "בעזרת **מאזני פיתול** מדד **קולון** את הכוח בין שני מטענים נקודתיים.",
@@ -412,6 +457,11 @@
         "city": {
           "nameHe": "פאביה",
           "nameFull": "Pavia"
+        },
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
         }
       },
       "contribution": "**וולטה** ערם זוגות של דסקיות **נחושת** ו**אבץ** והפיק לראשונה **זרם חשמלי** רציף.",
@@ -455,6 +505,11 @@
         "city": {
           "nameHe": "לונדון",
           "nameFull": "London"
+        },
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
         }
       },
       "contribution": "**יאנג** תיאר תופעות **התאבכות** של אור, ראיה מרכזית לכך שהאור הוא **גל**.",
@@ -524,6 +579,11 @@
         "city": {
           "nameHe": "לונדון",
           "nameFull": "London"
+        },
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
         }
       },
       "contribution": "**מקסוול** ניסח את החשמל, המגנטיות והאור כתופעה אחת של **שדה אלקטרומגנטי**.",
@@ -567,6 +627,11 @@
         "city": {
           "nameHe": "וירצבורג",
           "nameFull": "Würzburg"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**רנטגן** גילה סוג לא מוכר של קרינה, וקרא לה **X**.",
@@ -607,6 +672,11 @@
         "city": {
           "nameHe": "פריז",
           "nameFull": "Paris"
+        },
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
         }
       },
       "contribution": "**בקרל** גילה ש**חומרים** מסוימים פולטים קרינה בלי מקור אור חיצוני.",
@@ -649,6 +719,11 @@
         "city": {
           "nameHe": "ברלין",
           "nameFull": "Berlin"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**פלאנק** הניח שאנרגיה משתנה רק ב**מנות** קטנות, וזו נקודת הפתיחה של **תורת הקוונטים**.",
@@ -692,6 +767,11 @@
         "city": {
           "nameHe": "ברן",
           "nameFull": "Bern"
+        },
+        "country": {
+          "wikidata": "Q39",
+          "nameHe": "שווייץ",
+          "nameFull": "Switzerland"
         }
       },
       "contribution": "**איינשטיין** בנה את התורה על **2** הנחות: אותם חוקים בכל מערכת אינרציאלית, ו**מהירות אור** קבועה.",
@@ -735,6 +815,11 @@
         "city": {
           "nameHe": "מנצ׳סטר",
           "nameFull": "Manchester"
+        },
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
         }
       },
       "contribution": "מפיזור **חלקיקי אלפא** הסיק **רתרפורד** שלאטום יש **גרעין** קטן וכבד.",
@@ -775,6 +860,11 @@
         "city": {
           "nameHe": "קופנהגן",
           "nameFull": "Copenhagen"
+        },
+        "country": {
+          "wikidata": "Q35",
+          "nameHe": "דנמרק",
+          "nameFull": "Denmark"
         }
       },
       "contribution": "**בוהר** הציע שהאטום לא קורן ברציפות, אלא בקפיצות בין **רמות אנרגיה**.",
@@ -817,6 +907,11 @@
         "city": {
           "nameHe": "ברלין",
           "nameFull": "Berlin"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**איינשטיין** הציג את **משוואות השדה** והסביר את סטיית מסלול **כוכב חמה**.",
@@ -860,6 +955,11 @@
         "city": {
           "nameHe": "אלכסנדריה",
           "nameFull": "Alexandria"
+        },
+        "country": {
+          "wikidata": "Q79",
+          "nameHe": "מצרים",
+          "nameFull": "Egypt"
         }
       },
       "contribution": "**אוקלידס** אסף ב-**13** ספרים הגדרות, אקסיומות והוכחות, הבסיס של **הגאומטריה האוקלידית**.",
@@ -903,6 +1003,11 @@
         "city": {
           "nameHe": "סירקוזה",
           "nameFull": "Syracuse"
+        },
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
         }
       },
       "contribution": "**ארכימדס** חסם את **פאי** בין שני ערכים בעזרת מצולעים חסומים וחוסמים.",
@@ -946,6 +1051,11 @@
         "city": {
           "nameHe": "פטאליפוטרה",
           "nameFull": "Pataliputra"
+        },
+        "country": {
+          "wikidata": "Q668",
+          "nameHe": "הודו",
+          "nameFull": "India"
         }
       },
       "contribution": "**אריאבהטה** חיבר ספר יסוד במתמטיקה ובאסטרונומיה של **הודו**.",
@@ -989,6 +1099,11 @@
         "city": {
           "nameHe": "בהינמאל",
           "nameFull": "Bhinmal"
+        },
+        "country": {
+          "wikidata": "Q668",
+          "nameHe": "הודו",
+          "nameFull": "India"
         }
       },
       "contribution": "**ברהמגופטה** נתן לראשונה כללי חשבון ל**אפס** ול**מספרים שליליים**.",
@@ -1035,6 +1150,11 @@
         "city": {
           "nameHe": "בגדאד",
           "nameFull": "Baghdad"
+        },
+        "country": {
+          "wikidata": "Q796",
+          "nameHe": "עיראק",
+          "nameFull": "Iraq"
         }
       },
       "contribution": "**אל-חוארזמי** מיין משוואות ל-**6** צורות ונתן לכל אחת דרך פתרון שיטתית.",
@@ -1086,6 +1206,11 @@
         "city": {
           "nameHe": "פיזה",
           "nameFull": "Pisa"
+        },
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
         }
       },
       "contribution": "**פיבונאצ'י** הביא לאירופה את **הספרות ההודיות-ערביות** ואת **ערך המקום**.",
@@ -1125,6 +1250,11 @@
         "city": {
           "nameHe": "אדינבורו",
           "nameFull": "Edinburgh"
+        },
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
         }
       },
       "contribution": "**נייפיר** פרסם את שיטת **הלוגריתמים**, שקיצרה חישובים אסטרונומיים במשך מאות שנים.",
@@ -1171,7 +1301,8 @@
         "city": {
           "nameHe": "הרפובליקה ההולנדית",
           "nameFull": "Dutch Republic"
-        }
+        },
+        "country": null
       },
       "contribution": "**דקארט** חיבר בין **אלגברה** ל**גאומטריה**, הבסיס ל**מערכת הצירים**.",
       "confidence": "documented",
@@ -1212,6 +1343,11 @@
         "city": {
           "nameHe": "פריז",
           "nameFull": "Paris"
+        },
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
         }
       },
       "contribution": "**פסקל** ו**פרמה** פתרו במכתבים את **בעיית הנקודות**, וייסדו את **תורת ההסתברות**.",
@@ -1254,6 +1390,11 @@
         "city": {
           "nameHe": "הנובר",
           "nameFull": "Hanover"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**לייבניץ** פרסם את המאמר הראשון על **חשבון דיפרנציאלי**, עם הסימון שבו משתמשים עד היום.",
@@ -1297,6 +1438,11 @@
         "city": {
           "nameHe": "סנקט פטרבורג",
           "nameFull": "Saint Petersburg"
+        },
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
         }
       },
       "contribution": "**אוילר** הוכיח שאי אפשר לחצות כל גשר פעם אחת, והניח את יסודות **תורת הגרפים**.",
@@ -1340,6 +1486,11 @@
         "city": {
           "nameHe": "בראונשווייג",
           "nameFull": "Brunswick"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**גאוס** כתב בגיל **21** ספר שאיחד את תורת המספרים לתחום אחד.",
@@ -1383,6 +1534,11 @@
         "city": {
           "nameHe": "קאזאן",
           "nameFull": "Kazan"
+        },
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
         }
       },
       "contribution": "**לובצ'בסקי** בנה גאומטריה שבה **אקסיומת המקבילים** של אוקלידס לא מתקיימת.",
@@ -1455,6 +1611,11 @@
         "city": {
           "nameHe": "גטינגן",
           "nameFull": "Göttingen"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**רימן** קשר את **פונקציית זטא** למספר **הראשוניים**, וההשערה שלו עדיין פתוחה.",
@@ -1498,6 +1659,11 @@
         "city": {
           "nameHe": "האלה",
           "nameFull": "Halle"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**קנטור** הוכיח שאת **המספרים הממשיים** אי אפשר למנות, ולכן יש יותר מאינסוף אחד.",
@@ -1541,6 +1707,11 @@
         "city": {
           "nameHe": "פריז",
           "nameFull": "Paris"
+        },
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
         }
       },
       "contribution": "**הילברט** הציג **23** בעיות פתוחות שכיוונו את המתמטיקה של המאה ה-**20**.",
@@ -1583,6 +1754,11 @@
         "city": {
           "nameHe": "גטינגן",
           "nameFull": "Göttingen"
+        },
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
         }
       },
       "contribution": "**אמי נתר** הוכיחה שכל **סימטריה** של חוקי הטבע מולידה **חוק שימור**.",
@@ -1626,6 +1802,11 @@
         "city": {
           "nameHe": "וינה",
           "nameFull": "Vienna"
+        },
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
         }
       },
       "contribution": "**גדל** הראה שבכל מערכת עקבית של חשבון יש טענות **אמיתיות** ש**אי אפשר להוכיח**.",
@@ -1669,6 +1850,11 @@
         "city": {
           "nameHe": "קיימברידג׳",
           "nameFull": "Cambridge"
+        },
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
         }
       },
       "contribution": "**טיורינג** הגדיר מכונה מופשטת שמגדירה מהו **חישוב**, והראה שיש בעיות שאין להן אלגוריתם.",
@@ -1712,7 +1898,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**בויל** פקפק בעקרונות של האלכימאים, ודרש ניסוי במקום סמכות.",
       "contribution": "הספר נחשב לנקודת המעבר מ**אלכימיה** ל**כימיה** כמדע ניסויי.",
@@ -1754,7 +1945,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**קוונדיש** זיהה לראשונה את **המימן** כחומר נפרד.",
       "contribution": "הגז ש**שריפתו יוצרת מים** קיבל את שמו מהתגלית: \"יוצר מים\".",
@@ -1797,7 +1993,12 @@
           "nameHe": "קאלן",
           "nameFull": "Calne"
         },
-        "wikidata": "Q1235307"
+        "wikidata": "Q1235307",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**פריסטלי** בודד גז חדש מפירוק תחמוצת כספית בחום.",
       "contribution": "החמצן הפך למפתח להבנת **בעירה** ו**נשימה**.",
@@ -1836,7 +2037,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**לבואזיה** הציג **שפת שמות חדשה** לחומרים, שבה השם מתאר את ההרכב.",
       "contribution": "השפה הזאת היא הבסיס ל**מינוח הכימי** עד היום.",
@@ -1878,7 +2084,12 @@
           "nameHe": "מנצ׳סטר",
           "nameFull": "Manchester"
         },
-        "wikidata": "Q18125"
+        "wikidata": "Q18125",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**דלטון** נתן לכל יסוד **משקל אטומי יחסי** וסימון משלו.",
       "contribution": "הכימיה עברה מתיאור איכותי ל**מדע כמותי**.",
@@ -1920,7 +2131,12 @@
           "nameHe": "טורינו",
           "nameFull": "Turin"
         },
-        "wikidata": "Q495"
+        "wikidata": "Q495",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**אבוגדרו** הבחין בין **אטום** ל**מולקולה** בגזים.",
       "contribution": "ההשערה יישבה בין תורת האטומים של דלטון לבין מדידות הנפח של הגזים.",
@@ -1963,7 +2179,12 @@
           "nameHe": "ברלין",
           "nameFull": "Berlin"
         },
-        "wikidata": "Q64"
+        "wikidata": "Q64",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**וולר** יצר במעבדה חומר שנחשב לתוצר של **גוף חי** בלבד.",
       "contribution": "הניסוי ערער על **הוויטליזם**, האמונה ב\"כוח חיים\" מיוחד.",
@@ -2010,7 +2231,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q2171086"
+        "wikidata": "Q2171086",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**פאראדיי** מדד שהחומר שמשתחרר באלקטרודה **פרופורציוני למטען**.",
       "contribution": "החוקים חיברו **חשמל** ו**כימיה** במספרים, וקבעו מונחים כמו אנודה וקתודה.",
@@ -2053,7 +2279,12 @@
           "nameHe": "שטרסבורג",
           "nameFull": "Strasbourg"
         },
-        "wikidata": "Q157575"
+        "wikidata": "Q157575",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**פסטר** הראה ששני חומרים זהים בהרכב נבדלים ב**כיוון המבנה** שלהם.",
       "contribution": "זו ההדגמה הראשונה של **כיראליות מולקולרית**, יסוד בכימיה של התרופות.",
@@ -2096,7 +2327,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**פרקין** חיפש תרופה למלריה, ובמקרה יצר **צבע סגול** מתרכובת אורגנית.",
       "contribution": "הגילוי פתח את **תעשיית הכימיקלים הסינתטיים**.",
@@ -2139,7 +2375,12 @@
           "nameHe": "היידלברג",
           "nameFull": "Heidelberg"
         },
-        "wikidata": "Q151510"
+        "wikidata": "Q151510",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**בונזן** ו**קירכהוף** זיהו יסודות לפי **קווי האור** שהם פולטים.",
       "contribution": "כך התגלו יסודות חדשים, ונמצא **נתרן בשמש**.",
@@ -2182,7 +2423,12 @@
           "nameHe": "גנט",
           "nameFull": "Ghent"
         },
-        "wikidata": "Q1137665"
+        "wikidata": "Q1137665",
+        "country": {
+          "wikidata": "Q31",
+          "nameHe": "בלגיה",
+          "nameFull": "Belgium"
+        }
       },
       "novelty": "**קקולה** הציע לבנזן **מבנה של טבעת**.",
       "contribution": "ההבנה הזאת פתחה את הכימיה של כל **התרכובות הארומטיות**.",
@@ -2224,7 +2470,12 @@
           "nameHe": "סנקט פטרבורג",
           "nameFull": "Saint Petersburg"
         },
-        "wikidata": "Q656"
+        "wikidata": "Q656",
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "novelty": "**מנדלייב** סידר את היסודות לפי **משקל אטומי** ו**ערכיות**, והשאיר מקום ליסודות שעוד לא התגלו.",
       "contribution": "הטבלה הפכה לתבנית של כל הכימיה.",
@@ -2267,7 +2518,12 @@
           "nameHe": "ניו הייבן",
           "nameFull": "New Haven"
         },
-        "wikidata": "Q49112"
+        "wikidata": "Q49112",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "novelty": "**גיבס** נתן לתגובה כימית **מדד מתמטי** של הנטייה להתרחש.",
       "contribution": "הוא ייסד את **התרמודינמיקה הכימית**.",
@@ -2309,7 +2565,12 @@
           "nameHe": "אופסלה",
           "nameFull": "Uppsala"
         },
-        "wikidata": "Q25286"
+        "wikidata": "Q25286",
+        "country": {
+          "wikidata": "Q34",
+          "nameHe": "שוודיה",
+          "nameFull": "Sweden"
+        }
       },
       "novelty": "**ארניוס** טען שחומרים בתמיסה מתפרקים ל**יונים** טעונים.",
       "contribution": "מכאן נגזרו ההגדרות המודרניות ל**חומצה** ול**בסיס**.",
@@ -2348,7 +2609,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**מארי קירי** גילתה **שני יסודות חדשים** דרך הקרינה שלהם.",
       "contribution": "הקרינה הפכה ל**כלי לגילוי יסודות**, והמחקר זיכה אותה בשני פרסי נובל.",
@@ -2394,7 +2660,12 @@
           "nameHe": "קרלסרוהה",
           "nameFull": "Karlsruhe"
         },
-        "wikidata": "Q1040"
+        "wikidata": "Q1040",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**הבר** הפיק **אמוניה** מחנקן שבאוויר.",
       "contribution": "התהליך הפך לבסיס של **הדשנים** בעולם.",
@@ -2437,7 +2708,12 @@
           "nameHe": "מנצ׳סטר",
           "nameFull": "Manchester"
         },
-        "wikidata": "Q867530"
+        "wikidata": "Q867530",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**מוזלי** מדד את **ספקטרום הרנטגן** של יסודות, ומצא את מקומם בטבלה.",
       "contribution": "\"מספר אטומי\" הפך מ**מקום בטבלה** ל**גודל פיזיקלי** שאפשר למדוד.",
@@ -2479,7 +2755,12 @@
           "nameHe": "ברקלי",
           "nameFull": "Berkeley"
         },
-        "wikidata": "Q168756"
+        "wikidata": "Q168756",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "novelty": "**לואיס** תיאר קשר כימי כ**זוג אלקטרונים** ששני אטומים חולקים.",
       "contribution": "הסימון שלו מלמד קשרים כימיים עד היום.",
@@ -2521,7 +2802,12 @@
           "nameHe": "פסדינה",
           "nameFull": "Pasadena"
         },
-        "wikidata": "Q161562"
+        "wikidata": "Q161562",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "novelty": "**פאולינג** הסביר קשרים כימיים בכלים של **מכניקת הקוונטים**.",
       "contribution": "הספר שלו מבסס את **הכימיה הקוונטית**, ונעשה אחד הספרים המצוטטים במדע.",
@@ -2567,7 +2853,12 @@
           "nameHe": "לסבוס",
           "nameFull": "Lesbos"
         },
-        "wikidata": "Q128087"
+        "wikidata": "Q128087",
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
       },
       "novelty": "**אריסטו** תיעד קודם **עובדות** על בעלי חיים, ורק אחר כך חיפש **סיבות**.",
       "contribution": "החיבור נחשב ליצירה החלוצית של **הזואולוגיה**.",
@@ -2614,7 +2905,12 @@
           "nameHe": "פדובה",
           "nameFull": "Padua"
         },
-        "wikidata": "Q193510"
+        "wikidata": "Q193510",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**וזאליוס** תיאר את הגוף מתוך **ניתוח** ולא מתוך ספרים עתיקים.",
       "contribution": "האטלס שלו ייסד את **האנטומיה המודרנית**.",
@@ -2656,7 +2952,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**הארווי** הראה שהדם **מסתובב במעגל** שהלב מניע.",
       "contribution": "ההבנה החליפה את התורה העתיקה, והפכה לבסיס של **הפיזיולוגיה**.",
@@ -2698,7 +2999,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**הוק** הסתכל בצמחים דרך **מיקרוסקופ** שבנה, וקרא למבנים שראה \"תאים\".",
       "contribution": "הספר הפך ל**רב-מכר מדעי** ראשון, ועורר עניין במיקרוסקופיה.",
@@ -2745,7 +3051,12 @@
           "nameHe": "דלפט",
           "nameFull": "Delft"
         },
-        "wikidata": "Q690"
+        "wikidata": "Q690",
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "novelty": "**ואן לוונהוק** ראה לראשונה **יצורים חיים זעירים** בטיפת מים.",
       "contribution": "הוא פתח את העולם של **המיקרוביולוגיה**.",
@@ -2787,7 +3098,8 @@
           "nameHe": "הולנד",
           "nameFull": "Netherlands"
         },
-        "wikidata": "Q55"
+        "wikidata": "Q55",
+        "country": null
       },
       "novelty": "**לינאוס** סידר את כל היצורים ב**מערכת היררכית** אחת.",
       "contribution": "השיטה שלו היא הבסיס ל**מיון** ול**שמות המדעיים** של מינים.",
@@ -2830,7 +3142,12 @@
           "nameHe": "ברקלי, גלוסטרשייר",
           "nameFull": "Berkeley, Gloucestershire"
         },
-        "wikidata": "Q584443"
+        "wikidata": "Q584443",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**ג׳נר** הדביק ילד באבעבועות הפרה, והראה שהוא **מוגן מאבעבועות שחורות**.",
       "contribution": "זו הייתה תחילת **החיסונים**, שבסופה האנושות מיגרה מחלה.",
@@ -2873,7 +3190,12 @@
           "nameHe": "ברלין",
           "nameFull": "Berlin"
         },
-        "wikidata": "Q152087"
+        "wikidata": "Q152087",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**שליידן** קבע שצמחים בנויים מתאים, ו**שוואן** הרחיב זאת לבעלי חיים.",
       "contribution": "התא הפך ל**יחידת היסוד** של כל החיים.",
@@ -2947,7 +3269,12 @@
           "nameHe": "טרנטה",
           "nameFull": "Ternate"
         },
-        "wikidata": "Q19151"
+        "wikidata": "Q19151",
+        "country": {
+          "wikidata": "Q252",
+          "nameHe": "אינדונזיה",
+          "nameFull": "Indonesia"
+        }
       },
       "novelty": "**וואלאס** הגיע לבדו לרעיון **הברירה הטבעית** מתוך מחקר באיי מלאיה.",
       "contribution": "המאמר שלו פורסם יחד עם כתבי דרווין, והאיץ את הפרסום של שניהם.",
@@ -2989,7 +3316,12 @@
           "nameHe": "דאון",
           "nameFull": "Downe"
         },
-        "wikidata": "Q3038318"
+        "wikidata": "Q3038318",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**דרווין** הסביר את מגוון החיים ב**ברירה טבעית** לאורך דורות.",
       "contribution": "התאוריה איחדה את כל הביולוגיה סביב **האבולוציה**.",
@@ -3033,7 +3365,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**פסטר** הראה בניסוי שחיידקים **לא נוצרים מעצמם** בנוזל.",
       "contribution": "הניסוי חיזק את **תורת החיידקים** כגורם למחלות.",
@@ -3080,7 +3417,12 @@
           "nameHe": "ברנו",
           "nameFull": "Brno"
         },
-        "wikidata": "Q14960"
+        "wikidata": "Q14960",
+        "country": {
+          "wikidata": "Q213",
+          "nameHe": "צ'כיה",
+          "nameFull": "Czech Republic"
+        }
       },
       "novelty": "**מנדל** הראה ב**אפונה** שתכונות עוברות ביחידות נפרדות, שהיום נקראות **גנים**.",
       "contribution": "העבודה נשכחה ל-**35** שנה, ואחר כך הפכה ליסוד של **הגנטיקה**.",
@@ -3126,7 +3468,12 @@
           "nameHe": "טובינגן",
           "nameFull": "Tübingen"
         },
-        "wikidata": "Q153978"
+        "wikidata": "Q153978",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**מישר** בודד לראשונה **חומצת גרעין** מתאי דם לבנים.",
       "contribution": "הבידוד סלל את הדרך לזיהוי ה-**DNA**.",
@@ -3168,7 +3515,12 @@
           "nameHe": "ברלין",
           "nameFull": "Berlin"
         },
-        "wikidata": "Q64"
+        "wikidata": "Q64",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**קוך** זיהה את **החיידק** שגורם לשחפת.",
       "contribution": "יום הגילוי מצוין עד היום כ**יום השחפת העולמי**.",
@@ -3240,7 +3592,12 @@
           "nameHe": "ניו יורק",
           "nameFull": "New York City"
         },
-        "wikidata": "Q49088"
+        "wikidata": "Q49088",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "novelty": "**מורגן** מצא ב**זבוב פירות** שגנים נישאים על **כרומוזומים**.",
       "contribution": "תורת התורשה קיבלה **בסיס פיזי** בתוך התא.",
@@ -3286,7 +3643,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q3495342"
+        "wikidata": "Q3495342",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**פלמינג** גילה ש**עובש** מסוים הורג חיידקים.",
       "contribution": "זו האנטיביוטיקה הראשונה, שתוארה כ\"**הניצחון הגדול ביותר על מחלה**\".",
@@ -3328,7 +3690,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q245247"
+        "wikidata": "Q245247",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**פרנקלין** והסטודנט שלה צילמו **תמונת עקיפה** של סיב DNA.",
       "contribution": "התצלום היה המפתח לגילוי **הסליל הכפול**.",
@@ -3372,7 +3739,12 @@
           "nameHe": "קיימברידג׳",
           "nameFull": "Cambridge"
         },
-        "wikidata": "Q35794"
+        "wikidata": "Q35794",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**ווטסון** ו**קריק** הציעו שה-DNA בנוי כ**סליל כפול** של שני גדילים.",
       "contribution": "המבנה הסביר איך **מידע תורשתי** מועתק, וייסד את **הביולוגיה המולקולרית**.",
@@ -3451,7 +3823,12 @@
           "nameHe": "הרפנדן",
           "nameFull": "Harpenden"
         },
-        "wikidata": "Q1326711"
+        "wikidata": "Q1326711",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**פישר** הציג את מושג **השונות**, והראה שגנים רבים יוצרים יחד שונות רציפה.",
       "contribution": "הוא איחד את **מנדל** ואת **דרווין** בשפה מתמטית אחת.",
@@ -3493,7 +3870,12 @@
           "nameHe": "אתונה",
           "nameFull": "Athens"
         },
-        "wikidata": "Q1524"
+        "wikidata": "Q1524",
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
       },
       "novelty": "**אפלטון** שאל מהו **צדק**, ובנה בשבילו עיר שלמה במחשבה.",
       "contribution": "הדיאלוג הפך לבסיס של **הפילוסופיה המדינית** במערב.",
@@ -3536,7 +3918,12 @@
           "nameHe": "היפו רגיוס",
           "nameFull": "Hippo Regius"
         },
-        "wikidata": "Q858024"
+        "wikidata": "Q858024",
+        "country": {
+          "wikidata": "Q262",
+          "nameHe": "אלג'יריה",
+          "nameFull": "Algeria"
+        }
       },
       "novelty": "**אוגוסטינוס** כתב על **חייו הפנימיים** בגוף ראשון, כמסע של חיפוש.",
       "contribution": "הספר נחשב לאחת **האוטוביוגרפיות** הראשונות בספרות המערב.",
@@ -3605,7 +3992,12 @@
           "nameHe": "קהיר",
           "nameFull": "Cairo"
         },
-        "wikidata": "Q839456"
+        "wikidata": "Q839456",
+        "country": {
+          "wikidata": "Q79",
+          "nameHe": "מצרים",
+          "nameFull": "Egypt"
+        }
       },
       "novelty": "**הרמב״ם** יישב בין **התורה** לבין **הפילוסופיה של אריסטו**.",
       "contribution": "הספר הפך לגשר בין פילוסופיה יהודית, ערבית ונוצרית.",
@@ -3679,7 +4071,12 @@
           "nameHe": "פירנצה",
           "nameFull": "Florence"
         },
-        "wikidata": "Q2509922"
+        "wikidata": "Q2509922",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**מקיאוולי** תיאר את השלטון כפי שהוא **פועל בפועל**, ולא כפי שהוא אמור להיות.",
       "contribution": "הספר נחשב לבסיס של **מדע המדינה** המודרני.",
@@ -3719,7 +4116,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**בייקון** הציע ללמוד את הטבע מ**תצפית** ומ**ניסוי** שיטתי.",
       "contribution": "הוא נחשב לאחד ממייסדי **השיטה המדעית**.",
@@ -3766,7 +4168,8 @@
           "nameHe": "הרפובליקה ההולנדית",
           "nameFull": "Dutch Republic"
         },
-        "wikidata": "Q170072"
+        "wikidata": "Q170072",
+        "country": null
       },
       "novelty": "**דקארט** הציע להטיל **ספק** בכל דבר, עד שמגיעים לוודאות.",
       "contribution": "השיטה שלו פתחה את **הפילוסופיה המודרנית**.",
@@ -3806,7 +4209,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**הובס** טען שאנשים מוותרים על חלק מחירותם ב**אמנה**, כדי לחיות בביטחון.",
       "contribution": "הרעיון של **אמנה חברתית** הפך ליסוד של התאוריה המדינית.",
@@ -3848,7 +4256,12 @@
           "nameHe": "האג",
           "nameFull": "The Hague"
         },
-        "wikidata": "Q36600"
+        "wikidata": "Q36600",
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "novelty": "**שפינוזה** כתב פילוסופיה **כמו גאומטריה**, בהגדרות, אקסיומות והוכחות.",
       "contribution": "האתיקה שלו הייתה מהיסודות של **הנאורות הרדיקלית**.",
@@ -3917,7 +4330,12 @@
           "nameHe": "וינה",
           "nameFull": "Vienna"
         },
-        "wikidata": "Q1741"
+        "wikidata": "Q1741",
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
       },
       "novelty": "**לייבניץ** תיאר את העולם כמורכב מ**יחידות פשוטות** בלי חלקים, \"מונאדות\".",
       "contribution": "החיבור מסכם את הפילוסופיה המאוחרת שלו בטקסט קצר אחד.",
@@ -3985,7 +4403,12 @@
           "nameHe": "קניגסברג",
           "nameFull": "Königsberg"
         },
-        "wikidata": "Q4120832"
+        "wikidata": "Q4120832",
+        "country": {
+          "wikidata": "Q27306",
+          "nameHe": "ממלכת פרוסיה",
+          "nameFull": "Kingdom of Prussia"
+        }
       },
       "novelty": "**קאנט** שאל מה **התבונה** יכולה לדעת לפני כל ניסיון.",
       "contribution": "הספר שינה את כיוון הפילוסופיה, ונעשה ליצירה הראשונה שלו שזכתה לפרסום רחב.",
@@ -4028,7 +4451,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**וולסטונקרפט** טענה שנשים זקוקות ל**חינוך** כמו גברים, כדי לממש את התבונה שלהן.",
       "contribution": "החיבור נחשב לאחד הטקסטים המכוננים של **הפמיניזם**.",
@@ -4071,7 +4499,12 @@
           "nameHe": "ינה",
           "nameFull": "Jena"
         },
-        "wikidata": "Q3150"
+        "wikidata": "Q3150",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**הגל** תיאר את התודעה כ**תהליך התפתחות** היסטורי.",
       "contribution": "הספר היה נקודת מפנה בדרכו, והשפיע על הפילוסופיה של המאה ה-**19**.",
@@ -4112,7 +4545,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**הרייט טיילור מיל** ו**ג׳ון סטיוארט מיל** הגדירו את הגבול שבו החברה רשאית להגביל את הפרט.",
       "contribution": "החיבור הוא אחד הטקסטים המרכזיים של **הליברליזם**.",
@@ -4206,7 +4644,12 @@
           "nameHe": "וינה",
           "nameFull": "Vienna"
         },
-        "wikidata": "Q1741"
+        "wikidata": "Q1741",
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
       },
       "novelty": "**פופר** קבע שתאוריה מדעית חייבת להיות **ניתנת להפרכה**.",
       "contribution": "ההבחנה הזאת הפכה למבחן מקובל בין **מדע** ל**לא-מדע**.",
@@ -4275,7 +4718,12 @@
           "nameHe": "פומפוזה",
           "nameFull": "Pomposa"
         },
-        "wikidata": "Q514366"
+        "wikidata": "Q514366",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**גוידו מארצו** פיתח את **החמשה**, תווים על קווים שמראים גובה צליל.",
       "contribution": "אפשר היה ללמוד מוזיקה **מהדף** ולא רק מהזיכרון, וזה הבסיס לכתב התווים המערבי.",
@@ -4321,7 +4769,12 @@
           "nameHe": "פירנצה",
           "nameFull": "Florence"
         },
-        "wikidata": "Q2044"
+        "wikidata": "Q2044",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**וינצ׳נצו גליליי** חקר **מיתרים** במדידה מתמטית, יחד עם בנו גלילאו.",
       "contribution": "הוא היה מחלוצי **האקוסטיקה**, וחבר בקמרטה שהניחה את היסוד ל**אופרה**.",
@@ -4368,7 +4821,12 @@
           "nameHe": "מנטובה",
           "nameFull": "Mantua"
         },
-        "wikidata": "Q6247"
+        "wikidata": "Q6247",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**מונטוורדי** חיבר **דרמה מוזיקלית שלמה**, שבה המוזיקה מספרת את הסיפור.",
       "contribution": "זו האופרה המוקדמת ביותר שעדיין מבוצעת באופן קבוע.",
@@ -4414,7 +4872,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**מרסן** קבע לראשונה **תדר מוחלט** של צליל נשמע.",
       "contribution": "המוזיקה קיבלה **מדידה פיזיקלית**, והצליל הפך למספר.",
@@ -4456,7 +4919,12 @@
           "nameHe": "קטן",
           "nameFull": "Köthen"
         },
-        "wikidata": "Q1796771"
+        "wikidata": "Q1796771",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**באך** כתב פרלוד ופוגה **בכל אחד מ-24 הסולמות**, מז׳ור ומינור.",
       "contribution": "היצירה הראתה שכלי אחד יכול לנגן בכל הסולמות, ונעשתה ליצירת לימוד יסודית.",
@@ -4498,7 +4966,12 @@
           "nameHe": "וינה",
           "nameFull": "Vienna"
         },
-        "wikidata": "Q1741"
+        "wikidata": "Q1741",
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
       },
       "novelty": "**בטהובן** שבר את גבולות הסימפוניה ב**אורך**, בהרמוניה וב**רגש**.",
       "contribution": "היא נחשבת לסימפוניה **הרומנטית** הראשונה.",
@@ -4545,7 +5018,12 @@
           "nameHe": "מינכן",
           "nameFull": "Munich"
         },
-        "wikidata": "Q1726"
+        "wikidata": "Q1726",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**וגנר** כתב הרמוניות **שלא נפתרות**, ונודדות בין סולמות.",
       "contribution": "האקורד שלו התרחק מהטונאליות, והשפיע על דורות של מלחינים.",
@@ -4592,7 +5070,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**דביסי** כתב מוזיקה של **צבע ואווירה**, כתגובה למסורת הגרמנית.",
       "contribution": "היצירה נחשבת לנקודת פתיחה של **המוזיקה המודרנית**.",
@@ -4639,7 +5122,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q726531"
+        "wikidata": "Q726531",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**סטרווינסקי** הביא **מקצב** פראי ודיסוננס אל הבלט.",
       "contribution": "הבכורה כמעט הפכה למהומה, והיצירה הפכה לסמל של **האוונגרד**.",
@@ -4681,7 +5169,12 @@
           "nameHe": "וינה",
           "nameFull": "Vienna"
         },
-        "wikidata": "Q1741"
+        "wikidata": "Q1741",
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
       },
       "novelty": "**שנברג** בנה שיטה שבה כל **12** הצלילים שווים, בלי צליל מרכזי.",
       "contribution": "השיטה הפכה לשפה של **בית הספר הווינאי השני**.",
@@ -4728,7 +5221,12 @@
           "nameHe": "שיקגו",
           "nameFull": "Chicago"
         },
-        "wikidata": "Q1297"
+        "wikidata": "Q1297",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "novelty": "**ארמסטרונג** העביר את הג׳אז מ**אלתור קבוצתי** ל**סולו** של נגן אחד.",
       "contribution": "ההקלטות של הוט פייב הפכו ליסוד של **הג׳אז**.",
@@ -4775,7 +5273,12 @@
           "nameHe": "סקארה",
           "nameFull": "Saqqara"
         },
-        "wikidata": "Q192418"
+        "wikidata": "Q192418",
+        "country": {
+          "wikidata": "Q79",
+          "nameHe": "מצרים",
+          "nameFull": "Egypt"
+        }
       },
       "novelty": "**אימחותפ** ערם **מסטבות** זו על זו, ובנה במדרגות של אבן.",
       "contribution": "מנתון כותב עליו שהיה \"**ממציא הבנייה באבן**\".",
@@ -4819,7 +5322,12 @@
           "nameHe": "אתונה",
           "nameFull": "Athens"
         },
-        "wikidata": "Q10288"
+        "wikidata": "Q10288",
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
       },
       "novelty": "**איקטינוס** ו**קליקרטס** בנו מקדש שבו כל קו מחושב לעין.",
       "contribution": "הבניין הפך לסמל של **האדריכלות הקלאסית**.",
@@ -4888,7 +5396,12 @@
           "nameHe": "רומא",
           "nameFull": "Rome"
         },
-        "wikidata": "Q99309"
+        "wikidata": "Q99309",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "כיפת **בטון** עם **פתח עגול** לשמיים, מעל אולם עגול.",
       "contribution": "עד היום זו **כיפת הבטון הגדולה בעולם** בלי זיון.",
@@ -4932,7 +5445,12 @@
           "nameHe": "איסטנבול",
           "nameFull": "Istanbul"
         },
-        "wikidata": "Q12506"
+        "wikidata": "Q12506",
+        "country": {
+          "wikidata": "Q43",
+          "nameHe": "טורקיה",
+          "nameFull": "Turkey"
+        }
       },
       "novelty": "שני **גאומטרים** תכננו כיפה ענקית על **משולשים כדוריים**.",
       "contribution": "הבניין היה **החלל הפנימי הגדול בעולם**.",
@@ -4975,7 +5493,12 @@
           "nameHe": "פירנצה",
           "nameFull": "Florence"
         },
-        "wikidata": "Q191739"
+        "wikidata": "Q191739",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**ברונלסקי** בנה כיפה ענקית **בלי פיגומי תמיכה** מהקרקע.",
       "contribution": "הוא גם תיאר לראשונה **פרספקטיבה לינארית** מדויקת.",
@@ -5019,7 +5542,12 @@
           "nameHe": "ויצ׳נצה",
           "nameFull": "Vicenza"
         },
-        "wikidata": "Q505574"
+        "wikidata": "Q505574",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**פלדיו** בנה בית כמו **מקדש**, עם ארבע חזיתות זהות.",
       "contribution": "הסגנון שלו הפך ל**פלדיאניזם** שהתפשט באירופה ובאמריקה.",
@@ -5058,7 +5586,12 @@
           "nameHe": "איסטנבול",
           "nameFull": "Istanbul"
         },
-        "wikidata": "Q178643"
+        "wikidata": "Q178643",
+        "country": {
+          "wikidata": "Q43",
+          "nameHe": "טורקיה",
+          "nameFull": "Turkey"
+        }
       },
       "novelty": "**סינאן** פיתח את תבנית **איה סופיה** לבניין עות׳מאני.",
       "contribution": "המסגד נחשב ליצירת המופת של **האדריכלות העות׳מאנית**.",
@@ -5101,7 +5634,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q173882"
+        "wikidata": "Q173882",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**רן** תכנן כיפה בסגנון **הבארוק האנגלי** אחרי השריפה הגדולה של לונדון.",
       "contribution": "הכיפה שלטה בקו הרקיע של לונדון יותר מ-**300** שנה.",
@@ -5140,7 +5678,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q123738"
+        "wikidata": "Q123738",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**פקסטון**, גנן, בנה ממבני חממה בניין **טרומי** של ברזל וזכוכית.",
       "contribution": "הבנייה הטרומית הפכה לשפה של **הבנייה התעשייתית**.",
@@ -5184,7 +5727,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**אוסמן** פרץ שדרות כדי **לאוורר, לאחד ולייפות** את העיר.",
       "contribution": "זו הדוגמה הגדולה הראשונה של **תכנון עירוני** מודרני בעיר קיימת.",
@@ -5227,7 +5775,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q243"
+        "wikidata": "Q243",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**אייפל** הפך **מבנה ברזל** הנדסי לסמל של עיר.",
       "contribution": "המגדל סימל, בלשונו, את \"**אמנות המהנדס המודרני**\".",
@@ -5267,7 +5820,12 @@
           "nameHe": "סנט לואיס",
           "nameFull": "St. Louis"
         },
-        "wikidata": "Q1143548"
+        "wikidata": "Q1143548",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "novelty": "**סאליבן** ו**אדלר** נתנו לשלד הפלדה הגבוה **ביטוי אדריכלי**.",
       "contribution": "רייט כינה אותו \"**הביטוי האנושי הראשון**\" של בניין משרדים גבוה מפלדה.",
@@ -5310,7 +5868,12 @@
           "nameHe": "ברצלונה",
           "nameFull": "Barcelona"
         },
-        "wikidata": "Q48435"
+        "wikidata": "Q48435",
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
       },
       "novelty": "**גאודי** שילב **גותיקה** עם **צורות מתעקלות** של הטבע.",
       "contribution": "הכנסייה, שעוד לא הושלמה, היא הכנסייה הגבוהה בעולם.",
@@ -5352,7 +5915,12 @@
           "nameHe": "תל אביב",
           "nameFull": "Tel Aviv"
         },
-        "wikidata": "Q33935"
+        "wikidata": "Q33935",
+        "country": {
+          "wikidata": "Q801",
+          "nameHe": "ישראל",
+          "nameFull": "Israel"
+        }
       },
       "novelty": "**גדס** תכנן עיר של **גנים ציבוריים** מוקפים בלוקים, עם רחובות קטנים ביניהם.",
       "contribution": "זו העיר היחידה שהתרחבותה הראשונה תוכננה **כולה** לפי תוכנית שלו. היום היא \"**העיר הלבנה**\".",
@@ -5396,7 +5964,12 @@
           "nameHe": "דסאו",
           "nameFull": "Dessau"
         },
-        "wikidata": "Q516770"
+        "wikidata": "Q516770",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
       },
       "novelty": "**גרופיוס** בנה בית ספר שבו **הצורה נובעת מהתפקוד**, בזכוכית ובבטון.",
       "contribution": "הבאוהאוס הפך לבית הגידול של **הסגנון הבינלאומי**.",
@@ -5435,7 +6008,12 @@
           "nameHe": "פואסי",
           "nameFull": "Poissy"
         },
-        "wikidata": "Q940746"
+        "wikidata": "Q940746",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**לה קורבוזיה** הדגים **חמש נקודות** לבית חדש: עמודים, גג גן, תוכנית חופשית, חלון סרט וחזית חופשית.",
       "contribution": "הבית מייצג את **המקורות של האדריכלות המודרנית**.",
@@ -5478,7 +6056,12 @@
           "nameHe": "ברצלונה",
           "nameFull": "Barcelona"
         },
-        "wikidata": "Q807915"
+        "wikidata": "Q807915",
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
       },
       "novelty": "**מיס ואן דר רוהה** בנה חלל **זורם** של קירות חופשיים, זכוכית ואבן.",
       "contribution": "הביתן הפך לאבן דרך של **האדריכלות המודרנית**.",
@@ -5517,7 +6100,12 @@
           "nameHe": "פנסילבניה",
           "nameFull": "Pennsylvania"
         },
-        "wikidata": "Q463179"
+        "wikidata": "Q463179",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
       },
       "novelty": "**רייט** הניח את הבית **מעל המפל**, על מרפסות שמזדקרות בלי תמיכה.",
       "contribution": "הבית מחבר **אדריכלות** ו**טבע** לגוף אחד.",
@@ -5561,7 +6149,12 @@
           "nameHe": "ברזיליה",
           "nameFull": "Brasília"
         },
-        "wikidata": "Q2844"
+        "wikidata": "Q2844",
+        "country": {
+          "wikidata": "Q155",
+          "nameHe": "ברזיל",
+          "nameFull": "Brazil"
+        }
       },
       "novelty": "**קוסטה** תכנן את העיר, ו**נימאייר** את הבניינים הציבוריים, בבטון לבן ומתעקל.",
       "contribution": "עיר בירה שלמה נבנתה ב-**41** חודשים.",
@@ -5604,7 +6197,12 @@
           "nameHe": "פדובה",
           "nameFull": "Padua"
         },
-        "wikidata": "Q963954"
+        "wikidata": "Q963954",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**ג׳וטו** וצוותו ציירו **מחזור פרסקו** שמספר סיפור על כל הקירות.",
       "contribution": "זו אחת מיצירות המופת של **האמנות המערבית**.",
@@ -5643,7 +6241,12 @@
           "nameHe": "פירנצה",
           "nameFull": "Florence"
         },
-        "wikidata": "Q51175"
+        "wikidata": "Q51175",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**מזאצ׳ו** צייר חלל עמוק ב**פרספקטיבה לינארית** על קיר שטוח.",
       "contribution": "זו מהציורים המונומנטליים הראשונים של **הרנסנס** בפרספקטיבה.",
@@ -5689,7 +6292,12 @@
           "nameHe": "ברוז׳",
           "nameFull": "Bruges"
         },
-        "wikidata": "Q12994"
+        "wikidata": "Q12994",
+        "country": {
+          "wikidata": "Q31",
+          "nameHe": "בלגיה",
+          "nameFull": "Belgium"
+        }
       },
       "novelty": "**ואן אייק** פיתח את **צבעי השמן** לרמה חדשה של פרט ואור.",
       "contribution": "זה מהציורים המפורסמים הוותיקים ביותר שצוירו **בשמן** ולא בטמפרה.",
@@ -5732,7 +6340,12 @@
           "nameHe": "פירנצה",
           "nameFull": "Florence"
         },
-        "wikidata": "Q2044"
+        "wikidata": "Q2044",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**לאונרדו** צייר דיוקן שבו **האור והצל** נמסים בלי קווי מתאר.",
       "contribution": "זה כנראה הציור המוכר ביותר בעולם.",
@@ -5771,7 +6384,12 @@
           "nameHe": "רומא",
           "nameFull": "Rome"
         },
-        "wikidata": "Q638283"
+        "wikidata": "Q638283",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
       },
       "novelty": "**קאראווג׳ו** השתמש ב**מעבר חד** בין אור לחושך, כמו בתיאטרון.",
       "contribution": "החידושים שלו השפיעו על כל **ציור הבארוק**.",
@@ -5818,7 +6436,12 @@
           "nameHe": "אמסטרדם",
           "nameFull": "Amsterdam"
         },
-        "wikidata": "Q727"
+        "wikidata": "Q727",
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "novelty": "**רמברנדט** הפך דיוקן קבוצתי סטטי ל**סצנה בתנועה**.",
       "contribution": "הציור הוא היצירה המוכרת ביותר של **תור הזהב ההולנדי**.",
@@ -5860,7 +6483,12 @@
           "nameHe": "דלפט",
           "nameFull": "Delft"
         },
-        "wikidata": "Q690"
+        "wikidata": "Q690",
+        "country": {
+          "wikidata": "Q55",
+          "nameHe": "הולנד",
+          "nameFull": "Netherlands"
+        }
       },
       "novelty": "**ורמר** צייר **אור** שנופל על פנים, בחדר אחד ובשקט.",
       "contribution": "הציור הפך לסמל של **הציור ההולנדי**.",
@@ -5903,7 +6531,12 @@
           "nameHe": "לונדון",
           "nameFull": "London"
         },
-        "wikidata": "Q84"
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
       },
       "novelty": "**טרנר** צייר את **המהירות** של רכבת דרך אור, אדים וגשם.",
       "contribution": "הציור הביא את **הטכנולוגיה החדשה** אל הנוף.",
@@ -5945,7 +6578,12 @@
           "nameHe": "לה האבר",
           "nameFull": "Le Havre"
         },
-        "wikidata": "Q42810"
+        "wikidata": "Q42810",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**מונה** צייר **רושם** של אור ואוויר, לא פרטים.",
       "contribution": "השם של הציור נתן את השם לתנועה כולה: **האימפרסיוניזם**.",
@@ -5984,7 +6622,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q1902319"
+        "wikidata": "Q1902319",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**סרה** בנה את הציור מ**נקודות צבע**, לפי תורות מדעיות של צבע ואור.",
       "contribution": "הציור הפך לסמל של **הפוינטיליזם**.",
@@ -6028,7 +6671,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**פיקאסו** פירק את הגוף ל**משטחים זוויתיים** במקום פרספקטיבה.",
       "contribution": "הציור פתח את הדרך ל**קוביזם**.",
@@ -6097,7 +6745,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**בושאן** קודד את **חמש עמדות הרגליים** של הבלט הקלאסי.",
       "contribution": "העמדות הן עד היום **האלף-בית** של הבלט.",
@@ -6147,7 +6800,12 @@
           "nameHe": "ליון",
           "nameFull": "Lyon"
         },
-        "wikidata": "Q456"
+        "wikidata": "Q456",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**נובר** דרש שהריקוד **יספר עלילה** ויביע רגש, ולא רק יפגין טכניקה.",
       "contribution": "המכתבים שלו הם יסוד של **הבלט הדרמטי**.",
@@ -6187,7 +6845,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q3249117"
+        "wikidata": "Q3249117",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**פיליפו טליוני** יצר בלט שבו **הפוינט** של **מארי טליוני** הוא אמירה אמנותית ולא תעלול.",
       "contribution": "הבלט הרומנטי נולד, והפוינט הפך לשפה של הבלרינה.",
@@ -6231,7 +6894,12 @@
           "nameHe": "סנקט פטרבורג",
           "nameFull": "Saint Petersburg"
         },
-        "wikidata": "Q207028"
+        "wikidata": "Q207028",
+        "country": {
+          "wikidata": "Q159",
+          "nameHe": "רוסיה",
+          "nameFull": "Russia"
+        }
       },
       "novelty": "**פטיפה** בנה בלט גדול שבו כל ריקוד הוא **מבנה מוזיקלי** מדויק.",
       "contribution": "זה אחד מהבלטים המפורסמים בכל הזמנים.",
@@ -6273,7 +6941,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q90"
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**דאנקן** רקדה **יחפה**, בתנועות טבעיות בהשראת יוון, בלי מחוך ובלי פוינט.",
       "contribution": "היא סללה את הדרך ל**מחול המודרני**.",
@@ -6316,7 +6989,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q1469315"
+        "wikidata": "Q1469315",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**ניז׳ינסקי** רקד ב**פרופיל**, בתנועות שטוחות כמו תבליט יווני.",
       "contribution": "הבכורה עוררה שערורייה, ופתחה את **הבלט המודרני**.",
@@ -6386,7 +7064,12 @@
           "nameHe": "פריז",
           "nameFull": "Paris"
         },
-        "wikidata": "Q2352779"
+        "wikidata": "Q2352779",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
       },
       "novelty": "**בלנשין** החזיר את הבלט ל**קווים נקיים** ולמוזיקה, בלי עלילה מסובכת.",
       "contribution": "אפולו פתח את **הבלט הנאו-קלאסי**.",
@@ -6403,6 +7086,859 @@
       ],
       "sources": [
         "s-wp-apollo-ballet"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce1345-nefertiti",
+      "title": "פסל ראש נפרטיטי",
+      "yearFrom": -1345,
+      "yearTo": -1345,
+      "yearApprox": true,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-thutmose"
+      ],
+      "place": {
+        "wikipedia": "Amarna",
+        "nameHe": "אל-עמארנה",
+        "nameFull": "Amarna",
+        "lat": 27.6617,
+        "lon": 30.9056,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-nefertiti-bust",
+          "quote": "it was found in his sculpture workshop in Tell-el Amarna, Egypt."
+        },
+        "city": {
+          "nameHe": "תל אל-עמארנה",
+          "nameFull": "Amarna"
+        },
+        "wikidata": "Q5736",
+        "country": {
+          "wikidata": "Q79",
+          "nameHe": "מצרים",
+          "nameFull": "Egypt"
+        }
+      },
+      "novelty": "**תחותמס** פיסל דיוקן **צבוע** ומדויק, עם פרופורציות של פנים חיות.",
+      "contribution": "הפסל הפך לאחד הסמלים המוכרים של **מצרים העתיקה**.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nefertiti-bust",
+          "quote": "The bust of Nefertiti is believed to have been crafted about 1345 BC by the sculptor Thutmose."
+        }
+      ],
+      "sources": [
+        "s-wp-nefertiti-bust"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce460-discobolus",
+      "title": "זורק הדיסקוס",
+      "yearFrom": -460,
+      "yearTo": -450,
+      "yearApprox": true,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-myron"
+      ],
+      "place": null,
+      "novelty": "**מירון** תפס את הגוף **ברגע המתח הגבוה** של תנועה, בתוך חומר דומם.",
+      "contribution": "מירון נחשב לפסל הראשון ששלט בסגנון הזה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-discobolus",
+          "quote": "is an ancient Greek sculpture completed at the start of the Classical period in around 460–450 BC"
+        },
+        {
+          "sourceId": "s-wp-discobolus",
+          "quote": "Myron is often credited with being the first sculptor to master this style."
+        }
+      ],
+      "sources": [
+        "s-wp-discobolus"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1501-michelangelo-david",
+      "title": "דוד",
+      "yearFrom": 1501,
+      "yearTo": 1504,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-michelangelo"
+      ],
+      "place": {
+        "wikipedia": "Piazza della Signoria",
+        "nameHe": "כיכר הסיניוריה",
+        "nameFull": "piazza della Signoria",
+        "lat": 43.7697,
+        "lon": 11.2556,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-david-michelangelo",
+          "quote": "was instead placed in the public square in front of the Piazza della Signo"
+        },
+        "city": {
+          "nameHe": "פירנצה",
+          "nameFull": "Florence"
+        },
+        "wikidata": "Q849846",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "novelty": "**מיכלאנג׳לו** חצב מגוש שיש אחד דמות ענקית של **ריכוז לפני מעשה**.",
+      "contribution": "הפסל הוצב בכיכר העיר, והפך לסמל של **פירנצה** ושל הרנסנס.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-david-michelangelo",
+          "quote": "David is a masterpiece of Italian Renaissance sculpture in marble created from 1501 to 1504 by Michelangelo."
+        }
+      ],
+      "sources": [
+        "s-wp-david-michelangelo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1652-bernini-teresa",
+      "title": "האקסטזה של תרזה הקדושה",
+      "yearFrom": 1652,
+      "yearTo": 1652,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-bernini"
+      ],
+      "place": {
+        "wikipedia": "Rome",
+        "nameHe": "רומא",
+        "nameFull": "Rome",
+        "lat": 41.8931,
+        "lon": 12.4828,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-ecstasy-of-saint-teresa",
+          "quote": "in the Cornaro Chapel of the church of Santa Maria della Vittoria in Rome."
+        },
+        "city": {
+          "nameHe": "רומא",
+          "nameFull": "Rome"
+        },
+        "wikidata": "Q220",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "novelty": "**ברניני** עיצב יחד **פסל, אדריכלות ואור** בקפלה אחת, כמו במה.",
+      "contribution": "היצירה היא דוגמה מרכזית לאחדות האמנויות של **הבארוק**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ecstasy-of-saint-teresa",
+          "quote": "It was completed in 1652 for the then princely sum of 12,000 scudi."
+        },
+        {
+          "sourceId": "s-wp-ecstasy-of-saint-teresa",
+          "quote": "who also designed the setting of the chapel in marble, stucco and paint."
+        }
+      ],
+      "sources": [
+        "s-wp-ecstasy-of-saint-teresa"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1880-rodin-thinker",
+      "title": "האיש החושב",
+      "yearFrom": 1880,
+      "yearTo": 1904,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-rodin"
+      ],
+      "place": {
+        "wikipedia": "Musée Rodin",
+        "nameHe": "מוזיאון רודן",
+        "nameFull": "Musée Rodin",
+        "lat": 48.8554,
+        "lon": 2.3158,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-the-thinker",
+          "quote": "is now exhibited at the Musée Rodin, in Paris."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q650519",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**רודן** פיסל **מחשבה** כמאמץ גופני, בגוף מכווץ ושרירי.",
+      "contribution": "הפסל הפך לסמל עולמי של **חשיבה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-thinker",
+          "quote": "Rodin conceived the figure as part of his work The Gates of Hell commissioned in 1880, but the first of the familiar monumental bronze castings was made in 1904"
+        }
+      ],
+      "sources": [
+        "s-wp-the-thinker"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1917-duchamp-fountain",
+      "title": "המזרקה: חפץ מוכן",
+      "yearFrom": 1917,
+      "yearTo": 1917,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-duchamp"
+      ],
+      "place": {
+        "wikipedia": "New York City",
+        "nameHe": "ניו יורק",
+        "nameFull": "New York City",
+        "lat": 40.7128,
+        "lon": -74.0061,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-fountain-duchamp",
+          "quote": "to be staged at the Grand Central Palace in New York."
+        },
+        "city": {
+          "nameHe": "ניו יורק",
+          "nameFull": "New York City"
+        },
+        "wikidata": "Q60",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "**דושאן** הציג **חפץ יומיומי** כיצירה, והפך את **הבחירה** של האמן לאמנות.",
+      "contribution": "הרעיון פתח את הדרך ל**אמנות המושגית**.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-fountain-duchamp",
+          "quote": "Fountain was a readymade sculpture attributed to Marcel Duchamp in 1917"
+        },
+        {
+          "sourceId": "s-wp-fountain-duchamp",
+          "quote": "\"everyday objects raised to the dignity of a work of art by the artist's act of choice.\""
+        }
+      ],
+      "sources": [
+        "s-wp-fountain-duchamp"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1923-brancusi-bird",
+      "title": "ציפור בחלל",
+      "yearFrom": 1923,
+      "yearTo": 1923,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-brancusi"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-bird-in-space",
+          "quote": "retreating to his Paris Studio."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**ברנקושי** פיסל לא ציפור אלא **מעוף**, בצורה אחת חלקה.",
+      "contribution": "הפסל עורר משפט על השאלה מהי אמנות, והפך לסמל של **הפיסול המופשט**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bird-in-space",
+          "quote": "The original work was created in 1923 and made of marble."
+        }
+      ],
+      "sources": [
+        "s-wp-bird-in-space"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1931-calder-mobile",
+      "title": "המובייל: פסל שזז",
+      "yearFrom": 1931,
+      "yearTo": 1931,
+      "yearApprox": false,
+      "domainId": "sculpture",
+      "personIds": [
+        "p-calder"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-alexander-calder",
+          "quote": "Calder's first exhibition of abstract constructions held at the Galerie Percier in 1931."
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**קלדר** בנה פסלים מופשטים מ**חלקים נעים**, שמפעילים מנוע או רוח.",
+      "contribution": "המובייל הכניס את **התנועה והמקרה** לפיסול.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-alexander-calder",
+          "quote": "Dating from 1931, Calder's abstract sculptures of discrete movable parts powered by motors were christened \"mobiles\" by Marcel Duchamp"
+        }
+      ],
+      "sources": [
+        "s-wp-alexander-calder"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1895-lumiere-workers",
+      "title": "יציאת הפועלים ממפעל לומייר",
+      "yearFrom": 1895,
+      "yearTo": 1895,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-llumiere",
+        "p-alumiere"
+      ],
+      "place": {
+        "wikipedia": "Lyon",
+        "nameHe": "ליון",
+        "nameFull": "Lyon",
+        "lat": 45.7675,
+        "lon": 4.835,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-workers-leaving-the-lumie-re-factory",
+          "quote": "Workers Leaving The Lumière Factory in Lyon"
+        },
+        "city": {
+          "nameHe": "ליון",
+          "nameFull": "Lyon"
+        },
+        "wikidata": "Q456",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**האחים לומייר** הקרינו **תמונה נעה** של רגע אמיתי מהחיים.",
+      "contribution": "זו מהקרנות הקולנוע הראשונות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-workers-leaving-the-lumie-re-factory",
+          "quote": "Louis Lumière first showed a film of workers leaving the factory on 22 March 1895, in Paris"
+        }
+      ],
+      "sources": [
+        "s-wp-workers-leaving-the-lumie-re-factory"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1902-melies-moon",
+      "title": "מסע אל הירח",
+      "yearFrom": 1902,
+      "yearTo": 1902,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-melies"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-a-trip-to-the-moon",
+          "quote": "When the film was screened at the Olympia music hall in Paris in 1902"
+        },
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**מלייס** השתמש ב**אפקטים מיוחדים** כדי לספר סיפור דמיוני.",
+      "contribution": "הסרט פתח את קולנוע **המדע הבדיוני**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-a-trip-to-the-moon",
+          "quote": "is a 1902 French science-fiction adventure trick film written, directed and produced by Georges Méliès."
+        },
+        {
+          "sourceId": "s-wp-georges-me-lie-s",
+          "quote": "became well known for his innovative use of special effects"
+        }
+      ],
+      "sources": [
+        "s-wp-a-trip-to-the-moon",
+        "s-wp-georges-me-lie-s"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1925-eisenstein-potemkin",
+      "title": "אוניית הקרב פוטיומקין: מונטאז׳",
+      "yearFrom": 1925,
+      "yearTo": 1925,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-eisenstein"
+      ],
+      "place": {
+        "wikipedia": "Odesa",
+        "nameHe": "אודסה",
+        "nameFull": "Odesa",
+        "lat": 46.4842,
+        "lon": 30.7325,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-battleship-potemkin",
+          "quote": "such as in the \"Odessa Steps\" scene"
+        },
+        "city": {
+          "nameHe": "אודסה",
+          "nameFull": "Odesa"
+        },
+        "wikidata": "Q1874",
+        "country": {
+          "wikidata": "Q212",
+          "nameHe": "אוקראינה",
+          "nameFull": "Ukraine"
+        }
+      },
+      "novelty": "**אייזנשטיין** בנה משמעות מ**חיבור בין שוטים**, ולא רק מהם עצמם.",
+      "contribution": "סצנת המדרגות באודסה הפכה לאחת המצוטטות בתולדות הקולנוע.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-battleship-potemkin",
+          "quote": "Battleship Potemkin is a 1925 Soviet silent epic film produced by Mosfilm."
+        },
+        {
+          "sourceId": "s-wp-battleship-potemkin",
+          "quote": "The film is a prime example of the Soviet montage theory of editing"
+        }
+      ],
+      "sources": [
+        "s-wp-battleship-potemkin"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1927-metropolis",
+      "title": "מטרופוליס",
+      "yearFrom": 1927,
+      "yearTo": 1927,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-lang"
+      ],
+      "place": {
+        "wikipedia": "Berlin",
+        "nameHe": "ברלין",
+        "nameFull": "Berlin",
+        "lat": 52.5167,
+        "lon": 13.3833,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-metropolis-1927-film",
+          "quote": "The film had its world premiere at the UFA-Palast am Zoo in Berlin on 10 January 1927"
+        },
+        "city": {
+          "nameHe": "ברלין",
+          "nameFull": "Berlin"
+        },
+        "wikidata": "Q64",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "novelty": "**לאנג** בנה על המסך **עיר עתידנית** שלמה, עם אדריכלות משלה.",
+      "contribution": "העיצוב שלו השפיע על אדריכלות ה**ארט דקו** באירופה ובאמריקה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-metropolis-1927-film",
+          "quote": "Metropolis is a 1927 German expressionist science-fiction silent film directed by Fritz Lang"
+        },
+        {
+          "sourceId": "s-wp-metropolis-1927-film",
+          "quote": "The film's use of art deco architecture was highly influential"
+        }
+      ],
+      "sources": [
+        "s-wp-metropolis-1927-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1927-jazz-singer",
+      "title": "זמר הג׳אז: הקולנוע מדבר",
+      "yearFrom": 1927,
+      "yearTo": 1927,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-crosland"
+      ],
+      "place": null,
+      "novelty": "**קרוסלנד** ביים סרט שבו שירה ודיבור **מסונכרנים** עם התמונה.",
+      "contribution": "הסרט סימן את **סוף עידן הקולנוע האילם**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-jazz-singer",
+          "quote": "The Jazz Singer is a 1927 American part-talkie musical drama film directed by Alan Crosland"
+        },
+        {
+          "sourceId": "s-wp-the-jazz-singer",
+          "quote": "Its release heralded the commercial ascendance of sound films and effectively marked the end of the silent film era"
+        }
+      ],
+      "sources": [
+        "s-wp-the-jazz-singer"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1941-citizen-kane",
+      "title": "האזרח קיין",
+      "yearFrom": 1941,
+      "yearTo": 1941,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-welles"
+      ],
+      "place": null,
+      "novelty": "**וולס** צילם ב**עומק שדה** מלא, כשהקדמה והרקע חדים יחד.",
+      "contribution": "הסרט מצוטט שוב ושוב כ**סרט הגדול ביותר** שנעשה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-citizen-kane",
+          "quote": "Citizen Kane is a 1941 American drama film directed, produced by, and starring Orson Welles"
+        },
+        {
+          "sourceId": "s-wp-citizen-kane",
+          "quote": "The most innovative technical aspect of Citizen Kane is the extended use of deep focus"
+        }
+      ],
+      "sources": [
+        "s-wp-citizen-kane"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1948-bicycle-thieves",
+      "title": "גנבי האופניים",
+      "yearFrom": 1948,
+      "yearTo": 1948,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-desica"
+      ],
+      "place": {
+        "wikipedia": "Rome",
+        "nameHe": "רומא",
+        "nameFull": "Rome",
+        "lat": 41.8931,
+        "lon": 12.4828,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "רומא",
+          "nameFull": "Rome"
+        },
+        "wikidata": "Q220",
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "novelty": "**דה סיקה** צילם **ברחוב**, בלי תפאורות ועם שחקנים לא מקצועיים.",
+      "contribution": "זו היצירה המוכרת ביותר של **הניאוריאליזם** האיטלקי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bicycle-thieves",
+          "quote": "is a 1948 Italian neorealist drama film directed by Vittorio De Sica."
+        },
+        {
+          "sourceId": "s-wp-bicycle-thieves",
+          "quote": "De Sica shot only on location (that is, no studio sets) and cast only untrained actors."
+        }
+      ],
+      "sources": [
+        "s-wp-bicycle-thieves"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1950-rashomon",
+      "title": "רשומון",
+      "yearFrom": 1950,
+      "yearTo": 1950,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-kurosawa"
+      ],
+      "place": {
+        "wikipedia": "Kyoto",
+        "nameHe": "קיוטו",
+        "nameFull": "Kyoto",
+        "lat": 35.0116,
+        "lon": 135.7681,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-rashomon",
+          "quote": "Principal photography lasted from July 7 to August 17, 1950, taking place primarily in Kyoto"
+        },
+        "city": {
+          "nameHe": "קיוטו",
+          "nameFull": "Kyoto"
+        },
+        "wikidata": "Q34600",
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "novelty": "**קורוסאווה** סיפר אותו אירוע מ**נקודות מבט סותרות**.",
+      "contribution": "\"אפקט רשומון\" הפך לשם של עדויות שלא מתיישבות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-rashomon",
+          "quote": "is a 1950 Japanese jidaigeki (period drama) psychological thriller film directed by Akira Kurosawa"
+        }
+      ],
+      "sources": [
+        "s-wp-rashomon"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1960-breathless",
+      "title": "עד כלות הנשימה",
+      "yearFrom": 1960,
+      "yearTo": 1960,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-godard"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**גודאר** שבר את כללי העריכה, וקפץ בתוך הסצנה.",
+      "contribution": "הסרט הפך לדוגמה המשפיעה של **הגל החדש** הצרפתי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-breathless-1960-film",
+          "quote": "is a 1960 French New Wave crime drama film written and directed by Jean-Luc Godard."
+        },
+        {
+          "sourceId": "s-wp-breathless-1960-film",
+          "quote": "Breathless is an influential example of French New Wave (nouvelle vague) cinema."
+        }
+      ],
+      "sources": [
+        "s-wp-breathless-1960-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1968-2001",
+      "title": "2001: אודיסיאה בחלל",
+      "yearFrom": 1968,
+      "yearTo": 1968,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-kubrick"
+      ],
+      "place": null,
+      "novelty": "**קובריק** תיאר טיסה בחלל ב**דיוק מדעי**, באפקטים חלוציים.",
+      "contribution": "הסרט קבע רף חדש ל**מדע בדיוני** בקולנוע.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-2001-a-space-odyssey-film",
+          "quote": "2001: A Space Odyssey is a 1968 epic science fiction film produced and directed by Stanley Kubrick"
+        },
+        {
+          "sourceId": "s-wp-2001-a-space-odyssey-film",
+          "quote": "The film is noted for its scientifically accurate depiction of spaceflight, pioneering special effects, and ambiguous themes."
+        }
+      ],
+      "sources": [
+        "s-wp-2001-a-space-odyssey-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1995-toy-story",
+      "title": "צעצוע של סיפור",
+      "yearFrom": 1995,
+      "yearTo": 1995,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-lasseter"
+      ],
+      "place": {
+        "wikipedia": "El Capitan Theatre",
+        "nameHe": "תיאטרון אל קפיטן",
+        "nameFull": "El Capitan Theatre",
+        "lat": 34.1013,
+        "lon": -118.3398,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-toy-story",
+          "quote": "Toy Story premiered at the El Capitan Theatre in Los Angeles on November 19, 1995"
+        },
+        "city": {
+          "nameHe": "לוס אנג׳לס",
+          "nameFull": "Los Angeles"
+        },
+        "wikidata": "Q849284",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "**לאסטר** ביים את הסרט הראשון שכולו **הנפשת מחשב**.",
+      "contribution": "הוא נחשב לאחד הסרטים החשובים בתולדות המדיום.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-toy-story",
+          "quote": "Toy Story is a 1995 American animated adventure comedy film directed by John Lasseter"
+        },
+        {
+          "sourceId": "s-wp-toy-story",
+          "quote": "The first entirely computer-animated feature film"
+        }
+      ],
+      "sources": [
+        "s-wp-toy-story"
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"

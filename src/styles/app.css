@@ -446,3 +446,63 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .edit-field { width: 100%; font-size: 14px; line-height: 1.6; resize: vertical; }
 .edit-msg { color: var(--archive); }
 .edit-banner { position: sticky; top: 53px; z-index: 19; background: var(--marker); color: var(--ink); text-align: center; padding: 6px 12px; font-size: 13px; box-shadow: var(--shadow-1); }
+
+/* פיסול וקולנוע */
+.tl-dot-sculpture { fill: var(--sculpture); background: var(--sculpture); }
+.tl-dot-cinema { fill: var(--cinema); background: var(--cinema); }
+.tag-sculpture { background: var(--sculpture); }
+.tag-cinema { background: var(--cinema); }
+.axis-sculpture { stroke: var(--sculpture); }
+.axis-cinema { stroke: var(--cinema); }
+.row-sculpture { background: var(--sculpture); }
+.row-cinema { background: var(--cinema); }
+.pin-sculpture { background: var(--sculpture); border-color: var(--sculpture); }
+.pin-cinema { background: var(--cinema); border-color: var(--cinema); }
+.chip-dom[aria-pressed="true"].dom-sculpture { background: var(--sculpture); border-color: var(--sculpture); }
+.chip-dom[aria-pressed="true"].dom-cinema { background: var(--cinema); border-color: var(--cinema); }
+.dom-sculpture .mc-sq, .lg-sq.dom-sculpture { background: var(--sculpture); }
+.dom-cinema .mc-sq, .lg-sq.dom-cinema { background: var(--cinema); }
+.g-node.dom-sculpture .g-sq { stroke: var(--sculpture); }
+.g-node.dom-cinema .g-sq { stroke: var(--cinema); }
+.g-node.dom-sculpture .g-sq, .g-node.dom-cinema .g-sq { stroke-dasharray: none; }
+
+/* מפה: בלי מספרים בתצוגה הרגילה, מספר רק במסע */
+.mc-n:empty { display: none; }
+.map-city.has-badge .mc-sq { width: auto; min-width: var(--sq); padding: 0 4px; font-size: 11px; font-weight: 600; }
+.lg-sq.lg-badge { width: auto; min-width: 16px; height: 16px; padding: 0 3px; background: var(--ink); color: #fff; font-size: 10px; display: inline-grid; place-items: center; font-family: var(--mono); }
+.map-card-wrap { position: relative; }
+.tour-seg { align-items: center; }
+.tour-card { position: absolute; top: 12px; right: 12px; z-index: 5; width: min(380px, calc(100% - 24px)); display: grid; gap: 10px; padding: 12px 14px; }
+.tour-top { display: flex; gap: 10px; align-items: baseline; }
+.tour-num { font-size: 20px; font-weight: 600; color: var(--ink); }
+.tour-body { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; align-items: start; }
+.tour-face { width: 72px; max-height: 96px; object-fit: contain; background: var(--rule-soft); box-shadow: var(--shadow-1); }
+.tour-year { font-size: 13px; color: var(--ink-soft); }
+.tour-title { margin: 2px 0; font-size: 17px; font-weight: 600; }
+.tour-who { font-size: 13px; font-weight: 600; color: var(--sechel); }
+.tour-text { margin: 6px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink-soft); }
+.tour-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; max-height: min(60vh, 560px); overflow-y: auto; }
+.tour-n { width: 22px; height: 22px; display: grid; place-items: center; background: var(--ink); color: #fff; font-size: 11px; }
+.city-row[aria-pressed="true"] .tour-n { background: var(--marker); color: var(--ink); }
+/* פאנל מקום היררכי */
+.place-panel { gap: 12px; max-height: min(78vh, 760px); overflow-y: auto; }
+.pp-sum { margin: 0; font-size: 14px; }
+.pp-family { border-right: 4px solid var(--fam); padding-right: 10px; display: grid; gap: 8px; }
+.pp-fam-title { margin: 0; font-size: 12px; font-family: var(--mono); color: var(--ink-mute); letter-spacing: .04em; }
+.pp-domain { display: grid; gap: 6px; }
+.pp-dom-title { margin: 0; font-size: 15px; font-weight: 600; display: flex; gap: 8px; align-items: center; }
+.pp-people { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.pp-person { display: inline-flex; align-items: center; gap: 8px; padding: 3px 8px 3px 4px; color: var(--ink); font-weight: 600; font-size: 14px; }
+.pp-face { width: 26px; height: 32px; background: var(--rule-soft); display: grid; place-items: center; overflow: hidden; }
+.pp-face img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.pp-works { list-style: none; padding: 0 34px 0 0; margin: 4px 0 0; display: grid; gap: 2px; font-size: 13px; color: var(--ink-soft); }
+.pp-work.is-hidden { opacity: .55; }
+@media (max-width: 860px) { .tour-card { position: relative; top: auto; right: auto; width: auto; margin: 8px; } }
+/* 12 תחומים: שורת התחומים מקבלת שורה משלה, והמחוון לא מתכווץ לאפס */
+.tl-controls { grid-template-columns: minmax(0, 1fr) auto; }
+.tl-controls > .seg:first-child { grid-column: 1 / -1; }
+@media (max-width: 860px) { .tl-controls { grid-template-columns: minmax(0, 1fr); } }
+/* שורות הבקרה של המפה: תחומים, מסע, ואז מחוון והפעלה */
+.map-controls { grid-template-columns: minmax(0, 1fr) auto; }
+.map-controls > .map-domains, .map-controls > .tour-seg { grid-column: 1 / -1; }
+.tour-seg { padding-top: 8px; border-top: 1px solid var(--rule); }

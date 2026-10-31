@@ -1735,6 +1735,126 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-87",
+      "fromId": "d-1895-lumiere-workers",
+      "toId": "d-1902-melies-moon",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הקוסם ראה את המכונה של המדענים.== **מלייס** ראה הדגמה של **הקולנוע של לומייר** בדצמבר 1895.",
+      "application": "לראות איך **כלי מדעי** הופך בידי אמן ל**כלי של דמיון**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-georges-me-lie-s",
+          "quote": "Méliès attended a special private demonstration of the Lumière brothers' cinematograph"
+        }
+      ],
+      "sources": [
+        "s-wp-georges-me-lie-s"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-88",
+      "fromId": "d-1917-duchamp-fountain",
+      "toId": "d-1931-calder-mobile",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==דושאן נתן למובייל את שמו.== **דושאן** קרא לפסלים הנעים של **קלדר** \"מובייל\".",
+      "application": "לתת **שם** לדבר חדש: לפעמים זה חצי מההמצאה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-alexander-calder",
+          "quote": "were christened \"mobiles\" by Marcel Duchamp"
+        }
+      ],
+      "sources": [
+        "s-wp-alexander-calder"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-89",
+      "fromId": "d-1880-rodin-thinker",
+      "toId": "p-brancusi",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==שבועות ספורים אצל רודן, ואז דרך משלו.== **ברנקושי** עבד כעוזר של **רודן**, ועזב.",
+      "application": "ללמוד מאמן גדול, ולדעת **מתי לעזוב**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-constantin-bra-ncus-i",
+          "quote": "In March 1907, Brâncuși began working as an assistant to Auguste Rodin."
+        }
+      ],
+      "sources": [
+        "s-wp-constantin-bra-ncus-i"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-90",
+      "fromId": "d-1436-brunelleschi-dome",
+      "toId": "d-1501-michelangelo-david",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הפסל הוזמן לגג של הקתדרלה.== **דוד** הוזמן כאחד מפסלי הנביאים לגג הקתדרלה של פירנצה.",
+      "application": "לחפש את **הבניין** שבשבילו נוצרה יצירה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-david-michelangelo",
+          "quote": "David was originally commissioned as one of a series of statues of twelve prophets to be positioned along the roofline of the east end of Florence Cathedral"
+        }
+      ],
+      "sources": [
+        "s-wp-david-michelangelo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-91",
+      "fromId": "d-1925-bauhaus-dessau",
+      "toId": "d-1927-metropolis",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==העיר של הסרט נבנתה מהבאוהאוס.== העיצוב של **מטרופוליס** שאב מ**הבאוהאוס**, מהקוביזם ומהפוטוריזם.",
+      "application": "להשוות **תפאורה** של סרט ל**תוכנית** של עיר.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-metropolis-1927-film",
+          "quote": "the film's art direction by Otto Hunte, Erich Kettelhut, and Karl Vollbrecht draws influence from opera, Bauhaus, Cubist, and Futurist design"
+        }
+      ],
+      "sources": [
+        "s-wp-metropolis-1927-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-92",
+      "fromId": "d-1907-picasso-demoiselles",
+      "toId": "d-1927-metropolis",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הקוביזם עלה למסך.== העיצוב של **מטרופוליס** שאב גם מ**הקוביזם**.",
+      "application": "לזהות **סגנון ציור** בתוך עיצוב של סרט.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-metropolis-1927-film",
+          "quote": "draws influence from opera, Bauhaus, Cubist, and Futurist design"
+        }
+      ],
+      "sources": [
+        "s-wp-metropolis-1927-film"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

@@ -3,9 +3,10 @@ import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from 'react
 import Rich from '../components/Rich';
 import LinkPanel from '../components/LinkPanel';
 import PersonCard from '../components/PersonCard';
+import PlacePanel from '../components/PlacePanel';
 import { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
 import { activeDomains, confidenceName, endName, linkTypeName, personById, rangeText, yearText } from '../data';
-import { centerAt, centerTrail, cities, km, nearestCity, routes, sameCityLinks, unplaced } from '../geo';
+import { arc, centerAt, centerTrail, cities, countries, countryByName, km, nearestCity, routes, sameCityLinks, unplaced } from '../geo';
 import { replace } from '../route';
 
 const MapView = lazy(() => import('../components/MapView'));
@@ -73,19 +74,46 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
   const near = center ? nearestCity(center) : null;
   const nearKm = center && near ? Math.round(km(center, near.lonLat) / 10) * 10 : 0;
   const pick = (personId: string) => set({ p: personId });
-  const ranking = [...visible].sort((a, b) => b.known - a.known || a.city.nameHe.localeCompare(b.city.nameHe, 'he'));
+
+  // מסע: הגילויים של תחום אחד לפי סדר כרונולוגי, תחנה אחרי תחנה
+  const tourDomain = activeDomains.find((d) => d.id === params.t);
+  const stops = useMemo(() => (tourDomain
+    ? cities.flatMap((c) => c.items.filter((d) => d.domainId === tourDomain.id).map((d) => ({ d, city: c }))).sort((a, b) => a.d.yearFrom - b.d.yearFrom || a.d.id.localeCompare(b.d.id))
+    : []), [tourDomain]);
+  const si = Math.min(Math.max(Number(params.s) || 0, 0), Math.max(stops.length - 1, 0));
+  const stop = stops[si];
+  const [touring, setTouring] = useState(false);
+  useEffect(() => {
+    if (!touring || !tourDomain) return;
+    const id = window.setInterval(() => {
+      const cur = Number(new URLSearchParams(window.location.hash.split('?')[1] || '').get('s')) || 0;
+      if (cur >= stops.length - 1) { setTouring(false); return; }
+      set({ s: String(cur + 1) });
+    }, 4200);
+    return () => window.clearInterval(id);
+  }, [touring, tourDomain, stops.length, set]);
+  const tourCities = useMemo(() => {
+    const m = new Map<string, { city: (typeof cities)[number]; nums: number[] }>();
+    stops.forEach((st, i) => { const e = m.get(st.city.key) || { city: st.city, nums: [] }; e.nums.push(i + 1); m.set(st.city.key, e); });
+    return [...m.values()];
+  }, [stops]);
+  const tourPath = useMemo(() => stops.slice(1).map((st, i) => arc(stops[i].city.lonLat, st.city.lonLat, 24)), [stops]);
+  const country = !tourDomain && params.k ? countries.find((c) => c.key === params.k) : undefined;
+  const countryItems = country ? country.cities.flatMap((c) => c.items.filter((d) => domains.has(d.domainId))).sort((a, b) => a.yearFrom - b.yearFrom) : [];
 
   return (
     <main className="page page-wide">
       <div className="crumbs"><a href="#/">בית</a> / מפה</div>
-      <h1 className="page-title"><Rich>{`בשנת ${yearText(year)}: ${knownCount} גילויים ב-${visible.length} ערים.`}</Rich></h1>
+      <h1 className="page-title"><Rich>{tourDomain && stop
+        ? `מסע ב${tourDomain.nameHe}: תחנה ${si + 1} מתוך ${stops.length}, ${stop.city.nameHe}.`
+        : `בשנת ${yearText(year)}: ${knownCount} גילויים ב-${visible.length} ערים.`}</Rich></h1>
       <p className="page-sub lines">
-        {center && near && <span><Rich>{`**מרכז הכובד** של הידע: ${nearKm < 60 ? 'ב' : `כ-${nearKm} ק״מ מ`}${near.nameHe}. ==הוא נודד עם הזמן==, והקו המקווקו הוא המסלול שלו.`}</Rich></span>}
-        <span>לחיצה על עיר מציגה את הגילויים שבה. לחיצה על קשת מציגה את הקשר.</span>
+        {!tourDomain && center && near && <span><Rich>{`**מרכז הכובד** של הידע: ${nearKm < 60 ? 'ב' : `כ-${nearKm} ק״מ מ`}${near.nameHe}. ==הוא נודד עם הזמן==, והקו המקווקו הוא המסלול שלו.`}</Rich></span>}
+        <span>לחיצה על עיר או על שם של ארץ מציגה את כל הדמויות שלה. <strong>מסע</strong> עובר על תחום אחד לפי הסדר.</span>
       </p>
 
       <div className="map-controls card glass">
-        <div className="seg" role="group" aria-label="תחומים">
+        <div className="seg map-domains" role="group" aria-label="תחומים">
           {activeDomains.map((d) => {
             const on = domains.has(d.id);
             return (
@@ -95,6 +123,13 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
           })}
           <button type="button" className="press chip" aria-pressed={showRoutes} onClick={() => set({ r: showRoutes ? '0' : undefined })}>מסלולי ידע <bdi className="num">{shownRoutes.length}</bdi></button>
           <button type="button" className="press chip" aria-pressed={showTrail} onClick={() => set({ g: showTrail ? '0' : undefined })}>שובל מרכז הכובד</button>
+        </div>
+        <div className="seg tour-seg" role="group" aria-label="מסע לפי סדר כרונולוגי">
+          <span className="label">מסע</span>
+          {activeDomains.map((d) => (
+            <button key={d.id} type="button" className={`press chip chip-dom dom-${d.id}`} aria-pressed={tourDomain?.id === d.id}
+              onClick={() => { setTouring(false); set(tourDomain?.id === d.id ? { t: undefined, s: undefined } : { t: d.id, s: '0', c: undefined, k: undefined }); }}>{d.nameHe}</button>
+          ))}
         </div>
         <label className="slider">
           <span className="label">שנה</span>
@@ -117,16 +152,51 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
           ) : (
             <Suspense fallback={<div className="map-loading">טוען את הגלובוס…</div>}>
               <MapView
-                cities={visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on, domain: v.domain }))}
-                routes={showRoutes ? shownRoutes.map((r) => ({ id: r.link.id, path: r.path, type: r.link.type, confidence: r.link.confidence, on: r.link.id === params.l })) : []}
-                trail={trail} center={center} focus={sel ? sel.city.lonLat : null}
-                onCity={(k) => set({ c: k === params.c ? undefined : k })} onRoute={(id) => set({ l: id === params.l ? undefined : id })} onFail={() => setFailed(true)} />
+                cities={tourDomain
+                  ? tourCities.map((t) => ({ city: t.city, known: t.nums.length, recent: false, on: !!stop && stop.city.key === t.city.key, domain: tourDomain.id, badge: t.nums.join('·') }))
+                  : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || (!!country && v.city.country?.key === country.key), domain: v.domain }))}
+                routes={showRoutes && !tourDomain ? shownRoutes.map((r) => ({ id: r.link.id, path: r.path, type: r.link.type, confidence: r.link.confidence, on: r.link.id === params.l })) : []}
+                trail={tourDomain ? [] : trail} tour={tourPath} center={tourDomain ? null : center}
+                focus={tourDomain && stop ? stop.city.lonLat : sel ? sel.city.lonLat : country ? country.lonLat : null}
+                focusZoom={tourDomain ? 3.4 : country ? 2.8 : 3.2}
+                onCity={(k) => (tourDomain ? set({ s: String(stops.findIndex((x) => x.city.key === k)) }) : set({ c: k === params.c ? undefined : k, k: undefined }))}
+                onRoute={(id) => set({ l: id === params.l ? undefined : id })}
+                onCountry={(name) => { const c = countryByName(name); if (c && !tourDomain) set({ k: c.key, c: undefined }); }}
+                onFail={() => setFailed(true)} />
             </Suspense>
           )}
+          {tourDomain && stop && (() => {
+            const p = personById.get(stop.d.personIds[0]);
+            return (
+              <div className="tour-card card glass rise" key={stop.d.id} role="region" aria-label="תחנה במסע">
+                <div className="tour-top">
+                  <span className="tour-num"><bdi className="num">{si + 1}</bdi>/<bdi className="num">{stops.length}</bdi></span>
+                  <span className="label">{tourDomain.nameHe} · {stop.city.nameHe}{stop.city.country ? `, ${stop.city.country.nameHe}` : ''}</span>
+                </div>
+                <div className="tour-body">
+                  {p?.imageUrl && <img className="tour-face" src={p.imageUrl} alt={p.nameHe} />}
+                  <div>
+                    <div className="tour-year"><Rich>{rangeText(stop.d)}</Rich></div>
+                    <h3 className="tour-title">{stop.d.title}</h3>
+                    <div className="tour-who">{stop.d.personIds.map((id) => personById.get(id)?.nameHe).join(' ו')}</div>
+                    {stop.d.novelty && <Rich as="p" className="tour-text">{stop.d.novelty}</Rich>}
+                  </div>
+                </div>
+                <div className="seg">
+                  <button type="button" className="press btn" disabled={si === 0} onClick={() => { setTouring(false); set({ s: String(si - 1) }); }}>הקודמת</button>
+                  <button type="button" className="press btn btn-primary" aria-pressed={touring} onClick={() => setTouring((x) => !x)}>{touring ? 'עצירה' : 'הפעלה'}</button>
+                  <button type="button" className="press btn" disabled={si >= stops.length - 1} onClick={() => { setTouring(false); set({ s: String(si + 1) }); }}>הבאה</button>
+                  <button type="button" className="press btn btn-quiet" onClick={() => p && pick(p.id)}>כרטיס הדמות</button>
+                  <button type="button" className="press btn btn-quiet" onClick={() => { setTouring(false); set({ t: undefined, s: undefined }); }}>סיום המסע</button>
+                </div>
+              </div>
+            );
+          })()}
           <ul className="legend" aria-label="מקרא">
           {activeDomains.map((d) => <li key={d.id}><span className={`lg-sq dom-${d.id}`} />{d.nameHe}</li>)}
             <li><span className="lg-sq dom-mixed" />כמה תחומים</li>
-            <li><span className="lg-sq lg-big" />גודל: מספר הגילויים</li>
+            <li><span className="lg-sq lg-big" />גודל: מספר הגילויים בעיר</li>
+            <li><span className="lg-sq lg-badge">3</span>מספר: סדר התחנה במסע</li>
             <li><span className="lg-sq lg-recent" />גילוי ב-<bdi className="num">30</bdi> השנים האחרונות</li>
             <li><span className="lg-line line-influenced" />מסלול ידע מתועד</li>
             <li><span className="lg-line lg-orange" />פרשנות מקובלת</li>
@@ -135,42 +205,52 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
         </section>
 
         <aside className="map-side" aria-label="ערים">
-          {sel ? (
-            <div className="card city-panel rise">
-              <div className="city-head">
-                <h2 className="city-title">{sel.city.nameHe} <span className="muted" dir="ltr">{sel.city.nameFull}</span></h2>
-                <button type="button" className="press btn btn-quiet" onClick={() => set({ c: undefined })}>חזרה לכל הערים</button>
-              </div>
-              <p className="muted small">מקום: <span className={`conf conf-${sel.city.confidence}`}>{confidenceName[sel.city.confidence]}</span></p>
-              <ul className="city-items">
-                {sel.items.map((d) => (
-                  <li key={d.id} className={d.yearFrom <= year ? '' : 'is-hidden'}>
-                    <span className="find-year"><Rich>{rangeText(d)}</Rich></span>
-                    <strong>{d.title}</strong>
-                    <span className="city-people">
-                      {d.personIds.map((id) => <button key={id} type="button" className="press chip" onClick={() => pick(id)}>{personById.get(id)?.nameHe}</button>)}
-                    </span>
-                    {d.yearFrom > year && <span className="label">עוד נעלם בשנת {yearText(year)}</span>}
+          {tourDomain ? (
+            <div className="card city-panel">
+              <h2 className="city-title">המסע ב{tourDomain.nameHe}</h2>
+              <p className="muted small">כל התחנות לפי הסדר הכרונולוגי. לחיצה על תחנה מעבירה אליה.</p>
+              <ol className="tour-list">
+                {stops.map((st, i) => (
+                  <li key={st.d.id}>
+                    <button type="button" className="press city-row" aria-pressed={i === si} onClick={() => { setTouring(false); set({ s: String(i) }); }}>
+                      <span className="tour-n"><bdi className="num">{i + 1}</bdi></span>
+                      <span>{st.d.title.split(':')[0]} <span className="muted">{st.city.nameHe}</span></span>
+                      <span className="tour-y" data-year={st.d.yearFrom}><bdi className="num">{Math.abs(st.d.yearFrom)}</bdi>{st.d.yearFrom < 0 ? ' לפנה״ס' : ''}</span>
+                    </button>
                   </li>
                 ))}
-              </ul>
+              </ol>
             </div>
+          ) : sel ? (
+            <PlacePanel title={sel.city.nameHe} subtitle={sel.city.nameFull} items={sel.items} year={year} onPerson={pick}>
+              <div className="seg">
+                {sel.city.country && <button type="button" className="press chip" onClick={() => set({ k: sel.city.country!.key, c: undefined })}>כל {sel.city.country.nameHe}</button>}
+                <button type="button" className="press chip" onClick={() => set({ c: undefined })}>חזרה לכל הארצות</button>
+              </div>
+            </PlacePanel>
+          ) : country ? (
+            <PlacePanel title={country.nameHe} subtitle={country.nameFull} items={countryItems} year={year} onPerson={pick}>
+              <div className="seg pp-cities" aria-label="ערים">
+                {country.cities.map((c) => <button key={c.key} type="button" className="press chip" onClick={() => set({ c: c.key, k: undefined })}>{c.nameHe} <bdi className="num">{c.items.filter((d) => domains.has(d.domainId)).length}</bdi></button>)}
+                <button type="button" className="press chip" onClick={() => set({ k: undefined })}>חזרה לכל הארצות</button>
+              </div>
+            </PlacePanel>
           ) : (
             <div className="card city-panel">
-              <h2 className="city-title">ערי הידע בשנת {yearText(year)}</h2>
-              {ranking.length === 0 ? <p className="muted">עוד אין גילויים בתחומים שנבחרו. הזיזו את המחוון קדימה.</p> : (
-                <ol className="city-rank">
-                  {ranking.map((v) => (
-                    <li key={v.city.key}>
-                      <button type="button" className="press city-row" onClick={() => set({ c: v.city.key })}>
-                        <span className={`lg-sq dom-${v.domain}`} />
-                        <span>{v.city.nameHe} <span className="muted" dir="ltr">{v.city.nameFull}</span></span>
-                        <bdi className="num">{v.known}</bdi>
+              <h2 className="city-title">ארצות הידע</h2>
+              <p className="muted small">לפי מספר הגילויים בתחומים שנבחרו. לחיצה פותחת את כל הדמויות של הארץ.</p>
+              <ol className="city-rank country-rank">
+                {countries.map((c) => ({ c, n: c.cities.reduce((s2, x) => s2 + x.items.filter((d) => domains.has(d.domainId)).length, 0) }))
+                  .filter((x) => x.n > 0).sort((a2, b2) => b2.n - a2.n || a2.c.nameHe.localeCompare(b2.c.nameHe, 'he')).map(({ c, n }) => (
+                    <li key={c.key}>
+                      <button type="button" className="press city-row" onClick={() => set({ k: c.key })}>
+                        <span className="lg-sq dom-mixed" />
+                        <span>{c.nameHe} <span className="muted" dir="ltr">{c.nameFull}</span></span>
+                        <bdi className="num">{n}</bdi>
                       </button>
                     </li>
                   ))}
-                </ol>
-              )}
+              </ol>
               {unplaced.length > 0 && <p className="muted small">בלי מקום פעילות מאומת, ולכן לא על המפה: {unplaced.map((d) => d.title.split(':')[0]).join(', ')}.</p>}
             </div>
           )}

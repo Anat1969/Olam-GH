@@ -13,6 +13,7 @@ export interface Place {
   wikipedia: string; wikidata?: string; nameHe: string | null; nameFull: string | null;
   lat: number | null; lon: number | null; confidence: Confidence; evidence: Evidence | null;
   city: { nameHe: string; nameFull: string };
+  country?: { wikidata: string; nameHe: string | null; nameFull: string } | null;
 }
 export interface Person {
   id: string; wikipedia: string; wikidata?: string; nameHe: string; nameFull: string;
