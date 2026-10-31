@@ -88,3 +88,41 @@ export async function saveText(kind: 'discovery' | 'link', id: string, field: st
   if (t) t[field] = value;
   set({ status: 'נשמר', version: state.version + 1 });
 }
+
+// טיוטות: גילוי חדש שהמנהלת מוסיפה מהממשק. נשמר בענן כ-verified=false, ולכן לא מוצג לציבור (RLS).
+// npm run drafts מושך אותן ל-data/, ו-npm run verify מחליט אם הן נכנסות.
+export type Draft = {
+  title: string; domainId: string; yearFrom: number; yearTo: number;
+  person: string; article: string; quote: string; place: string;
+  novelty: string; contribution: string;
+  check?: { quoteFound: boolean | null; yearInQuote: boolean };
+  createdAt?: string; createdBy?: string;
+};
+export const yearTokens = (y: number) => (y < 0 ? [`${-y} BC`, `${-y} BCE`] : [String(y)]);
+const norm = (s: string) => s.replace(/\s+/g, ' ').trim();
+
+/** אותה בדיקה כמו בסקריפט האימות: הציטוט מופיע מילה במילה במאמר. null = אי אפשר היה לבדוק */
+export async function checkQuote(article: string, quote: string): Promise<boolean | null> {
+  try {
+    const u = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&format=json&redirects=1&origin=*&titles=${encodeURIComponent(article)}`;
+    const res = await fetch(u, { headers: { 'Api-User-Agent': 'OlamGH-drafts/1.0 (https://github.com/Anat1969/olam-gh)' } });
+    if (!res.ok) return null;
+    const pages = (await res.json()).query?.pages || {};
+    const text = (Object.values(pages)[0] as { extract?: string } | undefined)?.extract;
+    if (!text) return false;
+    return norm(text).includes(norm(quote));
+  } catch { return null; }
+}
+
+export async function loadDrafts(): Promise<{ id: string; data: Draft }[]> {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/olam_records?select=id,data&kind=eq.discovery&verified=eq.false&id=like.draft-*&order=id.desc`, { headers: headers(true) });
+  return res.ok ? res.json() : [];
+}
+
+export async function saveDraft(d: Draft) {
+  const id = `draft-${Date.now()}`;
+  const data = { ...d, createdAt: new Date().toISOString(), createdBy: state.session?.email || '' };
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/olam_records`, { method: 'POST', headers: { ...headers(true), Prefer: 'return=minimal' }, body: JSON.stringify({ kind: 'discovery', id, data, verified: false }) });
+  if (!res.ok) throw new Error('הטיוטה לא נשמרה. נסי להיכנס שוב.');
+  return id;
+}

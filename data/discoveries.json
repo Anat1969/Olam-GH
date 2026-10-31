@@ -8761,6 +8761,202 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce648-pankration",
+      "title": "פנקרטיון",
+      "yearFrom": -648,
+      "yearTo": -564,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "personIds": [
+        "p-arrhichion"
+      ],
+      "place": {
+        "wikipedia": "Olympia, Greece",
+        "nameHe": "אולימפיה",
+        "nameFull": "Olympia",
+        "lat": 37.6383,
+        "lon": 21.63,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "אולימפיה",
+          "nameFull": "Olympia"
+        },
+        "wikidata": "Q38888",
+        "country": {
+          "wikidata": "Q41",
+          "nameHe": "יוון",
+          "nameFull": "Greece"
+        }
+      },
+      "novelty": "**קרב בלי נשק** באולימפיה, שבו מותר כמעט הכול: אגרוף, בעיטה והיאבקות.",
+      "contribution": "**אריכיון** זכה בו אף שמת בקרב, והפנקרטיון היה מהענפים האהובים במשחקים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pankration",
+          "quote": "was an unarmed combat sport introduced into the Greek Olympic Games in 648 BC."
+        },
+        {
+          "sourceId": "s-wp-arrhichion",
+          "quote": "He died while successfully defending his championship in the pankration at the 54th Olympiad (564 BC)."
+        },
+        {
+          "sourceId": "s-wp-ancient-olympic-games",
+          "quote": "The pankration was one of the most popular sports in the ancient Olympic Games."
+        }
+      ],
+      "sources": [
+        "s-wp-pankration",
+        "s-wp-arrhichion",
+        "s-wp-ancient-olympic-games"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1847-helmholtz-energy",
+      "title": "שימור האנרגיה",
+      "yearFrom": 1847,
+      "yearTo": 1847,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-helmholtz"
+      ],
+      "place": null,
+      "novelty": "**הלמהולץ** ניסח את **שימור האנרגיה** בצורה כללית, מתוך עבודה ברפואה.",
+      "contribution": "העיקרון הוביל ל**חוק הראשון של התרמודינמיקה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hermann-von-helmholtz",
+          "quote": "His first important scientific achievement, an 1847 treatise on the conservation of energy, was written in the context of his medical studies and philosophical background."
+        },
+        {
+          "sourceId": "s-wp-hermann-von-helmholtz",
+          "quote": "for the energy conservation principles that eventually led to the first law of thermodynamics"
+        }
+      ],
+      "sources": [
+        "s-wp-hermann-von-helmholtz"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1949-feldenkrais-body",
+      "title": "הגוף וההתנהגות הבוגרת",
+      "yearFrom": 1949,
+      "yearTo": 1949,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-feldenkrais"
+      ],
+      "place": null,
+      "novelty": "**פלדנקרייז** קשר בין **תנועת הגוף** לחרדה, ללמידה ולהתנהגות.",
+      "contribution": "זה הספר הראשון על השיטה שלו, שאותה לימד בתל אביב משנת **1954**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-moshe-feldenkrais",
+          "quote": "In 1949, he published the first book on his method, Body and Mature Behavior: A Study of Anxiety, Sex, Gravitation and Learning."
+        },
+        {
+          "sourceId": "s-wp-moshe-feldenkrais",
+          "quote": "he settled in Tel Aviv and began to teach his method full-time."
+        }
+      ],
+      "sources": [
+        "s-wp-moshe-feldenkrais"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1943-sanshiro-sugata",
+      "title": "סנשירו סוגטה",
+      "yearFrom": 1943,
+      "yearTo": 1943,
+      "yearApprox": false,
+      "domainId": "cinema",
+      "personIds": [
+        "p-kurosawa"
+      ],
+      "place": null,
+      "novelty": "**קורוסאווה** ביים סרט על צעיר שלומד **משמעת** דרך ג׳ודו.",
+      "contribution": "זה סרט הבכורה של קורוסאווה כבמאי.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-sanshiro-sugata",
+          "quote": "is a 1943 Japanese martial arts drama film written and directed by Akira Kurosawa, his feature directorial debut."
+        }
+      ],
+      "sources": [
+        "s-wp-sanshiro-sugata"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1964-budokan",
+      "title": "נִיפּוֹן בודוקאן",
+      "yearFrom": 1964,
+      "yearTo": 1964,
+      "yearApprox": false,
+      "domainId": "architecture",
+      "personIds": [
+        "p-myamada"
+      ],
+      "place": {
+        "wikipedia": "Tokyo",
+        "nameHe": "טוקיו",
+        "nameFull": "Tokyo",
+        "lat": 35.6894,
+        "lon": 139.6917,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-nippon-budokan",
+          "quote": "when judo was selected as an official sport for the 1964 Tokyo Summer Olympics"
+        },
+        "city": {
+          "nameHe": "טוקיו",
+          "nameFull": "Tokyo"
+        },
+        "wikidata": "Q1490",
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "novelty": "אולם שנבנה **לג׳ודו**, בדגם של **היכל החלומות** (יומדונו) במקדש הוריו-ג׳י שבנארה.",
+      "contribution": "הג׳ודו נכנס לאולימפיאדה ב-**1964** באולם הזה, והוא אירח שוב ג׳ודו וקראטה ב-**2020**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nippon-budokan",
+          "quote": "It was originally built for the inaugural Olympic judo competition in the 1964 Summer Olympics."
+        },
+        {
+          "sourceId": "s-wp-nippon-budokan",
+          "quote": "The building is modeled after Yumedono (Hall of Dreams) in Hōryū-ji in Nara."
+        },
+        {
+          "sourceId": "s-wp-mamoru-yamada",
+          "quote": "including the Nippon Budokan (1964)"
+        }
+      ],
+      "sources": [
+        "s-wp-nippon-budokan",
+        "s-wp-mamoru-yamada"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

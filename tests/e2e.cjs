@@ -21,6 +21,7 @@ const h1 = (p) => p.locator('h1').innerText();
 const waitH1 = (p, part) => p.waitForFunction((t) => document.querySelector('h1')?.innerText.includes(t), part, { timeout: 5000 }).catch(() => {});
 // Supabase מדומה: טקסט אחד ערוך בענן, כניסה, בדיקת מנהלת ושמירה
 const patches = [];
+const posts = [];
 const CLOUD_NOVELTY = 'חידוש שנערך בענן לבדיקה.';
 const mockCloud = async (p, mode = 'ok') => {
   await p.route('**/ktqmwpbzcnzkhjskqisy.supabase.co/**', async (r) => {
@@ -28,6 +29,8 @@ const mockCloud = async (p, mode = 'ok') => {
     if (mode === 'down') return r.abort();
     if (u.includes('/auth/v1/token')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ access_token: 'test-token', expires_in: 3600, user: { email: 'shtanat5@gmail.com' } }) });
     if (u.includes('/olam_admins')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify([{ email: 'shtanat5@gmail.com' }]) });
+    if (r.request().method() === 'POST' && u.includes('/rest/v1/olam_records')) { posts.push(JSON.parse(r.request().postData() || '{}')); return r.fulfill({ status: 201, body: '' }); }
+    if (u.includes('id=like.draft')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(posts.map((x) => ({ id: x.id, data: x.data }))) });
     if (r.request().method() === 'PATCH') { patches.push({ url: u, body: JSON.parse(r.request().postData() || '{}') }); return r.fulfill({ status: 204, body: '' }); }
     if (u.includes('select=data&')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify([{ data: { id: 'x', title: 'x' } }]) });
     if (u.includes('/olam_records')) return r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify([{ kind: 'discovery', id: 'd-1687-newton-principia', data: { novelty: CLOUD_NOVELTY, evidence: 'מנסה לדרוס ציטוט' } }]) });
@@ -66,10 +69,12 @@ const mock = async (p) => {
 
     await p.locator('.tabs').getByText('ציר הזמן').click();
     await waitH1(p, 'בשנת');
-    ok((await h1(p)).includes('בשנת 1700 ידועים 8 מתוך 20 גילויים'), 'ציר הזמן: ברירת מחדל, פיזיקה ב-1700');
+    const PHYS = DISC.filter((d) => d.domainId === 'physics');
+    const physKnown = PHYS.filter((d) => d.yearFrom <= 1700).length;
+    ok((await h1(p)).includes(`בשנת 1700 ידועים ${physKnown} מתוך ${PHYS.length} גילויים`), 'ציר הזמן: ברירת מחדל, פיזיקה ב-1700');
     ok(await p.locator('.tabs [aria-current="page"]').innerText() === 'ציר הזמן', 'לשונית ציר הזמן מסומנת');
-    ok(await p.locator('.tl-card').count() === 20, 'ציר הפיזיקה: 20 כרטיסים, רק רשומות מאומתות');
-    ok(await p.locator('.tl-card.is-hidden').count() === 12, 'גילויים אחרי 1700 מתחת לזכוכית');
+    ok(await p.locator('.tl-card').count() === PHYS.length, `ציר הפיזיקה: ${PHYS.length} כרטיסים, רק רשומות מאומתות`);
+    ok(await p.locator('.tl-card.is-hidden').count() === PHYS.length - physKnown, 'גילויים אחרי 1700 מתחת לזכוכית');
     await p.getByRole('button', { name: 'הגילוי הבא' }).click();
     await waitH1(p, '1785');
     ok((await h1(p)).includes('בשנת 1785 ידועים 9'), 'הגילוי הבא קופץ ל-1785');
@@ -349,6 +354,36 @@ const mock = async (p) => {
     const last = patches[patches.length - 1];
     ok(!!last && last.body.data.novelty === 'חידוש חדש מהבדיקה.' && last.url.includes('id=eq.d-1687-newton-principia'), 'שמירה שולחת את השדה לרשומה הנכונה');
     ok((await area.locator('xpath=following-sibling::span').innerText()) === 'נשמר', 'חיווי נשמר אחרי שמירה');
+    // גילוי חדש כטיוטה
+    await p.route('**/en.wikipedia.org/w/api.php**', (r) => r.fulfill({ status: 200, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' }, body: JSON.stringify({ query: { pages: { 1: { extract: 'In 1898, Marie and Pierre Curie discovered radium in Paris.' } } } }) }));
+    await p.locator('ai-menu .logo').click();
+    await p.getByText('גילוי חדש (טיוטה)').click();
+    const dlg = p.getByRole('dialog', { name: 'גילוי חדש' });
+    await dlg.waitFor();
+    ok(true, 'גילוי חדש נפתח מתוך כפתור הלוגו');
+    await dlg.getByLabel('כותרת').fill('גילוי הרדיום');
+    await dlg.getByLabel('תחום').selectOption('chemistry');
+    await dlg.getByLabel('שנה (לפנה״ס במינוס)').fill('1898');
+    await dlg.getByLabel('דמות: שם המאמר בוויקיפדיה').fill('Marie Curie');
+    await dlg.getByLabel('מאמר המקור').fill('Radium');
+    await dlg.getByLabel('ציטוט מילולי מהמאמר').fill('In 1898, Marie and Pierre Curie discovered radium');
+    await dlg.getByLabel('החידוש: מה היה ייחודי').click();
+    await p.locator('.draft-checks li[data-check="quote"].ok').waitFor({ timeout: 3000 });
+    ok(await p.locator('.draft-checks li[data-check="year"].ok').count() === 1, 'בדיקה חיה: הציטוט נמצא והשנה מופיעה בו');
+    await dlg.getByLabel('ציטוט מילולי מהמאמר').fill('Marie Curie discovered polonium');
+    await dlg.getByLabel('החידוש: מה היה ייחודי').click();
+    await p.locator('.draft-checks li[data-check="quote"].bad').waitFor({ timeout: 3000 });
+    ok(await p.locator('.draft-checks li[data-check="year"].bad').count() === 1, 'בדיקה חיה: ציטוט שלא במאמר ובלי שנה מסומן לתיקון');
+    await dlg.getByLabel('ציטוט מילולי מהמאמר').fill('In 1898, Marie and Pierre Curie discovered radium');
+    await dlg.getByLabel('החידוש: מה היה ייחודי').fill('יסוד חדש שזוהה לפי הקרינה שלו.');
+    await dlg.getByLabel('התרומה: מה זה שינה').fill('פתח את חקר הרדיואקטיביות.');
+    await dlg.getByRole('button', { name: 'שמירת טיוטה' }).click();
+    await p.locator('.draft-list li').first().waitFor({ timeout: 3000 });
+    const sent = posts[posts.length - 1];
+    ok(!!sent && sent.kind === 'discovery' && sent.verified === false && sent.id.startsWith('draft-') && sent.data.yearTo === 1898 && sent.data.check.quoteFound === true, 'הטיוטה נשמרת כ-verified=false עם תוצאת הבדיקה');
+    ok((await p.locator('.draft-list li').first().innerText()).includes('ממתינה לאימות'), 'רשימת הטיוטות מציגה את המצב');
+    await dlg.getByRole('button', { name: 'סגירה' }).click();
+    ok(!(await h1(p)).includes('רדיום') && (await p.locator('text=גילוי הרדיום').count()) === 0, 'הטיוטה לא מוצגת באתר לפני אימות');
     await p.locator('ai-menu .logo').click();
     await p.getByText(/^יציאה/).click();
     await p.waitForTimeout(150);

@@ -177,6 +177,11 @@ async function main() {
       const art = await article(d.place.wikipedia);
       const geo = art?.qid ? await placeFromQid(art.qid) : null;
       if (geo) Object.assign(d.place, { wikidata: geo.wikidata, nameFull: geo.nameFull, lat: geo.lat, lon: geo.lon, nameHe: geo.nameHe || d.place.nameHe, country: geo.country });
+      // טיוטה מהממשק מגיעה עם שם עיר בלועזית: לוקחים את השם העברי מעיר קיימת באותו שם, או מוויקינתונים
+      if (d.place.city && d.place.city.nameHe === d.place.city.nameFull) {
+        const twin = discoveries.find((x) => x !== d && x.place?.city?.nameFull === d.place.city.nameFull && x.place.city.nameHe !== x.place.city.nameFull);
+        d.place.city.nameHe = twin?.place.city.nameHe || geo?.nameHe || d.place.city.nameHe;
+      }
       let placeOk = !!geo && geo.lat !== null;
       if (d.place.evidence) {
         const found = await quoteFound(d.place.evidence);

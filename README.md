@@ -6,7 +6,7 @@
 
 אפליקציה שמציגה את האבולוציה של תחומי הידע כצירי זמן מקבילים, עם דמויות מפתח, גילויים וקשרים ביניהם.
 
-כרגע: **194 גילויים** ב-15 תחומים, מדת, פילוסופיה ומדע ועד אדריכלות, קולנוע וקרב מגע. **200 דמויות** ו-**99 קשרים**, כולם מאומתים מול מקור.
+כרגע: **199 גילויים** ב-15 תחומים, מדת, פילוסופיה ומדע ועד אדריכלות, קולנוע וקרב מגע. **204 דמויות** ו-**112 קשרים**, כולם מאומתים מול מקור.
 
 ## מה יש כאן כרגע
 
@@ -38,6 +38,23 @@ npm run build && npm test
 - `src/components/PersonCard.tsx`: כרטיס דמות עם ציטוטים, קשרים ומקורות.
 - `src/pages/Compare.tsx`: שלב 2, השוואה בין תחומים עם זום מסונכרן וקשרים בלחיצה.
 - `src/cloud.ts`, `scripts/push-supabase.mjs`, `scripts/pull-supabase.mjs`: שלב 5, Supabase (cultura-GH, טבלאות `olam_`) ועריכת טקסט.
+- `src/components/DraftDialog.tsx`, `scripts/pull-drafts.mjs`, `supabase/olam_drafts.sql`: גילוי חדש כטיוטה מהממשק.
+
+## גילוי חדש כטיוטה
+1. בכפתור הלוגו: "כניסה לעריכה", ואז "גילוי חדש (טיוטה)". הממשק בודק מיד שהציטוט נמצא במאמר ושהשנה מופיעה בו.
+2. הטיוטה נשמרת בענן כ-`verified: false`, ולכן לא מוצגת לציבור.
+3. אסימון זמני ב-SQL: `insert into olam_import_tokens (token, expires_at) values ('<אסימון>', now() + interval '30 minutes');`
+4. משיכה ואימות:
+
+```bash
+OLAM_IMPORT_TOKEN=<אסימון> npm run drafts
+```
+
+```bash
+npm run verify
+```
+
+5. רשומה שעברה מקבלת `verified: true`. אחרי מיזוג, `npm run push` מעדכן את הענן, והטיוטה מסומנת בחלון כ"נקלטה".
 - `src/pages/MapPage.tsx`, `src/components/MapView.tsx`, `src/geo.ts`: שלב 3, גלובוס עם מחוון זמן, מסלולי ידע ומרכז הכובד.
 - `src/pages/GraphPage.tsx`, `src/graph.ts`, `data/cuts.json`: שלב 4, גרף דמויות, מסננים מתקדמים, חיתוכים ותצוגות שמורות.
 - `tests/e2e.cjs`: 140 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.

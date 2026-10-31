@@ -44,6 +44,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q11470304",
+      "title": "Mamoru Yamada, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q11470304",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q116072",
       "title": "Friedrich Miescher, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q116072",
@@ -818,6 +824,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q60024",
+      "title": "Hermann von Helmholtz, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q60024",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q60052",
       "title": "Gustav Kirchhoff, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q60052",
@@ -860,6 +872,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q699635",
+      "title": "Arrhichion, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q699635",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q704671",
       "title": "Filippo Taglioni, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q704671",
@@ -887,6 +905,12 @@
       "id": "s-wd-q71031",
       "title": "Robert Bunsen, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q71031",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q716293",
+      "title": "Moshé Feldenkrais, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q716293",
       "accessedAt": "2026-10-31"
     },
     {
@@ -1316,6 +1340,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-ancient-olympic-games",
+      "title": "Ancient Olympic Games, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-andrea-palladio",
       "title": "Andrea Palladio, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Andrea_Palladio",
@@ -1379,6 +1409,12 @@
       "id": "s-wp-arnolfini-portrait",
       "title": "Arnolfini Portrait, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-arrhichion",
+      "title": "Arrhichion, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arrhichion",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2084,6 +2120,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-hermann-von-helmholtz",
+      "title": "Hermann von Helmholtz, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hermann_von_Helmholtz",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-hilbert-s-problems",
       "title": "Hilbert's problems, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hilbert's_problems",
@@ -2480,6 +2522,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-mamoru-yamada",
+      "title": "Mamoru Yamada, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mamoru_Yamada",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-marcel-duchamp",
       "title": "Marcel Duchamp, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Marcel_Duchamp",
@@ -2630,6 +2678,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-moshe-feldenkrais",
+      "title": "Moshe Feldenkrais, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Moshe_Feldenkrais",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-myron",
       "title": "Myron, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Myron",
@@ -2684,6 +2738,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wp-nippon-budokan",
+      "title": "Nippon Budokan, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nippon_Budokan",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wp-noether-s-theorem",
       "title": "Noether's theorem, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
@@ -2729,6 +2789,12 @@
       "id": "s-wp-pablo-picasso",
       "title": "Pablo Picasso, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Pablo_Picasso",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pankration",
+      "title": "Pankration, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pankration",
       "accessedAt": "2026-10-31"
     },
     {
@@ -2927,6 +2993,12 @@
       "id": "s-wp-sagrada-fami-lia",
       "title": "Sagrada Família, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-sanshiro-sugata",
+      "title": "Sanshiro Sugata, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sanshiro_Sugata",
       "accessedAt": "2026-10-31"
     },
     {

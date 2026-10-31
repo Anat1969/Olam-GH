@@ -1000,6 +1000,26 @@
       "id": "p-lichtenfeld",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-arrhichion",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-helmholtz",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-feldenkrais",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-myamada",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -1972,6 +1992,31 @@
       "id": "d-1944-krav-maga",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "d-bce648-pankration",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1847-helmholtz-energy",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1949-feldenkrais-body",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1943-sanshiro-sugata",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1964-budokan",
+      "verified": true,
+      "reasons": []
     }
   ],
   "links": [
@@ -2474,6 +2519,71 @@
     },
     {
       "id": "l-100",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-101",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-102",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-103",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-104",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-105",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-106",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-107",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-108",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-109",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-110",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-111",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-112",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-113",
       "verified": true,
       "reasons": []
     }
@@ -3474,12 +3584,24 @@
       "place": "Rio de Janeiro",
       "ok": true,
       "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce648-pankration",
+      "place": "Olympia",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1964-budokan",
+      "place": "Tokyo",
+      "ok": true,
+      "confidence": "documented"
     }
   ],
   "summary": {
-    "persons": "200/200",
-    "discoveries": "194/194",
-    "links": "99/100",
-    "images": 189
+    "persons": "204/204",
+    "discoveries": "199/199",
+    "links": "112/113",
+    "images": 191
   }
 }
