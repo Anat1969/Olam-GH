@@ -30,7 +30,7 @@ export interface Discovery {
 }
 export interface Link {
   id: string; fromId: string; toId: string; type: LinkType; confidence: Confidence;
-  explanation: string; evidence: Evidence[]; sources: string[]; verified: boolean; rejectedReason?: string;
+  explanation: string; application?: string; evidence: Evidence[]; sources: string[]; verified: boolean; rejectedReason?: string;
 }
 export interface Source { id: string; title: string; url: string; accessedAt: string | null }
 export interface Domain { id: string; nameHe: string; nameFull: string }
@@ -110,3 +110,26 @@ export function citiesRanking() {
   }
   return [...m.values()].sort((a, b) => b.count - a.count || a.nameHe.localeCompare(b.nameHe, 'he'));
 }
+
+// ---- שלב 2: קשרים על פני כמה תחומים ----
+export interface End { id: string; d: Discovery; viaPerson: boolean }
+/** קצה של קשר כגילוי: גילוי ישיר, או הגילוי של הדמות שהכי קרוב בזמן לקצה השני */
+function endAsDiscovery(id: string, otherYear: number | null, domains?: Set<string>): End | null {
+  const d = discoveryById.get(id);
+  if (d) return domains && !domains.has(d.domainId) ? null : { id, d, viaPerson: false };
+  const options = discoveries.filter((x) => x.personIds.includes(id) && (!domains || domains.has(x.domainId)));
+  if (!options.length) return null;
+  const best = otherYear === null ? options[0] : options.reduce((a, b) => (Math.abs(b.yearFrom - otherYear) < Math.abs(a.yearFrom - otherYear) ? b : a));
+  return { id, d: best, viaPerson: true };
+}
+const yearOf = (id: string) => discoveryById.get(id)?.yearFrom ?? null;
+export function resolveLink(l: Link, domains?: Set<string>) {
+  const a = endAsDiscovery(l.fromId, yearOf(l.toId) ?? discoveries.find((x) => x.personIds.includes(l.toId))?.yearFrom ?? null, domains);
+  const b = endAsDiscovery(l.toId, a ? a.d.yearFrom : yearOf(l.fromId), domains);
+  if (!a || !b) return null;
+  return { link: l, a, b, cross: a.d.domainId !== b.d.domainId };
+}
+export const resolvedLinks = links.map((l) => resolveLink(l)).filter((r): r is NonNullable<ReturnType<typeof resolveLink>> => !!r);
+export const crossLinks = resolvedLinks.filter((r) => r.cross);
+export const linkTypeName: Record<LinkType, string> = { influenced: 'השפעה', enabled: 'איפשור', opposed: 'ערעור', parallel: 'מקביל' };
+export const endName = (e: End) => (e.viaPerson ? personById.get(e.id)!.nameHe : e.d.title.split(':')[0]);

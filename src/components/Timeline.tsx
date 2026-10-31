@@ -16,8 +16,8 @@ const LANE_H = 86;
 const GAP = 10;
 
 // ציר דחוס: לפני 1500 כל מילימטר מכסה יותר שנים, כי שם יש פחות גילויים.
-const BREAKS = [YEAR_MIN, 1000, 1500, 1800, YEAR_MAX];
-const FRACS = [0, 0.1, 0.21, 0.52, 1];
+export const BREAKS = [YEAR_MIN, 1000, 1500, 1800, YEAR_MAX];
+export const FRACS = [0, 0.1, 0.21, 0.52, 1];
 /** מיקום 0..1 לאורך הציר, למחוון שמסונכרן עם הדחיסה */
 export const posScale = scaleLinear<number, number>().domain(BREAKS).range(FRACS).clamp(true);
 export const xScale = scaleLinear<number, number>()

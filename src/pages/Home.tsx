@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Rich from '../components/Rich';
-import { activeDomains, citiesRanking, discoveries, families, links, persons, sources } from '../data';
+import { activeDomains, citiesRanking, crossLinks, discoveries, families, links, persons, sources } from '../data';
 import { href } from '../route';
 import { posScale } from '../components/Timeline';
 
@@ -42,11 +42,7 @@ export default function Home() {
   const cities = citiesRanking();
   const top = cities[0];
   const span = discoveries[discoveries.length - 1].yearFrom - discoveries[0].yearFrom;
-  const crossLinks = links.filter((l) => {
-    const dom = (id: string) => discoveries.find((d) => d.id === id)?.domainId;
-    const a = dom(l.fromId), b = dom(l.toId);
-    return a && b && a !== b;
-  }).length;
+  const cross = crossLinks.length;
   const first = discoveries[0];
   const last = discoveries[discoveries.length - 1];
 
@@ -62,7 +58,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="press btn btn-primary" href={href('timeline', { d: 'physics' })}>לציר הזמן של הפיזיקה</a>
-            <a className="press btn" href={href('timeline', { d: 'mathematics' })}>לציר הזמן של המתמטיקה</a>
+            <a className="press btn" href={href('compare')}>להשוואה בין התחומים</a>
           </div>
         </div>
         <div className="hero-object rise" style={{ animationDelay: '.12s' }}>
@@ -85,7 +81,7 @@ export default function Home() {
       </section>
 
       <div className="grid-kpi">
-        {[['גילויים', discoveries.length], ['דמויות', persons.length], ['קשרים מתועדים', links.length], ['מקורות', sources.length]].map(([k, v], i) => (
+        {[['גילויים', discoveries.length], ['דמויות', persons.length], ['קשרים מאומתים', links.length], ['מקורות', sources.length]].map(([k, v], i) => (
           <div key={k} className="card kpi rise" style={{ animationDelay: `${0.05 * i}s` }}>
             <div className="label">{k}</div><div className="kpi-v num">{v}</div>
           </div>
@@ -96,7 +92,7 @@ export default function Home() {
       <div className="grid-3">
         <div className="tone tone-problem"><h4>תחומים נלמדים בנפרד.</h4><p>פיזיקה ומתמטיקה נלמדות כשני מקצועות, והקשר ביניהם נעלם.</p></div>
         <div className="tone tone-solution"><h4>ציר משותף, וציטוט לכל טענה.</h4><p>כל גילוי מופיע עם <strong>ציטוט מילולי</strong> מהמקור, וכל קשר עם הכלל שמסביר אותו.</p></div>
-        <div className="tone tone-insight"><h4>גילוי הוא תשובה לגילוי קודם.</h4><p><Rich>{`==${links.length} קשרים מתועדים==, ו-**${crossLinks}** מהם חוצים בין פיזיקה למתמטיקה.`}</Rich></p></div>
+        <div className="tone tone-insight"><h4>גילוי הוא תשובה לגילוי קודם.</h4><p><Rich>{`==${links.length} קשרים מאומתים==, ו-**${cross}** מהם חוצים בין פיזיקה למתמטיקה.`}</Rich></p></div>
       </div>
 
       <h2 className="section-title">מפת התוכן</h2>
@@ -111,6 +107,11 @@ export default function Home() {
             </a>
           );
         })}
+        <a className="press card map-card" href={href('compare')}>
+          <span className="label">השוואה בין תחומים</span>
+          <strong className="map-title">פיזיקה מול מתמטיקה</strong>
+          <span><bdi className="num">{cross}</bdi> קשרים חוצי תחום, עם כלל, תובנה ויישום</span>
+        </a>
         <a className="press card map-card" href={href('method')}>
           <span className="label">שיטה ומקורות</span>
           <strong className="map-title">איך זה נבדק</strong>
