@@ -2,19 +2,22 @@
 import Rich from './Rich';
 import Editable from './Editable';
 import Quote from './Quote';
-import { type End, type Link, confidenceName, endName, linkTypeName } from '../data';
+import { go } from '../route';
+import { type End, type Link, confidenceName, endName, linkTypeName, workParams } from '../data';
 
 export type Resolved = { link: Link; a: End; b: End; cross: boolean };
 
 export default function LinkPanel({ selected, pick, set }: { selected: Resolved; pick: (personId: string) => void; set: (p: Record<string, string | undefined>) => void }) {
+  // קצה בלי יוצר ידוע פותח את כרטיס היצירה בציר הזמן
+  const openEnd = (e: End) => { const pid = e.viaPerson ? e.id : e.d.personIds[0]; if (pid) pick(pid); else go('timeline', workParams(e.d)); };
   return (
     <section className="link-panel rise" aria-label="הקשר שנבחר">
               <div className="link-head">
                 <span className="label">{linkTypeName[selected.link.type]} · {selected.cross ? 'חוצה תחום' : 'בתוך התחום'}</span>
                 <h2 className="link-title">
-                  <button type="button" className="press chip" onClick={() => pick(selected.a.viaPerson ? selected.a.id : selected.a.d.personIds[0])}>{endName(selected.a)}</button>
+                  <button type="button" className="press chip" onClick={() => openEnd(selected.a)}>{endName(selected.a)}</button>
                   <span className="link-arrow" aria-hidden="true">←</span>
-                  <button type="button" className="press chip" onClick={() => pick(selected.b.viaPerson ? selected.b.id : selected.b.d.personIds[0])}>{endName(selected.b)}</button>
+                  <button type="button" className="press chip" onClick={() => openEnd(selected.b)}>{endName(selected.b)}</button>
                 </h2>
                 <span className={`conf conf-${selected.link.confidence}`}>{confidenceName[selected.link.confidence]}</span>
                 <button type="button" className="press btn btn-quiet" onClick={() => set({ l: undefined })}>ניקוי בחירה</button>

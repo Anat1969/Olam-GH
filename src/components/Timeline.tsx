@@ -3,7 +3,7 @@
 // מימין לו "מציאות מצויה", משמאל לו שכבת זכוכית שמכסה את "העולם הנעלם".
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
 import { scaleLinear } from 'd3-scale';
-import { type Discovery, links, personById, yearText, discoveries as allShown, shortName } from '../data';
+import { type Discovery, links, personById, yearText, discoveries as allShown, shortName, ANON } from '../data';
 
 export const YEAR_MIN = -2700;
 export const YEAR_MAX = 2025;
@@ -48,7 +48,7 @@ function layout(items: Discovery[]): { placed: Item[]; lanes: number } {
 }
 
 export default function Timeline({ items, year, selectedPerson, onPick, follow }: {
-  items: Discovery[]; year: number; selectedPerson?: string; onPick: (personId: string, discoveryId: string) => void; follow: boolean;
+  items: Discovery[]; year: number; selectedPerson?: string; onPick: (personId: string | undefined, discoveryId: string) => void; follow: boolean;
 }) {
   const { placed, lanes } = useMemo(() => layout(items), [items]);
   const H = AXIS_Y + 34 + lanes * LANE_H + 12;
@@ -69,7 +69,7 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
   }, [items]);
 
   // דמות שנבחרה: השנים שלה מודגשות על הציר, והציר נגלל אליהן
-  const marks = useMemo(() => (selectedPerson ? placed.filter((p) => p.d.personIds.includes(selectedPerson)) : []), [selectedPerson, placed]);
+  const marks = useMemo(() => (selectedPerson ? placed.filter((p) => p.d.personIds.includes(selectedPerson) || p.d.id === selectedPerson) : []), [selectedPerson, placed]);
   useEffect(() => {
     const el = scroller.current;
     const m = marks[0];
@@ -154,19 +154,19 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
         </svg>
         <div className="tl-cursor-label" style={{ left: cx }}><bdi className="num">{year < 0 ? -year : year}</bdi>{year < 0 && <span> לפנה״ס</span>}</div>
         {placed.map((p) => {
-          const people = p.d.personIds.map((id) => personById.get(id)!).filter(Boolean);
+          const people = p.d.personIds.map((id) => personById.get(id)).filter((x): x is NonNullable<typeof x> => !!x);
           const lead = people[0];
           const known = p.d.yearFrom <= year;
-          const on = !!selectedPerson && p.d.personIds.includes(selectedPerson);
+          const on = !!selectedPerson && (p.d.personIds.includes(selectedPerson) || p.d.id === selectedPerson);
           return (
             <button key={p.d.id} type="button" dir="rtl" data-id={p.d.id}
               className={`press tl-card${known ? '' : ' is-hidden'}`} aria-pressed={on}
               style={{ left: p.left, top: AXIS_Y + 34 + p.lane * LANE_H, width: CARD_W, height: CARD_H }}
-              onClick={() => onPick(lead.id, p.d.id)}
-              aria-label={`${people.map((x) => x.nameHe).join(' ו')}, ${yearText(p.d.yearFrom)}: ${p.d.title}`}>
-              <span className="tl-face">{lead.imageUrl ? <img src={lead.imageUrl} alt="" loading="lazy" decoding="async" /> : null}</span>
+              onClick={() => onPick(lead?.id, p.d.id)}
+              aria-label={`${people.map((x) => x.nameHe).join(' ו') || ANON}, ${yearText(p.d.yearFrom)}: ${p.d.title}`}>
+              <span className="tl-face">{lead?.imageUrl ? <img src={lead.imageUrl} alt="" loading="lazy" decoding="async" /> : null}</span>
               <span className="tl-text">
-                <span className="tl-name">{people.map((x) => shortName(x.nameHe, x.nameShort)).join(' ו')}</span>
+                <span className="tl-name">{people.map((x) => shortName(x.nameHe, x.nameShort)).join(' ו') || ANON}</span>
                 <span className="tl-year"><bdi className="num">{p.d.yearFrom < 0 ? -p.d.yearFrom : p.d.yearFrom}</bdi>{p.d.yearFrom < 0 ? ' לפנה״ס' : ''}</span>
                 <span className="tl-title">{p.d.title.split(':')[0]}</span>
               </span>

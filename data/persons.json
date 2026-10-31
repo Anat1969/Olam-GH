@@ -15962,6 +15962,2314 @@
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:Bong_Joon_Ho_-_Okja.jpg",
       "nameShort": "בונג ג'ון-הו"
+    },
+    {
+      "id": "p-tutu",
+      "wikipedia": "Desmond Tutu",
+      "nameHe": "דזמונד טוטו",
+      "nameFull": "Desmond Tutu",
+      "birthYear": 1931,
+      "birthDate": "1931-10-07",
+      "deathYear": 2021,
+      "deathDate": "2021-12-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q6936880",
+        "nameHe": null,
+        "nameFull": "Munsieville",
+        "lat": -26.075,
+        "lon": 27.753,
+        "country": {
+          "wikidata": "Q258",
+          "nameHe": "דרום אפריקה",
+          "nameFull": "South Africa"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Archbishop-Tutu-medium.jpg/500px-Archbishop-Tutu-medium.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Benny Gool",
+      "sources": [
+        "s-wp-desmond-tutu",
+        "s-wd-q43033"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q43033",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg"
+    },
+    {
+      "id": "p-johnpaul2",
+      "wikipedia": "Pope John Paul II",
+      "nameHe": "יוחנן פאולוס השני",
+      "nameFull": "John Paul II",
+      "birthYear": 1920,
+      "birthDate": "1920-05-18",
+      "deathYear": 2005,
+      "deathDate": "2005-04-02",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q5885537",
+        "nameHe": null,
+        "nameFull": "Holy Father John Paul II Family Home in Wadowice",
+        "lat": 49.8833,
+        "lon": 19.4938,
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Pope_John_Paul_II_smile.jpg/500px-Pope_John_Paul_II_smile.jpg",
+      "imageLicense": "CC BY 3.0 pl",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-pope-john-paul-ii",
+        "s-wd-q989"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q989",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pope_John_Paul_II_smile.jpg"
+    },
+    {
+      "id": "p-popefrancis",
+      "wikipedia": "Pope Francis",
+      "nameHe": "פרנציסקוס",
+      "nameFull": "Pope Francis",
+      "birthYear": 1936,
+      "birthDate": "1936-12-17",
+      "deathYear": 2025,
+      "deathDate": "2025-04-21",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q643907",
+        "nameHe": "פלורס (בואנוס איירס)",
+        "nameFull": "Flores",
+        "lat": -34.6333,
+        "lon": -58.4667,
+        "country": {
+          "wikidata": "Q414",
+          "nameHe": "ארגנטינה",
+          "nameFull": "Argentina"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Pope_Francis_Korea_Haemi_Castle_19.jpg/500px-Pope_Francis_Korea_Haemi_Castle_19.jpg",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageCredit": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+      "sources": [
+        "s-wp-pope-francis",
+        "s-wd-q450675"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q450675",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pope_Francis_Korea_Haemi_Castle_19.jpg"
+    },
+    {
+      "id": "p-abdullah2",
+      "wikipedia": "Abdullah II of Jordan",
+      "nameHe": "עבדאללה השני, מלך ירדן",
+      "nameFull": "Abdullah II of Jordan",
+      "birthYear": 1962,
+      "birthDate": "1962-01-30",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q3805",
+        "nameHe": "עמאן",
+        "nameFull": "Amman",
+        "lat": 31.95,
+        "lon": 35.9333,
+        "country": {
+          "wikidata": "Q810",
+          "nameHe": "ירדן",
+          "nameFull": "Jordan"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Abdullah_II_portrait_at_10_Downing_Street_February_2026_%28cropped%29.jpg/500px-Abdullah_II_portrait_at_10_Downing_Street_February_2026_%28cropped%29.jpg",
+      "imageLicense": "OGL 3",
+      "imageCredit": "Number 10",
+      "sources": [
+        "s-wp-abdullah-ii-of-jordan",
+        "s-wd-q57464"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q57464",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Abdullah_II_portrait_at_10_Downing_Street_February_2026_(cropped).jpg"
+    },
+    {
+      "id": "p-jonas",
+      "wikipedia": "Regina Jonas",
+      "nameHe": "רגינה יונאס",
+      "nameFull": "Regina Jonas",
+      "birthYear": 1902,
+      "birthDate": "1902-08-03",
+      "deathYear": 1944,
+      "deathDate": "1944-12-12",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q64",
+        "nameHe": "ברלין",
+        "nameFull": "Berlin",
+        "lat": 52.5167,
+        "lon": 13.3833,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/ReginaJonas.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Regina Jonas",
+      "sources": [
+        "s-wp-regina-jonas",
+        "s-wd-q63517"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q63517",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:ReginaJonas.jpg"
+    },
+    {
+      "id": "p-vivekananda",
+      "wikipedia": "Swami Vivekananda",
+      "nameHe": "סוואמי ויווקאננדה",
+      "nameFull": "Swami Vivekananda",
+      "birthYear": 1863,
+      "birthDate": "1863-01-12",
+      "deathYear": 1902,
+      "deathDate": "1902-07-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q7288812",
+        "nameHe": null,
+        "nameFull": "Swami Vivekananda's Ancestral House & Cultural Centre",
+        "lat": 22.5863,
+        "lon": 88.3674,
+        "country": {
+          "wikidata": "Q668",
+          "nameHe": "הודו",
+          "nameFull": "India"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/500px-Swami_Vivekananda-1893-09-signed.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "The original uploader was Dziewa at English Wikipedia.",
+      "sources": [
+        "s-wp-swami-vivekananda",
+        "s-wd-q47478"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q47478",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Swami_Vivekananda-1893-09-signed.jpg"
+    },
+    {
+      "id": "p-laozi",
+      "wikipedia": "Laozi",
+      "nameHe": "לאו דזה",
+      "nameFull": "Laozi",
+      "birthYear": -579,
+      "birthDate": null,
+      "deathYear": -500,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q504759",
+        "nameHe": "צ'ו",
+        "nameFull": "Chu",
+        "lat": 30.4228,
+        "lon": 112.1733,
+        "country": {
+          "wikidata": "Q1069609",
+          "nameHe": null,
+          "nameFull": "Western Zhou"
+        }
+      },
+      "domains": [
+        "religion",
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Zhang_Lu-Laozi_Riding_an_Ox_%28cropped%29.jpg/500px-Zhang_Lu-Laozi_Riding_an_Ox_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Zhang Lu",
+      "sources": [
+        "s-wp-laozi",
+        "s-wd-q9333"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9333",
+      "nameHeSource": "wikidata",
+      "birthApprox": true,
+      "deathApprox": true,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Zhang_Lu-Laozi_Riding_an_Ox_(cropped).jpg"
+    },
+    {
+      "id": "p-nakayama",
+      "wikipedia": "Nakayama Miki",
+      "nameHe": "נקאיאמה מיקי",
+      "nameHeTranslit": "נקאיאמה מיקי",
+      "nameFull": "Nakayama Miki",
+      "birthYear": 1798,
+      "birthDate": "1798-06-02",
+      "deathYear": 1887,
+      "deathDate": "1887-02-18",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q502196",
+        "nameHe": "טנרי",
+        "nameFull": "Tenri",
+        "lat": 34.5967,
+        "lon": 135.8372,
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "domains": [
+        "religion"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Miki_Nakayama.JPG",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-nakayama-miki",
+        "s-wd-q2723199"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q2723199",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Miki_Nakayama.JPG"
+    },
+    {
+      "id": "p-macintyre",
+      "wikipedia": "Alasdair MacIntyre",
+      "nameHe": "אלסדייר מקינטאייר",
+      "nameFull": "Alasdair MacIntyre",
+      "birthYear": 1929,
+      "birthDate": "1929-01-12",
+      "deathYear": 2025,
+      "deathDate": "2025-05-21",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q4093",
+        "nameHe": "גלאזגו",
+        "nameFull": "Glasgow",
+        "lat": 55.8611,
+        "lon": -4.25,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Alasdair_MacIntyre.jpg/500px-Alasdair_MacIntyre.jpg",
+      "imageLicense": "CC BY 2.0",
+      "imageCredit": "Sean O'Connor",
+      "sources": [
+        "s-wp-alasdair-macintyre",
+        "s-wd-q310178"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q310178",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alasdair_MacIntyre.jpg"
+    },
+    {
+      "id": "p-habermas",
+      "wikipedia": "Jürgen Habermas",
+      "nameHe": "יורגן הברמאס",
+      "nameFull": "Jürgen Habermas",
+      "birthYear": 1929,
+      "birthDate": "1929-06-18",
+      "deathYear": 2026,
+      "deathDate": "2026-03-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1718",
+        "nameHe": "דיסלדורף",
+        "nameFull": "Düsseldorf",
+        "lat": 51.2256,
+        "lon": 6.7767,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/JuergenHabermas_retouched.jpg/500px-JuergenHabermas_retouched.jpg",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "photographer: Wolfram Huke at en.wikipedia , http://wolframhuke.de",
+      "sources": [
+        "s-wp-ju-rgen-habermas",
+        "s-wd-q76357"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q76357",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:JuergenHabermas_retouched.jpg"
+    },
+    {
+      "id": "p-butler",
+      "wikipedia": "Judith Butler",
+      "nameHe": "ג'ודית באטלר",
+      "nameFull": "Judith Butler",
+      "birthYear": 1956,
+      "birthDate": "1956-02-24",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q37320",
+        "nameHe": "קליבלנד",
+        "nameFull": "Cleveland",
+        "lat": 41.4992,
+        "lon": -81.6947,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Judith_Butler_al_CCCB_2018_%28cropped%29.jpg/500px-Judith_Butler_al_CCCB_2018_%28cropped%29.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Miquel Taverna",
+      "sources": [
+        "s-wp-judith-butler",
+        "s-wd-q219368"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q219368",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Judith_Butler_al_CCCB_2018_(cropped).jpg"
+    },
+    {
+      "id": "p-chalmers",
+      "wikipedia": "David Chalmers",
+      "nameHe": "דייוויד צ'אלמרס",
+      "nameFull": "David Chalmers",
+      "birthYear": 1966,
+      "birthDate": "1966-04-20",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q3130",
+        "nameHe": "סידני",
+        "nameFull": "Sydney",
+        "lat": -33.8678,
+        "lon": 151.21,
+        "country": {
+          "wikidata": "Q408",
+          "nameHe": "אוסטרליה",
+          "nameFull": "Australia"
+        }
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/David_chalmers.jpg/500px-David_chalmers.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "DannyGolcman",
+      "sources": [
+        "s-wp-david-chalmers",
+        "s-wd-q366123"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q366123",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:David_chalmers.jpg"
+    },
+    {
+      "id": "p-bostrom",
+      "wikipedia": "Nick Bostrom",
+      "nameHe": "ניק בוסטרום",
+      "nameFull": "Nick Bostrom",
+      "birthYear": 1973,
+      "birthDate": "1973-03-10",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q25411",
+        "nameHe": "הלסינגבורג",
+        "nameFull": "Helsingborg",
+        "lat": 56.0424,
+        "lon": 12.721,
+        "country": {
+          "wikidata": "Q34",
+          "nameHe": "שוודיה",
+          "nameFull": "Sweden"
+        }
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Prof_Nick_Bostrom_324-1.jpg/500px-Prof_Nick_Bostrom_324-1.jpg",
+      "imageLicense": "CC BY 4.0",
+      "imageCredit": "Future of Humanity Institute",
+      "sources": [
+        "s-wp-nick-bostrom",
+        "s-wd-q460475"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q460475",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Prof_Nick_Bostrom_324-1.jpg"
+    },
+    {
+      "id": "p-annafreud",
+      "wikipedia": "Anna Freud",
+      "nameHe": "אנה פרויד",
+      "nameFull": "Anna Freud",
+      "birthYear": 1895,
+      "birthDate": "1895-12-03",
+      "deathYear": 1982,
+      "deathDate": "1982-10-09",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1741",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Anna_Freud_1957.jpg/500px-Anna_Freud_1957.jpg",
+      "imageLicense": "CC0",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-anna-freud",
+        "s-wd-q78485"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q78485",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Anna_Freud_1957.jpg"
+    },
+    {
+      "id": "p-lacan",
+      "wikipedia": "Jacques Lacan",
+      "nameHe": "ז'אק לאקאן",
+      "nameFull": "Jacques Lacan",
+      "birthYear": 1901,
+      "birthDate": "1901-04-13",
+      "deathYear": 1981,
+      "deathDate": "1981-09-09",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q223140",
+        "nameHe": "הרובע השלישי של פריז",
+        "nameFull": "3rd arrondissement of Paris",
+        "lat": 48.864,
+        "lon": 2.3615,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Jacques_Lacan_during_an_interview_1969.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Foto Moisio",
+      "sources": [
+        "s-wp-jacques-lacan",
+        "s-wd-q169906"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q169906",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Jacques_Lacan_during_an_interview_1969.jpg"
+    },
+    {
+      "id": "p-hgardner",
+      "wikipedia": "Howard Gardner",
+      "nameHe": "הווארד גרדנר",
+      "nameFull": "Howard Gardner",
+      "birthYear": 1943,
+      "birthDate": "1943-07-11",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q271395",
+        "nameHe": "סקרנטון",
+        "nameFull": "Scranton",
+        "lat": 41.409,
+        "lon": -75.6624,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Howard_Gardner.jpg",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageCredit": "Interaction-Design.org",
+      "sources": [
+        "s-wp-howard-gardner",
+        "s-wd-q176515"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q176515",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Howard_Gardner.jpg"
+    },
+    {
+      "id": "p-kupfer",
+      "wikipedia": "David Kupfer",
+      "nameHe": "דייוויד קופפר",
+      "nameHeTranslit": "דייוויד קופפר",
+      "nameFull": "David Kupfer",
+      "birthYear": 1941,
+      "birthDate": null,
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": null,
+      "domains": [
+        "psychology"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-david-kupfer",
+        "s-wd-q5236159"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5236159",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-kimunyong",
+      "wikipedia": "Kim Un-yong",
+      "nameHe": "קים און-יונג",
+      "nameHeTranslit": "קים און-יונג",
+      "nameFull": "Kim Un-yong",
+      "birthYear": 1931,
+      "birthDate": "1931-03-03",
+      "deathYear": 2017,
+      "deathDate": "2017-10-03",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q20927",
+        "nameHe": "טגו",
+        "nameFull": "Daegu",
+        "lat": 35.8717,
+        "lon": 128.6017,
+        "country": {
+          "wikidata": "Q884",
+          "nameHe": "קוריאה הדרומית",
+          "nameFull": "South Korea"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Kim_Unyong_in_2012.jpg/500px-Kim_Unyong_in_2012.jpg",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageCredit": "Jeon Han, Korean Culture and Information Service",
+      "sources": [
+        "s-wp-kim-un-yong",
+        "s-wd-q12588260"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q12588260",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Kim_Unyong_in_2012.jpg"
+    },
+    {
+      "id": "p-nicolaadams",
+      "wikipedia": "Nicola Adams",
+      "nameHe": "ניקולה אדאמס",
+      "nameFull": "Nicola Adams",
+      "birthYear": 1982,
+      "birthDate": "1982-10-26",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q39121",
+        "nameHe": "לידס",
+        "nameFull": "Leeds",
+        "lat": 53.7975,
+        "lon": -1.5436,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Nicola_Adams_-_Our_Greatest_Team_Parade.jpg/500px-Nicola_Adams_-_Our_Greatest_Team_Parade.jpg",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageCredit": "Richard Gillin from St Albans, UK",
+      "sources": [
+        "s-wp-nicola-adams",
+        "s-wd-q441314"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q441314",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Nicola_Adams_-_Our_Greatest_Team_Parade.jpg"
+    },
+    {
+      "id": "p-rousey",
+      "wikipedia": "Ronda Rousey",
+      "nameHe": "רונדה ראוזי",
+      "nameFull": "Ronda Rousey",
+      "birthYear": 1987,
+      "birthDate": "1987-02-01",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q47164",
+        "nameHe": "סנטה מוניקה",
+        "nameFull": "Santa Monica",
+        "lat": 34.0219,
+        "lon": -118.4814,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "combat-sports"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Rousey_HOF_2018_%28cropped%29.jpg/500px-Rousey_HOF_2018_%28cropped%29.jpg",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageCredit": "Shared Account",
+      "sources": [
+        "s-wp-ronda-rousey",
+        "s-wd-q242201"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q242201",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Rousey_HOF_2018_(cropped).jpg"
+    },
+    {
+      "id": "p-mjackson",
+      "wikipedia": "Michael Jackson",
+      "nameHe": "מייקל ג'קסון",
+      "nameFull": "Michael Jackson",
+      "birthYear": 1958,
+      "birthDate": "1958-08-29",
+      "deathYear": 2009,
+      "deathDate": "2009-06-25",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q136447280",
+        "nameHe": null,
+        "nameFull": "St. Mary's Mercy Hospital",
+        "lat": 41.6009,
+        "lon": -87.3488,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/500px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Matthew Rolston; Distributed by Epic Records",
+      "sources": [
+        "s-wp-michael-jackson",
+        "s-wd-q2831"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q2831",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg"
+    },
+    {
+      "id": "p-part",
+      "wikipedia": "Arvo Pärt",
+      "nameHe": "ארוו פרט",
+      "nameFull": "Arvo Pärt",
+      "birthYear": 1935,
+      "birthDate": "1935-09-11",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q45114",
+        "nameHe": "פאידה",
+        "nameFull": "Paide",
+        "lat": 58.8833,
+        "lon": 25.5667,
+        "country": {
+          "wikidata": "Q191",
+          "nameHe": "אסטוניה",
+          "nameFull": "Estonia"
+        }
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Arvo_P%C3%A4rt.jpg/500px-Arvo_P%C3%A4rt.jpg",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageCredit": "Woesinger",
+      "sources": [
+        "s-wp-arvo-pa-rt",
+        "s-wd-q189534"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q189534",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Arvo_P%C3%A4rt.jpg"
+    },
+    {
+      "id": "p-chuckd",
+      "wikipedia": "Chuck D",
+      "nameHe": "צ'אק די",
+      "nameFull": "Chuck D",
+      "birthYear": 1960,
+      "birthDate": "1960-08-01",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q18438",
+        "nameHe": "לונג איילנד",
+        "nameFull": "Long Island",
+        "lat": 40.7889,
+        "lon": -73.2335,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Chuck_D_Public_Enemy_Way_Out_West_2013_%28cropped%29.jpg/500px-Chuck_D_Public_Enemy_Way_Out_West_2013_%28cropped%29.jpg",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "Kim Metso",
+      "sources": [
+        "s-wp-chuck-d",
+        "s-wd-q733373"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q733373",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Chuck_D_Public_Enemy_Way_Out_West_2013_(cropped).jpg"
+    },
+    {
+      "id": "p-shocklee",
+      "wikipedia": "Hank Shocklee",
+      "nameHe": "האנק שוקלי",
+      "nameHeTranslit": "האנק שוקלי",
+      "nameFull": "The Bomb Squad",
+      "birthYear": null,
+      "birthDate": null,
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": null,
+      "birthPlace": null,
+      "domains": [
+        "music"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-hank-shocklee",
+        "s-wd-q736338"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q736338",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "datesUnknown": true,
+      "imagePage": null
+    },
+    {
+      "id": "p-klamar",
+      "wikipedia": "Kendrick Lamar",
+      "nameHe": "קנדריק לאמאר",
+      "nameFull": null,
+      "birthYear": 1987,
+      "birthDate": "1987-06-17",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q487119",
+        "nameHe": "קומפטון",
+        "nameFull": "Compton",
+        "lat": 33.8967,
+        "lon": -118.225,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Pulitzer2018-portraits-kendrick-lamar.jpg/500px-Pulitzer2018-portraits-kendrick-lamar.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Fuzheado",
+      "sources": [
+        "s-wp-kendrick-lamar",
+        "s-wd-q130798"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q130798",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pulitzer2018-portraits-kendrick-lamar.jpg"
+    },
+    {
+      "id": "p-gould",
+      "wikipedia": "Glenn Gould",
+      "nameHe": "גלן גולד",
+      "nameFull": "Glenn Gould",
+      "birthYear": 1932,
+      "birthDate": "1932-09-25",
+      "deathYear": 1982,
+      "deathDate": "1982-10-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q172",
+        "nameHe": "טורונטו",
+        "nameFull": "Toronto",
+        "lat": 43.6703,
+        "lon": -79.3867,
+        "country": {
+          "wikidata": "Q16",
+          "nameHe": "קנדה",
+          "nameFull": "Canada"
+        }
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Glenn_Gould_1.jpg",
+      "imageLicense": "Attribution",
+      "imageCredit": "Don Hunstein",
+      "sources": [
+        "s-wp-glenn-gould",
+        "s-wd-q216924"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q216924",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Glenn_Gould_1.jpg"
+    },
+    {
+      "id": "p-chopin",
+      "wikipedia": "Frédéric Chopin",
+      "nameHe": "פרדריק שופן",
+      "nameFull": "Frédéric Chopin",
+      "birthYear": 1810,
+      "birthDate": "1810-03-01",
+      "deathYear": 1849,
+      "deathDate": "1849-10-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q393087",
+        "nameHe": "ז'לזובה וולה",
+        "nameFull": "Żelazowa Wola",
+        "lat": 52.25,
+        "lon": 20.3167,
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
+        }
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Frederic_Chopin_photo.jpeg/500px-Frederic_Chopin_photo.jpeg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Louis-Auguste Bisson",
+      "sources": [
+        "s-wp-fre-de-ric-chopin",
+        "s-wd-q1268"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1268",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_photo.jpeg"
+    },
+    {
+      "id": "p-goya",
+      "wikipedia": "Francisco Goya",
+      "nameHe": "פרנסיסקו דה גויה",
+      "nameFull": "Francisco Goya",
+      "birthYear": 1746,
+      "birthDate": "1746-03-30",
+      "deathYear": 1828,
+      "deathDate": "1828-04-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1372769",
+        "nameHe": "פואנדטודוס",
+        "nameFull": "Fuendetodos",
+        "lat": 41.3413,
+        "lon": -0.9595,
+        "country": {
+          "wikidata": "Q29",
+          "nameHe": "ספרד",
+          "nameFull": "Spain"
+        }
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg/500px-Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Vicente López Portaña",
+      "sources": [
+        "s-wp-francisco-goya",
+        "s-wd-q5432"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q5432",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg"
+    },
+    {
+      "id": "p-courbet",
+      "wikipedia": "Gustave Courbet",
+      "nameHe": "גוסטב קורבה",
+      "nameFull": "Gustave Courbet",
+      "birthYear": 1819,
+      "birthDate": "1819-06-10",
+      "deathYear": 1877,
+      "deathDate": "1877-12-31",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q499537",
+        "nameHe": "אורנן",
+        "nameFull": "Ornans",
+        "lat": 47.1053,
+        "lon": 6.1431,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Gustave_Courbet%2C_photograph_Atelier_Nadar%2C_c._1860s.jpg/500px-Gustave_Courbet%2C_photograph_Atelier_Nadar%2C_c._1860s.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Nadar",
+      "sources": [
+        "s-wp-gustave-courbet",
+        "s-wd-q34618"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q34618",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet,_photograph_Atelier_Nadar,_c._1860s.jpg"
+    },
+    {
+      "id": "p-friedrich",
+      "wikipedia": "Caspar David Friedrich",
+      "nameHe": "קספר דויד פרידריך",
+      "nameFull": "Caspar David Friedrich",
+      "birthYear": 1774,
+      "birthDate": "1774-09-05",
+      "deathYear": 1840,
+      "deathDate": "1840-05-07",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q4098",
+        "nameHe": "גרייפסוואלד",
+        "nameFull": "Greifswald",
+        "lat": 54.0833,
+        "lon": 13.3833,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Caspar_David_Friedrich%2C_Selvportr%C3%A6t%2C_1800%2C_KKSgb5006%2C_Statens_Museum_for_Kunst.jpg/500px-Caspar_David_Friedrich%2C_Selvportr%C3%A6t%2C_1800%2C_KKSgb5006%2C_Statens_Museum_for_Kunst.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Caspar David Friedrich",
+      "sources": [
+        "s-wp-caspar-david-friedrich",
+        "s-wd-q104884"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q104884",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich,_Selvportr%C3%A6t,_1800,_KKSgb5006,_Statens_Museum_for_Kunst.jpg"
+    },
+    {
+      "id": "p-delacroix",
+      "wikipedia": "Eugène Delacroix",
+      "nameHe": "אז'ן דלקרואה",
+      "nameFull": "Eugène Delacroix",
+      "birthYear": 1798,
+      "birthDate": "1798-04-26",
+      "deathYear": 1863,
+      "deathDate": "1863-08-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q274327",
+        "nameHe": "סן-מוריס",
+        "nameFull": "Saint-Maurice",
+        "lat": 48.8183,
+        "lon": 2.4347,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Autoportrait_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_25.jpg/500px-Autoportrait_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_25.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Eugène Delacroix",
+      "sources": [
+        "s-wp-euge-ne-delacroix",
+        "s-wd-q33477"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q33477",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Autoportrait_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_25.jpg"
+    },
+    {
+      "id": "p-basquiat",
+      "wikipedia": "Jean-Michel Basquiat",
+      "nameHe": "ז'אן-מישל בסקיה",
+      "nameFull": "Jean-Michel Basquiat",
+      "birthYear": 1960,
+      "birthDate": "1960-12-22",
+      "deathYear": 1988,
+      "deathDate": "1988-08-12",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2607610",
+        "nameHe": "פארק סלופ",
+        "nameFull": "Park Slope",
+        "lat": 40.6724,
+        "lon": -73.9771,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Andy_Warhol%2C_Jean-Michel_Basquiat%2C_Bruno_Bischofberger_and_Fransesco_Clemente%2C_New_York%2C_1984_%28cropped%29_%282%29.tif/lossy-page1-500px-Andy_Warhol%2C_Jean-Michel_Basquiat%2C_Bruno_Bischofberger_and_Fransesco_Clemente%2C_New_York%2C_1984_%28cropped%29_%282%29.tif.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Galerie Bruno Bischofberger",
+      "sources": [
+        "s-wp-jean-michel-basquiat",
+        "s-wd-q155407"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q155407",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Andy_Warhol,_Jean-Michel_Basquiat,_Bruno_Bischofberger_and_Fransesco_Clemente,_New_York,_1984_(cropped)_(2).tif"
+    },
+    {
+      "id": "p-grichter",
+      "wikipedia": "Gerhard Richter",
+      "nameHe": "גרהרד ריכטר",
+      "nameFull": "Gerhard Richter",
+      "birthYear": 1932,
+      "birthDate": "1932-02-09",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1731",
+        "nameHe": "דרזדן",
+        "nameFull": "Dresden",
+        "lat": 51.0493,
+        "lon": 13.7381,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Gerhard_Richter%2C_Prague_%282017%29.jpg/500px-Gerhard_Richter%2C_Prague_%282017%29.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Jindřich Nosek (NoJin)",
+      "sources": [
+        "s-wp-gerhard-richter",
+        "s-wd-q164351"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q164351",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Gerhard_Richter,_Prague_(2017).jpg"
+    },
+    {
+      "id": "p-banksy",
+      "wikipedia": "Banksy",
+      "nameHe": "בנקסי",
+      "nameFull": "Banksy",
+      "birthYear": 1973,
+      "birthDate": null,
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q23154",
+        "nameHe": "בריסטול",
+        "nameFull": "Bristol",
+        "lat": 51.4536,
+        "lon": -2.5975,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "painting"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Banksy_signature-removebg-preview.png/500px-Banksy_signature-removebg-preview.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "MykReeve",
+      "sources": [
+        "s-wp-banksy",
+        "s-wd-q133600"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q133600",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Banksy_signature-removebg-preview.png"
+    },
+    {
+      "id": "p-bourne",
+      "wikipedia": "Matthew Bourne",
+      "nameHe": "מת'יו בורן",
+      "nameFull": "Matthew Bourne",
+      "birthYear": 1960,
+      "birthDate": "1960-01-13",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2321784",
+        "nameHe": "וולת'אמסטו",
+        "nameFull": "Walthamstow",
+        "lat": 51.584,
+        "lon": -0.0211,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Matthew_Bourne_Edward_Scissorhands_Melbourne_2006-11-28.jpg",
+      "imageLicense": "CC BY 2.0",
+      "imageCredit": "Edward Scissorhands Tour on Flickr",
+      "sources": [
+        "s-wp-matthew-bourne",
+        "s-wd-q1139570"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1139570",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Matthew_Bourne_Edward_Scissorhands_Melbourne_2006-11-28.jpg"
+    },
+    {
+      "id": "p-forsythe",
+      "wikipedia": "William Forsythe (choreographer)",
+      "nameHe": "ויליאם פורסיית'",
+      "nameFull": "William Forsythe",
+      "birthYear": 1949,
+      "birthDate": "1949-12-30",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q60",
+        "nameHe": "ניו יורק",
+        "nameFull": "New York City",
+        "lat": 40.7128,
+        "lon": -74.0061,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/William_Forsythe_2012_%28cropped%29.jpg/500px-William_Forsythe_2012_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "U.S. Mission Photos by Eric Bridiers",
+      "sources": [
+        "s-wp-william-forsythe-choreographer",
+        "s-wd-q706362"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q706362",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:William_Forsythe_2012_(cropped).jpg"
+    },
+    {
+      "id": "p-akhan",
+      "wikipedia": "Akram Khan (dancer)",
+      "nameHe": "אקרם חאן",
+      "nameHeTranslit": "אקרם חאן",
+      "nameFull": "Akram Khan",
+      "birthYear": 1974,
+      "birthDate": "1974-07-29",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q202059",
+        "nameHe": "למבת'",
+        "nameFull": "London Borough of Lambeth",
+        "lat": 51.4608,
+        "lon": -0.1164,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "dance"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Akram_Khan_%28cropped%29.jpg/500px-Akram_Khan_%28cropped%29.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Laurent Ziegler",
+      "sources": [
+        "s-wp-akram-khan-dancer",
+        "s-wd-q420740"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q420740",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Akram_Khan_(cropped).jpg"
+    },
+    {
+      "id": "p-cameron",
+      "wikipedia": "James Cameron",
+      "nameHe": "ג'יימס קמרון",
+      "nameFull": "James Cameron",
+      "birthYear": 1954,
+      "birthDate": "1954-08-16",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1027634",
+        "nameHe": "קפוסקסינג",
+        "nameFull": "Kapuskasing",
+        "lat": 49.4153,
+        "lon": -82.4169,
+        "country": {
+          "wikidata": "Q16",
+          "nameHe": "קנדה",
+          "nameFull": "Canada"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/James_Cameron_at_53rd_Saturn_Awards_2026-01_%28cropped%29.jpg/500px-James_Cameron_at_53rd_Saturn_Awards_2026-01_%28cropped%29.jpg",
+      "imageLicense": "CC BY 4.0",
+      "imageCredit": "Kevin Paul",
+      "sources": [
+        "s-wp-james-cameron",
+        "s-wd-q42574"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q42574",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:James_Cameron_at_53rd_Saturn_Awards_2026-01_(cropped).jpg"
+    },
+    {
+      "id": "p-bjenkins",
+      "wikipedia": "Barry Jenkins",
+      "nameHe": "בארי ג'נקינס",
+      "nameFull": "Barry Jenkins",
+      "birthYear": 1979,
+      "birthDate": "1979-11-19",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q8652",
+        "nameHe": "מיאמי",
+        "nameFull": "Miami",
+        "lat": 25.7742,
+        "lon": -80.1936,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Barry_Jenkins_at_the_2024_Toronto_International_Film_Festival_3.jpg/500px-Barry_Jenkins_at_the_2024_Toronto_International_Film_Festival_3.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Frank Sun",
+      "sources": [
+        "s-wp-barry-jenkins",
+        "s-wd-q26821227"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q26821227",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Barry_Jenkins_at_the_2024_Toronto_International_Film_Festival_3.jpg"
+    },
+    {
+      "id": "p-cuaron",
+      "wikipedia": "Alfonso Cuarón",
+      "nameHe": "אלפונסו קוארון",
+      "nameFull": "Alfonso Cuarón",
+      "birthYear": 1961,
+      "birthDate": "1961-11-28",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1489",
+        "nameHe": "מקסיקו סיטי",
+        "nameFull": "Mexico City",
+        "lat": 19.3538,
+        "lon": -99.1359,
+        "country": {
+          "wikidata": "Q96",
+          "nameHe": "מקסיקו",
+          "nameFull": "Mexico"
+        }
+      },
+      "domains": [
+        "cinema"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/DisclaimerBFILFF101024_%2888_of_113%29_%2854062275143%29_%28cropped%29.jpg/500px-DisclaimerBFILFF101024_%2888_of_113%29_%2854062275143%29_%28cropped%29.jpg",
+      "imageLicense": "CC BY 2.0",
+      "imageCredit": "Raph_PH",
+      "sources": [
+        "s-wp-alfonso-cuaro-n",
+        "s-wd-q28028"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q28028",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:DisclaimerBFILFF101024_(88_of_113)_(54062275143)_(cropped).jpg"
+    },
+    {
+      "id": "p-gormley",
+      "wikipedia": "Antony Gormley",
+      "nameHe": "אנטוני גורמלי",
+      "nameFull": "Antony Gormley",
+      "birthYear": 1950,
+      "birthDate": "1950-08-30",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q84",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Antony_Gormley_%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0_%D1%81_%D0%93%D0%BE%D1%80%D0%BC%D0%BB%D0%B8_%D0%BD%D0%B0_%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5_crop.jpg",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "Youth center; cropped by Beyond My Ken (talk) 04:39, 30 January 2022 (UTC)",
+      "sources": [
+        "s-wp-antony-gormley",
+        "s-wd-q360371"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q360371",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Antony_Gormley_%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0_%D1%81_%D0%93%D0%BE%D1%80%D0%BC%D0%BB%D0%B8_%D0%BD%D0%B0_%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B5_crop.jpg"
+    },
+    {
+      "id": "p-smithson",
+      "wikipedia": "Robert Smithson",
+      "nameHe": "רוברט סמיתסון",
+      "nameFull": "Robert Smithson",
+      "birthYear": 1938,
+      "birthDate": "1938-01-02",
+      "deathYear": 1973,
+      "deathDate": "1973-07-20",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q170433",
+        "nameHe": "פסאיק",
+        "nameFull": "Passaic",
+        "lat": 40.8575,
+        "lon": -74.1289,
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "domains": [
+        "sculpture"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-robert-smithson",
+        "s-wd-q328341"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q328341",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-cauchy",
+      "wikipedia": "Augustin-Louis Cauchy",
+      "nameHe": "אוגוסטן לואי קושי",
+      "nameFull": "Augustin-Louis Cauchy",
+      "birthYear": 1789,
+      "birthDate": "1789-08-21",
+      "deathYear": 1857,
+      "deathDate": "1857-05-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/French_School_-_Portrait_of_Augustin-Louis_Cauchy_%281789-1857%29.jpg/500px-French_School_-_Portrait_of_Augustin-Louis_Cauchy_%281789-1857%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Jean Roller (1798–1866)",
+      "sources": [
+        "s-wp-augustin-louis-cauchy",
+        "s-wd-q8814"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8814",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:French_School_-_Portrait_of_Augustin-Louis_Cauchy_(1789-1857).jpg"
+    },
+    {
+      "id": "p-fourier",
+      "wikipedia": "Joseph Fourier",
+      "nameHe": "ז'אן-בטיסט ז'וזף פורייה",
+      "nameFull": "Joseph Fourier",
+      "birthYear": 1768,
+      "birthDate": "1768-03-21",
+      "deathYear": 1830,
+      "deathDate": "1830-05-16",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q167600",
+        "nameHe": "אוסר",
+        "nameFull": "Auxerre",
+        "lat": 47.7975,
+        "lon": 3.5669,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "mathematics",
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Fourier2.jpg/500px-Fourier2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Julien-Léopold Boilly",
+      "sources": [
+        "s-wp-joseph-fourier",
+        "s-wd-q8772"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8772",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Fourier2.jpg"
+    },
+    {
+      "id": "p-lebesgue",
+      "wikipedia": "Henri Lebesgue",
+      "nameHe": "אנרי לבג",
+      "nameFull": "Henri Lebesgue",
+      "birthYear": 1875,
+      "birthDate": "1875-06-28",
+      "deathYear": 1941,
+      "deathDate": "1941-07-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q174257",
+        "nameHe": "בווה",
+        "nameFull": "Beauvais",
+        "lat": 49.4342,
+        "lon": 2.0875,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lebesgue_2.jpeg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-henri-lebesgue",
+        "s-wd-q206005"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q206005",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Lebesgue_2.jpeg"
+    },
+    {
+      "id": "p-tao",
+      "wikipedia": "Terence Tao",
+      "nameHe": "טרנס טאו",
+      "nameFull": "Terence Tao",
+      "birthYear": 1975,
+      "birthDate": "1975-07-17",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q5112",
+        "nameHe": "אדלייד",
+        "nameFull": "Adelaide",
+        "lat": -34.9275,
+        "lon": 138.6,
+        "country": {
+          "wikidata": "Q408",
+          "nameHe": "אוסטרליה",
+          "nameFull": "Australia"
+        }
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_%2850m16s%29_%28cropped%29.jpg/500px-Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_%2850m16s%29_%28cropped%29.jpg",
+      "imageLicense": "CC BY 4.0",
+      "imageCredit": "Institute for Pure &amp; Applied Mathematics",
+      "sources": [
+        "s-wp-terence-tao",
+        "s-wd-q295981"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q295981",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_(50m16s)_(cropped).jpg"
+    },
+    {
+      "id": "p-bgreen",
+      "wikipedia": "Ben Green (mathematician)",
+      "nameHe": "בן גרין",
+      "nameFull": "Ben Joseph Green",
+      "birthYear": 1977,
+      "birthDate": "1977-02-27",
+      "deathYear": null,
+      "deathDate": null,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q23154",
+        "nameHe": "בריסטול",
+        "nameFull": "Bristol",
+        "lat": 51.4536,
+        "lon": -2.5975,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ben_Green.jpg/500px-Ben_Green.jpg",
+      "imageLicense": "CC BY-SA 2.0 de",
+      "imageCredit": "Renate Schmid, Copyright is with MFO",
+      "sources": [
+        "s-wp-ben-green-mathematician",
+        "s-wd-q792628"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q792628",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ben_Green.jpg"
+    },
+    {
+      "id": "p-mirzakhani",
+      "wikipedia": "Maryam Mirzakhani",
+      "nameHe": "מרים מירזאח'אני",
+      "nameFull": "Maryam Mirzakhani",
+      "birthYear": 1977,
+      "birthDate": "1977-05-12",
+      "deathYear": 2017,
+      "deathDate": "2017-07-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q3616",
+        "nameHe": "טהראן",
+        "nameFull": "Tehran",
+        "lat": 35.6889,
+        "lon": 51.3897,
+        "country": {
+          "wikidata": "Q794",
+          "nameHe": "איראן",
+          "nameFull": "Iran"
+        }
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Maryam_Mirzakhani_in_Seoul_2014.jpg",
+      "imageLicense": "CC BY-SA 2.0 de",
+      "imageCredit": "Gert-Martin Greuel",
+      "sources": [
+        "s-wp-maryam-mirzakhani",
+        "s-wd-q1771279"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1771279",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Maryam_Mirzakhani_in_Seoul_2014.jpg"
+    },
+    {
+      "id": "p-carnot",
+      "wikipedia": "Nicolas Léonard Sadi Carnot",
+      "nameHe": "סאדי קרנו",
+      "nameFull": "Nicolas Carnot",
+      "birthYear": 1796,
+      "birthDate": "1796-06-01",
+      "deathYear": 1832,
+      "deathDate": "1832-08-24",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Sadi_Carnot.jpeg/500px-Sadi_Carnot.jpeg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Louis-Léopold Boilly",
+      "sources": [
+        "s-wp-nicolas-le-onard-sadi-carnot",
+        "s-wd-q181685"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q181685",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Sadi_Carnot.jpeg"
+    },
+    {
+      "id": "p-clausius",
+      "wikipedia": "Rudolf Clausius",
+      "nameHe": "רודולף קלאוזיוס",
+      "nameFull": "Rudolf Clausius",
+      "birthYear": 1822,
+      "birthDate": "1822-01-02",
+      "deathYear": 1888,
+      "deathDate": "1888-08-24",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q62868",
+        "nameHe": "קושאלין",
+        "nameFull": "Koszalin",
+        "lat": 54.1903,
+        "lon": 16.1817,
+        "country": {
+          "wikidata": "Q36",
+          "nameHe": "פולין",
+          "nameFull": "Poland"
+        }
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Clausius.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-rudolf-clausius",
+        "s-wd-q30693"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q30693",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Clausius.jpg"
+    },
+    {
+      "id": "p-boltzmann",
+      "wikipedia": "Ludwig Boltzmann",
+      "nameHe": "לודוויג בולצמן",
+      "nameFull": "Ludwig Boltzmann",
+      "birthYear": 1844,
+      "birthDate": "1844-02-20",
+      "deathYear": 1906,
+      "deathDate": "1906-09-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1741",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Boltzmann-Ludwig.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-ludwig-boltzmann",
+        "s-wd-q84296"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q84296",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Boltzmann-Ludwig.jpg"
+    },
+    {
+      "id": "p-haeckel",
+      "wikipedia": "Ernst Haeckel",
+      "nameHe": "ארנסט הקל",
+      "nameFull": "Ernst Haeckel",
+      "birthYear": 1834,
+      "birthDate": "1834-02-16",
+      "deathYear": 1919,
+      "deathDate": "1919-08-09",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1711",
+        "nameHe": "פוטסדאם",
+        "nameFull": "Potsdam",
+        "lat": 52.4009,
+        "lon": 13.0591,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Ernst_Haeckel_1860.jpg/500px-Ernst_Haeckel_1860.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-ernst-haeckel",
+        "s-wd-q48246"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q48246",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ernst_Haeckel_1860.jpg"
+    },
+    {
+      "id": "p-lotka",
+      "wikipedia": "Alfred J. Lotka",
+      "nameHe": "אלפרד ג׳. לוטקה",
+      "nameHeTranslit": "אלפרד ג׳. לוטקה",
+      "nameFull": "Alfred J. Lotka",
+      "birthYear": 1880,
+      "birthDate": "1880-03-02",
+      "deathYear": 1949,
+      "deathDate": "1949-12-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q36036",
+        "nameHe": "לבוב",
+        "nameFull": "Lviv",
+        "lat": 49.842,
+        "lon": 24.0316,
+        "country": {
+          "wikidata": "Q212",
+          "nameHe": "אוקראינה",
+          "nameFull": "Ukraine"
+        }
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-alfred-j-lotka",
+        "s-wd-q470674"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q470674",
+      "nameHeSource": "transliteration",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-volterra",
+      "wikipedia": "Vito Volterra",
+      "nameHe": "ויטו וולטרה",
+      "nameFull": "Vito Volterra",
+      "birthYear": 1860,
+      "birthDate": "1860-05-03",
+      "deathYear": 1940,
+      "deathDate": "1940-10-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q3415",
+        "nameHe": "אנקונה",
+        "nameFull": "Ancona",
+        "lat": 43.6167,
+        "lon": 13.5167,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "domains": [
+        "mathematics",
+        "biology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Vito_Volterra.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-vito-volterra",
+        "s-wd-q216812"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q216812",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Vito_Volterra.jpg"
+    },
+    {
+      "id": "p-tansley",
+      "wikipedia": "Arthur Tansley",
+      "nameHe": "ארתור טנסלי",
+      "nameFull": "Arthur Tansley",
+      "birthYear": 1871,
+      "birthDate": "1871-08-15",
+      "deathYear": 1955,
+      "deathDate": "1955-11-25",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q84",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "biology"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Arthur-Tansley-1893.jpg/500px-Arthur-Tansley-1893.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "AnonymousUnknown author",
+      "sources": [
+        "s-wp-arthur-tansley",
+        "s-wd-q450514"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q450514",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Arthur-Tansley-1893.jpg"
+    },
+    {
+      "id": "p-soufflot",
+      "wikipedia": "Jacques-Germain Soufflot",
+      "nameHe": "ז'אק-ז'רמן סופלו",
+      "nameFull": "Jacques-Germain Soufflot",
+      "birthYear": 1713,
+      "birthDate": "1713-07-22",
+      "deathYear": 1780,
+      "deathDate": "1780-08-29",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q676738",
+        "nameHe": "אירנסי",
+        "nameFull": "Irancy",
+        "lat": 47.7136,
+        "lon": 3.6647,
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jacques-Germain_Soufflot_%281713_-1780%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Louis-Michel van Loo",
+      "sources": [
+        "s-wp-jacques-germain-soufflot",
+        "s-wd-q550244"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q550244",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Jacques-Germain_Soufflot_(1713_-1780).jpg"
+    },
+    {
+      "id": "p-schinkel",
+      "wikipedia": "Karl Friedrich Schinkel",
+      "nameHe": "קארל פרידריך שינקל",
+      "nameFull": "Karl Friedrich Schinkel",
+      "birthYear": 1781,
+      "birthDate": "1781-03-13",
+      "deathYear": 1841,
+      "deathDate": "1841-10-09",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q16085",
+        "nameHe": "נוירופין",
+        "nameFull": "Neuruppin",
+        "lat": 52.9222,
+        "lon": 12.8,
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Schinkel1.jpg/500px-Schinkel1.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Carl Joseph Begas",
+      "sources": [
+        "s-wp-karl-friedrich-schinkel",
+        "s-wd-q151759"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q151759",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Schinkel1.jpg"
+    },
+    {
+      "id": "p-vespasian",
+      "wikipedia": "Vespasian",
+      "nameHe": "אספסיאנוס",
+      "nameFull": "Vespasian",
+      "birthYear": 9,
+      "birthDate": "0009-11-17",
+      "deathYear": 79,
+      "deathDate": "0079-06-04",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q927670",
+        "nameHe": null,
+        "nameFull": "Falacrine",
+        "lat": 42.5936,
+        "lon": 13.1706,
+        "country": {
+          "wikidata": "Q1747689",
+          "nameHe": "רומא העתיקה",
+          "nameFull": "Ancient Rome"
+        }
+      },
+      "domains": [
+        "architecture"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Head_of_Vespasianus_in_Palazzo_Massimo_%28Rome%29.jpg/500px-Head_of_Vespasianus_in_Palazzo_Massimo_%28Rome%29.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Livioandronico2013",
+      "sources": [
+        "s-wp-vespasian",
+        "s-wd-q1419"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1419",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Head_of_Vespasianus_in_Palazzo_Massimo_(Rome).jpg"
     }
   ]
 }

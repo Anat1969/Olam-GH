@@ -5,9 +5,9 @@ import LinkPanel from '../components/LinkPanel';
 import PersonCard from '../components/PersonCard';
 import PlacePanel from '../components/PlacePanel';
 import { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
-import { activeDomains, confidenceName, endName, linkTypeName, personById, rangeText, yearText } from '../data';
+import { activeDomains, confidenceName, endName, linkTypeName, personById, rangeText, yearText, ANON, workParams } from '../data';
 import { arc, centerAt, centerTrail, cities, countries, countryByName, km, nearestCity, routes, sameCityLinks, unplaced } from '../geo';
-import { replace } from '../route';
+import { href, replace } from '../route';
 
 const domainName = (id: string) => activeDomains.find((d) => d.id === id)?.nameHe || id;
 
@@ -195,7 +195,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                   <div>
                     <div className="tour-year"><Rich>{rangeText(stop.d)}</Rich></div>
                     <h3 className="tour-title">{stop.d.title}</h3>
-                    <div className="tour-who">{stop.d.personIds.map((id) => personById.get(id)?.nameHe).join(' ו')}</div>
+                    <div className="tour-who">{stop.d.personIds.map((id) => personById.get(id)?.nameHe).filter(Boolean).join(' ו') || ANON}</div>
                     {stop.d.novelty && <Rich as="p" className="tour-text">{stop.d.novelty}</Rich>}
                   </div>
                 </div>
@@ -203,7 +203,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                   <button type="button" className="press btn" disabled={si === 0} onClick={() => { setTouring(false); set({ s: String(si - 1) }); }}>הקודמת</button>
                   <button type="button" className="press btn btn-primary" aria-pressed={touring} onClick={() => setTouring((x) => !x)}>{touring ? 'עצירה' : 'הפעלה'}</button>
                   <button type="button" className="press btn" disabled={si >= stops.length - 1} onClick={() => { setTouring(false); set({ s: String(si + 1) }); }}>הבאה</button>
-                  <button type="button" className="press btn btn-quiet" onClick={() => p && pick(p.id)}>כרטיס הדמות</button>
+                  {p ? <button type="button" className="press btn btn-quiet" onClick={() => pick(p.id)}>כרטיס הדמות</button> : <a className="press btn btn-quiet" href={href('timeline', workParams(stop.d))}>כרטיס היצירה</a>}
                   <button type="button" className="press btn btn-quiet" onClick={() => { setTouring(false); set({ t: undefined, s: undefined }); }}>סיום המסע</button>
                 </div>
               </div>
