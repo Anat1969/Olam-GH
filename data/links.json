@@ -1,0 +1,25 @@
+{
+  "_note": "פיילוט. type: influenced / enabled / opposed / parallel. הקשר בין קפלר לניוטון הוא פרשנות היסטורית מקובלת ולכן מסומן interpretive.",
+  "links": [
+    {
+      "id": "l-1",
+      "fromId": "d-1619-kepler-third",
+      "toId": "d-1687-newton-principia",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "ניוטון השתמש בחוק הזמנים של קפלר כנקודת מוצא לגזירת חוק הכבידה. זו פרשנות היסטורית מקובלת, לא עובדה ישירה, ויש לאמת מול מקור היסטורי ראשוני או משני.",
+      "sources": ["s-wiki-newton-principia"],
+      "verified": false
+    },
+    {
+      "id": "l-2",
+      "fromId": "p-kepler",
+      "toId": "p-newton",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "שני הדמויות פעלו באותה מאה, בתחום האסטרונומיה והפיזיקה, בלי שהיו בקשר ישיר.",
+      "sources": ["s-wiki-kepler", "s-wiki-newton"],
+      "verified": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "_note": "פיילוט. confidence: documented / interpretive / hypothesis. מקומות לבדיקה מסומנים verified=false.",
+  "discoveries": [
+    {
+      "id": "d-1609-kepler-orbits",
+      "title": "שני חוקי קפלר: מסלולים אליפטיים ושטחים שווים",
+      "yearFrom": 1609,
+      "yearTo": 1609,
+      "place": { "nameHe": "היידלברג", "nameFull": "Heidelberg" },
+      "personIds": ["p-kepler"],
+      "domainId": "physics",
+      "contribution": "תיאור תנועת כוכבי הלכת כמסלולים אליפטיים, ושטחים שווים נסרקים בזמנים שווים.",
+      "confidence": "documented",
+      "sources": ["s-wiki-kepler-laws"],
+      "verified": false
+    },
+    {
+      "id": "d-1619-kepler-third",
+      "title": "חוק קפלר השלישי: היחס בין זמן המחזור למרחק",
+      "yearFrom": 1619,
+      "yearTo": 1619,
+      "place": { "nameHe": "לינץ", "nameFull": "Linz" },
+      "personIds": ["p-kepler"],
+      "domainId": "physics",
+      "contribution": "ריבוע זמן המחזור פרופורציונלי לקוביית הציר הגדול של המסלול.",
+      "confidence": "documented",
+      "sources": ["s-wiki-kepler-laws"],
+      "verified": false
+    },
+    {
+      "id": "d-1687-newton-principia",
+      "title": "Principia: חוק הכבידה האוניברסלית וחוקי התנועה",
+      "yearFrom": 1687,
+      "yearTo": 1687,
+      "place": { "nameHe": "לונדון", "nameFull": "London" },
+      "personIds": ["p-newton"],
+      "domainId": "physics",
+      "contribution": "הסבר תנועת כוכבי הלכת וכדור הארץ באותם חוקים, בעזרת כוח כבידה שפועל ביחס הפוך לריבוע המרחק.",
+      "confidence": "documented",
+      "sources": ["s-wiki-principia"],
+      "verified": false
+    }
+  ]
+}

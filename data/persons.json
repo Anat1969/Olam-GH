@@ -1,0 +1,35 @@
+{
+  "_note": "פיילוט. כל רשומה verified=false עד לבדיקה מול המקורות. תאריכים ביוליאניים מסומנים calendar=julian.",
+  "persons": [
+    {
+      "id": "p-kepler",
+      "nameHe": "יוהנס קפלר",
+      "nameFull": "Johannes Kepler",
+      "birthYear": 1571,
+      "birthDate": "1571-12-27",
+      "deathYear": 1630,
+      "calendar": "gregorian",
+      "birthPlace": { "nameHe": "וייל דר שטאט", "nameFull": "Weil der Stadt", "lat": 48.75, "lon": 8.73 },
+      "domains": ["physics", "mathematics"],
+      "imageUrl": null,
+      "imageLicense": null,
+      "sources": ["s-wiki-kepler"],
+      "verified": false
+    },
+    {
+      "id": "p-newton",
+      "nameHe": "אייזק ניוטון",
+      "nameFull": "Isaac Newton",
+      "birthYear": 1643,
+      "birthDate": "1642-12-25 (לוח יוליאני)",
+      "deathYear": 1727,
+      "calendar": "julian",
+      "birthPlace": { "nameHe": "וולסתורפ", "nameFull": "Woolsthorpe-by-Colsterworth", "lat": 52.8, "lon": -0.6 },
+      "domains": ["physics", "mathematics"],
+      "imageUrl": null,
+      "imageLicense": null,
+      "sources": ["s-wiki-newton"],
+      "verified": false
+    }
+  ]
+}

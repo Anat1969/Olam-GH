@@ -1,0 +1,10 @@
+{
+  "_note": "מקורות לפיילוט. להחליף במקורות ראשוניים או אקדמיים לפני סימון verified=true. accessedAt ריק עד בדיקה.",
+  "sources": [
+    { "id": "s-wiki-kepler", "title": "Johannes Kepler, Wikipedia", "url": "https://en.wikipedia.org/wiki/Johannes_Kepler", "accessedAt": null },
+    { "id": "s-wiki-newton", "title": "Isaac Newton, Wikipedia", "url": "https://en.wikipedia.org/wiki/Isaac_Newton", "accessedAt": null },
+    { "id": "s-wiki-kepler-laws", "title": "Kepler's laws of planetary motion, Wikipedia", "url": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion", "accessedAt": null },
+    { "id": "s-wiki-principia", "title": "Philosophiæ Naturalis Principia Mathematica, Wikipedia", "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica", "accessedAt": null },
+    { "id": "s-wiki-newton-principia", "title": "Isaac Newton, Principia and Kepler's third law (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Isaac_Newton", "accessedAt": null }
+  ]
+}
