@@ -410,3 +410,39 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .g-node.dom-philosophy .g-sq { stroke: var(--philosophy); }
 .g-node.dom-music .g-sq { stroke: var(--music); }
 .g-node.dom-philosophy .g-sq, .g-node.dom-music .g-sq { stroke-dasharray: none; }
+
+/* אדריכלות, ציור וריקוד */
+.tl-dot-architecture { fill: var(--architecture); background: var(--architecture); }
+.tl-dot-painting { fill: var(--painting); background: var(--painting); }
+.tl-dot-dance { fill: var(--dance); background: var(--dance); }
+.tag-architecture { background: var(--architecture); }
+.tag-painting { background: var(--painting); }
+.tag-dance { background: var(--dance); }
+.axis-architecture { stroke: var(--architecture); }
+.axis-painting { stroke: var(--painting); }
+.axis-dance { stroke: var(--dance); }
+.row-architecture { background: var(--architecture); }
+.row-painting { background: var(--painting); }
+.row-dance { background: var(--dance); }
+.pin-architecture { background: var(--architecture); border-color: var(--architecture); }
+.pin-painting { background: var(--painting); border-color: var(--painting); }
+.pin-dance { background: var(--dance); border-color: var(--dance); }
+.chip-dom[aria-pressed="true"].dom-architecture { background: var(--architecture); border-color: var(--architecture); }
+.chip-dom[aria-pressed="true"].dom-painting { background: var(--painting); border-color: var(--painting); }
+.chip-dom[aria-pressed="true"].dom-dance { background: var(--dance); border-color: var(--dance); }
+.dom-architecture .mc-sq, .lg-sq.dom-architecture { background: var(--architecture); }
+.dom-painting .mc-sq, .lg-sq.dom-painting { background: var(--painting); }
+.dom-dance .mc-sq, .lg-sq.dom-dance { background: var(--dance); }
+.g-node.dom-architecture .g-sq { stroke: var(--architecture); }
+.g-node.dom-painting .g-sq { stroke: var(--painting); }
+.g-node.dom-dance .g-sq { stroke: var(--dance); }
+.g-node.dom-architecture .g-sq, .g-node.dom-painting .g-sq, .g-node.dom-dance .g-sq { stroke-dasharray: none; }
+
+/* שלב 5: עריכה */
+.dialog-back { position: fixed; inset: 0; background: rgba(23, 25, 28, .35); z-index: 40; display: grid; place-items: center; padding: 16px; }
+.dialog { width: min(420px, 100%); display: grid; gap: 12px; background: var(--sheet); }
+.dialog .search { max-width: none; }
+.editable { display: grid; gap: 2px; }
+.edit-field { width: 100%; font-size: 14px; line-height: 1.6; resize: vertical; }
+.edit-msg { color: var(--archive); }
+.edit-banner { position: sticky; top: 53px; z-index: 19; background: var(--marker); color: var(--ink); text-align: center; padding: 6px 12px; font-size: 13px; box-shadow: var(--shadow-1); }

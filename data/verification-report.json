@@ -565,6 +565,231 @@
       "id": "p-armstrong",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-imhotep",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ictinus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-callicrates",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-vitruvius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hadrian",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-anthemius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-isidore",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-brunelleschi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-palladio",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-sinan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wren",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-paxton",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-eiffel",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-sullivan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-adler",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-gaudi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-gropius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lecorbusier",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mies",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wright",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-niemeyer",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-costa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-geddes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-haussmann",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-giotto",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-masaccio",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-vaneyck",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-leonardo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-caravaggio",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rembrandt",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-vermeer",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-turner",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-monet",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-seurat",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-picasso",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kandinsky",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-beauchamp",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-noverre",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ftaglioni",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mtaglioni",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-petipa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-duncan",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-nijinsky",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-laban",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-balanchine",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -1137,6 +1362,206 @@
       "id": "d-1925-armstrong-hotfive",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "d-bce2670-djoser",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce447-parthenon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce30-vitruvius",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-117-pantheon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-532-hagia-sophia",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1436-brunelleschi-dome",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1567-palladio-rotonda",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1550-suleymaniye",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1710-st-pauls",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1851-crystal-palace",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1853-haussmann-paris",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1887-eiffel-tower",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1890-wainwright",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1883-sagrada-familia",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1925-geddes-telaviv",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1925-bauhaus-dessau",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1928-villa-savoye",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1929-barcelona-pavilion",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1935-fallingwater",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1956-brasilia",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1305-giotto-scrovegni",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1425-masaccio-trinity",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1434-vaneyck-arnolfini",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1503-leonardo-monalisa",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1599-caravaggio-matthew",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1642-rembrandt-nightwatch",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1665-vermeer-pearl",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1844-turner-rain",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1872-monet-impression",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1884-seurat-jatte",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1907-picasso-demoiselles",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1910-kandinsky-abstraction",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1661-beauchamp-positions",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1760-noverre-letters",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1832-sylphide",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1890-petipa-sleeping",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1900-duncan-free",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1912-nijinsky-faune",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1928-laban-notation",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1928-balanchine-apollo",
+      "verified": true,
+      "reasons": []
     }
   ],
   "links": [
@@ -1494,6 +1919,81 @@
     },
     {
       "id": "l-71",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-72",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-73",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-74",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-75",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-76",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-77",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-78",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-79",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-80",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-81",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-82",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-83",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-84",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-85",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-86",
       "verified": true,
       "reasons": []
     }
@@ -2110,12 +2610,234 @@
       "place": "Chicago",
       "ok": true,
       "confidence": "documented"
+    },
+    {
+      "id": "d-bce2670-djoser",
+      "place": "Pyramid of Djoser",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce447-parthenon",
+      "place": "Parthenon",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-117-pantheon",
+      "place": "Pantheon",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-532-hagia-sophia",
+      "place": "Hagia Sophia",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1436-brunelleschi-dome",
+      "place": "Florence Cathedral",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1567-palladio-rotonda",
+      "place": "Villa Almerico Capra (La Rotonda)",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1550-suleymaniye",
+      "place": "Süleymaniye Mosque",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1710-st-pauls",
+      "place": "St Paul's Cathedral",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1851-crystal-palace",
+      "place": "Hyde Park",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1853-haussmann-paris",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1887-eiffel-tower",
+      "place": "Eiffel Tower",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1890-wainwright",
+      "place": "Wainwright Building",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1883-sagrada-familia",
+      "place": "Basilica and Expiatory Church of the Holy Family",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1925-geddes-telaviv",
+      "place": "Tel Aviv",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1925-bauhaus-dessau",
+      "place": "Bauhaus Dessau",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1928-villa-savoye",
+      "place": "Villa Savoye",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1929-barcelona-pavilion",
+      "place": "German Pavilion, Barcelona",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1935-fallingwater",
+      "place": "Fallingwater",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1956-brasilia",
+      "place": "Brasília",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1305-giotto-scrovegni",
+      "place": "Scrovegni Chapel",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1425-masaccio-trinity",
+      "place": "Basilica of Santa Maria Novella",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1434-vaneyck-arnolfini",
+      "place": "Bruges",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1503-leonardo-monalisa",
+      "place": "Florence",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1599-caravaggio-matthew",
+      "place": "San Luigi dei Francesi",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1642-rembrandt-nightwatch",
+      "place": "Amsterdam",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1665-vermeer-pearl",
+      "place": "Delft",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1844-turner-rain",
+      "place": "London",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1872-monet-impression",
+      "place": "Le Havre",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1884-seurat-jatte",
+      "place": "île de la Jatte",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1907-picasso-demoiselles",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1661-beauchamp-positions",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1760-noverre-letters",
+      "place": "Lyon",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1832-sylphide",
+      "place": "Salle Le Peletier",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1890-petipa-sleeping",
+      "place": "Mariinsky Theatre",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1900-duncan-free",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1912-nijinsky-faune",
+      "place": "Théâtre du Châtelet",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1928-balanchine-apollo",
+      "place": "Théâtre de la Ville",
+      "ok": true,
+      "confidence": "interpretive"
     }
   ],
   "summary": {
-    "persons": "113/113",
-    "discoveries": "114/114",
-    "links": "70/71",
-    "images": 110
+    "persons": "158/158",
+    "discoveries": "154/154",
+    "links": "85/86",
+    "images": 153
   }
 }

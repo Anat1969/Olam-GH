@@ -1,4 +1,7 @@
+import { useEffect, useState } from 'react';
 import { useRoute, href } from './route';
+import { loadCloud, logout, toggleEditing, useCloud } from './cloud';
+import LoginDialog from './components/LoginDialog';
 import Home from './pages/Home';
 import TimelinePage from './pages/TimelinePage';
 import Method from './pages/Method';
@@ -15,6 +18,25 @@ const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', '
 
 export default function App() {
   const { page, params } = useRoute();
+  const cloud = useCloud();
+  const [loginOpen, setLoginOpen] = useState(false);
+  useEffect(() => { loadCloud(); }, []);
+  // כל פעולות העריכה יושבות בתוך כפתור הלוגו, לפי תקן ai-menu
+  useEffect(() => {
+    const apply = () => {
+      const menu = document.querySelector('ai-menu') as (HTMLElement & { items?: unknown; status?: string }) | null;
+      if (!menu) return;
+      menu.items = cloud.admin
+        ? [
+          { label: 'מצב עריכה', pressed: cloud.editing, onSelect: () => toggleEditing() },
+          { label: `יציאה (${cloud.session?.email || ''})`, onSelect: () => logout() },
+        ]
+        : [{ label: 'כניסה לעריכה', onSelect: () => setLoginOpen(true) }];
+      menu.status = cloud.editing ? (cloud.status || 'מצב עריכה') : '';
+    };
+    apply();
+    customElements.whenDefined('ai-menu').then(apply);
+  }, [cloud.admin, cloud.editing, cloud.status, cloud.session]);
   const current = TABS.some(([id]) => id === page) ? page : 'home';
   return (
     <>
@@ -32,6 +54,8 @@ export default function App() {
           <ai-menu chat="https://claude.ai/code/session_018qeN17LAcGjZpUinASMoqS"></ai-menu>
         </div>
       </header>
+      {loginOpen && <LoginDialog onClose={() => setLoginOpen(false)} />}
+      {cloud.editing && <div className="edit-banner" role="status">מצב עריכה: לחצי על דמות או על קשר, וערכי את הטקסט. כל שינוי נשמר עם היסטוריה.</div>}
       {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'method' ? <Method /> : <Home />}
     </>
   );

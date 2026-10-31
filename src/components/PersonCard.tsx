@@ -1,6 +1,7 @@
 // כרטיס דמות: תמונה עם רישיון, שנים ולוח שנה, גילויים עם ציטוט מהמקור, קשרים ומקורות.
 import { useEffect, useRef } from 'react';
 import Rich from './Rich';
+import Editable from './Editable';
 import {
   type Person, confidenceName, discoveriesOf, domainById, lifeText, linkVerb, linksOf, nodeLabel, personById, rangeText, sourceById,
 } from '../data';
@@ -37,7 +38,7 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
           {person.imageUrl ? <img src={person.imageUrl} alt={person.nameHe} loading="lazy" /> : <div className="face-empty" />}
           {person.imageUrl && (
             <figcaption className="label">
-              תמונה: <a href={person.imagePage || '#'} target="_blank" rel="noreferrer" dir="ltr">{person.imageCredit || 'Wikimedia Commons'}</a>
+              תמונה: <a href={person.imagePage || '#'} target="_blank" rel="noreferrer" dir="ltr">{(person.imageCredit || 'Wikimedia Commons').length > 48 ? (person.imageCredit || '').slice(0, 46) + '…' : (person.imageCredit || 'Wikimedia Commons')}</a>
               <br />רישיון: <span dir="ltr">{person.imageLicense}</span>
             </figcaption>
           )}
@@ -64,13 +65,13 @@ export default function PersonCard({ person, onClose, onOpen }: { person: Person
             <span className="find-year"><Rich>{rangeText(d)}</Rich></span>
             <span className={`chip-tag tag-${d.domainId}`}>{domainById.get(d.domainId)?.nameHe}</span>
           </div>
-          <h4 className="find-title">{d.title}</h4>
+          <h4 className="find-title"><Editable kind="discovery" id={d.id} field="title" value={d.title} rich={false} /></h4>
           {d.novelty ? (
             <dl className="find-nc">
-              <div><dt className="label">החידוש</dt><dd><Rich>{d.novelty}</Rich></dd></div>
-              <div><dt className="label">התרומה</dt><dd><Rich>{d.contribution}</Rich></dd></div>
+              <div><dt className="label">החידוש</dt><dd><Editable kind="discovery" id={d.id} field="novelty" value={d.novelty} /></dd></div>
+              <div><dt className="label">התרומה</dt><dd><Editable kind="discovery" id={d.id} field="contribution" value={d.contribution} /></dd></div>
             </dl>
-          ) : <Rich as="p" className="find-text">{d.contribution}</Rich>}
+          ) : <Editable as="p" className="find-text" kind="discovery" id={d.id} field="contribution" value={d.contribution} />}
           {d.personIds.length > 1 && (
             <p className="find-with">יחד עם {d.personIds.filter((id) => id !== person.id).map((id) => (
               <button key={id} type="button" className="press chip" onClick={() => onOpen(id)}>{personById.get(id)?.nameHe}</button>
