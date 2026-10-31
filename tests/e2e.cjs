@@ -279,15 +279,34 @@ const mock = async (p) => {
     await p.waitForTimeout(200);
     ok(p.url().includes('k=') && (await p.locator('.place-panel').count()) === 1, 'לחיצה על ארץ ברשימה פותחת את הדמויות שלה');
     await p.locator('.place-panel .pp-cities').getByRole('button', { name: 'חזרה לכל הארצות' }).click();
-    // מסע לפי סדר כרונולוגי
-    await p.locator('.tour-seg .chip-dom', { hasText: 'פיזיקה' }).click();
+    // שורת תחומים אחת: לחיצה ראשונה בוחרת רק את התחום, והפאנל מציג את הדמויות שלו
+    await p.locator('.map-domains .chip-dom', { hasText: 'אדריכלות' }).click();
+    await p.waitForTimeout(250);
+    const pressedNow = await p.locator('.map-domains .chip-dom[aria-pressed="true"]').allInnerTexts();
+    ok(pressedNow.length === 1 && pressedNow[0].includes('אדריכלות') && p.url().includes('d=architecture'), 'לחיצה ראשונה בוחרת רק את התחום שנלחץ');
+    const ARCH = DISC.filter((d) => d.domainId === 'architecture');
+    ok((await p.locator('.people-panel .city-title').innerText()).includes('אדריכלות') && (await p.locator('.people-row').count()) === ARCH.length, `בחירת אדריכלות מציגה את הדמויות שלה (${ARCH.length})`);
+    await p.locator('.people-sort').getByRole('button', { name: 'לפי תת-תחום' }).click();
+    ok((await p.locator('.people-group-title').count()) >= 3, 'מיון הדמויות לפי תת-תחום');
+    await p.locator('.map-domains .chip-dom', { hasText: 'קולנוע' }).click();
+    await p.waitForTimeout(250);
+    ok((await p.locator('.map-domains .chip-dom[aria-pressed="true"]').count()) === 2, 'לחיצה נוספת מוסיפה תחום');
+    await p.locator('.map-domains .chip-all').click();
+    await p.waitForTimeout(250);
+    ok(!p.url().includes('d=') && (await p.locator('.map-domains .chip-all').getAttribute('aria-pressed')) === 'true' && (await p.locator('.map-domains .chip-dom[aria-pressed="true"]').count()) === 0, '"כל התחומים" מאפס את הבחירה');
+    ok(await p.locator('.tour-seg').count() === 0, 'אין שורה כפולה של תחומים למסע');
+    // מסע בזמן על התחום שנבחר
+    await p.locator('.map-domains .chip-dom', { hasText: 'פיזיקה' }).click();
+    await p.locator('.map-modes .chip-tour').click();
     await p.locator('.tour-card').waitFor();
     const physN = DISC.filter((d) => d.domainId === 'physics' && d.place).length;
-    ok(p.url().includes('t=physics') && (await p.locator('.tour-num').innerText()) === `1/${physN}`, `מסע בפיזיקה: תחנה 1 מתוך ${physN}`);
+    ok(p.url().includes('t=1') && (await p.locator('.tour-num').innerText()) === `1/${physN}`, `מסע בפיזיקה: תחנה 1 מתוך ${physN}`);
     ok(await p.evaluate(() => [...document.querySelectorAll('.mc-n')].some((e) => e.textContent)), 'במסע הסמנים מציגים את מספר התחנה');
+    const PHYS_PLACED = DISC.filter((d) => d.domainId === 'physics' && d.place).sort((a, b) => a.yearFrom - b.yearFrom || a.id.localeCompare(b.id));
     await p.locator('.tour-card').getByRole('button', { name: 'הבאה' }).click();
-    await p.waitForTimeout(200);
+    await p.waitForTimeout(1800);
     ok(p.url().includes('s=1') && (await h1(p)).includes('תחנה 2'), 'הבאה מעבירה לתחנה הבאה');
+    ok(p.url().includes(`y=${PHYS_PLACED[1].yearFrom}`) && (await p.locator('.tour-clock-y').innerText()) === String(Math.abs(PHYS_PLACED[1].yearFrom)), 'שעון הזמן והמחוון זזים עם התחנה');
     await p.locator('.tour-list li button').nth(4).click();
     await p.waitForTimeout(200);
     ok(p.url().includes('s=4') && (await p.locator('.tour-num').innerText()).startsWith('5/'), 'בחירת תחנה מהרשימה');
@@ -295,19 +314,20 @@ const mock = async (p) => {
     ok(yearsInOrder.length > 5 && yearsInOrder.every((v, i, a) => i === 0 || a[i - 1] <= v), 'התחנות בסדר כרונולוגי');
     await p.locator('.tour-card').getByRole('button', { name: 'סיום המסע' }).click();
     await p.waitForTimeout(150);
-    ok(!p.url().includes('t=physics') && (await p.locator('.tour-card').count()) === 0, 'סיום המסע');
-    // מסע חוצה תחומים
-    await p.locator('.tour-seg .chip-all').click();
+    ok(!p.url().includes('t=1') && (await p.locator('.tour-card').count()) === 0, 'סיום המסע');
+    // מסע בכל התחומים
+    await p.locator('.map-domains .chip-all').click();
+    await p.locator('.map-modes .chip-tour').click();
     await p.locator('.tour-card').waitFor();
     const tourAllN = DISC.filter((d) => d.place).length;
-    ok(p.url().includes('t=all') && (await p.locator('.tour-num').innerText()) === `1/${tourAllN}`, `מסע בכל התחומים: ${tourAllN} תחנות`);
+    ok((await p.locator('.tour-num').innerText()) === `1/${tourAllN}`, `מסע בכל התחומים: ${tourAllN} תחנות`);
     const allYears = await p.locator('.tour-list .tour-y').evaluateAll((els) => els.map((e) => Number(e.dataset.year)));
     ok(allYears.length === tourAllN && allYears.every((v, i, a) => i === 0 || a[i - 1] <= v), 'כל התחומים בסדר כרונולוגי אחד');
     ok(new Set(await p.locator('.tour-list .dicon').evaluateAll((els) => els.map((e) => e.getAttribute('class')))).size >= 10, 'ברשימה אייקון בצבע לכל תחום');
     await p.locator('.tour-list li button').nth(30).click();
     await p.waitForTimeout(300);
     const badges = await p.evaluate(() => [...document.querySelectorAll('.mc-n')].filter((e) => e.textContent).map((e) => e.textContent));
-    await p.evaluate(() => { location.hash = '#/map?t=all&s=120'; });
+    await p.evaluate(() => { location.hash = '#/map?t=1&s=120'; });
     await p.waitForTimeout(300);
     ok(await p.locator('.tour-list').evaluate((ol) => { const li = ol.children[120]; return li.offsetTop >= ol.scrollTop && li.offsetTop + li.offsetHeight <= ol.scrollTop + ol.clientHeight; }), 'הרשימה נגללת לתחנה הנוכחית');
     ok(badges.length === 1 && badges[0] === '31', `מספר רק על העיר הנוכחית (${badges.join(',')})`);
@@ -318,10 +338,10 @@ const mock = async (p) => {
     await p.locator('.link-item', { hasText: 'קהיר' }).first().click();
     await p.waitForTimeout(200);
     ok(p.url().includes('l=') && (await p.locator('.link-panel').innerText()).includes('היישום'), 'מסלול נבחר עם כלל, תובנה ויישום');
-    await p.locator('.map-controls > .seg:first-child .chip-dom', { hasText: 'פיזיקה' }).click();
-    await p.waitForTimeout(200);
-    ok(!new URL(p.url().replace('#/', '')).searchParams.get('d').split(',').includes('physics') && (await p.locator('.map-city.dom-physics').count()) === 0, 'סינון תחום על המפה');
-    await p.locator('.map-controls > .seg:first-child .chip-dom', { hasText: 'פיזיקה' }).click();
+    await p.locator('.map-domains .chip-dom', { hasText: 'מוזיקה' }).click();
+    await p.waitForTimeout(400);
+    ok(new URL(p.url().replace('#/', '')).searchParams.get('d') === 'music' && (await p.locator('.map-city.dom-physics').count()) === 0, 'סינון תחום על המפה');
+    await p.locator('.map-domains .chip-all').click();
     await p.locator('.map-controls input[type=range]').fill('0');
     await p.getByRole('button', { name: 'הפעלה' }).click();
     await p.waitForTimeout(1500);
