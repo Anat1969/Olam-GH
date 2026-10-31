@@ -1,3 +1,4 @@
+import { useSyncExternalStore } from 'react';
 // חיפוש לפי מילת מפתח בכל העולם: דמויות, גילויים, תתי תחומים, ערים וארצות.
 // עברית ולועזית יחד. מנרמלים ניקוד, גרש וגרשיים, מקף ואותיות לטיניות עם סימנים, כדי ש"קירי", "Curie" ו"קורי" לא ייפלו על כתיב.
 import { discoveries, domainById, families, personById, persons, yearText, type Discovery, type Person } from './data';
@@ -50,6 +51,19 @@ function build(): Entry[] {
 }
 
 let index: Entry[] | null = null;
+
+// התאמה בתחילת מילה, כולל אותיות השימוש בעברית (ה, ו, ב, כ, ל, מ, ש, עד שלוש): "אור" מוצא "האור" ו"באור", לא "תאוריה".
+const PREFIX = /^[והבכלמש]{1,3}/;
+function wordHit(text: string, t: string) {
+  // מילה קצרה (עד 3 אותיות) חייבת להיות מילה שלמה, אחרת "אור" תופס "אורך" ו"אורגני". מ-4 אותיות מספיקה תחילת מילה.
+  const ok = (w: string) => (t.length <= 3 ? w === t : w.startsWith(t));
+  for (const w of text.split(' ')) {
+    if (ok(w)) return true;
+    const m = w.match(PREFIX);
+    if (m) for (let k = 1; k <= m[0].length; k++) if (ok(w.slice(k))) return true;
+  }
+  return false;
+}
 const KIND_W = { person: 3, discovery: 2, sub: 2.5, city: 2 } as const;
 
 /** כל מילה בשאילתה חייבת להופיע. התאמה בתחילת השם שווה יותר מהתאמה בטקסט. */
@@ -65,8 +79,8 @@ export function search(q: string, limit = 60): Hit[] {
       const words = e.main.split(' ');
       if (words.some((w) => w === t)) score += 10;
       else if (words.some((w) => w.startsWith(t))) score += 7;
-      else if (e.main.includes(t)) score += 4;
-      else if (e.rest.includes(t)) score += 1;
+      else if (wordHit(e.main, t)) score += 5;
+      else if (wordHit(e.rest, t)) score += 1;
       else { all = false; break; }
     }
     if (all) res.push({ ...e.hit, score: score * KIND_W[e.hit.kind] } as Hit);
@@ -82,3 +96,49 @@ export function markRange(text: string, q: string): [number, number] | null {
   const i = norm(text).indexOf(t);
   return i < 0 || norm(text).length !== text.length ? null : [i, i + t.length];
 }
+
+// ---------------------------------------------------------------------------
+// מילת מפתח גלובלית: שדה אחד בסרגל, וכל דף מדגיש את מה שמתאים לה.
+// נשמרת ב-sessionStorage, כדי שמעבר בין ציר, מפה וגרף ישאיר אותה.
+
+const KW_KEY = 'olam.keyword';
+let kw = (() => { try { return sessionStorage.getItem(KW_KEY) || ''; } catch { return ''; } })();
+const kwSubs = new Set<() => void>();
+export function setKeyword(q: string) {
+  if (q === kw) return;
+  kw = q;
+  try { if (q) sessionStorage.setItem(KW_KEY, q); else sessionStorage.removeItem(KW_KEY); } catch { /* מצב פרטי */ }
+  cache = null;
+  kwSubs.forEach((f) => f());
+}
+export const useKeyword = () => useSyncExternalStore((f) => { kwSubs.add(f); return () => kwSubs.delete(f); }, () => kw);
+
+export type Matches = {
+  q: string; active: boolean;
+  discoveries: Set<string>; persons: Set<string>; cities: Set<string>;
+  byDomain: { domainId: string; nameHe: string; persons: Set<string>; discoveries: Discovery[] }[];
+};
+let cache: Matches | null = null;
+
+/** מה מתאים למילה: גילוי שמתאים ישירות, כל הגילויים של דמות שמתאימה, של תת-תחום שמתאים ושל עיר שמתאימה */
+export function matchesOf(q: string): Matches {
+  if (cache && cache.q === q) return cache;
+  const hits = q.trim() ? search(q, Infinity) : [];
+  const ds = new Set<string>();
+  for (const h of hits) {
+    if (h.kind === 'discovery') ds.add(h.id);
+    else if (h.kind === 'person') discoveries.filter((d) => d.personIds.includes(h.id)).forEach((d) => ds.add(d.id));
+    else if (h.kind === 'sub') discoveries.filter((d) => d.domainId === h.domainId && d.sub === h.sub).forEach((d) => ds.add(d.id));
+    else if (h.kind === 'city') discoveries.filter((d) => d.place?.city.nameFull === h.key).forEach((d) => ds.add(d.id));
+  }
+  const list = discoveries.filter((d) => ds.has(d.id));
+  const persons = new Set(list.flatMap((d) => d.personIds));
+  const cities = new Set(list.filter((d) => d.place).map((d) => d.place!.city.nameFull));
+  const byDomain = families.flatMap((f) => f.domains).map((dom) => {
+    const xs = list.filter((d) => d.domainId === dom.id);
+    return { domainId: dom.id, nameHe: dom.nameHe, persons: new Set(xs.flatMap((d) => d.personIds)), discoveries: xs };
+  }).filter((x) => x.discoveries.length > 0).sort((a, b) => b.discoveries.length - a.discoveries.length);
+  cache = { q, active: !!q.trim(), discoveries: ds, persons, cities, byDomain };
+  return cache;
+}
+export const useMatches = () => matchesOf(useKeyword());

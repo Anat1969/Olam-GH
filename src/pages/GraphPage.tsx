@@ -1,5 +1,6 @@
 // שלב 4: גרף קשרים ותצוגות חיתוך.
 // דמויות הן צמתים מרובעים עם דיוקן. המיקום האופקי קבוע לפי הזמן (מימין לשמאל), והאנכי נקבע בכוחות (d3-force).
+import { useMatches } from '../search';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { forceCollide, forceLink, forceSimulation, forceX, forceY, type SimulationNodeDatum } from 'd3-force';
 import { select } from 'd3-selection';
@@ -22,6 +23,7 @@ const readSaved = (): Saved[] => { try { return JSON.parse(localStorage.getItem(
 const writeSaved = (v: Saved[]) => { try { localStorage.setItem(KEY, JSON.stringify(v)); return true; } catch { return false; } };
 
 export default function GraphPage({ params }: { params: Record<string, string> }) {
+  const kw = useMatches();
   const domains = new Set((params.d || activeDomains.map((d) => d.id).join(',')).split(',').filter(Boolean));
   const from = params.f ? Number(params.f) : YEAR_MIN;
   const to = params.t ? Number(params.t) : YEAR_MAX;
@@ -258,7 +260,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
                   const p = layout.get(n.id)!;
                   const s = p.r * 2;
                   return (
-                    <g key={n.id} className={`g-node dom-${n.domain}${focus === n.id ? ' is-focus' : ''}${dim(n.id) ? ' is-dim' : ''}${n.context ? ' is-context' : ''}${n.degree === 0 ? ' is-alone' : ''}`}
+                    <g key={n.id} className={`g-node dom-${n.domain}${focus === n.id ? ' is-focus' : ''}${dim(n.id) ? ' is-dim' : ''}${n.context ? ' is-context' : ''}${n.degree === 0 ? ' is-alone' : ''}${kw.active ? (kw.persons.has(n.id) ? ' is-kw' : ' is-kw-off') : ''}`}
                       transform={`translate(${p.x},${p.y})`} data-person={n.id} role="button" tabIndex={0}
                       aria-label={`${n.person.nameHe}, ${n.degree} קשרים`} aria-pressed={focus === n.id}
                       onClick={() => set({ n: focus === n.id ? undefined : n.id })}

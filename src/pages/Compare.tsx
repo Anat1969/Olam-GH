@@ -1,5 +1,6 @@
 // שלב 2: השוואה בין תחומים. כמה שורות על ציר זמן אחד, זום מסונכרן ב-D3, וקשרים שנבחרים בלחיצה.
 // השורה הראשונה מציגה כרטיסים מעל הציר, והאחרות מתחתיו, כך שבין הצירים נשאר "שדה הקשרים".
+import { useMatches } from '../search';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { select } from 'd3-selection';
@@ -40,6 +41,7 @@ function place(items: Discovery[], x: (y: number) => number, W: number, cw: numb
 }
 
 export default function Compare({ params }: { params: Record<string, string> }) {
+  const kw = useMatches();
   const domainIds = (params.d || activeDomains.map((d) => d.id).join(',')).split(',').filter((id) => activeDomains.some((d) => d.id === id));
   const rows = domainIds.length ? domainIds : activeDomains.map((d) => d.id);
   const rowSet = useMemo(() => new Set(rows), [rows.join(',')]); // eslint-disable-line react-hooks/exhaustive-deps
@@ -259,7 +261,7 @@ export default function Compare({ params }: { params: Record<string, string> }) 
             const people = p.d.personIds.map((id) => personById.get(id)).filter((x): x is NonNullable<typeof x> => !!x);
             const open = () => (people[0] ? pick(people[0].id) : go('timeline', workParams(p.d)));
             const known = p.d.yearFrom <= year;
-            const cls = `${known ? '' : ' is-hidden'}${ends.has(p.d.id) ? ' is-end' : ''}${selected && !ends.has(p.d.id) ? ' is-dim' : ''}`;
+            const cls = `${kw.active ? (kw.discoveries.has(p.d.id) ? ' is-kw' : ' is-kw-off') : ''}${known ? '' : ' is-hidden'}${ends.has(p.d.id) ? ' is-end' : ''}${selected && !ends.has(p.d.id) ? ' is-dim' : ''}`;
             const label = `${people.map((x) => x.nameHe).join(' ו') || ANON}, ${yearText(p.d.yearFrom)}: ${p.d.title}`;
             if (p.pin) {
               const top = row === 0 ? axisY(0) - 22 : axisY(row) + 10;

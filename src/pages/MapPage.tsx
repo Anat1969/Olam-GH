@@ -1,4 +1,5 @@
 // שלב 3: מפה. אותם גילויים לפי מקום, ומחוון זמן שמזיז את הנקודות בזמן אמת.
+import { useMatches } from '../search';
 import { Suspense, lazy, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Rich from '../components/Rich';
 import LinkPanel from '../components/LinkPanel';
@@ -16,6 +17,8 @@ const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matc
 const DEFAULT_YEAR = 1700;
 
 export default function MapPage({ params }: { params: Record<string, string> }) {
+  const kwm = useMatches();
+  const kwOf = (key: string): boolean | undefined => (kwm.active ? kwm.cities.has(key) : undefined);
   const year = params.y && Number.isFinite(Number(params.y)) ? Math.min(Math.max(Number(params.y), YEAR_MIN), YEAR_MAX) : DEFAULT_YEAR;
   const domains = new Set((params.d || activeDomains.map((d) => d.id).join(',')).split(','));
   const showRoutes = params.r !== '0';
@@ -127,6 +130,16 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
         <span>לחיצה על עיר או על שם של ארץ מציגה את כל הדמויות שלה. <strong>מסע</strong> עובר על תחום אחד לפי הסדר.</span>
       </p>
 
+      {kwm.active && (() => {
+        // תוצאות חיפוש שעוד "נעלמות" בשנה שנבחרה לא מופיעות במפה. אומרים זאת, ומציעים לקפוץ להיום.
+        const later = [...kwm.cities].filter((k) => !visible.some((v) => v.city.key === k)).length;
+        return later > 0 ? (
+          <p className="kw-note" role="status">
+            {later === 1 ? 'עיר אחת מהחיפוש עוד נעלמת' : <><bdi className="num">{later}</bdi> ערים מהחיפוש עוד נעלמות</>} בשנת {yearText(year)}.{' '}
+            <button type="button" className="press btn btn-quiet" onClick={() => set({ y: String(YEAR_MAX) })}>הצגה עד היום</button>
+          </p>
+        ) : null;
+      })()}
       <div className="map-controls card glass">
         <div className="seg map-domains" role="group" aria-label="תחומים">
           {activeDomains.map((d) => {
@@ -170,8 +183,8 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             <Suspense fallback={<div className="map-loading">טוען את הגלובוס…</div>}>
               <MapView
                 cities={tourDomain
-                  ? tourCities.map((t) => ({ city: t.city, known: t.nums.length, recent: false, on: !!stop && stop.city.key === t.city.key, domain: tourAll ? t.domain : tourDomain.id, badge: tourAll ? (stop && stop.city.key === t.city.key ? String(si + 1) : undefined) : t.nums.join('·') }))
-                  : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || (!!country && v.city.country?.key === country.key), domain: v.domain }))}
+                  ? tourCities.map((t) => ({ city: t.city, known: t.nums.length, recent: false, on: !!stop && stop.city.key === t.city.key, kw: kwOf(t.city.key), domain: tourAll ? t.domain : tourDomain.id, badge: tourAll ? (stop && stop.city.key === t.city.key ? String(si + 1) : undefined) : t.nums.join('·') }))
+                  : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || (!!country && v.city.country?.key === country.key), kw: kwOf(v.city.key), domain: v.domain }))}
                 routes={showRoutes && !tourDomain ? shownRoutes.map((r) => ({ id: r.link.id, path: r.path, type: r.link.type, confidence: r.link.confidence, on: r.link.id === params.l })) : []}
                 trail={tourDomain ? [] : trail} tour={tourPath} center={tourDomain ? null : center}
                 focus={tourDomain && stop ? stop.city.lonLat : sel ? sel.city.lonLat : country ? country.lonLat : null}

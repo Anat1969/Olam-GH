@@ -1364,6 +1364,12 @@
       "accessedAt": "2026-10-31"
     },
     {
+      "id": "s-wd-q34286",
+      "title": "Alexander Graham Bell, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q34286",
+      "accessedAt": "2026-10-31"
+    },
+    {
       "id": "s-wd-q3442020",
       "title": "Rorion Gracie, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q3442020",
@@ -3011,6 +3017,12 @@
       "id": "s-wp-alexander-fleming",
       "title": "Alexander Fleming, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alexander-graham-bell",
+      "title": "Alexander Graham Bell, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
       "accessedAt": "2026-10-31"
     },
     {
@@ -4955,6 +4967,12 @@
       "id": "s-wp-industrial-light-magic",
       "title": "Industrial Light & Magic, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Industrial_Light_%26_Magic",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-invention-of-the-telephone",
+      "title": "Invention of the telephone, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Invention_of_the_telephone",
       "accessedAt": "2026-10-31"
     },
     {
@@ -7055,6 +7073,12 @@
       "id": "s-wp-tao-te-ching",
       "title": "Tao Te Ching, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-telephone",
+      "title": "Telephone, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Telephone",
       "accessedAt": "2026-10-31"
     },
     {

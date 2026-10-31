@@ -2290,6 +2290,11 @@
       "id": "p-vespasian",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-bell",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -4405,6 +4410,11 @@
     },
     {
       "id": "d-80-colosseum",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1876-bell-telephone",
       "verified": true,
       "reasons": []
     }
@@ -7609,12 +7619,18 @@
       "place": "Colosseum",
       "ok": true,
       "confidence": "documented"
+    },
+    {
+      "id": "d-1876-bell-telephone",
+      "place": "Boston",
+      "ok": true,
+      "confidence": "documented"
     }
   ],
   "summary": {
-    "persons": "458/458",
-    "discoveries": "423/423",
+    "persons": "459/459",
+    "discoveries": "424/424",
     "links": "229/230",
-    "images": 425
+    "images": 426
   }
 }

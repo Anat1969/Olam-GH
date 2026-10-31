@@ -1,8 +1,8 @@
 // חיפוש לפי מילת מפתח: שדה אחד, תוצאות מקובצות (דמויות, גילויים, תתי תחומים, ערים), וכל תוצאה מובילה למקום שלה באפליקציה.
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo } from 'react';
 import { discoveries } from '../data';
 import { href, replace } from '../route';
-import { markRange, search, type Hit } from '../search';
+import { markRange, search, setKeyword, useKeyword, type Hit } from '../search';
 
 const GROUPS: [Hit['kind'], string][] = [['person', 'דמויות'], ['discovery', 'גילויים ויצירות'], ['sub', 'תתי תחומים'], ['city', 'ערים']];
 const EXAMPLES = ['קירי', 'אסלאם', 'Kyoto', 'אבחון', 'בלט', 'קוונטים', 'וינה', 'Bach'];
@@ -27,16 +27,12 @@ function Marked({ text, q }: { text: string; q: string }) {
 }
 
 export default function SearchPage({ params }: { params: Record<string, string> }) {
-  const [q, setQ] = useState(params.q || '');
-  const input = useRef<HTMLInputElement>(null);
-  useEffect(() => { input.current?.focus(); }, []);
-  // ניווט חיצוני (חזרה אחורה, קישור) מעדכן את השדה
-  useEffect(() => { if ((params.q || '') !== q) setQ(params.q || ''); // eslint-disable-next-line react-hooks/exhaustive-deps
+  // הדף הזה הוא "כל התוצאות" של השדה שבסרגל. קישור עם q ממלא את השדה.
+  const q = useKeyword();
+  useEffect(() => { if (params.q && params.q !== q) setKeyword(params.q); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params.q]);
-  useEffect(() => {
-    const t = window.setTimeout(() => { if ((params.q || '') !== q) replace('search', { q: q || undefined }); }, 250);
-    return () => window.clearTimeout(t);
-  }, [q, params.q]);
+  useEffect(() => { if ((params.q || '') !== q) replace('search', { q: q || undefined }); // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q]);
   const hits = useMemo(() => search(q), [q]);
   const groups = GROUPS.map(([k, name]) => [k, name, hits.filter((h) => h.kind === k)] as const).filter(([, , xs]) => xs.length);
 
@@ -45,16 +41,12 @@ export default function SearchPage({ params }: { params: Record<string, string> 
       <div className="crumbs"><a href="#/">בית</a> / חיפוש</div>
       <h1 className="page-title" aria-live="polite">{q.trim() ? (hits.length ? `${hits.length} תוצאות ל״${q.trim()}״.` : `אין תוצאות ל״${q.trim()}״.`) : 'חיפוש לפי מילת מפתח.'}</h1>
       <p className="page-sub lines">
-        <span>שם של דמות, יצירה, תת-תחום, עיר או מושג, <strong>בעברית או בלועזית</strong>.</span>
-        <span>החיפוש עובר גם על החידוש, התרומה והציטוטים המתורגמים.</span>
+        <span>שדה החיפוש נמצא <strong>בסרגל העליון בכל דף</strong>. כאן כל התוצאות, מקובצות.</span>
+        <span>שם של דמות, יצירה, תת-תחום, עיר או מושג, <strong>בעברית או בלועזית</strong>. החיפוש עובר גם על החידוש, התרומה והציטוטים המתורגמים.</span>
       </p>
-      <label className="search search-big">
-        <span className="label">מילת מפתח</span>
-        <input ref={input} className="field" type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="למשל: קירי, אסלאם, Kyoto" aria-describedby="search-help" />
-      </label>
       {!q.trim() && (
-        <div className="seg" id="search-help" aria-label="דוגמאות">
-          {EXAMPLES.map((x) => <button key={x} type="button" className="press chip" onClick={() => setQ(x)}>{x}</button>)}
+        <div className="seg" aria-label="דוגמאות">
+          {EXAMPLES.map((x) => <button key={x} type="button" className="press chip" onClick={() => setKeyword(x)}>{x}</button>)}
         </div>
       )}
       {groups.map(([k, name, xs]) => (

@@ -22817,6 +22817,67 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1876-bell-telephone",
+      "title": "הטלפון",
+      "yearFrom": 1876,
+      "yearTo": 1876,
+      "yearApprox": false,
+      "domainId": "physics",
+      "sub": "electromagnetism",
+      "personIds": [
+        "p-bell"
+      ],
+      "place": {
+        "wikipedia": "Boston",
+        "nameHe": "בוסטון",
+        "nameFull": "Boston",
+        "lat": 42.3603,
+        "lon": -71.0578,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-invention-of-the-telephone",
+          "quote": "Scollay Square in Boston showed that the telephone worked, but so far, only at a short range.",
+          "quoteHe": "בכיכר סקולי בבוסטון הראה שהטלפון עובד, אם כי בינתיים רק לטווח קצר."
+        },
+        "city": {
+          "nameHe": "בוסטון",
+          "nameFull": "Boston"
+        },
+        "wikidata": "Q100",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "**בל** קיבל את הפטנט הראשון על מכשיר שמעביר **קול אנושי ברור** למכשיר שני, בחשמל.",
+      "contribution": "הטלפון פתח את עידן **התקשורת הקולית מרחוק**; כבר באותה שנה הוצעה **מרכזייה** שאפשרה רשתות טלפון. הקרדיט שנוי במחלוקת: גם מוצ'י, רייס וגריי נזכרים כממציאים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-telephone",
+          "quote": "In 1876, Alexander Graham Bell was the first to be granted a United States patent for a device that produced clearly intelligible replication of the human voice at a second device.",
+          "quoteHe": "ב-1876 היה אלכסנדר גרהם בל הראשון שקיבל פטנט אמריקאי על מכשיר שהפיק שחזור מובן וברור של הקול האנושי במכשיר שני."
+        },
+        {
+          "sourceId": "s-wp-telephone",
+          "quote": "In 1876, shortly after Bell's patent application, Hungarian engineer Tivadar Puskás proposed the telephone switch, which allowed for the formation of telephone exchanges, and eventually networks.",
+          "quoteHe": "ב-1876, זמן קצר אחרי בקשת הפטנט של בל, הציע המהנדס ההונגרי טיבדר פושקאש את מתג הטלפון, שאפשר להקים מרכזיות טלפון, ובסופו של דבר רשתות."
+        },
+        {
+          "sourceId": "s-wp-telephone",
+          "quote": "Charles Bourseul, Antonio Meucci, Johann Philipp Reis, Alexander Graham Bell, and Elisha Gray, amongst others, have all been credited with the invention of the telephone.",
+          "quoteHe": "שארל בורסל, אנטוניו מוצ'י, יוהאן פיליפ רייס, אלכסנדר גרהם בל ואלישה גריי, בין היתר, נזקפו כולם לזכותם בהמצאת הטלפון."
+        }
+      ],
+      "sources": [
+        "s-wp-telephone",
+        "s-wp-invention-of-the-telephone"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

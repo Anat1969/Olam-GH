@@ -1,6 +1,7 @@
 // ציר זמן לתחום אחד, ב-D3 (סקאלה ושנתות) ו-React (ציור).
 // הזמן זורם מימין לשמאל, כמו כיוון הקריאה. המחוון הוא גבול הידע:
 // מימין לו "מציאות מצויה", משמאל לו שכבת זכוכית שמכסה את "העולם הנעלם".
+import { useMatches } from '../search';
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { type Discovery, links, personById, yearText, discoveries as allShown, shortName, ANON } from '../data';
@@ -51,6 +52,8 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
   items: Discovery[]; year: number; selectedPerson?: string; onPick: (personId: string | undefined, discoveryId: string) => void; follow: boolean;
 }) {
   const { placed, lanes } = useMemo(() => layout(items), [items]);
+  const kw = useMatches(); // מילת המפתח שבסרגל: מה שמתאים מודגש, השאר מתעמעם
+  const kwc = (id: string) => (kw.active ? (kw.discoveries.has(id) ? ' is-kw' : ' is-kw-off') : '');
   const H = AXIS_Y + 34 + lanes * LANE_H + 12;
   const cx = xScale(year);
   const scroller = useRef<HTMLDivElement>(null);
@@ -77,6 +80,15 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
     if (m.x < el.scrollLeft + 60 || m.x > el.scrollLeft + el.clientWidth - 60) el.scrollTo({ left: m.x - el.clientWidth / 2, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedPerson]);
+
+  // מילת מפתח חדשה: הציר נגלל להתאמה הראשונה בתחום
+  useEffect(() => {
+    const el = scroller.current;
+    const m = kw.active ? placed.find((p) => kw.discoveries.has(p.d.id)) : undefined;
+    if (!el || !m) return;
+    if (m.x < el.scrollLeft + 60 || m.x > el.scrollLeft + el.clientWidth - 60) el.scrollTo({ left: m.x - el.clientWidth / 2, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [kw.q, placed]);
 
   // קשרים של הדמות הנבחרת, כקשתות מעל הציר
   const arcs = useMemo(() => {
@@ -138,7 +150,7 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
               x1={p.x} x2={Math.min(Math.max(p.x, p.left + 10), p.left + CARD_W - 10)} y1={AXIS_Y} y2={AXIS_Y + 34 + p.lane * LANE_H} />
           ))}
           {placed.map((p) => (
-            <g key={p.d.id} className={p.d.yearFrom <= year ? 'tl-dot' : 'tl-dot is-hidden'}>
+            <g key={p.d.id} className={(p.d.yearFrom <= year ? 'tl-dot' : 'tl-dot is-hidden') + kwc(p.d.id)}>
               {p.d.yearTo !== p.d.yearFrom && (
                 <line x1={xScale(p.d.yearFrom)} x2={xScale(p.d.yearTo)} y1={AXIS_Y} y2={AXIS_Y} className="tl-range" />
               )}
@@ -160,7 +172,7 @@ export default function Timeline({ items, year, selectedPerson, onPick, follow }
           const on = !!selectedPerson && (p.d.personIds.includes(selectedPerson) || p.d.id === selectedPerson);
           return (
             <button key={p.d.id} type="button" dir="rtl" data-id={p.d.id}
-              className={`press tl-card${known ? '' : ' is-hidden'}`} aria-pressed={on}
+              className={`press tl-card${known ? '' : ' is-hidden'}${kwc(p.d.id)}`} aria-pressed={on}
               style={{ left: p.left, top: AXIS_Y + 34 + p.lane * LANE_H, width: CARD_W, height: CARD_H }}
               onClick={() => onPick(lead?.id, p.d.id)}
               aria-label={`${people.map((x) => x.nameHe).join(' ו') || ANON}, ${yearText(p.d.yearFrom)}: ${p.d.title}`}>

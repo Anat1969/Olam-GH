@@ -341,7 +341,7 @@ const mock = async (p) => {
     const limits = await p.locator('.g-node').count();
     ok(limits > 0 && limits < 10 && (await p.locator('.g-node[data-person="p-turing"]').count()) === 1, `חיתוך "גבולות ההוכחה" (${limits} דמויות)`);
     ok(await p.locator('.cut[aria-pressed="true"]').count() === 1, 'החיתוך הפעיל מסומן');
-    await p.getByRole('button', { name: 'איפוס' }).click();
+    await p.getByRole('button', { name: 'איפוס', exact: true }).click();
     await p.waitForTimeout(150);
     ok((await p.locator('.g-node').count()) === PERS.length, 'איפוס מחזיר את כל הדמויות');
     await p.locator('.graph-controls select').selectOption('Paris');
@@ -361,7 +361,7 @@ const mock = async (p) => {
     ok((await p.locator('.save-status').innerText()) === 'נשמר' && (await p.locator('.saved-item', { hasText: 'בדיקה' }).count()) === 1, 'שמירת תצוגה עם חיווי נשמר');
     await p.reload({ waitUntil: 'networkidle' });
     ok((await p.locator('.saved-item', { hasText: 'בדיקה' }).count()) === 1, 'התצוגה השמורה נשארת אחרי רענון');
-    await p.getByRole('button', { name: 'איפוס' }).click();
+    await p.getByRole('button', { name: 'איפוס', exact: true }).click();
     await p.locator('.saved-item', { hasText: 'בדיקה' }).click();
     await p.waitForTimeout(200);
     ok(p.url().includes('i=1'), 'תצוגה שמורה משחזרת את המסננים');
@@ -371,27 +371,48 @@ const mock = async (p) => {
     await p.reload({ waitUntil: 'networkidle' });
     ok((await p.locator('.cut[aria-pressed="true"]').innerText()).includes('המהפכה המדעית') && (await p.locator('.g-node.is-focus').count()) === 1, 'קישור מועתק לגרף פותח את אותו מצב');
 
-    // חיפוש לפי מילת מפתח
-    await p.goto(BASE + '#/timeline', { waitUntil: 'networkidle' });
+    // חיפוש קבוע בסרגל: אותו מקום בכל דף, איקס גלוי, שורת תוצאות לפי תחום, והדגשה בדף הפתוח
+    const boxes = [];
+    for (const h of ['#/timeline', '#/map', '#/graph', '#/method']) {
+      await p.goto(BASE + h, { waitUntil: 'networkidle' });
+      const bx = await p.locator('header .kw-input').boundingBox();
+      boxes.push(bx && `${Math.round(bx.x)},${Math.round(bx.y)},${Math.round(bx.width)}`);
+    }
+    ok(boxes.every((x) => x && x === boxes[0]), `שדה החיפוש באותו מקום בכל הדפים (${boxes[0]})`);
+    ok(await p.locator('header .kw-clear').isVisible() && await p.locator('header .kw-clear').evaluate((e) => getComputedStyle(e).color !== 'rgba(0, 0, 0, 0)'), 'האיקס לאיפוס גלוי גם כשהשדה ריק');
+    await p.goto(BASE + '#/timeline?d=physics&y=2025', { waitUntil: 'networkidle' });
     await p.locator('body').press('/');
-    await p.locator('.search-big input').waitFor();
-    ok(p.url().includes('#/search'), 'מקש / פותח את החיפוש מכל מקום');
-    ok(await p.locator('.tabs a', { hasText: 'חיפוש' }).getAttribute('aria-current') === 'page', 'לשונית חיפוש בסרגל');
-    await p.locator('.search-big input').fill('קירי');
+    ok(await p.evaluate(() => document.activeElement?.classList.contains('kw-input')), 'מקש / מתמקד בשדה החיפוש');
+    await p.keyboard.type('טלפון');
+    await p.locator('.kw-strip').waitFor();
+    const TEL = DISC.filter((d) => /טלפון/.test(d.title));
+    ok((await p.locator('.kw-strip').innerText()).includes('פיזיקה') && TEL.length > 0, 'שורה מתחת לסרגל: מספר התוצאות לפי תחום');
+    ok(await p.locator('.tl-card.is-kw').count() === TEL.filter((d) => d.domainId === 'physics').length && await p.locator('.tl-card.is-kw-off').count() > 0, 'ציר הזמן: ההתאמות מודגשות, השאר מעומעם');
+    await p.locator('.kw-doms .chip-dom', { hasText: 'פיזיקה' }).click();
+    await p.locator('.kw-panel .kw-item').first().click();
+    await p.waitForTimeout(300);
+    ok(p.url().includes(`p=${TEL[0].personIds[0]}`), 'בחירה מהרשימה פותחת את הדמות');
+    await p.goto(BASE + '#/graph', { waitUntil: 'networkidle' });
+    ok(await p.locator('.g-node.is-kw').count() >= 1, 'המילה נשמרת במעבר דף: הגרף מדגיש');
+    await p.locator('header .kw-clear').click();
+    await p.waitForTimeout(300);
+    ok(await p.locator('.kw-strip').count() === 0 && await p.locator('.is-kw, .is-kw-off').count() === 0, 'האיקס מאפס את החיפוש ואת ההדגשה');
+    // דף כל התוצאות
+    await p.goto(BASE + '#/search?q=' + encodeURIComponent('קירי'), { waitUntil: 'networkidle' });
     await p.locator('.search-hit[data-kind="person"]').first().waitFor();
-    ok((await p.locator('.search-hit[data-kind="person"]').allInnerTexts()).some((t) => t.includes('קירי')), 'חיפוש בעברית מוצא דמות');
-    await p.waitForTimeout(350);
-    ok(p.url().includes('q='), 'השאילתה נשמרת בכתובת');
-    await p.locator('.search-big input').fill('Kyoto');
+    ok((await p.locator('.search-hit[data-kind="person"]').allInnerTexts()).some((t) => t.includes('קירי')) && (await p.locator('header .kw-input').inputValue()) === 'קירי', 'קישור לכל התוצאות ממלא את השדה בסרגל');
+    await p.locator('header .kw-input').fill('Kyoto');
     await p.locator('.search-hit[data-kind="city"]').first().waitFor();
     ok((await p.locator('.search-hit[data-kind="city"]').first().innerText()).includes('קיוטו'), 'חיפוש בלועזית מוצא עיר בעברית');
-    await p.locator('.search-big input').fill('אבחון');
+    await p.locator('header .kw-input').fill('אבחון');
     await p.locator('.search-hit[data-kind="sub"]').first().waitFor();
     await p.locator('.search-hit[data-kind="sub"]').first().click();
     await p.locator('.sub-col.is-target').waitFor();
-    ok(p.url().includes('sub=assessment') && (await p.locator('.sub-col.is-target').count()) === 1, 'תת-תחום מהחיפוש נפתח ומסומן מתחת לציר');
-    await p.goto(BASE + '#/search?q=' + encodeURIComponent('xqzw'), { waitUntil: 'networkidle' });
-    ok((await h1(p)).includes('אין תוצאות'), 'חיפוש בלי תוצאות אומר זאת במפורש');
+    ok(p.url().includes('sub=assessment'), 'תת-תחום מהחיפוש נפתח ומסומן מתחת לציר');
+    await p.locator('header .kw-input').fill('xqzw');
+    await p.waitForTimeout(300);
+    ok((await p.locator('.kw-strip').innerText()).includes('אין תוצאות'), 'חיפוש בלי תוצאות אומר זאת במפורש');
+    await p.locator('header .kw-clear').click();
     // יצירה בלי יוצר ידוע
     const ANON_D = DISC.find((d) => !d.personIds.length);
     ok(!!ANON_D, 'בנתונים יש יצירה בלי יוצר ידוע');

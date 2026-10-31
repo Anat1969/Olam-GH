@@ -7,7 +7,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import type { City, LonLat } from '../geo';
 
 export type RouteView = { id: string; path: LonLat[]; type: string; confidence: string; on: boolean };
-export type CityView = { city: City; known: number; recent: boolean; on: boolean; domain: string; badge?: string };
+export type CityView = { city: City; known: number; recent: boolean; on: boolean; domain: string; badge?: string; kw?: boolean };
 
 // OpenFreeMap: אריחים וקטוריים חינמיים על נתוני OpenStreetMap, בלי מפתח ובלי מגבלת שימוש, מתאים לתערוכה ולקהל רחב.
 const STYLE_URL = 'https://tiles.openfreemap.org/styles/positron';
@@ -28,7 +28,7 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
   const declutter = useRef(() => {});
   declutter.current = () => {
     const btns = [...markers.current.values()].map((mk) => mk.getElement().firstElementChild as HTMLButtonElement);
-    btns.sort((a, b) => Number(b.classList.contains('is-on')) - Number(a.classList.contains('is-on')) || parseFloat(b.style.getPropertyValue('--sq')) - parseFloat(a.style.getPropertyValue('--sq')));
+    btns.sort((a, b) => Number(b.classList.contains('is-on')) - Number(a.classList.contains('is-on')) || Number(b.classList.contains('is-kw')) - Number(a.classList.contains('is-kw')) || parseFloat(b.style.getPropertyValue('--sq')) - parseFloat(a.style.getPropertyValue('--sq')));
     const kept: DOMRect[] = [];
     for (const b of btns) {
       b.classList.remove('label-quiet');
@@ -142,7 +142,7 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
       }
       const btn = mk.getElement().firstElementChild as HTMLButtonElement;
       const size = 14 + Math.sqrt(c.known) * 8;
-      btn.className = `map-city dom-${c.domain}${c.known > 1 ? ' is-big' : ''}${c.recent ? ' is-recent' : ''}${c.on ? ' is-on' : ''}${c.badge ? ' has-badge' : ''} conf-${c.city.confidence}`;
+      btn.className = `map-city dom-${c.domain}${c.known > 1 ? ' is-big' : ''}${c.recent ? ' is-recent' : ''}${c.on ? ' is-on' : ''}${c.badge ? ' has-badge' : ''}${c.kw === true ? ' is-kw' : c.kw === false ? ' is-kw-off' : ''} conf-${c.city.confidence}`;
       btn.style.setProperty('--sq', `${size}px`);
       btn.setAttribute('aria-pressed', String(c.on));
       btn.setAttribute('aria-label', `${c.city.nameHe}, ${c.known} גילויים`);
