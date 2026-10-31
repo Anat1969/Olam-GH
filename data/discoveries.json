@@ -1,44 +1,1651 @@
 {
-  "_note": "פיילוט. confidence: documented / interpretive / hypothesis. מקומות לבדיקה מסומנים verified=false.",
+  "_note": "מקור אמת. evidence = ציטוט מילולי מהמקור. verified=true רק כשהציטוט נמצא במקור והשנה מופיעה בו. confidence: documented / interpretive / hypothesis.",
   "discoveries": [
     {
+      "id": "d-1011-alhazen-optics",
+      "title": "ספר האופטיקה: הראייה כאור שנכנס לעין",
+      "yearFrom": 1011,
+      "yearTo": 1021,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-alhazen"
+      ],
+      "place": {
+        "wikipedia": "Cairo",
+        "nameHe": "קהיר",
+        "nameFull": "Cairo",
+        "lat": 30.0444,
+        "lon": 31.2358,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-ibn-al-haytham",
+          "quote": "he spent most of his productive period in the Fatimid capital of Cairo"
+        },
+        "wikidata": "Q85",
+        "city": {
+          "nameHe": "קהיר",
+          "nameFull": "Cairo"
+        }
+      },
+      "contribution": "**אבן אל-היית'ם** כתב חיבור בן **7** כרכים על האור והראייה, והפך את **הניסוי** לכלי מרכזי במחקר.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ibn-al-haytham",
+          "quote": "Alhazen's most famous work is his seven-volume treatise on optics Kitab al-Manazir (Book of Optics), written from 1011 to 1021."
+        }
+      ],
+      "sources": [
+        "s-wp-ibn-al-haytham"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1543-copernicus-revolutionibus",
+      "title": "השמש במרכז: מודל הליוצנטרי",
+      "yearFrom": 1543,
+      "yearTo": 1543,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-copernicus"
+      ],
+      "place": {
+        "wikipedia": "Frombork",
+        "nameHe": "פרומבורק",
+        "nameFull": "Frombork",
+        "lat": 54.3583,
+        "lon": 19.6833,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-nicolaus-copernicus",
+          "quote": "At Frombork Copernicus conducted over half of his more than 60 registered astronomical observations."
+        },
+        "wikidata": "Q497115",
+        "city": {
+          "nameHe": "פרומבורק",
+          "nameFull": "Frombork"
+        }
+      },
+      "contribution": "**קופרניקוס** פרסם מודל שבו **השמש**, ולא כדור הארץ, במרכז, והצית את **המהפכה הקופרניקאית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nicolaus-copernicus",
+          "quote": "his book De revolutionibus orbium coelestium (On the Revolutions of the Celestial Spheres), just before his death in 1543"
+        }
+      ],
+      "sources": [
+        "s-wp-nicolaus-copernicus"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
       "id": "d-1609-kepler-orbits",
-      "title": "שני חוקי קפלר: מסלולים אליפטיים ושטחים שווים",
+      "title": "חוקי קפלר הראשון והשני: מסלול אליפטי",
       "yearFrom": 1609,
       "yearTo": 1609,
-      "place": { "nameHe": "היידלברג", "nameFull": "Heidelberg" },
-      "personIds": ["p-kepler"],
+      "yearApprox": false,
       "domainId": "physics",
-      "contribution": "תיאור תנועת כוכבי הלכת כמסלולים אליפטיים, ושטחים שווים נסרקים בזמנים שווים.",
+      "personIds": [
+        "p-kepler"
+      ],
+      "place": {
+        "wikipedia": "Prague",
+        "nameHe": "פראג",
+        "nameFull": "Prague",
+        "lat": 50.0875,
+        "lon": 14.4214,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-johannes-kepler",
+          "quote": "Later he became an assistant to the astronomer Tycho Brahe in Prague"
+        },
+        "wikidata": "Q1085",
+        "city": {
+          "nameHe": "פראג",
+          "nameFull": "Prague"
+        }
+      },
+      "contribution": "מניתוח התצפיות של **טיכו ברהה** הראה **קפלר** שמסלול **מאדים** הוא **אליפסה**.",
       "confidence": "documented",
-      "sources": ["s-wiki-kepler-laws"],
-      "verified": false
+      "evidence": [
+        {
+          "sourceId": "s-wp-kepler-s-laws-of-planetary-motion",
+          "quote": "In Astronomia nova (1609), Kepler articulated his first law, showing that Mars' orbit is elliptical, having found them by analyzing the astronomical observations of Tycho Brahe."
+        }
+      ],
+      "sources": [
+        "s-wp-kepler-s-laws-of-planetary-motion",
+        "s-wp-johannes-kepler"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1610-galileo-sidereus",
+      "title": "השליח מן הכוכבים: הטלסקופ מגלה ירחים",
+      "yearFrom": 1610,
+      "yearTo": 1610,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-galileo"
+      ],
+      "place": {
+        "wikipedia": "Padua",
+        "nameHe": "פדובה",
+        "nameFull": "Padua",
+        "lat": 45.4078,
+        "lon": 11.8733,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-galileo-galilei",
+          "quote": "In 1592, he moved to the University of Padua where he taught geometry, mechanics, and astronomy until 1610."
+        },
+        "wikidata": "Q617",
+        "city": {
+          "nameHe": "פדובה",
+          "nameFull": "Padua"
+        }
+      },
+      "contribution": "**גלילאו** פרסם תצפיות טלסקופ, ובהן **ירחי צדק**, שערערו את התמונה שכדור הארץ הוא מרכז כל תנועה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-sidereus-nuncius",
+          "quote": "is a short astronomical treatise (or pamphlet) published in Neo-Latin by Galileo Galilei on March 13, 1610."
+        }
+      ],
+      "sources": [
+        "s-wp-sidereus-nuncius",
+        "s-wp-galileo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "d-1619-kepler-third",
-      "title": "חוק קפלר השלישי: היחס בין זמן המחזור למרחק",
+      "title": "חוק קפלר השלישי: זמן המחזור והמרחק",
       "yearFrom": 1619,
       "yearTo": 1619,
-      "place": { "nameHe": "לינץ", "nameFull": "Linz" },
-      "personIds": ["p-kepler"],
+      "yearApprox": false,
       "domainId": "physics",
-      "contribution": "ריבוע זמן המחזור פרופורציונלי לקוביית הציר הגדול של המסלול.",
+      "personIds": [
+        "p-kepler"
+      ],
+      "place": {
+        "wikipedia": "Linz",
+        "nameHe": "לינץ",
+        "nameFull": "Linz",
+        "lat": 48.3058,
+        "lon": 14.2864,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-johannes-kepler",
+          "quote": "He also taught mathematics in Linz"
+        },
+        "wikidata": "Q41329",
+        "city": {
+          "nameHe": "לינץ",
+          "nameFull": "Linz"
+        }
+      },
+      "contribution": "ריבוע **זמן המחזור** של כוכב לכת פרופורציונלי לחזקה השלישית של **מרחקו הממוצע** מהשמש.",
       "confidence": "documented",
-      "sources": ["s-wiki-kepler-laws"],
-      "verified": false
+      "evidence": [
+        {
+          "sourceId": "s-wp-kepler-s-laws-of-planetary-motion",
+          "quote": "Kepler's third law was published in 1619 in his Harmonice Mundi."
+        }
+      ],
+      "sources": [
+        "s-wp-kepler-s-laws-of-planetary-motion",
+        "s-wp-johannes-kepler"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1638-galileo-two-sciences",
+      "title": "שני מדעים חדשים: חוק הגופים הנופלים",
+      "yearFrom": 1638,
+      "yearTo": 1638,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-galileo"
+      ],
+      "place": {
+        "wikipedia": "Arcetri",
+        "nameHe": "ארצ'טרי",
+        "nameFull": "Arcetri",
+        "lat": 43.7548,
+        "lon": 11.2518,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-galileo-galilei",
+          "quote": "Galileo was allowed to return to his villa at Arcetri near Florence in 1634"
+        },
+        "wikidata": "Q2031761",
+        "city": {
+          "nameHe": "פירנצה",
+          "nameFull": "Florence"
+        }
+      },
+      "contribution": "בספרו האחרון ניסח **גלילאו** את **חוק הנפילה החופשית** ואת יסודות **חוזק החומרים**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-two-new-sciences",
+          "quote": "The law of falling bodies was published by Galileo in 1638."
+        }
+      ],
+      "sources": [
+        "s-wp-two-new-sciences",
+        "s-wp-galileo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1656-huygens-pendulum",
+      "title": "שעון המטוטלת: הזמן נמדד במדויק",
+      "yearFrom": 1656,
+      "yearTo": 1656,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-huygens"
+      ],
+      "place": {
+        "wikipedia": "The Hague",
+        "nameHe": "האג",
+        "nameFull": "The Hague",
+        "lat": 52.08,
+        "lon": 4.31,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-christiaan-huygens",
+          "quote": "In 1654, Huygens returned to his father's house in The Hague and was able to devote himself entirely to research."
+        },
+        "wikidata": "Q36600",
+        "city": {
+          "nameHe": "האג",
+          "nameFull": "The Hague"
+        }
+      },
+      "contribution": "**הויגנס** המציא את **שעון המטוטלת**, השעון המדויק בעולם במשך כמעט **300** שנה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pendulum-clock",
+          "quote": "The pendulum clock was invented on 25 December 1656 by Dutch scientist and inventor Christiaan Huygens."
+        }
+      ],
+      "sources": [
+        "s-wp-pendulum-clock",
+        "s-wp-christiaan-huygens"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "d-1687-newton-principia",
-      "title": "Principia: חוק הכבידה האוניברסלית וחוקי התנועה",
+      "title": "פרינקיפיה: חוק אחד לשמים ולארץ",
       "yearFrom": 1687,
       "yearTo": 1687,
-      "place": { "nameHe": "לונדון", "nameFull": "London" },
-      "personIds": ["p-newton"],
+      "yearApprox": false,
       "domainId": "physics",
-      "contribution": "הסבר תנועת כוכבי הלכת וכדור הארץ באותם חוקים, בעזרת כוח כבידה שפועל ביחס הפוך לריבוע המרחק.",
+      "personIds": [
+        "p-newton"
+      ],
+      "place": {
+        "wikipedia": "University of Cambridge",
+        "nameHe": "אוניברסיטת קיימברידג'",
+        "nameFull": "University of Cambridge",
+        "lat": 52.2054,
+        "lon": 0.1132,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-isaac-newton",
+          "quote": "the second Lucasian Professor of Mathematics at the University of Cambridge"
+        },
+        "wikidata": "Q35794",
+        "city": {
+          "nameHe": "קיימברידג׳",
+          "nameFull": "Cambridge"
+        }
+      },
+      "contribution": "**ניוטון** איחד את **חוקי התנועה** ואת **כוח הכבידה**, והסביר באותם חוקים את תנועת כוכבי הלכת.",
       "confidence": "documented",
-      "sources": ["s-wiki-principia"],
-      "verified": false
+      "evidence": [
+        {
+          "sourceId": "s-wp-philosophi-naturalis-principia-mathematica",
+          "quote": "The Principia is written in Latin and comprises three volumes, and was authorized (imprimatur) by Samuel Pepys, then-president of the Royal Society on 5 July 1686 and first published in 1687."
+        },
+        {
+          "sourceId": "s-wp-newton-s-law-of-universal-gravitation",
+          "quote": "In 1687, Newton published his Principia which combined his laws of motion with new mathematical analysis to explain Kepler's empirical results."
+        }
+      ],
+      "sources": [
+        "s-wp-philosophi-naturalis-principia-mathematica",
+        "s-wp-newton-s-law-of-universal-gravitation",
+        "s-wp-isaac-newton"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1785-coulomb-law",
+      "title": "חוק קולון: הכוח בין מטענים חשמליים",
+      "yearFrom": 1785,
+      "yearTo": 1785,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-coulomb"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "wikidata": "Q90",
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        }
+      },
+      "contribution": "בעזרת **מאזני פיתול** מדד **קולון** את הכוח בין שני מטענים נקודתיים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-coulomb-s-law",
+          "quote": "in 1785, the French physicist Charles-Augustin de Coulomb published his application of a torsion balance to determine that the magnitude of the electric force between two point charges"
+        }
+      ],
+      "sources": [
+        "s-wp-coulomb-s-law"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1800-volta-pile",
+      "title": "הסוללה הוולטאית: זרם חשמלי רציף",
+      "yearFrom": 1800,
+      "yearTo": 1800,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-volta"
+      ],
+      "place": {
+        "wikipedia": "Pavia",
+        "nameHe": "פאביה",
+        "nameFull": "Pavia",
+        "lat": 45.1853,
+        "lon": 9.155,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-alessandro-volta",
+          "quote": "In 1779, he became a professor of experimental physics at the University of Pavia, a chair that he occupied for almost 40 years."
+        },
+        "wikidata": "Q6259",
+        "city": {
+          "nameHe": "פאביה",
+          "nameFull": "Pavia"
+        }
+      },
+      "contribution": "**וולטה** ערם זוגות של דסקיות **נחושת** ו**אבץ** והפיק לראשונה **זרם חשמלי** רציף.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-voltaic-pile",
+          "quote": "In 1800, Volta stacked several pairs of alternating copper (or silver) and zinc discs (electrodes) separated by cloth or cardboard soaked in brine, which increased the total electromotive force."
+        }
+      ],
+      "sources": [
+        "s-wp-voltaic-pile",
+        "s-wp-alessandro-volta"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1801-young-interference",
+      "title": "התאבכות: האור מתנהג כגל",
+      "yearFrom": 1801,
+      "yearTo": 1802,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-young"
+      ],
+      "place": {
+        "wikipedia": "Royal Institution",
+        "nameHe": "המכון המלכותי של בריטניה הגדולה",
+        "nameFull": "Royal Institution",
+        "lat": 51.5098,
+        "lon": -0.1425,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-thomas-young-scientist",
+          "quote": "In 1801, Young was appointed professor of natural philosophy (mainly physics) at the Royal Institution."
+        },
+        "wikidata": "Q2171086",
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        }
+      },
+      "contribution": "**יאנג** תיאר תופעות **התאבכות** של אור, ראיה מרכזית לכך שהאור הוא **גל**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-young-s-interference-experiment",
+          "quote": "The 1801 lecture, \"On the Theory of Light and Colours\" described various interference phenomena and was published in 1802."
+        }
+      ],
+      "sources": [
+        "s-wp-young-s-interference-experiment",
+        "s-wp-thomas-young-scientist"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1831-faraday-induction",
+      "title": "השראה אלקטרומגנטית: מגנט שמייצר זרם",
+      "yearFrom": 1831,
+      "yearTo": 1831,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-faraday"
+      ],
+      "place": null,
+      "contribution": "**פאראדיי** הראה ששדה מגנטי משתנה יוצר **זרם חשמלי**, הבסיס לכל **גנרטור** ו**שנאי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-electromagnetic-induction",
+          "quote": "Michael Faraday is generally credited with the discovery of induction in 1831"
+        }
+      ],
+      "sources": [
+        "s-wp-electromagnetic-induction"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1865-maxwell-field",
+      "title": "התאוריה הדינמית של השדה האלקטרומגנטי",
+      "yearFrom": 1865,
+      "yearTo": 1865,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-maxwell"
+      ],
+      "place": {
+        "wikipedia": "King's College London",
+        "nameHe": "קינגס קולג' לונדון",
+        "nameFull": "King's College London",
+        "lat": 51.5119,
+        "lon": -0.1161,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-james-clerk-maxwell",
+          "quote": "From 1860 to 1865, he served as the Professor of Natural Philosophy at King's College London, where he developed his theory of electromagnetic fields."
+        },
+        "wikidata": "Q245247",
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        }
+      },
+      "contribution": "**מקסוול** ניסח את החשמל, המגנטיות והאור כתופעה אחת של **שדה אלקטרומגנטי**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-a-dynamical-theory-of-the-electromagnetic-field",
+          "quote": "is a paper by James Clerk Maxwell on electromagnetism, published in 1865."
+        }
+      ],
+      "sources": [
+        "s-wp-a-dynamical-theory-of-the-electromagnetic-field",
+        "s-wp-james-clerk-maxwell"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1895-rontgen-xrays",
+      "title": "קרני רנטגן: קרינה שעוברת דרך הגוף",
+      "yearFrom": 1895,
+      "yearTo": 1895,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-rontgen"
+      ],
+      "place": {
+        "wikipedia": "University of Würzburg",
+        "nameHe": "אוניברסיטת וירצבורג",
+        "nameFull": "University of Würzburg",
+        "lat": 49.7881,
+        "lon": 9.9353,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-wilhelm-ro-ntgen",
+          "quote": "obtained the physics chair at the University of Würzburg"
+        },
+        "wikidata": "Q161976",
+        "city": {
+          "nameHe": "וירצבורג",
+          "nameFull": "Würzburg"
+        }
+      },
+      "contribution": "**רנטגן** גילה סוג לא מוכר של קרינה, וקרא לה **X**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-x-ray",
+          "quote": "X-rays were discovered in 1895 by the German scientist Wilhelm Conrad Röntgen, who named it X-radiation to signify an unknown type of radiation."
+        }
+      ],
+      "sources": [
+        "s-wp-x-ray",
+        "s-wp-wilhelm-ro-ntgen"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1896-becquerel-radioactivity",
+      "title": "רדיואקטיביות: חומר שקורן מעצמו",
+      "yearFrom": 1896,
+      "yearTo": 1896,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-becquerel"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "wikidata": "Q90",
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        }
+      },
+      "contribution": "**בקרל** גילה ש**חומרים** מסוימים פולטים קרינה בלי מקור אור חיצוני.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-radioactive-decay",
+          "quote": "Radioactivity was discovered in 1896 by Becquerel while working with phosphorescent materials."
+        }
+      ],
+      "sources": [
+        "s-wp-radioactive-decay"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1900-planck-quantum",
+      "title": "חוק פלאנק: האנרגיה מגיעה במנות",
+      "yearFrom": 1900,
+      "yearTo": 1900,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-planck"
+      ],
+      "place": {
+        "wikipedia": "Humboldt University of Berlin",
+        "nameHe": "אוניברסיטת הומבולדט של ברלין",
+        "nameFull": "Humboldt-Universität zu Berlin",
+        "lat": 52.5181,
+        "lon": 13.3933,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-max-planck",
+          "quote": "In 1889, Planck was named the successor to Kirchhoff's position at the Friedrich Wilhelm University of Berlin"
+        },
+        "wikidata": "Q152087",
+        "city": {
+          "nameHe": "ברלין",
+          "nameFull": "Berlin"
+        }
+      },
+      "contribution": "**פלאנק** הניח שאנרגיה משתנה רק ב**מנות** קטנות, וזו נקודת הפתיחה של **תורת הקוונטים**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-planck-s-law",
+          "quote": "In 1900, German physicist Max Planck heuristically derived a formula for the observed spectrum by assuming that a hypothetical electrically charged oscillator in a cavity that contained black-body radiation could only change its energy in a minimal increment"
+        }
+      ],
+      "sources": [
+        "s-wp-planck-s-law",
+        "s-wp-max-planck"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1905-einstein-special",
+      "title": "תורת היחסות הפרטית: הזמן תלוי בצופה",
+      "yearFrom": 1905,
+      "yearTo": 1905,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-einstein"
+      ],
+      "place": {
+        "wikipedia": "Bern",
+        "nameHe": "ברן",
+        "nameFull": "Bern",
+        "lat": 46.948,
+        "lon": 7.4474,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-albert-einstein",
+          "quote": "secured a permanent position at the Swiss Patent Office in Bern"
+        },
+        "wikidata": "Q70",
+        "city": {
+          "nameHe": "ברן",
+          "nameFull": "Bern"
+        }
+      },
+      "contribution": "**איינשטיין** בנה את התורה על **2** הנחות: אותם חוקים בכל מערכת אינרציאלית, ו**מהירות אור** קבועה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-special-relativity",
+          "quote": "The final important step was taken by Albert Einstein in a paper published on 26 September 1905 titled \"On the Electrodynamics of Moving Bodies\"."
+        }
+      ],
+      "sources": [
+        "s-wp-special-relativity",
+        "s-wp-albert-einstein"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1911-rutherford-nucleus",
+      "title": "גרעין האטום: מרכז זעיר וצפוף",
+      "yearFrom": 1911,
+      "yearTo": 1911,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-rutherford"
+      ],
+      "place": {
+        "wikipedia": "Victoria University of Manchester",
+        "nameHe": "אוניברסיטת ויקטוריה של מנצ'סטר",
+        "nameFull": "Victoria University of Manchester",
+        "lat": 53.4675,
+        "lon": -2.2325,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-ernest-rutherford",
+          "quote": "In 1907, he returned to Britain to take the Langworthy Professorship at the Victoria University of Manchester."
+        },
+        "wikidata": "Q867530",
+        "city": {
+          "nameHe": "מנצ׳סטר",
+          "nameFull": "Manchester"
+        }
+      },
+      "contribution": "מפיזור **חלקיקי אלפא** הסיק **רתרפורד** שלאטום יש **גרעין** קטן וכבד.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-geiger-marsden-experiments",
+          "quote": "The physical phenomenon was explained by Rutherford in a classic 1911 paper"
+        }
+      ],
+      "sources": [
+        "s-wp-geiger-marsden-experiments",
+        "s-wp-ernest-rutherford"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1913-bohr-atom",
+      "title": "מודל בוהר: אלקטרונים ברמות אנרגיה",
+      "yearFrom": 1913,
+      "yearTo": 1913,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-bohr"
+      ],
+      "place": {
+        "wikipedia": "Copenhagen",
+        "nameHe": "קופנהגן",
+        "nameFull": "Copenhagen",
+        "lat": 55.6761,
+        "lon": 12.5689,
+        "confidence": "interpretive",
+        "evidence": null,
+        "wikidata": "Q1748",
+        "city": {
+          "nameHe": "קופנהגן",
+          "nameFull": "Copenhagen"
+        }
+      },
+      "contribution": "**בוהר** הציע שהאטום לא קורן ברציפות, אלא בקפיצות בין **רמות אנרגיה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bohr-model",
+          "quote": "In 1913 Niels Bohr put forth five assumptions of postulates to provide an electron model consistent with Rutherford's nuclear model"
+        }
+      ],
+      "sources": [
+        "s-wp-bohr-model"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1915-einstein-general",
+      "title": "תורת היחסות הכללית: הכבידה כעקמומיות",
+      "yearFrom": 1915,
+      "yearTo": 1915,
+      "yearApprox": false,
+      "domainId": "physics",
+      "personIds": [
+        "p-einstein"
+      ],
+      "place": {
+        "wikipedia": "Berlin",
+        "nameHe": "ברלין",
+        "nameFull": "Berlin",
+        "lat": 52.5167,
+        "lon": 13.3833,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-albert-einstein",
+          "quote": "In 1914, he moved to Berlin to join the Prussian Academy of Sciences"
+        },
+        "wikidata": "Q64",
+        "city": {
+          "nameHe": "ברלין",
+          "nameFull": "Berlin"
+        }
+      },
+      "contribution": "**איינשטיין** הציג את **משוואות השדה** והסביר את סטיית מסלול **כוכב חמה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-general-relativity",
+          "quote": "his work culminated in the presentation to the Prussian Academy of Science in November 1915 of what are known as the Einstein field equations"
+        }
+      ],
+      "sources": [
+        "s-wp-general-relativity",
+        "s-wp-albert-einstein"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce300-euclid-elements",
+      "title": "היסודות: הגאומטריה כמערכת הוכחות",
+      "yearFrom": -300,
+      "yearTo": -300,
+      "yearApprox": true,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-euclid"
+      ],
+      "place": {
+        "wikipedia": "Alexandria",
+        "nameHe": "אלכסנדריה",
+        "nameFull": "Alexandria",
+        "lat": 31.1975,
+        "lon": 29.8925,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-euclid",
+          "quote": "It is now generally accepted that he spent his career in Alexandria and lived around 300 BC"
+        },
+        "wikidata": "Q87",
+        "city": {
+          "nameHe": "אלכסנדריה",
+          "nameFull": "Alexandria"
+        }
+      },
+      "contribution": "**אוקלידס** אסף ב-**13** ספרים הגדרות, אקסיומות והוכחות, הבסיס של **הגאומטריה האוקלידית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-euclid-s-elements",
+          "quote": "is a mathematical treatise written c. 300 BC by the Ancient Greek mathematician Euclid"
+        }
+      ],
+      "sources": [
+        "s-wp-euclid-s-elements",
+        "s-wp-euclid"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce250-archimedes-circle",
+      "title": "מדידת המעגל: גבולות למספר פאי",
+      "yearFrom": -250,
+      "yearTo": -250,
+      "yearApprox": true,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-archimedes"
+      ],
+      "place": {
+        "wikipedia": "Syracuse, Sicily",
+        "nameHe": "סירקוזה",
+        "nameFull": "Syracuse",
+        "lat": 37.0692,
+        "lon": 15.2875,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-archimedes",
+          "quote": "from the city of Syracuse in Sicily"
+        },
+        "wikidata": "Q13670",
+        "city": {
+          "nameHe": "סירקוזה",
+          "nameFull": "Syracuse"
+        }
+      },
+      "contribution": "**ארכימדס** חסם את **פאי** בין שני ערכים בעזרת מצולעים חסומים וחוסמים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-measurement-of-a-circle",
+          "quote": "is a treatise that consists of three propositions, probably made by Archimedes, ca. 250 BCE."
+        }
+      ],
+      "sources": [
+        "s-wp-measurement-of-a-circle",
+        "s-wp-archimedes"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-499-aryabhata",
+      "title": "אריאבהטיה: אסטרונומיה ומתמטיקה הודית",
+      "yearFrom": 499,
+      "yearTo": 499,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-aryabhata"
+      ],
+      "place": {
+        "wikipedia": "Pataliputra",
+        "nameHe": "פטאליפוטרה",
+        "nameFull": "Pataliputra",
+        "lat": 25.611,
+        "lon": 85.144,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-aryabhata",
+          "quote": "Aryabhata called himself a native of Kusumapura or Pataliputra (near present-day Patna, Bihar)."
+        },
+        "wikidata": "Q389755",
+        "city": {
+          "nameHe": "פטאליפוטרה",
+          "nameFull": "Pataliputra"
+        }
+      },
+      "contribution": "**אריאבהטה** חיבר ספר יסוד במתמטיקה ובאסטרונומיה של **הודו**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-aryabhatiya",
+          "quote": "a date of AD 499 has been calculated for the compilation of the Aryabhatiya."
+        }
+      ],
+      "sources": [
+        "s-wp-aryabhatiya",
+        "s-wp-aryabhata"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-628-brahmagupta-zero",
+      "title": "האפס כמספר: חוקי חשבון לאפס ולשליליים",
+      "yearFrom": 628,
+      "yearTo": 628,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-brahmagupta"
+      ],
+      "place": {
+        "wikipedia": "Bhinmal",
+        "nameHe": "בהינמאל",
+        "nameFull": "Bhinmal",
+        "lat": 25,
+        "lon": 72.25,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-brahmagupta",
+          "quote": "Born in Bhillamāla in Gurjaradesa (modern Bhinmal in Rajasthan, India)"
+        },
+        "wikidata": "Q797437",
+        "city": {
+          "nameHe": "בהינמאל",
+          "nameFull": "Bhinmal"
+        }
+      },
+      "contribution": "**ברהמגופטה** נתן לראשונה כללי חשבון ל**אפס** ול**מספרים שליליים**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-brahmagupta",
+          "quote": "In the year 628, at the age of 30, he composed the Brāhmasphuṭasiddhānta"
+        },
+        {
+          "sourceId": "s-wp-brahmagupta",
+          "quote": "Brahmagupta's Brahmasphuṭasiddhānta is the first book that provides rules for arithmetic manipulations that apply to zero and to negative numbers."
+        }
+      ],
+      "sources": [
+        "s-wp-brahmagupta"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-820-khwarizmi-algebra",
+      "title": "אל-ג'בר: נולדה האלגברה",
+      "yearFrom": 820,
+      "yearTo": 825,
+      "yearApprox": true,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-khwarizmi"
+      ],
+      "place": {
+        "wikipedia": "Baghdad",
+        "nameHe": "בגדאד",
+        "nameFull": "Baghdad",
+        "lat": 33.3153,
+        "lon": 44.3661,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-the-compendious-book-on-calculation-by-completion-and-balancing",
+          "quote": "written in Baghdad around 820"
+        },
+        "wikidata": "Q1530",
+        "city": {
+          "nameHe": "בגדאד",
+          "nameFull": "Baghdad"
+        }
+      },
+      "contribution": "**אל-חוארזמי** מיין משוואות ל-**6** צורות ונתן לכל אחת דרך פתרון שיטתית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-compendious-book-on-calculation-by-completion-and-balancing",
+          "quote": "is an Arabic-language mathematical treatise on algebra written in Baghdad around 820 by Al-Khwarizmi."
+        },
+        {
+          "sourceId": "s-wp-algebra",
+          "quote": "who published his The Compendious Book on Calculation by Completion and Balancing in 825 CE."
+        },
+        {
+          "sourceId": "s-wp-algebra",
+          "quote": "Al-Khwarizmi provided the first analytical theory for solving equations by classifying them into six standard forms"
+        }
+      ],
+      "sources": [
+        "s-wp-the-compendious-book-on-calculation-by-completion-and-balancing",
+        "s-wp-algebra"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1202-fibonacci-abaci",
+      "title": "ליבר אבאקי: הספרות ההודיות-ערביות באירופה",
+      "yearFrom": 1202,
+      "yearTo": 1202,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-fibonacci"
+      ],
+      "place": {
+        "wikipedia": "Pisa",
+        "nameHe": "פיזה",
+        "nameFull": "Pisa",
+        "lat": 43.7167,
+        "lon": 10.4,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-fibonacci",
+          "quote": "was an Italian mathematician from the Republic of Pisa"
+        },
+        "wikidata": "Q13375",
+        "city": {
+          "nameHe": "פיזה",
+          "nameFull": "Pisa"
+        }
+      },
+      "contribution": "**פיבונאצ'י** הביא לאירופה את **הספרות ההודיות-ערביות** ואת **ערך המקום**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-fibonacci",
+          "quote": "In 1202, he completed the Liber Abaci (Book of Abacus or The Book of Calculation), which popularized Hindu–Arabic numerals in Europe."
+        }
+      ],
+      "sources": [
+        "s-wp-fibonacci"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1614-napier-logarithms",
+      "title": "הלוגריתמים: כפל הופך לחיבור",
+      "yearFrom": 1614,
+      "yearTo": 1614,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-napier"
+      ],
+      "place": {
+        "wikipedia": "Edinburgh",
+        "nameHe": "אדינבורו",
+        "nameFull": "Edinburgh",
+        "lat": 55.9533,
+        "lon": -3.1892,
+        "confidence": "interpretive",
+        "evidence": null,
+        "wikidata": "Q23436",
+        "city": {
+          "nameHe": "אדינבורו",
+          "nameFull": "Edinburgh"
+        }
+      },
+      "contribution": "**נייפיר** פרסם את שיטת **הלוגריתמים**, שקיצרה חישובים אסטרונומיים במשך מאות שנים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-mirifici-logarithmorum-canonis-descriptio",
+          "quote": "are two books in Latin by John Napier expounding the method of logarithms."
+        },
+        {
+          "sourceId": "s-wp-mirifici-logarithmorum-canonis-descriptio",
+          "quote": "Mirifici Logarithmorum Canonis Descriptio (Description of the Wonderful Canon of Logarithms, 1614)"
+        }
+      ],
+      "sources": [
+        "s-wp-mirifici-logarithmorum-canonis-descriptio"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1637-descartes-geometrie",
+      "title": "הגאומטריה: צורות הופכות למשוואות",
+      "yearFrom": 1637,
+      "yearTo": 1637,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-descartes"
+      ],
+      "place": {
+        "wikipedia": "Dutch Republic",
+        "nameHe": "הרפובליקה ההולנדית",
+        "nameFull": "Dutch Republic",
+        "lat": 52.08,
+        "lon": 4.3,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-rene-descartes",
+          "quote": "Descartes returned to the Dutch Republic in 1628."
+        },
+        "wikidata": "Q170072",
+        "city": {
+          "nameHe": "הרפובליקה ההולנדית",
+          "nameFull": "Dutch Republic"
+        }
+      },
+      "contribution": "**דקארט** חיבר בין **אלגברה** ל**גאומטריה**, הבסיס ל**מערכת הצירים**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-la-ge-ome-trie",
+          "quote": "was published in 1637 as an appendix to Discours de la méthode (Discourse on the Method), written by René Descartes."
+        }
+      ],
+      "sources": [
+        "s-wp-la-ge-ome-trie",
+        "s-wp-rene-descartes"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1654-pascal-fermat-probability",
+      "title": "תורת ההסתברות נולדת בהתכתבות",
+      "yearFrom": 1654,
+      "yearTo": 1654,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-pascal",
+        "p-fermat"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "wikidata": "Q90",
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        }
+      },
+      "contribution": "**פסקל** ו**פרמה** פתרו במכתבים את **בעיית הנקודות**, וייסדו את **תורת ההסתברות**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pierre-de-fermat",
+          "quote": "Through their correspondence in 1654, Fermat and Blaise Pascal helped lay the foundation for the theory of probability."
+        }
+      ],
+      "sources": [
+        "s-wp-pierre-de-fermat"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1684-leibniz-calculus",
+      "title": "החשבון הדיפרנציאלי: מאמר ראשון בדפוס",
+      "yearFrom": 1684,
+      "yearTo": 1684,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-leibniz"
+      ],
+      "place": {
+        "wikipedia": "Hanover",
+        "nameHe": "הנובר",
+        "nameFull": "Hanover",
+        "lat": 52.3744,
+        "lon": 9.7386,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-gottfried-wilhelm-leibniz",
+          "quote": "Leibniz managed to delay his arrival in Hanover until the end of 1676"
+        },
+        "wikidata": "Q1715",
+        "city": {
+          "nameHe": "הנובר",
+          "nameFull": "Hanover"
+        }
+      },
+      "contribution": "**לייבניץ** פרסם את המאמר הראשון על **חשבון דיפרנציאלי**, עם הסימון שבו משתמשים עד היום.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-leibniz-newton-calculus-controversy",
+          "quote": "published his first paper on the subject, \"Nova Methodus pro Maximis et Minimis,\" in 1684."
+        }
+      ],
+      "sources": [
+        "s-wp-leibniz-newton-calculus-controversy",
+        "s-wp-gottfried-wilhelm-leibniz"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1736-euler-bridges",
+      "title": "שבעת הגשרים של קניגסברג: תורת הגרפים",
+      "yearFrom": 1736,
+      "yearTo": 1736,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-euler"
+      ],
+      "place": {
+        "wikipedia": "Saint Petersburg",
+        "nameHe": "סנקט פטרבורג",
+        "nameFull": "Saint Petersburg",
+        "lat": 59.95,
+        "lon": 30.3167,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-leonhard-euler",
+          "quote": "First Saint Petersburg period (1727–1741)"
+        },
+        "wikidata": "Q656",
+        "city": {
+          "nameHe": "סנקט פטרבורג",
+          "nameFull": "Saint Petersburg"
+        }
+      },
+      "contribution": "**אוילר** הוכיח שאי אפשר לחצות כל גשר פעם אחת, והניח את יסודות **תורת הגרפים**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-seven-bridges-of-ko-nigsberg",
+          "quote": "Its mathematical formalization and proof of impossibility by Leonhard Euler, in 1736, laid the foundations of graph theory and foreshadowed the idea of topology."
+        }
+      ],
+      "sources": [
+        "s-wp-seven-bridges-of-ko-nigsberg",
+        "s-wp-leonhard-euler"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1801-gauss-disquisitiones",
+      "title": "מחקרים אריתמטיים: תורת המספרים מקבלת שיטה",
+      "yearFrom": 1801,
+      "yearTo": 1801,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-gauss"
+      ],
+      "place": {
+        "wikipedia": "Braunschweig",
+        "nameHe": "בראונשווייג",
+        "nameFull": "Brunswick",
+        "lat": 52.2692,
+        "lon": 10.5211,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-carl-friedrich-gauss",
+          "quote": "The Duke then granted him the cost of living as a private scholar in Brunswick."
+        },
+        "wikidata": "Q2773",
+        "city": {
+          "nameHe": "בראונשווייג",
+          "nameFull": "Brunswick"
+        }
+      },
+      "contribution": "**גאוס** כתב בגיל **21** ספר שאיחד את תורת המספרים לתחום אחד.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-disquisitiones-arithmeticae",
+          "quote": "is a textbook on number theory written in Latin by Carl Friedrich Gauss in 1798, when Gauss was 21, and published in 1801, when he was 24."
+        }
+      ],
+      "sources": [
+        "s-wp-disquisitiones-arithmeticae",
+        "s-wp-carl-friedrich-gauss"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1829-lobachevsky-geometry",
+      "title": "גאומטריה לא אוקלידית: יותר ממקביל אחד",
+      "yearFrom": 1829,
+      "yearTo": 1830,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-lobachevsky"
+      ],
+      "place": {
+        "wikipedia": "Kazan",
+        "nameHe": "קאזאן",
+        "nameFull": "Kazan",
+        "lat": 55.7908,
+        "lon": 49.1144,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-nikolai-lobachevsky",
+          "quote": "'Kazan University Course Notes'"
+        },
+        "wikidata": "Q900",
+        "city": {
+          "nameHe": "קאזאן",
+          "nameFull": "Kazan"
+        }
+      },
+      "contribution": "**לובצ'בסקי** בנה גאומטריה שבה **אקסיומת המקבילים** של אוקלידס לא מתקיימת.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nikolai-lobachevsky",
+          "quote": "this research was printed in the periodical 'Kazan University Course Notes' as On the Origin of Geometry (О началах геометрии) between 1829 and 1830."
+        }
+      ],
+      "sources": [
+        "s-wp-nikolai-lobachevsky"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1830-galois-theory",
+      "title": "תורת גלואה: מתי משוואה פתירה",
+      "yearFrom": 1830,
+      "yearTo": 1832,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-galois"
+      ],
+      "place": null,
+      "contribution": "**גלואה** קבע מתי משוואה פתירה בעזרת **שורשים**, ומת בדו-קרב בגיל **20**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-galois-theory",
+          "quote": "In 1830 Galois (at the age of 18) submitted to the French Academy of Sciences a memoir on his theory of solvability by radicals"
+        },
+        {
+          "sourceId": "s-wp-galois-theory",
+          "quote": "Galois then died in a duel in 1832"
+        }
+      ],
+      "sources": [
+        "s-wp-galois-theory"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1859-riemann-hypothesis",
+      "title": "השערת רימן: סוד התפלגות הראשוניים",
+      "yearFrom": 1859,
+      "yearTo": 1859,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-riemann"
+      ],
+      "place": {
+        "wikipedia": "Göttingen",
+        "nameHe": "גטינגן",
+        "nameFull": "Göttingen",
+        "lat": 51.5339,
+        "lon": 9.9356,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-bernhard-riemann",
+          "quote": "returned to Göttingen in 1849"
+        },
+        "wikidata": "Q3033",
+        "city": {
+          "nameHe": "גטינגן",
+          "nameFull": "Göttingen"
+        }
+      },
+      "contribution": "**רימן** קשר את **פונקציית זטא** למספר **הראשוניים**, וההשערה שלו עדיין פתוחה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-riemann-hypothesis",
+          "quote": "which he published in his 1859 paper \"On the Number of Primes Le"
+        }
+      ],
+      "sources": [
+        "s-wp-riemann-hypothesis",
+        "s-wp-bernhard-riemann"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1874-cantor-uncountable",
+      "title": "יש אינסופים גדולים יותר",
+      "yearFrom": 1874,
+      "yearTo": 1874,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-cantor"
+      ],
+      "place": {
+        "wikipedia": "Halle (Saale)",
+        "nameHe": "האלה",
+        "nameFull": "Halle (Saale)",
+        "lat": 51.4828,
+        "lon": 11.9697,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-georg-cantor",
+          "quote": "took up a position at the University of Halle, where he spent his entire career."
+        },
+        "wikidata": "Q2814",
+        "city": {
+          "nameHe": "האלה",
+          "nameFull": "Halle"
+        }
+      },
+      "contribution": "**קנטור** הוכיח שאת **המספרים הממשיים** אי אפשר למנות, ולכן יש יותר מאינסוף אחד.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-cantor-s-first-set-theory-article",
+          "quote": "Cantor's article was published in 1874."
+        }
+      ],
+      "sources": [
+        "s-wp-cantor-s-first-set-theory-article",
+        "s-wp-georg-cantor"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1900-hilbert-problems",
+      "title": "23 הבעיות של הילברט: מפת דרכים למאה",
+      "yearFrom": 1900,
+      "yearTo": 1900,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-hilbert"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-hilbert-s-problems",
+          "quote": "A lecture delivered before the International Congress of Mathematicians at Paris in 1900"
+        },
+        "wikidata": "Q90",
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        }
+      },
+      "contribution": "**הילברט** הציג **23** בעיות פתוחות שכיוונו את המתמטיקה של המאה ה-**20**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hilbert-s-problems",
+          "quote": "Hilbert's problems are 23 problems in mathematics published by German mathematician David Hilbert in 1900."
+        }
+      ],
+      "sources": [
+        "s-wp-hilbert-s-problems"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1918-noether-theorem",
+      "title": "משפט נתר: לכל סימטריה חוק שימור",
+      "yearFrom": 1918,
+      "yearTo": 1918,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-noether"
+      ],
+      "place": {
+        "wikipedia": "University of Göttingen",
+        "nameHe": "אוניברסיטת גטינגן",
+        "nameFull": "University of Göttingen",
+        "lat": 51.534,
+        "lon": 9.9379,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-emmy-noether",
+          "quote": "In 1915, David Hilbert and Felix Klein invited her to join the mathematics department at the University of Göttingen"
+        },
+        "wikidata": "Q152838",
+        "city": {
+          "nameHe": "גטינגן",
+          "nameFull": "Göttingen"
+        }
+      },
+      "contribution": "**אמי נתר** הוכיחה שכל **סימטריה** של חוקי הטבע מולידה **חוק שימור**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-noether-s-theorem",
+          "quote": "This is the first of two theorems (see Noether's second theorem) published by the mathematician Emmy Noether in 1918."
+        }
+      ],
+      "sources": [
+        "s-wp-noether-s-theorem",
+        "s-wp-emmy-noether"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1931-godel-incompleteness",
+      "title": "משפטי אי-השלמות: אמת שאין לה הוכחה",
+      "yearFrom": 1931,
+      "yearTo": 1931,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-godel"
+      ],
+      "place": {
+        "wikipedia": "University of Vienna",
+        "nameHe": "אוניברסיטת וינה",
+        "nameFull": "University of Vienna",
+        "lat": 48.2131,
+        "lon": 16.3597,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-kurt-go-del",
+          "quote": "the proof of his completeness theorem in 1929 as part of his dissertation to earn a doctorate at the University of Vienna"
+        },
+        "wikidata": "Q165980",
+        "city": {
+          "nameHe": "וינה",
+          "nameFull": "Vienna"
+        }
+      },
+      "contribution": "**גדל** הראה שבכל מערכת עקבית של חשבון יש טענות **אמיתיות** ש**אי אפשר להוכיח**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-go-del-s-incompleteness-theorems",
+          "quote": "These results, published by Kurt Gödel in 1931, are important both in mathematical logic and in philosophy of mathematics."
+        }
+      ],
+      "sources": [
+        "s-wp-go-del-s-incompleteness-theorems",
+        "s-wp-kurt-go-del"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1936-turing-machine",
+      "title": "מכונת טיורינג: מה אפשר לחשב",
+      "yearFrom": 1936,
+      "yearTo": 1936,
+      "yearApprox": false,
+      "domainId": "mathematics",
+      "personIds": [
+        "p-turing"
+      ],
+      "place": {
+        "wikipedia": "King's College, Cambridge",
+        "nameHe": "קינגס קולג'",
+        "nameFull": "King's College",
+        "lat": 52.2042,
+        "lon": 0.1167,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-alan-turing",
+          "quote": "Turing graduated from King's College, Cambridge"
+        },
+        "wikidata": "Q924289",
+        "city": {
+          "nameHe": "קיימברידג׳",
+          "nameFull": "Cambridge"
+        }
+      },
+      "contribution": "**טיורינג** הגדיר מכונה מופשטת שמגדירה מהו **חישוב**, והראה שיש בעיות שאין להן אלגוריתם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-turing-machine",
+          "quote": "The Turing machine was invented in 1936 by Alan Turing"
+        }
+      ],
+      "sources": [
+        "s-wp-turing-machine",
+        "s-wp-alan-turing"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

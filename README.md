@@ -1,4 +1,6 @@
-**[אתר חי: בהמתנה לפריסה ל-Vercel](#)** · **[מאגר GitHub](https://github.com/Anat1969/olam-gh)**
+**[אתר חי: olam-gh.vercel.app](https://olam-gh.vercel.app)** · **[מאגר GitHub](https://github.com/Anat1969/Olam-GH)**
+
+המיזוג האחרון, בלי Vercel: https://raw.githack.com/Anat1969/Olam-GH/main/app/index.html
 
 # עולם נעלם ומציאות מצוייה
 
@@ -12,12 +14,27 @@
 - `data/persons.json`, `data/discoveries.json`, `data/links.json`: תוכן פיילוט (קפלר וניוטון)
 - `docs/CLAUDE-CODE-HANDOFF.md`: הפרומפט לפתיחת העבודה ב-Claude Code
 
-## הרצה מקומית (אחרי שלב הבנייה)
+## הרצה מקומית
 
 ```bash
 npm install
 npm run dev
 ```
+
+```bash
+npm run verify
+```
+
+```bash
+npm run build && npm test
+```
+
+## מבנה
+- `data/`: מקור האמת. `verification-report.json` נוצר ב-`npm run verify`.
+- `scripts/verify-data.mjs`: בודק ציטוט מילולי מול ויקיפדיה, וממלא דמויות, מקומות ותמונות (עם רישיון) מוויקינתונים ומוויקישיתוף.
+- `src/components/Timeline.tsx`: ציר זמן ב-D3, הזמן זורם מימין לשמאל, ציר דחוס לפני 1500.
+- `src/components/PersonCard.tsx`: כרטיס דמות עם ציטוטים, קשרים ומקורות.
+- `tests/e2e.cjs`: 53 בדיקות Playwright מול `vite preview`. `tests/shot.cjs`: צילומים ב-1280 וב-390.
 
 ## תיעוד
 

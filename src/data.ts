@@ -1,0 +1,112 @@
+// מקור אמת יחיד: data/*.json. הממשק מציג רק רשומות עם verified=true.
+import fieldsJson from '../data/fields.json';
+import personsJson from '../data/persons.json';
+import discoveriesJson from '../data/discoveries.json';
+import linksJson from '../data/links.json';
+import sourcesJson from '../data/sources.json';
+import reportJson from '../data/verification-report.json';
+
+export type Confidence = 'documented' | 'interpretive' | 'hypothesis';
+export type LinkType = 'influenced' | 'enabled' | 'opposed' | 'parallel';
+export interface Evidence { sourceId: string; quote: string }
+export interface Place {
+  wikipedia: string; wikidata?: string; nameHe: string | null; nameFull: string | null;
+  lat: number | null; lon: number | null; confidence: Confidence; evidence: Evidence | null;
+  city: { nameHe: string; nameFull: string };
+}
+export interface Person {
+  id: string; wikipedia: string; wikidata?: string; nameHe: string; nameFull: string;
+  birthYear: number | null; birthDate: string | null; birthApprox?: boolean;
+  deathYear: number | null; deathDate: string | null; deathApprox?: boolean;
+  calendar: 'julian' | 'gregorian' | null;
+  birthPlace: { wikidata: string; nameHe: string | null; nameFull: string | null; lat: number | null; lon: number | null } | null;
+  domains: string[]; imageUrl: string | null; imageLicense: string | null; imageCredit: string | null; imagePage?: string | null;
+  sources: string[]; verified: boolean; verifiedAt: string | null;
+}
+export interface Discovery {
+  id: string; title: string; yearFrom: number; yearTo: number; yearApprox: boolean; domainId: string;
+  personIds: string[]; place: Place | null; contribution: string; confidence: Confidence;
+  evidence: Evidence[]; sources: string[]; verified: boolean; verifiedAt: string | null;
+}
+export interface Link {
+  id: string; fromId: string; toId: string; type: LinkType; confidence: Confidence;
+  explanation: string; evidence: Evidence[]; sources: string[]; verified: boolean; rejectedReason?: string;
+}
+export interface Source { id: string; title: string; url: string; accessedAt: string | null }
+export interface Domain { id: string; nameHe: string; nameFull: string }
+export interface Family { id: string; nameHe: string; color: string; domains: Domain[] }
+
+export const families = fieldsJson.families as Family[];
+export const allPersons = personsJson.persons as unknown as Person[];
+export const allDiscoveries = discoveriesJson.discoveries as unknown as Discovery[];
+export const allLinks = linksJson.links as unknown as Link[];
+export const sources = sourcesJson.sources as Source[];
+export const report = reportJson as unknown as {
+  date: string; summary: { persons: string; discoveries: string; links: string; images: number };
+  places: { id: string; place: string; ok: boolean; confidence: Confidence }[];
+};
+
+export const persons = allPersons.filter((p) => p.verified);
+export const discoveries = allDiscoveries.filter((d) => d.verified).sort((a, b) => a.yearFrom - b.yearFrom);
+const shownIds = new Set([...persons.map((p) => p.id), ...discoveries.map((d) => d.id)]);
+export const links = allLinks.filter((l) => l.verified && shownIds.has(l.fromId) && shownIds.has(l.toId));
+export const rejected = {
+  persons: allPersons.filter((p) => !p.verified),
+  discoveries: allDiscoveries.filter((d) => !d.verified),
+  links: allLinks.filter((l) => !l.verified),
+};
+
+export const personById = new Map(persons.map((p) => [p.id, p]));
+export const discoveryById = new Map(discoveries.map((d) => [d.id, d]));
+export const sourceById = new Map(sources.map((s) => [s.id, s]));
+export const domainById = new Map(families.flatMap((f) => f.domains.map((d) => [d.id, { ...d, family: f }] as const)));
+
+/** התחומים שיש בהם תוכן מאומת, לפי סדר המשפחות */
+export const activeDomains = families.flatMap((f) => f.domains).filter((d) => discoveries.some((x) => x.domainId === d.id));
+
+export const discoveriesOf = (personId: string) => discoveries.filter((d) => d.personIds.includes(personId));
+
+/** קשרים שנוגעים בדמות: ישירות, או דרך אחד הגילויים שלה */
+export function linksOf(personId: string) {
+  const own = new Set([personId, ...discoveriesOf(personId).map((d) => d.id)]);
+  return links.filter((l) => own.has(l.fromId) || own.has(l.toId)).map((l) => ({ link: l, outgoing: own.has(l.fromId), other: own.has(l.fromId) ? l.toId : l.fromId }));
+}
+
+export function nodeLabel(id: string) {
+  const p = personById.get(id);
+  if (p) return { name: p.nameHe, personId: p.id, year: null as number | null };
+  const d = discoveryById.get(id)!;
+  return { name: d.title.split(':')[0], personId: d.personIds[0], year: d.yearFrom };
+}
+
+export const linkVerb: Record<LinkType, [string, string]> = {
+  influenced: ['השפיע על', 'הושפע מ'],
+  enabled: ['אפשר את', 'התאפשר בזכות'],
+  opposed: ['עורער על ידי', 'ערער על'], // from = הרעיון שעורער, to = מי שערער
+  parallel: ['במקביל ל', 'במקביל ל'],
+};
+export const confidenceName: Record<Confidence, string> = { documented: 'מתועד', interpretive: 'פרשנות מקובלת', hypothesis: 'הנחה' };
+
+/** שנה לתצוגה: מספר בלבד, ותווית לפני הספירה בנפרד (כדי שלא יתבלבל בכיוון) */
+export const yearText = (y: number) => (y < 0 ? `${-y} לפנה״ס` : String(y));
+export function rangeText(d: Pick<Discovery, 'yearFrom' | 'yearTo' | 'yearApprox'>) {
+  const base = d.yearTo !== d.yearFrom ? `${yearText(d.yearFrom)}–${yearText(d.yearTo)}` : yearText(d.yearFrom);
+  return d.yearApprox ? `בערך ${base}` : base;
+}
+export function lifeText(p: Person) {
+  const b = p.birthYear === null ? null : (p.birthApprox ? 'בערך ' : '') + yearText(p.birthYear);
+  const d = p.deathYear === null ? null : (p.deathApprox ? 'בערך ' : '') + yearText(p.deathYear);
+  return [b, d].filter(Boolean).join(' – ');
+}
+
+/** ערי הידע: כמה גילויים נוצרו בכל עיר */
+export function citiesRanking() {
+  const m = new Map<string, { nameHe: string; nameFull: string; count: number; ids: string[] }>();
+  for (const d of discoveries) {
+    if (!d.place) continue;
+    const c = d.place.city;
+    const e = m.get(c.nameFull) || { ...c, count: 0, ids: [] };
+    e.count++; e.ids.push(d.id); m.set(c.nameFull, e);
+  }
+  return [...m.values()].sort((a, b) => b.count - a.count || a.nameHe.localeCompare(b.nameHe, 'he'));
+}

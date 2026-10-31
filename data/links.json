@@ -1,25 +1,330 @@
 {
-  "_note": "פיילוט. type: influenced / enabled / opposed / parallel. הקשר בין קפלר לניוטון הוא פרשנות היסטורית מקובלת ולכן מסומן interpretive.",
+  "_note": "type: influenced / enabled / opposed / parallel. explanation: שורת תובנה ב-==מרקר== ומשפט הסבר. verified=true רק כשכל הציטוטים נמצאו במקור.",
   "links": [
     {
       "id": "l-1",
       "fromId": "d-1619-kepler-third",
       "toId": "d-1687-newton-principia",
       "type": "influenced",
-      "confidence": "interpretive",
-      "explanation": "ניוטון השתמש בחוק הזמנים של קפלר כנקודת מוצא לגזירת חוק הכבידה. זו פרשנות היסטורית מקובלת, לא עובדה ישירה, ויש לאמת מול מקור היסטורי ראשוני או משני.",
-      "sources": ["s-wiki-newton-principia"],
-      "verified": false
+      "confidence": "documented",
+      "explanation": "==ניוטון הסביר את חוקי קפלר מתוך חוק אחד.== **קפלר** תיאר **איך** כוכבי הלכת נעים, ו**ניוטון** הסביר **למה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-newton-s-law-of-universal-gravitation",
+          "quote": "In 1687, Newton published his Principia which combined his laws of motion with new mathematical analysis to explain Kepler's empirical results."
+        }
+      ],
+      "sources": [
+        "s-wp-newton-s-law-of-universal-gravitation"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     },
     {
       "id": "l-2",
       "fromId": "p-kepler",
       "toId": "p-newton",
       "type": "parallel",
+      "confidence": "hypothesis",
+      "explanation": "קשר \"מקביל\" פירושו פעילות באותו זמן. **קפלר** מת ב-**1630** ו**ניוטון** נולד ב-**1642**, ולכן הקשר לא מתאים לסוג.",
+      "evidence": [],
+      "sources": [],
+      "verified": false,
+      "verifiedAt": null,
+      "rejectedReason": "סוג הקשר \"parallel\" סותר את הנתונים: קפלר מת לפני שניוטון נולד. הקשר ההיסטורי ביניהם כבר מופיע ב-l-1."
+    },
+    {
+      "id": "l-3",
+      "fromId": "p-copernicus",
+      "toId": "p-kepler",
+      "type": "influenced",
       "confidence": "documented",
-      "explanation": "שני הדמויות פעלו באותה מאה, בתחום האסטרונומיה והפיזיקה, בלי שהיו בקשר ישיר.",
-      "sources": ["s-wiki-kepler", "s-wiki-newton"],
-      "verified": false
+      "explanation": "==המודל של קופרניקוס היה נקודת המוצא של קפלר.== **קפלר** למד את השיטה הקופרניקאית בטובינגן ואימץ אותה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-johannes-kepler",
+          "quote": "he learned both the Ptolemaic system and the Copernican system of planetary motion."
+        },
+        {
+          "sourceId": "s-wp-johannes-kepler",
+          "quote": "He became a Copernican at that time."
+        }
+      ],
+      "sources": [
+        "s-wp-johannes-kepler"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-4",
+      "fromId": "p-copernicus",
+      "toId": "p-galileo",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==גלילאו הפך את קופרניקוס לוויכוח ציבורי.== תמיכתו במודל **ההליוצנטרי** עוררה התנגדות בכנסייה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-galileo-galilei",
+          "quote": "Galileo's championing of Copernican heliocentrism was met with opposition from within the Catholic Church and from some astronomers."
+        }
+      ],
+      "sources": [
+        "s-wp-galileo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-5",
+      "fromId": "p-alhazen",
+      "toId": "p-kepler",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==600 שנה מקהיר לפראג.== תאוריית **הדמות ברשתית** של קפלר נבנתה ישירות על המסגרת של **אבן אל-היית'ם**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ibn-al-haytham",
+          "quote": "Kepler's later theory of the retinal image (which resolved the problem of the correspondence of points on an object and points in the eye) built directly on the conceptual framework of Alhazen."
+        }
+      ],
+      "sources": [
+        "s-wp-ibn-al-haytham"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-6",
+      "fromId": "p-galileo",
+      "toId": "d-1656-huygens-pendulum",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==המטוטלת של גלילאו הפכה לשעון של הויגנס.== הרעיון עבר מתצפית לכלי מדידה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-pendulum-clock",
+          "quote": "From its invention in 1656 by Christiaan Huygens, inspired by Galileo Galilei"
+        }
+      ],
+      "sources": [
+        "s-wp-pendulum-clock"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-7",
+      "fromId": "d-1831-faraday-induction",
+      "toId": "d-1865-maxwell-field",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==מקסוול נתן לניסויים של פאראדיי שפה מתמטית.== מה ש**פאראדיי** ראה במעבדה, **מקסוול** כתב כמשוואות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-faraday-s-law-of-induction",
+          "quote": "James Clerk Maxwell later gave Faraday's insights mathematical expression, incorporating them into his broader electromagnetic theory in the early 1860s."
+        }
+      ],
+      "sources": [
+        "s-wp-faraday-s-law-of-induction"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-8",
+      "fromId": "d-1865-maxwell-field",
+      "toId": "d-1905-einstein-special",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==מהירות האור הקבועה הגיעה ממקסוול.== היחסות הפרטית נשענת על התאוריה של **מקסוול**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-special-relativity",
+          "quote": "The constancy of the speed of light was motivated by Maxwell's theory of electromagnetism and the lack of evidence for the luminiferous ether."
+        }
+      ],
+      "sources": [
+        "s-wp-special-relativity"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-9",
+      "fromId": "d-1895-rontgen-xrays",
+      "toId": "d-1896-becquerel-radioactivity",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==גילוי אחד הוביל לחיפוש אחר הבא.== **בקרל** חיפש קשר בין זרחון לקרני **רנטגן**, ומצא רדיואקטיביות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-henri-becquerel",
+          "quote": "In early 1896, there was a wave of excitement following Wilhelm Röntgen's discovery of X-rays in late 1895."
+        }
+      ],
+      "sources": [
+        "s-wp-henri-becquerel"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-10",
+      "fromId": "d-1911-rutherford-nucleus",
+      "toId": "d-1913-bohr-atom",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==בוהר הוסיף קוונטים לאטום של רתרפורד.== **גרעין** במרכז, ו**רמות אנרגיה** סביבו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-bohr-model",
+          "quote": "building on Ernest Rutherford's discovery of the atom's nucleus"
+        }
+      ],
+      "sources": [
+        "s-wp-bohr-model"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-11",
+      "fromId": "p-newton",
+      "toId": "d-1684-leibniz-calculus",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==אותו חשבון, שתי דרכים נפרדות.== **ניוטון** ו**לייבניץ** פיתחו את החשבון האינפיניטסימלי באופן עצמאי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-leibniz-newton-calculus-controversy",
+          "quote": "Today, the consensus is that Leibniz and Newton independently invented and described calculus in Europe in the 17th century."
+        }
+      ],
+      "sources": [
+        "s-wp-leibniz-newton-calculus-controversy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-12",
+      "fromId": "d-bce300-euclid-elements",
+      "toId": "d-1829-lobachevsky-geometry",
+      "type": "opposed",
+      "confidence": "documented",
+      "explanation": "==2,000 שנה ניסו להוכיח את אקסיומת המקבילים.== **לובצ'בסקי** ויתר עליה, וקיבל גאומטריה חדשה ועקבית.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nikolai-lobachevsky",
+          "quote": "Before him, mathematicians were trying to deduce Euclid's fifth postulate from other axioms."
+        }
+      ],
+      "sources": [
+        "s-wp-nikolai-lobachevsky"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-13",
+      "fromId": "p-hilbert",
+      "toId": "d-1931-godel-incompleteness",
+      "type": "opposed",
+      "confidence": "documented",
+      "explanation": "==גדל הראה שהתוכנית של הילברט לא ניתנת להשגה.== מערכת שלמה ועקבית לכל המתמטיקה **אינה אפשרית**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hilbert-s-program",
+          "quote": "Gödel's incompleteness theorems, published in 1931, showed that Hilbert's program was unattainable for key areas of mathematics."
+        }
+      ],
+      "sources": [
+        "s-wp-hilbert-s-program"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-14",
+      "fromId": "p-hilbert",
+      "toId": "d-1936-turing-machine",
+      "type": "opposed",
+      "confidence": "documented",
+      "explanation": "==הילברט שאל, טיורינג ענה: אין אלגוריתם כללי.== **בעיית ההכרעה** מ-**1928** קיבלה תשובה שלילית ב-**1936**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-entscheidungsproblem",
+          "quote": "is a challenge posed by David Hilbert and Wilhelm Ackermann in 1928."
+        },
+        {
+          "sourceId": "s-wp-entscheidungsproblem",
+          "quote": "In 1936, Alonzo Church and Alan Turing published independent papers showing that a general solution to the Entscheidungsproblem is impossible"
+        }
+      ],
+      "sources": [
+        "s-wp-entscheidungsproblem"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-15",
+      "fromId": "d-1915-einstein-general",
+      "toId": "d-1918-noether-theorem",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==שאלה בפיזיקה הולידה משפט במתמטיקה.== **נתר** עבדה עם **הילברט** על היחסות הכללית, ומשם הגיעה למשפט.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-noether-s-theorem",
+          "quote": "Emmy Noether's work on the invariance theorem began in 1915 when she was helping Felix Klein and David Hilbert with their work related to Albert Einstein's theory of general relativity"
+        }
+      ],
+      "sources": [
+        "s-wp-noether-s-theorem"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-16",
+      "fromId": "p-euler",
+      "toId": "d-1801-gauss-disquisitiones",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==גאוס סידר מאה שנה של תורת המספרים.== הוא איחד תוצאות של **פרמה**, **אוילר**, **לגראנז'** ו**לז'נדר**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-disquisitiones-arithmeticae",
+          "quote": "In this book, Gauss brought together and reconciled results in number theory obtained by such eminent mathematicians as Fermat, Euler, Lagrange, and Legendre"
+        }
+      ],
+      "sources": [
+        "s-wp-disquisitiones-arithmeticae"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-17",
+      "fromId": "p-fermat",
+      "toId": "d-1801-gauss-disquisitiones",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==גאוס סידר מאה שנה של תורת המספרים.== הוא איחד תוצאות של **פרמה**, **אוילר**, **לגראנז'** ו**לז'נדר**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-disquisitiones-arithmeticae",
+          "quote": "In this book, Gauss brought together and reconciled results in number theory obtained by such eminent mathematicians as Fermat, Euler, Lagrange, and Legendre"
+        }
+      ],
+      "sources": [
+        "s-wp-disquisitiones-arithmeticae"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

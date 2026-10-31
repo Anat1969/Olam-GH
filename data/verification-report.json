@@ -1,0 +1,722 @@
+{
+  "date": "2026-10-31",
+  "persons": [
+    {
+      "id": "p-alhazen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-copernicus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-galileo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kepler",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-huygens",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-newton",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-coulomb",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-volta",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-young",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-faraday",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-maxwell",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rontgen",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-becquerel",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-planck",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-einstein",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rutherford",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-bohr",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-noether",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-euclid",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-archimedes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-aryabhata",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-brahmagupta",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-khwarizmi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fibonacci",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-napier",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-descartes",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-pascal",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-fermat",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-leibniz",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-euler",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-gauss",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lobachevsky",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-galois",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-riemann",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cantor",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hilbert",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-godel",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-turing",
+      "verified": true,
+      "reasons": []
+    }
+  ],
+  "discoveries": [
+    {
+      "id": "d-1011-alhazen-optics",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1543-copernicus-revolutionibus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1609-kepler-orbits",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1610-galileo-sidereus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1619-kepler-third",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1638-galileo-two-sciences",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1656-huygens-pendulum",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1687-newton-principia",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1785-coulomb-law",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1800-volta-pile",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1801-young-interference",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1831-faraday-induction",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1865-maxwell-field",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1895-rontgen-xrays",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1896-becquerel-radioactivity",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1900-planck-quantum",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1905-einstein-special",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1911-rutherford-nucleus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1913-bohr-atom",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1915-einstein-general",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce300-euclid-elements",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-bce250-archimedes-circle",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-499-aryabhata",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-628-brahmagupta-zero",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-820-khwarizmi-algebra",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1202-fibonacci-abaci",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1614-napier-logarithms",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1637-descartes-geometrie",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1654-pascal-fermat-probability",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1684-leibniz-calculus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1736-euler-bridges",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1801-gauss-disquisitiones",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1829-lobachevsky-geometry",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1830-galois-theory",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1859-riemann-hypothesis",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1874-cantor-uncountable",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1900-hilbert-problems",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1918-noether-theorem",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1931-godel-incompleteness",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1936-turing-machine",
+      "verified": true,
+      "reasons": []
+    }
+  ],
+  "links": [
+    {
+      "id": "l-1",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-2",
+      "verified": false,
+      "reasons": [
+        "סוג הקשר \"parallel\" סותר את הנתונים: קפלר מת לפני שניוטון נולד. הקשר ההיסטורי ביניהם כבר מופיע ב-l-1."
+      ]
+    },
+    {
+      "id": "l-3",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-4",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-5",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-6",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-7",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-8",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-9",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-10",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-11",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-12",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-13",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-14",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-15",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-16",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-17",
+      "verified": true,
+      "reasons": []
+    }
+  ],
+  "places": [
+    {
+      "id": "d-1011-alhazen-optics",
+      "place": "Cairo",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1543-copernicus-revolutionibus",
+      "place": "Frombork",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1609-kepler-orbits",
+      "place": "Prague",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1610-galileo-sidereus",
+      "place": "Padua",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1619-kepler-third",
+      "place": "Linz",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1638-galileo-two-sciences",
+      "place": "Arcetri",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1656-huygens-pendulum",
+      "place": "The Hague",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1687-newton-principia",
+      "place": "University of Cambridge",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1785-coulomb-law",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1800-volta-pile",
+      "place": "Pavia",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1801-young-interference",
+      "place": "Royal Institution",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1865-maxwell-field",
+      "place": "King's College London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1895-rontgen-xrays",
+      "place": "University of Würzburg",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1896-becquerel-radioactivity",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1900-planck-quantum",
+      "place": "Humboldt-Universität zu Berlin",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1905-einstein-special",
+      "place": "Bern",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1911-rutherford-nucleus",
+      "place": "Victoria University of Manchester",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1913-bohr-atom",
+      "place": "Copenhagen",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1915-einstein-general",
+      "place": "Berlin",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-bce300-euclid-elements",
+      "place": "Alexandria",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-bce250-archimedes-circle",
+      "place": "Syracuse",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-499-aryabhata",
+      "place": "Pataliputra",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-628-brahmagupta-zero",
+      "place": "Bhinmal",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-820-khwarizmi-algebra",
+      "place": "Baghdad",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1202-fibonacci-abaci",
+      "place": "Pisa",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1614-napier-logarithms",
+      "place": "Edinburgh",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1637-descartes-geometrie",
+      "place": "Dutch Republic",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1654-pascal-fermat-probability",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1684-leibniz-calculus",
+      "place": "Hanover",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1736-euler-bridges",
+      "place": "Saint Petersburg",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1801-gauss-disquisitiones",
+      "place": "Brunswick",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1829-lobachevsky-geometry",
+      "place": "Kazan",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1859-riemann-hypothesis",
+      "place": "Göttingen",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1874-cantor-uncountable",
+      "place": "Halle (Saale)",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1900-hilbert-problems",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1918-noether-theorem",
+      "place": "University of Göttingen",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1931-godel-incompleteness",
+      "place": "University of Vienna",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1936-turing-machine",
+      "place": "King's College",
+      "ok": true,
+      "confidence": "interpretive"
+    }
+  ],
+  "summary": {
+    "persons": "38/38",
+    "discoveries": "40/40",
+    "links": "16/17",
+    "images": 38
+  }
+}

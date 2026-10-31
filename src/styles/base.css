@@ -1,0 +1,106 @@
+/* בסיס השפה של ענת. מחליפים רק את בלוק הצבעים (שכבה ייחודית), כל השאר קבוע. */
+:root {
+  /* שכבה ייחודית: תעודת DNA של עולם נעלם. נייר דק על זכוכית, מפה שכבתית. */
+  --paper: #F4F2EC;      /* נייר-אוויר: רקע, כמו תצלום אוויר דהוי */
+  --sheet: #FFFFFF;      /* גיליון */
+  --glass: rgba(255, 255, 255, .72); /* זכוכית: שכבה שקופה מעל הנייר */
+  --ink: #17191C;        /* דיו */
+  --ink-soft: #55585E;
+  --ink-mute: #6E7076;
+  --rule: #DEDBD3;
+  --rule-soft: #ECE9E2;
+  --archive: #2F7A55;    /* ירוק-ארכיון: עובדה מתועדת */
+  --archive-wash: #E3F1EA;
+  --reading: #B85F16;    /* כתום-פרשנות: פרשנות היסטורית מקובלת */
+  --reading-wash: #FBEBDD;
+  --draft: #8A8984;      /* אפור-טיוטה: הנחה שטרם אומתה */
+  --draft-wash: #EFEEEB;
+  --sechel: #1F4E79;     /* כחול-שכל: משפחת התחומים שכל (fields.json) */
+  --physics: #1F4E79;    /* פיזיקה: הגוון העמוק של שכל */
+  --mathematics: #3A7CA5;/* מתמטיקה: הגוון הבהיר של שכל */
+  --cut: #A32D2D;        /* אדום: בעיה */
+  --cut-wash: #FCEBEB;
+  --bank: #2F7A55;       /* ירוק: פתרון (זהה לירוק-ארכיון) */
+  --bank-deep: #1D5239;
+  --bank-wash: #E3F1EA;
+  --marker: #FFE45C;     /* מרקר תובנה */
+  --shadow-1: 0 1px 0 rgba(23, 25, 28, .06), 0 2px 6px rgba(23, 25, 28, .07);
+  --shadow-2: 0 2px 0 rgba(23, 25, 28, .08), 0 10px 24px rgba(23, 25, 28, .12);
+  --shadow-glass: 0 1px 0 rgba(255, 255, 255, .9) inset, 0 12px 32px -12px rgba(23, 25, 28, .28);
+  --font: "IBM Plex Sans Hebrew", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", "IBM Plex Sans Hebrew", ui-monospace, "SFMono-Regular", monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font); }
+body { -webkit-font-smoothing: antialiased; }
+#root { min-height: 100vh; }
+h1, h2, h3 { font-weight: 500; letter-spacing: -0.01em; }
+
+/* קריאה ויזואלית */
+strong { font-weight: 600; }
+.num { font-family: var(--mono); font-weight: 600; unicode-bidi: isolate; direction: ltr; font-variant-numeric: tabular-nums; }
+mark.insight { background: linear-gradient(transparent 45%, var(--marker) 45%, var(--marker) 92%, transparent 92%); color: inherit; padding: 0 2px; }
+.label { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; color: var(--ink-mute); }
+
+/* כל מה שלוחצים עליו: מרובע, מוצל, מתרומם בריחוף ושוקע בלחיצה */
+.press {
+  font-family: inherit; cursor: pointer; border-radius: 0; border: 1px solid var(--rule);
+  background: var(--sheet); color: var(--ink-soft); box-shadow: var(--shadow-1);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease, color .15s ease;
+}
+.press:hover { transform: translateY(-2px); box-shadow: var(--shadow-2); color: var(--ink); }
+.press:active { transform: translateY(1px); box-shadow: none; }
+.press:focus-visible { outline: 2px solid var(--sechel); outline-offset: 2px; }
+.press[aria-pressed="true"], .press.is-on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.press:disabled { opacity: .45; cursor: not-allowed; transform: none; box-shadow: none; }
+.btn { padding: 10px 18px; font-size: 14px; font-weight: 500; }
+.chip { padding: 6px 14px; font-size: 13px; }
+.field { border-radius: 0; border: 1px solid var(--rule); padding: 10px 14px; font: inherit; font-size: 14px; background: var(--sheet); }
+.field:focus-visible { outline: 2px solid var(--bank); outline-offset: 0; }
+
+/* סרגל עליון */
+.topbar { position: sticky; top: 0; z-index: 20; background: rgba(255, 255, 255, .92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--rule); }
+.topbar-in { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 16px; color: var(--sechel); text-decoration: none; padding: 12px 0; white-space: nowrap; }
+.brand img { width: 26px; height: 26px; display: block; }
+.tabs { display: flex; overflow-x: auto; min-width: 0; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { flex: 0 0 auto; padding: 16px 14px; font: inherit; font-size: 14px; border: 0; border-bottom: 2px solid transparent; background: none; color: var(--ink-soft); cursor: pointer; transition: color .15s, border-color .15s, transform .15s; }
+.tab:hover { color: var(--ink); transform: translateY(-1px); }
+.tab:active { transform: translateY(1px); }
+.tab[aria-current="page"] { color: var(--sechel); border-bottom-color: var(--sechel); font-weight: 600; }
+
+/* מבנה דף */
+.page { max-width: 1200px; margin: 0 auto; padding: 24px 16px 64px; }
+.crumbs { font-size: 12px; color: var(--ink-mute); margin-bottom: 4px; }
+.crumbs a { color: inherit; text-decoration: none; }
+.crumbs a:hover { color: var(--bank); }
+.page-title { font-size: 28px; margin: 4px 0 6px; }
+.page-sub { font-size: 14px; color: var(--ink-soft); margin: 0 0 24px; }
+.section-title { font-size: 15px; font-weight: 600; color: var(--ink-soft); margin: 32px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+.card { background: var(--sheet); border: 1px solid var(--rule); box-shadow: var(--shadow-1); padding: 16px 18px; }
+.grid-kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+
+/* קופסאות משמעות: בעיה באדום, פתרון בירוק, תובנה במרקר */
+.tone { border-right: 4px solid; padding: 14px 16px; background: var(--sheet); box-shadow: var(--shadow-1); }
+.tone-problem { border-color: var(--cut); background: var(--cut-wash); }
+.tone-solution { border-color: var(--bank); background: var(--bank-wash); }
+.tone-insight { border-color: #E8C400; background: #FFF9D6; }
+.tone-neutral { border-color: var(--sechel); }
+.tone h4 { margin: 0 0 6px; font-size: 15px; font-weight: 600; }
+.tone p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--ink-soft); }
+
+/* כניסה מדורגת */
+.rise { animation: rise .6s cubic-bezier(.2, .7, .2, 1) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+@media (max-width: 560px) {
+  .page-title { font-size: 23px; }
+  .brand span { display: none; }
+}
+

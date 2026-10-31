@@ -1,10 +1,689 @@
 {
-  "_note": "מקורות לפיילוט. להחליף במקורות ראשוניים או אקדמיים לפני סימון verified=true. accessedAt ריק עד בדיקה.",
+  "_note": "accessedAt מתעדכן בכל הרצה מוצלחת של npm run verify.",
   "sources": [
-    { "id": "s-wiki-kepler", "title": "Johannes Kepler, Wikipedia", "url": "https://en.wikipedia.org/wiki/Johannes_Kepler", "accessedAt": null },
-    { "id": "s-wiki-newton", "title": "Isaac Newton, Wikipedia", "url": "https://en.wikipedia.org/wiki/Isaac_Newton", "accessedAt": null },
-    { "id": "s-wiki-kepler-laws", "title": "Kepler's laws of planetary motion, Wikipedia", "url": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion", "accessedAt": null },
-    { "id": "s-wiki-principia", "title": "Philosophiæ Naturalis Principia Mathematica, Wikipedia", "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica", "accessedAt": null },
-    { "id": "s-wiki-newton-principia", "title": "Isaac Newton, Principia and Kepler's third law (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Isaac_Newton", "accessedAt": null }
+    {
+      "id": "s-wd-q11104",
+      "title": "Ibn al-Haytham, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q11104",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q11359",
+      "title": "Aryabhata, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q11359",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q1290",
+      "title": "Blaise Pascal, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1290",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q129199",
+      "title": "Nikolai Ivanovich Lobachevsky, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q129199",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q159592",
+      "title": "John Napier, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q159592",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q202943",
+      "title": "Brahmagupta, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q202943",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q25820",
+      "title": "Thomas Young, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q25820",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q307",
+      "title": "Galileo Galilei, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q307",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q35149",
+      "title": "Wilhelm Röntgen, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q35149",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q39599",
+      "title": "Christiaan Huygens, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q39599",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q41269",
+      "title": "Antoine Henri Becquerel, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q41269",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q41390",
+      "title": "Kurt Gödel, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q41390",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q41585",
+      "title": "David Hilbert, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q41585",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q42299",
+      "title": "Bernhard Riemann, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q42299",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q619",
+      "title": "Nicolaus Copernicus, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q619",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q6722",
+      "title": "Carl Friedrich Gauss, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q6722",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q680",
+      "title": "Alessandro Volta, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q680",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7085",
+      "title": "Niels Bohr, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7085",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7091",
+      "title": "Évariste Galois, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7091",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7099",
+      "title": "Emmy Noether, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7099",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7251",
+      "title": "Alan Turing, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7251",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q75655",
+      "title": "Pierre de Fermat, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q75655",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q7604",
+      "title": "Leonhard Euler, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q7604",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q76420",
+      "title": "Georg Cantor, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q76420",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q81716",
+      "title": "Charles-Augustin de Coulomb, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q81716",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8739",
+      "title": "Archimedes, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8739",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8747",
+      "title": "Euclid, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8747",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8750",
+      "title": "Michael Faraday, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8750",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8763",
+      "title": "Fibonacci, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8763",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q8963",
+      "title": "Johannes Kepler, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q8963",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9021",
+      "title": "Max Planck, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9021",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9038",
+      "title": "Muḥammad ibn Musa al-Khwarizmi, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9038",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9047",
+      "title": "Gottfried Wilhelm Leibniz, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9047",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9095",
+      "title": "James Clerk Maxwell, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9095",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9123",
+      "title": "Ernest Rutherford, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9123",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q9191",
+      "title": "René Descartes, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9191",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q935",
+      "title": "Isaac Newton, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q935",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wd-q937",
+      "title": "Albert Einstein, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q937",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-a-dynamical-theory-of-the-electromagnetic-field",
+      "title": "A Dynamical Theory of the Electromagnetic Field, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-al-khwarizmi",
+      "title": "Al-Khwarizmi, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alan-turing",
+      "title": "Alan Turing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-albert-einstein",
+      "title": "Albert Einstein, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-alessandro-volta",
+      "title": "Alessandro Volta, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alessandro_Volta",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-algebra",
+      "title": "Algebra, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Algebra",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-archimedes",
+      "title": "Archimedes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Archimedes",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-aryabhata",
+      "title": "Aryabhata, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aryabhata",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-aryabhatiya",
+      "title": "Aryabhatiya, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aryabhatiya",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-bernhard-riemann",
+      "title": "Bernhard Riemann, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bernhard_Riemann",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-blaise-pascal",
+      "title": "Blaise Pascal, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Blaise_Pascal",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-bohr-model",
+      "title": "Bohr model, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bohr_model",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-brahmagupta",
+      "title": "Brahmagupta, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-cantor-s-first-set-theory-article",
+      "title": "Cantor's first set theory article, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cantor's_first_set_theory_article",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-carl-friedrich-gauss",
+      "title": "Carl Friedrich Gauss, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-charles-augustin-de-coulomb",
+      "title": "Charles-Augustin de Coulomb, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-christiaan-huygens",
+      "title": "Christiaan Huygens, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christiaan_Huygens",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-coulomb-s-law",
+      "title": "Coulomb's law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coulomb's_law",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-david-hilbert",
+      "title": "David Hilbert, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/David_Hilbert",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-disquisitiones-arithmeticae",
+      "title": "Disquisitiones Arithmeticae, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Disquisitiones_Arithmeticae",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-e-variste-galois",
+      "title": "Évariste Galois, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/%C3%89variste_Galois",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-electromagnetic-induction",
+      "title": "Electromagnetic induction, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Electromagnetic_induction",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-emmy-noether",
+      "title": "Emmy Noether, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Emmy_Noether",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-entscheidungsproblem",
+      "title": "Entscheidungsproblem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Entscheidungsproblem",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ernest-rutherford",
+      "title": "Ernest Rutherford, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-euclid",
+      "title": "Euclid, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Euclid",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-euclid-s-elements",
+      "title": "Euclid's Elements, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Euclid's_Elements",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-faraday-s-law-of-induction",
+      "title": "Faraday's law of induction, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Faraday's_law_of_induction",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-fibonacci",
+      "title": "Fibonacci, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fibonacci",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-galileo-galilei",
+      "title": "Galileo Galilei, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-galois-theory",
+      "title": "Galois theory, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galois_theory",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-geiger-marsden-experiments",
+      "title": "Geiger–Marsden experiments, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Geiger%E2%80%93Marsden_experiments",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-general-relativity",
+      "title": "General relativity, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_relativity",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-georg-cantor",
+      "title": "Georg Cantor, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Georg_Cantor",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-go-del-s-incompleteness-theorems",
+      "title": "Gödel's incompleteness theorems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-gottfried-wilhelm-leibniz",
+      "title": "Gottfried Wilhelm Leibniz, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-henri-becquerel",
+      "title": "Henri Becquerel, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Henri_Becquerel",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hilbert-s-problems",
+      "title": "Hilbert's problems, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hilbert's_problems",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-hilbert-s-program",
+      "title": "Hilbert's program, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hilbert's_program",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-ibn-al-haytham",
+      "title": "Ibn al-Haytham, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-isaac-newton",
+      "title": "Isaac Newton, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-james-clerk-maxwell",
+      "title": "James Clerk Maxwell, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-johannes-kepler",
+      "title": "Johannes Kepler, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-john-napier",
+      "title": "John Napier, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_Napier",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kepler-s-laws-of-planetary-motion",
+      "title": "Kepler's laws of planetary motion, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-kurt-go-del",
+      "title": "Kurt Gödel, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kurt_G%C3%B6del",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-la-ge-ome-trie",
+      "title": "La Géométrie, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-leibniz-newton-calculus-controversy",
+      "title": "Leibniz–Newton calculus controversy, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-leonhard-euler",
+      "title": "Leonhard Euler, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Leonhard_Euler",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-max-planck",
+      "title": "Max Planck, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Max_Planck",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-measurement-of-a-circle",
+      "title": "Measurement of a Circle, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Measurement_of_a_Circle",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-michael-faraday",
+      "title": "Michael Faraday, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_Faraday",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-mirifici-logarithmorum-canonis-descriptio",
+      "title": "Mirifici Logarithmorum Canonis Descriptio, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mirifici_Logarithmorum_Canonis_Descriptio",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-newton-s-law-of-universal-gravitation",
+      "title": "Newton's law of universal gravitation, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Newton's_law_of_universal_gravitation",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-nicolaus-copernicus",
+      "title": "Nicolaus Copernicus, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-niels-bohr",
+      "title": "Niels Bohr, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-nikolai-lobachevsky",
+      "title": "Nikolai Lobachevsky, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nikolai_Lobachevsky",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-noether-s-theorem",
+      "title": "Noether's theorem, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Noether's_theorem",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pendulum-clock",
+      "title": "Pendulum clock, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pendulum_clock",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-philosophi-naturalis-principia-mathematica",
+      "title": "Philosophiæ Naturalis Principia Mathematica, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-pierre-de-fermat",
+      "title": "Pierre de Fermat, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pierre_de_Fermat",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-planck-s-law",
+      "title": "Planck's law, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Planck's_law",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-radioactive-decay",
+      "title": "Radioactive decay, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Radioactive_decay",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-rene-descartes",
+      "title": "René Descartes, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-riemann-hypothesis",
+      "title": "Riemann hypothesis, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-seven-bridges-of-ko-nigsberg",
+      "title": "Seven Bridges of Königsberg, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-sidereus-nuncius",
+      "title": "Sidereus Nuncius, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sidereus_Nuncius",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-special-relativity",
+      "title": "Special relativity, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Special_relativity",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-the-compendious-book-on-calculation-by-completion-and-balancing",
+      "title": "The Compendious Book on Calculation by Completion and Balancing, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Compendious_Book_on_Calculation_by_Completion_and_Balancing",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-thomas-young-scientist",
+      "title": "Thomas Young (scientist), Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Young_(scientist)",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-turing-machine",
+      "title": "Turing machine, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Turing_machine",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-two-new-sciences",
+      "title": "Two New Sciences, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Two_New_Sciences",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-voltaic-pile",
+      "title": "Voltaic pile, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Voltaic_pile",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-wilhelm-ro-ntgen",
+      "title": "Wilhelm Röntgen, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-x-ray",
+      "title": "X-ray, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/X-ray",
+      "accessedAt": "2026-10-31"
+    },
+    {
+      "id": "s-wp-young-s-interference-experiment",
+      "title": "Young's interference experiment, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Young's_interference_experiment",
+      "accessedAt": "2026-10-31"
+    }
   ]
 }

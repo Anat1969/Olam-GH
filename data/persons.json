@@ -1,35 +1,1298 @@
 {
-  "_note": "פיילוט. כל רשומה verified=false עד לבדיקה מול המקורות. תאריכים ביוליאניים מסומנים calendar=julian.",
+  "_note": "מקור אמת. שדות הביוגרפיה, המקום והתמונה מתמלאים מוויקינתונים (Wikidata) ב-npm run verify. verified=true רק כשכל השדות אומתו מול המקור.",
   "persons": [
     {
+      "id": "p-alhazen",
+      "wikipedia": "Ibn al-Haytham",
+      "nameHe": "אבן אל-היית'ם",
+      "nameFull": "Ibn al-Haytham",
+      "birthYear": 965,
+      "birthDate": null,
+      "deathYear": 1039,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q48195",
+        "nameHe": "בצרה",
+        "nameFull": "Basra",
+        "lat": 30.515,
+        "lon": 47.81
+      },
+      "domains": [
+        "physics",
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ibn_Al-Haytham_portrait.jpg/500px-Ibn_Al-Haytham_portrait.jpg",
+      "imageLicense": "CC BY-SA 4.0",
+      "imageCredit": "Michel Bakni",
+      "sources": [
+        "s-wp-ibn-al-haytham",
+        "s-wd-q11104"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q11104",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ibn_Al-Haytham_portrait.jpg"
+    },
+    {
+      "id": "p-copernicus",
+      "wikipedia": "Nicolaus Copernicus",
+      "nameHe": "ניקולאוס קופרניקוס",
+      "nameFull": "Nicolaus Copernicus",
+      "birthYear": 1473,
+      "birthDate": "1473-02-19",
+      "deathYear": 1543,
+      "deathDate": "1543-05-24",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q47554",
+        "nameHe": "טורון",
+        "nameFull": "Toruń",
+        "lat": 53.0167,
+        "lon": 18.6167
+      },
+      "domains": [
+        "physics",
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/500px-Nikolaus_Kopernikus_MOT.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-nicolaus-copernicus",
+        "s-wd-q619"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q619",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg"
+    },
+    {
+      "id": "p-galileo",
+      "wikipedia": "Galileo Galilei",
+      "nameHe": "גלילאו גליליי",
+      "nameFull": "Galileo Galilei",
+      "birthYear": 1564,
+      "birthDate": "1564-02-15",
+      "deathYear": 1642,
+      "deathDate": "1642-01-08",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q13375",
+        "nameHe": "פיזה",
+        "nameFull": "Pisa",
+        "lat": 43.7167,
+        "lon": 10.4
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Galileo.arp.300pix.jpg/500px-Galileo.arp.300pix.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Justus Sustermans",
+      "sources": [
+        "s-wp-galileo-galilei",
+        "s-wd-q307"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q307",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg"
+    },
+    {
       "id": "p-kepler",
-      "nameHe": "יוהנס קפלר",
+      "wikipedia": "Johannes Kepler",
+      "nameHe": "יוהאנס קפלר",
       "nameFull": "Johannes Kepler",
       "birthYear": 1571,
       "birthDate": "1571-12-27",
       "deathYear": 1630,
+      "deathDate": "1630-11-15",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q505147",
+        "nameHe": "וייל",
+        "nameFull": "Weil der Stadt",
+        "lat": 48.7508,
+        "lon": 8.8706
+      },
+      "domains": [
+        "physics",
+        "mathematics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Johannes_Kepler_by_Hans_von_Aachen.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Hans von Aachen",
+      "sources": [
+        "s-wp-johannes-kepler",
+        "s-wd-q8963"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8963",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Johannes_Kepler_by_Hans_von_Aachen.jpg"
+    },
+    {
+      "id": "p-huygens",
+      "wikipedia": "Christiaan Huygens",
+      "nameHe": "כריסטיאן הויגנס",
+      "nameFull": "Christiaan Huygens",
+      "birthYear": 1629,
+      "birthDate": "1629-04-14",
+      "deathYear": 1695,
+      "deathDate": "1695-07-08",
       "calendar": "gregorian",
-      "birthPlace": { "nameHe": "וייל דר שטאט", "nameFull": "Weil der Stadt", "lat": 48.75, "lon": 8.73 },
-      "domains": ["physics", "mathematics"],
-      "imageUrl": null,
-      "imageLicense": null,
-      "sources": ["s-wiki-kepler"],
-      "verified": false
+      "birthPlace": {
+        "wikidata": "Q36600",
+        "nameHe": "האג",
+        "nameFull": "The Hague",
+        "lat": 52.08,
+        "lon": 4.31
+      },
+      "domains": [
+        "physics",
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Christiaan-huygens4.jpg/500px-Christiaan-huygens4.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Bernard Vaillant",
+      "sources": [
+        "s-wp-christiaan-huygens",
+        "s-wd-q39599"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q39599",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Christiaan-huygens4.jpg"
     },
     {
       "id": "p-newton",
+      "wikipedia": "Isaac Newton",
       "nameHe": "אייזק ניוטון",
       "nameFull": "Isaac Newton",
-      "birthYear": 1643,
-      "birthDate": "1642-12-25 (לוח יוליאני)",
+      "birthYear": 1642,
+      "birthDate": "1642-12-25",
       "deathYear": 1727,
+      "deathDate": "1727-03-20",
       "calendar": "julian",
-      "birthPlace": { "nameHe": "וולסתורפ", "nameFull": "Woolsthorpe-by-Colsterworth", "lat": 52.8, "lon": -0.6 },
-      "domains": ["physics", "mathematics"],
-      "imageUrl": null,
-      "imageLicense": null,
-      "sources": ["s-wiki-newton"],
-      "verified": false
+      "birthPlace": {
+        "wikidata": "Q3316008",
+        "nameHe": "וולסתורפ מאנור",
+        "nameFull": "Woolsthorpe Manor",
+        "lat": 52.8092,
+        "lon": -0.6306
+      },
+      "domains": [
+        "physics",
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/500px-GodfreyKneller-IsaacNewton-1689.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Godfrey Kneller",
+      "sources": [
+        "s-wp-isaac-newton",
+        "s-wd-q935"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q935",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg"
+    },
+    {
+      "id": "p-coulomb",
+      "wikipedia": "Charles-Augustin de Coulomb",
+      "nameHe": "שארל-אוגוסטן דה קולון",
+      "nameFull": "Charles-Augustin de Coulomb",
+      "birthYear": 1736,
+      "birthDate": "1736-06-14",
+      "deathYear": 1806,
+      "deathDate": "1806-08-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q134346",
+        "nameHe": "אנגולם",
+        "nameFull": "Angoulême",
+        "lat": 45.6494,
+        "lon": 0.1594
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Charles_de_Coulomb.png/500px-Charles_de_Coulomb.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Louis Hierle",
+      "sources": [
+        "s-wp-charles-augustin-de-coulomb",
+        "s-wd-q81716"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q81716",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Charles_de_Coulomb.png"
+    },
+    {
+      "id": "p-volta",
+      "wikipedia": "Alessandro Volta",
+      "nameHe": "אלסנדרו וולטה",
+      "nameFull": "Alessandro Volta",
+      "birthYear": 1745,
+      "birthDate": "1745-02-18",
+      "deathYear": 1827,
+      "deathDate": "1827-03-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1308",
+        "nameHe": "קומו",
+        "nameFull": "Como",
+        "lat": 45.8103,
+        "lon": 9.0861
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Alessandro_Volta.jpeg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-alessandro-volta",
+        "s-wd-q680"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q680",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alessandro_Volta.jpeg"
+    },
+    {
+      "id": "p-young",
+      "wikipedia": "Thomas Young (scientist)",
+      "nameHe": "תומאס יאנג",
+      "nameFull": "Thomas Young",
+      "birthYear": 1773,
+      "birthDate": "1773-06-13",
+      "deathYear": 1829,
+      "deathDate": "1829-05-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2079183",
+        "nameHe": "מילברטון",
+        "nameFull": "Milverton",
+        "lat": 51.0241,
+        "lon": -3.2588
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Thomas_Young_by_Briggs.jpg/500px-Thomas_Young_by_Briggs.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Henry Perronet Briggs",
+      "sources": [
+        "s-wp-thomas-young-scientist",
+        "s-wd-q25820"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q25820",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Thomas_Young_by_Briggs.jpg"
+    },
+    {
+      "id": "p-faraday",
+      "wikipedia": "Michael Faraday",
+      "nameHe": "מייקל פאראדיי",
+      "nameFull": "Michael Faraday",
+      "birthYear": 1791,
+      "birthDate": "1791-09-22",
+      "deathYear": 1867,
+      "deathDate": "1867-08-25",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q15030884",
+        "nameHe": null,
+        "nameFull": "Newington Butts",
+        "lat": 51.4928,
+        "lon": -0.1011
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/500px-M_Faraday_Th_Phillips_oil_1842.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Thomas Phillips",
+      "sources": [
+        "s-wp-michael-faraday",
+        "s-wd-q8750"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8750",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg"
+    },
+    {
+      "id": "p-maxwell",
+      "wikipedia": "James Clerk Maxwell",
+      "nameHe": "ג'יימס קלרק מקסוול",
+      "nameFull": "James Clerk Maxwell",
+      "birthYear": 1831,
+      "birthDate": "1831-06-13",
+      "deathYear": 1879,
+      "deathDate": "1879-11-05",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q23436",
+        "nameHe": "אדינבורו",
+        "nameFull": "Edinburgh",
+        "lat": 55.9533,
+        "lon": -3.1892
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/James-Clerk-Maxwell-1831-1879.jpg/500px-James-Clerk-Maxwell-1831-1879.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-james-clerk-maxwell",
+        "s-wd-q9095"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9095",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:James-Clerk-Maxwell-1831-1879.jpg"
+    },
+    {
+      "id": "p-rontgen",
+      "wikipedia": "Wilhelm Röntgen",
+      "nameHe": "וילהלם רנטגן",
+      "nameFull": "Wilhelm Röntgen",
+      "birthYear": 1845,
+      "birthDate": "1845-03-27",
+      "deathYear": 1923,
+      "deathDate": "1923-02-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q486577",
+        "nameHe": "לנפ",
+        "nameFull": "Lennep",
+        "lat": 51.1926,
+        "lon": 7.2571
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg/500px-Wilhelm_Conrad_R%C3%B6ntgen_%281888-1900%29%2C_88374_p.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Erwin Hanfstaengl",
+      "sources": [
+        "s-wp-wilhelm-ro-ntgen",
+        "s-wd-q35149"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q35149",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Wilhelm_Conrad_R%C3%B6ntgen_(1888-1900),_88374_p.jpg"
+    },
+    {
+      "id": "p-becquerel",
+      "wikipedia": "Henri Becquerel",
+      "nameHe": "אנרי בקרל",
+      "nameFull": "Antoine Henri Becquerel",
+      "birthYear": 1852,
+      "birthDate": "1852-12-15",
+      "deathYear": 1908,
+      "deathDate": "1908-08-25",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q90",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Paul_Nadar_-_Henri_Becquerel.jpg/500px-Paul_Nadar_-_Henri_Becquerel.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Paul Nadar / Adam Cuerden",
+      "sources": [
+        "s-wp-henri-becquerel",
+        "s-wd-q41269"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q41269",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Paul_Nadar_-_Henri_Becquerel.jpg"
+    },
+    {
+      "id": "p-planck",
+      "wikipedia": "Max Planck",
+      "nameHe": "מקס פלאנק",
+      "nameFull": "Max Planck",
+      "birthYear": 1858,
+      "birthDate": "1858-04-23",
+      "deathYear": 1947,
+      "deathDate": "1947-10-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1707",
+        "nameHe": "קיל",
+        "nameFull": "Kiel",
+        "lat": 54.3233,
+        "lon": 10.1394
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Max_Planck.png",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "Courtesy of the Clendening History of Medicine Library, University of Kansas Medical Center.",
+      "sources": [
+        "s-wp-max-planck",
+        "s-wd-q9021"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9021",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Max_Planck.png"
+    },
+    {
+      "id": "p-einstein",
+      "wikipedia": "Albert Einstein",
+      "nameHe": "אלברט איינשטיין",
+      "nameFull": "Albert Einstein",
+      "birthYear": 1879,
+      "birthDate": "1879-03-14",
+      "deathYear": 1955,
+      "deathDate": "1955-04-18",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q3012",
+        "nameHe": "אולם",
+        "nameFull": "Ulm",
+        "lat": 48.3986,
+        "lon": 9.9911
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/500px-Albert_Einstein_Head_cleaned.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Oren Jack Turner",
+      "sources": [
+        "s-wp-albert-einstein",
+        "s-wd-q937"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q937",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+    },
+    {
+      "id": "p-rutherford",
+      "wikipedia": "Ernest Rutherford",
+      "nameHe": "ארנסט רתרפורד",
+      "nameFull": "Ernest Rutherford",
+      "birthYear": 1871,
+      "birthDate": "1871-08-30",
+      "deathYear": 1937,
+      "deathDate": "1937-10-19",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q65430768",
+        "nameHe": "ספרינג גרוב",
+        "nameFull": "Spring Grove",
+        "lat": -41.388,
+        "lon": 173.079
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Ernest_Rutherford_LOC.jpg/500px-Ernest_Rutherford_LOC.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "George Grantham Bain Collection (Library of Congress)",
+      "sources": [
+        "s-wp-ernest-rutherford",
+        "s-wd-q9123"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9123",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg"
+    },
+    {
+      "id": "p-bohr",
+      "wikipedia": "Niels Bohr",
+      "nameHe": "נילס בוהר",
+      "nameFull": "Niels Bohr",
+      "birthYear": 1885,
+      "birthDate": "1885-10-07",
+      "deathYear": 1962,
+      "deathDate": "1962-11-18",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1748",
+        "nameHe": "קופנהגן",
+        "nameFull": "Copenhagen",
+        "lat": 55.6761,
+        "lon": 12.5689
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Niels_Bohr.jpg/500px-Niels_Bohr.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "The American Institute of Physics credits the photo [1] to AB Lagrelius &amp; Westphal, which is the Swedish company use",
+      "sources": [
+        "s-wp-niels-bohr",
+        "s-wd-q7085"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7085",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg"
+    },
+    {
+      "id": "p-noether",
+      "wikipedia": "Emmy Noether",
+      "nameHe": "אמי נתר",
+      "nameFull": "Emmy Noether",
+      "birthYear": 1882,
+      "birthDate": "1882-03-23",
+      "deathYear": 1935,
+      "deathDate": "1935-04-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q3126",
+        "nameHe": "ארלנגן",
+        "nameFull": "Erlangen",
+        "lat": 49.5925,
+        "lon": 11.005
+      },
+      "domains": [
+        "mathematics",
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/EmmyNoether_MFO3096.jpg/500px-EmmyNoether_MFO3096.jpg",
+      "imageLicense": "CC BY-SA 2.0 de",
+      "imageCredit": "Konrad Jacobs, Erlangen",
+      "sources": [
+        "s-wp-emmy-noether",
+        "s-wd-q7099"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7099",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:EmmyNoether_MFO3096.jpg"
+    },
+    {
+      "id": "p-euclid",
+      "wikipedia": "Euclid",
+      "nameHe": "אוקלידס",
+      "nameFull": "Euclid",
+      "birthYear": -333,
+      "birthDate": null,
+      "deathYear": -285,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": null,
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Euklid2.jpg/500px-Euklid2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Justus van Gent",
+      "sources": [
+        "s-wp-euclid",
+        "s-wd-q8747"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8747",
+      "birthApprox": true,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Euklid2.jpg"
+    },
+    {
+      "id": "p-archimedes",
+      "wikipedia": "Archimedes",
+      "nameHe": "ארכימדס",
+      "nameFull": "Archimedes",
+      "birthYear": -287,
+      "birthDate": null,
+      "deathYear": -212,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q4420718",
+        "nameHe": "סירקוסאי",
+        "nameFull": "Syracuse",
+        "lat": 37.0833,
+        "lon": 15.2833
+      },
+      "domains": [
+        "mathematics",
+        "physics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Retrato_de_un_erudito_%28%C2%BFArqu%C3%ADmedes%3F%29%2C_por_Domenico_Fetti.jpg/500px-Retrato_de_un_erudito_%28%C2%BFArqu%C3%ADmedes%3F%29%2C_por_Domenico_Fetti.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Domenico Fetti",
+      "sources": [
+        "s-wp-archimedes",
+        "s-wd-q8739"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8739",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Retrato_de_un_erudito_(%C2%BFArqu%C3%ADmedes%3F),_por_Domenico_Fetti.jpg"
+    },
+    {
+      "id": "p-aryabhata",
+      "wikipedia": "Aryabhata",
+      "nameHe": "אריאבהטה",
+      "nameFull": "Aryabhata",
+      "birthYear": 476,
+      "birthDate": null,
+      "deathYear": 550,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q389755",
+        "nameHe": "פטאליפוטרה",
+        "nameFull": "Pataliputra",
+        "lat": 25.611,
+        "lon": 85.144
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/2064_aryabhata-crp.jpg/500px-2064_aryabhata-crp.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-aryabhata",
+        "s-wd-q11359"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q11359",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:2064_aryabhata-crp.jpg"
+    },
+    {
+      "id": "p-brahmagupta",
+      "wikipedia": "Brahmagupta",
+      "nameHe": "בראהמגופטה",
+      "nameFull": "Brahmagupta",
+      "birthYear": 598,
+      "birthDate": null,
+      "deathYear": 670,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q797437",
+        "nameHe": null,
+        "nameFull": "Bhinmal",
+        "lat": 25,
+        "lon": 72.25
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Hindu_astronomer%2C_19th-century_illustration.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-brahmagupta",
+        "s-wd-q202943"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q202943",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Hindu_astronomer,_19th-century_illustration.jpg"
+    },
+    {
+      "id": "p-khwarizmi",
+      "wikipedia": "Al-Khwarizmi",
+      "nameHe": "מוחמד אבן מוסא אל-ח'ואריזמי",
+      "nameFull": "Muḥammad ibn Musa al-Khwarizmi",
+      "birthYear": 780,
+      "birthDate": null,
+      "deathYear": 850,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q182647",
+        "nameHe": "ח'ווארזם",
+        "nameFull": "Khwarazm",
+        "lat": 42.3,
+        "lon": 59.15
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Madrid_-_Ciudad_Universitaria%2C_Monumento_a_Muhammad_al-Juarismi_%28cropped%29.jpg/500px-Madrid_-_Ciudad_Universitaria%2C_Monumento_a_Muhammad_al-Juarismi_%28cropped%29.jpg",
+      "imageLicense": "CC0",
+      "imageCredit": "Zarateman",
+      "sources": [
+        "s-wp-al-khwarizmi",
+        "s-wd-q9038"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9038",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Madrid_-_Ciudad_Universitaria,_Monumento_a_Muhammad_al-Juarismi_(cropped).jpg"
+    },
+    {
+      "id": "p-fibonacci",
+      "wikipedia": "Fibonacci",
+      "nameHe": "פיבונאצ'י",
+      "nameFull": "Fibonacci",
+      "birthYear": 1170,
+      "birthDate": null,
+      "deathYear": 1240,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q13375",
+        "nameHe": "פיזה",
+        "nameFull": "Pisa",
+        "lat": 43.7167,
+        "lon": 10.4
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Fibonacci5.jpg/500px-Fibonacci5.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-fibonacci",
+        "s-wd-q8763"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8763",
+      "birthApprox": false,
+      "deathApprox": true,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Fibonacci5.jpg"
+    },
+    {
+      "id": "p-napier",
+      "wikipedia": "John Napier",
+      "nameHe": "ג'ון נפייר",
+      "nameFull": "John Napier",
+      "birthYear": 1550,
+      "birthDate": "1550-02-01",
+      "deathYear": 1617,
+      "deathDate": "1617-04-04",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1921452",
+        "nameHe": null,
+        "nameFull": "Merchiston Tower",
+        "lat": 55.9333,
+        "lon": -3.2139
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/John_Napier.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-john-napier",
+        "s-wd-q159592"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q159592",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:John_Napier.jpg"
+    },
+    {
+      "id": "p-descartes",
+      "wikipedia": "René Descartes",
+      "nameHe": "רנה דקארט",
+      "nameFull": "René Descartes",
+      "birthYear": 1596,
+      "birthDate": "1596-03-31",
+      "deathYear": 1650,
+      "deathDate": "1650-02-11",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q320299",
+        "nameHe": "דקארט",
+        "nameFull": "Descartes",
+        "lat": 46.9736,
+        "lon": 0.6978
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/500px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "After Frans Hals",
+      "sources": [
+        "s-wp-rene-descartes",
+        "s-wd-q9191"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9191",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+    },
+    {
+      "id": "p-pascal",
+      "wikipedia": "Blaise Pascal",
+      "nameHe": "בלז פסקל",
+      "nameFull": "Blaise Pascal",
+      "birthYear": 1623,
+      "birthDate": "1623-06-19",
+      "deathYear": 1662,
+      "deathDate": "1662-08-19",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q111362759",
+        "nameHe": null,
+        "nameFull": "birth house of Blaise Pascal",
+        "lat": 45.7784,
+        "lon": 3.0853
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Blaise_Pascal_Versailles.JPG/500px-Blaise_Pascal_Versailles.JPG",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-blaise-pascal",
+        "s-wd-q1290"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1290",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles.JPG"
+    },
+    {
+      "id": "p-fermat",
+      "wikipedia": "Pierre de Fermat",
+      "nameHe": "פייר דה פרמה",
+      "nameFull": "Pierre de Fermat",
+      "birthYear": 1607,
+      "birthDate": null,
+      "deathYear": 1665,
+      "deathDate": "1665-01-12",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q660118",
+        "nameHe": "בומון-דה-לומאן",
+        "nameFull": "Beaumont-de-Lomagne",
+        "lat": 43.8831,
+        "lon": 0.9883
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Pierre_de_Fermat3.jpg/500px-Pierre_de_Fermat3.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Rolland Lefebvre",
+      "sources": [
+        "s-wp-pierre-de-fermat",
+        "s-wd-q75655"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q75655",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat3.jpg"
+    },
+    {
+      "id": "p-leibniz",
+      "wikipedia": "Gottfried Wilhelm Leibniz",
+      "nameHe": "גוטפריד וילהלם לייבניץ",
+      "nameFull": "Gottfried Wilhelm Leibniz",
+      "birthYear": 1646,
+      "birthDate": "1646-06-21",
+      "deathYear": 1716,
+      "deathDate": "1716-11-14",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q2079",
+        "nameHe": "לייפציג",
+        "nameFull": "Leipzig",
+        "lat": 51.3406,
+        "lon": 12.3747
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/500px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Christoph Bernhard Francke",
+      "sources": [
+        "s-wp-gottfried-wilhelm-leibniz",
+        "s-wd-q9047"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9047",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
+    },
+    {
+      "id": "p-euler",
+      "wikipedia": "Leonhard Euler",
+      "nameHe": "לאונרד אוילר",
+      "nameFull": "Leonhard Euler",
+      "birthYear": 1707,
+      "birthDate": "1707-04-15",
+      "deathYear": 1783,
+      "deathDate": "1783-09-18",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q78",
+        "nameHe": "בזל",
+        "nameFull": "Basel",
+        "lat": 47.5581,
+        "lon": 7.5878
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/500px-Leonhard_Euler.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Jakob Emanuel Handmann",
+      "sources": [
+        "s-wp-leonhard-euler",
+        "s-wd-q7604"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7604",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg"
+    },
+    {
+      "id": "p-gauss",
+      "wikipedia": "Carl Friedrich Gauss",
+      "nameHe": "קרל פרידריך גאוס",
+      "nameFull": "Carl Friedrich Gauss",
+      "birthYear": 1777,
+      "birthDate": "1777-04-30",
+      "deathYear": 1855,
+      "deathDate": "1855-02-23",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2773",
+        "nameHe": "בראונשווייג",
+        "nameFull": "Brunswick",
+        "lat": 52.2692,
+        "lon": 10.5211
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Carl_Friedrich_Gauss.jpg/500px-Carl_Friedrich_Gauss.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Gottlieb Biermann / After Christian Albrecht Jensen",
+      "sources": [
+        "s-wp-carl-friedrich-gauss",
+        "s-wd-q6722"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q6722",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg"
+    },
+    {
+      "id": "p-lobachevsky",
+      "wikipedia": "Nikolai Lobachevsky",
+      "nameHe": "ניקולאי לובצ'בסקי",
+      "nameFull": "Nikolai Ivanovich Lobachevsky",
+      "birthYear": 1792,
+      "birthDate": "1792-11-20",
+      "deathYear": 1856,
+      "deathDate": "1856-02-12",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q891",
+        "nameHe": "ניז'ני נובגורוד",
+        "nameFull": "Nizhny Novgorod",
+        "lat": 56.3269,
+        "lon": 44.0075
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobachevsky.jpg/500px-Lobachevsky.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Lev Kryukov",
+      "sources": [
+        "s-wp-nikolai-lobachevsky",
+        "s-wd-q129199"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q129199",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Lobachevsky.jpg"
+    },
+    {
+      "id": "p-galois",
+      "wikipedia": "Évariste Galois",
+      "nameHe": "אווריסט גלואה",
+      "nameFull": "Évariste Galois",
+      "birthYear": 1811,
+      "birthDate": "1811-10-25",
+      "deathYear": 1832,
+      "deathDate": "1832-05-31",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q249852",
+        "nameHe": "בור-לה-רן",
+        "nameFull": "Bourg-la-Reine",
+        "lat": 48.7781,
+        "lon": 2.3158
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/E._Galois_Portrait_No.2.jpg/500px-E._Galois_Portrait_No.2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Alfred Galois",
+      "sources": [
+        "s-wp-e-variste-galois",
+        "s-wd-q7091"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7091",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:E._Galois_Portrait_No.2.jpg"
+    },
+    {
+      "id": "p-riemann",
+      "wikipedia": "Bernhard Riemann",
+      "nameHe": "ברנהרד רימן",
+      "nameFull": "Bernhard Riemann",
+      "birthYear": 1826,
+      "birthDate": "1826-09-17",
+      "deathYear": 1866,
+      "deathDate": "1866-07-20",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q15052213",
+        "nameHe": null,
+        "nameFull": "Breselenz",
+        "lat": 53.0393,
+        "lon": 11.0605
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg/500px-Georg_Friedrich_Bernhard_Riemann.jpeg",
+      "imageLicense": "Public domain",
+      "imageCredit": null,
+      "sources": [
+        "s-wp-bernhard-riemann",
+        "s-wd-q42299"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q42299",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg"
+    },
+    {
+      "id": "p-cantor",
+      "wikipedia": "Georg Cantor",
+      "nameHe": "גאורג קנטור",
+      "nameFull": "Georg Cantor",
+      "birthYear": 1845,
+      "birthDate": "1845-03-03",
+      "deathYear": 1918,
+      "deathDate": "1918-01-06",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q656",
+        "nameHe": "סנקט פטרבורג",
+        "nameFull": "Saint Petersburg",
+        "lat": 59.95,
+        "lon": 30.3167
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Georg_Cantor2.jpg/500px-Georg_Cantor2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-georg-cantor",
+        "s-wd-q76420"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q76420",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Georg_Cantor2.jpg"
+    },
+    {
+      "id": "p-hilbert",
+      "wikipedia": "David Hilbert",
+      "nameHe": "דויד הילברט",
+      "nameFull": "David Hilbert",
+      "birthYear": 1862,
+      "birthDate": "1862-01-23",
+      "deathYear": 1943,
+      "deathDate": "1943-02-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1829",
+        "nameHe": "קלינינגרד",
+        "nameFull": "Kaliningrad",
+        "lat": 54.7167,
+        "lon": 20.5
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Hilbert.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-david-hilbert",
+        "s-wd-q41585"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q41585",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Hilbert.jpg"
+    },
+    {
+      "id": "p-godel",
+      "wikipedia": "Kurt Gödel",
+      "nameHe": "קורט גדל",
+      "nameFull": "Kurt Gödel",
+      "birthYear": 1906,
+      "birthDate": "1906-04-28",
+      "deathYear": 1978,
+      "deathDate": "1978-01-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q14960",
+        "nameHe": "ברנו",
+        "nameFull": "Brno",
+        "lat": 49.1953,
+        "lon": 16.6083
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg/500px-Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unknown author",
+      "sources": [
+        "s-wp-kurt-go-del",
+        "s-wd-q41390"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q41390",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg"
+    },
+    {
+      "id": "p-turing",
+      "wikipedia": "Alan Turing",
+      "nameHe": "אלן טיורינג",
+      "nameFull": "Alan Turing",
+      "birthYear": 1912,
+      "birthDate": "1912-06-23",
+      "deathYear": 1954,
+      "deathDate": "1954-06-07",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q122744",
+        "nameHe": "מיידה וייל",
+        "nameFull": "Maida Vale",
+        "lat": 51.5274,
+        "lon": -0.1899
+      },
+      "domains": [
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Alan_Turing_%281951%29_%28crop%29.jpg/500px-Alan_Turing_%281951%29_%28crop%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Elliott &amp; Fry",
+      "sources": [
+        "s-wp-alan-turing",
+        "s-wd-q7251"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7251",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951)_(crop).jpg"
     }
   ]
 }
