@@ -7942,6 +7942,825 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-bce269-ashoka-edicts",
+      "title": "צווי אשוקה",
+      "yearFrom": -269,
+      "yearTo": -233,
+      "yearApprox": true,
+      "domainId": "religion",
+      "personIds": [
+        "p-ashoka"
+      ],
+      "place": null,
+      "novelty": "**אשוקה** חרט על עמודים וסלעים **צווים מוסריים** לכל תושבי האימפריה.",
+      "contribution": "הכתובות הן **העדות המוחשית הראשונה** לבודהיזם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-edicts-of-ashoka",
+          "quote": "The Minor Rock Edicts of Ashoka (r.269-233 BCE) are rock inscriptions which form the earliest part of the Edicts of Ashoka."
+        },
+        {
+          "sourceId": "s-wp-edicts-of-ashoka",
+          "quote": "provide the first tangible evidence of Buddhism."
+        }
+      ],
+      "sources": [
+        "s-wp-edicts-of-ashoka"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-500-babylonian-talmud",
+      "title": "התלמוד הבבלי",
+      "yearFrom": 500,
+      "yearTo": 550,
+      "yearApprox": true,
+      "domainId": "religion",
+      "personIds": [
+        "p-ravashi"
+      ],
+      "place": null,
+      "novelty": "החכמים בבבל ערכו את **הדיון** סביב המשנה לחיבור אחד, עם **מחלוקות** ונימוקים.",
+      "contribution": "הבבלי הפך לטקסט המרכזי של **לימוד ההלכה**.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-babylonian-talmud",
+          "quote": "Traditionally, it is thought that the Talmud itself was compiled by Rav Ashi and Ravina II around 500 CE, although it is more likely that this happened in the middle of the sixth century."
+        }
+      ],
+      "sources": [
+        "s-wp-babylonian-talmud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1040-rashi-commentary",
+      "title": "פירוש רש״י",
+      "yearFrom": 1040,
+      "yearTo": 1105,
+      "yearApprox": true,
+      "domainId": "religion",
+      "personIds": [
+        "p-rashi"
+      ],
+      "place": {
+        "wikipedia": "Troyes",
+        "nameHe": "טרואה",
+        "nameFull": "Troyes",
+        "lat": 48.2989,
+        "lon": 4.0781,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-rashi",
+          "quote": "After returning to Troyes, Rashi joined the beth din"
+        },
+        "city": {
+          "nameHe": "טרואה",
+          "nameFull": "Troyes"
+        },
+        "wikidata": "Q5489",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**רש״י** כתב פירוש **מילה במילה**, ברור ותמציתי, לתנ״ך ולתלמוד.",
+      "contribution": "הפירוש שלו מודפס בכל מהדורה של התלמוד מאז שנות ה-**1520**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-rashi",
+          "quote": "22 February 1040 – 13 July 1105), commonly known by the Rabbinic acronym Rashi (רש״י), was a French rabbi and commentator who authored comprehensive commentaries on the Talmud and Hebrew Bible."
+        },
+        {
+          "sourceId": "s-wp-rashi",
+          "quote": "has been included in every edition of the Talmud since its first printing by Daniel Bomberg in the 1520s."
+        }
+      ],
+      "sources": [
+        "s-wp-rashi"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1270-zohar",
+      "title": "ספר הזוהר",
+      "yearFrom": 1270,
+      "yearTo": 1280,
+      "yearApprox": true,
+      "domainId": "religion",
+      "personIds": [
+        "p-mosesdeleon"
+      ],
+      "place": null,
+      "novelty": "**משה די לאון** פרסם חיבור **קבלי** בצורת מדרש על התורה.",
+      "contribution": "הזוהר הפך לטקסט המרכזי של **הקבלה**.",
+      "confidence": "interpretive",
+      "evidence": [
+        {
+          "sourceId": "s-wp-zohar",
+          "quote": "The Zohar was first publicized by Moses de León (c."
+        },
+        {
+          "sourceId": "s-wp-zohar",
+          "quote": "\"Moses de León composed the Zohar in the 1270s as certainly as Theodor Herzl composed Der Judenstaat in the 1890s"
+        }
+      ],
+      "sources": [
+        "s-wp-zohar"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1454-gutenberg-bible",
+      "title": "תנ״ך גוטנברג",
+      "yearFrom": 1454,
+      "yearTo": 1455,
+      "yearApprox": false,
+      "domainId": "religion",
+      "personIds": [
+        "p-gutenberg"
+      ],
+      "place": {
+        "wikipedia": "Mainz",
+        "nameHe": "מיינץ",
+        "nameFull": "Mainz",
+        "lat": 49.9994,
+        "lon": 8.2736,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-gutenberg-bible",
+          "quote": "printed in the 1450s by Johannes Gutenberg in Mainz"
+        },
+        "city": {
+          "nameHe": "מיינץ",
+          "nameFull": "Mainz"
+        },
+        "wikidata": "Q1720",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "novelty": "**גוטנברג** הדפיס ספר שלם ב**אותיות נעות** מתכת.",
+      "contribution": "ספר שהיה מועתק ביד הפך ל**מוצר מודפס**, והידע התחיל לנוע מהר.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gutenberg-bible",
+          "quote": "Preparation of the Bible probably began soon after 1450, and the first finished copies were available in 1454 or 1455."
+        }
+      ],
+      "sources": [
+        "s-wp-gutenberg-bible"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1517-luther-theses",
+      "title": "95 התזות",
+      "yearFrom": 1517,
+      "yearTo": 1517,
+      "yearApprox": false,
+      "domainId": "religion",
+      "personIds": [
+        "p-luther"
+      ],
+      "place": {
+        "wikipedia": "Wittenberg",
+        "nameHe": "ויטנברג",
+        "nameFull": "Lutherstadt Wittenberg",
+        "lat": 51.8671,
+        "lon": 12.6484,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-martin-luther",
+          "quote": "He spent the rest of his career in this position at Wittenberg."
+        },
+        "city": {
+          "nameHe": "ויטנברג",
+          "nameFull": "Wittenberg"
+        },
+        "wikidata": "Q6837",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "novelty": "**לותר** פרסם רשימת טענות לוויכוח על **שטרי מחילה**.",
+      "contribution": "התזות הודפסו והופצו, ופתחו את **הרפורמציה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ninety-five-theses",
+          "quote": "is a list of propositions for an academic disputation written in 1517 by Martin Luther"
+        },
+        {
+          "sourceId": "s-wp-ninety-five-theses",
+          "quote": "The Latin Theses were printed in a four-page pamphlet in Basel, and as placards in Leipzig and Nuremberg."
+        }
+      ],
+      "sources": [
+        "s-wp-ninety-five-theses",
+        "s-wp-martin-luther"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1563-shulchan-aruch",
+      "title": "שולחן ערוך",
+      "yearFrom": 1563,
+      "yearTo": 1563,
+      "yearApprox": false,
+      "domainId": "religion",
+      "personIds": [
+        "p-karo"
+      ],
+      "place": {
+        "wikipedia": "Safed",
+        "nameHe": "צפת",
+        "nameFull": "Safed",
+        "lat": 32.9658,
+        "lon": 35.4983,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-shulchan-aruch",
+          "quote": "It was authored in the city of Safed (modern-day Tzfat, Israel)"
+        },
+        "city": {
+          "nameHe": "צפת",
+          "nameFull": "Safed"
+        },
+        "wikidata": "Q188336",
+        "country": {
+          "wikidata": "Q801",
+          "nameHe": "ישראל",
+          "nameFull": "Israel"
+        }
+      },
+      "novelty": "**קארו** סידר את ההלכה ל**פסקים קצרים** וברורים, לפי שלושה פוסקים.",
+      "contribution": "זה ספר ההלכה המקובל ביותר עד היום.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-shulchan-aruch",
+          "quote": "It was authored in the city of Safed (modern-day Tzfat, Israel) by Joseph Karo in 1563 and published in Venice two years later."
+        }
+      ],
+      "sources": [
+        "s-wp-shulchan-aruch"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1879-wundt-lab",
+      "title": "המעבדה הראשונה לפסיכולוגיה",
+      "yearFrom": 1879,
+      "yearTo": 1879,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-wundt"
+      ],
+      "place": {
+        "wikipedia": "Leipzig",
+        "nameHe": "לייפציג",
+        "nameFull": "Leipzig",
+        "lat": 51.3406,
+        "lon": 12.3747,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-wilhelm-wundt",
+          "quote": "In 1879, at the University of Leipzig"
+        },
+        "city": {
+          "nameHe": "לייפציג",
+          "nameFull": "Leipzig"
+        },
+        "wikidata": "Q2079",
+        "country": {
+          "wikidata": "Q183",
+          "nameHe": "גרמניה",
+          "nameFull": "Germany"
+        }
+      },
+      "novelty": "**וונט** חקר את הנפש ב**ניסוי** ומדידה, ולא רק בהגות.",
+      "contribution": "הוא נחשב למייסד **הפסיכולוגיה הניסויית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-wilhelm-wundt",
+          "quote": "In 1879, at the University of Leipzig, Wundt founded the first formal laboratory for psychological research."
+        }
+      ],
+      "sources": [
+        "s-wp-wilhelm-wundt"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1885-ebbinghaus-memory",
+      "title": "על הזיכרון: עקומת השכחה",
+      "yearFrom": 1885,
+      "yearTo": 1885,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-ebbinghaus"
+      ],
+      "place": null,
+      "novelty": "**אבינגהאוס** מדד על עצמו כמה מהר **שוכחים**, בהברות חסרות משמעות.",
+      "contribution": "הזיכרון הפך לנושא שאפשר **למדוד**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hermann-ebbinghaus",
+          "quote": "In 1885, he published his groundbreaking Über das Gedächtnis (\"On Memory\", later translated to English as Memory."
+        }
+      ],
+      "sources": [
+        "s-wp-hermann-ebbinghaus"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1890-james-principles",
+      "title": "עקרונות הפסיכולוגיה",
+      "yearFrom": 1890,
+      "yearTo": 1890,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-wjames"
+      ],
+      "place": null,
+      "novelty": "**ג׳יימס** תיאר את התודעה כ**זרם** משתנה, ולא כאוסף של יחידות.",
+      "contribution": "הספר ייסד את הפסיכולוגיה באמריקה.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-principles-of-psychology",
+          "quote": "The Principles of Psychology is an 1890 book about psychology by William James"
+        }
+      ],
+      "sources": [
+        "s-wp-the-principles-of-psychology"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1897-pavlov-conditioning",
+      "title": "ההתניה הקלאסית",
+      "yearFrom": 1897,
+      "yearTo": 1897,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-pavlov"
+      ],
+      "place": null,
+      "novelty": "**פבלוב** הראה בכלבים שגירוי ניטרלי יכול **לעורר תגובה** אחרי שנקשר לאוכל.",
+      "contribution": "ההתניה הפכה ליסוד של **הפסיכולוגיה ההתנהגותית**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-classical-conditioning",
+          "quote": "Ivan Pavlov, the Russian physiologist, studied classical conditioning with detailed experiments with dogs, and published the experimental results in 1897."
+        }
+      ],
+      "sources": [
+        "s-wp-classical-conditioning"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1899-freud-dreams",
+      "title": "פשר החלומות",
+      "yearFrom": 1899,
+      "yearTo": 1899,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-freud"
+      ],
+      "place": {
+        "wikipedia": "Vienna",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725,
+        "confidence": "interpretive",
+        "evidence": {
+          "sourceId": "s-wp-sigmund-freud",
+          "quote": "entering the University of Vienna that same year at age 17."
+        },
+        "city": {
+          "nameHe": "וינה",
+          "nameFull": "Vienna"
+        },
+        "wikidata": "Q1741",
+        "country": {
+          "wikidata": "Q40",
+          "nameHe": "אוסטריה",
+          "nameFull": "Austria"
+        }
+      },
+      "novelty": "**פרויד** הציג את החלום כדרך אל **הלא מודע**.",
+      "contribution": "הספר פתח את **הפסיכואנליזה**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-interpretation-of-dreams",
+          "quote": "is an 1899 book by Sigmund Freud, the founder of psychoanalysis, in which the author introduces his theory of the unconscious with respect to dream interpretation"
+        }
+      ],
+      "sources": [
+        "s-wp-the-interpretation-of-dreams",
+        "s-wp-sigmund-freud"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1905-binet-test",
+      "title": "מבחן בינה-סימון",
+      "yearFrom": 1905,
+      "yearTo": 1905,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-binet"
+      ],
+      "place": {
+        "wikipedia": "Paris",
+        "nameHe": "פריז",
+        "nameFull": "Paris",
+        "lat": 48.8567,
+        "lon": 2.3522,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "פריז",
+          "nameFull": "Paris"
+        },
+        "wikidata": "Q90",
+        "country": {
+          "wikidata": "Q142",
+          "nameHe": "צרפת",
+          "nameFull": "France"
+        }
+      },
+      "novelty": "**בינה** בנה את המבחן הראשון שמודד **אינטליגנציה** בשאלות מילוליות.",
+      "contribution": "זה הבסיס למבחני האינטליגנציה המודרניים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-binet-simon-test",
+          "quote": "had more success in 1905, when they published the Binet–Simon Intelligence test, which focused on verbal abilities."
+        }
+      ],
+      "sources": [
+        "s-wp-binet-simon-test"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1923-piaget-child",
+      "title": "השפה והחשיבה של הילד",
+      "yearFrom": 1923,
+      "yearTo": 1923,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-piaget"
+      ],
+      "place": null,
+      "novelty": "**פיאז׳ה** הראה שילדים לא חושבים \"פחות\", אלא **אחרת**, בשלבים.",
+      "contribution": "תורת השלבים שלו עיצבה את **החינוך** במאה ה-**20**.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-jean-piaget",
+          "quote": "The Language and Thought of the Child (London: Routledge & Kegan Paul, 1926) [Le Langage et la pensée chez l'enfant (1923)]"
+        }
+      ],
+      "sources": [
+        "s-wp-jean-piaget"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1957-festinger-dissonance",
+      "title": "דיסוננס קוגניטיבי",
+      "yearFrom": 1957,
+      "yearTo": 1957,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-festinger"
+      ],
+      "place": null,
+      "novelty": "**פסטינגר** תיאר את **אי הנוחות** כשאמונה ומעשה סותרים זה את זה.",
+      "contribution": "התאוריה הסבירה איך אנשים **מצדיקים** את מה שכבר עשו.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-cognitive-dissonance",
+          "quote": "In 1957, Leon Festinger introduced the theory of Cognitive Dissonance"
+        }
+      ],
+      "sources": [
+        "s-wp-cognitive-dissonance"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1961-milgram-obedience",
+      "title": "ניסוי מילגרם: צייתנות לסמכות",
+      "yearFrom": 1961,
+      "yearTo": 1962,
+      "yearApprox": false,
+      "domainId": "psychology",
+      "personIds": [
+        "p-milgram"
+      ],
+      "place": {
+        "wikipedia": "Yale University",
+        "nameHe": "אוניברסיטת ייל",
+        "nameFull": "Yale University",
+        "lat": 41.3111,
+        "lon": -72.9267,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "ניו הייבן",
+          "nameFull": "New Haven"
+        },
+        "wikidata": "Q49112",
+        "country": {
+          "wikidata": "Q30",
+          "nameHe": "ארצות הברית",
+          "nameFull": "United States"
+        }
+      },
+      "novelty": "**מילגרם** בדק עד כמה אנשים רגילים **יצייתו** להוראה לפגוע באחר.",
+      "contribution": "הניסוי נבנה כדי להבין את טענת \"**רק מילאתי פקודות**\".",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-milgram-experiment",
+          "quote": "The experiments began in August 1961 at Yale University"
+        },
+        {
+          "sourceId": "s-wp-milgram-experiment",
+          "quote": "whether Eichmann and accomplices in the Holocaust could validly claim that they were just following orders."
+        }
+      ],
+      "sources": [
+        "s-wp-milgram-experiment"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1867-queensberry",
+      "title": "חוקי קווינסברי",
+      "yearFrom": 1865,
+      "yearTo": 1867,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "personIds": [
+        "p-chambers"
+      ],
+      "place": {
+        "wikipedia": "London",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-marquess-of-queensberry-rules",
+          "quote": "drafted in London in 1865"
+        },
+        "city": {
+          "nameHe": "לונדון",
+          "nameFull": "London"
+        },
+        "wikidata": "Q84",
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "novelty": "**צ׳יימברס** כתב חוקים לאגרוף עם **כפפות**, סיבובים וספירה.",
+      "contribution": "החוקים הפכו את האגרוף לספורט מוסדר, והם בסיס האגרוף המודרני.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-marquess-of-queensberry-rules",
+          "quote": "Drafted by Welsh sportsman John Graham Chambers in London in 1865 and published in 1867"
+        }
+      ],
+      "sources": [
+        "s-wp-marquess-of-queensberry-rules"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1882-kano-judo",
+      "title": "ג׳ודו",
+      "yearFrom": 1882,
+      "yearTo": 1882,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "personIds": [
+        "p-kano"
+      ],
+      "place": {
+        "wikipedia": "Tokyo",
+        "nameHe": "טוקיו",
+        "nameFull": "Tokyo",
+        "lat": 35.6894,
+        "lon": 139.6917,
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-judo",
+          "quote": "Kano founded a school and dōjō at the Eisho-ji (永昌寺), a Buddhist temple in what was then the Shitaya ward of Tokyo"
+        },
+        "city": {
+          "nameHe": "טוקיו",
+          "nameFull": "Tokyo"
+        },
+        "wikidata": "Q1490",
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "novelty": "**קאנו** בנה שיטה שמבוססת על **אימון חופשי** בטוח (רנדורי), ולא רק על טכניקות.",
+      "contribution": "הג׳ודו הפך לענף אולימפי, והוליד שיטות נוספות.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-judo",
+          "quote": "Judo was created in 1882 by Kanō Jigorō (嘉納 治五郎) as an eclectic martial art"
+        }
+      ],
+      "sources": [
+        "s-wp-judo"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1922-funakoshi-karate",
+      "title": "הקראטה מגיעה ליפן",
+      "yearFrom": 1922,
+      "yearTo": 1922,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "personIds": [
+        "p-funakoshi"
+      ],
+      "place": {
+        "wikipedia": "Tokyo",
+        "nameHe": "טוקיו",
+        "nameFull": "Tokyo",
+        "lat": 35.6894,
+        "lon": 139.6917,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "טוקיו",
+          "nameFull": "Tokyo"
+        },
+        "wikidata": "Q1490",
+        "country": {
+          "wikidata": "Q17",
+          "nameHe": "יפן",
+          "nameFull": "Japan"
+        }
+      },
+      "novelty": "**פונאקושי** הביא את הקראטה מאוקינאווה, והוסיף לה **חליפות, חגורות ודרגות**.",
+      "contribution": "המבנה שלו הפך את הקראטה לאמנות לחימה עולמית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-gichin-funakoshi",
+          "quote": "he was one of the Okinawan karate masters who introduced karate to the Japanese mainland in 1922"
+        },
+        {
+          "sourceId": "s-wp-karate",
+          "quote": "Funakoshi incorporated elements from judo, such as the training uniforms, colored belts, and ranking systems."
+        }
+      ],
+      "sources": [
+        "s-wp-gichin-funakoshi",
+        "s-wp-karate"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1925-gracie-bjj",
+      "title": "ג׳יו-ג׳יטסו ברזילאי",
+      "yearFrom": 1925,
+      "yearTo": 1925,
+      "yearApprox": true,
+      "domainId": "combat-sports",
+      "personIds": [
+        "p-cgracie",
+        "p-hgracie"
+      ],
+      "place": {
+        "wikipedia": "Rio de Janeiro",
+        "nameHe": "ריו דה ז'ניירו",
+        "nameFull": "Rio de Janeiro",
+        "lat": -22.9111,
+        "lon": -43.2056,
+        "confidence": "interpretive",
+        "evidence": null,
+        "city": {
+          "nameHe": "ריו דה ז׳נרו",
+          "nameFull": "Rio de Janeiro"
+        },
+        "wikidata": "Q8678",
+        "country": {
+          "wikidata": "Q155",
+          "nameHe": "ברזיל",
+          "nameFull": "Brazil"
+        }
+      },
+      "novelty": "**האחים גרייסי** פיתחו שיטה שבה **מינוף** על הקרקע גובר על כוח.",
+      "contribution": "השיטה הפכה ליסוד של קרבות המגע המעורבים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-brazilian-jiu-jitsu",
+          "quote": "Brazilian jiu-jitsu was first developed by the Brazilian brothers Carlos, Oswaldo, Gastão Jr., and Hélio Gracie around 1925"
+        }
+      ],
+      "sources": [
+        "s-wp-brazilian-jiu-jitsu"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "d-1944-krav-maga",
+      "title": "קרב מגע",
+      "yearFrom": 1944,
+      "yearTo": 1944,
+      "yearApprox": false,
+      "domainId": "combat-sports",
+      "personIds": [
+        "p-lichtenfeld"
+      ],
+      "place": null,
+      "novelty": "**ליכטנפלד** בנה שיטת **הגנה עצמית** למצבים אמיתיים, מתוך ניסיון ברחובות ברטיסלבה.",
+      "contribution": "השיטה פותחה עבור הלוחמים בישראל, והפכה לשיטה מוכרת בעולם.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-imi-lichtenfeld",
+          "quote": "In 1944, Lichtenfeld began training Haganah fighters in his areas of expertise"
+        },
+        {
+          "sourceId": "s-wp-krav-maga",
+          "quote": "Developed for the Israel Defense Forces (IDF), it is known for its focus on real-world situations."
+        }
+      ],
+      "sources": [
+        "s-wp-imi-lichtenfeld",
+        "s-wp-krav-maga"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

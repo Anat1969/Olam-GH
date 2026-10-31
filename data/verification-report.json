@@ -890,6 +890,116 @@
       "id": "p-lasseter",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "p-ashoka",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ravashi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-rashi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-mosesdeleon",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-gutenberg",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-luther",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-karo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wundt",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-ebbinghaus",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-wjames",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-pavlov",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-freud",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-binet",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-piaget",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-festinger",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-milgram",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-chambers",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-kano",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-funakoshi",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-cgracie",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-hgracie",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "p-lichtenfeld",
+      "verified": true,
+      "reasons": []
     }
   ],
   "discoveries": [
@@ -1757,6 +1867,111 @@
       "id": "d-1995-toy-story",
       "verified": true,
       "reasons": []
+    },
+    {
+      "id": "d-bce269-ashoka-edicts",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-500-babylonian-talmud",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1040-rashi-commentary",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1270-zohar",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1454-gutenberg-bible",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1517-luther-theses",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1563-shulchan-aruch",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1879-wundt-lab",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1885-ebbinghaus-memory",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1890-james-principles",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1897-pavlov-conditioning",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1899-freud-dreams",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1905-binet-test",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1923-piaget-child",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1957-festinger-dissonance",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1961-milgram-obedience",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1867-queensberry",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1882-kano-judo",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1922-funakoshi-karate",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1925-gracie-bjj",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "d-1944-krav-maga",
+      "verified": true,
+      "reasons": []
     }
   ],
   "links": [
@@ -2219,6 +2434,46 @@
     },
     {
       "id": "l-92",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-93",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-94",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-95",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-96",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-97",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-98",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-99",
+      "verified": true,
+      "reasons": []
+    },
+    {
+      "id": "l-100",
       "verified": true,
       "reasons": []
     }
@@ -3147,12 +3402,84 @@
       "place": "El Capitan Theatre",
       "ok": true,
       "confidence": "documented"
+    },
+    {
+      "id": "d-1040-rashi-commentary",
+      "place": "Troyes",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1454-gutenberg-bible",
+      "place": "Mainz",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1517-luther-theses",
+      "place": "Lutherstadt Wittenberg",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1563-shulchan-aruch",
+      "place": "Safed",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1879-wundt-lab",
+      "place": "Leipzig",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1899-freud-dreams",
+      "place": "Vienna",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1905-binet-test",
+      "place": "Paris",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1961-milgram-obedience",
+      "place": "Yale University",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1867-queensberry",
+      "place": "London",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1882-kano-judo",
+      "place": "Tokyo",
+      "ok": true,
+      "confidence": "documented"
+    },
+    {
+      "id": "d-1922-funakoshi-karate",
+      "place": "Tokyo",
+      "ok": true,
+      "confidence": "interpretive"
+    },
+    {
+      "id": "d-1925-gracie-bjj",
+      "place": "Rio de Janeiro",
+      "ok": true,
+      "confidence": "interpretive"
     }
   ],
   "summary": {
-    "persons": "178/178",
-    "discoveries": "173/173",
-    "links": "91/92",
-    "images": 171
+    "persons": "200/200",
+    "discoveries": "194/194",
+    "links": "99/100",
+    "images": 189
   }
 }

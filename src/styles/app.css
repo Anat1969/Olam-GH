@@ -466,6 +466,33 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .g-node.dom-cinema .g-sq { stroke: var(--cinema); }
 .g-node.dom-sculpture .g-sq, .g-node.dom-cinema .g-sq { stroke-dasharray: none; }
 
+/* דת, פסיכולוגיה וקרב מגע */
+.tl-dot-religion { fill: var(--religion); background: var(--religion); }
+.tag-religion { background: var(--religion); }
+.axis-religion { stroke: var(--religion); }
+.row-religion { background: var(--religion); }
+.pin-religion { background: var(--religion); border-color: var(--religion); }
+.chip-dom[aria-pressed="true"].dom-religion { background: var(--religion); border-color: var(--religion); }
+.dom-religion .mc-sq, .lg-sq.dom-religion { background: var(--religion); }
+.g-node.dom-religion .g-sq { stroke: var(--religion); }
+.tl-dot-psychology { fill: var(--psychology); background: var(--psychology); }
+.tag-psychology { background: var(--psychology); }
+.axis-psychology { stroke: var(--psychology); }
+.row-psychology { background: var(--psychology); }
+.pin-psychology { background: var(--psychology); border-color: var(--psychology); }
+.chip-dom[aria-pressed="true"].dom-psychology { background: var(--psychology); border-color: var(--psychology); }
+.dom-psychology .mc-sq, .lg-sq.dom-psychology { background: var(--psychology); }
+.g-node.dom-psychology .g-sq { stroke: var(--psychology); }
+.tl-dot-combat-sports { fill: var(--combat-sports); background: var(--combat-sports); }
+.tag-combat-sports { background: var(--combat-sports); }
+.axis-combat-sports { stroke: var(--combat-sports); }
+.row-combat-sports { background: var(--combat-sports); }
+.pin-combat-sports { background: var(--combat-sports); border-color: var(--combat-sports); }
+.chip-dom[aria-pressed="true"].dom-combat-sports { background: var(--combat-sports); border-color: var(--combat-sports); }
+.dom-combat-sports .mc-sq, .lg-sq.dom-combat-sports { background: var(--combat-sports); }
+.g-node.dom-combat-sports .g-sq { stroke: var(--combat-sports); }
+.g-node.dom-religion .g-sq, .g-node.dom-psychology .g-sq, .g-node.dom-combat-sports .g-sq { stroke-dasharray: none; }
+
 /* מפה: בלי מספרים בתצוגה הרגילה, מספר רק במסע */
 .mc-n:empty { display: none; }
 .map-city.has-badge .mc-sq { width: auto; min-width: var(--sq); padding: 0 4px; font-size: 11px; font-weight: 600; }
@@ -481,7 +508,7 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .tour-title { margin: 2px 0; font-size: 17px; font-weight: 600; }
 .tour-who { font-size: 13px; font-weight: 600; color: var(--sechel); }
 .tour-text { margin: 6px 0 0; font-size: 13px; line-height: 1.6; color: var(--ink-soft); }
-.tour-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; max-height: min(60vh, 560px); overflow-y: auto; }
+.tour-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; max-height: min(60vh, 560px); overflow-y: auto; position: relative; }
 .tour-n { width: 22px; height: 22px; display: grid; place-items: center; background: var(--ink); color: #fff; font-size: 11px; }
 .city-row[aria-pressed="true"] .tour-n { background: var(--marker); color: var(--ink); }
 /* פאנל מקום היררכי */
@@ -506,3 +533,21 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .map-controls { grid-template-columns: minmax(0, 1fr) auto; }
 .map-controls > .map-domains, .map-controls > .tour-seg { grid-column: 1 / -1; }
 .tour-seg { padding-top: 8px; border-top: 1px solid var(--rule); }
+
+/* מסע חוצה תחומים */
+.chip-all[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--sheet); }
+.tour-dot { display: inline-block; width: 9px; height: 9px; margin-inline-end: 6px; vertical-align: middle; background: var(--draft); }
+.tour-dot.dom-physics { background: var(--physics); }
+.tour-dot.dom-religion { background: var(--religion); }
+.tour-dot.dom-philosophy { background: var(--philosophy); }
+.tour-dot.dom-psychology { background: var(--psychology); }
+.tour-dot.dom-mathematics { background: var(--mathematics); }
+.tour-dot.dom-chemistry { background: var(--chemistry); }
+.tour-dot.dom-biology { background: var(--biology); }
+.tour-dot.dom-music { background: var(--music); }
+.tour-dot.dom-dance { background: var(--dance); }
+.tour-dot.dom-combat-sports { background: var(--combat-sports); }
+.tour-dot.dom-painting { background: var(--painting); }
+.tour-dot.dom-sculpture { background: var(--sculpture); }
+.tour-dot.dom-architecture { background: var(--architecture); }
+.tour-dot.dom-cinema { background: var(--cinema); }
