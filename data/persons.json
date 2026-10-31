@@ -896,7 +896,8 @@
         "lon": 0.6978
       },
       "domains": [
-        "mathematics"
+        "mathematics",
+        "philosophy"
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/500px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
       "imageLicense": "Public domain",
@@ -1001,7 +1002,8 @@
         "lon": 12.3747
       },
       "domains": [
-        "mathematics"
+        "mathematics",
+        "philosophy"
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/500px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
       "imageLicense": "Public domain",
@@ -2057,7 +2059,8 @@
         "lon": 23.7942
       },
       "domains": [
-        "biology"
+        "biology",
+        "philosophy"
       ],
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/500px-Aristotle_Altemps_Inv8575.jpg",
       "imageLicense": "Public domain",
@@ -2882,6 +2885,1092 @@
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:Youngronaldfisher2.JPG",
       "nameHeSource": "wikidata"
+    },
+    {
+      "id": "p-plato",
+      "wikipedia": "Plato",
+      "nameHe": "אפלטון",
+      "nameFull": "Plato",
+      "birthYear": -428,
+      "birthDate": null,
+      "deathYear": -348,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1524",
+        "nameHe": "אתונה",
+        "nameFull": "Athens",
+        "lat": 37.9842,
+        "lon": 23.7281
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/500px-Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+      "imageLicense": "CC BY 2.5",
+      "imageCredit": "Marie-Lan Nguyen",
+      "sources": [
+        "s-wp-plato",
+        "s-wd-q859"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q859",
+      "nameHeSource": "wikidata",
+      "birthApprox": true,
+      "deathApprox": true,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+    },
+    {
+      "id": "p-augustine",
+      "wikipedia": "Augustine of Hippo",
+      "nameHe": "אוגוסטינוס",
+      "nameFull": "Augustine of Hippo",
+      "birthYear": 354,
+      "birthDate": "0354-11-13",
+      "deathYear": 430,
+      "deathDate": "0430-08-28",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1324444",
+        "nameHe": "תאגסטה",
+        "nameFull": "Thagaste",
+        "lat": 36.2864,
+        "lon": 7.9511
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Saint_Augustine_by_Philippe_de_Champaigne.jpg/500px-Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Philippe de Champaigne",
+      "sources": [
+        "s-wp-augustine-of-hippo",
+        "s-wd-q8018"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8018",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    },
+    {
+      "id": "p-avicenna",
+      "wikipedia": "Avicenna",
+      "nameHe": "אבן סינא",
+      "nameFull": "Avicenna",
+      "birthYear": 980,
+      "birthDate": null,
+      "deathYear": 1037,
+      "deathDate": "1037-06-18",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q4072887",
+        "nameHe": "אפשונה",
+        "nameFull": "Afshona",
+        "lat": 39.9944,
+        "lon": 64.3792
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pursina.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Original work: Abolhassan Sadighi Depiction: User:Ehsan 1987",
+      "sources": [
+        "s-wp-avicenna",
+        "s-wd-q8011"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q8011",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Pursina.jpg"
+    },
+    {
+      "id": "p-maimonides",
+      "wikipedia": "Maimonides",
+      "nameHe": "רמב\"ם",
+      "nameFull": "Moshe ben Maimon",
+      "birthYear": 1138,
+      "birthDate": "1138-03-30",
+      "deathYear": 1204,
+      "deathDate": "1204-12-13",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q5818",
+        "nameHe": "קורדובה",
+        "nameFull": "Córdoba",
+        "lat": 37.89,
+        "lon": -4.78
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Maim%C3%B2nides.jpg/500px-Maim%C3%B2nides.jpg",
+      "imageLicense": "CC BY-SA 3.0",
+      "imageCredit": "No machine-readable author provided. Makinal~commonswiki assumed (based on copyright claims).",
+      "sources": [
+        "s-wp-maimonides",
+        "s-wd-q127398"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q127398",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Maim%C3%B2nides.jpg"
+    },
+    {
+      "id": "p-aquinas",
+      "wikipedia": "Thomas Aquinas",
+      "nameHe": "תומאס אקווינס",
+      "nameFull": "Thomas Aquinas",
+      "birthYear": 1225,
+      "birthDate": null,
+      "deathYear": 1274,
+      "deathDate": "1274-03-07",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q106766784",
+        "nameHe": null,
+        "nameFull": "castle of the counts of Aquino",
+        "lat": 41.5478,
+        "lon": 13.6704
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/St-thomas-aquinasFXD.jpg/500px-St-thomas-aquinasFXD.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Carlo Crivelli",
+      "sources": [
+        "s-wp-thomas-aquinas",
+        "s-wd-q9438"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9438",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg"
+    },
+    {
+      "id": "p-machiavelli",
+      "wikipedia": "Niccolò Machiavelli",
+      "nameHe": "ניקולו מקיאוולי",
+      "nameFull": "Niccolò Machiavelli",
+      "birthYear": 1469,
+      "birthDate": "1469-05-03",
+      "deathYear": 1527,
+      "deathDate": "1527-06-21",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q2044",
+        "nameHe": "פירנצה",
+        "nameFull": "Florence",
+        "lat": 43.7714,
+        "lon": 11.2542
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg/500px-Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Santi di Tito",
+      "sources": [
+        "s-wp-niccolo-machiavelli",
+        "s-wd-q1399"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1399",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg"
+    },
+    {
+      "id": "p-bacon",
+      "wikipedia": "Francis Bacon",
+      "nameHe": "פרנסיס בייקון",
+      "nameFull": "Francis Bacon",
+      "birthYear": 1561,
+      "birthDate": "1561-01-22",
+      "deathYear": 1626,
+      "deathDate": "1626-04-09",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q8055471",
+        "nameHe": "בית יורק, סטרנד",
+        "nameFull": "York House, Strand",
+        "lat": 51.5081,
+        "lon": -0.1233
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/500px-Somer_Francis_Bacon.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Paul van Somer I / Formerly attributed to Frans Pourbus the Younger",
+      "sources": [
+        "s-wp-francis-bacon",
+        "s-wd-q37388"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q37388",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg"
+    },
+    {
+      "id": "p-hobbes",
+      "wikipedia": "Thomas Hobbes",
+      "nameHe": "תומאס הובס",
+      "nameFull": "Thomas Hobbes",
+      "birthYear": 1588,
+      "birthDate": "1588-04-05",
+      "deathYear": 1679,
+      "deathDate": "1679-12-04",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q745956",
+        "nameHe": "וסטפורט",
+        "nameFull": "Westport",
+        "lat": 51.5854,
+        "lon": -2.1014
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Thomas_Hobbes_%28portrait%29.jpg/500px-Thomas_Hobbes_%28portrait%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "John Michael Wright",
+      "sources": [
+        "s-wp-thomas-hobbes",
+        "s-wd-q37621"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q37621",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_(portrait).jpg"
+    },
+    {
+      "id": "p-spinoza",
+      "wikipedia": "Baruch Spinoza",
+      "nameHe": "ברוך שפינוזה",
+      "nameFull": "Benedictus de Spinoza",
+      "birthYear": 1632,
+      "birthDate": "1632-11-24",
+      "deathYear": 1677,
+      "deathDate": "1677-02-21",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q727",
+        "nameHe": "אמסטרדם",
+        "nameFull": "Amsterdam",
+        "lat": 52.3667,
+        "lon": 4.8833
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/500px-Spinoza.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "anonymous",
+      "sources": [
+        "s-wp-baruch-spinoza",
+        "s-wd-q35802"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q35802",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
+    },
+    {
+      "id": "p-locke",
+      "wikipedia": "John Locke",
+      "nameHe": "ג'ון לוק",
+      "nameFull": "John Locke",
+      "birthYear": 1632,
+      "birthDate": "1632-08-29",
+      "deathYear": 1704,
+      "deathDate": "1704-10-28",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q1825419",
+        "nameHe": "רינגטון",
+        "nameFull": "Wrington",
+        "lat": 51.3617,
+        "lon": -2.7606
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/JohnLocke.png/500px-JohnLocke.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Godfrey Kneller",
+      "sources": [
+        "s-wp-john-locke",
+        "s-wd-q9353"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9353",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:JohnLocke.png"
+    },
+    {
+      "id": "p-hume",
+      "wikipedia": "David Hume",
+      "nameHe": "דייוויד יום",
+      "nameFull": "David Hume",
+      "birthYear": 1711,
+      "birthDate": "1711-04-26",
+      "deathYear": 1776,
+      "deathDate": "1776-08-25",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q23436",
+        "nameHe": "אדינבורו",
+        "nameFull": "Edinburgh",
+        "lat": 55.9533,
+        "lon": -3.1892
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/David_Hume_Ramsay.jpg/500px-David_Hume_Ramsay.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Allan Ramsay",
+      "sources": [
+        "s-wp-david-hume",
+        "s-wd-q37160"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q37160",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:David_Hume_Ramsay.jpg"
+    },
+    {
+      "id": "p-kant",
+      "wikipedia": "Immanuel Kant",
+      "nameHe": "עמנואל קאנט",
+      "nameFull": "Immanuel Kant",
+      "birthYear": 1724,
+      "birthDate": "1724-04-22",
+      "deathYear": 1804,
+      "deathDate": "1804-02-12",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q4120832",
+        "nameHe": "קניגסברג",
+        "nameFull": "Königsberg",
+        "lat": 54.7115,
+        "lon": 20.5093
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Immanuel_Kant_-_Gemaelde_2.jpg/500px-Immanuel_Kant_-_Gemaelde_2.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Becker",
+      "sources": [
+        "s-wp-immanuel-kant",
+        "s-wd-q9312"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9312",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_2.jpg"
+    },
+    {
+      "id": "p-wollstonecraft",
+      "wikipedia": "Mary Wollstonecraft",
+      "nameHe": "מרי וולסטונקראפט",
+      "nameFull": "Mary Wollstonecraft",
+      "birthYear": 1759,
+      "birthDate": "1759-04-27",
+      "deathYear": 1797,
+      "deathDate": "1797-09-10",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q123219",
+        "nameHe": "ספיטלפילדס",
+        "nameFull": "Spitalfields",
+        "lat": 51.5166,
+        "lon": -0.075
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg/500px-Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "John Opie",
+      "sources": [
+        "s-wp-mary-wollstonecraft",
+        "s-wd-q101638"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q101638",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_by_John_Opie_(c._1797).jpg"
+    },
+    {
+      "id": "p-hegel",
+      "wikipedia": "Georg Wilhelm Friedrich Hegel",
+      "nameHe": "גאורג וילהלם פרידריך הגל",
+      "nameFull": "Georg Wilhelm Friedrich Hegel",
+      "birthYear": 1770,
+      "birthDate": "1770-08-27",
+      "deathYear": 1831,
+      "deathDate": "1831-11-14",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1022",
+        "nameHe": "שטוטגרט",
+        "nameFull": "Stuttgart",
+        "lat": 48.7775,
+        "lon": 9.18
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg/500px-Jakob_Schlesinger_-_Hegel_1831.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Jakob Schlesinger",
+      "sources": [
+        "s-wp-georg-wilhelm-friedrich-hegel",
+        "s-wd-q9235"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9235",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg"
+    },
+    {
+      "id": "p-jsmill",
+      "wikipedia": "John Stuart Mill",
+      "nameHe": "ג'ון סטיוארט מיל",
+      "nameFull": "John Stuart Mill",
+      "birthYear": 1806,
+      "birthDate": "1806-05-20",
+      "deathYear": 1873,
+      "deathDate": "1873-05-08",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q124237",
+        "nameHe": "פנטונוויל",
+        "nameFull": "Pentonville",
+        "lat": 51.535,
+        "lon": -0.1031
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg/500px-John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "London Stereoscopic Company",
+      "sources": [
+        "s-wp-john-stuart-mill",
+        "s-wd-q50020"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q50020",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg"
+    },
+    {
+      "id": "p-htmill",
+      "wikipedia": "Harriet Taylor Mill",
+      "nameHe": "הרייט טיילור מיל",
+      "nameFull": "Harriet Taylor Mill",
+      "birthYear": 1807,
+      "birthDate": "1807-10-08",
+      "deathYear": 1858,
+      "deathDate": "1858-11-03",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q84",
+        "nameHe": "לונדון",
+        "nameFull": "London",
+        "lat": 51.5072,
+        "lon": -0.1275
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Harriet_Mill_from_NPG.jpg/500px-Harriet_Mill_from_NPG.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "anonymous",
+      "sources": [
+        "s-wp-harriet-taylor-mill",
+        "s-wd-q240782"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q240782",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Harriet_Mill_from_NPG.jpg"
+    },
+    {
+      "id": "p-nietzsche",
+      "wikipedia": "Friedrich Nietzsche",
+      "nameHe": "פרידריך ניטשה",
+      "nameFull": "Friedrich Nietzsche",
+      "birthYear": 1844,
+      "birthDate": "1844-10-15",
+      "deathYear": 1900,
+      "deathDate": "1900-08-25",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q529879",
+        "nameHe": "רקן",
+        "nameFull": "Röcken",
+        "lat": 51.2408,
+        "lon": 12.1161
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/500px-Nietzsche187a.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Friedrich Hermann Hartmann",
+      "sources": [
+        "s-wp-friedrich-nietzsche",
+        "s-wd-q9358"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9358",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg"
+    },
+    {
+      "id": "p-wittgenstein",
+      "wikipedia": "Ludwig Wittgenstein",
+      "nameHe": "לודוויג ויטגנשטיין",
+      "nameFull": "Ludwig Wittgenstein",
+      "birthYear": 1889,
+      "birthDate": "1889-04-26",
+      "deathYear": 1951,
+      "deathDate": "1951-04-29",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1981987",
+        "nameHe": null,
+        "nameFull": "Neuwaldegg",
+        "lat": 48.2378,
+        "lon": 16.2861
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Ludwig_Wittgenstein.jpg/500px-Ludwig_Wittgenstein.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Moritz Nähr",
+      "sources": [
+        "s-wp-ludwig-wittgenstein",
+        "s-wd-q9391"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q9391",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Ludwig_Wittgenstein.jpg"
+    },
+    {
+      "id": "p-popper",
+      "wikipedia": "Karl Popper",
+      "nameHe": "קרל פופר",
+      "nameFull": "Karl Popper",
+      "birthYear": 1902,
+      "birthDate": "1902-07-28",
+      "deathYear": 1994,
+      "deathDate": "1994-09-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1741",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Karl_Popper.jpg/500px-Karl_Popper.jpg",
+      "imageLicense": "No restrictions",
+      "imageCredit": "Franz Barta",
+      "sources": [
+        "s-wp-karl-popper",
+        "s-wd-q81244"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q81244",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Karl_Popper.jpg"
+    },
+    {
+      "id": "p-kuhn",
+      "wikipedia": "Thomas Kuhn",
+      "nameHe": "תומאס קון",
+      "nameFull": "Thomas Kuhn",
+      "birthYear": 1922,
+      "birthDate": "1922-07-18",
+      "deathYear": 1996,
+      "deathDate": "1996-06-17",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q43196",
+        "nameHe": "סינסינטי",
+        "nameFull": "Cincinnati",
+        "lat": 39.1,
+        "lon": -84.5125
+      },
+      "domains": [
+        "philosophy"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Thomas_Kuhn_%281977%29_%28cropped%29.jpg/500px-Thomas_Kuhn_%281977%29_%28cropped%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Bob Bielk",
+      "sources": [
+        "s-wp-thomas-kuhn",
+        "s-wd-q184980"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q184980",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Thomas_Kuhn_(1977)_(cropped).jpg"
+    },
+    {
+      "id": "p-guido",
+      "wikipedia": "Guido of Arezzo",
+      "nameHe": "גווידו ד'ארצו",
+      "nameFull": "Guido of Arezzo",
+      "birthYear": 992,
+      "birthDate": null,
+      "deathYear": 1050,
+      "deathDate": null,
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q13378",
+        "nameHe": "ארצו",
+        "nameFull": "Arezzo",
+        "lat": 43.4631,
+        "lon": 11.8781
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Guido_van_Arezzo.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "The original uploader was Robbot at Dutch Wikipedia.",
+      "sources": [
+        "s-wp-guido-of-arezzo",
+        "s-wd-q192238"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q192238",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Guido_van_Arezzo.jpg"
+    },
+    {
+      "id": "p-vgalilei",
+      "wikipedia": "Vincenzo Galilei",
+      "nameHe": "וינצ'נצו גליליי",
+      "nameFull": "Vincenzo Galilei",
+      "birthYear": 1520,
+      "birthDate": "1520-04-03",
+      "deathYear": 1591,
+      "deathDate": "1591-07-02",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q103270",
+        "nameHe": "סנטה מריה א מונטה",
+        "nameFull": "Santa Maria a Monte",
+        "lat": 43.7,
+        "lon": 10.6833
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": null,
+      "imageLicense": null,
+      "imageCredit": null,
+      "sources": [
+        "s-wp-vincenzo-galilei",
+        "s-wd-q313765"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q313765",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": null
+    },
+    {
+      "id": "p-monteverdi",
+      "wikipedia": "Claudio Monteverdi",
+      "nameHe": "קלאודיו מונטוורדי",
+      "nameFull": "Claudio Monteverdi",
+      "birthYear": 1567,
+      "birthDate": "1567-05-15",
+      "deathYear": 1643,
+      "deathDate": "1643-11-29",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q6231",
+        "nameHe": "קרמונה",
+        "nameFull": "Cremona",
+        "lat": 45.1333,
+        "lon": 10.0247
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg/500px-Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Bernardo Strozzi",
+      "sources": [
+        "s-wp-claudio-monteverdi",
+        "s-wd-q53068"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q53068",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg"
+    },
+    {
+      "id": "p-mersenne",
+      "wikipedia": "Marin Mersenne",
+      "nameHe": "מרן מרסן",
+      "nameFull": "Marin Mersenne",
+      "birthYear": 1588,
+      "birthDate": "1588-09-08",
+      "deathYear": 1648,
+      "deathDate": "1648-09-01",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1225393",
+        "nameHe": "ואזה",
+        "nameFull": "Oizé",
+        "lat": 47.8106,
+        "lon": 0.1033
+      },
+      "domains": [
+        "music",
+        "mathematics"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/MarinMersenneDuflos.jpg/500px-MarinMersenneDuflos.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Claude Duflos",
+      "sources": [
+        "s-wp-marin-mersenne",
+        "s-wd-q188663"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q188663",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:MarinMersenneDuflos.jpg"
+    },
+    {
+      "id": "p-bach",
+      "wikipedia": "Johann Sebastian Bach",
+      "nameHe": "יוהאן סבסטיאן באך",
+      "nameFull": "Johann Sebastian Bach",
+      "birthYear": 1685,
+      "birthDate": "1685-03-21",
+      "deathYear": 1750,
+      "deathDate": "1750-07-28",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q7070",
+        "nameHe": "אייזנך",
+        "nameFull": "Eisenach",
+        "lat": 50.9747,
+        "lon": 10.3244
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Johann_Sebastian_Bach.png/500px-Johann_Sebastian_Bach.png",
+      "imageLicense": "Public domain",
+      "imageCredit": "Elias Gottlob Haussmann",
+      "sources": [
+        "s-wp-johann-sebastian-bach",
+        "s-wd-q1339"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1339",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.png"
+    },
+    {
+      "id": "p-beethoven",
+      "wikipedia": "Ludwig van Beethoven",
+      "nameHe": "לודוויג ואן בטהובן",
+      "nameFull": "Ludwig van Beethoven",
+      "birthYear": 1770,
+      "birthDate": "1770-12-16",
+      "deathYear": 1827,
+      "deathDate": "1827-03-26",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q586",
+        "nameHe": "בון",
+        "nameFull": "Bonn",
+        "lat": 50.7353,
+        "lon": 7.1022
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/500px-Beethoven.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Joseph Karl Stieler",
+      "sources": [
+        "s-wp-ludwig-van-beethoven",
+        "s-wd-q255"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q255",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
+    },
+    {
+      "id": "p-wagner",
+      "wikipedia": "Richard Wagner",
+      "nameHe": "ריכרד וגנר",
+      "nameFull": "Richard Wagner",
+      "birthYear": 1813,
+      "birthDate": "1813-05-22",
+      "deathYear": 1883,
+      "deathDate": "1883-02-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q2079",
+        "nameHe": "לייפציג",
+        "nameFull": "Leipzig",
+        "lat": 51.3406,
+        "lon": 12.3747
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/500px-RichardWagner.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Franz Hanfstaengl",
+      "sources": [
+        "s-wp-richard-wagner",
+        "s-wd-q1511"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1511",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
+    },
+    {
+      "id": "p-debussy",
+      "wikipedia": "Claude Debussy",
+      "nameHe": "קלוד דביסי",
+      "nameFull": "Claude Debussy",
+      "birthYear": 1862,
+      "birthDate": "1862-08-22",
+      "deathYear": 1918,
+      "deathDate": "1918-03-25",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q60847808",
+        "nameHe": "סן-ז'רמן-אן-לה",
+        "nameFull": "Saint-Germain-en-Laye",
+        "lat": 48.8964,
+        "lon": 2.0906
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Claude_Debussy_by_Atelier_Nadar.jpg/500px-Claude_Debussy_by_Atelier_Nadar.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Adam Cuerden",
+      "sources": [
+        "s-wp-claude-debussy",
+        "s-wd-q4700"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q4700",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_by_Atelier_Nadar.jpg"
+    },
+    {
+      "id": "p-stravinsky",
+      "wikipedia": "Igor Stravinsky",
+      "nameHe": "איגור סטרווינסקי",
+      "nameFull": "Igor Stravinsky",
+      "birthYear": 1882,
+      "birthDate": "1882-06-05",
+      "deathYear": 1971,
+      "deathDate": "1971-04-06",
+      "calendar": "julian",
+      "birthPlace": {
+        "wikidata": "Q157688",
+        "nameHe": "לומונוסוב",
+        "nameFull": "Lomonosov",
+        "lat": 59.9167,
+        "lon": 29.7667
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Igor_Stravinsky_LOC_32392u.jpg/500px-Igor_Stravinsky_LOC_32392u.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "George Grantham Bain Collection",
+      "sources": [
+        "s-wp-igor-stravinsky",
+        "s-wd-q7314"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q7314",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg"
+    },
+    {
+      "id": "p-schoenberg",
+      "wikipedia": "Arnold Schoenberg",
+      "nameHe": "ארנולד שנברג",
+      "nameFull": "Arnold Schoenberg",
+      "birthYear": 1874,
+      "birthDate": "1874-09-13",
+      "deathYear": 1951,
+      "deathDate": "1951-07-13",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1741",
+        "nameHe": "וינה",
+        "nameFull": "Vienna",
+        "lat": 48.2083,
+        "lon": 16.3725
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Arnold_sch%C3%B6nberg_man_ray.jpg/500px-Arnold_sch%C3%B6nberg_man_ray.jpg",
+      "imageLicense": "CC BY-SA 2.0",
+      "imageCredit": "Man Ray",
+      "sources": [
+        "s-wp-arnold-schoenberg",
+        "s-wd-q154770"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q154770",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Arnold_sch%C3%B6nberg_man_ray.jpg"
+    },
+    {
+      "id": "p-armstrong",
+      "wikipedia": "Louis Armstrong",
+      "nameHe": "לואי ארמסטרונג",
+      "nameFull": "Louis Armstrong",
+      "birthYear": 1901,
+      "birthDate": "1901-08-04",
+      "deathYear": 1971,
+      "deathDate": "1971-07-06",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q34404",
+        "nameHe": "ניו אורלינס",
+        "nameFull": "New Orleans",
+        "lat": 29.9761,
+        "lon": -90.0783
+      },
+      "domains": [
+        "music"
+      ],
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Louis_Armstrong_restored.jpg/500px-Louis_Armstrong_restored.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "World-Telegram staff photographer",
+      "sources": [
+        "s-wp-louis-armstrong",
+        "s-wd-q1779"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q1779",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_restored.jpg"
     }
   ]
 }

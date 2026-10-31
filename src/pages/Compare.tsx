@@ -22,7 +22,7 @@ const ROW_CARDS = LANES * LANE + 14;
 const GAP = 168; // שדה הקשרים בין הצירים
 const TOP = 30;
 const TYPES: LinkType[] = ['influenced', 'enabled', 'opposed', 'parallel'];
-const ERAS: [string, number, number][] = [['כל הציר', YEAR_MIN, YEAR_MAX], ['עד 1100', YEAR_MIN, 1100], ['1500–1750', 1500, 1750], ['1750–1960', 1750, YEAR_MAX]];
+const ERAS: [string, number, number][] = [['כל הציר', YEAR_MIN, YEAR_MAX], ['עד 1100', YEAR_MIN, 1100], ['1500–1750', 1500, 1750], ['1750–1970', 1750, YEAR_MAX]];
 
 type Placed = { d: Discovery; x: number; lane: number; left: number; pin: boolean; off: boolean };
 

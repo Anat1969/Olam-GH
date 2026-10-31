@@ -950,6 +950,486 @@
       ],
       "verified": true,
       "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-48",
+      "fromId": "d-1637-descartes-geometrie",
+      "toId": "d-1637-descartes-discourse",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==הגאומטריה והספק יצאו באותו ספר.== **הגאומטריה** של דקארט פורסמה כנספח ל**מאמר על המתודה**.",
+      "application": "ללמד את השיטה ואת הדוגמה שלה יחד: **ספק** כדרך, **משוואה** כתוצאה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-la-ge-ome-trie",
+          "quote": "was published in 1637 as an appendix to Discours de la méthode (Discourse on the Method), written by René Descartes."
+        }
+      ],
+      "sources": [
+        "s-wp-la-ge-ome-trie"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-49",
+      "fromId": "p-newton",
+      "toId": "d-1781-kant-critique",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הפיזיקה של ניוטון שאלה את הפילוסופיה שאלה חדשה.== **קאנט** התרשם מאוד מההישגים המדעיים של **ניוטון**.",
+      "application": "לשאול איך מדע מצליח: זו השאלה ש**קאנט** שאל בעקבות **ניוטון**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-immanuel-kant",
+          "quote": "Like many of his contemporaries, Kant was greatly impressed with the scientific advances made by Sir Isaac Newton and others."
+        }
+      ],
+      "sources": [
+        "s-wp-immanuel-kant"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-50",
+      "fromId": "d-1915-einstein-general",
+      "toId": "d-1934-popper-falsifiability",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==איינשטיין לימד את פופר מהו מדע.== תאוריה **מסוכנת**, שאפשר להפריך, היא תאוריה מדעית.",
+      "application": "לבדוק כל טענה בשאלה אחת: **מה יפריך אותה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-karl-popper",
+          "quote": "Popper thought that Einstein's theory, as a theory properly grounded in scientific thought and method, was highly \"risky\""
+        }
+      ],
+      "sources": [
+        "s-wp-karl-popper"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-51",
+      "fromId": "d-1739-hume-treatise",
+      "toId": "d-1934-popper-falsifiability",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==פופר פתר את בעיית יום בהיפוך.== אי אפשר **לאשש** תאוריה מהעבר, אבל אפשר **להפריך** אותה.",
+      "application": "להחליף את השאלה \"איך מוכיחים\" בשאלה \"**איך מפריכים**\".",
+      "evidence": [
+        {
+          "sourceId": "s-wp-karl-popper",
+          "quote": "I approached the problem of induction through Hume."
+        }
+      ],
+      "sources": [
+        "s-wp-karl-popper"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-52",
+      "fromId": "p-copernicus",
+      "toId": "p-kuhn",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==המהפכה של קופרניקוס הפכה לתבנית של כל מהפכה.== **קון** כתב ספר שלם על **המהפכה הקופרניקאית**.",
+      "application": "לזהות **שינוי פרדיגמה** גם בעיר, בטכנולוגיה ובחברה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-copernican-revolution-book",
+          "quote": "The Copernican Revolution is a 1957 book by the philosopher Thomas Kuhn, in which the author provides an analysis of the Copernican Revolution"
+        }
+      ],
+      "sources": [
+        "s-wp-the-copernican-revolution-book"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-53",
+      "fromId": "p-aristotle",
+      "toId": "d-1190-maimonides-guide",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הרמב״ם קיבל את ההוכחות של אריסטו ודחה את הנצחיות.== הוא שאל מאריסטו את **המניע הראשון**, אבל לא את **נצחיות העולם**.",
+      "application": "לקרוא מקור ב**בחירה**: מה לקבל, ומה לדחות, ולמה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-guide-for-the-perplexed",
+          "quote": "While Aristotle's view with respect to the eternity of the universe is rejected, Maimonides extensively borrows his proofs of the existence of God and his concepts such as the Prime Mover"
+        }
+      ],
+      "sources": [
+        "s-wp-guide-for-the-perplexed"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-54",
+      "fromId": "p-aristotle",
+      "toId": "d-1265-aquinas-summa",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==אקווינס חיבר את אריסטו לנצרות.== הוא אימץ רעיונות של **אריסטו** ושילב אותם ב**תאולוגיה**.",
+      "application": "להראות ש**סינתזה** בין מסורות היא יצירה בפני עצמה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thomas-aquinas",
+          "quote": "He embraced several ideas put forward by Aristotle and sought to synthesize Aristotelian philosophy with the principles of Christianity."
+        }
+      ],
+      "sources": [
+        "s-wp-thomas-aquinas"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-55",
+      "fromId": "d-1190-maimonides-guide",
+      "toId": "p-aquinas",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מפוסטאט לפריז: הרמב״ם באוניברסיטה.== **אקווינס** הכיר את **אריסטו**, **אבן רושד** ו**הרמב״ם**, וכולם השפיעו עליו.",
+      "application": "לסמן על המפה את המסע של רעיון בין **שלוש דתות**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thomas-aquinas",
+          "quote": "It was at this university that Thomas was presumably introduced to Aristotle, Averroes and Maimonides, all of whom would influence his theological philosophy."
+        }
+      ],
+      "sources": [
+        "s-wp-thomas-aquinas"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-56",
+      "fromId": "p-descartes",
+      "toId": "d-1677-spinoza-ethics",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==שפינוזה למד את דקארט וכתב אחרת.== הוא הושפע מ**דקארט** ומ**הובס**, ובנה מערכת משלו.",
+      "application": "להשוות את **השיטה** של דקארט לשיטה הגאומטרית של שפינוזה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-baruch-spinoza",
+          "quote": "Influenced by Stoicism, Thomas Hobbes, René Descartes, and heterodox Christians"
+        }
+      ],
+      "sources": [
+        "s-wp-baruch-spinoza"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-57",
+      "fromId": "p-hobbes",
+      "toId": "d-1677-spinoza-ethics",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==שפינוזה למד את הובס וכתב אחרת.== הוא הושפע מ**דקארט** ומ**הובס**, ובנה מערכת משלו.",
+      "application": "להשוות את **האמנה** של הובס לחירות אצל שפינוזה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-baruch-spinoza",
+          "quote": "Influenced by Stoicism, Thomas Hobbes, René Descartes, and heterodox Christians"
+        }
+      ],
+      "sources": [
+        "s-wp-baruch-spinoza"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-58",
+      "fromId": "d-1620-bacon-organum",
+      "toId": "p-boyle",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==בויל עשה את מה שבייקון תיאר.== **בויל** ביצע במעבדה את העקרונות של **האורגנון החדש**.",
+      "application": "ללמד שיטה דרך **מי שהשתמש בה**, לא רק דרך מי שכתב אותה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-robert-boyle",
+          "quote": "Boyle's great merit as a scientific investigator is that he carried out the principles which Francis Bacon espoused in the Novum Organum."
+        }
+      ],
+      "sources": [
+        "s-wp-robert-boyle"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-59",
+      "fromId": "p-locke",
+      "toId": "p-newton",
+      "type": "parallel",
+      "confidence": "interpretive",
+      "explanation": "==הפילוסוף והפיזיקאי דיברו.== **לוק** ו**ניוטון** החליפו דעות באותן שנים.",
+      "application": "לחפש את **השיחות** שמאחורי הספרים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-john-locke",
+          "quote": "During this period, he discussed matters with such figures as John Dryden and Isaac Newton."
+        }
+      ],
+      "sources": [
+        "s-wp-john-locke"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-60",
+      "fromId": "p-aristotle",
+      "toId": "d-1027-avicenna-healing",
+      "type": "opposed",
+      "confidence": "documented",
+      "explanation": "==אבן סינא קרא את אריסטו בעין ביקורתית.== הפירושים שלו **מתחו ביקורת** על אריסטו ועוררו ויכוח.",
+      "application": "ללמד **ביקורת** של מקור כחלק מהבנה שלו.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-avicenna",
+          "quote": "Avicenna's commentaries on Aristotle often criticized the philosopher"
+        }
+      ],
+      "sources": [
+        "s-wp-avicenna"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-61",
+      "fromId": "d-1714-leibniz-monadology",
+      "toId": "p-spinoza",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==שלושה ימים בהאג.== **לייבניץ** נסע לפגוש את **שפינוזה** ושוחח איתו על פילוסופיה.",
+      "application": "להשוות שתי מערכות שנולדו **באותו עשור**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-baruch-spinoza",
+          "quote": "In 1676, Leibniz traveled to The Hague to meet Spinoza, remaining with him for three days to converse about current events and philosophy."
+        }
+      ],
+      "sources": [
+        "s-wp-baruch-spinoza"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-62",
+      "fromId": "p-vgalilei",
+      "toId": "p-galileo",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הפיזיקה של גלילאו התחילה במיתרים של אביו.== **וינצ׳נצו** חקר מיתרים במתמטיקה, ובנו **גלילאו** עזר לו.",
+      "application": "לבנות מונוקורד ולמדוד: **מוזיקה** היא מעבדה של **פיזיקה**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-vincenzo-galilei",
+          "quote": "mainly in his research (assisted by his son Galileo) in the mathematical formula of stretched strings."
+        }
+      ],
+      "sources": [
+        "s-wp-vincenzo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-63",
+      "fromId": "d-1581-vgalilei-dialogue",
+      "toId": "d-1607-monteverdi-orfeo",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הקמרטה של פירנצה הולידה את האופרה.== **וינצ׳נצו גליליי** היה חבר בקבוצה שהניחה את **היסוד לאופרה**.",
+      "application": "לספר את האופרה כ**ניסוי** של קבוצה, לפני שהפכה ליצירה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-galileo-galilei",
+          "quote": "Vincenzo was part of the Florentine Camerata, which laid the groundwork for the new genre of opera."
+        }
+      ],
+      "sources": [
+        "s-wp-galileo-galilei"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-64",
+      "fromId": "d-1722-bach-wtc",
+      "toId": "p-beethoven",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==בטהובן הצעיר גדל על באך.== היצירה העיקרית שניגן בילדותו הייתה **הפסנתר המושווה**.",
+      "application": "ללמוד יוצר דרך **מה שהוא ניגן** כשהיה תלמיד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-ludwig-van-beethoven",
+          "quote": "the chief piece he plays is Das wohltemperierte Klavier of Sebastian Bach, which Herr Neefe puts into his hands"
+        }
+      ],
+      "sources": [
+        "s-wp-ludwig-van-beethoven"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-65",
+      "fromId": "d-1865-wagner-tristan",
+      "toId": "d-1894-debussy-faune",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==דביסי התאהב בטריסטן, ואז כתב נגדו.== הוא קרא לו \"**הדבר היפה ביותר שאני מכיר**\", והמוזיקה שלו הייתה **תגובה** לוגנר.",
+      "application": "להראות שהשפעה יכולה להיות גם **התנגדות** למה שאוהבים.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-claude-debussy",
+          "quote": "Debussy heard the first act of Wagner's Tristan und Isolde at the Concerts Lamoureux and judged it \"decidedly the finest thing I know\"."
+        }
+      ],
+      "sources": [
+        "s-wp-claude-debussy"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-66",
+      "fromId": "d-1865-wagner-tristan",
+      "toId": "d-1923-schoenberg-twelve",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מטריסטן לשנים עשר הצלילים.== טריסטן **השפיע ישירות** על שנברג ועל בני דורו.",
+      "application": "לנגן את **אקורד טריסטן** ואחריו שורה של שנברג, ולשמוע את המעבר.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-tristan-und-isolde",
+          "quote": "directly inspiring Anton Bruckner, Gustav Mahler, Richard Strauss, Alban Berg, Arnold Schoenberg"
+        }
+      ],
+      "sources": [
+        "s-wp-tristan-und-isolde"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-67",
+      "fromId": "p-wagner",
+      "toId": "d-1883-nietzsche-zarathustra",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הפילוסוף שאב השראה מהמלחין.== **ניטשה** שאב השראה מטרגדיה יוונית, משופנהאואר ומ**וגנר**.",
+      "application": "לקרוא פילוסופיה עם **פסקול**: ניטשה ליד וגנר.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-friedrich-nietzsche",
+          "quote": "drew inspiration from such diverse sources as Greek tragedy, Arthur Schopenhauer, Ralph Waldo Emerson, and Richard Wagner"
+        }
+      ],
+      "sources": [
+        "s-wp-friedrich-nietzsche"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-68",
+      "fromId": "d-1894-debussy-faune",
+      "toId": "d-1913-stravinsky-rite",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==שני מלחינים ליד פסנתר אחד.== **סטרווינסקי** ו**דביסי** ניגנו יחד את החצי הראשון של **פולחן האביב**.",
+      "application": "לשמוע את שתי היצירות ברצף, ולחפש **מה עבר** מאחת לשנייה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-the-rite-of-spring",
+          "quote": "he and the composer Claude Debussy played the first half of this together, in June 1912."
+        }
+      ],
+      "sources": [
+        "s-wp-the-rite-of-spring"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-69",
+      "fromId": "p-galileo",
+      "toId": "d-1636-mersenne-harmonie",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==מרסן הפיץ את גלילאו בפריז.== **מרסן** הגן על **גלילאו** ועזר לתרגם את עבודותיו.",
+      "application": "לראות **מתרגם** כחוליה בשרשרת של גילוי.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-marin-mersenne",
+          "quote": "He was a staunch defender of Galileo, assisting him in translations of some of his mechanical works."
+        }
+      ],
+      "sources": [
+        "s-wp-marin-mersenne"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-70",
+      "fromId": "p-hobbes",
+      "toId": "d-1636-mersenne-harmonie",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==סלון אחד בפריז, כמה תחומים.== **הובס** השתתף בדיונים שאסף **מרסן**.",
+      "application": "לבנות היום **סלון** כזה: מדע, מוזיקה ופילוסופיה סביב שולחן אחד.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-thomas-hobbes",
+          "quote": "was later a regular debater in philosophic groups in Paris, held together by Marin Mersenne."
+        }
+      ],
+      "sources": [
+        "s-wp-thomas-hobbes"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
+    },
+    {
+      "id": "l-71",
+      "fromId": "p-descartes",
+      "toId": "d-1636-mersenne-harmonie",
+      "type": "parallel",
+      "confidence": "documented",
+      "explanation": "==מרסן היה הדואר של המדע.== בין המתכתבים שלו היו **דקארט**, **גלילאו** ו**פסקל**.",
+      "application": "למפות **רשת התכתבות** כמו שממפים רשת של רחובות.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-marin-mersenne",
+          "quote": "Among his correspondents were Descartes, Galileo, Roberval, Pascal, Beeckman and other scientists."
+        }
+      ],
+      "sources": [
+        "s-wp-marin-mersenne"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31"
     }
   ]
 }

@@ -25,11 +25,13 @@ function LayerStack({ hover, setHover }: { hover: string | null; setHover: (id: 
             <path d={sheet(y)} fill={f.color} fillOpacity={active ? 0.2 : 0.08} stroke={f.color} strokeOpacity={active ? 0.9 : 0.45} />
             <path d={`M60 ${y} L230 ${y + 85} L230 ${y + 91} L60 ${y + 6} Z`} fill={f.color} fillOpacity={active ? 0.5 : 0.2} />
             <path d={`M230 ${y + 85} L400 ${y} L400 ${y + 6} L230 ${y + 91} Z`} fill={f.color} fillOpacity={active ? 0.35 : 0.14} />
-            {active && discoveries.map((d) => {
+            {active && discoveries.filter((d) => f.domains.some((x) => x.id === d.domainId)).map((d) => {
+              // כל גילוי על השכבה של המשפחה שלו, ולכל תחום פס משלו בתוך השכבה
               const cx = 392 - frac(d.yearFrom) * 324;
               const half = 85 * (1 - Math.abs(cx - 230) / 170);
-              const di = activeDomains.findIndex((a) => a.id === d.domainId);
-              const side = activeDomains.length > 1 ? -0.9 + (1.8 * di) / (activeDomains.length - 1) : 0;
+              const fam = f.domains.filter((x) => activeDomains.some((a) => a.id === x.id));
+              const di = fam.findIndex((a) => a.id === d.domainId);
+              const side = fam.length > 1 ? -0.9 + (1.8 * di) / (fam.length - 1) : 0;
               return <circle key={d.id} className="stack-dot" cx={cx} cy={y + side * 0.5 * half} r={3.6}
                 fill={`var(--${d.domainId})`} />;
             })}
@@ -53,7 +55,7 @@ export default function Home() {
     <main className="page">
       <section className="hero">
         <div className="hero-text rise">
-          <div className="label">שלב 0 ושלב 1 · <bdi className="num">{discoveries.length}</bdi> גילויים מאומתים</div>
+          <div className="label"><bdi className="num">{activeDomains.length}</bdi> תחומים · <bdi className="num">{discoveries.length}</bdi> גילויים מאומתים</div>
           <h1 className="hero-title"><Rich>{`${discoveries.length} גילויים, ולכל אחד ציטוט מהמקור.`}</Rich></h1>
           <p className="hero-sub lines">
             <span><Rich>{activeDomains.map((d) => `**${d.nameHe}**`).join(', ').replace(/, ([^,]*)$/, ' ו$1')}</Rich> על ציר זמן אחד, לאורך <bdi className="num">{span.toLocaleString('en')}</bdi> שנה.</span>
