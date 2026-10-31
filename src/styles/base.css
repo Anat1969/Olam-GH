@@ -73,7 +73,7 @@ mark.insight { background: linear-gradient(transparent 45%, var(--marker) 45%, v
 
 /* סרגל עליון */
 .topbar { position: sticky; top: 0; z-index: 20; background: rgba(255, 255, 255, .92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--rule); }
-.topbar-in { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; }
+.topbar-in { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto auto; align-items: center; gap: 12px; }
 .brand { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 16px; color: var(--sechel); text-decoration: none; padding: 12px 0; white-space: nowrap; }
 .brand img { width: 26px; height: 26px; display: block; }
 .tabs { display: flex; overflow-x: auto; min-width: 0; scrollbar-width: none; }
@@ -119,6 +119,7 @@ mark.insight { background: linear-gradient(transparent 45%, var(--marker) 45%, v
 /* שש לשוניות בטלפון: הן לא נכנסות ליד הלוגו, ולכן עוברות לשורה משלהן מתחתיו */
 @media (max-width: 480px) {
   .topbar-in { grid-template-columns: auto minmax(0, 1fr) auto; row-gap: 0; }
+  .topbar-in > .kw-field { grid-column: 2; grid-row: 1; width: 100%; }
   .topbar-in > ai-menu { grid-column: 3; grid-row: 1; }
   .tabs { grid-column: 1 / -1; grid-row: 2; justify-content: space-between; border-top: 1px solid var(--rule); }
   .tab { padding: 10px 6px; font-size: 13px; }

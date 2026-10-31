@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useRoute, href, go } from './route';
+import { useRoute, href } from './route';
 import { loadCloud, logout, toggleEditing, useCloud } from './cloud';
 import LoginDialog from './components/LoginDialog';
 import DraftDialog from './components/DraftDialog';
@@ -10,13 +10,14 @@ import Compare from './pages/Compare';
 import MapPage from './pages/MapPage';
 import GraphPage from './pages/GraphPage';
 import SearchPage from './pages/SearchPage';
+import { KeywordField, KeywordStrip } from './components/KeywordBar';
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace JSX { interface IntrinsicElements { 'ai-menu': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & { chat?: string } } }
 }
 
-const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['graph', 'גרף'], ['search', 'חיפוש'], ['method', 'מקורות']];
+const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['graph', 'גרף'], ['method', 'מקורות']];
 
 export default function App() {
   const { page, params } = useRoute();
@@ -33,17 +34,6 @@ export default function App() {
     const ro = new ResizeObserver(set);
     ro.observe(bar);
     return () => ro.disconnect();
-  }, []);
-  // "/" מכל מקום פותח את החיפוש (כשלא מקלידים בשדה)
-  useEffect(() => {
-    const k = (e: KeyboardEvent) => {
-      const t = e.target as HTMLElement;
-      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || t.closest('input, textarea, select, [contenteditable="true"]')) return;
-      e.preventDefault();
-      go('search');
-    };
-    window.addEventListener('keydown', k);
-    return () => window.removeEventListener('keydown', k);
   }, []);
   // כל פעולות העריכה יושבות בתוך כפתור הלוגו, לפי תקן ai-menu
   useEffect(() => {
@@ -62,7 +52,7 @@ export default function App() {
     apply();
     customElements.whenDefined('ai-menu').then(apply);
   }, [cloud.admin, cloud.editing, cloud.status, cloud.session]);
-  const current = TABS.some(([id]) => id === page) ? page : 'home';
+  const current = TABS.some(([id]) => id === page) || page === 'search' ? page : 'home';
   return (
     <>
       <header className="topbar">
@@ -76,8 +66,10 @@ export default function App() {
               <a key={id} className="tab" href={href(id)} aria-current={current === id ? 'page' : undefined}>{label}</a>
             ))}
           </nav>
+          <KeywordField />
           <ai-menu chat="https://claude.ai/code/session_018qeN17LAcGjZpUinASMoqS"></ai-menu>
         </div>
+        <KeywordStrip page={current} />
       </header>
       {loginOpen && <LoginDialog onClose={() => setLoginOpen(false)} />}
       {draftOpen && cloud.admin && <DraftDialog onClose={() => setDraftOpen(false)} />}

@@ -620,3 +620,40 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .sub-col.is-target { outline: 3px solid var(--marker); outline-offset: 2px; }
 .pp-anon { cursor: default; color: var(--ink-mute); }
 .work .facts { margin-bottom: 12px; }
+
+/* חיפוש קבוע בסרגל */
+.kw-field { position: relative; width: clamp(180px, 22vw, 280px); }
+.kw-input { width: 100%; box-sizing: border-box; border: 1px solid var(--rule); background: var(--sheet); font: inherit; font-size: 14px; padding: 8px 12px; padding-inline-end: 34px; border-radius: 0; color: var(--ink); }
+.kw-input:focus-visible { outline: 2px solid var(--bank); outline-offset: 0; }
+.kw-input::placeholder { color: var(--ink-mute); }
+/* האיקס תמיד גלוי, באפור בהיר */
+.kw-clear { position: absolute; inset-inline-end: 4px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; border: 0; background: none; color: #B9B7B0; font-size: 20px; line-height: 1; cursor: pointer; padding: 0; }
+.kw-clear:not(:disabled):hover { color: var(--ink); }
+.kw-clear:disabled { cursor: default; }
+/* שורת התוצאות מתחת לסרגל */
+.kw-strip { border-top: 1px solid var(--rule); background: rgba(255, 249, 219, .96); }
+.kw-strip-in { max-width: 1200px; margin: 0 auto; padding: 6px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+.kw-sum { font-size: 13px; }
+.kw-doms { display: flex; flex-wrap: wrap; gap: 6px; }
+.kw-doms .chip { padding: 3px 10px; font-size: 12px; }
+.kw-all { text-decoration: none; }
+.kw-panel { max-width: 1200px; margin: 0 auto; padding: 4px 16px 10px; max-height: min(50vh, 420px); overflow-y: auto; }
+.kw-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; }
+.kw-item { width: 100%; display: flex; align-items: center; gap: 8px; padding: 6px 8px; background: var(--sheet); border: 1px solid var(--rule); font: inherit; text-align: start; cursor: pointer; color: var(--ink); }
+.kw-item:hover, .kw-item:focus-visible { border-color: var(--ink); }
+.kw-item img { width: 32px; height: 32px; object-fit: cover; flex: none; }
+.kw-item-text { display: grid; min-width: 0; }
+.kw-item-name { font-weight: 700; font-size: 14px; }
+.kw-item-sub { font-size: 12px; color: var(--ink-mute); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* הדגשה בדף: מה שמתאים במרקר, השאר מתעמעם */
+.tl-card.is-kw, .cmp-card.is-kw { outline: 3px solid var(--marker); outline-offset: 1px; box-shadow: 0 0 0 5px rgba(255, 228, 92, .35); z-index: 2; }
+.tl-card.is-kw-off, .cmp-card.is-kw-off, .cmp-pin.is-kw-off { opacity: .28; }
+.cmp-pin.is-kw { box-shadow: 0 0 0 4px var(--marker); }
+.tl-dot.is-kw circle { stroke: var(--ink); stroke-width: 2; }
+.tl-dot.is-kw-off { opacity: .3; }
+.map-city.is-kw .mc-sq { box-shadow: 0 0 0 4px var(--marker), 0 0 0 5px var(--ink); }
+.map-city.is-kw .mc-name { background: var(--marker); }
+.map-city.is-kw-off { opacity: .3; }
+.g-node.is-kw .g-sq { stroke: var(--ink); stroke-width: 3; fill: var(--marker); }
+.g-node.is-kw-off { opacity: .22; }
+.kw-note { margin: 0 0 10px; padding: 6px 10px; background: rgba(255, 249, 219, .96); border: 1px solid var(--marker); font-size: 13px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }

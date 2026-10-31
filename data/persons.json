@@ -18270,6 +18270,46 @@
       "birthApprox": false,
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:Head_of_Vespasianus_in_Palazzo_Massimo_(Rome).jpg"
+    },
+    {
+      "id": "p-bell",
+      "wikipedia": "Alexander Graham Bell",
+      "nameHe": "אלכסנדר גרהם בל",
+      "nameFull": "Alexander Graham Bell",
+      "birthYear": 1847,
+      "birthDate": "1847-03-03",
+      "deathYear": 1922,
+      "deathDate": "1922-08-02",
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q23436",
+        "nameHe": "אדינבורו",
+        "nameFull": "Edinburgh",
+        "lat": 55.9533,
+        "lon": -3.1892,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "domains": [
+        "physics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alexander_Graham_Bell.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Moffett Studio",
+      "sources": [
+        "s-wp-alexander-graham-bell",
+        "s-wd-q34286"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-10-31",
+      "wikidata": "Q34286",
+      "nameHeSource": "wikidata",
+      "birthApprox": false,
+      "deathApprox": false,
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpg"
     }
   ]
 }
