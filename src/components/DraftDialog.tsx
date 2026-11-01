@@ -1,5 +1,6 @@
 // גילוי חדש כטיוטה, מתוך כפתור הלוגו. הטיוטה נשמרת בענן ולא מוצגת לציבור.
 // הממשק בודק מיד את שני התנאים של סקריפט האימות: הציטוט מופיע במאמר, והשנה מופיעה בציטוט.
+import IconButton from '../ui/IconButton';
 import { useEffect, useRef, useState } from 'react';
 import { checkQuote, loadDrafts, saveDraft, yearTokens, type Draft } from '../cloud';
 import { allDiscoveries, families } from '../data';
@@ -60,7 +61,7 @@ export default function DraftDialog({ onClose }: { onClose: () => void }) {
   return (
     <div className="dialog-back" onClick={onClose}>
       <form className="dialog dialog-wide card rise" dir="rtl" role="dialog" aria-label="גילוי חדש" onClick={(e) => e.stopPropagation()} onSubmit={submit}>
-        <h2 className="city-title">גילוי חדש, כטיוטה</h2>
+        <div className="dialog-head"><h2 className="city-title">גילוי חדש, כטיוטה</h2><IconButton icon="close" label="סגירה" onClick={onClose} /></div>
         <p className="muted small lines">
           <span>הטיוטה <strong>לא מוצגת לציבור</strong>. היא נכנסת לאתר רק אחרי שהסקריפט מאמת את הציטוט מול המקור.</span>
           <span>המקור הוא מאמר בוויקיפדיה האנגלית. הציטוט מועתק ממנו מילה במילה, ובו השנה.</span>
@@ -90,7 +91,6 @@ export default function DraftDialog({ onClose }: { onClose: () => void }) {
         {msg && <p className="tone edit-msg" role="status">{msg}</p>}
         <div className="seg">
           <button type="submit" className="press btn btn-primary" disabled={busy}>{busy ? 'שומרת…' : 'שמירת טיוטה'}</button>
-          <button type="button" className="press btn" onClick={onClose}>סגירה</button>
         </div>
         {list.length > 0 && (
           <section aria-label="טיוטות">

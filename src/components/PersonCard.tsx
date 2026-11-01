@@ -4,6 +4,7 @@ import Rich from './Rich';
 import Editable from './Editable';
 import Quote from './Quote';
 import WorkImage from './WorkImage';
+import PersonSummary from './PersonSummary';
 import CardNav, { type Nav } from './CardNav';
 import {
   type Person, confidenceName, discoveriesOf, domainById, lifeText, linkVerb, linksOf, nodeLabel, personById, rangeText, sourceById,
@@ -32,11 +33,7 @@ export default function PersonCard({ person, onClose, onOpen, nav }: { person: P
 
   return (
     <aside className="person rise" ref={ref} tabIndex={-1} aria-label={`כרטיס דמות: ${person.nameHe}`}>
-      <div className="person-head">
-        <div className="crumbs">ציר הזמן / כרטיס דמות</div>
-        <button type="button" className="press btn btn-quiet" onClick={onClose}>סגירה</button>
-      </div>
-      <CardNav nav={nav} />
+      <CardNav nav={nav} onClose={onClose} />
       <div className="person-hero">
         <figure className="person-face">
           {person.imageUrl ? <img src={person.imageUrl} alt={person.nameHe} loading="lazy" /> : <div className="face-empty" />}
@@ -62,6 +59,7 @@ export default function PersonCard({ person, onClose, onOpen, nav }: { person: P
         </div>
       </div>
 
+      <PersonSummary person={person} onOpen={(id) => onOpen(id)} />
       <h3 className="section-title">גילויים</h3>
       {finds.map((d) => (
         <article key={d.id} className="find">

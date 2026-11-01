@@ -22,11 +22,7 @@ export default function WorkCard({ d, onClose, onOpen, nav }: { d: Discovery; on
   const dom = domainById.get(d.domainId);
   return (
     <aside className="person work rise" ref={ref} tabIndex={-1} aria-label={`כרטיס יצירה: ${d.title}`}>
-      <div className="person-head">
-        <div className="crumbs">ציר הזמן / כרטיס יצירה</div>
-        <button type="button" className="press btn btn-quiet" onClick={onClose}>סגירה</button>
-      </div>
-      <CardNav nav={nav} />
+      <CardNav nav={nav} onClose={onClose} />
       <h2 className="person-name"><Editable kind="discovery" id={d.id} field="title" value={d.title} rich={false} /></h2>
       <WorkImage d={d} />
       <dl className="facts">

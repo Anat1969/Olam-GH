@@ -1,9 +1,11 @@
-// מעבר בין דמויות באותו נושא: הקודם והבא לפי סדר הזמן, עם המקום ברצף. חצים במקלדת לפי כיוון הקריאה (ימינה = הקודם).
+// שורת התפעול של כרטיס (דמות או יצירה): הקודם, המקום ברצף, הבא, ואיקס לסגירה. אייקונים קומפקטיים בפינה.
+// חצים במקלדת לפי כיוון הקריאה (ימינה = הקודם), Esc סוגר.
 import { useEffect } from 'react';
+import IconButton, { IconRow } from '../ui/IconButton';
 
 export type Nav = { pos: number; total: number; label: string; onPrev?: () => void; onNext?: () => void };
 
-export default function CardNav({ nav }: { nav?: Nav }) {
+export default function CardNav({ nav, onClose }: { nav?: Nav; onClose: () => void }) {
   useEffect(() => {
     if (!nav) return;
     const k = (e: KeyboardEvent) => {
@@ -15,12 +17,16 @@ export default function CardNav({ nav }: { nav?: Nav }) {
     window.addEventListener('keydown', k);
     return () => window.removeEventListener('keydown', k);
   }, [nav]);
-  if (!nav) return null;
   return (
-    <div className="card-nav" role="group" aria-label="מעבר בין דמויות">
-      <button type="button" className="press btn" disabled={!nav.onPrev} onClick={nav.onPrev}>הקודם</button>
-      <span className="card-nav-pos"><bdi className="num">{nav.pos}</bdi> מתוך <bdi className="num">{nav.total}</bdi> {nav.label}</span>
-      <button type="button" className="press btn" disabled={!nav.onNext} onClick={nav.onNext}>הבא</button>
+    <div className="card-nav">
+      {nav ? (
+        <IconRow label="מעבר בין דמויות">
+          <IconButton icon="prev" label="הקודם" disabled={!nav.onPrev} onClick={nav.onPrev} />
+          <span className="icon-row-pos"><bdi className="num">{nav.pos}</bdi>/<bdi className="num">{nav.total}</bdi> {nav.label}</span>
+          <IconButton icon="next" label="הבא" disabled={!nav.onNext} onClick={nav.onNext} />
+        </IconRow>
+      ) : <span />}
+      <IconButton icon="close" label="סגירה" onClick={onClose} />
     </div>
   );
 }

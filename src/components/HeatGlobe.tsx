@@ -7,6 +7,7 @@ import land110 from 'world-atlas/land-110m.json';
 import type { Topology, GeometryCollection } from 'topojson-specification';
 import { discoveries, yearText } from '../data';
 import YearSlider from '../ui/YearSlider';
+import IconButton from '../ui/IconButton';
 
 const land = feature(land110 as unknown as Topology, (land110 as unknown as Topology).objects.land as GeometryCollection);
 const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -97,7 +98,7 @@ export default function HeatGlobe() {
       </figcaption>
       <div className="hg-controls">
         <YearSlider label="שנה" value={year} from={first} to={last} onChange={(y) => { setPlaying(false); setYear(y); }} />
-        <button type="button" className="press btn btn-primary" aria-pressed={playing} onClick={() => setPlaying((x) => !x)}>{playing ? 'עצירה' : 'הפעלה'}</button>
+        <IconButton icon={playing ? 'pause' : 'play'} label={playing ? 'עצירה' : 'הפעלת הזמן על הגלובוס'} className="is-primary" pressed={playing} onClick={() => setPlaying((x) => !x)} />
       </div>
     </figure>
   );

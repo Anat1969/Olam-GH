@@ -205,16 +205,40 @@ async function main() {
   // תמונת היצירה: מהפריט בוויקינתונים של מאמר המקור (P18 תמונה, P3383 כרזת סרט), מוויקישיתוף ועם רישיון בלבד.
   // מאמר של הדמות עצמה לא נחשב, כדי שדיוקן לא יוצג כתמונת היצירה.
   const personTitles = new Set(persons.map((p) => p.wikipedia));
+  // מאמר ייעודי לתמונת יצירה, כשמאמר המקור הוא של הדמות (למשל טאי צ'י בסגנון יאנג)
+  const workImageArticles = fs.existsSync(path.join(DATA, 'work-image-articles.json')) ? read('work-image-articles.json') : {};
   for (const d of discoveries) {
     let found = null;
+    // null במיפוי = אין תמונה רלוונטית (עדיף חור מפורש על תמונה מטעה)
+    if (Object.prototype.hasOwnProperty.call(workImageArticles, d.id) && workImageArticles[d.id] === null) { delete d.workImage; continue; }
     const titles = [...new Set(d.evidence.map((ev) => srcById.get(ev.sourceId)?.title?.replace(/, Wikipedia$/, '')).filter(Boolean))];
-    for (const t of titles) {
+    for (const t of [...(workImageArticles[d.id] ? [workImageArticles[d.id]] : []), ...titles]) {
       if (personTitles.has(t)) continue;
       const art = await article(t);
       const e = art?.qid ? await entity(art.qid) : null;
       const file = e && (claim(e, 'P18') || claim(e, 'P3383'));
       const im = file && (await commonsImage(file));
       if (im) { found = { url: im.imageUrl, license: im.imageLicense, credit: im.imageCredit, page: im.imagePage, article: t }; break; }
+    }
+    // אין תמונה לפריט עצמו: התמונה הראשונה שמופיעה במאמר המקור (לפי סדר ההופעה), מוויקישיתוף ועם רישיון.
+    // מדלגים על אייקונים, מפות, חתימות, דגלים ועל הדיוקן של הדמות, כדי שהתמונה תהיה של היצירה, האירוע או המקום.
+    if (!found) {
+      const portraits = new Set(persons.map((p) => decodeURIComponent((p.imageUrl || '').split('/').pop() || '').replace(/^\d+px-/, '')).filter(Boolean));
+      const skip = /(icon|logo|flag|map|signature|sign|symbol|coat[_ ]of|seal|stub|question|commons-logo|wiki|edit|ambox|portal|crystal|nuvola|padlock|folder|sound|audio|\.svg$|\.ogg$|\.webm$|\.ogv$|\.mid$|\.gif$)/i;
+      // רק התמונה החופשית הראשית של המאמר (page_image_free), שמייצגת אותו. תמונות פנימיות במאמר יצאו רועשות מדי
+      // (בחקירת יום תמונת זריחה ליד יום, ציור של סזאן ליד פיקאסו).
+      const extra = (workImageArticles[d.id] ? [workImageArticles[d.id]] : []);
+      outer: for (const t of [...extra, ...new Set([...titles, ...d.evidence.map((ev) => srcById.get(ev.sourceId)?.title?.replace(/, Wikipedia$/, '')).filter(Boolean)])]) {
+        const j = await cached('pif-' + t, `https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&ppprop=page_image_free&format=json&redirects=1&titles=${encodeURIComponent(t)}`);
+        const f = j && Object.values(j.query?.pages || {})[0]?.pageprops?.page_image_free;
+        if (!f) continue;
+        if (skip.test(f) || portraits.has(f) || [...portraits].some((x) => x.endsWith(f))) continue;
+        const fl = f.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        const nameTokens = d.personIds.flatMap((pid) => (persons.find((p) => p.id === pid)?.wikipedia || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/[\s_\-',.()]+/)).filter((w) => w.length >= 4);
+        if (!extra.includes(t) && (/portrait|selfportrait|bust_of|headshot/.test(fl) || nameTokens.some((w) => fl.includes(w)))) continue;
+        const im = await commonsImage(f.replace(/_/g, ' '));
+        if (im) { found = { url: im.imageUrl, license: im.imageLicense, credit: im.imageCredit, page: im.imagePage, article: t, fromArticle: true }; break outer; }
+      }
     }
     if (found) d.workImage = found; else delete d.workImage;
   }

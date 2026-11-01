@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "persons": [
     {
       "id": "p-alhazen",
@@ -7627,12 +7627,12 @@
       "confidence": "documented"
     }
   ],
-  "workImages": 243,
+  "workImages": 304,
   "summary": {
     "persons": "459/459",
     "discoveries": "424/424",
     "links": "229/230",
     "images": 426,
-    "workImages": 243
+    "workImages": 304
   }
 }

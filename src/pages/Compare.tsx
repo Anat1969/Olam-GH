@@ -1,8 +1,10 @@
 // שלב 2: השוואה בין תחומים. כמה שורות על ציר זמן אחד, זום מסונכרן ב-D3, וקשרים שנבחרים בלחיצה.
 // השורה הראשונה מציגה כרטיסים מעל הציר, והאחרות מתחתיו, כך שבין הצירים נשאר "שדה הקשרים".
+import IconButton, { IconRow } from '../ui/IconButton';
 import { useRevealOnChange } from '../ui/reveal';
 import DomainIcon from '../icons';
 import DomainPicker from '../ui/DomainPicker';
+import Picker from '../ui/Picker';
 import PeriodPicker from '../ui/PeriodPicker';
 import YearSlider from '../ui/YearSlider';
 import { useMatches } from '../search';
@@ -130,6 +132,11 @@ export default function Compare({ params }: { params: Record<string, string> }) 
     select(wrap.current).call(zb.current.transform, windowToTransform(from, to));
     set({ f: from === YEAR_MIN && to === YEAR_MAX ? undefined : String(from), t: from === YEAR_MIN && to === YEAR_MAX ? undefined : String(to) });
   };
+  // תזוזה בזמן: חצי חלון אחורה (מוקדם) או קדימה (מאוחר). בציר מימין לשמאל, "אחורה" זה ימינה.
+  const panBy = (dir: -1 | 1) => {
+    if (!wrap.current || !zb.current) return;
+    select(wrap.current).call(zb.current.translateBy, (dir * (W - 2 * PAD) / 2) / t.k, 0);
+  };
   const zoomBy = (k: number) => {
     if (!wrap.current || !zb.current) return;
     select(wrap.current).call(zb.current.scaleBy, k, [W / 2, 0]);
@@ -201,20 +208,20 @@ export default function Compare({ params }: { params: Record<string, string> }) 
             <button key={label} type="button" className="press chip" aria-pressed={Math.abs(viewFrom - a) < 8 && Math.abs(viewTo - b) < 8} onClick={() => goWindow(a, b)}>{label}</button>
           ))}
           <PeriodPicker label="תקופה לבחינה" from={Math.max(viewFrom, YEAR_MIN)} to={Math.min(viewTo, YEAR_MAX)} onChange={(f, t) => goWindow(f ?? YEAR_MIN, t ?? YEAR_MAX)} />
-          <button type="button" className="press chip" onClick={() => zoomBy(1.6)}>הגדלה</button>
-          <button type="button" className="press chip" disabled={t.k <= 1.001} onClick={() => zoomBy(1 / 1.6)}>הקטנה</button>
+          {/* הציר: הרחבה (פחות שנים על המסך), כיווץ, ותזוזה אחורה וקדימה בזמן */}
+          <IconRow label="תנועה על הציר">
+            <IconButton icon="back" label="אחורה בזמן" disabled={viewFrom <= YEAR_MIN + 1} onClick={() => panBy(-1)} />
+            <IconButton icon="zoomIn" label="הרחבת הציר (פחות שנים, יותר פרטים)" onClick={() => zoomBy(1.6)} />
+            <IconButton icon="zoomOut" label="כיווץ הציר (יותר שנים)" disabled={t.k <= 1.001} onClick={() => zoomBy(1 / 1.6)} />
+            <IconButton icon="forward" label="קדימה בזמן" disabled={viewTo >= YEAR_MAX - 1} onClick={() => panBy(1)} />
+            <IconButton icon="reset" label="כל הציר" disabled={t.k <= 1.001} onClick={() => goWindow(YEAR_MIN, YEAR_MAX)} />
+          </IconRow>
         </div>
         <div className="seg" role="group" aria-label="סוג קשר">
-          {TYPES.map((ty) => {
-            const n = all.filter((r) => r.link.type === ty).length;
-            const on = !hiddenTypes.has(ty);
-            return (
-              <button key={ty} type="button" className={`press chip chip-line line-${ty}`} aria-pressed={on} disabled={!n}
-                onClick={() => { const h = new Set(hiddenTypes); on ? h.add(ty) : h.delete(ty); set({ h: [...h].join(',') || undefined }); }}>
-                {linkTypeName[ty]} <bdi className="num">{n}</bdi>
-              </button>
-            );
-          })}
+          {/* סוגי קשר באותו בורר: לחיצה מחליפה, "+" מוסיף. בכתובת נשמרים הסוגים המוסתרים (h). */}
+          <Picker label="סוג קשר" allLabel="כל הקשרים" selected={hiddenTypes.size ? TYPES.filter((ty) => !hiddenTypes.has(ty)) : null}
+            onChange={(next) => set({ h: next ? TYPES.filter((ty) => !next.includes(ty)).join(',') || undefined : undefined })}
+            options={TYPES.map((ty) => ({ id: ty, title: linkTypeName[ty], className: `chip-line line-${ty}`, label: linkTypeName[ty], count: all.filter((r) => r.link.type === ty).length, disabled: !all.some((r) => r.link.type === ty) }))} />
           {rows.length > 1 && (
             <button type="button" className="press chip" aria-pressed={crossOnly} onClick={() => set({ x: crossOnly ? undefined : '1' })}>רק חוצי תחום</button>
           )}
