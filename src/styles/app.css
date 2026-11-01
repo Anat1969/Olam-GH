@@ -65,7 +65,8 @@ a.tab { text-decoration: none; display: inline-block; }
 .inspire { margin-top: 32px; font-size: 13px; color: var(--ink-mute); border-top: 1px solid var(--rule); padding-top: 12px; }
 
 /* ציר הזמן */
-.page-wide { max-width: 1320px; }
+/* ניצול המסך: עמודים רחבים תופסים את כל הרוחב עד 1800, בלי שוליים מתים */
+.page-wide { max-width: 1800px; }
 .tl-controls { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: center; margin-bottom: 12px; padding: 12px 16px; }
 .seg { display: flex; gap: 6px; flex-wrap: wrap; min-width: 0; }
 .slider { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 10px; min-width: 0; }
@@ -267,8 +268,14 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .maplibregl-ctrl-group button { border-radius: 0 !important; }
 .maplibregl-ctrl-attrib { font-size: 10px; border-radius: 0 !important; }
 .map-city { --sq: 18px; position: relative; display: flex; align-items: center; gap: 6px; padding: 0; border: 0; background: none; cursor: pointer; font: inherit; direction: rtl; }
-.mc-sq { width: var(--sq); height: var(--sq); display: grid; place-items: center; color: #fff; font-size: 11px; border: 2px solid var(--archive); box-shadow: 0 2px 6px rgba(23, 25, 28, .35); transition: width .4s cubic-bezier(.2, .7, .2, 1), height .4s cubic-bezier(.2, .7, .2, 1), transform .15s; }
-.map-city.conf-interpretive .mc-sq { border-color: var(--reading); }
+.mc-sq { width: var(--sq); height: var(--sq); display: grid; place-items: center; color: #fff; font-size: 11px; border: 1.5px solid rgba(255, 255, 255, .9); box-shadow: 0 2px 6px rgba(23, 25, 28, .35); transition: width .4s cubic-bezier(.2, .7, .2, 1), height .4s cubic-bezier(.2, .7, .2, 1), transform .15s; }
+/* רמת ביטחון של המקום: רק כשמדליקים אותה (אחרת רעש על המפה) */
+.show-conf .map-city .mc-sq { border: 2px solid var(--archive); }
+.show-conf .map-city.conf-interpretive .mc-sq { border-color: var(--reading); }
+/* עיר שנכנסת לידע בזמן ההפעלה: צומחת פנימה */
+.map-city.is-new .mc-sq { animation: mc-pop .7s cubic-bezier(.2, .7, .2, 1); }
+@keyframes mc-pop { from { transform: scale(0); } 60% { transform: scale(1.25); } to { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { .map-city.is-new .mc-sq { animation: none; } }
 .map-city:hover .mc-sq { transform: translateY(-2px); }
 .map-city:active .mc-sq { transform: translateY(1px); }
 .map-city:focus-visible { outline: 2px solid var(--sechel); outline-offset: 3px; }
@@ -665,13 +672,13 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .work-img figcaption { margin-top: 4px; font-size: 10px; line-height: 1.4; overflow-wrap: anywhere; }
 .work-img.is-small img { max-height: 120px; }
 .search-hit img, .kw-item img { object-fit: cover; }
-.card-nav { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 8px; margin: 0 0 12px; }
+.card-nav { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: -6px -8px 8px; position: sticky; top: -16px; z-index: 2; background: inherit; padding: 4px 0; }
 .card-nav-pos { text-align: center; font-size: 12px; color: var(--ink-mute); }
 
 /* מסך לא על מסך: במסך רחב, כרטיס הדמות או היצירה תופס טור משלו והדף זז הצידה, במקום להסתיר את הציר */
 @media (min-width: 1100px) {
-  body:has(aside.person) .page-wide { padding-left: 480px; transition: padding-left .2s; }
-  body:has(aside.person) .page:not(.page-wide) { padding-left: 480px; }
+  /* כרטיס פתוח: הוא טור משמאל, והתוכן ממלא את כל השאר (בלי מרכוז שמשאיר שטח מת) */
+  body:has(aside.person) .page { max-width: none; margin: 0; padding-left: 484px; padding-right: 24px; transition: padding-left .2s; }
 }
 
 /* אייקוני התחומים: קו אחד, צבע התחום */
@@ -769,3 +776,55 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .cmp-controls > * + * { border-top: 1px solid var(--rule); padding-top: 8px; }
 /* ציר הזמן: גבול הידע ותקופה בשורה משלהם */
 .tl-time { display: grid; gap: 8px; grid-column: 1 / -1; }
+
+/* כפתורי תפעול: אייקון קו, קומפקטי, בשורה בפינה */
+.icon-row { display: inline-flex; align-items: center; gap: 2px; }
+.icon-btn { width: 32px; height: 32px; display: inline-grid; place-items: center; padding: 0; border: 0; background: none; color: var(--ink-soft); cursor: pointer; transition: color .15s, background .15s, transform .15s; }
+.icon-btn svg { width: 20px; height: 20px; }
+.icon-btn:hover:not(:disabled) { color: var(--ink); background: var(--paper); transform: translateY(-1px); }
+.icon-btn:focus-visible { outline: 2px solid var(--sechel); outline-offset: 1px; }
+.icon-btn[aria-pressed="true"] { color: var(--sheet); background: var(--ink); }
+.icon-btn:disabled { opacity: .3; cursor: default; }
+.icon-btn.is-primary { color: var(--sheet); background: var(--bank, var(--sechel)); }
+.icon-btn.is-primary:hover:not(:disabled) { background: var(--ink); color: var(--sheet); }
+.icon-row-pos { font-family: var(--mono); font-size: 11px; color: var(--ink-mute); padding: 0 6px; white-space: nowrap; }
+.dialog-head { display: flex; justify-content: space-between; align-items: center; }
+/* בורר: "+" קטן ליד כל כפתור, להוספה לבחירה */
+.picker { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 2px; }
+.pick { display: inline-flex; align-items: center; }
+.pick .pick-add { width: 22px; height: 22px; opacity: .45; }
+.pick .pick-add svg { width: 14px; height: 14px; }
+.pick:hover .pick-add, .pick .pick-add:focus-visible { opacity: 1; }
+/* קשר שנבחר: מי השפיע על מי, בגדול ובהשחרה */
+.link-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.link-who { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 6px 0 14px; }
+.link-end { display: grid; gap: 2px; text-align: start; padding: 8px 12px; background: var(--sheet); }
+.link-end-name { font-size: 26px; font-weight: 800; color: var(--ink); line-height: 1.15; }
+.link-end-work { font-size: 13px; font-weight: 500; color: var(--ink-soft); }
+.link-verb { font-size: 20px; font-weight: 800; color: var(--ink); background: linear-gradient(transparent 55%, var(--marker) 55%); padding: 0 4px; }
+@media (max-width: 560px) { .link-end-name { font-size: 20px; } .link-verb { font-size: 16px; } }
+/* תקציר דמות בפורמט קבוע */
+.person-sum { margin: 12px 0 4px; padding: 10px 12px; background: var(--sheet); border: 1px solid var(--rule); }
+.sum-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; margin: 6px 0 0; }
+.sum-grid > div { display: grid; gap: 1px; }
+.sum-grid dt { font-family: var(--mono); font-size: 10px; color: var(--ink-mute); }
+.sum-grid dd { margin: 0; font-size: 14px; font-weight: 600; color: var(--ink); }
+.sum-wide { grid-column: 1 / -1; }
+.sum-dom { display: inline-flex; align-items: center; gap: 4px; margin-inline-end: 8px; }
+.sum-peers { display: flex; flex-wrap: wrap; gap: 2px; }
+
+/* שעון השנה על המפה: תמיד גלוי, גדול בזמן ההפעלה */
+.map-card-wrap { position: relative; }
+.map-clock { position: absolute; top: 10px; left: 56px; z-index: 3; pointer-events: none; font-family: var(--mono); font-weight: 800; font-size: 20px; color: var(--ink); background: rgba(255, 255, 255, .88); padding: 2px 10px; box-shadow: var(--shadow-1); transition: font-size .2s; }
+.map-clock.is-playing { font-size: 40px; color: var(--sheet); background: var(--ink); }
+/* סמני השובל: התחלה, אמצע, סוף */
+.trail-mark { font-family: var(--mono); font-size: 11px; font-weight: 700; background: var(--ink); color: var(--sheet); padding: 1px 6px; white-space: nowrap; transform: translateY(-14px); }
+.trail-mark.is-start { background: #B9B7B0; color: var(--ink); }
+.trail-mark.is-mid { background: #7C7A74; }
+/* שרשרת הידע */
+.chain { margin: 10px 0 0; padding: 0; list-style: none; display: grid; gap: 4px; counter-reset: ch; }
+.chain li { display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; gap: 8px; align-items: center; font-size: 14px; }
+.chain .ch-n { display: grid; place-items: center; width: 24px; height: 24px; background: var(--ink); color: var(--sheet); font-family: var(--mono); font-weight: 800; font-size: 12px; }
+.chain li.is-sel .ch-n { background: var(--marker); color: var(--ink); }
+.lg-grad { background: linear-gradient(to left, rgba(47, 122, 85, .2), rgb(47, 122, 85)) !important; height: 3px; border: 0 !important; }
+.lg-grad-ink { background: linear-gradient(to left, rgba(23, 25, 28, .12), rgb(23, 25, 28)) !important; height: 3px; border: 0 !important; }

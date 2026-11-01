@@ -4,6 +4,7 @@ import { useRevealOnChange } from '../ui/reveal';
 import { useMatches } from '../search';
 import DomainIcon from '../icons';
 import DomainPicker from '../ui/DomainPicker';
+import Picker from '../ui/Picker';
 import PeriodPicker from '../ui/PeriodPicker';
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { forceCollide, forceLink, forceSimulation, forceX, forceY, type SimulationNodeDatum } from 'd3-force';
@@ -203,22 +204,16 @@ export default function GraphPage({ params }: { params: Record<string, string> }
         </div>
         <div className="gc-row">
           <span className="label">סוג קשר</span>
-          <div className="seg">
-            {TYPES.map((ty) => {
-              const on = !filters.hiddenTypes.has(ty);
-              return <button key={ty} type="button" className={`press chip chip-line line-${ty}`} aria-pressed={on}
-                onClick={() => { const h = new Set(filters.hiddenTypes); on ? h.add(ty) : h.delete(ty); set({ h: [...h].join(',') || undefined }); }}>{linkTypeName[ty]}</button>;
-            })}
-          </div>
+          <Picker label="סוג קשר" allLabel="כל הקשרים" selected={filters.hiddenTypes.size ? TYPES.filter((ty) => !filters.hiddenTypes.has(ty)) : null}
+            onChange={(next) => set({ h: next ? TYPES.filter((ty) => !next.includes(ty)).join(',') || undefined : undefined })}
+            options={TYPES.map((ty) => ({ id: ty, title: linkTypeName[ty], className: `chip-line line-${ty}`, label: linkTypeName[ty] }))} />
         </div>
         <div className="gc-row">
           <span className="label">ביטחון</span>
           <div className="seg">
-            {(['documented', 'interpretive'] as const).map((c) => {
-              const on = !filters.hiddenConf.has(c);
-              return <button key={c} type="button" className={`press chip conf-chip conf-chip-${c}`} aria-pressed={on} disabled={on && filters.hiddenConf.size === 1}
-                onClick={() => { const k = new Set(filters.hiddenConf); on ? k.add(c) : k.delete(c); set({ k: [...k].join(',') || undefined }); }}>{confidenceName[c]}</button>;
-            })}
+            <Picker label="ביטחון" allLabel="כל רמות הביטחון" selected={filters.hiddenConf.size ? (['documented', 'interpretive'] as const).filter((c) => !filters.hiddenConf.has(c)) : null}
+              onChange={(next) => set({ k: next ? (['documented', 'interpretive'] as const).filter((c) => !next.includes(c)).join(',') || undefined : undefined })}
+              options={(['documented', 'interpretive'] as const).map((c) => ({ id: c, title: confidenceName[c], className: `conf-chip conf-chip-${c}`, label: confidenceName[c] }))} />
             <button type="button" className="press chip" aria-pressed={filters.crossOnly} onClick={() => set({ x: filters.crossOnly ? undefined : '1' })}>רק חוצי תחום</button>
             <button type="button" className="press chip" aria-pressed={filters.hideIsolated} onClick={() => set({ i: filters.hideIsolated ? undefined : '1' })}>בלי דמויות בודדות</button>
             <button type="button" className="press chip" onClick={() => replace('graph', {})}>איפוס</button>

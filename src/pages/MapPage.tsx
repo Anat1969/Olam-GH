@@ -1,4 +1,5 @@
 // שלב 3: מפה. אותם גילויים לפי מקום, ומחוון זמן שמזיז את הנקודות בזמן אמת.
+import IconButton, { IconRow } from '../ui/IconButton';
 import { useRevealOnChange } from '../ui/reveal';
 import { useMatches } from '../search';
 import DomainIcon from '../icons';
@@ -113,6 +114,37 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
   const sel = view.find((v) => v.on);
   const center = centerAt(year);
   const trail = useMemo(() => (showTrail ? centerTrail(year) : []), [year, showTrail]);
+  // שובל: התחלה, אמצע וסוף, עם השנים, כדי שיובן מאיפה לאן מרכז הכובד נדד
+  const trailMarks = useMemo(() => {
+    if (!showTrail || trail.length < 2) return [];
+    const ys = [...new Set(cities.flatMap((c) => c.items.map((d) => d.yearFrom)))].filter((y) => y <= year).sort((a, b) => a - b);
+    const mid = Math.floor(trail.length / 2);
+    return [
+      { p: trail[0], label: `התחלה · ${yearText(ys[0])}`, kind: 'start' as const },
+      { p: trail[mid], label: yearText(ys[mid]), kind: 'mid' as const },
+      { p: trail[trail.length - 1], label: `היום במפה · ${yearText(ys[ys.length - 1])}`, kind: 'end' as const },
+    ];
+  }, [trail, showTrail, year]);
+  const showConf = params.v === '1';
+  // שרשרת הידע של המסלול שנבחר: מי לפני (מה אפשר אותו) ומי אחרי (מה הוא אפשר), ממוספרת מהראשון בזמן
+  const chain = useMemo(() => {
+    const sel0 = routes.find((r) => r.link.id === params.l);
+    if (!sel0) return [];
+    const got = new Map([[sel0.link.id, sel0]]);
+    let front = [sel0];
+    for (let i = 0; i < 6 && front.length; i++) { front = routes.filter((r) => !got.has(r.link.id) && front.some((f) => r.b.d.id === f.a.d.id)); front.forEach((r) => got.set(r.link.id, r)); }
+    front = [sel0];
+    for (let i = 0; i < 6 && front.length; i++) { front = routes.filter((r) => !got.has(r.link.id) && front.some((f) => r.a.d.id === f.b.d.id)); front.forEach((r) => got.set(r.link.id, r)); }
+    return [...got.values()].sort((a, b) => a.a.d.yearFrom - b.a.d.yearFrom || a.b.d.yearFrom - b.b.d.yearFrom);
+  }, [params.l]);
+  const chainIds = new Set(chain.map((r) => r.link.id));
+  // מספר לכל עיר בשרשרת לפי הסדר בזמן
+  const chainBadge = useMemo(() => {
+    const m = new Map<string, number>();
+    let n = 0;
+    for (const r of chain) for (const c of [r.from, r.to]) if (c && !m.has(c.key)) m.set(c.key, ++n);
+    return m;
+  }, [chain]);
   const near = center ? nearestCity(center) : null;
   const nearKm = center && near ? Math.round(km(center, near.lonLat) / 10) * 10 : 0;
   const pick = (personId: string) => set({ p: personId });
@@ -193,19 +225,21 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             onClick={() => { setTouring(false); set(tourOn ? { t: undefined, s: undefined } : { t: '1', s: '0', c: undefined, k: undefined, f: undefined }); }}>מסע בזמן{tourOn ? '' : `: ${domainsLabel}`}</button>
           <button type="button" className="press chip" aria-pressed={showRoutes} onClick={() => set({ r: showRoutes ? undefined : '1' })}>מסלולי ידע <bdi className="num">{shownRoutes.length}</bdi></button>
           <button type="button" className="press chip" aria-pressed={showTrail} onClick={() => set({ g: showTrail ? undefined : '1' })}>שובל מרכז הכובד</button>
+          <button type="button" className="press chip" aria-pressed={showConf} onClick={() => set({ v: showConf ? undefined : '1' })}>רמת ביטחון של המקום</button>
         </div>
         {/* כל מצב תצוגה מוסבר במשפט אחד, כדי שיהיה ברור מה הוא עושה לפני שבוחרים בו */}
         <p className="mode-help">
-          <strong>מסע בזמן</strong>: עובר תחנה אחרי תחנה על הגילויים של התחומים שנבחרו, לפי הסדר. <strong>מסלולי ידע</strong>: קו בין שתי ערים כשגילוי באחת השפיע על גילוי בשנייה. <strong>שובל מרכז הכובד</strong>: הדרך שעשה מרכז הכובד של הידע לאורך השנים.
+          <strong>מסע בזמן</strong>: עובר תחנה אחרי תחנה על הגילויים של התחומים שנבחרו, לפי הסדר. <strong>מסלולי ידע</strong>: קו בין שתי ערים כשגילוי באחת השפיע על גילוי בשנייה, מבהיר (המקור) לכהה (מי שהושפע). בחירת מסלול מציגה את <strong>השרשרת</strong> כולה, ממוספרת מהראשון. <strong>שובל מרכז הכובד</strong>: הדרך שעשה מרכז הכובד של הידע, מההתחלה (בהיר) ועד השנה שבמחוון (כהה). <strong>רמת ביטחון</strong>: מסגרת ירוקה למקום מתועד, כתומה לפרשנות.
         </p>
         <YearSlider value={year} onChange={(y) => { setPlaying(false); setYear(y); }} />
-        <div className="seg">
-          <button type="button" className="press btn btn-primary" aria-pressed={playing} onClick={() => setPlaying((p) => !p)}>{playing ? 'עצירה' : 'הפעלה'}</button>
-        </div>
+        <IconRow label="הפעלת הזמן">
+          <IconButton icon={playing ? 'pause' : 'play'} label={playing ? 'עצירה' : 'הפעלת הזמן'} className="is-primary" pressed={playing} onClick={() => setPlaying((p) => !p)} />
+        </IconRow>
       </div>
 
       <div className="map-layout">
         <section className="card map-card-wrap" aria-label="מפת הגילויים">
+          {!tourDomain && <div className={`map-clock${playing ? ' is-playing' : ''}`} aria-live="off"><bdi className="num">{yearText(year)}</bdi></div>}
           {failed ? (
             <div className="map-fail tone tone-problem">
               <h4>המפה לא נטענה בדפדפן הזה.</h4>
@@ -216,9 +250,9 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
               <MapView
                 cities={tourDomain
                   ? tourCities.map((t) => ({ city: t.city, known: t.nums.length, recent: false, on: !!stop && stop.city.key === t.city.key, kw: kwOf(t.city.key), domain: tourAll ? t.domain : [...domains][0], badge: tourAll ? (stop && stop.city.key === t.city.key ? String(si + 1) : undefined) : t.nums.join('·') }))
-                  : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || v.city.key === params.f || (!!country && v.city.country?.key === country.key), kw: kwOf(v.city.key), domain: v.domain }))}
-                routes={showRoutes && !tourDomain ? shownRoutes.map((r) => ({ id: r.link.id, path: r.path, type: r.link.type, confidence: r.link.confidence, on: r.link.id === params.l })) : []}
-                trail={tourDomain ? [] : trail} tour={tourPath} center={tourDomain ? null : center}
+                  : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || v.city.key === params.f || (!!country && v.city.country?.key === country.key), kw: kwOf(v.city.key), domain: v.domain, badge: chainBadge.has(v.city.key) ? String(chainBadge.get(v.city.key)) : undefined }))}
+                routes={!tourDomain && (showRoutes || chain.length) ? (chain.length ? chain : shownRoutes).map((r) => ({ id: r.link.id, path: r.path, type: r.link.type, confidence: r.link.confidence, on: chainIds.has(r.link.id) })) : []}
+                trail={tourDomain ? [] : trail} trailMarks={tourDomain ? [] : trailMarks} showConf={showConf} tour={tourPath} center={tourDomain ? null : center}
                 focus={tourDomain && stop ? stop.city.lonLat : sel ? sel.city.lonLat : country ? country.lonLat : focusCity ? focusCity.lonLat : null}
                 focusZoom={tourDomain ? 3.4 : country ? 2.8 : 3.2}
                 onCity={(k) => (tourDomain ? set({ s: String(tourAll ? seen.map((x) => x.city.key).lastIndexOf(k) : stops.findIndex((x) => x.city.key === k)) }) : set({ c: k === params.c ? undefined : k, k: undefined }))}
@@ -233,9 +267,9 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             <li><span className="lg-sq lg-big" />גודל: מספר הגילויים בעיר</li>
             <li><span className="lg-sq lg-badge">3</span>מספר: סדר התחנה במסע</li>
             <li><span className="lg-sq lg-recent" />גילוי ב-<bdi className="num">30</bdi> השנים האחרונות</li>
-            <li><span className="lg-line line-influenced" />מסלול ידע מתועד</li>
+            <li><span className="lg-line line-influenced lg-grad" />מסלול ידע מתועד: בהיר במקור, כהה במקום שהושפע</li>
             <li><span className="lg-line lg-orange" />פרשנות מקובלת</li>
-            <li><span className="lg-trail" />שובל מרכז הכובד, מחושב</li>
+            <li><span className="lg-trail lg-grad-ink" />שובל מרכז הכובד: מההתחלה (בהיר) עד השנה שבמחוון (כהה)</li>
           </ul>
         </section>
 
@@ -260,13 +294,13 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                     <WorkImage d={stop.d} small />
                   </div>
                 </div>
-                <div className="seg">
-                  <button type="button" className="press btn" disabled={si === 0} onClick={() => { setTouring(false); set({ s: String(si - 1) }); }}>הקודמת</button>
-                  <button type="button" className="press btn btn-primary" aria-pressed={touring} onClick={() => setTouring((x) => !x)}>{touring ? 'עצירה' : 'הפעלה'}</button>
-                  <button type="button" className="press btn" disabled={si >= stops.length - 1} onClick={() => { setTouring(false); set({ s: String(si + 1) }); }}>הבאה</button>
-                  {p ? <button type="button" className="press btn btn-quiet" onClick={() => pick(p.id)}>כרטיס הדמות</button> : <a className="press btn btn-quiet" href={href('timeline', workParams(stop.d))}>כרטיס היצירה</a>}
-                  <button type="button" className="press btn btn-quiet" onClick={() => { setTouring(false); set({ t: undefined, s: undefined }); }}>סיום המסע</button>
-                </div>
+                <IconRow label="תפעול המסע" className="tour-ctl">
+                  <IconButton icon="prev" label="התחנה הקודמת" disabled={si === 0} onClick={() => { setTouring(false); set({ s: String(si - 1) }); }} />
+                  <IconButton icon={touring ? 'pause' : 'play'} label={touring ? 'עצירה' : 'הפעלת המסע'} className="is-primary" pressed={touring} onClick={() => setTouring((x) => !x)} />
+                  <IconButton icon="next" label="התחנה הבאה" disabled={si >= stops.length - 1} onClick={() => { setTouring(false); set({ s: String(si + 1) }); }} />
+                  {p ? <IconButton icon="card" label="כרטיס הדמות" onClick={() => pick(p.id)} /> : <IconButton icon="work" label="כרטיס היצירה" onClick={() => go('timeline', workParams(stop.d))} />}
+                  <IconButton icon="stop" label="סיום המסע" onClick={() => { setTouring(false); set({ t: undefined, s: undefined }); }} />
+                </IconRow>
               </div>
             );
           })()}
@@ -328,6 +362,23 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
       </div>
 
       {selected ? <LinkPanel selected={selected} pick={pick} set={set} /> : null}
+      {chain.length > 1 && (
+        <section className="card" aria-label="שרשרת הידע">
+          <h2 className="city-title">שרשרת הידע <span className="muted">· <bdi className="num">{chain.length}</bdi> מסלולים</span></h2>
+          <p className="muted small">מהראשון בזמן ועד האחרון. המספרים זהים למספרים על הערים במפה.</p>
+          <ol className="chain">
+            {chain.map((r) => (
+              <li key={r.link.id} className={r.link.id === params.l ? 'is-sel' : ''}>
+                <span className="ch-n">{chainBadge.get(r.from?.key || '') ?? '·'}</span>
+                <button type="button" className="press link-item" onClick={() => set({ l: r.link.id })}>
+                  <span className="link-names"><strong>{r.from?.nameHe}</strong> ← <strong>{r.to?.nameHe}</strong>: {endName(r.a)} ← {endName(r.b)}</span>
+                </button>
+                <span className="label">{linkTypeName[r.link.type]}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
 
       <h2 className="section-title">מסלולי ידע עד שנת {yearText(year)} <bdi className="num">{shownRoutes.length}</bdi></h2>
       {shownRoutes.length === 0 ? <p className="muted">עוד אין מסלולים. מסלול מופיע כששני הגילויים שהוא מחבר כבר ידועים.</p> : (

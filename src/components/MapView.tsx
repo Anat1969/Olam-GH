@@ -15,14 +15,16 @@ const STYLE_URL = 'https://tiles.openfreemap.org/styles/positron';
 
 const fc = (features: GeoJSON.Feature[]): GeoJSON.FeatureCollection => ({ type: 'FeatureCollection', features });
 
-export default function MapView({ cities, routes, trail, tour = [], center, focus, focusZoom = 3.2, onCity, onRoute, onCountry, onFail }: {
-  cities: CityView[]; routes: RouteView[]; trail: LonLat[]; tour?: LonLat[][]; center: LonLat | null; focus: LonLat | null; focusZoom?: number;
+export default function MapView({ cities, routes, trail, trailMarks = [], tour = [], center, focus, focusZoom = 3.2, showConf = false, onCity, onRoute, onCountry, onFail }: {
+  cities: CityView[]; routes: RouteView[]; trail: LonLat[]; trailMarks?: { p: LonLat; label: string; kind: 'start' | 'mid' | 'end' }[]; tour?: LonLat[][]; center: LonLat | null; focus: LonLat | null; focusZoom?: number; showConf?: boolean;
   onCity: (key: string) => void; onRoute: (id: string) => void; onCountry?: (name: string) => void; onFail: () => void;
 }) {
   const el = useRef<HTMLDivElement>(null);
   const map = useRef<MLMap>();
   const markers = useRef(new Map<string, Marker>());
   const centerMarker = useRef<Marker>();
+  const lastSig = useRef('');
+  const trailMarkers = useRef<Marker[]>([]);
   const [ready, setReady] = useState(false);
   const cb = useRef({ onCity, onRoute, onCountry });
   // שמות ערים שעולים זה על זה: נשאר השם של העיר הגדולה (או הנבחרת). השאר מופיעים בריחוף.
@@ -83,15 +85,19 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
       }
     });
     m.on('load', () => {
-      m.addSource('routes', { type: 'geojson', data: fc([]) });
-      m.addSource('trail', { type: 'geojson', data: fc([]) });
+      m.addSource('routes', { type: 'geojson', data: fc([]), lineMetrics: true });
+      m.addSource('trail', { type: 'geojson', data: fc([]), lineMetrics: true });
       m.addSource('tour', { type: 'geojson', data: fc([]) });
       m.addLayer({ id: 'tour', type: 'line', source: 'tour', paint: { 'line-color': '#17191C', 'line-width': 2.2, 'line-opacity': 0.75, 'line-dasharray': [2, 1.5] }, layout: { 'line-cap': 'round' } });
-      m.addLayer({ id: 'trail', type: 'line', source: 'trail', paint: { 'line-color': '#17191C', 'line-width': 2, 'line-opacity': 0.55, 'line-dasharray': [1, 2] }, layout: { 'line-cap': 'round' } });
+      // שובל מרכז הכובד: מבהיר (ההתחלה) לכהה (היום), כדי שיובן הכיוון
+      m.addLayer({ id: 'trail', type: 'line', source: 'trail', paint: { 'line-width': 3, 'line-gradient': ['interpolate', ['linear'], ['line-progress'], 0, 'rgba(23,25,28,0.12)', 0.5, 'rgba(23,25,28,0.45)', 1, 'rgba(23,25,28,0.95)'] }, layout: { 'line-cap': 'round' } });
       m.addLayer({ id: 'routes-halo', type: 'line', source: 'routes', filter: ['==', ['get', 'on'], true], paint: { 'line-color': '#FFE45C', 'line-width': 12, 'line-opacity': 0.9 }, layout: { 'line-cap': 'round' } });
       const color: maplibregl.ExpressionSpecification = ['match', ['get', 'confidence'], 'interpretive', '#B85F16', '#2F7A55'];
       const width: maplibregl.ExpressionSpecification = ['case', ['get', 'on'], 4.5, ['==', ['get', 'type'], 'enabled'], 3.2, 2];
-      m.addLayer({ id: 'routes-solid', type: 'line', source: 'routes', filter: ['in', ['get', 'type'], ['literal', ['influenced', 'enabled']]], paint: { 'line-color': color, 'line-width': width, 'line-opacity': 0.9 }, layout: { 'line-cap': 'round' } });
+      // מסלול ידע: מבהיר במקור לכהה במקום שהושפע, כדי שיובן לאן הידע זרם
+      const grad = (rgb: string): maplibregl.ExpressionSpecification => ['interpolate', ['linear'], ['line-progress'], 0, `rgba(${rgb},0.18)`, 1, `rgba(${rgb},1)`];
+      m.addLayer({ id: 'routes-solid', type: 'line', source: 'routes', filter: ['all', ['in', ['get', 'type'], ['literal', ['influenced', 'enabled']]], ['!=', ['get', 'confidence'], 'interpretive']], paint: { 'line-gradient': grad('47,122,85'), 'line-width': width }, layout: { 'line-cap': 'round' } });
+      m.addLayer({ id: 'routes-solid-i', type: 'line', source: 'routes', filter: ['all', ['in', ['get', 'type'], ['literal', ['influenced', 'enabled']]], ['==', ['get', 'confidence'], 'interpretive']], paint: { 'line-gradient': grad('184,95,22'), 'line-width': width }, layout: { 'line-cap': 'round' } });
       m.addLayer({ id: 'routes-opposed', type: 'line', source: 'routes', filter: ['==', ['get', 'type'], 'opposed'], paint: { 'line-color': color, 'line-width': width, 'line-dasharray': [3, 2] } });
       m.addLayer({ id: 'routes-parallel', type: 'line', source: 'routes', filter: ['==', ['get', 'type'], 'parallel'], paint: { 'line-color': color, 'line-width': width, 'line-dasharray': [0.5, 2] }, layout: { 'line-cap': 'round' } });
       m.addLayer({ id: 'routes-hit', type: 'line', source: 'routes', paint: { 'line-color': '#000', 'line-width': 16, 'line-opacity': 0 } });
@@ -140,10 +146,13 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
         btn.addEventListener('click', (e) => { e.stopPropagation(); cb.current.onCity(c.city.key); });
         mk = new maplibregl.Marker({ element: wrapEl, anchor: 'center' }).setLngLat(c.city.lonLat).addTo(m);
         markers.current.set(c.city.key, mk);
+        // עיר חדשה בידע: צומחת פנימה (בלי הבהוב של כל הסמנים)
+        if (ready) { btn.classList.add('is-new'); window.setTimeout(() => btn.classList.remove('is-new'), 800); }
       }
       const btn = mk.getElement().firstElementChild as HTMLButtonElement;
       const size = 14 + Math.sqrt(c.known) * 8;
-      btn.className = `map-city dom-${c.domain}${c.known > 1 ? ' is-big' : ''}${c.recent ? ' is-recent' : ''}${c.on ? ' is-on' : ''}${c.badge ? ' has-badge' : ''}${c.kw === true ? ' is-kw' : c.kw === false ? ' is-kw-off' : ''} conf-${c.city.confidence}`;
+      const quiet = btn.classList.contains('label-quiet');
+      btn.className = `${quiet ? 'label-quiet ' : ''}map-city dom-${c.domain}${c.known > 1 ? ' is-big' : ''}${c.recent ? ' is-recent' : ''}${c.on ? ' is-on' : ''}${c.badge ? ' has-badge' : ''}${c.kw === true ? ' is-kw' : c.kw === false ? ' is-kw-off' : ''} conf-${c.city.confidence}`;
       btn.style.setProperty('--sq', `${size}px`);
       btn.setAttribute('aria-pressed', String(c.on));
       btn.setAttribute('aria-label', `${c.city.nameHe}, ${c.known} גילויים`);
@@ -155,6 +164,10 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
       if (ico.dataset.d !== c.domain) { ico.innerHTML = size >= 18 ? iconSvg(c.domain) : ''; ico.dataset.d = c.domain; }
     }
     for (const [k, mk] of markers.current) if (!seen.has(k)) { mk.remove(); markers.current.delete(k); }
+    // מסדרים שמות מחדש רק כשקבוצת הערים או הגדלים השתנו, לא בכל שנה בהפעלה
+    const sig = cities.map((c) => `${c.city.key}:${c.known}:${c.on ? 1 : 0}:${c.kw ? 1 : 0}`).join('|');
+    if (sig === lastSig.current) return;
+    lastSig.current = sig;
     const raf = requestAnimationFrame(() => declutter.current());
     return () => cancelAnimationFrame(raf);
   }, [cities]);
@@ -179,5 +192,19 @@ export default function MapView({ cities, routes, trail, tour = [], center, focu
     m.easeTo({ center: focus, zoom: Math.max(m.getZoom(), focusZoom), duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 1100 });
   }, [focus?.[0], focus?.[1], focusZoom, ready]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  return <div ref={el} className="map-canvas" role="region" aria-label="גלובוס הגילויים. הערים הן כפתורים." data-ready={ready} />;
+  // סמני השובל: התחלה, אמצע, סוף, עם שנים
+  useEffect(() => {
+    const m = map.current;
+    trailMarkers.current.forEach((mk) => mk.remove());
+    trailMarkers.current = [];
+    if (!m) return;
+    for (const t of trailMarks) {
+      const d = document.createElement('div');
+      d.className = `trail-mark is-${t.kind}`;
+      d.textContent = t.label;
+      trailMarkers.current.push(new maplibregl.Marker({ element: d, anchor: 'bottom' }).setLngLat(t.p).addTo(m));
+    }
+  }, [trailMarks]);
+
+  return <div ref={el} className={`map-canvas${showConf ? ' show-conf' : ''}`} role="region" aria-label="גלובוס הגילויים. הערים הן כפתורים." data-ready={ready} />;
 }

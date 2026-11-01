@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import IconButton, { IconRow } from '../ui/IconButton';
 import { useRevealOnChange } from '../ui/reveal';
 import DomainIcon from '../icons';
 import Timeline, { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
@@ -140,11 +141,11 @@ export default function TimelinePage({ params }: { params: Record<string, string
           <PeriodPicker label="תקופה לבחינה" from={from} to={to}
             onChange={(f, t) => { setPlaying(false); const cur = Object.fromEntries(new URLSearchParams(window.location.hash.split('?')[1] || '')); const y = Math.min(Math.max(year, f ?? YEAR_MIN), t ?? YEAR_MAX); setYear(y); replace('timeline', { ...cur, f: f === undefined ? undefined : String(f), t: t === undefined ? undefined : String(t), y: String(y) }); }} />
         </div>
-        <div className="seg" role="group" aria-label="תנועה בזמן">
-          <button type="button" className="press btn" disabled={!prev} onClick={() => { setPlaying(false); prev && setYear(prev.yearFrom); }}>הגילוי הקודם</button>
-          <button type="button" className="press btn btn-primary" aria-pressed={playing} onClick={() => setPlaying((p) => !p)}>{playing ? 'עצירה' : 'הפעלה'}</button>
-          <button type="button" className="press btn" disabled={!next} onClick={() => { setPlaying(false); next && setYear(next.yearFrom); }}>הגילוי הבא</button>
-        </div>
+        <IconRow label="תנועה בזמן" className="tl-play">
+          <IconButton icon="prev" label="הגילוי הקודם" disabled={!prev} onClick={() => { setPlaying(false); if (prev) setYear(prev.yearFrom); }} />
+          <IconButton icon={playing ? 'pause' : 'play'} label={playing ? 'עצירה' : 'הפעלה'} className="is-primary" pressed={playing} onClick={() => setPlaying((p) => !p)} />
+          <IconButton icon="next" label="הגילוי הבא" disabled={!next} onClick={() => { setPlaying(false); if (next) setYear(next.yearFrom); }} />
+        </IconRow>
       </div>
 
       <section className="card tl-card-wrap" aria-label={`ציר הזמן של ${domainName}`}>

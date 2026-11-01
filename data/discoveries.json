@@ -48,8 +48,15 @@
         "s-wp-ibn-al-haytham"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "novelty": "הראייה הוסברה כ**אור שנכנס לעין**, ונבדקה ב**ניסוי**."
+      "verifiedAt": "2026-11-01",
+      "novelty": "הראייה הוסברה כ**אור שנכנס לעין**, ונבדקה ב**ניסוי**.",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Thesaurus_opticus_Titelblatt.jpg/500px-Thesaurus_opticus_Titelblatt.jpg",
+        "license": "Public domain",
+        "credit": "Unknown author",
+        "page": "https://commons.wikimedia.org/wiki/File:Thesaurus_opticus_Titelblatt.jpg",
+        "article": "Book of Optics"
+      }
     },
     {
       "id": "d-1543-copernicus-revolutionibus",
@@ -98,8 +105,15 @@
         "s-wp-nicolaus-copernicus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "novelty": "**השמש**, ולא כדור הארץ, הוצבה במרכז המודל."
+      "verifiedAt": "2026-11-01",
+      "novelty": "**השמש**, ולא כדור הארץ, הוצבה במרכז המודל.",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/De_Revolvtionibvs_Orbium_coelestium_1543_%28121406887%29_%28cropped%29.jpg/500px-De_Revolvtionibvs_Orbium_coelestium_1543_%28121406887%29_%28cropped%29.jpg",
+        "license": "Public domain",
+        "credit": "Mikołaj Kopernik",
+        "page": "https://commons.wikimedia.org/wiki/File:De_Revolvtionibvs_Orbium_coelestium_1543_(121406887)_(cropped).jpg",
+        "article": "De revolutionibus orbium coelestium"
+      }
     },
     {
       "id": "d-1609-kepler-orbits",
@@ -149,7 +163,7 @@
         "s-wp-johannes-kepler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "המסלול של מאדים הוא **אליפסה**, ולא מעגל.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/500px-Kepler_laws_diagram.svg.png",
@@ -207,7 +221,7 @@
         "s-wp-galileo-galilei"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**טלסקופ** הופנה לשמים, ונמצאו **ירחים** שמקיפים את צדק.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Houghton_IC6.G1333.610sa_-_Sidereus_nuncius.jpg/500px-Houghton_IC6.G1333.610sa_-_Sidereus_nuncius.jpg",
@@ -265,7 +279,7 @@
         "s-wp-johannes-kepler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**זמן המחזור** והמרחק מהשמש קשורים ב**נוסחה אחת**.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/500px-Kepler_laws_diagram.svg.png",
@@ -323,7 +337,7 @@
         "s-wp-galileo-galilei"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**הנפילה** תוארה בחוק מתמטי, ולא בתיאור איכותי.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Galileo_Galilei%2C_Discorsi_e_Dimostrazioni_Matematiche_Intorno_a_Due_Nuove_Scienze%2C_1638_%281400x1400%29.png/500px-Galileo_Galilei%2C_Discorsi_e_Dimostrazioni_Matematiche_Intorno_a_Due_Nuove_Scienze%2C_1638_%281400x1400%29.png",
@@ -381,14 +395,14 @@
         "s-wp-christiaan-huygens"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**מטוטלת** הפכה למנגנון שמווסת את השעון.",
       "workImage": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Pendule_electrique_l_maitrier_05117.jpg",
-        "license": "CC BY-SA 4.0",
-        "credit": "Heurtelions",
-        "page": "https://commons.wikimedia.org/wiki/File:Pendule_electrique_l_maitrier_05117.jpg",
-        "article": "Pendulum clock"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Huygens_-_Horologium_oscillatorium%2C_sive_De_motu_pendulorum_ad_horologia_aptato_demonstrationes_geometricae%2C_1673_-_869780.jpeg/500px-Huygens_-_Horologium_oscillatorium%2C_sive_De_motu_pendulorum_ad_horologia_aptato_demonstrationes_geometricae%2C_1673_-_869780.jpeg",
+        "license": "Public domain",
+        "credit": "Huygens, Christiaan",
+        "page": "https://commons.wikimedia.org/wiki/File:Huygens_-_Horologium_oscillatorium,_sive_De_motu_pendulorum_ad_horologia_aptato_demonstrationes_geometricae,_1673_-_869780.jpeg",
+        "article": "Horologium Oscillatorium"
       }
     },
     {
@@ -445,7 +459,7 @@
         "s-wp-isaac-newton"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**כוח אחד** מסביר גם תפוח שנופל וגם כוכב לכת שנע.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Newton%27s_Principia_title_page.png/500px-Newton%27s_Principia_title_page.png",
@@ -498,7 +512,7 @@
         "s-wp-coulomb-s-law"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "הכוח החשמלי **נמדד** במאזני פיתול, ולא רק תואר.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/CoulombsLaw.svg/500px-CoulombsLaw.svg.png",
@@ -556,7 +570,7 @@
         "s-wp-alessandro-volta"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "ערימה של **דסקיות מתכת** הפיקה זרם רציף.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Volta_battery-MHS_373-IMG_3840-gradient.jpg/500px-Volta_battery-MHS_373-IMG_3840-gradient.jpg",
@@ -614,7 +628,7 @@
         "s-wp-thomas-young-scientist"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "אור שמתאבך עם עצמו מתנהג כמו **גל**.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Young-Thomas-Lectures1807-Plate_XXX-fig442-dbl_slit.jpg/500px-Young-Thomas-Lectures1807-Plate_XXX-fig442-dbl_slit.jpg",
@@ -649,7 +663,7 @@
         "s-wp-electromagnetic-induction"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**מגנט שזז** יוצר זרם חשמלי.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Experiencia_de_Faraday.gif/500px-Experiencia_de_Faraday.gif",
@@ -707,8 +721,15 @@
         "s-wp-james-clerk-maxwell"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "novelty": "חשמל, מגנטיות ואור הם **שדה אחד**."
+      "verifiedAt": "2026-11-01",
+      "novelty": "חשמל, מגנטיות ואור הם **שדה אחד**.",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Maxwell%27sEquations.svg/500px-Maxwell%27sEquations.svg.png",
+        "license": "CC BY-SA 3.0",
+        "credit": "GYassineMrabetTalk✉",
+        "page": "https://commons.wikimedia.org/wiki/File:Maxwell%27sEquations.svg",
+        "article": "Maxwell's equations"
+      }
     },
     {
       "id": "d-1895-rontgen-xrays",
@@ -758,7 +779,7 @@
         "s-wp-wilhelm-ro-ntgen"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "קרינה **לא מוכרת** עוברת דרך חומר אטום.",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/X-ray_by_Wilhelm_R%C3%B6ntgen_of_Albert_von_K%C3%B6lliker%27s_hand_-_18960123-02.jpg",
@@ -811,7 +832,7 @@
         "s-wp-radioactive-decay"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "חומר **קורן מעצמו**, בלי מקור אור."
     },
     {
@@ -862,7 +883,7 @@
         "s-wp-max-planck"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "אנרגיה משתנה רק ב**מנות** קטנות."
     },
     {
@@ -913,7 +934,7 @@
         "s-wp-albert-einstein"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**מהירות האור** קבועה לכל צופה, והזמן הוא שתלוי בצופה.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Gedankenexperiment_Zeitdilitation.svg/500px-Gedankenexperiment_Zeitdilitation.svg.png",
@@ -971,7 +992,7 @@
         "s-wp-ernest-rutherford"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "לאטום יש **גרעין** קטן וכבד במרכז.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Geiger-Marsden_apparatus_CGI_mock-up.png/500px-Geiger-Marsden_apparatus_CGI_mock-up.png",
@@ -1024,7 +1045,7 @@
         "s-wp-bohr-model"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "אלקטרונים קופצים בין **רמות אנרגיה** קבועות.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Bohr_atom_model.svg/500px-Bohr_atom_model.svg.png",
@@ -1082,7 +1103,7 @@
         "s-wp-albert-einstein"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**כבידה** היא עקמומיות של המרחב והזמן.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/EinsteinLeiden4.jpg/500px-EinsteinLeiden4.jpg",
@@ -1140,7 +1161,7 @@
         "s-wp-euclid"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "הגאומטריה נבנתה כ**מערכת הוכחות** מתוך מעט אקסיומות.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Title_page_of_Sir_Henry_Billingsley%27s_first_English_version_of_Euclid%27s_Elements%2C_1570_%28560x900%29.jpg/500px-Title_page_of_Sir_Henry_Billingsley%27s_first_English_version_of_Euclid%27s_Elements%2C_1570_%28560x900%29.jpg",
@@ -1198,7 +1219,7 @@
         "s-wp-archimedes"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**פאי** נחסם בין שני ערכים בעזרת מצולעים.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/A_page_from_Archimedes%27_Measurement_of_a_Circle.jpg/500px-A_page_from_Archimedes%27_Measurement_of_a_Circle.jpg",
@@ -1256,7 +1277,7 @@
         "s-wp-aryabhata"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "מתמטיקה ואסטרונומיה של הודו רוכזו ב**ספר יסוד** אחד.",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Description_of_Kuttaka_in_Aryabhatiya.jpg",
@@ -1318,7 +1339,7 @@
         "s-wp-brahmagupta"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**אפס** נחשב למספר, עם חוקי חשבון משלו."
     },
     {
@@ -1379,7 +1400,7 @@
         "s-wp-algebra"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "משוואות מוינו ל-**6** צורות, ולכל צורה דרך פתרון קבועה.",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg",
@@ -1436,8 +1457,16 @@
         "s-wp-fibonacci"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "novelty": "**ערך המקום** והספרות ההודיות-ערביות הגיעו לאירופה."
+      "verifiedAt": "2026-11-01",
+      "novelty": "**ערך המקום** והספרות ההודיות-ערביות הגיעו לאירופה.",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Liber_abbaci_magliab_f124r.jpg/500px-Liber_abbaci_magliab_f124r.jpg",
+        "license": "Public domain",
+        "credit": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Liber_abbaci_magliab_f124r.jpg",
+        "article": "Liber Abaci",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1614-napier-logarithms",
@@ -1487,7 +1516,7 @@
         "s-wp-mirifici-logarithmorum-canonis-descriptio"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**כפל** הופך ל**חיבור** בעזרת טבלה.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Mirifici_Logarithmorum_canonis_Descriptio.jpg/500px-Mirifici_Logarithmorum_canonis_Descriptio.jpg",
@@ -1546,7 +1575,7 @@
         "s-wp-discourse-on-the-method"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**צורה** נכתבת כ**משוואה**.",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Discours_De_La_Methode.jpg",
@@ -1600,8 +1629,15 @@
         "s-wp-pierre-de-fermat"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "novelty": "**מקרה** חושב במספרים, במכתבים בין שני מתמטיקאים."
+      "verifiedAt": "2026-11-01",
+      "novelty": "**מקרה** חושב במספרים, במכתבים בין שני מתמטיקאים.",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/500px-Pascal%27s_triangle_5.svg.png",
+        "license": "CC BY-SA 3.0",
+        "credit": "User:Conrad.Irwin originally User:Drini",
+        "page": "https://commons.wikimedia.org/wiki/File:Pascal%27s_triangle_5.svg",
+        "article": "Pascal's triangle"
+      }
     },
     {
       "id": "d-1684-leibniz-calculus",
@@ -1651,14 +1687,14 @@
         "s-wp-gottfried-wilhelm-leibniz"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**שינוי רגעי** קיבל סימון וחוקי חישוב.",
       "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Statues_of_Isaac_Newton_and_Gottfried_Leibniz.jpg/500px-Statues_of_Isaac_Newton_and_Gottfried_Leibniz.jpg",
-        "license": "CC BY-SA 3.0",
-        "credit": "Andrew Gray — original photos, Alexey Gomankov — collage",
-        "page": "https://commons.wikimedia.org/wiki/File:Statues_of_Isaac_Newton_and_Gottfried_Leibniz.jpg",
-        "article": "Leibniz–Newton calculus controversy"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Leibniz%2C_Gottfried_Wilhelm_von_%E2%80%93_Nova_methodus_pro_maximis_et_minimis_-_Acta_Eruditorum_-_Tabula_XII_-_Graphs%2C_1684.jpg/500px-Leibniz%2C_Gottfried_Wilhelm_von_%E2%80%93_Nova_methodus_pro_maximis_et_minimis_-_Acta_Eruditorum_-_Tabula_XII_-_Graphs%2C_1684.jpg",
+        "license": "Public domain",
+        "credit": "Leibniz, Gottfried Wilhelm von",
+        "page": "https://commons.wikimedia.org/wiki/File:Leibniz,_Gottfried_Wilhelm_von_%E2%80%93_Nova_methodus_pro_maximis_et_minimis_-_Acta_Eruditorum_-_Tabula_XII_-_Graphs,_1684.jpg",
+        "article": "Nova Methodus pro Maximis et Minimis"
       }
     },
     {
@@ -1709,7 +1745,7 @@
         "s-wp-leonhard-euler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "בעיה של מפה נפתרה בלי מרחקים, רק ב**חיבורים** בין מקומות.",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png",
@@ -1767,7 +1803,7 @@
         "s-wp-carl-friedrich-gauss"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "תוצאות מפוזרות על **מספרים שלמים** סודרו לתורה אחת.",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Disqvisitiones-800.jpg",
@@ -1824,8 +1860,15 @@
         "s-wp-nikolai-lobachevsky"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "novelty": "גאומטריה עקבית **בלי** אקסיומת המקבילים."
+      "verifiedAt": "2026-11-01",
+      "novelty": "גאומטריה עקבית **בלי** אקסיומת המקבילים.",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/The_modular_group_PSL_2%28Z%29.svg/500px-The_modular_group_PSL_2%28Z%29.svg.png",
+        "license": "CC BY-SA 4.0",
+        "credit": "Neozhaoliang",
+        "page": "https://commons.wikimedia.org/wiki/File:The_modular_group_PSL_2(Z).svg",
+        "article": "Hyperbolic geometry"
+      }
     },
     {
       "id": "d-1830-galois-theory",
@@ -1857,7 +1900,7 @@
         "s-wp-galois-theory"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**סימטריה** של השורשים קובעת אם משוואה פתירה.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Lattice_diagram_of_Q_adjoin_the_positive_square_roots_of_2_and_3%2C_its_subfields%2C_and_Galois_groups.svg/500px-Lattice_diagram_of_Q_adjoin_the_positive_square_roots_of_2_and_3%2C_its_subfields%2C_and_Galois_groups.svg.png",
@@ -1915,7 +1958,7 @@
         "s-wp-bernhard-riemann"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**הראשוניים** נקשרו לאפסים של פונקציה מרוכבת.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/VignetteRiemannHypothesis.svg/500px-VignetteRiemannHypothesis.svg.png",
@@ -1973,7 +2016,7 @@
         "s-wp-georg-cantor"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "יש **אינסוף גדול יותר** מאינסוף אחר."
     },
     {
@@ -2023,7 +2066,7 @@
         "s-wp-hilbert-s-problems"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**רשימת שאלות פתוחות** הפכה למפת דרכים של תחום שלם."
     },
     {
@@ -2074,7 +2117,7 @@
         "s-wp-emmy-noether"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "כל **סימטריה** מולידה **חוק שימור**.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Noether_theorem_1st_page.png/500px-Noether_theorem_1st_page.png",
@@ -2132,7 +2175,7 @@
         "s-wp-kurt-go-del"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "יש **אמת** שאי אפשר להוכיח בתוך המערכת."
     },
     {
@@ -2183,7 +2226,7 @@
         "s-wp-alan-turing"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "novelty": "**חישוב** הוגדר כמכונה מופשטת פשוטה.",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Maquina.png/500px-Maquina.png",
@@ -2241,7 +2284,7 @@
         "s-wp-the-sceptical-chymist"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/The_Sceptical_Chymist.jpg/500px-The_Sceptical_Chymist.jpg",
         "license": "Public domain",
@@ -2299,7 +2342,7 @@
         "s-wp-henry-cavendish"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Hydrogen_discharge_tube.jpg/500px-Hydrogen_discharge_tube.jpg",
         "license": "FAL",
@@ -2356,7 +2399,15 @@
         "s-wp-joseph-priestley"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Priestly-2.jpg/500px-Priestly-2.jpg",
+        "license": "Public domain",
+        "credit": "Joseph Priestley",
+        "page": "https://commons.wikimedia.org/wiki/File:Priestly-2.jpg",
+        "article": "Experiments and Observations on Different Kinds of Air",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1789-lavoisier-traite",
@@ -2402,7 +2453,14 @@
         "s-wp-antoine-lavoisier"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Lavoisier-7.jpg/500px-Lavoisier-7.jpg",
+        "license": "Public domain",
+        "credit": "Lavoisier, Antoine-Laurent de",
+        "page": "https://commons.wikimedia.org/wiki/File:Lavoisier-7.jpg",
+        "article": "Traité élémentaire de chimie"
+      }
     },
     {
       "id": "d-1808-dalton-atoms",
@@ -2452,7 +2510,7 @@
         "s-wp-john-dalton"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1811-avogadro-law",
@@ -2503,7 +2561,7 @@
         "s-wp-amedeo-avogadro"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1828-wohler-urea",
@@ -2559,7 +2617,14 @@
         "s-wp-friedrich-wo-hler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Sample_of_Urea.jpg/500px-Sample_of_Urea.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "LHcheM",
+        "page": "https://commons.wikimedia.org/wiki/File:Sample_of_Urea.jpg",
+        "article": "Urea"
+      }
     },
     {
       "id": "d-1833-faraday-electrolysis",
@@ -2610,7 +2675,14 @@
         "s-wp-michael-faraday"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Elektrolyse_Allgemein.svg/500px-Elektrolyse_Allgemein.svg.png",
+        "license": "CC0",
+        "credit": "Wittiko",
+        "page": "https://commons.wikimedia.org/wiki/File:Elektrolyse_Allgemein.svg",
+        "article": "Electrolysis"
+      }
     },
     {
       "id": "d-1848-pasteur-chirality",
@@ -2665,7 +2737,14 @@
         "s-wp-louis-pasteur"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/D%2BL-Alanine.gif",
+        "license": "Public domain",
+        "credit": null,
+        "page": "https://commons.wikimedia.org/wiki/File:D%2BL-Alanine.gif",
+        "article": "Chirality (chemistry)"
+      }
     },
     {
       "id": "d-1856-perkin-mauveine",
@@ -2711,7 +2790,7 @@
         "s-wp-mauveine"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mauv2.jpg",
         "license": "CC BY-SA 2.5",
@@ -2770,7 +2849,14 @@
         "s-wp-robert-bunsen"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flammenf%C3%A4rbungLi.png",
+        "license": "Public domain",
+        "credit": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Flammenf%C3%A4rbungLi.png",
+        "article": "Flame test"
+      }
     },
     {
       "id": "d-1865-kekule-benzene",
@@ -2820,7 +2906,14 @@
         "s-wp-august-kekule"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Benzene_sample.jpg/500px-Benzene_sample.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Saint concrete",
+        "page": "https://commons.wikimedia.org/wiki/File:Benzene_sample.jpg",
+        "article": "Benzene"
+      }
     },
     {
       "id": "d-1869-mendeleev-periodic",
@@ -2871,7 +2964,7 @@
         "s-wp-dmitri-mendeleev"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Periodic_table_%2832-col%2C_enwiki%29%2C_black_and_white.png/500px-Periodic_table_%2832-col%2C_enwiki%29%2C_black_and_white.png",
         "license": "CC BY-SA 4.0",
@@ -2928,7 +3021,7 @@
         "s-wp-josiah-willard-gibbs"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1884-arrhenius-ions",
@@ -2978,7 +3071,7 @@
         "s-wp-svante-arrhenius"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1898-curie-radium",
@@ -3029,7 +3122,14 @@
         "s-wp-marie-curie"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Radium226.jpg/500px-Radium226.jpg",
+        "license": "CC BY 3.0",
+        "credit": "grenadier",
+        "page": "https://commons.wikimedia.org/wiki/File:Radium226.jpg",
+        "article": "Radium"
+      }
     },
     {
       "id": "d-1909-haber-ammonia",
@@ -3080,7 +3180,7 @@
         "s-wp-fritz-haber"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1913-moseley-number",
@@ -3130,7 +3230,15 @@
         "s-wp-henry-moseley"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Moseley_step_ladder.jpg/500px-Moseley_step_ladder.jpg",
+        "license": "Public domain",
+        "credit": "Henry Moseley (1887 - 1915)",
+        "page": "https://commons.wikimedia.org/wiki/File:Moseley_step_ladder.jpg",
+        "article": "Moseley's law",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1916-lewis-bond",
@@ -3180,7 +3288,14 @@
         "s-wp-gilbert-n-lewis"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Azote_lewis.svg/500px-Azote_lewis.svg.png",
+        "license": "Public domain",
+        "credit": "Ricordisamoa",
+        "page": "https://commons.wikimedia.org/wiki/File:Azote_lewis.svg",
+        "article": "Lewis structure"
+      }
     },
     {
       "id": "d-1939-pauling-bond",
@@ -3235,7 +3350,7 @@
         "s-wp-linus-pauling"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce350-aristotle-animals",
@@ -3291,7 +3406,7 @@
         "s-wp-aristotle"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Costantinopoli%2C_aristotele%2C_historia_animalium_e_altri_scritti%2C_xii_sec.%2C_pluteo_87%2C4.JPG/500px-Costantinopoli%2C_aristotele%2C_historia_animalium_e_altri_scritti%2C_xii_sec.%2C_pluteo_87%2C4.JPG",
         "license": "CC BY 3.0",
@@ -3348,7 +3463,14 @@
         "s-wp-andreas-vesalius"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Vesalius_Fabrica_fronticepiece.jpg/500px-Vesalius_Fabrica_fronticepiece.jpg",
+        "license": "Public domain",
+        "credit": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_fronticepiece.jpg",
+        "article": "De humani corporis fabrica"
+      }
     },
     {
       "id": "d-1628-harvey-circulation",
@@ -3398,7 +3520,15 @@
         "s-wp-william-harvey"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_%28Non_identifi%C3%A9%29_%3B_William_Harvey%2C_aut._du_texte_-_btv1b2100015j_%281_of_2%29.jpg/500px-thumbnail.jpg",
+        "license": "Public domain",
+        "credit": "Harvey, William (1578-1657). Auteur du texte",
+        "page": "https://commons.wikimedia.org/wiki/File:Illustrations_de_Exercitatio_anatomica_de_motu_cordis_et_sanguinis_in_animalibus..._-_(Non_identifi%C3%A9)_;_William_Harvey,_aut._du_texte_-_btv1b2100015j_(1_of_2).jpg",
+        "article": "De Motu Cordis",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1665-hooke-micrographia",
@@ -3454,7 +3584,7 @@
         "s-wp-robert-hooke"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Micrographia_title_page.gif/500px-Micrographia_title_page.gif",
         "license": "Public domain",
@@ -3511,7 +3641,7 @@
         "s-wp-antonie-van-leeuwenhoek"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1735-linnaeus-systema",
@@ -3558,7 +3688,7 @@
         "s-wp-carl-linnaeus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Systema_naturae.jpg/500px-Systema_naturae.jpg",
         "license": "Public domain",
@@ -3615,7 +3745,7 @@
         "s-wp-edward-jenner"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1839-cell-theory",
@@ -3673,7 +3803,7 @@
         "s-wp-theodor-schwann"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/HeLa_cells_stained_with_Hoechst_33258.jpg",
         "license": "Public domain",
@@ -3708,7 +3838,7 @@
         "s-wp-rudolf-virchow"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1858-wallace-ternate",
@@ -3758,7 +3888,14 @@
         "s-wp-alfred-russel-wallace"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Wallace-line1.jpg/500px-Wallace-line1.jpg",
+        "license": "Public domain",
+        "credit": "Wallace, Alfred Russel; J. Arrowsmith",
+        "page": "https://commons.wikimedia.org/wiki/File:Wallace-line1.jpg",
+        "article": "Wallace Line"
+      }
     },
     {
       "id": "d-1859-darwin-origin",
@@ -3814,7 +3951,7 @@
         "s-wp-charles-darwin"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Origin_of_Species_title_page.jpg/500px-Origin_of_Species_title_page.jpg",
         "license": "Public domain",
@@ -3873,7 +4010,7 @@
         "s-wp-louis-pasteur"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Illustration_of_Redi%27s_1668_experiment_to_refute_spontaneous_generation.svg/500px-Illustration_of_Redi%27s_1668_experiment_to_refute_spontaneous_generation.svg.png",
         "license": "CC BY-SA 4.0",
@@ -3935,7 +4072,14 @@
         "s-wp-gregor-mendel"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Mendel_paper.jpg/500px-Mendel_paper.jpg",
+        "license": "Public domain",
+        "credit": "Gregor Mendel",
+        "page": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
+        "article": "Experiments on Plant Hybridization"
+      }
     },
     {
       "id": "d-1869-miescher-nuclein",
@@ -3985,7 +4129,14 @@
         "s-wp-friedrich-miescher"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/1bna_naba_ribbon_v.png/500px-1bna_naba_ribbon_v.png",
+        "license": "CC BY 3.0",
+        "credit": "Dcrjsr",
+        "page": "https://commons.wikimedia.org/wiki/File:1bna_naba_ribbon_v.png",
+        "article": "Nucleic acid"
+      }
     },
     {
       "id": "d-1882-koch-tuberculosis",
@@ -4035,7 +4186,14 @@
         "s-wp-robert-koch"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/201708_Mycobacterium_tuberculosis.svg/500px-201708_Mycobacterium_tuberculosis.svg.png",
+        "license": "CC BY 4.0",
+        "credit": "DataBase Center for Life Science (DBCLS)",
+        "page": "https://commons.wikimedia.org/wiki/File:201708_Mycobacterium_tuberculosis.svg",
+        "article": "Mycobacterium tuberculosis"
+      }
     },
     {
       "id": "d-1887-cajal-neuron",
@@ -4068,7 +4226,15 @@
         "s-wp-neuron-doctrine"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/CajalCerebellum.jpg",
+        "license": "Public domain",
+        "credit": "Santiago Ramón",
+        "page": "https://commons.wikimedia.org/wiki/File:CajalCerebellum.jpg",
+        "article": "Neuron doctrine",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1910-morgan-chromosomes",
@@ -4123,7 +4289,14 @@
         "s-wp-thomas-hunt-morgan"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Drosophila_melanogaster_-_side_%28aka%29.jpg/500px-Drosophila_melanogaster_-_side_%28aka%29.jpg",
+        "license": "CC BY-SA 2.5",
+        "credit": "André Karwath aka Aka",
+        "page": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_side_(aka).jpg",
+        "article": "Drosophila melanogaster"
+      }
     },
     {
       "id": "d-1928-fleming-penicillin",
@@ -4173,7 +4346,14 @@
         "s-wp-alexander-fleming"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Benzylpenicillin-3D-balls.png/500px-Benzylpenicillin-3D-balls.png",
+        "license": "Public domain",
+        "credit": "Benjah-bmm27",
+        "page": "https://commons.wikimedia.org/wiki/File:Benzylpenicillin-3D-balls.png",
+        "article": "Penicillin"
+      }
     },
     {
       "id": "d-1952-photo51",
@@ -4224,7 +4404,7 @@
         "s-wp-rosalind-franklin"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1953-double-helix",
@@ -4282,7 +4462,7 @@
         "s-wp-james-watson"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/DNA_stub.svg/500px-DNA_stub.svg.png",
         "license": "CC BY-SA 3.0",
@@ -4323,7 +4503,7 @@
         "s-wp-hardy-weinberg-principle"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hardy-Weinberg.gif",
         "license": "CC BY-SA 3.0",
@@ -4380,7 +4560,7 @@
         "s-wp-ronald-fisher"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce375-plato-republic",
@@ -4431,7 +4611,7 @@
         "s-wp-plato"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Politeia_beginning._Codex_Parisinus_graecus_1807.jpg/500px-Politeia_beginning._Codex_Parisinus_graecus_1807.jpg",
         "license": "Public domain",
@@ -4489,7 +4669,7 @@
         "s-wp-augustine-of-hippo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Basel%2C_Universit%C3%A4tsbibliothek%2C_A_IV_4%2C_f._1r_%E2%80%93_Aurelius_Augustinus%2C_Confessiones.JPG/500px-Basel%2C_Universit%C3%A4tsbibliothek%2C_A_IV_4%2C_f._1r_%E2%80%93_Aurelius_Augustinus%2C_Confessiones.JPG",
         "license": "Public domain",
@@ -4524,7 +4704,7 @@
         "s-wp-the-book-of-healing"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1190-maimonides-guide",
@@ -4575,7 +4755,7 @@
         "s-wp-maimonides"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/14c_ed_of_the_Guide_for_the_Perplexed_by_Maimonides.jpg/500px-14c_ed_of_the_Guide_for_the_Perplexed_by_Maimonides.jpg",
         "license": "Public domain",
@@ -4616,7 +4796,7 @@
         "s-wp-thomas-aquinas"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Tommaso_-_Summa_theologica%2C_1596_-_4593718.tif/lossy-page1-500px-Tommaso_-_Summa_theologica%2C_1596_-_4593718.tif.jpg",
         "license": "Public domain",
@@ -4674,7 +4854,7 @@
         "s-wp-niccolo-machiavelli"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Nicolo_Machiavelli%2C_Il_Principe%2C_1550%2C_title_page.jpg/500px-Nicolo_Machiavelli%2C_Il_Principe%2C_1550%2C_title_page.jpg",
         "license": "Public domain",
@@ -4733,7 +4913,7 @@
         "s-wp-francis-bacon"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Houghton_EC.B1328.620ib_-_Novum_organum_scientiarum.jpg/500px-Houghton_EC.B1328.620ib_-_Novum_organum_scientiarum.jpg",
         "license": "Public domain",
@@ -4792,7 +4972,7 @@
         "s-wp-discourse-on-the-method"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Discours_De_La_Methode.jpg",
         "license": "Public domain",
@@ -4845,7 +5025,7 @@
         "s-wp-leviathan-hobbes-book"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Leviathan_frontispiece_cropped_British_Library.jpg/500px-Leviathan_frontispiece_cropped_British_Library.jpg",
         "license": "CC0",
@@ -4903,7 +5083,7 @@
         "s-wp-baruch-spinoza"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Spinoza_Ethica.jpg/500px-Spinoza_Ethica.jpg",
         "license": "Public domain",
@@ -4938,7 +5118,7 @@
         "s-wp-an-essay-concerning-human-understanding"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Locke_Essay_1690.jpg",
         "license": "Public domain",
@@ -4995,7 +5175,7 @@
         "s-wp-monadology"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Leibniz_Monadology_1.jpg",
         "license": "Public domain",
@@ -5030,7 +5210,14 @@
         "s-wp-problem-of-induction"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/A_Treatise_of_Human_Nature_by_David_Hume.jpg/500px-A_Treatise_of_Human_Nature_by_David_Hume.jpg",
+        "license": "Public domain",
+        "credit": "David Hume",
+        "page": "https://commons.wikimedia.org/wiki/File:A_Treatise_of_Human_Nature_by_David_Hume.jpg",
+        "article": "A Treatise of Human Nature"
+      }
     },
     {
       "id": "d-1781-kant-critique",
@@ -5081,7 +5268,7 @@
         "s-wp-immanuel-kant"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Kant-KdrV-1781.png/500px-Kant-KdrV-1781.png",
         "license": "Public domain",
@@ -5139,7 +5326,7 @@
         "s-wp-mary-wollstonecraft"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Vindication1b.jpg/500px-Vindication1b.jpg",
         "license": "Public domain",
@@ -5197,7 +5384,7 @@
         "s-wp-georg-wilhelm-friedrich-hegel"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Ph%C3%A4nomenologie_des_Geistes.jpg/500px-Ph%C3%A4nomenologie_des_Geistes.jpg",
         "license": "Public domain",
@@ -5251,7 +5438,7 @@
         "s-wp-on-liberty"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/On_Liberty_%28first_edition_title_page_via_facsimile%29.jpg/500px-On_Liberty_%28first_edition_title_page_via_facsimile%29.jpg",
         "license": "Public domain",
@@ -5286,7 +5473,7 @@
         "s-wp-thus-spoke-zarathustra"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Also_sprach_Zarathustra_%281883%29.gif",
         "license": "Public domain",
@@ -5321,7 +5508,7 @@
         "s-wp-tractatus-logico-philosophicus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Tractatus_title_page_1922_Harcourt.png/500px-Tractatus_title_page_1922_Harcourt.png",
         "license": "Public domain",
@@ -5379,7 +5566,15 @@
         "s-wp-karl-popper"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Black_Swans.jpg/500px-Black_Swans.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Black_Swans.jpg",
+        "article": "Falsifiability",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1962-kuhn-revolutions",
@@ -5407,7 +5602,14 @@
         "s-wp-the-structure-of-scientific-revolutions"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Kaninchen_und_Ente.svg/500px-Kaninchen_und_Ente.svg.png",
+        "license": "Public domain",
+        "credit": "Unknown author",
+        "page": "https://commons.wikimedia.org/wiki/File:Kaninchen_und_Ente.svg",
+        "article": "Rabbit–duck illusion"
+      }
     },
     {
       "id": "d-1013-guido-staff",
@@ -5462,7 +5664,14 @@
         "s-wp-guido-of-arezzo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Guidonian_hand.jpg/500px-Guidonian_hand.jpg",
+        "license": "Public domain",
+        "credit": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Guidonian_hand.jpg",
+        "article": "Guidonian hand"
+      }
     },
     {
       "id": "d-1581-vgalilei-dialogue",
@@ -5518,7 +5727,7 @@
         "s-wp-galileo-galilei"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1607-monteverdi-orfeo",
@@ -5573,7 +5782,7 @@
         "s-wp-l-orfeo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Frontispiece_of_L%27Orfeo.jpg",
         "license": "Public domain",
@@ -5630,7 +5839,14 @@
         "s-wp-marin-mersenne"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Marin_Mersenne_-_Harmonie_universelle_1636_%28page_de_titre%29.png/500px-Marin_Mersenne_-_Harmonie_universelle_1636_%28page_de_titre%29.png",
+        "license": "Public domain",
+        "credit": "Marin Mersenne, publié à Paris en 1636",
+        "page": "https://commons.wikimedia.org/wiki/File:Marin_Mersenne_-_Harmonie_universelle_1636_(page_de_titre).png",
+        "article": "Harmonie universelle"
+      }
     },
     {
       "id": "d-1722-bach-wtc",
@@ -5680,7 +5896,7 @@
         "s-wp-the-well-tempered-clavier"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Das_Wohltemperirte_Clavier_titlepage_2.jpg",
         "license": "Public domain",
@@ -5743,7 +5959,7 @@
         "s-wp-ludwig-van-beethoven"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Eroica_Beethoven_title.jpg/500px-Eroica_Beethoven_title.jpg",
         "license": "Public domain",
@@ -5806,7 +6022,7 @@
         "s-wp-tristan-chord"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Joseph_Albert_-_Ludwig_und_Malwine_Schnorr_von_Carolsfeld_-_Tristan_und_Isolde%2C_1865f.jpg/500px-Joseph_Albert_-_Ludwig_und_Malwine_Schnorr_von_Carolsfeld_-_Tristan_und_Isolde%2C_1865f.jpg",
         "license": "Public domain",
@@ -5869,7 +6085,14 @@
         "s-wp-claude-debussy"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Manet_faune.gif/500px-Manet_faune.gif",
+        "license": "Public domain",
+        "credit": null,
+        "page": "https://commons.wikimedia.org/wiki/File:Manet_faune.gif",
+        "article": "L'après-midi d'un faune (poem)"
+      }
     },
     {
       "id": "d-1913-stravinsky-rite",
@@ -5919,7 +6142,7 @@
         "s-wp-the-rite-of-spring"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/The-rite-of-spring-1913.jpg%21PinterestLarge.jpg",
         "license": "Public domain",
@@ -5982,7 +6205,7 @@
         "s-wp-arnold-schoenberg"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/12tones-my_example1.JPG/500px-12tones-my_example1.JPG",
         "license": "CC BY-SA 3.0",
@@ -6045,7 +6268,7 @@
         "s-wp-louis-armstrong"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce2670-djoser",
@@ -6100,7 +6323,7 @@
         "s-wp-pyramid-of-djoser"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Sakkara_01.jpg/500px-Sakkara_01.jpg",
         "license": "CC BY 3.0",
@@ -6159,7 +6382,7 @@
         "s-wp-parthenon"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/500px-The_Parthenon_in_Athens.jpg",
         "license": "CC BY 2.0",
@@ -6194,7 +6417,7 @@
         "s-wp-de-architectura"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/De_architectura.jpg/500px-De_architectura.jpg",
         "license": "CC BY-SA 2.5",
@@ -6252,7 +6475,7 @@
         "s-wp-pantheon-rome"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/500px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg",
         "license": "CC BY-SA 4.0",
@@ -6311,7 +6534,7 @@
         "s-wp-hagia-sophia"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Hagia_Sophia_Mars_2013.jpg/500px-Hagia_Sophia_Mars_2013.jpg",
         "license": "CC BY-SA 3.0",
@@ -6370,7 +6593,7 @@
         "s-wp-filippo-brunelleschi"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Florence_Duomo_from_Michelangelo_hill.jpg/500px-Florence_Duomo_from_Michelangelo_hill.jpg",
         "license": "CC BY-SA 4.0",
@@ -6423,7 +6646,7 @@
         "s-wp-villa-la-rotonda"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/07-Villa-Rotonda-Palladio.jpg/500px-07-Villa-Rotonda-Palladio.jpg",
         "license": "CC BY-SA 4.0",
@@ -6481,7 +6704,7 @@
         "s-wp-su-leymaniye-mosque"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/S%C3%BCleymaniyeMosqueIstanbul_%28cropped%29.jpg/500px-S%C3%BCleymaniyeMosqueIstanbul_%28cropped%29.jpg",
         "license": "CC0",
@@ -6534,7 +6757,7 @@
         "s-wp-st-paul-s-cathedral"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/St_Pauls_aerial_%28cropped%29.jpg/500px-St_Pauls_aerial_%28cropped%29.jpg",
         "license": "CC BY 2.0",
@@ -6593,7 +6816,7 @@
         "s-wp-joseph-paxton"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Crystal_Palace_from_the_northeast_from_Dickinson%27s_Comprehensive_Pictures_of_the_Great_Exhibition_of_1851._1854.jpg/500px-Crystal_Palace_from_the_northeast_from_Dickinson%27s_Comprehensive_Pictures_of_the_Great_Exhibition_of_1851._1854.jpg",
         "license": "Public domain",
@@ -6651,7 +6874,15 @@
         "s-wp-haussmann-s-renovation-of-paris"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg/500px-PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg",
+        "license": "Public domain",
+        "credit": "Camille Pissarro",
+        "page": "https://commons.wikimedia.org/wiki/File:PISSARRO_Camille_L%27Avenue_de_l%27Op%C3%A9ra_Huile_sur_toile.jpg",
+        "article": "Haussmann's renovation of Paris",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1887-eiffel-tower",
@@ -6697,7 +6928,7 @@
         "s-wp-eiffel-tower"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/500px-Tour_Eiffel_Wikimedia_Commons.jpg",
         "license": "Public domain",
@@ -6756,7 +6987,7 @@
         "s-wp-wainwright-building"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Wainwright_building_st_louis_USA.jpg/500px-Wainwright_building_st_louis_USA.jpg",
         "license": "Public domain",
@@ -6809,7 +7040,7 @@
         "s-wp-sagrada-fami-lia"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/SF_maig_2026.jpg/500px-SF_maig_2026.jpg",
         "license": "CC BY-SA 4.0",
@@ -6872,7 +7103,15 @@
         "s-wp-patrick-geddes"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Geddes_Plan_for_Tel_Aviv_1925.jpg/500px-Geddes_Plan_for_Tel_Aviv_1925.jpg",
+        "license": "Public domain",
+        "credit": "Patrick Geddes (1854-1932)",
+        "page": "https://commons.wikimedia.org/wiki/File:Geddes_Plan_for_Tel_Aviv_1925.jpg",
+        "article": "Geddes Plan for Tel Aviv",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1925-bauhaus-dessau",
@@ -6918,7 +7157,7 @@
         "s-wp-bauhaus-dessau"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg/500px-Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg",
         "license": "FAL",
@@ -6976,7 +7215,7 @@
         "s-wp-villa-savoye"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1929-barcelona-pavilion",
@@ -7022,7 +7261,7 @@
         "s-wp-barcelona-pavilion"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg/500px-The_Barcelona_Pavilion%2C_Barcelona%2C_2010.jpg",
         "license": "CC BY 3.0",
@@ -7080,7 +7319,7 @@
         "s-wp-fallingwater"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Fallingwater_2007.jpg/500px-Fallingwater_2007.jpg",
         "license": "Public domain",
@@ -7139,7 +7378,7 @@
         "s-wp-brasi-lia"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Planalto_Central_%28cropped%29.jpg/500px-Planalto_Central_%28cropped%29.jpg",
         "license": "CC BY-SA 4.0",
@@ -7192,7 +7431,7 @@
         "s-wp-scrovegni-chapel"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/La_Cappella_degli_Scrovegni.JPG/500px-La_Cappella_degli_Scrovegni.JPG",
         "license": "CC BY-SA 3.0",
@@ -7250,7 +7489,7 @@
         "s-wp-holy-trinity-masaccio"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Masaccio_-_Trinity_-_Santa_Maria_Novella.jpg/500px-Masaccio_-_Trinity_-_Santa_Maria_Novella.jpg",
         "license": "Public domain",
@@ -7308,7 +7547,7 @@
         "s-wp-jan-van-eyck"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/500px-Van_Eyck_-_Arnolfini_Portrait.jpg",
         "license": "Public domain",
@@ -7365,7 +7604,7 @@
         "s-wp-mona-lisa"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
         "license": "Public domain",
@@ -7424,7 +7663,7 @@
         "s-wp-caravaggio"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg/500px-Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg",
         "license": "CC0",
@@ -7481,7 +7720,7 @@
         "s-wp-the-night-watch"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/500px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
         "license": "Public domain",
@@ -7539,7 +7778,7 @@
         "s-wp-johannes-vermeer"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/500px-1665_Girl_with_a_Pearl_Earring.jpg",
         "license": "Public domain",
@@ -7596,7 +7835,7 @@
         "s-wp-rain-steam-and-speed-the-great-western-railway"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/J._M._W._Turner_-_Rain%2C_Steam_and_Speed_%E2%80%93_The_Great_Western_Railway.jpg/500px-J._M._W._Turner_-_Rain%2C_Steam_and_Speed_%E2%80%93_The_Great_Western_Railway.jpg",
         "license": "Public domain",
@@ -7653,7 +7892,7 @@
         "s-wp-impression-sunrise"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/500px-Monet_-_Impression%2C_Sunrise.jpg",
         "license": "Public domain",
@@ -7712,7 +7951,7 @@
         "s-wp-georges-seurat"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/500px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
         "license": "Public domain",
@@ -7765,7 +8004,7 @@
         "s-wp-les-demoiselles-d-avignon"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1910-kandinsky-abstraction",
@@ -7798,7 +8037,14 @@
         "s-wp-wassily-kandinsky"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg/500px-Composition_VII_-_Wassily_Kandinsky%2C_GAC.jpg",
+        "license": "Public domain",
+        "credit": "Wassily Kandinsky",
+        "page": "https://commons.wikimedia.org/wiki/File:Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
+        "article": "Composition VII"
+      }
     },
     {
       "id": "d-1661-beauchamp-positions",
@@ -7854,7 +8100,7 @@
         "s-wp-pierre-beauchamp"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1760-noverre-letters",
@@ -7904,7 +8150,7 @@
         "s-wp-jean-georges-noverre"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1832-sylphide",
@@ -7957,7 +8203,7 @@
         "s-wp-marie-taglioni"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Sylphide_-Marie_Taglioni_-1832_-2.jpg/500px-Sylphide_-Marie_Taglioni_-1832_-2.jpg",
         "license": "CC BY-SA 3.0",
@@ -8010,7 +8256,7 @@
         "s-wp-the-sleeping-beauty-ballet"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Sleeping_beauty_cast.jpg/500px-Sleeping_beauty_cast.jpg",
         "license": "Public domain",
@@ -8072,7 +8318,7 @@
         "s-wp-isadora-duncan"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1912-nijinsky-faune",
@@ -8118,7 +8364,7 @@
         "s-wp-afternoon-of-a-faun-nijinsky"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Bakst_Nizhinsky.jpg/500px-Bakst_Nizhinsky.jpg",
         "license": "Public domain",
@@ -8159,7 +8405,7 @@
         "s-wp-rudolf-von-laban"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Labanotation1.jpg",
         "license": "Public domain",
@@ -8217,7 +8463,7 @@
         "s-wp-apollo-ballet"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ballets_Russes_-_Apollo_musag%C3%A8te.jpg/500px-Ballets_Russes_-_Apollo_musag%C3%A8te.jpg",
         "license": "Public domain",
@@ -8274,7 +8520,7 @@
         "s-wp-nefertiti-bust"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/500px-Nofretete_Neues_Museum.jpg",
         "license": "CC BY-SA 3.0",
@@ -8314,7 +8560,7 @@
         "s-wp-discobolus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/500px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG",
         "license": "CC BY-SA 4.0",
@@ -8371,7 +8617,7 @@
         "s-wp-david-michelangelo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/500px-%27David%27_by_Michelangelo_Fir_JBU004.jpg",
         "license": "CC BY 3.0",
@@ -8433,7 +8679,7 @@
         "s-wp-ecstasy-of-saint-teresa"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Ecstasy_of_Saint_Teresa_September_2015-2a.jpg/500px-Ecstasy_of_Saint_Teresa_September_2015-2a.jpg",
         "license": "CC BY-SA 4.0",
@@ -8490,7 +8736,7 @@
         "s-wp-the-thinker"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Thinker%2C_Rodin.jpg/500px-The_Thinker%2C_Rodin.jpg",
         "license": "Public domain",
@@ -8552,7 +8798,7 @@
         "s-wp-fountain-duchamp"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Duchamp_Fountaine.jpg/500px-Duchamp_Fountaine.jpg",
         "license": "Public domain",
@@ -8609,7 +8855,7 @@
         "s-wp-bird-in-space"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bird_in_Space.jpg/500px-Bird_in_Space.jpg",
         "license": "Public domain",
@@ -8666,7 +8912,15 @@
         "s-wp-alexander-calder"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Calder-redmobile.jpg/500px-Calder-redmobile.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Alexander Calder",
+        "page": "https://commons.wikimedia.org/wiki/File:Calder-redmobile.jpg",
+        "article": "Mobile (sculpture)",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1895-lumiere-workers",
@@ -8717,7 +8971,7 @@
         "s-wp-workers-leaving-the-lumie-re-factory"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/La_sortie_des_usines_Lumiere.jpg",
         "license": "Public domain",
@@ -8780,7 +9034,7 @@
         "s-wp-georges-me-lie-s"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Le_Voyage_dans_la_lune.jpg",
         "license": "Public domain",
@@ -8842,7 +9096,7 @@
         "s-wp-battleship-potemkin"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Battleship_Potemkin-Ship_portrait.jpg/500px-Battleship_Potemkin-Ship_portrait.jpg",
         "license": "Public domain",
@@ -8904,7 +9158,7 @@
         "s-wp-metropolis-1927-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Horst_von_Harbou_-_Metropolis_set_photograph_05.jpg/500px-Horst_von_Harbou_-_Metropolis_set_photograph_05.jpg",
         "license": "Public domain",
@@ -8944,7 +9198,7 @@
         "s-wp-the-jazz-singer"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Jazz_Singer_1927_Poster.jpg/500px-The_Jazz_Singer_1927_Poster.jpg",
         "license": "Public domain",
@@ -8984,7 +9238,7 @@
         "s-wp-citizen-kane"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg/500px-Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg",
         "license": "Public domain",
@@ -9042,7 +9296,7 @@
         "s-wp-bicycle-thieves"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Photo_Gino_Saltamerenda%2C_Lamberto_Maggiorani_and_other_actors_in_a_scene_fromLadri_di_biciclette%2C_a_1948_film_directed_by_Vittorio_De_Sica._1948_-_Touring_Club_Italiano_04_1379.jpg/500px-thumbnail.jpg",
         "license": "CC BY-SA 4.0",
@@ -9099,7 +9353,7 @@
         "s-wp-rashomon"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Rashomon_%281950%29_Press_Photo_of_Toshiro_Mifune_and_Machiko_Ky%C5%8D.jpg/500px-Rashomon_%281950%29_Press_Photo_of_Toshiro_Mifune_and_Machiko_Ky%C5%8D.jpg",
         "license": "Public domain",
@@ -9157,7 +9411,7 @@
         "s-wp-breathless-1960-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1968-2001",
@@ -9190,7 +9444,7 @@
         "s-wp-2001-a-space-odyssey-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Photo_A_scene_from_2001._A_Space_Odyssey%2C_a_1968_film_directed_by_Stanley_Kubrick_1968_-_Touring_Club_Italiano_04_0826.jpg/500px-Photo_A_scene_from_2001._A_Space_Odyssey%2C_a_1968_film_directed_by_Stanley_Kubrick_1968_-_Touring_Club_Italiano_04_0826.jpg",
         "license": "CC BY-SA 4.0",
@@ -9252,7 +9506,7 @@
         "s-wp-toy-story"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce269-ashoka-edicts",
@@ -9285,7 +9539,7 @@
         "s-wp-edicts-of-ashoka"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ashoka_Lauriya_Areraj_inscription.jpg/500px-Ashoka_Lauriya_Areraj_inscription.jpg",
         "license": "CC BY-SA 3.0",
@@ -9320,7 +9574,7 @@
         "s-wp-babylonian-talmud"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Talmud_set.JPG/500px-Talmud_set.JPG",
         "license": "CC BY 3.0",
@@ -9382,7 +9636,15 @@
         "s-wp-rashi"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Mikraot_Gedolot.JPG/500px-Mikraot_Gedolot.JPG",
+        "license": "Public domain",
+        "credit": "Reuvenk",
+        "page": "https://commons.wikimedia.org/wiki/File:Mikraot_Gedolot.JPG",
+        "article": "Mikraot Gedolot",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1270-zohar",
@@ -9415,7 +9677,7 @@
         "s-wp-zohar"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Zohar.png",
         "license": "Public domain",
@@ -9472,7 +9734,7 @@
         "s-wp-gutenberg-bible"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/500px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
         "license": "CC BY-SA 2.0",
@@ -9535,7 +9797,7 @@
         "s-wp-martin-luther"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Luther_95_Thesen.png/500px-Luther_95_Thesen.png",
         "license": "Public domain",
@@ -9592,7 +9854,7 @@
         "s-wp-shulchan-aruch"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Brockhaus_and_Efron_Jewish_Encyclopedia_e9_327-0.jpg/500px-Brockhaus_and_Efron_Jewish_Encyclopedia_e9_327-0.jpg",
         "license": "Public domain",
@@ -9649,7 +9911,7 @@
         "s-wp-wilhelm-wundt"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1885-ebbinghaus-memory",
@@ -9677,7 +9939,14 @@
         "s-wp-hermann-ebbinghaus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/ForgettingCurve.svg/500px-ForgettingCurve.svg.png",
+        "license": "Public domain",
+        "credit": "The original uploader was Icez at English Wikipedia.",
+        "page": "https://commons.wikimedia.org/wiki/File:ForgettingCurve.svg",
+        "article": "Forgetting curve"
+      }
     },
     {
       "id": "d-1890-james-principles",
@@ -9705,7 +9974,7 @@
         "s-wp-the-principles-of-psychology"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Principles_of_Psychology_%28James%29_v1_pi.jpg/500px-Principles_of_Psychology_%28James%29_v1_pi.jpg",
         "license": "Public domain",
@@ -9740,7 +10009,7 @@
         "s-wp-classical-conditioning"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Classical_Conditioning.svg/500px-Classical_Conditioning.svg.png",
         "license": "CC BY-SA 3.0",
@@ -9798,7 +10067,7 @@
         "s-wp-sigmund-freud"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Die_Traumdeutung_%28Congress_scan%29.jpg/500px-Die_Traumdeutung_%28Congress_scan%29.jpg",
         "license": "Public domain",
@@ -9851,14 +10120,7 @@
         "s-wp-binet-simon-test"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Raven_Matrix.svg/500px-Raven_Matrix.svg.png",
-        "license": "CC BY-SA 3.0",
-        "credit": "User:Life of Riley",
-        "page": "https://commons.wikimedia.org/wiki/File:Raven_Matrix.svg",
-        "article": "Binet–Simon test"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1923-piaget-child",
@@ -9886,7 +10148,7 @@
         "s-wp-jean-piaget"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1957-festinger-dissonance",
@@ -9914,7 +10176,7 @@
         "s-wp-cognitive-dissonance"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1961-milgram-obedience",
@@ -9965,7 +10227,7 @@
         "s-wp-milgram-experiment"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Milgram_experiment_v2.svg/500px-Milgram_experiment_v2.svg.png",
         "license": "CC BY-SA 4.0",
@@ -10022,7 +10284,7 @@
         "s-wp-marquess-of-queensberry-rules"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1882-kano-judo",
@@ -10072,7 +10334,7 @@
         "s-wp-judo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/KOCIS_Korea_Judo_Kim_Jaebum_London_36_%287696361164%29.jpg/500px-KOCIS_Korea_Judo_Kim_Jaebum_London_36_%287696361164%29.jpg",
         "license": "CC BY-SA 2.0",
@@ -10131,7 +10393,7 @@
         "s-wp-karate"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/WKF-Karate-World-Championships_2012_Paris_263.JPG/500px-WKF-Karate-World-Championships_2012_Paris_263.JPG",
         "license": "CC BY-SA 3.0",
@@ -10185,7 +10447,15 @@
         "s-wp-brazilian-jiu-jitsu"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/GABRIEL_VELLA_vs_ROMINHO_51.jpg/500px-GABRIEL_VELLA_vs_ROMINHO_51.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "John Lamonica",
+        "page": "https://commons.wikimedia.org/wiki/File:GABRIEL_VELLA_vs_ROMINHO_51.jpg",
+        "article": "Brazilian jiu-jitsu",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1944-krav-maga",
@@ -10219,7 +10489,7 @@
         "s-wp-krav-maga"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kravmaga.jpg/500px-Kravmaga.jpg",
         "license": "Public domain",
@@ -10284,7 +10554,7 @@
         "s-wp-ancient-olympic-games"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Pankration_panathenaic_amphora_BM_VaseB610.jpg/500px-Pankration_panathenaic_amphora_BM_VaseB610.jpg",
         "license": "CC BY 2.5",
@@ -10324,7 +10594,14 @@
         "s-wp-hermann-von-helmholtz"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Blocked-pendulum-strobe.jpg/500px-Blocked-pendulum-strobe.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "MikeRun",
+        "page": "https://commons.wikimedia.org/wiki/File:Blocked-pendulum-strobe.jpg",
+        "article": "Conservation of energy"
+      }
     },
     {
       "id": "d-1949-feldenkrais-body",
@@ -10357,7 +10634,7 @@
         "s-wp-moshe-feldenkrais"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1943-sanshiro-sugata",
@@ -10385,7 +10662,7 @@
         "s-wp-sanshiro-sugata"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/The-Screenplay-Collections-by-Japanese-Writers-Volume-3-2.png/500px-The-Screenplay-Collections-by-Japanese-Writers-Volume-3-2.png",
         "license": "Public domain",
@@ -10453,7 +10730,7 @@
         "s-wp-mamoru-yamada"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Nippon_Budokan_2018.jpg/500px-Nippon_Budokan_2018.jpg",
         "license": "CC BY-SA 4.0",
@@ -10526,7 +10803,7 @@
         "s-wp-akhenaten"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Aten.svg/500px-Aten.svg.png",
         "license": "CC BY 2.5",
@@ -10581,7 +10858,14 @@
         "s-wp-mahavira"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kalpasutra_Mahavira_Nirvana.jpg/500px-Kalpasutra_Mahavira_Nirvana.jpg",
+        "license": "Public domain",
+        "credit": "Unknown author",
+        "page": "https://commons.wikimedia.org/wiki/File:Kalpasutra_Mahavira_Nirvana.jpg",
+        "article": "Kalpa Sūtra"
+      }
     },
     {
       "id": "d-629-xuanzang",
@@ -10636,7 +10920,14 @@
         "s-wp-xuanzang"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E5%94%AF%E4%B8%80%E5%8F%AF%E9%9D%A0%E7%9A%84%E6%9C%B1%E7%86%B9%E7%94%BB%E5%83%8F.jpg/500px-%E5%94%AF%E4%B8%80%E5%8F%AF%E9%9D%A0%E7%9A%84%E6%9C%B1%E7%86%B9%E7%94%BB%E5%83%8F.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "向史公哲曰",
+        "page": "https://commons.wikimedia.org/wiki/File:%E5%94%AF%E4%B8%80%E5%8F%AF%E9%9D%A0%E7%9A%84%E6%9C%B1%E7%86%B9%E7%94%BB%E5%83%8F.jpg",
+        "article": "Great Tang Records on the Western Regions"
+      }
     },
     {
       "id": "d-712-kojiki",
@@ -10679,7 +10970,7 @@
         "s-wp-kojiki"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Shinpukuji-bon_Kojiki_%28%E7%9C%9F%E7%A6%8F%E5%AF%BA%E6%9C%AC%E5%8F%A4%E4%BA%8B%E8%A8%98%29.png/500px-Shinpukuji-bon_Kojiki_%28%E7%9C%9F%E7%A6%8F%E5%AF%BA%E6%9C%AC%E5%8F%A4%E4%BA%8B%E8%A8%98%29.png",
         "license": "Public domain",
@@ -10724,7 +11015,14 @@
         "s-wp-adi-shankara"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Vidyashankara_Temple_at_Shringeri.jpg/500px-Vidyashankara_Temple_at_Shringeri.jpg",
+        "license": "CC BY-SA 2.5",
+        "credit": "Calvinkrishy",
+        "page": "https://commons.wikimedia.org/wiki/File:Vidyashankara_Temple_at_Shringeri.jpg",
+        "article": "Sringeri Sharada Peetham"
+      }
     },
     {
       "id": "d-320-ezana",
@@ -10785,7 +11083,14 @@
         "s-wp-ezana-of-axum"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Aksum%2C_iscrizione_di_re_ezana%2C_in_greco%2C_sabeo_e_ge%27ez%2C_330-350_dc_ca._10.jpg/500px-Aksum%2C_iscrizione_di_re_ezana%2C_in_greco%2C_sabeo_e_ge%27ez%2C_330-350_dc_ca._10.jpg",
+        "license": "CC BY 3.0",
+        "credit": "Sailko",
+        "page": "https://commons.wikimedia.org/wiki/File:Aksum,_iscrizione_di_re_ezana,_in_greco,_sabeo_e_ge%27ez,_330-350_dc_ca._10.jpg",
+        "article": "Ezana Stone"
+      }
     },
     {
       "id": "d-1091-ghazali-incoherence",
@@ -10856,7 +11161,7 @@
         "s-wp-al-ghazali"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1273-mevlevi",
@@ -10921,7 +11226,7 @@
         "s-wp-mevlevi-order"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Turkey.Konya058.jpg/500px-Turkey.Konya058.jpg",
         "license": "CC BY 3.0",
@@ -11003,7 +11308,14 @@
         "s-wp-do-gen"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Joyomon_of_Eiheiji_in_September_2024.jpg/500px-Joyomon_of_Eiheiji_in_September_2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "掬茶",
+        "page": "https://commons.wikimedia.org/wiki/File:Joyomon_of_Eiheiji_in_September_2024.jpg",
+        "article": "Eihei-ji"
+      }
     },
     {
       "id": "d-1324-mansa-musa",
@@ -11058,7 +11370,14 @@
         "s-wp-mansa-musa"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Djingareiber_cour.jpg/500px-Djingareiber_cour.jpg",
+        "license": "CC BY-SA 2.0 fr",
+        "credit": "KaTeznik",
+        "page": "https://commons.wikimedia.org/wiki/File:Djingareiber_cour.jpg",
+        "article": "Djinguereber Mosque"
+      }
     },
     {
       "id": "d-1604-adi-granth",
@@ -11119,7 +11438,7 @@
         "s-wp-guru-arjan"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Sri_Guru_Granth_Sahib_Nishan.jpg/500px-Sri_Guru_Granth_Sahib_Nishan.jpg",
         "license": "Public domain",
@@ -11174,7 +11493,15 @@
         "s-wp-handsome-lake"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Onondaga_Longhouse.tif/lossy-page1-500px-Onondaga_Longhouse.tif.jpg",
+        "license": "Public domain",
+        "credit": "Arthur C. Parker (Life time: (1881 – 1955))",
+        "page": "https://commons.wikimedia.org/wiki/File:Onondaga_Longhouse.tif",
+        "article": "Longhouse Religion",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1863-bahaullah",
@@ -11239,7 +11566,14 @@
         "s-wp-baha-u-lla-h"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ridvan-garden-baghdad.jpg/500px-Ridvan-garden-baghdad.jpg",
+        "license": "Public domain",
+        "credit": "Unknown author",
+        "page": "https://commons.wikimedia.org/wiki/File:Ridvan-garden-baghdad.jpg",
+        "article": "Garden of Ridván, Baghdad"
+      }
     },
     {
       "id": "d-1921-kimbangu",
@@ -11299,7 +11633,7 @@
         "s-wp-kimbanguist-church"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Nkamba_25_mai_2016.jpg/500px-Nkamba_25_mai_2016.jpg",
         "license": "CC BY-SA 4.0",
@@ -11366,7 +11700,7 @@
         "s-wp-second-vatican-council"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Second_Vatican_Council_by_Lothar_Wolleh_007.jpg/500px-Second_Vatican_Council_by_Lothar_Wolleh_007.jpg",
         "license": "CC BY-SA 3.0",
@@ -11433,7 +11767,7 @@
         "s-wp-14th-dalai-lama"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce2055-beni-hasan",
@@ -11489,7 +11823,7 @@
         "s-wp-khety-bh17"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/BeniHasanTombs2.jpg/500px-BeniHasanTombs2.jpg",
         "license": "CC BY-SA 3.0",
@@ -11559,7 +11893,7 @@
         "s-wp-boxing"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/In_the_earlist_times_a_simple_foot-race_was_the_only_event.jpg/500px-In_the_earlist_times_a_simple_foot-race_was_the_only_event.jpg",
         "license": "Public domain",
@@ -11627,7 +11961,15 @@
         "s-wp-yang-luchan"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Yang_cheng_fu_single_whip_application_2_75.jpg/500px-Yang_cheng_fu_single_whip_application_2_75.jpg",
+        "license": "Public domain",
+        "credit": "Unknown author",
+        "page": "https://commons.wikimedia.org/wiki/File:Yang_cheng_fu_single_whip_application_2_75.jpg",
+        "article": "Yang-style tai chi",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1949-ipman-wingchun",
@@ -11692,7 +12034,7 @@
         "s-wp-ip-man"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1955-taekwondo",
@@ -11731,7 +12073,7 @@
         "s-wp-taekwondo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/COOK_%28GBR%29_VS_ZHU_%28CHN%29_BM_-80KGM12.JPG/500px-COOK_%28GBR%29_VS_ZHU_%28CHN%29_BM_-80KGM12.JPG",
         "license": "CC BY-SA 3.0",
@@ -11804,7 +12146,7 @@
         "s-wp-bruce-lee"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1932-bimba-regional",
@@ -11871,7 +12213,7 @@
         "s-wp-capoeira"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Capoeira%2C_Brazils.png/500px-Capoeira%2C_Brazils.png",
         "license": "Public domain",
@@ -11944,7 +12286,7 @@
         "s-wp-ufc-1"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce350-aristotle-de-anima",
@@ -11982,7 +12324,7 @@
         "s-wp-on-the-soul"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Aristotelis_De_anima.jpg",
         "license": "Public domain",
@@ -12050,7 +12392,7 @@
         "s-wp-hermann-rorschach"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Rorschach_inkblots.jpg",
         "license": "Public domain",
@@ -12118,7 +12460,7 @@
         "s-wp-thematic-apperception-test"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1939-wechsler-bellevue",
@@ -12184,7 +12526,15 @@
         "s-wp-david-wechsler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Cubes_de_kohs_utilis%C3%A9s_dans_la_Wais_-_R_avec_un_exemple_de_figure_%C3%A0_4_cubes.jpg/500px-Cubes_de_kohs_utilis%C3%A9s_dans_la_Wais_-_R_avec_un_exemple_de_figure_%C3%A0_4_cubes.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Psyfph2",
+        "page": "https://commons.wikimedia.org/wiki/File:Cubes_de_kohs_utilis%C3%A9s_dans_la_Wais_-_R_avec_un_exemple_de_figure_%C3%A0_4_cubes.jpg",
+        "article": "Wechsler Adult Intelligence Scale",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1943-mmpi",
@@ -12245,7 +12595,7 @@
         "s-wp-b-f-skinner"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1961-beck-depression-inventory",
@@ -12306,7 +12656,7 @@
         "s-wp-aaron-t-beck"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1980-dsm-iii",
@@ -12360,14 +12710,7 @@
         "s-wp-robert-spitzer-psychiatrist"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/DSM-5-TR_Cover.webp/500px-DSM-5-TR_Cover.webp",
-        "license": "Public domain",
-        "credit": "w:American Psychiatric Association",
-        "page": "https://commons.wikimedia.org/wiki/File:DSM-5-TR_Cover.webp",
-        "article": "Diagnostic and Statistical Manual of Mental Disorders"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1938-skinner-operant",
@@ -12428,7 +12771,14 @@
         "s-wp-b-f-skinner"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Skinner_box_scheme_01.png/500px-Skinner_box_scheme_01.png",
+        "license": "CC BY-SA 3.0",
+        "credit": "Andreas1",
+        "page": "https://commons.wikimedia.org/wiki/File:Skinner_box_scheme_01.png",
+        "article": "Operant conditioning chamber"
+      }
     },
     {
       "id": "d-1943-maslow-needs",
@@ -12494,7 +12844,7 @@
         "s-wp-abraham-maslow"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Maslowsneeds.png/500px-Maslowsneeds.png",
         "license": "CC BY-SA 3.0",
@@ -12562,7 +12912,7 @@
         "s-wp-carl-rogers"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1961-bandura-bobo-doll",
@@ -12627,7 +12977,7 @@
         "s-wp-bobo-doll-experiment"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1967-beck-cognitive-therapy",
@@ -12683,7 +13033,7 @@
         "s-wp-aaron-t-beck"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1958-bowlby-attachment",
@@ -12743,7 +13093,7 @@
         "s-wp-john-bowlby"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1974-loftus-misinformation",
@@ -12809,7 +13159,7 @@
         "s-wp-misinformation-effect"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1979-prospect-theory",
@@ -12853,7 +13203,15 @@
         "s-wp-prospect-theory"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Loss_Aversion.png/500px-Loss_Aversion.png",
+        "license": "CC BY-SA 4.0",
+        "credit": "Laurenrosenberger",
+        "page": "https://commons.wikimedia.org/wiki/File:Loss_Aversion.png",
+        "article": "Loss aversion",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1998-seligman-positive-psychology",
@@ -12913,7 +13271,7 @@
         "s-wp-positive-psychology"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce475-confucius-analects",
@@ -12951,7 +13309,7 @@
         "s-wp-analects"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Rongo_Analects_02.jpg/500px-Rongo_Analects_02.jpg",
         "license": "Public domain",
@@ -13026,14 +13384,7 @@
         "s-wp-socrates"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Aristotle_Ethica_Nicomachea_page_1.png",
-        "license": "Public domain",
-        "credit": null,
-        "page": "https://commons.wikimedia.org/wiki/File:Aristotle_Ethica_Nicomachea_page_1.png",
-        "article": "Nicomachean Ethics"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce335-aristotle-nicomachean",
@@ -13103,7 +13454,7 @@
         "s-wp-nicomachean-ethics"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Aristotle_Ethica_Nicomachea_page_1.png",
         "license": "Public domain",
@@ -13171,13 +13522,13 @@
         "s-wp-epicurus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Epikouros_BM_1843.jpg/500px-Epikouros_BM_1843.jpg",
-        "license": "Public domain",
-        "credit": "Unknown author",
-        "page": "https://commons.wikimedia.org/wiki/File:Epikouros_BM_1843.jpg",
-        "article": "Epicureanism"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Herculaneum_papyri.jpg/500px-Herculaneum_papyri.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Sara Stabile, Francesca Palermo, Inna Bukreeva, Daniela Mele, Vincenzo Formoso, Roberto Bartolino &amp; Alessia Cedola",
+        "page": "https://commons.wikimedia.org/wiki/File:Herculaneum_papyri.jpg",
+        "article": "Herculaneum papyri"
       }
     },
     {
@@ -13221,7 +13572,7 @@
         "s-wp-mu-lamadhyamakaka-rika"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-170-marcus-aurelius-meditations",
@@ -13286,7 +13637,7 @@
         "s-wp-meditations"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg/500px-Marcus_Aurelius._De_seipso%2C_seu_vita_sua_%28Xylander%2C_1558%29.jpg",
         "license": "Public domain",
@@ -13368,7 +13719,7 @@
         "s-wp-al-farabi"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1180-averroes-incoherence",
@@ -13434,7 +13785,7 @@
         "s-wp-the-incoherence-of-the-incoherence"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1130-zhuxi-four-books",
@@ -13468,7 +13819,7 @@
         "s-wp-zhu-xi"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1943-sartre-being-nothingness",
@@ -13529,7 +13880,7 @@
         "s-wp-being-and-nothingness"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Cover_Das_Sein_und_das_Nichts.jpg",
         "license": "Public domain",
@@ -13597,7 +13948,7 @@
         "s-wp-the-second-sex"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Le_deuxi%C3%A8me_sexe.jpg",
         "license": "Public domain",
@@ -13665,7 +14016,7 @@
         "s-wp-hannah-arendt"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1952-fanon-black-skin",
@@ -13726,7 +14077,7 @@
         "s-wp-frantz-fanon"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1967-derrida-grammatology",
@@ -13765,7 +14116,7 @@
         "s-wp-jacques-derrida"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1971-rawls-justice",
@@ -13803,7 +14154,7 @@
         "s-wp-a-theory-of-justice"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/A_Theory_of_Justice_-_first_American_hardcover_edition.jpg",
         "license": "Public domain",
@@ -13853,7 +14204,7 @@
         "s-wp-animal-liberation-book"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1975-foucault-discipline-punish",
@@ -13914,7 +14265,14 @@
         "s-wp-discipline-and-punish"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Panopticon_prison.jpg/500px-Panopticon_prison.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Blue Ākāśha",
+        "page": "https://commons.wikimedia.org/wiki/File:Panopticon_prison.jpg",
+        "article": "Panopticon"
+      }
     },
     {
       "id": "d-bce246-archimedes-buoyancy",
@@ -13974,7 +14332,14 @@
         "s-wp-archimedes-principle"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Buoyancy.svg/500px-Buoyancy.svg.png",
+        "license": "CC BY-SA 3.0",
+        "credit": "Original: Yupi666 Vector: Pbrks",
+        "page": "https://commons.wikimedia.org/wiki/File:Buoyancy.svg",
+        "article": "Buoyancy"
+      }
     },
     {
       "id": "d-bce280-aristarchus-heliocentric",
@@ -14034,7 +14399,14 @@
         "s-wp-aristarchus-of-samos"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Aristarchus_Commandino_1572.png/500px-Aristarchus_Commandino_1572.png",
+        "license": "Public domain",
+        "credit": "Aristarchus of Samos, Pappus of Alexandria, Federico Commandino",
+        "page": "https://commons.wikimedia.org/wiki/File:Aristarchus_Commandino_1572.png",
+        "article": "On the Sizes and Distances (Aristarchus)"
+      }
     },
     {
       "id": "d-bce240-eratosthenes-earth",
@@ -14095,7 +14467,7 @@
         "s-wp-eratosthenes"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-150-ptolemy-almagest",
@@ -14161,7 +14533,7 @@
         "s-wp-ptolemy"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Almageste_de_Ptol%C3%A9m%C3%A9e_-_BNF_Lat16200_f1.jpg/500px-Almageste_de_Ptol%C3%A9m%C3%A9e_-_BNF_Lat16200_f1.jpg",
         "license": "Public domain",
@@ -14230,7 +14602,7 @@
         "s-wp-transistor"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Transistors.agr.jpg/500px-Transistors.agr.jpg",
         "license": "CC BY-SA 3.0",
@@ -14298,13 +14670,13 @@
         "s-wp-theodore-maiman"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Lasers.JPG/500px-Lasers.JPG",
-        "license": "CC BY 2.5",
-        "credit": "彭嘉傑",
-        "page": "https://commons.wikimedia.org/wiki/File:Lasers.JPG",
-        "article": "Laser"
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Ruby_laser.jpg/500px-Ruby_laser.jpg",
+        "license": "Public domain",
+        "credit": "US gov",
+        "page": "https://commons.wikimedia.org/wiki/File:Ruby_laser.jpg",
+        "article": "Ruby laser"
       }
     },
     {
@@ -14366,7 +14738,15 @@
         "s-wp-quark-model"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Meson_octet.png/500px-Meson_octet.png",
+        "license": "CC BY-SA 3.0",
+        "credit": "Laurascudder",
+        "page": "https://commons.wikimedia.org/wiki/File:Meson_octet.png",
+        "article": "Eightfold way (physics)",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1964-cmb",
@@ -14433,7 +14813,7 @@
         "s-wp-arno-allan-penzias"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/WMAP_2012.png/500px-WMAP_2012.png",
         "license": "Public domain",
@@ -14508,7 +14888,7 @@
         "s-wp-jocelyn-bell-burnell"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cycle_of_pulsed_gamma_rays_from_the_Vela_pulsar.gif",
         "license": "Public domain",
@@ -14581,7 +14961,7 @@
         "s-wp-51-pegasi-b"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg/500px-Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg",
         "license": "CC BY 4.0",
@@ -14651,7 +15031,14 @@
         "s-wp-adam-riess"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Progenitor_IA_supernova.svg/500px-Progenitor_IA_supernova.svg.png",
+        "license": "CC BY 3.0",
+        "credit": "NASA, ESA and A. Feild (STScI); vectorisation by chris 論",
+        "page": "https://commons.wikimedia.org/wiki/File:Progenitor_IA_supernova.svg",
+        "article": "Type Ia supernova"
+      }
     },
     {
       "id": "d-2012-higgs-boson",
@@ -14711,7 +15098,7 @@
         "s-wp-higgs-boson"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/CMS_Higgs-event.jpg/500px-CMS_Higgs-event.jpg",
         "license": "CC BY-SA 3.0",
@@ -14795,7 +15182,7 @@
         "s-wp-rainer-weiss"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LIGO_measurement_of_gravitational_waves.svg/500px-LIGO_measurement_of_gravitational_waves.svg.png",
         "license": "CC BY 3.0",
@@ -14846,7 +15233,7 @@
         "s-wp-sheperd-doeleman"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Event_Horizon_Telescope_Collaboration_%28testing-general-relativity-with-the-event-horizon%29.jpg/500px-Event_Horizon_Telescope_Collaboration_%28testing-general-relativity-with-the-event-horizon%29.jpg",
         "license": "CC BY 4.0",
@@ -14902,7 +15289,7 @@
         "s-wp-rhind-mathematical-papyrus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Rhind_Mathematical_Papyrus.jpg/500px-Rhind_Mathematical_Papyrus.jpg",
         "license": "Public domain",
@@ -14953,7 +15340,7 @@
         "s-wp-the-nine-chapters-on-the-mathematical-art"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/%E5%94%AF%E4%B8%80%E5%8F%AF%E9%9D%A0%E7%9A%84%E6%9C%B1%E7%86%B9%E7%94%BB%E5%83%8F.jpg/500px-%E5%94%AF%E4%B8%80%E5%8F%AF%E9%9D%A0%E7%9A%84%E6%9C%B1%E7%86%B9%E7%94%BB%E5%83%8F.jpg",
         "license": "CC BY-SA 4.0",
@@ -15030,7 +15417,7 @@
         "s-wp-omar-khayyam"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1948-shannon-information",
@@ -15074,7 +15461,7 @@
         "s-wp-claude-shannon"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Shannon_communication_system.svg/500px-Shannon_communication_system.svg.png",
         "license": "Public domain",
@@ -15152,7 +15539,7 @@
         "s-wp-john-forbes-nash-jr"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1963-cohen-forcing",
@@ -15196,7 +15583,7 @@
         "s-wp-paul-cohen"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1975-mandelbrot-fractals",
@@ -15245,7 +15632,14 @@
         "s-wp-the-fractal-geometry-of-nature"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Mandelbrot20210909_ABC02_65535x65535.png/500px-Mandelbrot20210909_ABC02_65535x65535.png",
+        "license": "CC0",
+        "credit": "PantheraLeo1359531",
+        "page": "https://commons.wikimedia.org/wiki/File:Mandelbrot20210909_ABC02_65535x65535.png",
+        "article": "Mandelbrot set"
+      }
     },
     {
       "id": "d-1976-four-color",
@@ -15311,7 +15705,7 @@
         "s-wp-four-color-theorem"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Th%C3%A9or%C3%A8me_des_quatre_couleurs.jpg/500px-Th%C3%A9or%C3%A8me_des_quatre_couleurs.jpg",
         "license": "CC BY-SA 3.0",
@@ -15385,7 +15779,14 @@
         "s-wp-rsa-cryptosystem"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Public_key_encryption.svg/500px-Public_key_encryption.svg.png",
+        "license": "Public domain",
+        "credit": "Davidgothberg",
+        "page": "https://commons.wikimedia.org/wiki/File:Public_key_encryption.svg",
+        "article": "Public-key cryptography"
+      }
     },
     {
       "id": "d-1994-wiles-fermat",
@@ -15451,7 +15852,7 @@
         "s-wp-andrew-wiles"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2002-perelman-poincare",
@@ -15506,7 +15907,7 @@
         "s-wp-grigori-perelman"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce460-democritus-atoms",
@@ -15577,7 +15978,7 @@
         "s-wp-democritus"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Amorphous_Tantalum.jpg/500px-Amorphous_Tantalum.jpg",
         "license": "CC BY-SA 4.0",
@@ -15617,7 +16018,7 @@
         "s-wp-jabir-ibn-hayyan"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-865-razi-substances",
@@ -15682,7 +16083,7 @@
         "s-wp-abu-bakr-al-razi"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1044-wujing-gunpowder",
@@ -15726,7 +16127,7 @@
         "s-wp-wujing-zongyao"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2023_Czarny_proch_Vesuvit_LC_%283%29.jpg/500px-2023_Czarny_proch_Vesuvit_LC_%283%29.jpg",
         "license": "CC BY-SA 4.0",
@@ -15801,7 +16202,7 @@
         "s-wp-otto-hahn"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Kernspaltung_--_induced_nuclear_fission.svg/500px-Kernspaltung_--_induced_nuclear_fission.svg.png",
         "license": "CC BY-SA 3.0",
@@ -15874,7 +16275,7 @@
         "s-wp-paul-hermann-mu-ller"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/DDT_chemical_on_watch_glass.png/500px-DDT_chemical_on_watch_glass.png",
         "license": "CC BY-SA 4.0",
@@ -15947,7 +16348,7 @@
         "s-wp-miller-urey-experiment"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/MUexperiment.png/500px-MUexperiment.png",
         "license": "CC BY 2.5",
@@ -16027,7 +16428,15 @@
         "s-wp-ziegler-natta-catalyst"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Polypropylene_isotactic_mini_trp.png/500px-Polypropylene_isotactic_mini_trp.png",
+        "license": "CC BY-SA 4.0",
+        "credit": "PakpongICCH444",
+        "page": "https://commons.wikimedia.org/wiki/File:Polypropylene_isotactic_mini_trp.png",
+        "article": "Polypropylene",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1977-sanger-sequencing",
@@ -16093,7 +16502,7 @@
         "s-wp-frederick-sanger"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1983-mullis-pcr",
@@ -16159,7 +16568,7 @@
         "s-wp-kary-mullis"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Thermal_cycler_for_PCR.jpg/500px-Thermal_cycler_for_PCR.jpg",
         "license": "CC BY-SA 4.0",
@@ -16229,7 +16638,7 @@
         "s-wp-richard-smalley"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/C60_Fullerene_solution_%281%29.jpg/500px-C60_Fullerene_solution_%281%29.jpg",
         "license": "CC BY-SA 2.0",
@@ -16281,7 +16690,7 @@
         "s-wp-lithium-ion-battery"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Lithium-Ionen-Accumulator.jpg/500px-Lithium-Ionen-Accumulator.jpg",
         "license": "CC BY-SA 4.0",
@@ -16360,7 +16769,7 @@
         "s-wp-scripps-research"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2004-graphene",
@@ -16426,7 +16835,7 @@
         "s-wp-graphene"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Graphen.jpg/500px-Graphen.jpg",
         "license": "CC BY-SA 3.0",
@@ -16483,7 +16892,7 @@
         "s-wp-metal-organic-framework"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/General_structure_of_Metal-organic_frameworks.png/500px-General_structure_of_Metal-organic_frameworks.png",
         "license": "CC BY 4.0",
@@ -16562,7 +16971,7 @@
         "s-wp-google-deepmind"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Protein-Struktur.png/500px-Protein-Struktur.png",
         "license": "CC BY-SA 3.0",
@@ -16634,7 +17043,14 @@
         "s-wp-hippocrates"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HippocraticOath.jpg/500px-HippocraticOath.jpg",
+        "license": "Public domain",
+        "credit": "manuscript:Unknown authorUnknown author scan used in book: Foto de la Biblioteca Vaticana scan from book: User:Rmrfstar",
+        "page": "https://commons.wikimedia.org/wiki/File:HippocraticOath.jpg",
+        "article": "Hippocratic Corpus"
+      }
     },
     {
       "id": "d-162-galen-anatomy",
@@ -16704,7 +17120,7 @@
         "s-wp-galen"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1242-ibn-nafis",
@@ -16770,7 +17186,15 @@
         "s-wp-ibn-al-nafis"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2119_Pulmonary_Circuit.jpg/500px-2119_Pulmonary_Circuit.jpg",
+        "license": "CC BY 3.0",
+        "credit": "OpenStax College",
+        "page": "https://commons.wikimedia.org/wiki/File:2119_Pulmonary_Circuit.jpg",
+        "article": "Pulmonary circulation",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1952-hodgkin-huxley",
@@ -16837,7 +17261,7 @@
         "s-wp-andrew-huxley"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1961-jacob-monod",
@@ -16910,7 +17334,7 @@
         "s-wp-jacques-monod"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Lac_Operon.svg/500px-Lac_Operon.svg.png",
         "license": "CC BY-SA 3.0",
@@ -16983,7 +17407,7 @@
         "s-wp-rachel-carson"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Udaberri_isila.jpg/500px-Udaberri_isila.jpg",
         "license": "CC BY-SA 4.0",
@@ -17056,7 +17480,7 @@
         "s-wp-symbiogenesis"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Endosymbiosis.PNG/500px-Endosymbiosis.PNG",
         "license": "CC BY-SA 3.0",
@@ -17136,7 +17560,7 @@
         "s-wp-stanley-norman-cohen"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1996-dolly",
@@ -17202,7 +17626,7 @@
         "s-wp-dolly-sheep"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dolly_face_closeup.jpg/500px-Dolly_face_closeup.jpg",
         "license": "CC BY-SA 2.0",
@@ -17268,7 +17692,14 @@
         "s-wp-human-genome-project"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Human_karyotype_with_bands_and_sub-bands.png/500px-Human_karyotype_with_bands_and_sub-bands.png",
+        "license": "CC0",
+        "credit": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest: None Mikael Häggström, M.D.- The work integr",
+        "page": "https://commons.wikimedia.org/wiki/File:Human_karyotype_with_bands_and_sub-bands.png",
+        "article": "Human genome"
+      }
     },
     {
       "id": "d-2006-yamanaka-ipsc",
@@ -17323,7 +17754,15 @@
         "s-wp-induced-pluripotent-stem-cell"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Human_induced_pluripotent_stem_cell_colony_%2851816035910%29.jpg/500px-Human_induced_pluripotent_stem_cell_colony_%2851816035910%29.jpg",
+        "license": "Public domain",
+        "credit": "NIH Image Gallery from Bethesda, Maryland, USA",
+        "page": "https://commons.wikimedia.org/wiki/File:Human_induced_pluripotent_stem_cell_colony_(51816035910).jpg",
+        "article": "Induced pluripotent stem cell",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-2012-crispr",
@@ -17385,7 +17824,7 @@
         "s-wp-crispr-gene-editing"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/NHGRI-97218.jpg/500px-NHGRI-97218.jpg",
         "license": "Public domain",
@@ -17459,7 +17898,7 @@
         "s-wp-mrna-vaccine"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/RNA_vaccine-en.svg/500px-RNA_vaccine-en.svg.png",
         "license": "CC BY-SA 3.0",
@@ -17531,7 +17970,14 @@
         "s-wp-ziryab"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/%C5%AAd_MET_DP340079.jpg/500px-%C5%AAd_MET_DP340079.jpg",
+        "license": "CC0",
+        "credit": "Creator:Manol (Emmanuel Venios)",
+        "page": "https://commons.wikimedia.org/wiki/File:%C5%AAd_MET_DP340079.jpg",
+        "article": "Oud"
+      }
     },
     {
       "id": "d-1934-kulthum-radio",
@@ -17592,7 +18038,7 @@
         "s-wp-umm-kulthum"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1952-cage-433",
@@ -17652,7 +18098,7 @@
         "s-wp-4-33"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1965-reich-rain",
@@ -17713,7 +18159,7 @@
         "s-wp-steve-reich"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1967-beatles-pepper",
@@ -17770,7 +18216,7 @@
         "s-wp-sgt-pepper-s-lonely-hearts-club-band"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Sgt._Pepper%27s_Lonely_Hearts_Club_Band_album_art.jpg/500px-Sgt._Pepper%27s_Lonely_Hearts_Club_Band_album_art.jpg",
         "license": "Public domain",
@@ -17837,7 +18283,14 @@
         "s-wp-dj-kool-herc"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/1520_Sedwick_Ave.%2C_Bronx%2C_New_York1.JPG/500px-1520_Sedwick_Ave.%2C_Bronx%2C_New_York1.JPG",
+        "license": "Public domain",
+        "credit": "Bigtimepeace",
+        "page": "https://commons.wikimedia.org/wiki/File:1520_Sedwick_Ave.,_Bronx,_New_York1.JPG",
+        "article": "1520 Sedgwick Avenue"
+      }
     },
     {
       "id": "d-1973-marley-catchafire",
@@ -17908,7 +18361,7 @@
         "s-wp-bob-marley"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1974-kraftwerk-autobahn",
@@ -17980,7 +18433,7 @@
         "s-wp-kraftwerk"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Autobahn_2009.jpg/500px-Autobahn_2009.jpg",
         "license": "Public domain",
@@ -18054,7 +18507,7 @@
         "s-wp-fela-kuti"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-960-fankuan-travelers",
@@ -18097,7 +18550,7 @@
         "s-wp-fan-kuan"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1562-akbar-hamzanama",
@@ -18135,7 +18588,7 @@
         "s-wp-hamzanama"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Mir_Sayyid_Ali_Ilia_prorok.jpg/500px-Mir_Sayyid_Ali_Ilia_prorok.jpg",
         "license": "Public domain",
@@ -18198,7 +18651,7 @@
         "s-wp-the-great-wave-off-kanagawa"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg/500px-Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg",
         "license": "Public domain",
@@ -18270,7 +18723,7 @@
         "s-wp-black-square-painting"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png/500px-%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png",
         "license": "Public domain",
@@ -18344,7 +18797,7 @@
         "s-wp-frida-kahlo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1947-pollock-drip",
@@ -18404,7 +18857,7 @@
         "s-wp-jackson-pollock"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1949-rothko-colorfield",
@@ -18460,7 +18913,7 @@
         "s-wp-mark-rothko"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1958-kusama-infinitynets",
@@ -18525,7 +18978,7 @@
         "s-wp-yayoi-kusama"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1961-warhol-soup",
@@ -18590,7 +19043,7 @@
         "s-wp-campbell-s-soup-cans"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg/500px-Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg",
         "license": "Public domain",
@@ -18672,7 +19125,7 @@
         "s-wp-terracotta-army"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/51714-Terracota-Army.jpg/500px-51714-Terracota-Army.jpg",
         "license": "CC BY 2.0",
@@ -18745,7 +19198,7 @@
         "s-wp-esigie"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Benin_plaque_in_the_Ethnological_Museum%2C_Berlin_-_069.JPG/500px-Benin_plaque_in_the_Ethnological_Museum%2C_Berlin_-_069.JPG",
         "license": "CC0",
@@ -18818,7 +19271,7 @@
         "s-wp-alberto-giacometti"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1951-moore-reclining",
@@ -18879,7 +19332,7 @@
         "s-wp-henry-moore"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1999-bourgeois-maman",
@@ -18944,7 +19397,7 @@
         "s-wp-maman-sculpture"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Maman_-_Louise_Bourgeois_-_03_%28Cropped%29.jpg/500px-Maman_-_Louise_Bourgeois_-_03_%28Cropped%29.jpg",
         "license": "CC BY-SA 4.0",
@@ -19021,7 +19474,7 @@
         "s-wp-cloud-gate"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/A_public_square_in_Chicago_%289326033069%29.jpg/500px-A_public_square_in_Chicago_%289326033069%29.jpg",
         "license": "CC BY 2.0",
@@ -19093,7 +19546,7 @@
         "s-wp-sunflower-seeds-artwork"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%27Sunflower_Seeds%27_by_Ai_Weiwei%2C_Tate_Modern_Turbine_Hall.jpg/500px-%27Sunflower_Seeds%27_by_Ai_Weiwei%2C_Tate_Modern_Turbine_Hall.jpg",
         "license": "CC BY-SA 2.0",
@@ -19165,7 +19618,7 @@
         "s-wp-angkor-wat"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Angkor_wat_temple.jpg",
         "license": "CC BY-SA 2.0",
@@ -19242,7 +19695,7 @@
         "s-wp-rock-hewn-churches-lalibela"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Lalibela%2C_san_giorgio%2C_esterno_07.jpg/500px-Lalibela%2C_san_giorgio%2C_esterno_07.jpg",
         "license": "CC BY 3.0",
@@ -19314,7 +19767,7 @@
         "s-wp-forbidden-city"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Hall_of_Supreme_Harmony_%2820241127120000%29.jpg/500px-Hall_of_Supreme_Harmony_%2820241127120000%29.jpg",
         "license": "CC BY-SA 4.0",
@@ -19386,7 +19839,7 @@
         "s-wp-machu-picchu"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/500px-Machu_Picchu%2C_2023_%28012%29.jpg",
         "license": "CC BY-SA 4.0",
@@ -19469,7 +19922,7 @@
         "s-wp-taj-mahal"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg/500px-Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
         "license": "CC BY-SA 3.0",
@@ -19542,7 +19995,7 @@
         "s-wp-j-rn-utzon"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sydney_Opera_House_Sails.jpg/500px-Sydney_Opera_House_Sails.jpg",
         "license": "CC BY-SA 3.0",
@@ -19610,7 +20063,7 @@
         "s-wp-centre-pompidou"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Paris_Montmartre_Blick_aufs_Centre_Georges-Pompidou.jpg/500px-Paris_Montmartre_Blick_aufs_Centre_Georges-Pompidou.jpg",
         "license": "CC BY-SA 4.0",
@@ -19692,7 +20145,7 @@
         "s-wp-jatiya-sangsad-bhaban"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A6%A6_%E0%A6%AD%E0%A6%AC%E0%A6%A8_16.jpg/500px-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A6%A6_%E0%A6%AD%E0%A6%AC%E0%A6%A8_16.jpg",
         "license": "CC BY-SA 4.0",
@@ -19769,7 +20222,7 @@
         "s-wp-guggenheim-museum-bilbao"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg/500px-Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg",
         "license": "CC BY 2.0",
@@ -19856,7 +20309,7 @@
         "s-wp-burj-khalifa"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Dubai_skyline_2015_%28crop%29.jpg/500px-Dubai_skyline_2015_%28crop%29.jpg",
         "license": "CC BY-SA 3.0",
@@ -19933,7 +20386,7 @@
         "s-wp-heydar-aliyev-center"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Baku_15_06_14_216000.jpeg/500px-Baku_15_06_14_216000.jpeg",
         "license": "CC BY-SA 4.0",
@@ -19984,7 +20437,7 @@
         "s-wp-bharatanatyam"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Bharata_Natyam_Performance_DS.jpg/500px-Bharata_Natyam_Performance_DS.jpg",
         "license": "CC BY-SA 3.0",
@@ -20051,7 +20504,7 @@
         "s-wp-kabuki"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Morita-za_in_the_1790s.jpg/500px-Morita-za_in_the_1790s.jpg",
         "license": "Public domain",
@@ -20123,7 +20576,7 @@
         "s-wp-mevlevi-order"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Turkey.Konya058.jpg/500px-Turkey.Konya058.jpg",
         "license": "CC BY 3.0",
@@ -20201,7 +20654,7 @@
         "s-wp-martha-graham"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1960-ailey-revelations",
@@ -20267,7 +20720,7 @@
         "s-wp-alvin-ailey-american-dance-theater"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Alvin_Ailey_-_Revelations.jpg/500px-Alvin_Ailey_-_Revelations.jpg",
         "license": "CC BY-SA 2.0",
@@ -20334,7 +20787,7 @@
         "s-wp-merce-cunningham"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1973-bausch-tanztheater",
@@ -20395,7 +20848,7 @@
         "s-wp-pina-bausch"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Pina_Bausch.jpg/500px-Pina_Bausch.jpg",
         "license": "CC BY-SA 3.0",
@@ -20477,7 +20930,7 @@
         "s-wp-breakdancing"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Grupo_de_proyeccion%2C_BEAT_OWNERS_CREW.jpg/500px-Grupo_de_proyeccion%2C_BEAT_OWNERS_CREW.jpg",
         "license": "CC BY-SA 4.0",
@@ -20551,14 +21004,7 @@
         "s-wp-batsheva-dance-company"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ballerina-icon.jpg",
-        "license": "CC BY-SA 3.0",
-        "credit": "Snowdance.jpg: Rick Dikeman derivative work: Hekerui",
-        "page": "https://commons.wikimedia.org/wiki/File:Ballerina-icon.jpg",
-        "article": "Gaga (dance vocabulary)"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1936-chaplin-modern-times",
@@ -20601,7 +21047,7 @@
         "s-wp-modern-times-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Modern_Times_poster.jpg/500px-Modern_Times_poster.jpg",
         "license": "Public domain",
@@ -20673,7 +21119,7 @@
         "s-wp-tokyo-story"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tokyo_Monogatari_1953.jpg/500px-Tokyo_Monogatari_1953.jpg",
         "license": "Public domain",
@@ -20745,7 +21191,7 @@
         "s-wp-pather-panchali"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1977-lucas-star-wars",
@@ -20806,7 +21252,7 @@
         "s-wp-industrial-light-magic"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1992-living-in-bondage",
@@ -20850,7 +21296,7 @@
         "s-wp-nollywood"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Shooting_a_nollywood_movie_in_Awka.jpg/500px-Shooting_a_nollywood_movie_in_Awka.jpg",
         "license": "CC BY-SA 4.0",
@@ -20895,7 +21341,7 @@
         "s-wp-jurassic-park-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2001-miyazaki-spirited-away",
@@ -20938,7 +21384,7 @@
         "s-wp-spirited-away"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sen_to_Chihiro_no_kamikakushi_title.jpg",
         "license": "Public domain",
@@ -21010,7 +21456,7 @@
         "s-wp-parasite-2019-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-bce1400-hurrian-nikkal",
@@ -21073,7 +21519,7 @@
         "s-wp-hurrian-songs"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Hurritische_hymne.gif",
         "license": "Public domain",
@@ -21144,7 +21590,7 @@
         "s-wp-bianzhong"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Zenghouyi_-_IMG_5811.JPG/500px-Zenghouyi_-_IMG_5811.JPG",
         "license": "CC BY-SA 3.0",
@@ -21214,7 +21660,7 @@
         "s-wp-olmec-colossal-heads"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Olmeca_head_in_Villahermosa.jpg/500px-Olmeca_head_in_Villahermosa.jpg",
         "license": "CC BY-SA 4.0",
@@ -21284,7 +21730,7 @@
         "s-wp-moai"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ahu_Tongariki.jpg/500px-Ahu_Tongariki.jpg",
         "license": "CC BY-SA 3.0",
@@ -21336,7 +21782,7 @@
         "s-wp-tai-chi"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mawangdui_LaoTsu_Ms2.JPG",
         "license": "Public domain",
@@ -21381,7 +21827,7 @@
         "s-wp-tenrikyo"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Administering_the_Sazuke.jpg",
         "license": "Public domain",
@@ -21443,7 +21889,14 @@
         "s-wp-swami-vivekananda"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/1893parliament.jpg/500px-1893parliament.jpg",
+        "license": "Public domain",
+        "credit": "Unknown author",
+        "page": "https://commons.wikimedia.org/wiki/File:1893parliament.jpg",
+        "article": "Parliament of the World's Religions"
+      }
     },
     {
       "id": "d-1935-regina-jonas",
@@ -21481,7 +21934,7 @@
         "s-wp-regina-jonas"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1986-assisi-prayer",
@@ -21536,7 +21989,7 @@
         "s-wp-world-day-of-prayer-for-peace"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1996-truth-reconciliation",
@@ -21602,7 +22055,7 @@
         "s-wp-desmond-tutu"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2004-amman-message",
@@ -21652,7 +22105,7 @@
         "s-wp-amman-message"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2015-laudato-si",
@@ -21698,7 +22151,7 @@
         "s-wp-laudato-si"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Laudato_si%27_%28Traditional_Chinese_version%29.jpg/500px-Laudato_si%27_%28Traditional_Chinese_version%29.jpg",
         "license": "CC BY 2.0",
@@ -21733,7 +22186,7 @@
         "s-wp-after-virtue"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1981-habermas-communicative-action",
@@ -21766,7 +22219,7 @@
         "s-wp-the-theory-of-communicative-action"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1990-butler-gender-trouble",
@@ -21805,7 +22258,7 @@
         "s-wp-judith-butler"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1995-chalmers-hard-problem",
@@ -21833,7 +22286,7 @@
         "s-wp-hard-problem-of-consciousness"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2003-bostrom-simulation",
@@ -21871,7 +22324,7 @@
         "s-wp-simulation-hypothesis"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1936-anna-freud-defence",
@@ -21904,7 +22357,7 @@
         "s-wp-anna-freud"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1936-lacan-mirror-stage",
@@ -21959,7 +22412,15 @@
         "s-wp-mirror-stage"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Mirror_baby.jpg/500px-Mirror_baby.jpg",
+        "license": "CC BY 2.0",
+        "credit": "roseoftimothywoods",
+        "page": "https://commons.wikimedia.org/wiki/File:Mirror_baby.jpg",
+        "article": "Mirror stage",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1983-gardner-multiple-intelligences",
@@ -21987,7 +22448,15 @@
         "s-wp-theory-of-multiple-intelligences"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Multiple-intelligence.jpg/500px-Multiple-intelligence.jpg",
+        "license": "CC BY-SA 4.0",
+        "credit": "Sajaganesandip",
+        "page": "https://commons.wikimedia.org/wiki/File:Multiple-intelligence.jpg",
+        "article": "Theory of multiple intelligences",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-2013-dsm-5",
@@ -22026,7 +22495,7 @@
         "s-wp-david-kupfer"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/DSM-5_cover.svg/500px-DSM-5_cover.svg.png",
         "license": "Public domain",
@@ -22100,7 +22569,7 @@
         "s-wp-kim-un-yong"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/COOK_%28GBR%29_VS_ZHU_%28CHN%29_BM_-80KGM12.JPG/500px-COOK_%28GBR%29_VS_ZHU_%28CHN%29_BM_-80KGM12.JPG",
         "license": "CC BY-SA 3.0",
@@ -22168,14 +22637,7 @@
         "s-wp-nicola-adams"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/ExCel_Exhibition_Centre.jpg/500px-ExCel_Exhibition_Centre.jpg",
-        "license": "Public domain",
-        "credit": null,
-        "page": "https://commons.wikimedia.org/wiki/File:ExCel_Exhibition_Centre.jpg",
-        "article": "Boxing at the 2012 Summer Olympics"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2013-rousey-ufc-women",
@@ -22236,7 +22698,7 @@
         "s-wp-ufc-157"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1982-jackson-thriller",
@@ -22307,7 +22769,7 @@
         "s-wp-thriller-song"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1976-part-tintinnabuli",
@@ -22346,7 +22808,7 @@
         "s-wp-arvo-pa-rt"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1988-public-enemy-nation",
@@ -22412,7 +22874,7 @@
         "s-wp-it-takes-a-nation-of-millions-to-hold-us-back"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2017-lamar-damn",
@@ -22450,7 +22912,7 @@
         "s-wp-damn-kendrick-lamar-album"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1955-gould-goldberg",
@@ -22515,7 +22977,7 @@
         "s-wp-bach-the-goldberg-variations-glenn-gould-album"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1833-chopin-etudes",
@@ -22575,7 +23037,15 @@
         "s-wp-e-tudes-chopin"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Etude_10_12.png",
+        "license": "Public domain",
+        "credit": "Alton (This user)",
+        "page": "https://commons.wikimedia.org/wiki/File:Etude_10_12.png",
+        "article": "Étude Op. 10, No. 12 (Chopin)",
+        "fromArticle": true
+      }
     },
     {
       "id": "d-1814-goya-third-may",
@@ -22640,7 +23110,7 @@
         "s-wp-the-third-of-may-1808"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Francisco_de_Goya_y_Lucientes_-_Los_fusilamientos_del_tres_de_mayo_-_1814.jpg/500px-Francisco_de_Goya_y_Lucientes_-_Los_fusilamientos_del_tres_de_mayo_-_1814.jpg",
         "license": "Public domain",
@@ -22712,7 +23182,7 @@
         "s-wp-a-burial-at-ornans"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg/500px-Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg",
         "license": "Public domain",
@@ -22767,7 +23237,7 @@
         "s-wp-wanderer-above-the-sea-of-fog"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Friedrich%2C_Caspar_David_-_Wanderer_%C3%BCber_dem_Nebelmeer.jpg/500px-Friedrich%2C_Caspar_David_-_Wanderer_%C3%BCber_dem_Nebelmeer.jpg",
         "license": "Public domain",
@@ -22834,7 +23304,7 @@
         "s-wp-liberty-leading-the-people"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/500px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
         "license": "Public domain",
@@ -22912,7 +23382,7 @@
         "s-wp-jean-michel-basquiat"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1988-richter-october",
@@ -22950,7 +23420,7 @@
         "s-wp-18-oktober-1977"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2018-banksy-bin",
@@ -23015,7 +23485,7 @@
         "s-wp-love-is-in-the-bin"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1957-balanchine-agon",
@@ -23085,7 +23555,7 @@
         "s-wp-agon-ballet"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Agon.jpg/500px-Agon.jpg",
         "license": "CC BY 2.0",
@@ -23157,7 +23627,7 @@
         "s-wp-swan-lake-bourne"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1988-forsythe-czar",
@@ -23227,7 +23697,7 @@
         "s-wp-impressing-the-czar"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2002-khan-kaash",
@@ -23292,7 +23762,7 @@
         "s-wp-akram-khan-dancer"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2009-cameron-avatar",
@@ -23335,14 +23805,7 @@
         "s-wp-avatar-2009-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Avatar_Flight_of_Passage_%2833825582954%29.jpg/500px-Avatar_Flight_of_Passage_%2833825582954%29.jpg",
-        "license": "CC BY 2.0",
-        "credit": "Theme Park Tourist",
-        "page": "https://commons.wikimedia.org/wiki/File:Avatar_Flight_of_Passage_(33825582954).jpg",
-        "article": "Avatar (2009 film)"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2016-jenkins-moonlight",
@@ -23407,7 +23870,7 @@
         "s-wp-moonlight-2016-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2018-cuaron-roma",
@@ -23477,7 +23940,7 @@
         "s-wp-roma-2018-film"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_Roma.png/500px-Logo_Roma.png",
         "license": "Public domain",
@@ -23527,7 +23990,7 @@
         "s-wp-spiral-jetty"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Spiral-jetty-from-rozel-point.png/500px-Spiral-jetty-from-rozel-point.png",
         "license": "Public domain",
@@ -23604,7 +24067,7 @@
         "s-wp-angel-of-the-north"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Fly-Angel.jpg/500px-Fly-Angel.jpg",
         "license": "CC BY 2.5",
@@ -23678,7 +24141,7 @@
         "s-wp-augustin-louis-cauchy"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Cauchy.jpg",
         "license": "Public domain",
@@ -23746,7 +24209,7 @@
         "s-wp-joseph-fourier"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Fourier_Series.svg/500px-Fourier_Series.svg.png",
         "license": "Public domain",
@@ -23814,7 +24277,7 @@
         "s-wp-lebesgue-integration"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2004-green-tao",
@@ -23853,14 +24316,7 @@
         "s-wp-green-tao-theorem"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Green-Tao_Theorem_with_Endre_Szemeredi_by_Oliver_Sin_%28Black_%26_White_version_with_contrast%29.jpg/500px-Green-Tao_Theorem_with_Endre_Szemeredi_by_Oliver_Sin_%28Black_%26_White_version_with_contrast%29.jpg",
-        "license": "CC BY-SA 3.0",
-        "credit": "Scienceartfanatic",
-        "page": "https://commons.wikimedia.org/wiki/File:Green-Tao_Theorem_with_Endre_Szemeredi_by_Oliver_Sin_(Black_%26_White_version_with_contrast).jpg",
-        "article": "Green–Tao theorem"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-2014-mirzakhani-moduli",
@@ -23915,7 +24371,7 @@
         "s-wp-maryam-mirzakhani"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1824-carnot-reflections",
@@ -23972,7 +24428,7 @@
         "s-wp-reflections-on-the-motive-power-of-fire"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Carnot_title_page.png",
         "license": "CC0",
@@ -24034,7 +24490,7 @@
         "s-wp-rudolf-clausius"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1877-boltzmann-entropy",
@@ -24094,7 +24550,14 @@
         "s-wp-ludwig-boltzmann"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31"
+      "verifiedAt": "2026-11-01",
+      "workImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Boltzmann_equation.JPG",
+        "license": "CC BY-SA 3.0",
+        "credit": "User:Daderot http://en.wikipedia.org/wiki/User:Daderot",
+        "page": "https://commons.wikimedia.org/wiki/File:Boltzmann_equation.JPG",
+        "article": "Boltzmann's entropy formula"
+      }
     },
     {
       "id": "d-1866-haeckel-ecology",
@@ -24150,7 +24613,7 @@
         "s-wp-ernst-haeckel"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Grib_skov.jpg/500px-Grib_skov.jpg",
         "license": "CC BY-SA 3.0",
@@ -24213,7 +24676,7 @@
         "s-wp-alfred-j-lotka"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/LotkaVolterra.svg/500px-LotkaVolterra.svg.png",
         "license": "CC BY-SA 3.0",
@@ -24281,14 +24744,7 @@
         "s-wp-ecosystem"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Wild_zebra_on_Kenya_countryside.jpg/500px-Wild_zebra_on_Kenya_countryside.jpg",
-        "license": "CC BY-SA 3.0",
-        "credit": null,
-        "page": "https://commons.wikimedia.org/wiki/File:Wild_zebra_on_Kenya_countryside.jpg",
-        "article": "Ecosystem"
-      }
+      "verifiedAt": "2026-11-01"
     },
     {
       "id": "d-1790-pantheon-paris",
@@ -24353,7 +24809,7 @@
         "s-wp-panthe-on"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Panth%C3%A9on%2C_Paris_25_March_2012.jpg/500px-Panth%C3%A9on%2C_Paris_25_March_2012.jpg",
         "license": "CC BY-SA 3.0",
@@ -24426,7 +24882,7 @@
         "s-wp-karl-friedrich-schinkel"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Berl%C3%ADn_Star%C3%A9_muzeum_4.jpg/500px-Berl%C3%ADn_Star%C3%A9_muzeum_4.jpg",
         "license": "CC BY-SA 4.0",
@@ -24503,7 +24959,7 @@
         "s-wp-colosseum"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
+      "verifiedAt": "2026-11-01",
       "workImage": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/500px-Colosseo_2020.jpg",
         "license": "CC BY-SA 4.0",
@@ -24571,14 +25027,7 @@
         "s-wp-invention-of-the-telephone"
       ],
       "verified": true,
-      "verifiedAt": "2026-10-31",
-      "workImage": {
-        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Telefon_BW_2012-02-18_13-44-32.JPG/500px-Telefon_BW_2012-02-18_13-44-32.JPG",
-        "license": "CC BY-SA 3.0",
-        "credit": "Berthold Werner",
-        "page": "https://commons.wikimedia.org/wiki/File:Telefon_BW_2012-02-18_13-44-32.JPG",
-        "article": "Telephone"
-      }
+      "verifiedAt": "2026-11-01"
     }
   ]
 }

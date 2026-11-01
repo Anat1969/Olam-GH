@@ -7,7 +7,8 @@ import { scaleLinear } from 'd3-scale';
 import { type Discovery, links, personById, yearText, discoveries as allShown, shortName, ANON } from '../data';
 
 export const YEAR_MIN = -2700;
-export const YEAR_MAX = 2025;
+/** סוף הציר: השנה הנוכחית, כדי ש"עד" תמיד יהיה היום */
+export const YEAR_MAX = new Date().getFullYear();
 const W = 2200;
 const PAD = 56;
 const AXIS_Y = 132;
@@ -26,7 +27,7 @@ export const xScale = scaleLinear<number, number>()
   .range(FRACS.map((f) => W - PAD - f * (W - 2 * PAD)))
   .clamp(true);
 
-const TICKS_ALL = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970, 2000, 2025];
+const TICKS_ALL = [-2500, -2000, -1500, -1000, -500, -300, -200, -100, 1, 200, 400, 600, 800, 1000, 1100, 1200, 1300, 1400, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1825, 1850, 1875, 1900, 1925, 1950, 1970, 2000, YEAR_MAX];
 
 
 /** סקאלת x לחלון תקופה (גבול הידע שנבחר). בלי חלון: הסקאלה הדחוסה הרגילה. */
