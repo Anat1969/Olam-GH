@@ -3,9 +3,11 @@ const { chromium } = require('playwright');
 const { spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
-const PORT = 4199;
+const PORT = +process.env.PORT || 4199;
 const BASE = `http://localhost:${PORT}/`;
 const MENU = fs.readFileSync(path.join(__dirname, 'fixtures/ai-menu.js'), 'utf8');
+// הרכיב המשותף <app-creations>: עותק מקומי (או CREATIONS_JS), כי הסביבה לא מגיעה ל-github.io ול-vercel.app
+const CREATIONS_JS = process.env.CREATIONS_JS || path.join(__dirname, 'fixtures/creations.js');
 const fails = [];
 // ספירות צפויות נגזרות מהנתונים עצמם, כדי שהבדיקות לא יישברו כשנוסף תוכן מאומת
 const DATA = path.join(__dirname, '..', 'data');
@@ -72,6 +74,7 @@ const mock = async (p) => {
   await mockCloud(p);
   await p.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
   await p.route('**/fonts.googleapis.com/**', (r) => r.abort());
+  await p.route('**/creations.js', (r) => r.fulfill({ path: CREATIONS_JS, contentType: 'application/javascript' }));
 };
 
 (async () => {
@@ -655,6 +658,26 @@ const mock = async (p) => {
       ok((await size()) > spread0 * 1.3, 'נייד: צביטה בשתי אצבעות מגדילה');
       ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)), 'נייד: בלי גלילה אופקית אחרי מגע');
       await ctx.close();
+    }
+    // יצירות: חדר לכל נושא, וכרטיסי יצירה בכל חדר, במחשב ובטלפון
+    {
+      const CR = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'public', 'creations.json'), 'utf8'));
+      const total = CR.topics.reduce((n, t) => n + t.creations.length, 0);
+      ok(CR.topics.length >= 6 && new Set(CR.topics.map((t) => t.zone)).size === 3, `יצירות: ${CR.topics.length} חדרים בשלושת השלבים`);
+      for (const vp of [{ width: 1280, height: 900 }, { width: 390, height: 844 }]) {
+        const ctx = await b.newContext({ viewport: vp });
+        const m = await ctx.newPage();
+        await mock(m);
+        m.on('pageerror', (e) => errors.push(e.message));
+        await m.goto(BASE + '#/creations', { waitUntil: 'networkidle' });
+        await m.locator('app-creations .cr-card').first().waitFor({ timeout: 10000 });
+        ok(await m.locator('.tabs [aria-current="page"]').innerText() === 'יצירות', `יצירות (${vp.width}): הלשונית מסומנת`);
+        ok(await m.locator('app-creations .cr-room').count() === CR.topics.length, `יצירות (${vp.width}): ${CR.topics.length} חדרים`);
+        ok(await m.locator('app-creations .cr-card').count() >= total, `יצירות (${vp.width}): ${total} כרטיסים`);
+        ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)), `יצירות (${vp.width}): בלי גלילה אופקית`);
+        ok(await m.evaluate(() => document.documentElement.scrollHeight > window.innerHeight * 2), `יצירות (${vp.width}): הדף נגלל רגיל`);
+        await ctx.close();
+      }
     }
     ok(errors.length === 0, 'אין שגיאות JavaScript ' + errors.join(' | '));
   } finally {

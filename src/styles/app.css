@@ -828,3 +828,8 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
 .chain li.is-sel .ch-n { background: var(--marker); color: var(--ink); }
 .lg-grad { background: linear-gradient(to left, rgba(47, 122, 85, .2), rgb(47, 122, 85)) !important; height: 3px; border: 0 !important; }
 .lg-grad-ink { background: linear-gradient(to left, rgba(23, 25, 28, .12), rgb(23, 25, 28)) !important; height: 3px; border: 0 !important; }
+
+/* ───── יצירות ───── */
+/* דף שנקרא בגלילה רגילה, ברוחב של גלריה */
+.creations-page { display: block; max-width: 1280px; }
+.creations-page app-creations { min-width: 0; }
