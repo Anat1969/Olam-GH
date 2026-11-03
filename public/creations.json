@@ -1,0 +1,555 @@
+{
+  "app": {
+    "id": "olam",
+    "name": "עולם נעלם ומציאות מצויה",
+    "url": "https://olam-gh.vercel.app",
+    "repo": "Anat1969/Olam-GH",
+    "palette": {
+      "a": "#1F4E79",
+      "b": "#B85F16",
+      "c": "#8A8984",
+      "s": "#2F7A55",
+      "accent": "#2F7A55",
+      "marker": "#FFE45C",
+      "ink": "#17191C",
+      "paper": "#FFFFFF",
+      "paper2": "#F4F2EC",
+      "b-wash": "#FBEBDD",
+      "s-wash": "#E3F1EA",
+      "serif": "\"IBM Plex Sans Hebrew\", system-ui, sans-serif"
+    }
+  },
+  "topics": [
+    {
+      "id": "revolution",
+      "zone": "ידע",
+      "title": "המהפכה המדעית",
+      "sub": "מקופרניקוס עד ניוטון: **150 שנה** שבהן השמים הפכו לחוק.",
+      "room": "olam-revolution",
+      "creations": [
+        {
+          "id": "poster",
+          "kicker": "המהפכה המדעית",
+          "style": "poster",
+          "title": "השליח מן הכוכבים: הטלסקופ מגלה ירחים",
+          "text": "**טלסקופ** הופנה לשמים, ונמצאו **ירחים** שמקיפים את צדק.",
+          "image": "creations/img/d-1610-galileo-sidereus.jpg",
+          "credit": "Sidereus Nuncius · Galileo Galilei, Public domain. ויקישיתוף",
+          "pos": "center 30%",
+          "png": "creations/revolution-poster.jpg"
+        },
+        {
+          "id": "insight",
+          "kicker": "המהפכה המדעית",
+          "style": "insight",
+          "title": "150 שנה שבהן השמים הפכו לחוק",
+          "text": "ארבעה ספרים, 1543 עד 1687: ==מתצפית אל חוק אחד.==",
+          "png": "creations/revolution-insight.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "המהפכה המדעית",
+          "style": "quote",
+          "quote": "תמיכתו של גלילאו בשיטה ההליוצנטרית של קופרניקוס נתקלה בהתנגדות מתוך הכנסייה הקתולית ומצד כמה אסטרונומים.",
+          "who": "גלילאו וקופרניקוס",
+          "cite": "Galileo Galilei, Wikipedia · תרגום מהמקור",
+          "png": "creations/revolution-quote.jpg"
+        },
+        {
+          "id": "haiku",
+          "kicker": "המהפכה המדעית",
+          "style": "haiku",
+          "lines": [
+            "שמש במרכז",
+            "אליפסה של מאדים",
+            "תפוח שנופל"
+          ],
+          "text": "מה ההייקו מאיר: **ארבעה ספרים** הפכו את השמים ל**חוק אחד**.",
+          "png": "creations/revolution-haiku.jpg"
+        },
+        {
+          "id": "essay",
+          "kicker": "המהפכה המדעית",
+          "style": "essay",
+          "title": "ארבעה ספרים ששינו את השמים",
+          "text": "מקופרניקוס עד ניוטון: **150 שנה** שבהן השמים הפכו לחוק.",
+          "image": "creations/img/d-1687-newton-principia.jpg",
+          "credit": "Philosophiæ Naturalis Principia Mathematica · The original uploader was Zhaladshar at English Wikisource., Public domain. ויקישיתוף",
+          "body": [
+            "**1543, פרומבורק.** **קופרניקוס** פרסם מודל שבו **השמש**, ולא כדור הארץ, במרכז, והצית את **המהפכה הקופרניקאית**.",
+            "**1609, פראג.** מניתוח התצפיות של **טיכו ברהה** הראה **קפלר** שמסלול **מאדים** הוא **אליפסה**.",
+            "**1610, פדובה.** **גלילאו** פרסם תצפיות טלסקופ, ובהן **ירחי צדק**, שערערו את התמונה שכדור הארץ הוא מרכז כל תנועה.",
+            "**1687, קיימברידג׳.** **ניוטון** איחד את **חוקי התנועה** ואת **כוח הכבידה**, והסביר באותם חוקים את תנועת כוכבי הלכת."
+          ],
+          "png": "creations/revolution-essay.jpg"
+        },
+        {
+          "id": "post",
+          "kicker": "המהפכה המדעית",
+          "style": "post",
+          "title": "המהפכה המדעית",
+          "text": "1543: **השמש**, ולא כדור הארץ, הוצבה במרכז המודל.\n1609: המסלול של מאדים הוא **אליפסה**, ולא מעגל.\n1610: **טלסקופ** הופנה לשמים, ונמצאו **ירחים** שמקיפים את צדק.\n1687: **כוח אחד** מסביר גם תפוח שנופל וגם כוכב לכת שנע.\nמתצפית לחוק.",
+          "tags": [
+            "עולם_נעלם",
+            "מהפכה_מדעית",
+            "תולדות_המדע"
+          ],
+          "png": "creations/revolution-post.jpg"
+        }
+      ]
+    },
+    {
+      "id": "east-west",
+      "zone": "ידע",
+      "title": "מהמזרח למערב",
+      "sub": "מאלכסנדריה דרך **בגדד** וקהיר אל אירופה.",
+      "room": "olam-east-west",
+      "creations": [
+        {
+          "id": "veil",
+          "kicker": "מהמזרח למערב",
+          "style": "veil",
+          "title": "ספר האופטיקה: הראייה כאור שנכנס לעין",
+          "text": "**אבן אל-היית'ם** כתב חיבור בן **7** כרכים על האור והראייה, והפך את **הניסוי** לכלי מרכזי במחקר.",
+          "image": "creations/img/d-1011-alhazen-optics.jpg",
+          "credit": "Book of Optics · Unknown author, Public domain. ויקישיתוף",
+          "pos": "center 20%",
+          "png": "creations/east-west-veil.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "מהמזרח למערב",
+          "style": "quote",
+          "quote": "היצירה המפורסמת ביותר של אבן אל-היית׳ם היא חיבורו על האופטיקה בשבעה כרכים, כתאב אל-מנאט'ר (ספר האופטיקה), שנכתב בין 1011 ל-1021.",
+          "who": "אבן אל-היית׳ם, קהיר",
+          "cite": "Ibn al-Haytham, Wikipedia · תרגום מהמקור",
+          "png": "creations/east-west-quote.jpg"
+        },
+        {
+          "id": "gradient",
+          "kicker": "מהמזרח למערב",
+          "style": "gradient",
+          "title": "600 שנה מקהיר לפראג.",
+          "text": "תאוריית **הדמות ברשתית** של קפלר נבנתה ישירות על המסגרת של **אבן אל-היית'ם**.",
+          "png": "creations/east-west-gradient.jpg"
+        },
+        {
+          "id": "haiku",
+          "kicker": "מהמזרח למערב",
+          "style": "haiku",
+          "lines": [
+            "קרן מאלכסנדריה",
+            "נכנסת לעין בקהיר",
+            "ונוחתת בפראג"
+          ],
+          "text": "מה ההייקו מאיר: מ**אלכסנדריה** דרך **קהיר** אל **פראג**, ידע שעבר בין ערים ושפות.",
+          "png": "creations/east-west-haiku.jpg"
+        },
+        {
+          "id": "post",
+          "kicker": "מהמזרח למערב",
+          "style": "post",
+          "title": "מהמזרח למערב",
+          "text": "אלכסנדריה: הגאומטריה נבנתה כ**מערכת הוכחות** מתוך מעט אקסיומות.\nבגדאד, 820–825: משוואות מוינו ל-**6** צורות, ולכל צורה דרך פתרון קבועה.\nקהיר, 1011–1021: הראייה הוסברה כ**אור שנכנס לעין**, ונבדקה ב**ניסוי**.\nלסמן על המפה את המסלול **קהיר–פראג**: ידע שעבר בתרגום לטינית ובין תרבויות.",
+          "tags": [
+            "עולם_נעלם",
+            "בגדאד",
+            "קהיר"
+          ],
+          "png": "creations/east-west-post.jpg"
+        }
+      ]
+    },
+    {
+      "id": "kepler-newton",
+      "zone": "הבנה",
+      "title": "מקפלר לניוטון: איך ולמה",
+      "sub": "ניוטון הסביר את חוקי קפלר מתוך חוק אחד.",
+      "room": "olam-kepler-newton",
+      "creations": [
+        {
+          "id": "fromto",
+          "kicker": "קשר מסוג השפעה",
+          "style": "fromto",
+          "title": "מתיאור אל הסבר",
+          "fromLabel": "קפלר, 1619",
+          "toLabel": "ניוטון, 1687",
+          "from": "**זמן המחזור** והמרחק מהשמש קשורים ב**נוסחה אחת**.",
+          "to": "**כוח אחד** מסביר גם תפוח שנופל וגם כוכב לכת שנע.",
+          "text": "ללמד את שני הגילויים כזוג: קודם **התצפית** של קפלר, אחר כך **ההסבר** של ניוטון.",
+          "png": "creations/kepler-newton-fromto.jpg"
+        },
+        {
+          "id": "insight",
+          "kicker": "קשר מסוג השפעה",
+          "style": "insight",
+          "title": "ניוטון הסביר את חוקי קפלר מתוך חוק אחד.",
+          "text": "**קפלר** תיאר **איך** כוכבי הלכת נעים, ו**ניוטון** הסביר **למה**.",
+          "png": "creations/kepler-newton-insight.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "קשר מסוג השפעה",
+          "style": "quote",
+          "quote": "ב-1687 פרסם ניוטון את הפרינקיפיה, שבה שילב את חוקי התנועה שלו עם ניתוח מתמטי חדש כדי להסביר את התוצאות האמפיריות של קפלר.",
+          "who": "ניוטון וקפלר",
+          "cite": "Newton's law of universal gravitation, Wikipedia · תרגום מהמקור",
+          "png": "creations/kepler-newton-quote.jpg"
+        },
+        {
+          "id": "poster",
+          "kicker": "קשר מסוג השפעה",
+          "style": "poster",
+          "title": "פרינקיפיה: חוק אחד לשמים ולארץ",
+          "text": "**ניוטון** איחד את **חוקי התנועה** ואת **כוח הכבידה**, והסביר באותם חוקים את תנועת כוכבי הלכת.",
+          "image": "creations/img/d-1687-newton-principia.jpg",
+          "credit": "Philosophiæ Naturalis Principia Mathematica · The original uploader was Zhaladshar at English Wikisource., Public domain. ויקישיתוף",
+          "pos": "center 25%",
+          "png": "creations/kepler-newton-poster.jpg"
+        },
+        {
+          "id": "haiku",
+          "kicker": "קשר מסוג השפעה",
+          "style": "haiku",
+          "lines": [
+            "קפלר שואל איך",
+            "ניוטון עונה למה",
+            "הירח לא נופל"
+          ],
+          "text": "מה ההייקו מאיר: **תיאור** מדויק הוא תנאי ל**הסבר**.",
+          "png": "creations/kepler-newton-haiku.jpg"
+        }
+      ]
+    },
+    {
+      "id": "perspective",
+      "zone": "הבנה",
+      "title": "הפרספקטיבה",
+      "sub": "מ**ברונלסקי** האדריכל אל **מזאצ׳ו** הצייר ואל **לאונרדו**.",
+      "room": "olam-perspective",
+      "creations": [
+        {
+          "id": "poster",
+          "kicker": "הפרספקטיבה",
+          "style": "poster",
+          "title": "השילוש הקדוש: פרספקטיבה על קיר",
+          "text": "**מזאצ׳ו** צייר חלל עמוק ב**פרספקטיבה לינארית** על קיר שטוח.",
+          "image": "creations/img/d-1425-masaccio-trinity.jpg",
+          "credit": "Holy Trinity (Masaccio) · Masaccio, Public domain. ויקישיתוף",
+          "pos": "center 35%",
+          "png": "creations/perspective-poster.jpg"
+        },
+        {
+          "id": "fromto",
+          "kicker": "הפרספקטיבה",
+          "style": "fromto",
+          "title": "הפרספקטיבה עברה מאדריכל לצייר.",
+          "fromLabel": "ברונלסקי, אדריכל",
+          "toLabel": "מזאצ׳ו, 1425–1426",
+          "from": "**ברונלסקי** תיאר לראשונה **פרספקטיבה לינארית** מדויקת.",
+          "to": "**מזאצ׳ו** צייר חלל עמוק ב**פרספקטיבה לינארית** על קיר שטוח.",
+          "text": "לשרטט את נקודת המגוז בציור, ולמצוא את **העין של הצופה**.",
+          "png": "creations/perspective-fromto.jpg"
+        },
+        {
+          "id": "insight",
+          "kicker": "הפרספקטיבה",
+          "style": "insight",
+          "title": "האדם הוויטרובי: אדריכלות שהפכה לגוף.",
+          "text": "**לאונרדו** צייר את הפרופורציות של הגוף לפי **ויטרוביוס**.",
+          "png": "creations/perspective-insight.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "הפרספקטיבה",
+          "style": "quote",
+          "quote": "הניסויים של ברונלסקי בפרספקטיבה קווית היו ככל הנראה ההשראה למבנה הפרספקטיבי של הציור.",
+          "who": "ברונלסקי ומזאצ׳ו",
+          "cite": "Holy Trinity (Masaccio), Wikipedia · תרגום מהמקור",
+          "png": "creations/perspective-quote.jpg"
+        },
+        {
+          "id": "essay",
+          "kicker": "הפרספקטיבה",
+          "style": "essay",
+          "title": "מהכיפה אל הקיר",
+          "text": "מ**ברונלסקי** האדריכל אל **מזאצ׳ו** הצייר ואל **לאונרדו**.",
+          "image": "creations/img/d-1436-brunelleschi-dome.jpg",
+          "credit": "Florence Cathedral · Petar Milošević, CC BY-SA 4.0. ויקישיתוף",
+          "body": [
+            "**ברונלסקי** בנה כיפה ענקית **בלי פיגומי תמיכה** מהקרקע. הוא גם תיאר לראשונה **פרספקטיבה לינארית** מדויקת.",
+            "**מזאצ׳ו** צייר חלל עמוק ב**פרספקטיבה לינארית** על קיר שטוח. זו מהציורים המונומנטליים הראשונים של **הרנסנס** בפרספקטיבה.",
+            "הניסויים של **ברונלסקי** כנראה היו ההשראה של **מזאצ׳ו**.",
+            "למדוד את הגוף שלך מול הריבוע והעיגול של **לאונרדו**."
+          ],
+          "png": "creations/perspective-essay.jpg"
+        }
+      ]
+    },
+    {
+      "id": "parallels",
+      "zone": "הבנה",
+      "title": "מה קורה כשמוותרים על אקסיומה",
+      "sub": "2,000 שנה ניסו להוכיח את אקסיומת המקבילים.",
+      "room": "olam-parallels",
+      "creations": [
+        {
+          "id": "gradient",
+          "kicker": "קשר מסוג התנגדות",
+          "style": "gradient",
+          "title": "2,000 שנה ניסו להוכיח את אקסיומת המקבילים.",
+          "text": "**לובצ'בסקי** ויתר עליה, וקיבל גאומטריה חדשה ועקבית.",
+          "png": "creations/parallels-gradient.jpg"
+        },
+        {
+          "id": "fromto",
+          "kicker": "קשר מסוג התנגדות",
+          "style": "fromto",
+          "title": "ממקביל אחד ליותר מאחד",
+          "fromLabel": "אוקלידס, 300 לפנה״ס",
+          "toLabel": "לובצ׳בסקי, 1829–1830",
+          "from": "הגאומטריה נבנתה כ**מערכת הוכחות** מתוך מעט אקסיומות.",
+          "to": "גאומטריה עקבית **בלי** אקסיומת המקבילים.",
+          "text": "לנסות לצייר שני ישרים מקבילים על **כדור**: כך מבינים גאומטריה לא אוקלידית.",
+          "png": "creations/parallels-fromto.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "קשר מסוג התנגדות",
+          "style": "quote",
+          "quote": "לפניו ניסו מתמטיקאים לגזור את האקסיומה החמישית של אוקלידס מאקסיומות אחרות.",
+          "who": "על אקסיומת המקבילים",
+          "cite": "Nikolai Lobachevsky, Wikipedia · תרגום מהמקור",
+          "png": "creations/parallels-quote.jpg"
+        },
+        {
+          "id": "veil",
+          "kicker": "קשר מסוג התנגדות",
+          "style": "veil",
+          "title": "גאומטריה לא אוקלידית: יותר ממקביל אחד",
+          "text": "**לובצ'בסקי** בנה גאומטריה שבה **אקסיומת המקבילים** של אוקלידס לא מתקיימת.",
+          "image": "creations/img/d-1829-lobachevsky-geometry.jpg",
+          "credit": "Hyperbolic geometry · Neozhaoliang, CC BY-SA 4.0. ויקישיתוף",
+          "png": "creations/parallels-veil.jpg"
+        },
+        {
+          "id": "haiku",
+          "kicker": "קשר מסוג התנגדות",
+          "style": "haiku",
+          "lines": [
+            "שני קווים ישרים",
+            "אלפיים שנה במקביל",
+            "על כדור נפגשים"
+          ],
+          "text": "מה ההייקו מאיר: **ויתור** על הנחה אחת פותח **גאומטריה** חדשה.",
+          "png": "creations/parallels-haiku.jpg"
+        }
+      ]
+    },
+    {
+      "id": "white-city",
+      "zone": "יישום",
+      "title": "מהבאוהאוס לעיר הלבנה",
+      "sub": "ללכת בעיר הלבנה עם שתי מפות: **התוכנית** של גדס ו**הבניינים** של אדריכלי הבאוהאוס.",
+      "room": "olam-white-city",
+      "creations": [
+        {
+          "id": "poster",
+          "kicker": "יישום בעיר",
+          "style": "poster",
+          "title": "תוכנית גדס לתל אביב",
+          "text": "**גדס** תכנן עיר של **גנים ציבוריים** מוקפים בלוקים, עם רחובות קטנים ביניהם.",
+          "image": "creations/img/d-1925-geddes-telaviv.jpg",
+          "credit": "Geddes Plan for Tel Aviv · Patrick Geddes (1854-1932), Public domain. ויקישיתוף",
+          "png": "creations/white-city-poster.jpg"
+        },
+        {
+          "id": "fromto",
+          "kicker": "יישום בעיר",
+          "style": "fromto",
+          "title": "התוכנית של גדס, הבתים של הבאוהאוס.",
+          "fromLabel": "גדס, 1925",
+          "toLabel": "הבאוהאוס, דסאו",
+          "from": "זו העיר היחידה שהתרחבותה הראשונה תוכננה **כולה** לפי תוכנית שלו. היום היא \"**העיר הלבנה**\".",
+          "to": "**גרופיוס** בנה בית ספר שבו **הצורה נובעת מהתפקוד**, בזכוכית ובבטון.",
+          "text": "האזור שתכנן **גדס** הפך ל**עיר הלבנה**, שנבנתה ב**סגנון הבינלאומי**.",
+          "png": "creations/white-city-fromto.jpg"
+        },
+        {
+          "id": "insight",
+          "kicker": "יישום בעיר",
+          "style": "insight",
+          "title": "ללכת בעיר עם שתי מפות",
+          "text": "ללכת בעיר הלבנה עם שתי מפות: **התוכנית** של גדס ו**הבניינים** של אדריכלי הבאוהאוס.",
+          "png": "creations/white-city-insight.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "יישום בעיר",
+          "style": "quote",
+          "quote": "חלק זה של תל אביב, שתוכנן במקור על ידי סר פטריק גדס, יוכר לימים כ\"העיר הלבנה\"",
+          "who": "העיר הלבנה, תל אביב",
+          "cite": "Patrick Geddes, Wikipedia · תרגום מהמקור",
+          "png": "creations/white-city-quote.jpg"
+        },
+        {
+          "id": "post",
+          "kicker": "יישום בעיר",
+          "style": "post",
+          "title": "מחר בבוקר בתל אביב",
+          "text": "**גדס** תכנן עיר של **גנים ציבוריים** מוקפים בלוקים, עם רחובות קטנים ביניהם.\n**גרופיוס** בנה בית ספר שבו **הצורה נובעת מהתפקוד**, בזכוכית ובבטון.\nהאזור שתכנן **גדס** הפך ל**עיר הלבנה**, שנבנתה ב**סגנון הבינלאומי**.\nללכת בעיר הלבנה עם שתי מפות: **התוכנית** של גדס ו**הבניינים** של אדריכלי הבאוהאוס.",
+          "image": "creations/img/d-1925-bauhaus-dessau.jpg",
+          "credit": "Bauhaus Dessau · A.Savin, FAL. ויקישיתוף",
+          "tags": [
+            "עולם_נעלם",
+            "העיר_הלבנה",
+            "באוהאוס"
+          ],
+          "png": "creations/white-city-post.jpg"
+        },
+        {
+          "id": "haiku",
+          "kicker": "יישום בעיר",
+          "style": "haiku",
+          "lines": [
+            "גן בלב הבלוק",
+            "קיר לבן וזכוכית",
+            "בוקר בתל אביב"
+          ],
+          "text": "מה ההייקו מאיר: **תוכנית** של עיר ו**בניין** של בית ספר נפגשו ברחוב אחד.",
+          "png": "creations/white-city-haiku.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pendulum",
+      "zone": "יישום",
+      "title": "מתצפית לכלי: המטוטלת",
+      "sub": "המטוטלת של גלילאו הפכה לשעון של הויגנס.",
+      "room": "olam-pendulum",
+      "creations": [
+        {
+          "id": "veil",
+          "kicker": "יישום בבית",
+          "style": "veil",
+          "title": "שעון המטוטלת: הזמן נמדד במדויק",
+          "text": "**הויגנס** המציא את **שעון המטוטלת**, השעון המדויק בעולם במשך כמעט **300** שנה.",
+          "image": "creations/img/d-1656-huygens-pendulum.jpg",
+          "credit": "Horologium Oscillatorium · Huygens, Christiaan, Public domain. ויקישיתוף",
+          "png": "creations/pendulum-veil.jpg"
+        },
+        {
+          "id": "insight",
+          "kicker": "יישום בבית",
+          "style": "insight",
+          "title": "המטוטלת של גלילאו הפכה לשעון של הויגנס.",
+          "text": "הרעיון עבר מתצפית לכלי מדידה.",
+          "png": "creations/pendulum-insight.jpg"
+        },
+        {
+          "id": "gradient",
+          "kicker": "יישום בבית",
+          "style": "gradient",
+          "title": "הפיזיקה של גלילאו התחילה במיתרים של אביו.",
+          "text": "לבנות מונוקורד ולמדוד: **מוזיקה** היא מעבדה של **פיזיקה**.",
+          "png": "creations/pendulum-gradient.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "יישום בבית",
+          "style": "quote",
+          "quote": "שעון המטוטלת הומצא ב-25 בדצמבר 1656 על ידי המדען והממציא ההולנדי כריסטיאן הויגנס.",
+          "who": "הויגנס, האג",
+          "cite": "Pendulum clock, Wikipedia · תרגום מהמקור",
+          "png": "creations/pendulum-quote.jpg"
+        },
+        {
+          "id": "post",
+          "kicker": "יישום בבית",
+          "style": "post",
+          "title": "ניסוי של חמש דקות",
+          "text": "לבנות מטוטלת פשוטה ולמדוד זמן מחזור: **התצפית** של גלילאו הופכת ל**כלי**.\n**מטוטלת** הפכה למנגנון שמווסת את השעון.\n**הויגנס** המציא את **שעון המטוטלת**, השעון המדויק בעולם במשך כמעט **300** שנה.\nלבנות מונוקורד ולמדוד: **מוזיקה** היא מעבדה של **פיזיקה**.",
+          "tags": [
+            "עולם_נעלם",
+            "מטוטלת",
+            "ניסוי_בבית"
+          ],
+          "png": "creations/pendulum-post.jpg"
+        }
+      ]
+    },
+    {
+      "id": "paradigm",
+      "zone": "יישום",
+      "title": "איך מחליפים תאוריה שלטת",
+      "sub": "כדי להחליף תאוריה שלטת צריך **מודל שלם** חלופי, לא רק ביקורת.",
+      "room": "olam-paradigm",
+      "creations": [
+        {
+          "id": "fromto",
+          "kicker": "יישום בחשיבה",
+          "style": "fromto",
+          "title": "מארץ במרכז אל שמש במרכז",
+          "fromLabel": "תלמי, 150",
+          "toLabel": "קופרניקוס, 1543",
+          "from": "**תלמי** כתב חיבור **מתמטי ואסטרונומי** על התנועות הנראות של הכוכבים ועל מסלולי כוכבי הלכת.",
+          "to": "**השמש**, ולא כדור הארץ, הוצבה במרכז המודל.",
+          "text": "כדי להחליף תאוריה שלטת צריך **מודל שלם** חלופי, לא רק ביקורת.",
+          "png": "creations/paradigm-fromto.jpg"
+        },
+        {
+          "id": "insight",
+          "kicker": "יישום בחשיבה",
+          "style": "insight",
+          "title": "המהפכה של קופרניקוס הפכה לתבנית של כל מהפכה.",
+          "text": "לזהות **שינוי פרדיגמה** גם בעיר, בטכנולוגיה ובחברה.",
+          "png": "creations/paradigm-insight.jpg"
+        },
+        {
+          "id": "gradient",
+          "kicker": "יישום בחשיבה",
+          "style": "gradient",
+          "title": "יותר מ-1,200 שנה של ארץ במרכז.",
+          "text": "המודל הגאוצנטרי של האלמגסט שלט **עד המהפכה המדעית**, וקופרניקוס **החיה את התאוריה ההליוצנטרית**.",
+          "png": "creations/paradigm-gradient.jpg"
+        },
+        {
+          "id": "quote",
+          "kicker": "יישום בחשיבה",
+          "style": "quote",
+          "quote": "המהפכה הקופרניקנית הוא ספר משנת 1957 מאת הפילוסוף תומאס קון, שבו המחבר מנתח את המהפכה הקופרניקנית",
+          "who": "תומאס קון",
+          "cite": "The Copernican Revolution (book), Wikipedia · תרגום מהמקור",
+          "png": "creations/paradigm-quote.jpg"
+        },
+        {
+          "id": "post",
+          "kicker": "יישום בחשיבה",
+          "style": "post",
+          "title": "שינוי פרדיגמה",
+          "text": "החיבור **קיבע מודל גאוצנטרי** של היקום שהתקבל **יותר מ-1,200 שנה**, עד המהפכה המדעית.\n**השמש**, ולא כדור הארץ, הוצבה במרכז המודל.\n**קון** טען שהמדע מתקדם ב**מהפכות** של פרדיגמות, ולא רק בהצטברות.\nלזהות **שינוי פרדיגמה** גם בעיר, בטכנולוגיה ובחברה.",
+          "image": "creations/img/d-1543-copernicus-revolutionibus.jpg",
+          "credit": "De revolutionibus orbium coelestium · Mikołaj Kopernik, Public domain. ויקישיתוף",
+          "tags": [
+            "עולם_נעלם",
+            "פרדיגמה",
+            "קון"
+          ],
+          "png": "creations/paradigm-post.jpg"
+        },
+        {
+          "id": "haiku",
+          "kicker": "יישום בחשיבה",
+          "style": "haiku",
+          "lines": [
+            "ארץ במרכז",
+            "אלף ומאתיים שנה",
+            "עד שספר זז"
+          ],
+          "text": "מה ההייקו מאיר: תאוריה שלטת מתחלפת רק ב**מודל שלם**.",
+          "png": "creations/paradigm-haiku.jpg"
+        }
+      ]
+    }
+  ]
+}
