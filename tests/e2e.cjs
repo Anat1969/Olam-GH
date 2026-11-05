@@ -8,6 +8,7 @@ const BASE = `http://localhost:${PORT}/`;
 const MENU = fs.readFileSync(path.join(__dirname, 'fixtures/ai-menu.js'), 'utf8');
 // הרכיב המשותף <app-creations>: עותק מקומי (או CREATIONS_JS), כי הסביבה לא מגיעה ל-github.io ול-vercel.app
 const CREATIONS_JS = process.env.CREATIONS_JS || path.join(__dirname, 'fixtures/creations.js');
+const BRIDGE_JS = process.env.BRIDGE_JS || path.join(__dirname, 'fixtures/bridge.js');
 const fails = [];
 // ספירות צפויות נגזרות מהנתונים עצמם, כדי שהבדיקות לא יישברו כשנוסף תוכן מאומת
 const DATA = path.join(__dirname, '..', 'data');
@@ -75,6 +76,7 @@ const mock = async (p) => {
   await p.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
   await p.route('**/fonts.googleapis.com/**', (r) => r.abort());
   await p.route('**/creations.js', (r) => r.fulfill({ path: CREATIONS_JS, contentType: 'application/javascript' }));
+  await p.route('**/arc-and-bina.vercel.app/bridge.js', (r) => r.fulfill({ path: BRIDGE_JS, contentType: 'application/javascript' }));
 };
 
 (async () => {
@@ -678,6 +680,23 @@ const mock = async (p) => {
         ok(await m.evaluate(() => document.documentElement.scrollHeight > window.innerHeight * 2), `יצירות (${vp.width}): הדף נגלל רגיל`);
         await ctx.close();
       }
+    }
+    // גשר מארק ובינה: פרמטרים לפני ה-#, הניתוב לא נפגע, ופס עם השאלה וחזרה
+    for (const vp of [{ width: 1280, height: 900 }, { width: 390, height: 844 }]) {
+      const ctx = await b.newContext({ viewport: vp });
+      const m = await ctx.newPage();
+      await mock(m);
+      m.on('pageerror', (e) => errors.push(e.message));
+      const w = 'd-1676-leeuwenhoek-microbes';
+      await m.goto(BASE + '?ab_q=' + encodeURIComponent('מה חי בסנטימטר אחד של קרקע עירונית?') + '&ab_back=' + encodeURIComponent('https://arc-and-bina.vercel.app/') + '#/timeline?d=biology&y=1676&w=' + w, { waitUntil: 'networkidle' });
+      await m.locator('#ab-bridge').waitFor({ timeout: 10000 });
+      ok((await m.locator('#ab-bridge').innerText()).includes('קרקע עירונית'), `גשר (${vp.width}): הפס מציג את השאלה`);
+      ok(await m.locator('#ab-bridge a').getAttribute('href') === 'https://arc-and-bina.vercel.app/', `גשר (${vp.width}): כפתור חזרה לארק ובינה`);
+      ok(await m.locator('.tabs [aria-current="page"]').first().isVisible(), `גשר (${vp.width}): הניתוב פתח את ציר הזמן`);
+      ok(await m.evaluate(() => location.search.includes('ab_q') && location.hash.startsWith('#/timeline')), `גשר (${vp.width}): הפרמטרים נשמרים לפני ה-#`);
+      ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)), `גשר (${vp.width}): בלי גלילה אופקית`);
+      await m.screenshot({ path: path.join(__dirname, 'shots', `bridge-${vp.width}.png`) }).catch(() => {});
+      await ctx.close();
     }
     ok(errors.length === 0, 'אין שגיאות JavaScript ' + errors.join(' | '));
   } finally {
