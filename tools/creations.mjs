@@ -21,6 +21,7 @@ const year = (x) => (x.yearFrom < 0 ? `${-x.yearFrom} לפנה״ס` : x.yearFrom
 const who = (x) => x.personIds.map((p) => PERS[p]?.nameHe).filter(Boolean).join(' ו');
 const where = (x) => x.place?.city?.nameHe || x.place?.nameHe || '';
 // "==שורה.== הסבר" בקשר: השורה היא כותרת התובנה, והשאר הוא ההסבר
+const plainStr = (x) => String(x).replace(/\*\*(.+?)\*\*/g, '$1');
 const split = (expl) => { const m = expl.match(/^==(.+?)==\s*(.*)$/s); return m ? [m[1], m[2]] : [expl, '']; };
 const cite = (ev) => `${SRC[ev.sourceId]?.title || ev.sourceId} · תרגום מהמקור`;
 const quoteOf = (ev, whoName) => ({ style: 'quote', quote: ev.quoteHe, who: whoName, cite: cite(ev) });
@@ -147,6 +148,68 @@ const topics = [];
   ], 'יישום בחשיבה'));
 }
 
+// מאגר מקורות לכתבות ("יצירת כתבה"): גילויים וקשרים מאומתים, 10 לכל שלב.
+// ידע: גילוי אחד (חידוש, תרומה, ציטוט המקור). הבנה ויישום: קשר בין שני גילויים (ממה למה, ההסבר, מה עושים עם זה).
+// תמונה רק כשיש לה עותק מקומי עם רישיון (public/creations/img). בלי תמונה, הכתבה בנויה מטקסט בלבד.
+const localImage = (id) => { const w = DISC[id]?.workImage; const f = `${id}.jpg`; return w?.license && fs.existsSync(path.join(IMG_DIR, f)) ? { image: `creations/img/${f}`, credit: `${w.article} · ${w.credit}, ${w.license}. ויקישיתוף` } : null; };
+const names = (x) => x.personIds.map((p) => (PERS[p]?.nameShort || PERS[p]?.nameHe || '').split(',')[0]).filter(Boolean);
+const label = (x) => `${names(x)[0] || x.title.split(':')[0]}, ${year(x)}`;
+const DOMAIN = Object.fromEntries(read('fields.json').families.flatMap((f) => f.domains.map((dm) => [dm.id, dm.nameHe])));
+const pool = [];
+const usedD = new Set();
+const P = (id, zone, title, sub, creations, kicker) => { const t = T(id, zone, title, sub, creations.filter(Boolean), kicker); delete t.room; pool.push(t); };
+{
+  // ידע: קודם הגילויים עם תמונה מקומית, ואחר כך גילוי מכל תחום שעוד לא נבחר, לפי הזמן
+  const all = Object.values(DISC).filter((x) => x.evidence?.[0]?.quoteHe && x.novelty && x.contribution).sort((a, b) => a.yearFrom - b.yearFrom);
+  const withImg = all.filter((x) => localImage(x.id));
+  const doms = new Set();
+  const pick = [...withImg.slice(0, 5)];
+  pick.forEach((x) => doms.add(x.domainId));
+  for (const x of all) { if (pick.length >= 10) break; if (doms.has(x.domainId) || pick.includes(x)) continue; pick.push(x); doms.add(x.domainId); }
+  for (const x of pick) {
+    usedD.add(x.id);
+    const img = localImage(x.id), nm = names(x).join(' ו');
+    P(x.id, 'ידע', x.title, `${nm ? `**${nm}**, ` : ''}${where(x) ? `${where(x)}, ` : ''}${year(x)}`, [
+      img && { style: 'poster', title: x.title, text: x.novelty, ...img },
+      quoteOf(x.evidence[0], nm || x.title),
+      { style: 'insight', title: plainStr(x.novelty), text: x.contribution },
+      { style: 'essay', title: x.title, text: x.novelty, body: [`**${year(x)}${where(x) ? `, ${where(x)}` : ''}.** ${x.contribution}`, x.place?.evidence?.quoteHe].filter(Boolean) },
+      { style: 'post', title: x.title, text: [x.novelty, x.contribution].join('\n'), tags: ['עולם_נעלם', DOMAIN[x.domainId] || x.domainId].map((t) => t.replace(/\s+/g, '_')) },
+    ], DOMAIN[x.domainId] || 'גילוי');
+  }
+}
+{
+  // הבנה ויישום: קשרים בין שני גילויים מאומתים, קודם קשרים חוצי תחום, גילוי יעד אחד לכל מקור
+  const links = Object.values(LINK).filter((L) => DISC[L.fromId] && DISC[L.toId] && L.application && L.evidence?.[0]?.quoteHe && /^==.+?==/.test(L.explanation))
+    .sort((a, b) => (DISC[a.fromId].domainId === DISC[a.toId].domainId) - (DISC[b.fromId].domainId === DISC[b.toId].domainId) || DISC[a.toId].yearFrom - DISC[b.toId].yearFrom);
+  const usedL = new Set(Object.values(topics).flatMap(() => []));
+  for (const zone of ['הבנה', 'יישום']) {
+    let n = 0;
+    for (const L of links) {
+      if (n >= 10) break;
+      const A = DISC[L.fromId], B = DISC[L.toId];
+      if (usedD.has(B.id) || usedL.has(L.id)) continue;
+      usedD.add(B.id); usedL.add(L.id); n++;
+      const [t, x] = split(L.explanation);
+      const img = localImage(B.id) || localImage(A.id);
+      const pair = [names(A)[0], names(B)[0]].filter(Boolean).join(' ו');
+      const ft = { style: 'fromto', title: zone === 'הבנה' ? t : 'מה עושים עם הקשר', fromLabel: label(A), toLabel: label(B), from: A.novelty, to: B.novelty, text: zone === 'הבנה' ? L.application : x };
+      if (zone === 'הבנה') P(L.id, zone, pair && names(A)[0] !== names(B)[0] ? `${names(A)[0]} ו${names(B)[0]}` : B.title, t, [
+        ft, img && { style: 'poster', title: B.title, text: B.novelty, ...img },
+        { style: 'insight', title: t, text: x }, quoteOf(L.evidence[0], pair || B.title),
+        { style: 'essay', title: B.title, text: t, body: [A.contribution, B.contribution, x] },
+      ], `${DOMAIN[A.domainId]} · ${DOMAIN[B.domainId]}`);
+      else P(L.id, zone, B.title, L.application, [
+        { style: 'insight', title: t, text: L.application }, ft, img && { style: 'veil', title: B.title, text: B.contribution, ...img },
+        quoteOf(L.evidence[0], pair || B.title),
+        { style: 'post', title: B.title, text: [B.novelty, B.contribution, x].join('\n'), tags: ['עולם_נעלם', 'יישום'] },
+      ], `${DOMAIN[A.domainId]} · ${DOMAIN[B.domainId]}`);
+    }
+  }
+}
+for (const t of pool) { const st = t.creations.map((c) => c.style); if (new Set(st).size !== st.length || st.length < 4 || st.length > 6) throw new Error(`מקור ${t.id}: ${st}`); }
+if (pool.length < 28) throw new Error(`מאגר קטן מדי: ${pool.length}`);
+
 // בדיקות התקן: חדרים, עיצובים לא חוזרים, הייקו של שלוש שורות, פוסט עד 6 שורות
 for (const t of topics) {
   const st = t.creations.map((c) => c.style);
@@ -189,6 +252,9 @@ for (const { file, url } of needImg) {
 const data = {
   app: {
     id: 'olam', name: 'עולם נעלם ומציאות מצויה', url: 'https://olam-gh.vercel.app', repo: 'Anat1969/Olam-GH',
+    description: 'כתבות מתוך האטלס של העולם הנעלם: גילויים מאומתים, הקשרים ביניהם, ומה עושים איתם היום.',
+    // כתבה בפורמט "אטלס": לוח מדעי, כמו מפת הביוגרפיה של פריסטלי. ירוק מתועד, כתום פרשנות, כחול לקו.
+    article: { layout: 'atlas' },
     palette: {
       a: '#1F4E79', b: '#B85F16', c: '#8A8984', s: '#2F7A55', accent: '#2F7A55', marker: '#FFE45C',
       ink: '#17191C', paper: '#FFFFFF', paper2: '#F4F2EC', 'b-wash': '#FBEBDD', 's-wash': '#E3F1EA',
@@ -196,6 +262,7 @@ const data = {
     },
   },
   topics,
+  pool,
 };
 fs.writeFileSync(out, JSON.stringify(data, null, 2) + '\n');
-console.log(`${topics.length} חדרים, ${topics.reduce((n, t) => n + t.creations.length, 0)} יצירות, ${needImg.length} תמונות`);
+console.log(`${pool.length} מקורות לכתבות,`, `${topics.length} חדרים, ${topics.reduce((n, t) => n + t.creations.length, 0)} יצירות, ${needImg.length} תמונות`);

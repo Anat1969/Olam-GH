@@ -672,12 +672,40 @@ const mock = async (p) => {
         await mock(m);
         m.on('pageerror', (e) => errors.push(e.message));
         await m.goto(BASE + '#/creations', { waitUntil: 'networkidle' });
-        await m.locator('app-creations .cr-card').first().waitFor({ timeout: 10000 });
+        await m.locator('app-creations .ar-sheet').first().waitFor({ timeout: 10000 });
         ok(await m.locator('.tabs [aria-current="page"]').innerText() === 'יצירות', `יצירות (${vp.width}): הלשונית מסומנת`);
         ok(await m.locator('app-creations .cr-room').count() === CR.topics.length, `יצירות (${vp.width}): ${CR.topics.length} חדרים`);
         ok(await m.locator('app-creations .cr-card').count() >= total, `יצירות (${vp.width}): ${total} כרטיסים`);
         ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)), `יצירות (${vp.width}): בלי גלילה אופקית`);
         ok(await m.evaluate(() => document.documentElement.scrollHeight > window.innerHeight * 2), `יצירות (${vp.width}): הדף נגלל רגיל`);
+        // כתבות: עמוד A4 אחד לכל נושא, בפורמט אטלס, בלי גלישה, ושלושה כפתורים מתחת לכל כתבה
+        await m.waitForFunction(() => [...document.querySelectorAll('.ar-grid .ar-sheet')].every((s) => s.dataset.fit), null, { timeout: 20000 });
+        const sheets = await m.evaluate(() => [...document.querySelectorAll('.ar-grid .ar-sheet')].map((s) => ({ fit: s.dataset.fit, layout: s.dataset.layout })));
+        ok(sheets.length >= 6 && sheets.length === CR.topics.length, `כתבות (${vp.width}): ${sheets.length} גיליונות`);
+        ok(sheets.every((x) => x.fit !== 'over' && x.layout === 'atlas'), `כתבות (${vp.width}): אטלס, בלי גלישה ${sheets.map((x) => x.fit).join(' ')}`);
+        const acts = await m.locator('.ar-item').first().locator('.ar-acts > *').allInnerTexts();
+        ok(acts.join('|') === 'הורדה והדפסה|העלאה לחדר במוזיאון|הגדלה', `כתבות (${vp.width}): שלושת הכפתורים`);
+        const widths = await m.locator('.ar-item').first().locator('.ar-acts > *').evaluateAll((els) => els.map((e) => Math.round(e.getBoundingClientRect().width)));
+        ok(Math.max(...widths) - Math.min(...widths) <= 1, `כתבות (${vp.width}): כפתורים באותו רוחב ${widths}`);
+        const up = await m.locator('.ar-item').first().locator('.ar-acts a').getAttribute('href');
+        ok(up.startsWith('https://taarucha.vercel.app/studio/import?article=1&src=') && up.includes(encodeURIComponent(BASE + 'creations.json')) && up.endsWith('&topic=' + CR.topics[0].id), `כתבות (${vp.width}): כתובת ההעלאה לחדר במוזיאון`);
+        // יצירת כתבה: הפאנל נפתח, בחירת מקור בונה כתבה, והכתובת למוזיאון היא pool
+        await m.click('[data-ar-new]');
+        ok(await m.locator('.ar-comp').isVisible(), `יצירת כתבה (${vp.width}): הפאנל נפתח בתוך הדף`);
+        ok(await m.locator('.ar-src').count() === CR.pool.length, `יצירת כתבה (${vp.width}): ${CR.pool.length} מקורות`);
+        await m.fill('.ar-search input', CR.pool[12].title.split(' ')[0]);
+        ok(await m.locator('.ar-src').count() >= 1 && await m.locator('.ar-x').isVisible(), `יצירת כתבה (${vp.width}): חיפוש ואיקס לניקוי`);
+        await m.click('.ar-x');
+        await m.click(`[data-ar-src="pool:${CR.pool[12].id}"]`);
+        await m.waitForFunction(() => document.querySelector('.ar-comp-art .ar-sheet')?.dataset.fit, null, { timeout: 15000 });
+        ok((await m.locator('.ar-comp-art .ar-sheet').getAttribute('data-fit')) !== 'over', `יצירת כתבה (${vp.width}): הכתבה נבנתה בלי גלישה`);
+        ok((await m.locator('.ar-comp-art .ar-acts a').getAttribute('href')).endsWith('&pool=' + encodeURIComponent(CR.pool[12].id)), `יצירת כתבה (${vp.width}): העלאה למוזיאון עם pool`);
+        await m.click('[data-ar-rand]');
+        ok(await m.locator('.ar-src.on').count() === 1, `יצירת כתבה (${vp.width}): הפתעה בוחרת מקור`);
+        await m.locator('.ar-comp-art [data-ar-open]').click();
+        ok(await m.locator('.cr-lb .ar-sheet').count() === 1, `יצירת כתבה (${vp.width}): הגדלה בתוך הדף`);
+        await m.keyboard.press('Escape');
+        ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)), `כתבות (${vp.width}): בלי גלילה אופקית`);
         await ctx.close();
       }
     }
