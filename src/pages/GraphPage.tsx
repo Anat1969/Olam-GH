@@ -274,8 +274,7 @@ export default function GraphPage({ params }: { params: Record<string, string> }
           )}
         </div>
         <ul className="legend" aria-label="מקרא">
-          {activeDomains.map((d) => <li key={d.id}><DomainIcon id={d.id} />{d.nameHe}</li>)}
-          <li><DomainIcon id="mixed" />כמה תחומים</li>
+          <li><DomainIcon id="mixed" />עיר או דמות בכמה תחומים (אייקון כל תחום מופיע בבורר שמעל)</li>
           <li><span className="lg-line line-influenced" />השפעה</li>
           <li><span className="lg-line line-enabled" />איפשור</li>
           <li><span className="lg-line line-opposed" />ערעור</li>
