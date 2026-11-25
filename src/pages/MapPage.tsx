@@ -14,10 +14,13 @@ import DomainPicker from '../ui/DomainPicker';
 import YearSlider from '../ui/YearSlider';
 import { YEAR_MAX, YEAR_MIN, posScale } from '../components/Timeline';
 import { activeDomains, confidenceName, discoveries, endName, linkTypeName, personById, rangeText, yearText, ANON, workParams, discoveryById } from '../data';
-import { arc, centerAt, centerTrail, cities, countries, countryByName, km, nearestCity, routes, sameCityLinks, unplaced } from '../geo';
+import { arc, centerAt, centerTrail, cities, countries, countryByName, domainTrailAt, km, nearestCity, routes, sameCityLinks, unplaced, TRAIL_WINDOW } from '../geo';
+import type { DomainTrailView } from '../components/MapView';
 import { href, replace, go } from '../route';
 
 const domainName = (id: string) => activeDomains.find((d) => d.id === id)?.nameHe || id;
+/** צבע התחום מתוך משתני ה-CSS, כדי שהקו במפה יהיה באותו צבע כמו האייקון */
+const domainColor = (id: string) => { try { return getComputedStyle(document.documentElement).getPropertyValue(`--${id}`).trim() || '#17191C'; } catch { return '#17191C'; } };
 
 const MapView = lazy(() => import('../components/MapView'));
 const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -113,7 +116,22 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
   const selected = shownRoutes.find((r) => r.link.id === params.l) || routes.find((r) => r.link.id === params.l);
   const sel = view.find((v) => v.on);
   const center = centerAt(year);
-  const trail = useMemo(() => (showTrail ? centerTrail(year) : []), [year, showTrail]);
+  // שובל כללי (כל הידע) רק כשכל התחומים מוצגים. בבחירת תחומים: שובל לכל תחום, בצבע שלו.
+  const trail = useMemo(() => (showTrail && allOn ? centerTrail(year) : []), [year, showTrail, allOn]);
+  const domTrails = useMemo(() => {
+    if (!showTrail) return [] as (DomainTrailView & { from: string; fromYear: number; n: number; km: number })[];
+    return activeDomains.filter((d) => domains.has(d.id)).flatMap((d) => {
+      const pts = domainTrailAt(d.id, year);
+      if (!pts.length) return [];
+      const head = pts[pts.length - 1];
+      let dist = 0;
+      for (let i = 1; i < pts.length; i++) dist += km(pts[i - 1].p, pts[i].p);
+      // מרכז כובד יכול ליפול באמצע ים: אז אומרים כמה הוא רחוק מהעיר הקרובה, ולא מעמידים פנים שהוא בעיר
+      const place = (q: [number, number]) => { const c = nearestCity(q); const dk = Math.round(km(q, c.lonLat) / 50) * 50; return dk < 150 ? c.nameHe : `נקודה כ-${dk.toLocaleString('en')} ק״מ מ${c.nameHe}`; };
+      return [{ id: d.id, name: d.nameHe, color: domainColor(d.id), segs: pts.map((t) => t.seg), head: head.p, city: place(head.p),
+        from: place(pts[0].p), fromYear: pts[0].year, n: head.n, km: Math.round(dist / 100) * 100 }];
+    });
+  }, [year, showTrail, params.d, legacyT]); // eslint-disable-line react-hooks/exhaustive-deps
   // שובל: התחלה, אמצע וסוף, עם השנים, כדי שיובן מאיפה לאן מרכז הכובד נדד
   const trailMarks = useMemo(() => {
     if (!showTrail || trail.length < 2) return [];
@@ -229,7 +247,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
         </div>
         {/* כל מצב תצוגה מוסבר במשפט אחד, כדי שיהיה ברור מה הוא עושה לפני שבוחרים בו */}
         <p className="mode-help">
-          <strong>מסע בזמן</strong>: עובר תחנה אחרי תחנה על הגילויים של התחומים שנבחרו, לפי הסדר. <strong>מסלולי ידע</strong>: קו בין שתי ערים כשגילוי באחת השפיע על גילוי בשנייה, מבהיר (המקור) לכהה (מי שהושפע). בחירת מסלול מציגה את <strong>השרשרת</strong> כולה, ממוספרת מהראשון. <strong>שובל מרכז הכובד</strong>: הדרך שעשה מרכז הכובד של הידע, מההתחלה (בהיר) ועד השנה שבמחוון (כהה). <strong>רמת ביטחון</strong>: מסגרת ירוקה למקום מתועד, כתומה לפרשנות.
+          <strong>מסע בזמן</strong>: עובר תחנה אחרי תחנה על הגילויים של התחומים שנבחרו, לפי הסדר. <strong>מסלולי ידע</strong>: קו בין שתי ערים כשגילוי באחת השפיע על גילוי בשנייה, מבהיר (המקור) לכהה (מי שהושפע). בחירת מסלול מציגה את <strong>השרשרת</strong> כולה, ממוספרת מהראשון. <strong>שובל מרכז הכובד</strong>: לכל תחום קו בצבע שלו, הדרך שעשה מרכז הפעילות שלו (הגילויים ב-<bdi className="num">{TRAIL_WINDOW}</bdi> השנים האחרונות), מבהיר ועד השנה שבמחוון. הפעלת הזמן מציירת אותו. בכל התחומים נוסף גם הקו השחור של הידע כולו. <strong>רמת ביטחון</strong>: מסגרת ירוקה למקום מתועד, כתומה לפרשנות.
         </p>
         <YearSlider value={year} onChange={(y) => { setPlaying(false); setYear(y); }} />
         <IconRow label="הפעלת הזמן">
@@ -252,7 +270,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
                   ? tourCities.map((t) => ({ city: t.city, known: t.nums.length, recent: false, on: !!stop && stop.city.key === t.city.key, kw: kwOf(t.city.key), domain: tourAll ? t.domain : [...domains][0], badge: tourAll ? (stop && stop.city.key === t.city.key ? String(si + 1) : undefined) : t.nums.join('·') }))
                   : visible.map((v) => ({ city: v.city, known: v.known, recent: v.recent, on: v.on || v.city.key === params.f || (!!country && v.city.country?.key === country.key), kw: kwOf(v.city.key), domain: v.domain, badge: chainBadge.has(v.city.key) ? String(chainBadge.get(v.city.key)) : undefined }))}
                 routes={!tourDomain && (showRoutes || chain.length) ? (chain.length ? chain : shownRoutes).map((r) => ({ id: r.link.id, path: r.path, type: r.link.type, confidence: r.link.confidence, on: chainIds.has(r.link.id) })) : []}
-                trail={tourDomain ? [] : trail} trailMarks={tourDomain ? [] : trailMarks} showConf={showConf} tour={tourPath} center={tourDomain ? null : center}
+                trail={tourDomain ? [] : trail} trailMarks={tourDomain ? [] : trailMarks} domainTrails={tourDomain ? [] : domTrails} showConf={showConf} tour={tourPath} center={tourDomain || (showTrail && !allOn) ? null : center}
                 focus={tourDomain && stop ? stop.city.lonLat : sel ? sel.city.lonLat : country ? country.lonLat : focusCity ? focusCity.lonLat : null}
                 focusZoom={tourDomain ? 3.4 : country ? 2.8 : 3.2}
                 onCity={(k) => (tourDomain ? set({ s: String(tourAll ? seen.map((x) => x.city.key).lastIndexOf(k) : stops.findIndex((x) => x.city.key === k)) }) : set({ c: k === params.c ? undefined : k, k: undefined }))}
@@ -269,11 +287,27 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             <li><span className="lg-sq lg-recent" />גילוי ב-<bdi className="num">30</bdi> השנים האחרונות</li>
             <li><span className="lg-line line-influenced lg-grad" />מסלול ידע מתועד: בהיר במקור, כהה במקום שהושפע</li>
             <li><span className="lg-line lg-orange" />פרשנות מקובלת</li>
-            <li><span className="lg-trail lg-grad-ink" />שובל מרכז הכובד: מההתחלה (בהיר) עד השנה שבמחוון (כהה)</li>
+            <li><span className="lg-trail lg-grad-ink" />שובל מרכז הכובד של כל הידע: מההתחלה (בהיר) עד השנה שבמחוון (כהה)</li>
+            <li><span className="lg-trail lg-grad-dom" />שובל של תחום, בצבע שלו, והאייקון במקום שבו הוא נמצא עכשיו</li>
           </ul>
         </section>
 
         <aside className="map-side" aria-label="ערים">
+          {/* לאן נדדו התחומים: אותו מידע כמו הקווים במפה, גם כטקסט (וגם כשאין WebGL) */}
+          {!tourDomain && domTrails.length > 0 && (
+            <section className="card dt-list" aria-label="לאן נדדו התחומים">
+              <h3 className="section-title">לאן נדדו התחומים, עד {yearText(year)}</h3>
+              <ul>
+                {domTrails.map((d) => (
+                  <li key={d.id} data-dt={d.id}>
+                    <DomainIcon id={d.id} />
+                    <span><strong>{d.name}</strong>: מ{d.from} ({yearText(d.fromYear)}) אל <strong>{d.city}</strong></span>
+                    <span className="muted small">{d.km ? <><bdi className="num">{d.km.toLocaleString('en')}</bdi> ק״מ בדרך</> : 'עוד לא זז'}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
           {/* כרטיס התחנה יושב בטור שבצד ולא מעל המפה, כדי שלא יסתיר אותה */}
           {tourDomain && stop && (() => {
             const p = personById.get(stop.d.personIds[0]);

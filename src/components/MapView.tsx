@@ -8,6 +8,8 @@ import type { City, LonLat } from '../geo';
 import { iconSvg } from '../icons';
 
 export type RouteView = { id: string; path: LonLat[]; type: string; confidence: string; on: boolean };
+/** מסלול מרכז הכובד של תחום: קטעים (קשתות) לפי הסדר, והראש הוא המיקום בשנה שבמחוון */
+export type DomainTrailView = { id: string; name: string; color: string; segs: LonLat[][]; head: LonLat; city: string };
 export type CityView = { city: City; known: number; recent: boolean; on: boolean; domain: string; badge?: string; kw?: boolean };
 
 // OpenFreeMap: אריחים וקטוריים חינמיים על נתוני OpenStreetMap, בלי מפתח ובלי מגבלת שימוש, מתאים לתערוכה ולקהל רחב.
@@ -15,8 +17,8 @@ const STYLE_URL = 'https://tiles.openfreemap.org/styles/positron';
 
 const fc = (features: GeoJSON.Feature[]): GeoJSON.FeatureCollection => ({ type: 'FeatureCollection', features });
 
-export default function MapView({ cities, routes, trail, trailMarks = [], tour = [], center, focus, focusZoom = 3.2, showConf = false, onCity, onRoute, onCountry, onFail }: {
-  cities: CityView[]; routes: RouteView[]; trail: LonLat[]; trailMarks?: { p: LonLat; label: string; kind: 'start' | 'mid' | 'end' }[]; tour?: LonLat[][]; center: LonLat | null; focus: LonLat | null; focusZoom?: number; showConf?: boolean;
+export default function MapView({ cities, routes, trail, trailMarks = [], tour = [], domainTrails = [], center, focus, focusZoom = 3.2, showConf = false, onCity, onRoute, onCountry, onFail }: {
+  cities: CityView[]; routes: RouteView[]; trail: LonLat[]; trailMarks?: { p: LonLat; label: string; kind: 'start' | 'mid' | 'end' }[]; tour?: LonLat[][]; domainTrails?: DomainTrailView[]; center: LonLat | null; focus: LonLat | null; focusZoom?: number; showConf?: boolean;
   onCity: (key: string) => void; onRoute: (id: string) => void; onCountry?: (name: string) => void; onFail: () => void;
 }) {
   const el = useRef<HTMLDivElement>(null);
@@ -25,6 +27,7 @@ export default function MapView({ cities, routes, trail, trailMarks = [], tour =
   const centerMarker = useRef<Marker>();
   const lastSig = useRef('');
   const trailMarkers = useRef<Marker[]>([]);
+  const heads = useRef(new Map<string, Marker>());
   const [ready, setReady] = useState(false);
   const cb = useRef({ onCity, onRoute, onCountry });
   // שמות ערים שעולים זה על זה: נשאר השם של העיר הגדולה (או הנבחרת). השאר מופיעים בריחוף.
@@ -88,9 +91,13 @@ export default function MapView({ cities, routes, trail, trailMarks = [], tour =
       m.addSource('routes', { type: 'geojson', data: fc([]), lineMetrics: true });
       m.addSource('trail', { type: 'geojson', data: fc([]), lineMetrics: true });
       m.addSource('tour', { type: 'geojson', data: fc([]) });
+      m.addSource('dtrails', { type: 'geojson', data: fc([]) });
       m.addLayer({ id: 'tour', type: 'line', source: 'tour', paint: { 'line-color': '#17191C', 'line-width': 2.2, 'line-opacity': 0.75, 'line-dasharray': [2, 1.5] }, layout: { 'line-cap': 'round' } });
       // שובל מרכז הכובד: מבהיר (ההתחלה) לכהה (היום), כדי שיובן הכיוון
       m.addLayer({ id: 'trail', type: 'line', source: 'trail', paint: { 'line-width': 3, 'line-gradient': ['interpolate', ['linear'], ['line-progress'], 0, 'rgba(23,25,28,0.12)', 0.5, 'rgba(23,25,28,0.45)', 1, 'rgba(23,25,28,0.95)'] }, layout: { 'line-cap': 'round' } });
+      // מסלולי מרכז הכובד של התחומים: צבע התחום, שקוף בהתחלה ומלא בשנה שבמחוון (line-gradient לא עובד עם צבע לפי נתון, ולכן שקיפות לפי קטע)
+      m.addLayer({ id: 'dtrails-halo', type: 'line', source: 'dtrails', paint: { 'line-color': '#FFFFFF', 'line-width': 5, 'line-opacity': ['*', 0.7, ['get', 't']] }, layout: { 'line-cap': 'round', 'line-join': 'round' } });
+      m.addLayer({ id: 'dtrails', type: 'line', source: 'dtrails', paint: { 'line-color': ['get', 'color'], 'line-width': 2.6, 'line-opacity': ['interpolate', ['linear'], ['get', 't'], 0, 0.18, 1, 1] }, layout: { 'line-cap': 'round', 'line-join': 'round' } });
       m.addLayer({ id: 'routes-halo', type: 'line', source: 'routes', filter: ['==', ['get', 'on'], true], paint: { 'line-color': '#FFE45C', 'line-width': 12, 'line-opacity': 0.9 }, layout: { 'line-cap': 'round' } });
       const color: maplibregl.ExpressionSpecification = ['match', ['get', 'confidence'], 'interpretive', '#B85F16', '#2F7A55'];
       const width: maplibregl.ExpressionSpecification = ['case', ['get', 'on'], 4.5, ['==', ['get', 'type'], 'enabled'], 3.2, 2];
@@ -113,7 +120,7 @@ export default function MapView({ cities, routes, trail, trailMarks = [], tour =
       });
       setReady(true);
     });
-    return () => { m.remove(); map.current = undefined; markers.current.clear(); };
+    return () => { m.remove(); map.current = undefined; markers.current.clear(); heads.current.clear(); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -125,6 +132,33 @@ export default function MapView({ cities, routes, trail, trailMarks = [], tour =
     (m.getSource('trail') as GeoJSONSource).setData(fc(trail.length > 1 ? [{ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: trail } }] : []));
     (m.getSource('tour') as GeoJSONSource).setData(fc(tour.filter((p) => p.length > 1).map((p) => ({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: p } }))));
   }, [routes, trail, tour, ready]);
+
+  // מסלולי התחומים: הקטעים כשכבת קו, והראש של כל תחום כסמן עם האייקון שלו
+  useEffect(() => {
+    const m = map.current;
+    if (!m || !ready) return;
+    (m.getSource('dtrails') as GeoJSONSource).setData(fc(domainTrails.flatMap((d) => d.segs.map((seg, i) => ({
+      type: 'Feature' as const, properties: { id: d.id, color: d.color, t: d.segs.length > 1 ? i / (d.segs.length - 1) : 1 },
+      geometry: { type: 'LineString' as const, coordinates: seg },
+    })).filter((f) => f.geometry.coordinates.length > 1))));
+    const keep = new Set(domainTrails.map((d) => d.id));
+    for (const [id, mk] of heads.current) if (!keep.has(id)) { mk.remove(); heads.current.delete(id); }
+    for (const d of domainTrails) {
+      let mk = heads.current.get(d.id);
+      if (!mk) {
+        const el = document.createElement('div');
+        el.className = 'dt-head';
+        el.dataset.domain = d.id;
+        el.style.setProperty('--c', d.color);
+        el.innerHTML = `<i>${iconSvg(d.id)}</i><span></span>`;
+        mk = new maplibregl.Marker({ element: el, anchor: 'center' }).setLngLat(d.head).addTo(m);
+        heads.current.set(d.id, mk);
+      } else mk.setLngLat(d.head);
+      const el = mk.getElement();
+      el.title = `מרכז הכובד של ${d.name}: ליד ${d.city}`;
+      (el.querySelector('span') as HTMLElement).textContent = d.name;
+    }
+  }, [domainTrails, ready]);
 
   // ערים: סמן מרובע לכל עיר, גודל לפי מספר הגילויים הידועים
   useEffect(() => {

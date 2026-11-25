@@ -808,6 +808,31 @@ const mock = async (p) => {
       ok(await m.locator('.lab-from').count() === 1, 'הגילוי הבא: השערה פותחת את המעבדה מהצומת שלה');
       await ctx.close();
     }
+    // מסלולי מרכז הכובד לכל תחום: קו בצבע התחום וראש עם האייקון, שגדלים עם המחוון
+    {
+      const placedDoms = [...new Set(DISC.filter((d) => d.place && d.place.lat !== null).map((d) => d.domainId))];
+      for (const vp of [{ width: 1280, height: 900 }, { width: 390, height: 844 }]) {
+        const ctx = await b.newContext({ viewport: vp });
+        const m = await ctx.newPage();
+        await mock(m);
+        m.on('pageerror', (e) => errors.push(e.message));
+        await m.goto(BASE + '#/map?g=1&y=2025', { waitUntil: 'networkidle' });
+        await m.locator('.map-gl[data-ready], .maplibregl-map').first().waitFor({ timeout: 20000 }).catch(() => {});
+        await m.locator('.dt-head').first().waitFor({ timeout: 20000 }).catch(() => {});
+        ok(await m.locator('.dt-head').count() === placedDoms.length, `מפה (${vp.width}): מסלול מרכז כובד וראש לכל תחום (${placedDoms.length})`);
+        ok(await m.locator('[data-dt]').count() === placedDoms.length, `מפה (${vp.width}): "לאן נדדו התחומים" כטקסט לכל תחום`);
+        await m.goto(BASE + '#/map?g=1&y=1300&d=physics', { waitUntil: 'networkidle' });
+        await m.waitForFunction(() => document.querySelectorAll('.dt-head').length === 1, null, { timeout: 8000 }).catch(() => {});
+        ok(await m.locator('.dt-head[data-domain="physics"]').count() === 1 && await m.locator('[data-dt]').count() === 1, `מפה (${vp.width}): בחירת תחום מציגה רק את המסלול שלו`);
+        const t1 = await m.locator('[data-dt="physics"]').innerText();
+        await m.evaluate(() => { location.hash = '#/map?g=1&y=1900&d=physics'; });
+        await m.waitForFunction((t) => document.querySelector('[data-dt="physics"]')?.textContent !== t, t1, { timeout: 5000 }).catch(() => {});
+        ok(await m.locator('[data-dt="physics"]').innerText() !== t1, `מפה (${vp.width}): המסלול משתנה עם השנה במחוון`);
+        ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)), `מפה (${vp.width}): בלי גלילה אופקית עם המסלולים`);
+        await m.screenshot({ path: path.join(__dirname, 'shots', `map-trails-${vp.width}.png`) }).catch(() => {});
+        await ctx.close();
+      }
+    }
     ok(errors.length === 0, 'אין שגיאות JavaScript ' + errors.join(' | '));
   } finally {
     await b.close();

@@ -979,3 +979,16 @@ input[type="range"]:focus-visible { outline: 2px solid var(--sechel); outline-of
   .lab-controls .press.chip { white-space: nowrap; }
 }
 .hd-legend { margin-inline-start: auto; align-self: center; }
+
+/* מסלולי מרכז הכובד של התחומים: ראש הקו הוא אייקון התחום, בלבן על צבע התחום */
+.dt-head { display: grid; justify-items: center; pointer-events: auto; }
+.dt-head i { display: grid; place-items: center; width: 22px; height: 22px; background: var(--c); color: #fff; box-shadow: 0 0 0 3px rgba(255, 255, 255, .85), var(--shadow-1); transform: rotate(45deg); }
+.dt-head i .dicon { width: 14px; height: 14px; transform: rotate(-45deg); color: #fff !important; }
+.dt-head span { margin-top: 5px; font-size: 10px; font-weight: 700; color: var(--c); background: rgba(255, 255, 255, .85); padding: 0 4px; white-space: nowrap; direction: rtl; }
+[data-z="low"] .dt-head span { display: none; }
+.lg-grad-dom { background: linear-gradient(to left, rgba(94, 75, 139, .18), rgb(94, 75, 139)) !important; height: 3px; border: 0 !important; }
+.dt-list { padding: 12px 14px; display: grid; gap: 6px; }
+.dt-list .section-title { margin: 0; font-size: 15px; }
+.dt-list ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 13px; }
+.dt-list li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0 6px; align-items: center; }
+.dt-list li .small { grid-column: 2; }
