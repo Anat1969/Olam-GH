@@ -1,0 +1,246 @@
+{
+  "_note": "הגילוי הבא: שאלות פתוחות מתועדות. כל שאלה עם ציטוט מילולי מהמקור, שנבדק ב-npm run verify:hidden. mechanisms: אילו מנגנונים כדאי להפעיל עליה במעבדה.",
+  "questions": [
+    {
+      "id": "o-riemann",
+      "domains": [
+        "mathematics"
+      ],
+      "question": "איך מתפזרים המספרים הראשוניים?",
+      "text": "**השערת רימן** נוסחה ב-1859, והיא עדיין פתוחה.",
+      "source": {
+        "title": "Riemann hypothesis",
+        "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+      },
+      "evidence": [
+        {
+          "quote": "First posed in 1859 by Bernhard Riemann, pure mathematicians consider the hypothesis to be one of the most important problems in the field.",
+          "quoteHe": "ההשערה הוצגה לראשונה ב-1859 על ידי ברנהרד רימן, ומתמטיקאים בתחום המתמטיקה הטהורה רואים בה אחת הבעיות החשובות ביותר בתחום."
+        }
+      ],
+      "mechanisms": [
+        "limit",
+        "alternative-reality"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-pnp",
+      "domains": [
+        "mathematics"
+      ],
+      "question": "האם כל מה שקל לבדוק, קל גם למצוא?",
+      "text": "שאלת **P מול NP** היא אחת הבעיות הפתוחות המרכזיות במדעי המחשב.",
+      "source": {
+        "title": "P versus NP problem",
+        "url": "https://en.wikipedia.org/wiki/P_versus_NP_problem"
+      },
+      "evidence": [
+        {
+          "quote": "The P versus NP problem is a major unsolved problem in theoretical computer science.",
+          "quoteHe": "בעיית P מול NP היא בעיה פתוחה מרכזית במדעי המחשב התאורטיים."
+        }
+      ],
+      "mechanisms": [
+        "limit",
+        "how-to-why"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-dark-matter",
+      "domains": [
+        "physics"
+      ],
+      "question": "ממה עשוי רוב החומר ביקום?",
+      "text": "**החומר האפל** מורגש רק דרך כוח המשיכה, וזהותו לא ידועה.",
+      "source": {
+        "title": "Dark matter",
+        "url": "https://en.wikipedia.org/wiki/Dark_matter"
+      },
+      "evidence": [
+        {
+          "quote": "The identity of dark matter is unknown, but there are many hypotheses about what dark matter could consist of, as set out in the table below.",
+          "quoteHe": "זהותו של החומר האפל אינה ידועה, אבל יש השערות רבות על ממה הוא יכול להיות עשוי, כפי שמפורט בטבלה שלהלן."
+        }
+      ],
+      "mechanisms": [
+        "instrument",
+        "hole"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-quantum-gravity",
+      "domains": [
+        "physics"
+      ],
+      "question": "איך משלבים את כוח המשיכה עם תורת הקוונטים?",
+      "text": "שלושה כוחות יסוד מתוארים בתורת הקוונטים. **כוח המשיכה** עדיין לא.",
+      "source": {
+        "title": "Quantum gravity",
+        "url": "https://en.wikipedia.org/wiki/Quantum_gravity"
+      },
+      "evidence": [
+        {
+          "quote": "No theory has yet proven successful in describing the general situation where the dynamics of matter, modeled with quantum mechanics, affect the curvature of spacetime.",
+          "quoteHe": "שום תאוריה עדיין לא הצליחה לתאר את המצב הכללי שבו הדינמיקה של החומר, כפי שהיא מתוארת בתורת הקוונטים, משפיעה על עקמומיות המרחב-זמן."
+        }
+      ],
+      "mechanisms": [
+        "unification",
+        "coexist"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-homochirality",
+      "domains": [
+        "chemistry"
+      ],
+      "question": "למה מולקולות החיים כמעט כולן 'שמאליות'?",
+      "text": "**הכיראליות האחידה** של חומצות האמינו היא שאלה פתוחה בחקר ראשית החיים.",
+      "source": {
+        "title": "Homochirality",
+        "url": "https://en.wikipedia.org/wiki/Homochirality"
+      },
+      "evidence": [
+        {
+          "quote": "As homochirality is ubiquitous in extant biology, a key question in origins of life and prebiotic chemistry research is how biological homochirality could have arisen from racemic mixtures of the simple chemical building blocks of life.",
+          "quoteHe": "מאחר שהכיראליות האחידה נפוצה בכל הביולוגיה הקיימת, שאלת מפתח בחקר ראשית החיים ובכימיה הקדם-ביולוגית היא איך היא יכלה לצמוח מתערובות רצמיות של אבני הבניין הכימיות הפשוטות של החיים."
+        }
+      ],
+      "mechanisms": [
+        "serendipity",
+        "how-to-why"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-abiogenesis",
+      "domains": [
+        "biology",
+        "chemistry"
+      ],
+      "question": "איך נוצרו חיים מחומר דומם?",
+      "text": "**ראשית החיים** היא תחום מחקר פעיל, בלי תשובה מוסכמת.",
+      "source": {
+        "title": "Abiogenesis",
+        "url": "https://en.wikipedia.org/wiki/Abiogenesis"
+      },
+      "evidence": [
+        {
+          "quote": "The study of abiogenesis aims to determine how pre-life chemical reactions gave rise to life under conditions strikingly different from those on Earth today.",
+          "quoteHe": "חקר ראשית החיים מבקש לקבוע איך תגובות כימיות שקדמו לחיים הולידו חיים, בתנאים שונים מאוד מאלה שעל פני כדור הארץ היום."
+        }
+      ],
+      "mechanisms": [
+        "unification",
+        "how-to-why"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-hard-problem",
+      "domains": [
+        "philosophy",
+        "psychology"
+      ],
+      "question": "למה יש חוויה, ולא רק עיבוד מידע?",
+      "text": "**הבעיה הקשה של התודעה** שואלת איך ולמה תהליכים פיזיים מלווים בחוויה.",
+      "source": {
+        "title": "Hard problem of consciousness",
+        "url": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness"
+      },
+      "evidence": [
+        {
+          "quote": "In philosophy of mind, the hard problem of consciousness (or simply the hard problem) is to explain how and why organisms have qualia, phenomenal consciousness, or subjective experience.",
+          "quoteHe": "בפילוסופיה של הנפש, הבעיה הקשה של התודעה היא להסביר איך ולמה לאורגניזמים יש קוואליה, תודעה פנומנלית או חוויה סובייקטיבית."
+        }
+      ],
+      "mechanisms": [
+        "body-instrument",
+        "limit"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-music-origin",
+      "domains": [
+        "music",
+        "dance"
+      ],
+      "question": "מה בא קודם, מוזיקה או שפה?",
+      "text": "**מוצא המוזיקה** שנוי במחלוקת, ונקשר לשאלת מוצא השפה.",
+      "source": {
+        "title": "Origin of music",
+        "url": "https://en.wikipedia.org/wiki/Origin_of_music"
+      },
+      "evidence": [
+        {
+          "quote": "The origins of music remain highly contentious; commentators often relate it to the origin of language, with much disagreement surrounding whether music arose before, after or simultaneously with language.",
+          "quoteHe": "מוצא המוזיקה נותר שנוי מאוד במחלוקת. פרשנים קושרים אותו לעתים קרובות למוצא השפה, ויש מחלוקת רבה אם המוזיקה צמחה לפני השפה, אחריה או יחד איתה."
+        }
+      ],
+      "mechanisms": [
+        "simultaneous",
+        "body-instrument"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-pyramid",
+      "domains": [
+        "architecture"
+      ],
+      "question": "איך בדיוק נבנתה הפירמידה הגדולה?",
+      "text": "השיטות להזזת האבנים ולהצבתן עדיין במחלוקת.",
+      "source": {
+        "title": "Egyptian pyramid construction techniques",
+        "url": "https://en.wikipedia.org/wiki/Egyptian_pyramid_construction_techniques"
+      },
+      "evidence": [
+        {
+          "quote": "They derived these estimates from modern third-world construction projects that did not use modern machinery, but conclude it is still unknown exactly how the Great Pyramid was built.",
+          "quoteHe": "הם גזרו את ההערכות האלה מפרויקטים של בנייה בימינו שלא השתמשו במכונות מודרניות, אבל הגיעו למסקנה שעדיין לא ידוע איך בדיוק נבנתה הפירמידה הגדולה."
+        }
+      ],
+      "mechanisms": [
+        "hole",
+        "measure-to-product"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    },
+    {
+      "id": "o-linear-a",
+      "domains": [],
+      "question": "מה כתוב בכתב הקווי א׳?",
+      "text": "**הכתב הקווי א׳** של כרתים לא פוענח, מאז שהתגלה מחדש ב-1900.",
+      "source": {
+        "title": "Linear A",
+        "url": "https://en.wikipedia.org/wiki/Linear_A"
+      },
+      "evidence": [
+        {
+          "quote": "Since its modern rediscovery in 1900, no texts in the script have yet been deciphered.",
+          "quoteHe": "מאז שהתגלה מחדש בעת החדשה, ב-1900, אף טקסט בכתב הזה עדיין לא פוענח."
+        }
+      ],
+      "mechanisms": [
+        "hole",
+        "transfer"
+      ],
+      "verified": true,
+      "verifiedAt": "2026-11-25"
+    }
+  ]
+}

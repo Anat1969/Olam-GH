@@ -13,7 +13,8 @@
     "shots": "node tests/shot.cjs",
     "push": "node scripts/push-supabase.mjs",
     "pull": "node scripts/pull-supabase.mjs",
-    "drafts": "node scripts/pull-drafts.mjs"
+    "drafts": "node scripts/pull-drafts.mjs",
+    "verify:hidden": "node scripts/verify-hidden.mjs"
   },
   "dependencies": {
     "d3-array": "^3.2.4",
