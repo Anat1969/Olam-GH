@@ -126,3 +126,13 @@ export async function saveDraft(d: Draft) {
   if (!res.ok) throw new Error('הטיוטה לא נשמרה. נסי להיכנס שוב.');
   return id;
 }
+
+// השערות מהמעבדה: נשמרות כ-kind='discovery' עם id='hyp-…' ו-verified=false, כי בטבלה יש אילוץ על kind.
+// הן לא מוצגות לציבור (RLS), לא נמשכות כטיוטות (npm run drafts מסנן draft-*), ולא נכנסות לאטלס בלי אימות.
+export async function saveHypothesis(h: { question: string; hypothesis: string; mech: string; evidence: string[]; domainId: string; result?: unknown; insight?: string }) {
+  const id = `hyp-${Date.now()}`;
+  const data = { ...h, type: 'hypothesis', createdAt: new Date().toISOString(), createdBy: state.session?.email || '' };
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/olam_records`, { method: 'POST', headers: { ...headers(true), Prefer: 'return=minimal' }, body: JSON.stringify({ kind: 'discovery', id, data, verified: false }) });
+  if (!res.ok) throw new Error('ההשערה לא נשמרה. נסי להיכנס שוב.');
+  return id;
+}
