@@ -103,3 +103,29 @@ export const countryByName = (name: string) => {
   const n = name.trim().toLowerCase();
   return countries.find((c) => c.nameFull.toLowerCase() === n || c.nameHe === name.trim());
 };
+
+/** מסלול מרכז הכובד של כל תחום. אחרי כל שנה שבה נוסף גילוי בתחום, הנקודה היא הממוצע הווקטורי
+ * של הגילויים בתחום ב-TRAIL_WINDOW השנים שלפניה: מרכז הפעילות של התחום באותה תקופה, ולא כל העבר שלו.
+ * כך הקו מראה נדידה (אלכסנדריה, בגדד, אירופה, אמריקה) במקום להיתקע בממוצע של אלפי שנים.
+ * הקטעים בין הנקודות מחושבים מראש כקשתות במעגל גדול, כדי שהקו ייראה נכון על הגלובוס. */
+export const TRAIL_WINDOW = 150;
+export interface TrailPoint { year: number; p: LonLat; n: number; seg: LonLat[] }
+export const domainTrails: Map<string, TrailPoint[]> = (() => {
+  const m = new Map<string, TrailPoint[]>();
+  const byDomain = new Map<string, Discovery[]>();
+  for (const d of placed) byDomain.set(d.domainId, [...(byDomain.get(d.domainId) || []), d]);
+  for (const [id, ds] of byDomain) {
+    const years = [...new Set(ds.map((d) => d.yearFrom))].sort((a, b) => a - b);
+    const pts: TrailPoint[] = [];
+    for (const y of years) {
+      const win = ds.filter((d) => d.yearFrom <= y && d.yearFrom > y - TRAIL_WINDOW).map((d) => cityOf.get(d.id)!.lonLat);
+      const p = centroid(win)!;
+      const prev = pts[pts.length - 1];
+      pts.push({ year: y, p, n: win.length, seg: prev ? arc(prev.p, p, 16) : [p] });
+    }
+    m.set(id, pts);
+  }
+  return m;
+})();
+/** המסלול של תחום עד השנה הנתונה */
+export const domainTrailAt = (id: string, year: number) => (domainTrails.get(id) || []).filter((t) => t.year <= year);

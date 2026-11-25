@@ -24,6 +24,7 @@ export default function Lines() {
               <a className="press btn btn-primary btn-quiet" href={href('hidden', { v: 'lab', m: x.preset.m, t: x.preset.t })} data-activate={x.id}>
                 להפעיל את "{mechById.get(x.preset.m)?.name}" במעבדה
               </a>
+              {x.map && <a className="press btn btn-quiet" href={href('map', x.map)} data-map={x.id}>לראות את המסלולים על המפה</a>}
             </section>
           </div>
         </article>

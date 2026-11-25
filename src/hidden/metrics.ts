@@ -1,7 +1,7 @@
 // בין השורות: מדדים מסדר שני, מחושבים בזמן אמת מהנתונים המאומתים.
 // כאן אין עובדות כתובות: הכותרת נבנית מהתוצאה, כך שאם הנתונים משתנים, גם המסקנה משתנה.
 import { activeDomains, discoveries, links, resolvedLinks, linkTypeName, yearText, type LinkType, type Discovery } from '../data';
-import { cities, cityOf, centroid, nearestCity, type LonLat } from '../geo';
+import { cities, cityOf, centroid, nearestCity, domainTrailAt, km, TRAIL_WINDOW, type LonLat } from '../geo';
 import { insightDefs, mechById, domName, type Level, type InsightDef } from './model';
 
 export type Viz =
@@ -13,6 +13,8 @@ export type Viz =
 export interface Insight extends InsightDef {
   headline: string; detail: string; level: Level; viz: Viz; examples: string[];
   preset: { m: string; t?: string };
+  /** קישור למפה, כשהתובנה נראית שם */
+  map?: Record<string, string>;
 }
 
 const median = (xs: number[]) => { const s = [...xs].sort((a, b) => a - b); const n = s.length; return n ? (n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2) : 0; };
@@ -177,6 +179,24 @@ function compute(def: InsightDef): Omit<Insight, keyof InsightDef> {
         headline: `הערעור הכי נפוץ בתקופה **${peak.label}**: **${peak.parts[oi]}%** מהקשרים`,
         detail: 'התקופה נקבעת לפי השנה המאוחרת בקשר, כלומר לפי הרגע שבו הקשר נוצר.',
         level: 'interpretive', viz: { type: 'stack', keys, rows }, examples: [], preset: { m: 'coexist' },
+      };
+    }
+    case 'convergence': {
+      // המרחק הממוצע בין מרכזי הפעילות של התחומים (רק תחומים שהיו פעילים ב-TRAIL_WINDOW השנים האחרונות)
+      const at = (y: number) => {
+        const heads = activeDomains.map((d) => domainTrailAt(d.id, y).pop()).filter((t): t is NonNullable<typeof t> => !!t && t.year > y - TRAIL_WINDOW);
+        let sum = 0, n = 0;
+        for (let i = 0; i < heads.length; i++) for (let j = i + 1; j < heads.length; j++) { sum += km(heads[i].p, heads[j].p); n++; }
+        return { d: n ? Math.round(sum / n / 10) * 10 : 0, k: heads.length };
+      };
+      const rows = [{ label: 'בשנת 1000', y: 1000 }, { label: 'בשנת 1500', y: 1500 }, { label: 'בשנת 1800', y: 1800 }, { label: 'בשנת 1900', y: 1900 }, { label: 'בשנת 2000', y: 2000 }]
+        .map((r) => ({ ...r, ...at(r.y) })).filter((r) => r.k >= 2);
+      const a = rows[0], b = rows[rows.length - 1];
+      return {
+        headline: b.d < a.d ? `מרכזי התחומים התקרבו: מ-**${a.d.toLocaleString('en')}** ל-**${b.d.toLocaleString('en')}** ק״מ בממוצע` : `מרכזי התחומים התרחקו: מ-**${a.d.toLocaleString('en')}** ל-**${b.d.toLocaleString('en')}** ק״מ בממוצע`,
+        detail: `המרחק הממוצע בין כל שני תחומים פעילים, לפי מרכז הפעילות של כל אחד ב-${TRAIL_WINDOW} השנים שלפני. ${a.label} היו פעילים ${a.k} תחומים, ${b.label} ${b.k}.`,
+        level: 'interpretive', viz: { type: 'bars', rows: rows.map((r) => ({ label: r.label, value: r.d, note: `${r.k} תחומים` })), unit: 'ק״מ' },
+        examples: [], preset: { m: 'city-reactor' }, map: { g: '1', y: '1500' },
       };
     }
     case 'singletons': {
