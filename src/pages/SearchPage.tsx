@@ -5,7 +5,7 @@ import { discoveries } from '../data';
 import { href, replace } from '../route';
 import { markRange, search, setKeyword, useKeyword, type Hit } from '../search';
 
-const GROUPS: [Hit['kind'], string][] = [['person', 'דמויות'], ['discovery', 'גילויים ויצירות'], ['sub', 'תתי תחומים'], ['city', 'ערים']];
+const GROUPS: [Hit['kind'], string][] = [['person', 'דמויות'], ['discovery', 'גילויים ויצירות'], ['sub', 'תתי תחומים'], ['city', 'ערים'], ['mechanism', 'מנגנוני גילוי']];
 const EXAMPLES = ['קירי', 'אסלאם', 'Kyoto', 'אבחון', 'בלט', 'קוונטים', 'וינה', 'Bach'];
 
 function linkOf(h: Hit) {
@@ -18,6 +18,7 @@ function linkOf(h: Hit) {
     return href('timeline', { d: d.domainId, y: String(d.yearTo), ...(d.personIds[0] ? { p: d.personIds[0] } : { w: d.id }) });
   }
   if (h.kind === 'sub') return href('timeline', { d: h.domainId, y: '2025', sub: h.sub });
+  if (h.kind === 'mechanism') return href('hidden', { v: 'mechanisms', m: h.id });
   return href('map', { c: h.key, y: '2025' });
 }
 

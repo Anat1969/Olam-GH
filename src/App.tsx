@@ -10,6 +10,7 @@ import Compare from './pages/Compare';
 import MapPage from './pages/MapPage';
 import GraphPage from './pages/GraphPage';
 import SearchPage from './pages/SearchPage';
+import Hidden from './pages/Hidden';
 import Creations from './pages/Creations';
 import { KeywordField, KeywordStrip } from './components/KeywordBar';
 
@@ -18,7 +19,7 @@ declare global {
   namespace JSX { interface IntrinsicElements { 'ai-menu': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & { chat?: string }; 'app-creations': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & { src?: string; heading?: string } } }
 }
 
-const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['graph', 'גרף'], ['creations', 'יצירות'], ['method', 'מקורות']];
+const TABS: [string, string][] = [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['graph', 'גרף'], ['hidden', 'הנעלם'], ['creations', 'יצירות'], ['method', 'מקורות']];
 
 export default function App() {
   const { page, params } = useRoute();
@@ -75,7 +76,7 @@ export default function App() {
       {loginOpen && <LoginDialog onClose={() => setLoginOpen(false)} />}
       {draftOpen && cloud.admin && <DraftDialog onClose={() => setDraftOpen(false)} />}
       {cloud.editing && <div className="edit-banner" role="status">מצב עריכה: לחצי על דמות או על קשר, וערכי את הטקסט. כל שינוי נשמר עם היסטוריה.</div>}
-      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'search' ? <SearchPage params={params} /> : current === 'creations' ? <Creations /> : current === 'method' ? <Method /> : <Home />}
+      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'search' ? <SearchPage params={params} /> : current === 'hidden' ? <Hidden params={params} /> : current === 'creations' ? <Creations /> : current === 'method' ? <Method /> : <Home />}
     </>
   );
 }

@@ -2,6 +2,7 @@ import { useSyncExternalStore } from 'react';
 // חיפוש לפי מילת מפתח בכל העולם: דמויות, גילויים, תתי תחומים, ערים וארצות.
 // עברית ולועזית יחד. מנרמלים ניקוד, גרש וגרשיים, מקף ואותיות לטיניות עם סימנים, כדי ש"קירי", "Curie" ו"קורי" לא ייפלו על כתיב.
 import { discoveries, domainById, families, personById, persons, yearText, type Discovery, type Person } from './data';
+import { mechanisms } from './hidden/model';
 
 const norm = (s: string) => s
   .normalize('NFD').replace(/[̀-ͯ]/g, '') // סימנים לטיניים: Kanō → Kano
@@ -14,7 +15,8 @@ export type Hit =
   | { kind: 'person'; id: string; title: string; detail: string; person: Person; score: number }
   | { kind: 'discovery'; id: string; title: string; detail: string; d: Discovery; score: number }
   | { kind: 'sub'; id: string; title: string; detail: string; domainId: string; sub: string; count: number; score: number }
-  | { kind: 'city'; id: string; title: string; detail: string; key: string; count: number; score: number };
+  | { kind: 'city'; id: string; title: string; detail: string; key: string; count: number; score: number }
+  | { kind: 'mechanism'; id: string; title: string; detail: string; score: number };
 
 type Entry = { hit: Hit; main: string; rest: string };
 
@@ -47,6 +49,8 @@ function build(): Entry[] {
     c.count++; cities.set(k, c);
   }
   for (const [k, c] of cities) out.push({ hit: { kind: 'city', id: k, title: c.he, detail: `${c.en}${c.country ? ` · ${c.country}` : ''} · ${c.count} גילויים`, key: k, count: c.count, score: 0 }, main: norm(`${c.he} ${c.en}`), rest: norm(c.country) });
+  // מנגנוני הגילוי (לשונית הנעלם): שם, תקציר והבנה
+  for (const m of mechanisms) out.push({ hit: { kind: 'mechanism', id: m.id, title: m.name, detail: `מנגנון גילוי · ${m.short}`, score: 0 }, main: norm(m.name), rest: norm(`${m.short} ${m.understanding} ${m.steps.join(' ')}`.replace(/\*\*|==/g, '')) });
   return out;
 }
 
@@ -64,7 +68,7 @@ function wordHit(text: string, t: string) {
   }
   return false;
 }
-const KIND_W = { person: 3, discovery: 2, sub: 2.5, city: 2 } as const;
+const KIND_W = { person: 3, discovery: 2, sub: 2.5, city: 2, mechanism: 2.5 } as const;
 
 /** כל מילה בשאילתה חייבת להופיע. התאמה בתחילת השם שווה יותר מהתאמה בטקסט. */
 export function search(q: string, limit = 60): Hit[] {

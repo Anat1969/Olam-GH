@@ -726,6 +726,88 @@ const mock = async (p) => {
       await m.screenshot({ path: path.join(__dirname, 'shots', `bridge-${vp.width}.png`) }).catch(() => {});
       await ctx.close();
     }
+    // הנעלם: בין השורות, מנגנונים, מעבדה רקורסיבית, הגילוי הבא
+    {
+      const MECH = read('mechanisms.json').mechanisms, INS = read('insights.json').insights, OPEN = read('open-questions.json').questions;
+      const ids = new Set([...DISC.map((d) => d.id), ...read('links.json').links.filter((l) => l.verified).map((l) => l.id)]);
+      const bad = MECH.flatMap((m) => [...m.examples, ...m.counter.ids].filter((id) => !ids.has(id)).map((id) => `${m.id}:${id}`));
+      ok(bad.length === 0, `הנעלם: כל דוגמה במנגנון היא גילוי או קשר מאומת ${bad.join(' ')}`);
+      ok(MECH.every((m) => m.external.every((x) => x.verified && x.evidence.every((e) => e.quote && e.quoteHe))), 'הנעלם: כל דוגמה חיצונית אומתה בציטוט מילולי, עם תרגום');
+      ok(OPEN.every((q) => q.verified && q.mechanisms.every((id) => MECH.some((m) => m.id === id))), 'הנעלם: כל שאלה פתוחה אומתה, ומצביעה על מנגנון קיים');
+      const shownExt = MECH.reduce((n, m) => n + m.external.filter((x) => x.verified).length, 0);
+      for (const vp of [{ width: 1280, height: 900 }, { width: 390, height: 844 }]) {
+        const ctx = await b.newContext({ viewport: vp });
+        const m = await ctx.newPage();
+        await mock(m);
+        m.on('pageerror', (e) => errors.push(e.message));
+        await m.goto(BASE + '#/hidden', { waitUntil: 'networkidle' });
+        ok(await m.locator('.tabs a[href="#/hidden"][aria-current="page"]').count() === 1, `הנעלם (${vp.width}): לשונית בסרגל`);
+        ok(await m.locator('[data-insight]').count() === INS.length, `בין השורות (${vp.width}): ${INS.length} תובנות`);
+        ok(await m.locator('[data-insight] .layers h4').allInnerTexts().then((t) => t.filter((x) => x.startsWith('הפעלה')).length === INS.length), `בין השורות (${vp.width}): הבנה, הדגמה והפעלה לכל תובנה`);
+        ok(/\d+ מתוך \d+ צירופי תחומים/.test(await m.locator('[data-insight="matrix"] .hd-title').innerText()), `בין השורות (${vp.width}): הכותרת מחושבת מהנתונים`);
+        const v = [];
+        for (const view of ['lines', 'mechanisms&m=axiom-break', 'lab&m=city-reactor&t=painting', 'next']) {
+          await m.goto(BASE + '#/hidden?v=' + view, { waitUntil: 'networkidle' });
+          await m.waitForTimeout(250);
+          if (await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)) v.push(view + ': גלישה');
+          const ov = await overlaps(m); if (ov.length) v.push(view + ': ' + ov.slice(0, 2).join(' | '));
+          await m.screenshot({ path: path.join(__dirname, 'shots', `hidden-${view.split('&')[0]}-${vp.width}.png`) }).catch(() => {});
+        }
+        ok(v.length === 0, `הנעלם (${vp.width}): ארבעה מסכים בלי גלישה ובלי טקסט על טקסט ${v.join(' ; ')}`);
+        await m.goto(BASE + '#/hidden?v=mechanisms', { waitUntil: 'networkidle' });
+        ok(await m.locator('[data-mech]').count() === MECH.length, `מנגנונים (${vp.width}): ${MECH.length} מנגנונים`);
+        let ext = 0;
+        for (const id of MECH.filter((x) => x.external.length).map((x) => x.id)) { await m.goto(BASE + '#/hidden?v=mechanisms&m=' + id); ext += await m.locator(`[data-mech="${id}"] .ext`).count(); }
+        ok(ext === shownExt, `מנגנונים (${vp.width}): ${shownExt} דוגמאות חיצוניות מאומתות מוצגות`);
+        await m.goto(BASE + '#/hidden?v=next', { waitUntil: 'networkidle' });
+        ok(await m.locator('[data-open]').count() === OPEN.length, `הגילוי הבא (${vp.width}): ${OPEN.length} שאלות פתוחות עם מקור`);
+        await ctx.close();
+      }
+      // המנוע: כל מנגנון מול כל תחום נותן כרטיס עם ראיות, או הודעה מפורשת שאין חומר
+      const ctx = await b.newContext({ viewport: { width: 1280, height: 900 } });
+      const m = await ctx.newPage();
+      await mock(m);
+      m.on('pageerror', (e) => errors.push(e.message));
+      await m.goto(BASE + '#/hidden?v=lab', { waitUntil: 'networkidle' });
+      await m.locator('.lab').waitFor();
+      const silent = [];
+      let cards = 0;
+      for (const mech of MECH) for (const dom of DOMS) {
+        await m.evaluate((h) => { location.hash = h; }, `#/hidden?v=lab&m=${mech.id}&t=${dom}`);
+        await m.waitForFunction((k) => document.querySelector('.lab-card')?.dataset.card?.startsWith(k) || document.querySelector('.lab-empty'), `${mech.id}:${dom}:`, { timeout: 3000 }).catch(() => {});
+        const n = await m.locator('.lab-card').count();
+        const evOk = n ? await m.locator('.lab-card').first().locator('.ev-chip').count() > 0 : true;
+        if (!n && !(await m.locator('.lab-empty').count())) silent.push(`${mech.id}/${dom}`);
+        if (!evOk) silent.push(`${mech.id}/${dom} בלי ראיות`);
+        cards += n;
+      }
+      ok(silent.length === 0, `מעבדה: ${MECH.length * DOMS.length} הפעלות, ${cards} כרטיסים, כל אחת עם ראיות או הודעה ${silent.slice(0, 5).join(' ')}`);
+      // הלולאה הרקורסיבית: המשך מכאן שלוש פעמים, ואז בחינה ותובנה חדשה
+      await m.goto(BASE + '#/hidden?v=lab&m=axiom-break&t=physics', { waitUntil: 'networkidle' });
+      for (let i = 0; i < 3; i++) {
+        const before = await m.evaluate(() => location.hash);
+        await m.locator('.lab-card [data-act="continue"]').first().click();
+        await m.waitForFunction((h) => location.hash !== h, before);
+        await m.locator('.lab-card, .lab-empty').first().waitFor();
+        if (!(await m.locator('.lab-card').count())) { await m.locator('[data-m="transfer"]').click(); await m.locator('.lab-card').first().waitFor(); }
+      }
+      ok(await m.locator('.chain li').count() === 3, 'מעבדה: שרשרת של 3 שלבים, כל צומת יעד של המנגנון הבא');
+      ok(await m.locator('.lab-from').count() === 1, 'מעבדה: הכרטיסים נגזרים מהצומת האחרון');
+      await m.locator('[data-verdict="supports"]').click();
+      await m.locator('[data-field="insight"]').fill('תובנה חדשה לבדיקה');
+      ok(await m.locator('.ladder li.is-done').count() === 7, 'מעבדה: שבעת השלבים, מתוכן ועד תובנה חדשה');
+      const stored = await m.evaluate(() => JSON.parse(localStorage.getItem('olam.notebook.v1') || '[]'));
+      ok(stored.length === 3 && stored.filter((n) => n.parent).length === 2 && stored.some((n) => n.insight === 'תובנה חדשה לבדיקה'), 'מעבדה: המחברת שומרת עץ עם הורים, בחינה ותובנה');
+      const claude = await m.locator('.lab-card [data-act="claude"]').first().getAttribute('href');
+      const q = decodeURIComponent(claude.split('?q=')[1] || '');
+      ok(claude.startsWith('https://claude.ai/new?q=') && q.includes('שרשרת המחקר') && q.includes('הפרד בבירור בין עובדה'), 'מעבדה: פרומפט ל-Claude עם השרשרת וכללי האמינות');
+      await m.goto(BASE + '#/hidden?v=next', { waitUntil: 'networkidle' });
+      ok(await m.locator('[data-hyp]').count() === 3, 'הגילוי הבא: ההשערות מהמחברת');
+      await m.locator('[data-hyp] a').first().click();
+      await m.locator('.lab-from').waitFor();
+      ok(await m.locator('.lab-from').count() === 1, 'הגילוי הבא: השערה פותחת את המעבדה מהצומת שלה');
+      await ctx.close();
+    }
     ok(errors.length === 0, 'אין שגיאות JavaScript ' + errors.join(' | '));
   } finally {
     await b.close();
