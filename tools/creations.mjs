@@ -148,6 +148,82 @@ const topics = [];
   ], 'יישום בחשיבה'));
 }
 
+// ---- הנעלם: חדרים שנגזרים ממנגנוני הגילוי (data/mechanisms.json) ומהשאלות הפתוחות (data/open-questions.json) ----
+// המנגנון הוא פרשנות, והדוגמאות שלו הן גילויים וקשרים מאומתים. ציטוט חיצוני נכנס רק אחרי npm run verify:hidden.
+const MECH = Object.fromEntries(read('mechanisms.json').mechanisms.map((m) => [m.id, m]));
+const OPENQ = read('open-questions.json').questions.filter((q) => q.verified);
+const extQuote = (x, whoName) => { const e = x.evidence[0]; return { style: 'quote', quote: e.quoteHe, who: whoName, cite: `${x.source.title} · תרגום מהמקור` }; };
+const ext = (mid, xid) => { const x = MECH[mid].external.find((e) => e.id === xid); if (!x?.verified) throw new Error(`דוגמה חיצונית לא מאומתת: ${xid}`); return x; };
+
+// 9. הבנה: שבירת אקסיומה
+{
+  const M = MECH['axiom-break'], G = l('l-169'), P = l('l-145'), E = l('l-12');
+  const ga = d(G.fromId), ve = d(G.toId), pt = d(P.fromId), co = d(P.toId);
+  const [t, x] = split(E.explanation);
+  topics.push(T('axiom-break', 'הבנה', M.name, M.short, [
+    { style: 'insight', title: M.short, text: M.understanding },
+    { style: 'fromto', title: split(G.explanation)[0], fromLabel: `גלנוס, ${year(ga)}`, toLabel: `וסאליוס, ${year(ve)}`, from: ga.novelty || ga.contribution, to: ve.novelty || ve.contribution, text: G.application || split(G.explanation)[1] },
+    quoteOf(P.evidence[0], 'תלמי וקופרניקוס'),
+    { style: 'essay', title: 'שלוש הנחות שנשברו', text: M.understanding, ...image(ve.id), body: [`**${t}** ${x}`, `**${split(P.explanation)[0]}** ${split(P.explanation)[1]}`, `**${split(G.explanation)[0]}** ${split(G.explanation)[1]}`, `**איך מפעילים:** ${M.steps.join('. ')}.`] },
+    { style: 'haiku', lines: ['אלפיים שנה', 'מנסים להוכיח קו', 'עד שמוותרים'], text: 'מה ההייקו מאיר: **הוויתור** על הנחה, ולא ההוכחה שלה, פתח עולם חדש.' },
+    { style: 'post', title: M.name, text: [M.short, `${year(ga)}: ${plainStr(ga.title)}`, `${year(ve)}: ${plainStr(ve.title)}`, `${year(co)}: ${plainStr(co.title)}`, 'איזו הנחה אצלך עוד לא נבדקה?'].join('\n'), tags: ['עולם_נעלם', 'שבירת_אקסיומה', 'מנגנוני_גילוי'] },
+  ], 'מנגנון גילוי'));
+}
+
+// 10. ידע: המכשיר שפותח עולם
+{
+  const M = MECH.instrument, ga = d('d-1610-galileo-sidereus'), le = d('d-1676-leeuwenhoek-microbes'), ro = d('d-1895-rontgen-xrays'), eh = d('d-2019-eht-black-hole'), ko = d('d-1882-koch-tuberculosis');
+  const L = l('l-43');
+  topics.push(T('instrument', 'ידע', M.name, M.short, [
+    { style: 'poster', title: eh.title, text: eh.novelty, ...image(eh.id) },
+    { style: 'insight', title: M.short, text: M.understanding },
+    quoteOf(le.evidence[0], 'ואן לוונהוק, דלפט'),
+    { style: 'essay', title: 'ארבעה מכשירים, ארבעה עולמות', text: M.short, ...image(ga.id), body: [ga, le, ro, eh].map((x) => `**${year(x)}, ${where(x)}.** ${x.contribution}`) },
+    { style: 'gradient', title: 'מכשיר לא מספיק לבד', text: `**קוך** זיהה את חיידק השחפת ב-${year(ko)}, ${ko.yearFrom - le.yearFrom} שנה אחרי ש**לוונהוק** ראה חיידקים.` },
+    { style: 'haiku', lines: ['עדשה קטנה', 'טיפת מים מתמלאת', 'בחיות זעירות'], text: 'מה ההייקו מאיר: המכשיר **לא ממציא** עולם, הוא **מסיר את ההעלמה**.' },
+  ], 'מנגנון גילוי'));
+}
+
+// 11. הבנה: האדם כמכשיר גילוי
+{
+  const M = MECH['body-instrument'], al = d('d-1011-alhazen-optics'), ma = d('d-1425-masaccio-trinity'), ei = d('d-1905-einstein-special'), F = ext('body-instrument', 'x-fechner');
+  topics.push(T('body-instrument', 'הבנה', M.name, M.short, [
+    { style: 'veil', title: ma.title, text: ma.novelty, ...image(ma.id) },
+    { style: 'insight', title: M.short, text: M.understanding },
+    quoteOf(al.evidence[0], 'אבן אל-היית׳ם, קהיר'),
+    { style: 'fromto', title: 'מהעין אל הצופה', fromLabel: `אבן אל-היית׳ם, ${year(al)}`, toLabel: `איינשטיין, ${year(ei)}`, from: al.novelty, to: ei.novelty, text: 'בשני המקרים, ה**צופה** הפך לחלק מהחוק.' },
+    { style: 'gradient', title: `${F.title}, ${F.year}`, text: F.text },
+    { style: 'haiku', lines: ['עין אחת סגורה', 'הקיר נפתח לעומק', 'הצייר רואה'], text: 'מה ההייקו מאיר: **הפרספקטיבה** היא חוק של העין, לא רק של העולם.' },
+  ], 'מנגנון גילוי'));
+}
+
+// 12. הבנה: סתירות שחיות יחד
+{
+  const M = MECH.coexist, yo = d('d-1801-young-interference'), ne = d('d-1687-newton-principia'), B = l('l-206'), D = ext('coexist', 'x-duality');
+  const bi = d(B.fromId), gr = d(B.toId);
+  topics.push(T('coexist', 'הבנה', M.name, M.short, [
+    { style: 'gradient', title: M.short, text: M.understanding },
+    { style: 'fromto', title: split(B.explanation)[0], fromLabel: `בינה, ${year(bi)}`, toLabel: `גרדנר, ${year(gr)}`, from: bi.novelty || bi.contribution, to: gr.novelty || gr.contribution, text: B.application || split(B.explanation)[1] },
+    extQuote(D, 'על האור: גל וחלקיק'),
+    { style: 'poster', title: yo.title, text: yo.novelty, ...image(yo.id) },
+    { style: 'essay', title: 'באיזה תנאי כל צד נכון', text: M.short, body: [`**${year(ne)}.** ${ne.contribution}`, `**${year(yo)}.** ${yo.contribution}`, D.text, `**איך מפעילים:** ${M.steps.join('. ')}.`] },
+    { style: 'haiku', lines: ['גל על פני המים', 'חלקיק פוגע בלוח', 'אותו אור עצמו'], text: 'מה ההייקו מאיר: שתי תשובות יכולות להיות **נכונות יחד**, כל אחת בתנאי אחר.' },
+  ], 'מנגנון גילוי'));
+}
+
+// 13. יישום: הגילוי הבא
+{
+  const pick = ['o-riemann', 'o-dark-matter', 'o-hard-problem', 'o-abiogenesis', 'o-pyramid'].map((id) => OPENQ.find((q) => q.id === id)).filter(Boolean);
+  const R = pick[0];
+  topics.push(T('next-discovery', 'יישום', 'הגילוי הבא', 'רב הנסתר על הגלוי', [
+    { style: 'insight', title: 'רב הנסתר על הגלוי', text: `באטלס **${Object.keys(DISC).length}** גילויים מאומתים, ו**${OPENQ.length}** שאלות פתוחות מתועדות. כל אחת מחכה ל**מנגנון** שיפעיל אותה.` },
+    extQuote(R, 'על השערת רימן'),
+    { style: 'essay', title: 'חמש שאלות פתוחות', text: 'מה האנושות עוד לא יודעת, ואיזה מנגנון כדאי לנסות.', body: pick.map((q) => `**${q.question}** ${q.text} מנגנונים לנסות: ${q.mechanisms.map((m) => MECH[m].name).join(', ')}.`) },
+    { style: 'post', title: 'הגילוי הבא', text: [...pick.map((q) => q.question), 'במעבדת הנסתר: עולם_נעלם/הנעלם'].join('\n'), tags: ['עולם_נעלם', 'הגילוי_הבא', 'שאלות_פתוחות'] },
+    { style: 'haiku', lines: ['מפה חצי ריקה', 'החור בשכבה מדבר', 'שם מתחילים לחפור'], text: 'מה ההייקו מאיר: **החסר** במפה הוא נקודת הפתיחה של הגילוי הבא.' },
+  ], 'הגילוי הבא'));
+}
+
 // מאגר מקורות לכתבות ("יצירת כתבה"): גילויים וקשרים מאומתים, 10 לכל שלב.
 // ידע: גילוי אחד (חידוש, תרומה, ציטוט המקור). הבנה ויישום: קשר בין שני גילויים (ממה למה, ההסבר, מה עושים עם זה).
 // תמונה רק כשיש לה עותק מקומי עם רישיון (public/creations/img). בלי תמונה, הכתבה בנויה מטקסט בלבד.
