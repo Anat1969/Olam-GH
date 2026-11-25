@@ -77,7 +77,7 @@ export default function App() {
       {loginOpen && <LoginDialog onClose={() => setLoginOpen(false)} />}
       {draftOpen && cloud.admin && <DraftDialog onClose={() => setDraftOpen(false)} />}
       {cloud.editing && <div className="edit-banner" role="status">מצב עריכה: לחצי על דמות או על קשר, וערכי את הטקסט. כל שינוי נשמר עם היסטוריה.</div>}
-      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'search' ? <SearchPage params={params} /> : current === 'hidden' ? <Hidden params={params} /> : current === 'creations' ? <Creations /> : current === 'method' ? <Method /> : current === 'open' ? <Home /> : <Cover />}
+      {current === 'timeline' ? <TimelinePage params={params} /> : current === 'compare' ? <Compare params={params} /> : current === 'map' ? <MapPage params={params} /> : current === 'graph' ? <GraphPage params={params} /> : current === 'search' ? <SearchPage params={params} /> : current === 'hidden' ? <Hidden params={params} /> : current === 'creations' ? <Creations params={params} /> : current === 'method' ? <Method /> : current === 'open' ? <Home /> : <Cover />}
     </>
   );
 }
