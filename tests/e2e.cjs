@@ -8,6 +8,8 @@ const BASE = `http://localhost:${PORT}/`;
 const MENU = fs.readFileSync(path.join(__dirname, 'fixtures/ai-menu.js'), 'utf8');
 // הרכיב המשותף <app-creations>: עותק מקומי (או CREATIONS_JS), כי הסביבה לא מגיעה ל-github.io ול-vercel.app
 const CREATIONS_JS = process.env.CREATIONS_JS || path.join(__dirname, 'fixtures/creations.js');
+// הכריכה המשותפת <app-cover>: העותק המקומי שבחבילה (public/vendor), או COVER_JS
+const COVER_JS = process.env.COVER_JS || path.join(__dirname, '..', 'public', 'vendor', 'cover.js');
 const BRIDGE_JS = process.env.BRIDGE_JS || path.join(__dirname, 'fixtures/bridge.js');
 const fails = [];
 // ספירות צפויות נגזרות מהנתונים עצמם, כדי שהבדיקות לא יישברו כשנוסף תוכן מאומת
@@ -76,6 +78,7 @@ const mock = async (p) => {
   await p.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
   await p.route('**/fonts.googleapis.com/**', (r) => r.abort());
   await p.route('**/creations.js', (r) => r.fulfill({ path: CREATIONS_JS, contentType: 'application/javascript' }));
+  await p.route('**/cover.js', (r) => r.fulfill({ path: COVER_JS, contentType: 'application/javascript' }));
   await p.route('**/arc-and-bina.vercel.app/bridge.js', (r) => r.fulfill({ path: BRIDGE_JS, contentType: 'application/javascript' }));
 };
 
@@ -94,7 +97,23 @@ const mock = async (p) => {
     const loadMs = Date.now() - t0;
     ok(loadMs < 2000, `טעינה מתחת ל-2 שניות (${loadMs}ms)`);
     ok(await p.evaluate(() => document.documentElement.dir === 'rtl' && document.documentElement.lang === 'he'), 'עברית ו-RTL מוגדרים במפורש');
-    ok((await h1(p)).includes(`${N} גילויים`), `דף הבית: שורת התובנה עם המספר המרכזי (${N})`);
+    // הכריכה: דף הכניסה, שאליו מובילים הלוגו והשם. מסך אחד, הייקו, חזון, מטרה, פתיחה ושיתוף.
+    const cover = p.locator('app-cover');
+    await cover.locator('[data-cover]').waitFor({ timeout: 8000 });
+    ok(await cover.locator('[data-haiku] span').count() === 3, 'כריכה: הייקו בשלוש שורות');
+    ok(await cover.locator('[data-vision]').count() === 1 && await cover.locator('[data-goal]').count() === 1, 'כריכה: חזון ומטרה');
+    ok((await cover.locator('[data-goal]').innerText()).includes(String(N)), `כריכה: המטרה מחושבת מהנתונים (${N})`);
+    ok(await p.locator('app-cover .cover-art .ca-life').count() > 40, 'כריכה: מפת הביוגרפיה המונפשת, חיים של דמויות');
+    ok(await cover.locator('[data-share]').count() === 1, 'כריכה: כפתור שיתוף');
+    ok(await p.evaluate(() => document.documentElement.scrollHeight <= innerHeight + 2), 'כריכה: מסך אחד, בלי גלילה');
+    const t1 = await p.locator('.cover-art').evaluate((e) => getComputedStyle(e).getPropertyValue('--t'));
+    await p.waitForTimeout(700);
+    ok(t1 !== await p.locator('.cover-art').evaluate((e) => getComputedStyle(e).getPropertyValue('--t')), 'כריכה: גבול הידע זז');
+    await cover.locator('[data-open]').click();
+    await waitH1(p, 'גילויים');
+    ok(p.url().endsWith('#/open') && (await h1(p)).includes(`${N} גילויים`), `פתיחה: הכפתור מוביל לדף הפתיחה, עם המספר המרכזי (${N})`);
+    ok(await p.locator('.page-roles li').count() === 5, 'פתיחה: כל דף והתפקיד שלו');
+    ok(await p.locator('.tabs a').first().innerText() === 'פתיחה', 'פתיחה: לשונית ראשונה בסרגל');
     ok(await p.locator('ai-menu .logo').isVisible(), 'כפתור הלוגו A&I בסרגל העליון');
     ok(!(await p.locator('header >> text=העתקת קישור').first().isVisible().catch(() => false)), 'אין כפתורי פיתוח חופשיים בסרגל');
     ok(await p.locator('svg.stack .slab').count() === 4, 'דף הבית: 4 שכבות של משפחות ידע');
@@ -180,8 +199,8 @@ const mock = async (p) => {
     ok((await h1(p)).includes('בשנת 1850') && (await p.locator('.person-name').innerText()) === 'קורט גדל', 'קישור מועתק פותח את אותו מצב');
     ok((await p.locator('aside.person .rel').first().innerText()).includes('ערער על'), 'כיוון הקשר: גדל ערער על הילברט');
     await p.locator('.brand').click();
-    await waitH1(p, `${N} גילויים`);
-    ok((await h1(p)).includes(`${N} גילויים`), 'שם האפליקציה מוביל לבית');
+    await p.locator('app-cover [data-cover]').waitFor({ timeout: 5000 }).catch(() => {});
+    ok(await p.locator('app-cover [data-cover]').count() === 1, 'שם האפליקציה מוביל לכריכה');
 
     // שלב 2: השוואה בין תחומים
     await p.goto(BASE + '#/compare', { waitUntil: 'networkidle' });
@@ -526,7 +545,7 @@ const mock = async (p) => {
       const off = await b.newPage({ viewport: { width: 1280, height: 900 } });
       await off.route('**/appofapp-gh.vercel.app/**', (r) => r.fulfill({ status: 200, contentType: 'application/javascript', body: MENU }));
       await mockCloud(off, 'down');
-      await off.goto(BASE, { waitUntil: 'networkidle' });
+      await off.goto(BASE + '#/open', { waitUntil: 'networkidle' });
       ok((await off.locator('h1').innerText()).includes(`${N} גילויים`), 'בלי רשת לענן: האפליקציה עובדת מהנתונים שבחבילה');
       await off.close();
     }
@@ -594,7 +613,7 @@ const mock = async (p) => {
     await p.waitForTimeout(200);
     ok((await p.locator('.saved-list .saved-item').first().innerText()).includes('פיזיקה'), 'תצוגה שנשמרה בלי שם מקבלת שם מהמסננים');
     // גלובוס חום ליד ערי הידע
-    await p.goto(BASE, { waitUntil: 'networkidle' });
+    await p.goto(BASE + '#/open', { waitUntil: 'networkidle' });
     await p.locator('.heat-globe canvas').waitFor({ timeout: 5000 });
     ok((await p.locator('.hg-cap').innerText()).includes('ערים עד'), 'גלובוס חום ליד ערי הידע, עם סרגל זמן');
 
@@ -620,13 +639,13 @@ const mock = async (p) => {
       const m = await b.newPage({ viewport: vp, reducedMotion: 'reduce' });
       await mock(m);
       m.on('pageerror', (e) => errors.push(e.message));
-      for (const h of ['', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/timeline?d=religion&y=2025', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/graph', '#/graph?n=p-galileo&l=l-24', '#/search?q=%D7%A7%D7%99%D7%A8%D7%99', '#/method']) {
+      for (const h of ['', '#/open', '#/timeline', '#/timeline?d=mathematics&p=p-noether', '#/timeline?d=religion&y=2025', '#/compare', '#/compare?f=1500&t=1750&l=l-26', '#/map', '#/map?c=Paris&l=l-26', '#/graph', '#/graph?n=p-galileo&l=l-24', '#/search?q=%D7%A7%D7%99%D7%A8%D7%99', '#/method']) {
         await m.goto(BASE + h, { waitUntil: 'networkidle' });
         const hs = await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
         ok(!hs, `${vp.width}px ${h || 'בית'}: בלי גלילה אופקית בדף`);
         if (!h.startsWith('#/map')) { const ov = await overlaps(m); ok(ov.length === 0, `${vp.width}px ${h || 'בית'}: טקסט לא עולה על טקסט${ov.length ? ' — ' + ov.slice(0, 3).join(' | ') : ''}`); }
       }
-      await m.goto(BASE, { waitUntil: 'networkidle' });
+      await m.goto(BASE + '#/open', { waitUntil: 'networkidle' });
       const anim = await m.evaluate(() => getComputedStyle(document.querySelector('.rise')).animationName);
       ok(anim === 'none', `${vp.width}px: הפחתת תנועה מכובדת`);
       await m.close();

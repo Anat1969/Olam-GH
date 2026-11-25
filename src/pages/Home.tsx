@@ -42,6 +42,15 @@ function LayerStack({ hover, setHover }: { hover: string | null; setHover: (id: 
   );
 }
 
+// מערכת הדפים (תקן הכריכה, AppOfApp-GH/docs/cover-standard.md): כל סוג דף פונה אל כוח אחר באדם
+const PAGE_ROLES: { name: string; family: string; familyName: string; role: string; pages: [string, string][] }[] = [
+  { name: 'כריכה', family: 'regesh', familyName: 'רגש', role: 'מרגישים לפני שמבינים: תנועה, הייקו, חזון ומטרה.', pages: [['home', 'לכריכה']] },
+  { name: 'פתיחה', family: 'ruach', familyName: 'רוח', role: 'למה ואיך: השאלה, השיטה, והדרך בין הדפים. הדף הזה.', pages: [] },
+  { name: 'כלים', family: 'sechel', familyName: 'שכל', role: 'חוקרים ומבינים: כל כלי בדף משלו.', pages: [['timeline', 'ציר הזמן'], ['compare', 'השוואה'], ['map', 'מפה'], ['graph', 'גרף'], ['hidden', 'הנעלם']] },
+  { name: 'יצירות', family: 'yetzer', familyName: 'יצר', role: 'יוצרים ומשתפים החוצה: כתבת A4 לכל נושא.', pages: [['creations', 'יצירות']] },
+  { name: 'מקורות', family: '', familyName: 'אמון', role: 'איך זה נבדק: ציטוט מילולי לכל רשומה.', pages: [['method', 'מקורות']] },
+];
+
 // גלובוס החום נטען בעצלות: מפת היבשות לא נכנסת לחבילה של דף הבית
 const HeatGlobe = lazy(() => import('../components/HeatGlobe'));
 
@@ -95,6 +104,22 @@ export default function Home() {
           </div>
         ))}
       </div>
+
+      {/* מערכת הדפים: לכל דף תפקיד אחד ודרך אחת לפנות. ארבע משפחות הידע של האטלס הן גם ארבעה סוגי דפים. */}
+      <h2 className="section-title">כל דף והתפקיד שלו</h2>
+      <ol className="page-roles">
+        {PAGE_ROLES.map((r) => {
+          const fam = families.find((f) => f.id === r.family);
+          return (
+            <li key={r.name} style={{ ['--fam' as string]: fam?.color || 'var(--ink)' }}>
+              <span className="pr-fam">{fam?.nameHe || r.familyName}</span>
+              <strong className="pr-name">{r.name}</strong>
+              <span className="pr-role">{r.role}</span>
+              <span className="pr-links">{r.pages.map(([id, label]) => <a key={id} href={id === 'home' ? '#/' : href(id)}>{label}</a>)}</span>
+            </li>
+          );
+        })}
+      </ol>
 
       <h2 className="section-title">למה ציר אחד</h2>
       <div className="grid-3">

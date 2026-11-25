@@ -280,8 +280,7 @@ export default function MapPage({ params }: { params: Record<string, string> }) 
             </Suspense>
           )}
           <ul className="legend" aria-label="מקרא">
-          {activeDomains.map((d) => <li key={d.id}><DomainIcon id={d.id} />{d.nameHe}</li>)}
-            <li><DomainIcon id="mixed" />כמה תחומים</li>
+            <li><DomainIcon id="mixed" />עיר או דמות בכמה תחומים (אייקון כל תחום מופיע בבורר שמעל)</li>
             <li><span className="lg-sq lg-big" />גודל: מספר הגילויים בעיר</li>
             <li><span className="lg-sq lg-badge">3</span>מספר: סדר התחנה במסע</li>
             <li><span className="lg-sq lg-recent" />גילוי ב-<bdi className="num">30</bdi> השנים האחרונות</li>
