@@ -852,6 +852,52 @@ const mock = async (p) => {
         await ctx.close();
       }
     }
+    // ארבעה תוצרים: כתבה, מאמר, מסה ויצירה, 3 מכל סוג, עם מקורות מאומתים ומעבר בין הסוגים
+    {
+      const OUT = read('outputs.json').outputs;
+      const MECHX = read('mechanisms.json').mechanisms.flatMap((m) => m.external.filter((x) => x.verified).map((x) => x.id));
+      const ids = new Set([...DISC.map((d) => d.id), ...read('links.json').links.filter((l) => l.verified).map((l) => l.id), ...MECHX]);
+      const kinds = ['story', 'paper', 'essay', 'creation'];
+      ok(kinds.every((k) => OUT.filter((o) => o.kind === k).length >= 3), 'ארבעה תוצרים: 3 לפחות מכל סוג');
+      const badFact = OUT.flatMap((o) => o.blocks.filter((b) => b.level === 'fact' && !(b.refs || []).length).map(() => o.id));
+      ok(badFact.length === 0, `ארבעה תוצרים: אין עובדה בלי מקור ${badFact.join(' ')}`);
+      const badRef = OUT.flatMap((o) => o.blocks.flatMap((b) => (b.refs || []).filter((r) => !ids.has(r)).map((r) => `${o.id}:${r}`)));
+      ok(badRef.length === 0, `ארבעה תוצרים: כל מקור הוא גילוי, קשר או ציטוט חיצוני מאומת ${badRef.join(' ')}`);
+      ok(OUT.every((o) => !o.derivedFrom || OUT.some((x) => x.id === o.derivedFrom)), 'ארבעה תוצרים: כל "התפתח מ" מצביע על תוצר קיים');
+      ok(OUT.filter((o) => o.kind === 'creation').every((o) => o.blocks.some((b) => b.level === 'imagination')), 'ארבעה תוצרים: כל יצירה מסמנת את הדמיון שבה');
+      ok(OUT.filter((o) => o.kind === 'paper').every((o) => o.certainty), 'ארבעה תוצרים: לכל מאמר מד ודאות');
+      for (const vp of [{ width: 1280, height: 900 }, { width: 390, height: 844 }]) {
+        const ctx = await b.newContext({ viewport: vp });
+        const m = await ctx.newPage();
+        await mock(m);
+        m.on('pageerror', (e) => errors.push(e.message));
+        await m.goto(BASE + '#/creations?v=outputs', { waitUntil: 'networkidle' });
+        ok(await m.locator('[data-card]').count() === OUT.length, `ארבעה תוצרים (${vp.width}): ${OUT.length} כרטיסים בשלוש שרשראות`);
+        await m.locator('[data-card="o-story-delft"]').click();
+        await m.locator('[data-output="o-story-delft"]').waitFor();
+        ok(await m.locator('.genre-band').count() === 1, `ארבעה תוצרים (${vp.width}): פס סוגה בראש התוצר`);
+        ok(await m.locator('[data-output] [data-level="fact"] .ev-chip').count() > 0, `ארבעה תוצרים (${vp.width}): עובדות עם מקורות לחיצים`);
+        await m.locator('[data-child="o-paper-instrument"]').click();
+        await m.locator('[data-output="o-paper-instrument"]').waitFor();
+        ok(await m.locator('.certainty').count() === 1, `ארבעה תוצרים (${vp.width}): מעבר מכתבה למאמר, עם מד ודאות`);
+        const href = await m.locator('[data-transform]').getAttribute('href');
+        const q = decodeURIComponent(href.split('?q=')[1] || '');
+        ok(href.startsWith('https://claude.ai/new?q=') && q.includes('כתוב מסה') && q.includes('מתפתח מ'), `ארבעה תוצרים (${vp.width}): "להפוך למסה" עם הפרומפט הייעודי והתוצר הקודם`);
+        await m.locator('[data-kind="essay"]').click();
+        ok(await m.locator('[data-kind-def="essay"]').count() === 1 && await m.locator('[data-card]').count() === 3, `ארבעה תוצרים (${vp.width}): בחירת סוג מציגה תהליך, מבנה ומדדי איכות`);
+        const ov = await overlaps(m);
+        ok(!(await m.evaluate(() => document.documentElement.scrollWidth > window.innerWidth)) && ov.length === 0, `ארבעה תוצרים (${vp.width}): בלי גלישה ובלי טקסט על טקסט ${ov.slice(0, 2).join(' | ')}`);
+        await m.screenshot({ path: path.join(__dirname, 'shots', `outputs-${vp.width}.png`) }).catch(() => {});
+        await ctx.close();
+      }
+      const ctx = await b.newContext({ viewport: { width: 1280, height: 900 } });
+      const m = await ctx.newPage();
+      await mock(m);
+      await m.goto(BASE + '#/hidden?v=lab&m=transfer&t=physics', { waitUntil: 'networkidle' });
+      await m.locator('.lab-card').first().waitFor();
+      ok(await m.locator('.lab-card').first().locator('[data-write]').count() === 4, 'מעבדה: "לכתוב מזה" בארבעת סוגי התוצרים');
+      await ctx.close();
+    }
     ok(errors.length === 0, 'אין שגיאות JavaScript ' + errors.join(' | '));
   } finally {
     await b.close();

@@ -12,6 +12,7 @@ import { mechanisms, mechById, domName } from '../../hidden/model';
 import { addNote, chainOf, childrenOf, noteById, removeNote, stageOf, STAGES, updateNote, useNotebook, verdictName, type Note, type Verdict } from '../../hidden/notebook';
 import { buildPrompt, claudeUrl } from '../../hidden/prompt';
 import { Evidence, LevelTag } from './parts';
+import { KINDS, buildOutputPrompt } from '../../outputs/kinds';
 
 type P = Record<string, string>;
 const set = (params: P, patch: Record<string, string | undefined>) => replace('hidden', { ...params, v: 'lab', ...patch });
@@ -44,6 +45,12 @@ function CardView({ card, params, saved, chain }: { card: Card; params: P; saved
           {copied ? 'הפרומפט הועתק, ונפתח ב-Claude' : 'לבחון עם Claude'}
         </a>
       </div>
+      {/* לכתוב מזה: הכרטיס הופך לחומר של אחד מארבעת התוצרים, עם הראיות שלו */}
+      <p className="write-from"><span className="label">לכתוב מזה</span>
+        {KINDS.map((k) => (
+          <a key={k.id} className="press chip" data-write={k.id} href={claudeUrl(buildOutputPrompt(k.id, { text: `שאלה: ${card.question}\nהשערה (גילוי אפשרי, טרם נבדק): ${card.hypothesis}\nאיך בוחנים: ${card.test}`, evidence: card.evidence }))} target="_blank" rel="noreferrer">{k.name}</a>
+        ))}
+      </p>
     </article>
   );
 }
