@@ -25053,6 +25053,14 @@
         "city": {
           "nameHe": "בולוניה",
           "nameFull": "Bologna"
+        },
+        "wikidata": "Q1891",
+        "lat": 44.4939,
+        "lon": 11.3428,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
         }
       },
       "novelty": "**חשמל** מפעיל **שריר**, ולא רק ניצוץ באוויר.",
@@ -25068,8 +25076,8 @@
       "sources": [
         "s-wp-luigi-galvani"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26"
     },
     {
       "id": "d-1765-watt-condenser",
@@ -25095,6 +25103,14 @@
         "city": {
           "nameHe": "גלאזגו",
           "nameFull": "Glasgow"
+        },
+        "wikidata": "Q4093",
+        "lat": 55.8611,
+        "lon": -4.25,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
         }
       },
       "novelty": "**מקררים בתא נפרד**, ולא את הצילינדר עצמו.",
@@ -25110,8 +25126,15 @@
       "sources": [
         "s-wp-watt-steam-engine"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26",
+      "workImage": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Maquina_vapor_Watt_ETSIIM.jpg/500px-Maquina_vapor_Watt_ETSIIM.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Nicolás Pérez",
+        "page": "https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg",
+        "article": "Watt steam engine"
+      }
     },
     {
       "id": "d-1820-orsted-electromagnetism",
@@ -25137,6 +25160,14 @@
         "city": {
           "nameHe": "קופנהגן",
           "nameFull": "Copenhagen"
+        },
+        "wikidata": "Q1748",
+        "lat": 55.6761,
+        "lon": 12.5689,
+        "country": {
+          "wikidata": "Q35",
+          "nameHe": "דנמרק",
+          "nameFull": "Denmark"
         }
       },
       "novelty": "**חשמל** ו**מגנטיות** הם כוח אחד, ולא שני כוחות נפרדים.",
@@ -25152,8 +25183,8 @@
       "sources": [
         "s-wp-hans-christian-orsted"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26"
     }
   ]
 }

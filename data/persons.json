@@ -18318,10 +18318,38 @@
         "biology"
       ],
       "sources": [
-        "s-wp-luigi-galvani"
+        "s-wp-luigi-galvani",
+        "s-wd-q1589"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26",
+      "wikidata": "Q1589",
+      "nameHe": "לואיג'י גלווני",
+      "nameHeSource": "wikidata",
+      "nameFull": "Luigi Galvani",
+      "birthYear": 1737,
+      "birthDate": "1737-09-09",
+      "birthApprox": false,
+      "deathYear": 1798,
+      "deathDate": "1798-12-04",
+      "deathApprox": false,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q1891",
+        "nameHe": "בולוניה",
+        "nameFull": "Bologna",
+        "lat": 44.4939,
+        "lon": 11.3428,
+        "country": {
+          "wikidata": "Q38",
+          "nameHe": "איטליה",
+          "nameFull": "Italy"
+        }
+      },
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Luigi_Galvani%2C_oil-painting.jpg/500px-Luigi_Galvani%2C_oil-painting.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Unidentified painter",
+      "imagePage": "https://commons.wikimedia.org/wiki/File:Luigi_Galvani,_oil-painting.jpg"
     },
     {
       "id": "p-watt",
@@ -18330,10 +18358,38 @@
         "physics"
       ],
       "sources": [
-        "s-wp-james-watt"
+        "s-wp-james-watt",
+        "s-wd-q9041"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26",
+      "wikidata": "Q9041",
+      "nameHe": "ג'יימס ואט",
+      "nameHeSource": "wikidata",
+      "nameFull": "James Watt",
+      "birthYear": 1736,
+      "birthDate": "1736-01-19",
+      "birthApprox": false,
+      "deathYear": 1819,
+      "deathDate": "1819-08-25",
+      "deathApprox": false,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q217831",
+        "nameHe": "גרינוק",
+        "nameFull": "Greenock",
+        "lat": 55.95,
+        "lon": -4.7667,
+        "country": {
+          "wikidata": "Q145",
+          "nameHe": "הממלכה המאוחדת",
+          "nameFull": "United Kingdom"
+        }
+      },
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/James_Watt_by_Henry_Howard.jpg/500px-James_Watt_by_Henry_Howard.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Henry Howard",
+      "imagePage": "https://commons.wikimedia.org/wiki/File:James_Watt_by_Henry_Howard.jpg"
     },
     {
       "id": "p-orsted",
@@ -18342,10 +18398,38 @@
         "physics"
       ],
       "sources": [
-        "s-wp-hans-christian-orsted"
+        "s-wp-hans-christian-orsted",
+        "s-wd-q44412"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26",
+      "wikidata": "Q44412",
+      "nameHe": "הנס כריסטיאן ארסטד",
+      "nameHeSource": "wikidata",
+      "nameFull": "Hans Christian Ørsted",
+      "birthYear": 1777,
+      "birthDate": "1777-08-14",
+      "birthApprox": false,
+      "deathYear": 1851,
+      "deathDate": "1851-03-09",
+      "deathApprox": false,
+      "calendar": "gregorian",
+      "birthPlace": {
+        "wikidata": "Q731023",
+        "nameHe": "רודקובינג",
+        "nameFull": "Rudkøbing",
+        "lat": 54.938,
+        "lon": 10.716,
+        "country": {
+          "wikidata": "Q35",
+          "nameHe": "דנמרק",
+          "nameFull": "Denmark"
+        }
+      },
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/%C3%98rsted%2C_Hans_Christian_%28av_Christian_Albrecht_Jensen_1842%29.jpg/500px-%C3%98rsted%2C_Hans_Christian_%28av_Christian_Albrecht_Jensen_1842%29.jpg",
+      "imageLicense": "Public domain",
+      "imageCredit": "Christian Albrecht Jensen",
+      "imagePage": "https://commons.wikimedia.org/wiki/File:%C3%98rsted,_Hans_Christian_(av_Christian_Albrecht_Jensen_1842).jpg"
     }
   ]
 }

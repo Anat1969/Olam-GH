@@ -5019,8 +5019,8 @@
       "sources": [
         "s-wp-voltaic-pile"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26"
     },
     {
       "id": "l-232",
@@ -5045,8 +5045,8 @@
       "sources": [
         "s-wp-nicolas-le-onard-sadi-carnot"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26"
     },
     {
       "id": "l-233",
@@ -5066,8 +5066,8 @@
       "sources": [
         "s-wp-hans-christian-orsted"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26"
     },
     {
       "id": "l-234",
@@ -5092,8 +5092,8 @@
       "sources": [
         "s-wp-faraday-s-law-of-induction"
       ],
-      "verified": false,
-      "verifiedAt": null
+      "verified": true,
+      "verifiedAt": "2026-11-26"
     }
   ]
 }

@@ -482,6 +482,12 @@
       "accessedAt": "2026-11-01"
     },
     {
+      "id": "s-wd-q1589",
+      "title": "Luigi Galvani, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1589",
+      "accessedAt": "2026-11-26"
+    },
+    {
       "id": "s-wd-q159409",
       "title": "Louise Bourgeois, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q159409",
@@ -1706,6 +1712,12 @@
       "accessedAt": "2026-11-01"
     },
     {
+      "id": "s-wd-q44412",
+      "title": "Hans Christian Ørsted, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q44412",
+      "accessedAt": "2026-11-26"
+    },
+    {
       "id": "s-wd-q449037",
       "title": "Alvin Ailey, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q449037",
@@ -2574,6 +2586,12 @@
       "title": "Muḥammad ibn Musa al-Khwarizmi, Wikidata",
       "url": "https://www.wikidata.org/wiki/Q9038",
       "accessedAt": "2026-11-01"
+    },
+    {
+      "id": "s-wd-q9041",
+      "title": "James Watt, Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q9041",
+      "accessedAt": "2026-11-26"
     },
     {
       "id": "s-wd-q9047",
@@ -4706,6 +4724,12 @@
       "accessedAt": "2026-11-01"
     },
     {
+      "id": "s-wp-hans-christian-orsted",
+      "title": "Hans Christian Ørsted, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hans_Christian_Ørsted",
+      "accessedAt": "2026-11-26"
+    },
+    {
       "id": "s-wp-hard-problem-of-consciousness",
       "title": "Hard problem of consciousness, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
@@ -5088,6 +5112,12 @@
       "title": "James Watson, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/James_Watson",
       "accessedAt": "2026-11-01"
+    },
+    {
+      "id": "s-wp-james-watt",
+      "title": "James Watt, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Watt",
+      "accessedAt": "2026-11-26"
     },
     {
       "id": "s-wp-jan-van-eyck",
@@ -5676,6 +5706,12 @@
       "title": "Ludwig Wittgenstein, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Ludwig_Wittgenstein",
       "accessedAt": "2026-11-01"
+    },
+    {
+      "id": "s-wp-luigi-galvani",
+      "title": "Luigi Galvani, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luigi_Galvani",
+      "accessedAt": "2026-11-26"
     },
     {
       "id": "s-wp-lynn-margulis",
@@ -7550,6 +7586,12 @@
       "accessedAt": "2026-11-01"
     },
     {
+      "id": "s-wp-watt-steam-engine",
+      "title": "Watt steam engine, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+      "accessedAt": "2026-11-26"
+    },
+    {
       "id": "s-wp-wechsler-adult-intelligence-scale",
       "title": "Wechsler Adult Intelligence Scale, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Wechsler_Adult_Intelligence_Scale",
@@ -7740,30 +7782,6 @@
       "title": "Zombie (album), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Zombie_(album)",
       "accessedAt": "2026-11-01"
-    },
-    {
-      "id": "s-wp-luigi-galvani",
-      "title": "Luigi Galvani, Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Luigi_Galvani",
-      "accessedAt": "2026-11-26"
-    },
-    {
-      "id": "s-wp-watt-steam-engine",
-      "title": "Watt steam engine, Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Watt_steam_engine",
-      "accessedAt": "2026-11-26"
-    },
-    {
-      "id": "s-wp-james-watt",
-      "title": "James Watt, Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/James_Watt",
-      "accessedAt": "2026-11-26"
-    },
-    {
-      "id": "s-wp-hans-christian-orsted",
-      "title": "Hans Christian Ørsted, Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Hans_Christian_Ørsted",
-      "accessedAt": "2026-11-26"
     }
   ]
 }
