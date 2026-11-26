@@ -7740,6 +7740,30 @@
       "title": "Zombie (album), Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Zombie_(album)",
       "accessedAt": "2026-11-01"
+    },
+    {
+      "id": "s-wp-luigi-galvani",
+      "title": "Luigi Galvani, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Luigi_Galvani",
+      "accessedAt": "2026-11-26"
+    },
+    {
+      "id": "s-wp-watt-steam-engine",
+      "title": "Watt steam engine, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Watt_steam_engine",
+      "accessedAt": "2026-11-26"
+    },
+    {
+      "id": "s-wp-james-watt",
+      "title": "James Watt, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Watt",
+      "accessedAt": "2026-11-26"
+    },
+    {
+      "id": "s-wp-hans-christian-orsted",
+      "title": "Hans Christian Ørsted, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hans_Christian_Ørsted",
+      "accessedAt": "2026-11-26"
     }
   ]
 }

@@ -18310,6 +18310,42 @@
       "birthApprox": false,
       "deathApprox": false,
       "imagePage": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpg"
+    },
+    {
+      "id": "p-galvani",
+      "wikipedia": "Luigi Galvani",
+      "domains": [
+        "biology"
+      ],
+      "sources": [
+        "s-wp-luigi-galvani"
+      ],
+      "verified": false,
+      "verifiedAt": null
+    },
+    {
+      "id": "p-watt",
+      "wikipedia": "James Watt",
+      "domains": [
+        "physics"
+      ],
+      "sources": [
+        "s-wp-james-watt"
+      ],
+      "verified": false,
+      "verifiedAt": null
+    },
+    {
+      "id": "p-orsted",
+      "wikipedia": "Hans Christian Ørsted",
+      "domains": [
+        "physics"
+      ],
+      "sources": [
+        "s-wp-hans-christian-orsted"
+      ],
+      "verified": false,
+      "verifiedAt": null
     }
   ]
 }

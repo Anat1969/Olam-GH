@@ -5000,6 +5000,100 @@
       ],
       "verified": true,
       "verifiedAt": "2026-11-01"
+    },
+    {
+      "id": "l-231",
+      "fromId": "d-1791-galvani-animal-electricity",
+      "toId": "d-1800-volta-pile",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==הסוללה נולדה מוויכוח.== **וולטה** לא קיבל את \"החשמל של בעלי החיים\" של **גלווני**, והראה שהחשמל בא משתי **מתכות**.",
+      "application": "מחלוקת חריפה יכולה להיות מנוע: כדי להפריך, **וולטה** בנה מכשיר חדש.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-voltaic-pile",
+          "quote": "Volta's invention was built on Luigi Galvani's 1780s discovery that a circuit of two metals and a frog's leg can cause the frog's leg to respond.",
+          "quoteHe": "ההמצאה של וולטה נשענה על גילויו של לואיג׳י גלווני משנות ה-80 של המאה ה-18, שמעגל של שתי מתכות ורגל צפרדע יכול לגרום לרגל להגיב."
+        }
+      ],
+      "sources": [
+        "s-wp-voltaic-pile"
+      ],
+      "verified": false,
+      "verifiedAt": null
+    },
+    {
+      "id": "l-232",
+      "fromId": "d-1765-watt-condenser",
+      "toId": "d-1824-carnot-reflections",
+      "type": "influenced",
+      "confidence": "interpretive",
+      "explanation": "==קרנו שאל עד כמה אפשר לשפר את המנוע של ואט.== **ואט** הפך את **מכונת הקיטור** לשימושית, ו**קרנו** חיפש את הגבול של כל מנוע חום.",
+      "application": "אחרי שיפור מעשי גדול, שואלים מה **הגבול העקרוני**. השאלה הזו מולידה תאוריה.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-nicolas-le-onard-sadi-carnot",
+          "quote": "Some 50 years after that, James Watt made his celebrated improvements, which were responsible for greatly increasing the usefulness of steam engines.",
+          "quoteHe": "כחמישים שנה אחר כך עשה ג׳יימס ואט את שיפוריו המפורסמים, שהגדילו מאוד את התועלת של מכונות הקיטור."
+        },
+        {
+          "sourceId": "s-wp-nicolas-le-onard-sadi-carnot",
+          "quote": "Carnot became interested in understanding the limits to improving the performance of steam engines, which led him to the investigations that became his Reflections on the Motive Power of Fire, published at his own expense in June 1824.",
+          "quoteHe": "קרנו התעניין בהבנת הגבולות של שיפור ביצועי מכונות הקיטור, וזה הוביל אותו למחקר שהפך ל״הרהורים על הכוח המניע של האש״, שפרסם על חשבונו ביוני 1824."
+        }
+      ],
+      "sources": [
+        "s-wp-nicolas-le-onard-sadi-carnot"
+      ],
+      "verified": false,
+      "verifiedAt": null
+    },
+    {
+      "id": "l-233",
+      "fromId": "d-1800-volta-pile",
+      "toId": "d-1820-orsted-electromagnetism",
+      "type": "enabled",
+      "confidence": "documented",
+      "explanation": "==הסוללה נתנה זרם, והזרם הזיז מצפן.== **הסוללה של וולטה** הביאה את **ארסטד** לחקור חשמל, ובלי זרם רציף לא היה מה להזיז את המחט.",
+      "application": "מקור אנרגיה חדש מזמין שאלות חדשות. מי שמחזיק אותו ראשון, רואה ראשון.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hans-christian-orsted",
+          "quote": "In 1800, Alessandro Volta reported his invention of the voltaic pile, which inspired Ørsted to investigate the nature of electricity and to conduct his first electrical experiments.",
+          "quoteHe": "ב-1800 דיווח אלסנדרו וולטה על המצאת הערמה הוולטאית, שעוררה את ארסטד לחקור את טבע החשמל ולערוך את ניסויי החשמל הראשונים שלו."
+        }
+      ],
+      "sources": [
+        "s-wp-hans-christian-orsted"
+      ],
+      "verified": false,
+      "verifiedAt": null
+    },
+    {
+      "id": "l-234",
+      "fromId": "d-1820-orsted-electromagnetism",
+      "toId": "d-1831-faraday-induction",
+      "type": "influenced",
+      "confidence": "documented",
+      "explanation": "==אם זרם יוצר מגנטיות, אולי מגנטיות יוצרת זרם.== **ארסטד** הראה כיוון אחד, ו**פאראדיי** מצא את ההפוך.",
+      "application": "כשמגלים קשר בכיוון אחד, בודקים את **הכיוון ההפוך**.",
+      "evidence": [
+        {
+          "sourceId": "s-wp-faraday-s-law-of-induction",
+          "quote": "In 1820, Hans Christian Ørsted demonstrated that an electric current produces a magnetic field, showing that a compass needle could be deflected by a nearby current-carrying wire.",
+          "quoteHe": "ב-1820 הראה הנס כריסטיאן ארסטד שזרם חשמלי יוצר שדה מגנטי, כשמחט מצפן סטתה ליד חוט נושא זרם."
+        },
+        {
+          "sourceId": "s-wp-faraday-s-law-of-induction",
+          "quote": "This discovery prompted scientists to ask whether the reverse was also true—whether a magnetic field could generate an electric current.",
+          "quoteHe": "הגילוי הזה הוביל מדענים לשאול אם גם ההפך נכון: האם שדה מגנטי יכול ליצור זרם חשמלי."
+        }
+      ],
+      "sources": [
+        "s-wp-faraday-s-law-of-induction"
+      ],
+      "verified": false,
+      "verifiedAt": null
     }
   ]
 }

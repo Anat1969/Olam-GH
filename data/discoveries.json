@@ -25028,6 +25028,132 @@
       ],
       "verified": true,
       "verifiedAt": "2026-11-01"
+    },
+    {
+      "id": "d-1791-galvani-animal-electricity",
+      "title": "חשמל של בעלי חיים: רגל צפרדע שמתכווצת",
+      "yearFrom": 1791,
+      "yearTo": 1791,
+      "yearApprox": false,
+      "domainId": "biology",
+      "sub": "neuroscience",
+      "personIds": [
+        "p-galvani"
+      ],
+      "place": {
+        "wikipedia": "Bologna",
+        "nameHe": "בולוניה",
+        "nameFull": "Bologna",
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-luigi-galvani",
+          "quote": "In 1766, Galvani was appointed curator of the anatomical museum by the senate of Bologna.",
+          "quoteHe": "ב-1766 מונה גלווני לאוצר המוזיאון האנטומי על ידי הסנאט של בולוניה."
+        },
+        "city": {
+          "nameHe": "בולוניה",
+          "nameFull": "Bologna"
+        }
+      },
+      "novelty": "**חשמל** מפעיל **שריר**, ולא רק ניצוץ באוויר.",
+      "contribution": "**גלווני** הראה ששרירי רגל של **צפרדע** מתכווצים במגע של **מתכות** וחשמל. הוויכוח שלו עם **וולטה** הוליד את הסוללה ואת חקר החשמל בגוף.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-luigi-galvani",
+          "quote": "The publication in 1791 of Galvani's main work (De Viribus Electricitatis in Motu Musculari Commentarius), summarizing and discussing more than 10 years of research on the effect of electricity on animal preparations, had an enormous impact on the scientific community and sparked heated controversy in Europe.",
+          "quoteHe": "פרסום חיבורו העיקרי של גלווני ב-1791 (על כוחות החשמל בתנועת השריר), שסיכם ודן ביותר מעשר שנות מחקר על השפעת החשמל על תכשירים מבעלי חיים, השפיע השפעה עצומה על הקהילה המדעית ועורר מחלוקת סוערת באירופה."
+        }
+      ],
+      "sources": [
+        "s-wp-luigi-galvani"
+      ],
+      "verified": false,
+      "verifiedAt": null
+    },
+    {
+      "id": "d-1765-watt-condenser",
+      "title": "המעבה הנפרד: מכונת הקיטור של ואט",
+      "yearFrom": 1765,
+      "yearTo": 1765,
+      "yearApprox": false,
+      "domainId": "physics",
+      "sub": "thermodynamics",
+      "personIds": [
+        "p-watt"
+      ],
+      "place": {
+        "wikipedia": "Glasgow",
+        "nameHe": "גלאזגו",
+        "nameFull": "Glasgow",
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-watt-steam-engine",
+          "quote": "In 1763, James Watt was working as instrument maker at the University of Glasgow when he was assigned the job of repairing a model Newcomen engine and noted how inefficient it was.",
+          "quoteHe": "ב-1763 עבד ג'יימס ואט כבונה מכשירים באוניברסיטת גלאזגו, כשהוטל עליו לתקן דגם של מנוע ניוקומן, והבחין כמה הוא בזבזני."
+        },
+        "city": {
+          "nameHe": "גלאזגו",
+          "nameFull": "Glasgow"
+        }
+      },
+      "novelty": "**מקררים בתא נפרד**, ולא את הצילינדר עצמו.",
+      "contribution": "**ואט** הוציא את הקירור מהצילינדר אל **מעבה נפרד**, וכך מכונת הקיטור הפסיקה לבזבז את רוב החום שלה. זה המנוע שהניע את המהפכה התעשייתית.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-watt-steam-engine",
+          "quote": "In 1765, Watt conceived the idea of equipping the engine with a separate condensation chamber, which he called a \"condenser\".",
+          "quoteHe": "ב-1765 הגה ואט את הרעיון לצייד את המנוע בתא עיבוי נפרד, שאותו כינה \"מעבה\"."
+        }
+      ],
+      "sources": [
+        "s-wp-watt-steam-engine"
+      ],
+      "verified": false,
+      "verifiedAt": null
+    },
+    {
+      "id": "d-1820-orsted-electromagnetism",
+      "title": "אלקטרומגנטיות: זרם שמסיט מצפן",
+      "yearFrom": 1820,
+      "yearTo": 1820,
+      "yearApprox": false,
+      "domainId": "physics",
+      "sub": "electromagnetism",
+      "personIds": [
+        "p-orsted"
+      ],
+      "place": {
+        "wikipedia": "Copenhagen",
+        "nameHe": "קופנהגן",
+        "nameFull": "Copenhagen",
+        "confidence": "documented",
+        "evidence": {
+          "sourceId": "s-wp-hans-christian-orsted",
+          "quote": "He became a professor at the University of Copenhagen in 1806 and continued research on electric currents and acoustics.",
+          "quoteHe": "ב-1806 נעשה פרופסור באוניברסיטת קופנהגן, והמשיך לחקור זרמים חשמליים ואקוסטיקה."
+        },
+        "city": {
+          "nameHe": "קופנהגן",
+          "nameFull": "Copenhagen"
+        }
+      },
+      "novelty": "**חשמל** ו**מגנטיות** הם כוח אחד, ולא שני כוחות נפרדים.",
+      "contribution": "**ארסטד** ראה **מחט מצפן** זזה ליד חוט שעובר בו זרם. מכאן התחילו פאראדיי ומקסוול, וכל המנועים החשמליים.",
+      "confidence": "documented",
+      "evidence": [
+        {
+          "sourceId": "s-wp-hans-christian-orsted",
+          "quote": "In 1820, Ørsted published his discovery that a compass needle was deflected from magnetic north by a nearby electric current, confirming a direct relationship between electricity and magnetism.",
+          "quoteHe": "ב-1820 פרסם ארסטד את גילויו שמחט מצפן סוטה מהצפון המגנטי בגלל זרם חשמלי סמוך, וכך אישר קשר ישיר בין חשמל למגנטיות."
+        }
+      ],
+      "sources": [
+        "s-wp-hans-christian-orsted"
+      ],
+      "verified": false,
+      "verifiedAt": null
     }
   ]
 }
